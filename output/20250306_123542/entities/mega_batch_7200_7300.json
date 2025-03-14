@@ -1,0 +1,457 @@
+[
+  {
+    "id": "a8fa9a1d-9925-4596-bd2f-452cb0ac6c67",
+    "name": "чат g пять",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "442dcc40-725a-45fc-887e-e5896b2f0368",
+      "start": 41,
+      "end": 50,
+      "text": "чат g пять"
+    }
+  },
+  {
+    "id": "b714259e-2792-4a3f-906a-0c538faa19d2",
+    "name": "в прошлом году",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20aaa66a-c2a2-4e68-927f-2332d09308d2",
+      "start": 16,
+      "end": 29,
+      "text": "в прошлом году"
+    }
+  },
+  {
+    "id": "00e36ee9-12da-48cc-a17a-810a10e34fd7",
+    "name": "интернет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "656d8d04-c397-4c00-b9aa-8fd117ee9e75",
+      "start": 36,
+      "end": 45,
+      "text": "в интернете"
+    }
+  },
+  {
+    "id": "4beacb17-0ee9-4863-a4f7-2cfa543b32e2",
+    "name": "новости",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "656d8d04-c397-4c00-b9aa-8fd117ee9e75",
+      "start": 71,
+      "end": 78,
+      "text": "новости"
+    }
+  },
+  {
+    "id": "1b1e1493-c678-4de0-a4c0-0f50d6eb3a05",
+    "name": "испуг перед чем- то новым",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2a047a5-35f0-4d3f-8741-555e6e00dc18",
+      "start": 15,
+      "end": 40,
+      "text": "какой- то испуг перед чем- то новым"
+    }
+  },
+  {
+    "id": "c5c684a1-a2ee-4701-bade-7504902a99f6",
+    "name": "новая технология",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "854d9a21-ae56-48d7-b47d-c26c4ebd629a",
+      "start": 23,
+      "end": 39,
+      "text": "новая технология"
+    }
+  },
+  {
+    "id": "34cb7c0d-206b-4b09-ae2f-3cdfe4b03f28",
+    "name": "страх перед новым",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbeab5b2-49f5-4fbd-95f4-8174a47069f3",
+      "start": 34,
+      "end": 51,
+      "text": "страх перед новым"
+    }
+  },
+  {
+    "id": "cca9f73e-d75b-4c59-9000-1c2b80dd176e",
+    "name": "относительном будущем",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbeab5b2-49f5-4fbd-95f4-8174a47069f3",
+      "start": 69,
+      "end": 90,
+      "text": "в относительном будущем"
+    }
+  },
+  {
+    "id": "3933e3d7-1667-46e4-ac67-167511ef13ac",
+    "name": "будущее",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fcf303e7-155e-4bd9-be4b-819d09634bef",
+      "start": 16,
+      "end": 23,
+      "text": "будущем"
+    }
+  },
+  {
+    "id": "33e0a835-9dce-4185-991b-7a1645873662",
+    "name": "новые технологии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d85c3763-ca3f-439b-9180-7837269383b6",
+      "start": 86,
+      "end": 102,
+      "text": "новые технологии"
+    }
+  },
+  {
+    "id": "e26d6a2c-290e-47a7-9274-a8d03fc81a86",
+    "name": "удобство",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "60ed40e2-1fae-4681-a45b-23c2de4a5806",
+      "start": 34,
+      "end": 42,
+      "text": "удобство"
+    }
+  },
+  {
+    "id": "7f347a69-81ed-45c9-8739-1a409dc5b5be",
+    "name": "чата g пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81884bc3-64e3-4836-8725-a2cf559aae67",
+      "start": 31,
+      "end": 41,
+      "text": "чата g пяти"
+    }
+  },
+  {
+    "id": "d451f794-581a-429b-b9ff-20405a70e706",
+    "name": "чат джи- би- ти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a3a698d-038e-4ab8-89e5-b4af38ec7a0f",
+      "start": 21,
+      "end": 35,
+      "text": "чат джи- би- ти"
+    }
+  },
+  {
+    "id": "568de01a-7432-4ff8-b22f-dc200abe9e1b",
+    "name": "приложение с музыкой",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a3a698d-038e-4ab8-89e5-b4af38ec7a0f",
+      "start": 48,
+      "end": 68,
+      "text": "приложение с музыкой"
+    }
+  },
+  {
+    "id": "2473c20d-872e-4176-b3c0-ebac1370116e",
+    "name": "песни",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a3a698d-038e-4ab8-89e5-b4af38ec7a0f",
+      "start": 95,
+      "end": 100,
+      "text": "песни"
+    }
+  },
+  {
+    "id": "d96bca41-bfda-4d11-9a15-8c6549871759",
+    "name": "сона",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cccda877-d737-4a1f-9780-6bfc5ec0b69c",
+      "start": 0,
+      "end": 4,
+      "text": "сона"
+    }
+  },
+  {
+    "id": "9a029786-9be4-45d2-96f7-f47c9f790cb2",
+    "name": "чат же пути",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0c0d196-9a95-4548-bde3-1fedbe63c4d2",
+      "start": 26,
+      "end": 37,
+      "text": "чат же пути"
+    }
+  },
+  {
+    "id": "9f2b9407-13b8-4ab5-9412-90c2895b6fc3",
+    "name": "суну",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "purpose",
+        "value": "музыка",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0c0d196-9a95-4548-bde3-1fedbe63c4d2",
+      "start": 38,
+      "end": 42,
+      "text": "суну"
+    }
+  },
+  {
+    "id": "dde96fd9-0fac-4b20-82a2-2124b40f2fdb",
+    "name": "генерация картины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0c0d196-9a95-4548-bde3-1fedbe63c4d2",
+      "start": 57,
+      "end": 74,
+      "text": "генерация картины"
+    }
+  },
+  {
+    "id": "966c0da8-9db1-48b8-800e-d6451f43c966",
+    "name": "гугловская сеть",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7318b580-495e-4c4a-afb0-2a78b13d4018",
+      "start": 6,
+      "end": 21,
+      "text": "гугловская сеть"
+    }
+  },
+  {
+    "id": "8552e8e0-56bb-4fdf-9f18-8470064bc132",
+    "name": "джеминайа",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7318b580-495e-4c4a-afb0-2a78b13d4018",
+      "start": 34,
+      "end": 43,
+      "text": "джеминайа"
+    }
+  },
+  {
+    "id": "b8f51561-12ae-4064-8356-8c04ef079898",
+    "name": "алису",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e3ba219d-2c14-45e4-b4b1-986b5684301f",
+      "start": 16,
+      "end": 21,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "5527c417-6936-4c47-ba7d-cd6c9e5f7256",
+    "name": "сбера",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4aea5f8-7267-445d-9fe3-aaa59f2ab1f2",
+      "start": 9,
+      "end": 14,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "24987ed6-1b06-4aeb-9cc5-2353a897d587",
+    "name": "кига чад",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4aea5f8-7267-445d-9fe3-aaa59f2ab1f2",
+      "start": 41,
+      "end": 49,
+      "text": "кига чад"
+    }
+  },
+  {
+    "id": "8d421374-87af-4bbe-8e35-8b18e0d29f2e",
+    "name": "твиттер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d32aa38-51b3-4776-ad86-c9401cfc44e5",
+      "start": 8,
+      "end": 15,
+      "text": "твиттере"
+    }
+  },
+  {
+    "id": "9c30d816-7017-4e3c-a241-6a16e55bcb2f",
+    "name": "игрок",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d32aa38-51b3-4776-ad86-c9401cfc44e5",
+      "start": 26,
+      "end": 31,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "ceee1123-5a3e-4882-9b88-ed363787d0b8",
+    "name": "дипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a31def05-7c30-4742-b12f-0052a21601ce",
+      "start": 76,
+      "end": 82,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "44b1fc0d-78dd-413e-b84b-61443e43335d",
+    "name": "чат",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6120d55e-1b8b-480e-b99b-34474a34048b",
+      "start": 86,
+      "end": 89,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "6b56a25a-c3b5-4460-b1bb-8207d1aa3a1c",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6120d55e-1b8b-480e-b99b-34474a34048b",
+      "start": 112,
+      "end": 118,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "7ee7f080-15cb-4386-8018-ea54fecf9e9d",
+    "name": "g пять",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef817b0e-200e-46a8-9d35-bb27fe803f06",
+      "start": 24,
+      "end": 30,
+      "text": "g пять"
+    }
+  },
+  {
+    "id": "35bf6d3d-ac98-4156-993a-d649d3379aa8",
+    "name": "отдела технического контроля",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce1dfab0-2add-4cf8-87a2-42f6f2ee9ca7",
+      "start": 30,
+      "end": 58,
+      "text": "отдела технического контроля"
+    }
+  },
+  {
+    "id": "d8e28e19-6147-483c-b79a-044bb5e6b0a5",
+    "name": "елене",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e57530b2-1ebb-4342-b9ed-d5dcef824ff6",
+      "start": 13,
+      "end": 18,
+      "text": "елене"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Yandex Ecosystem Dominance",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Yandex is the central organization, with many services and features connected to it.",
+    "examples": [
+      {
+        "text": "поиск → Яндекс",
+        "explanation": "The search service uses Yandex."
+      },
+      {
+        "text": "Яндекс Музыка → Яндекс",
+        "explanation": "Yandex Music uses Yandex."
+      },
+      {
+        "text": "Яндекс Пэй → Яндекс",
+        "explanation": "Yandex Pay uses Yandex."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern highlights Yandex's role as the core entity, suggesting a platform or ecosystem strategy where various services are integrated under the Yandex brand."
+  },
+  {
+    "name": "Neuro-Centric Functionality",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The 'нейро' (neuro) entity is connected to various aspects, indicating its broad application and importance.",
+    "examples": [
+      {
+        "text": "нейро → поиск",
+        "explanation": "'Neuro' is part of the search functionality."
+      },
+      {
+        "text": "нейро → сокращает время для выяснения ответа по вопросу",
+        "explanation": "'Neuro' provides the benefit of reducing time to find answers."
+      },
+      {
+        "text": "нейро → рецепт блинов",
+        "explanation": "'Neuro' can be exemplified by a pancake recipe."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern suggests that 'neuro' (likely referring to AI or neural network capabilities) is a key feature that permeates multiple services and provides diverse benefits, from search to practical applications like recipes."
+  },
+  {
+    "name": "Technology Comparison",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "A direct comparison is made between two technologies, highlighting a relationship of equivalence or differentiation.",
+    "examples": [
+      {
+        "text": "нейросеть → ГПТ",
+        "explanation": "Neural network is compared with GPT."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern indicates an awareness of the technological landscape and positions 'нейросеть' (neural network) in relation to 'ГПТ' (likely referring to Generative Pre-trained Transformer models).  This could imply a benchmark, a competitive analysis, or a statement of technological similarity/difference."
+  },
+  {
+    "name": "Browser Competition",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "The knowledge graph explicitly identifies a competitive relationship between two browser products.",
+    "examples": [
+      {
+        "text": "браузер → хром",
+        "explanation": "Browser is a competitor of Chrome."
+      },
+      {
+        "text": "хром → браузер",
+        "explanation": "Chrome is a competitor of Browser."
+      }
+    ],
+    "confidence": 1.0,
+    "significance": "This highlights a direct competitive relationship in the browser market. It's significant because it reveals a market dynamic within the knowledge graph."
+  },
+  {
+    "name": "University and Neural Network Collaboration",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "A relationship exists between a university and neural network technology, suggesting collaboration or support.",
+    "examples": [
+      {
+        "text": "нейросеть → университет",
+        "explanation": "Neural network helps the university."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This indicates a potential partnership or application of neural network technology within an academic setting. This could represent research collaboration, educational tools, or administrative support."
+  }
+]

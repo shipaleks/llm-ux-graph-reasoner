@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#ffe119", "id": "9ab26d29-36cb-496f-8aa2-cfb710d8d304", "label": "\u042f\u043d\u0434\u0435\u043a\u0441", "shape": "dot", "size": 29.9, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#e6194B", "id": "40371c81-9c8f-4361-b43d-c8cb39e5bcf7", "label": "\u043d\u0435\u0439\u0440\u043e", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#f58231", "id": "5e422483-2f92-4def-be38-13526152d6a4", "label": "\u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0430", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0430\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#f58231", "id": "4111698c-77db-4ab5-a5d8-f49e0a942dce", "label": "\u042f\u043d\u0434\u0435\u043a\u0441 \u041f\u044d\u0439", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441 \u041f\u044d\u0439\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#f58231", "id": "2361e37b-ea6f-4d63-809e-cc2a15c60e17", "label": "\u0410\u043b\u0438\u0441\u0430", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u0410\u043b\u0438\u0441\u0430\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#e6194B", "id": "262904c2-a664-411b-bd81-87e7bfd3d82e", "label": "\u0440\u0435\u0446\u0435\u043f\u0442 \u0431\u043b\u0438\u043d\u043e\u0432", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0440\u0435\u0446\u0435\u043f\u0442 \u0431\u043b\u0438\u043d\u043e\u0432\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#ffe119", "id": "67e7d7d3-75bb-4d3a-864b-90a1f197f7e5", "label": "\u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#e6194B", "id": "2316f511-6364-4539-9d44-63c0e8c20307", "label": "\u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u043e\u0431\u043b\u043e\u0436\u0435\u043d\u0438\u044f", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u043e\u0431\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#ffe119", "id": "21131012-cbe1-419e-b267-c55932c91f02", "label": "\u043e\u0442\u0442\u0435\u0445", "shape": "dot", "size": 27.0, "title": "\u003cb\u003e\u043e\u0442\u0442\u0435\u0445\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.70\u003cbr\u003e"}, {"color": "#e6194B", "id": "ff77ce56-e5ba-4eb3-b210-a60e9d1ef396", "label": "\u043f\u043e\u0438\u0441\u043a", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u043f\u043e\u0438\u0441\u043a\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#3cb44b", "id": "8f4d6a44-8d88-456b-81d6-290c889f8f07", "label": "\u043f\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u043e\u043c", "shape": "dot", "size": 27.0, "title": "\u003cb\u003e\u043f\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u043e\u043c\u003c/b\u003e (date)\u003cbr\u003eConfidence: 0.70\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- year: 2015\u003cbr\u003e"}, {"color": "#911eb4", "id": "78aa16e8-2f3d-4dda-9148-6458e3b62057", "label": "\u0431\u0440\u0430\u0443\u0437\u0435\u0440", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0431\u0440\u0430\u0443\u0437\u0435\u0440\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "17fab9aa-7064-45ce-9322-da710626f6ba", "label": "\u0445\u0440\u043e\u043c", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u0445\u0440\u043e\u043c\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#e6194B", "id": "28b6115f-8ff8-4a1b-b30c-43b3fd7646a8", "label": "\u043d\u0435\u0439\u0440", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#e6194B", "id": "6ba06028-1c35-459b-9112-5b9d0331a0b5", "label": "\u0440\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438", "shape": "dot", "size": 29.200000000000003, "title": "\u003cb\u003e\u0440\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.92\u003cbr\u003e"}, {"color": "#e6194B", "id": "22c2ca01-6809-4cca-9d42-2f3bdd5ab69d", "label": "\u0440\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b", "shape": "dot", "size": 29.200000000000003, "title": "\u003cb\u003e\u0440\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.92\u003cbr\u003e"}, {"color": "#e6194B", "id": "e4054c71-9ca7-4b71-91a2-eedc188e9ec3", "label": "\u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u043e\u0442\u0432\u0435\u0442", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u043e\u0442\u0432\u0435\u0442\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#4363d8", "id": "bd1f8790-822b-4010-b520-90aa11716b56", "label": "\u0430\u043b\u0435\u043a\u0441\u0435\u0439", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u0430\u043b\u0435\u043a\u0441\u0435\u0439\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#e6194B", "id": "7186a40d-b09e-414d-92d5-8f55b3c0ad52", "label": "\u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u043e\u0442\u0432\u0435\u0442\u0430", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u043e\u0442\u0432\u0435\u0442\u0430\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#e6194B", "id": "ce583178-55c3-421e-8346-1c6d65158f3b", "label": "\u043d\u0435\u0439\u0440\u0430", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u0430\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#e6194B", "id": "b3881879-1f9f-4ea3-bca5-7de34e71fecb", "label": "\u0431\u044b\u0441\u0442\u0440\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0431\u044b\u0441\u0442\u0440\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#4363d8", "id": "578228db-1ebc-43bb-9801-f764b37b0b0e", "label": "\u0430\u043b\u0438\u0441\u043e\u0439", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0430\u043b\u0438\u0441\u043e\u0439\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#4363d8", "id": "38814c5b-9ed0-4ff8-8b6d-ccb04d15c544", "label": "\u043d\u043e\u0432\u043e\u0439 \u0430\u043b\u0438\u0441\u043e\u0439", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043d\u043e\u0432\u043e\u0439 \u0430\u043b\u0438\u0441\u043e\u0439\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#4363d8", "id": "3f74fcee-edf2-4109-8017-8311be23e7e0", "label": "\u0430\u043b\u0438\u0441\u044b", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u0430\u043b\u0438\u0441\u044b\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#f58231", "id": "c568bd3a-3d94-4cc3-8b16-4f9d84f1e954", "label": "\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u043f\u0442", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u043f\u0442\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "b4bfc104-9472-4310-9797-742ba8be83a0", "label": "\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u043f\u0442", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u043f\u0442\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#911eb4", "id": "b19237cc-c1d5-4584-b021-83ec2a34b2ed", "label": "\u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "9ae69fb5-cd8a-4a1a-a2ea-d0d33dea8376", "label": "\u043f\u0435\u0440\u0435\u0441\u043a\u0430\u0437", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043f\u0435\u0440\u0435\u0441\u043a\u0430\u0437\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#e6194B", "id": "56df4a82-3349-49aa-8b50-897258296f15", "label": "\u043a\u043e\u0441\u0442\u044b\u043b\u044c", "shape": "dot", "size": 27.0, "title": "\u003cb\u003e\u043a\u043e\u0441\u0442\u044b\u043b\u044c\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.70\u003cbr\u003e"}, {"color": "#911eb4", "id": "a997e5a8-0956-4223-a87b-d81790b20b21", "label": "\u041c\u0430\u0440\u0443\u0441\u044f", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u041c\u0430\u0440\u0443\u0441\u044f\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#e6194B", "id": "17770570-9be7-47c9-9587-4a7cffd5a0f8", "label": "\u042f", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u042f\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#911eb4", "id": "ca2630f8-092d-46f4-b6ae-22031c2502f9", "label": "\u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0447\u0438\u043a", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0447\u0438\u043a\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#4363d8", "id": "5aa91106-d805-4d97-a39a-eac90814ce5c", "label": "\u044d\u043b\u0438\u0441", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u044d\u043b\u0438\u0441\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#911eb4", "id": "694b1057-4d76-4996-94a8-0112b8943144", "label": "\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u0431\u0442", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u044f\u043d\u0434\u0435\u043a\u0441 \u0433\u0431\u0442\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "5c51cf6f-a06d-47aa-adfb-e1e9aab20b9c", "label": "\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u044c \u043e\u0442 \u044f\u043d\u0434\u0435\u043a\u0441\u0430", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u044c \u043e\u0442 \u044f\u043d\u0434\u0435\u043a\u0441\u0430\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "1e189c82-4241-42b4-b5ab-63ad463890e0", "label": "\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438 \u043e\u0442 \u044f\u043d\u0434\u0435\u043a\u0441\u0430", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438 \u043e\u0442 \u044f\u043d\u0434\u0435\u043a\u0441\u0430\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#911eb4", "id": "7893e714-e51e-408b-a894-ede1a7830b22", "label": "\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#911eb4", "id": "bfbc613e-7f5c-42f7-aeb9-bf4891d8dc36", "label": "g \u043f\u044f\u0442\u0438", "shape": "dot", "size": 28.0, "title": "\u003cb\u003eg \u043f\u044f\u0442\u0438\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#911eb4", "id": "d6959e83-dbfd-45c1-80fd-3a280d6c3e55", "label": "\u043a\u043f\u0442", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u043a\u043f\u0442\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#e6194B", "id": "42716701-61cd-4136-8791-9195897cda4c", "label": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#e6194B", "id": "775defcb-32c7-41ae-8729-43a88c098aac", "label": "\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#e6194B", "id": "2fb1de72-02b3-472f-b88d-61857edb3bdc", "label": "\u0436\u0435\u043d\u0441\u043a\u043e\u0435 \u0438\u043c\u044f", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u0436\u0435\u043d\u0441\u043a\u043e\u0435 \u0438\u043c\u044f\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}, {"color": "#e6194B", "id": "02a62ddc-bbfd-45f5-b577-738fefee863e", "label": "\u043b\u0438\u0447\u043d\u044b\u0439 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u043b\u0438\u0447\u043d\u044b\u0439 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#f58231", "id": "90c64164-87f6-4fe3-9ca8-900609d034a0", "label": "\u042f\u043d\u0434\u0435\u043a\u0441 \u0411\u0440\u0430\u0443\u0437\u0435\u0440", "shape": "dot", "size": 29.9, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441 \u0411\u0440\u0430\u0443\u0437\u0435\u0440\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- alternative_name: Yandex Browser\u003cbr\u003e"}, {"color": "#911eb4", "id": "e3e79232-3e77-4042-902b-291414a391b3", "label": "\u0443\u043c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0443\u043c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#f58231", "id": "2ebfe8e6-5a04-45d2-97b5-32df6e917d93", "label": "\u0447\u0430\u0442 \u0441 \u0410\u043b\u0438\u0441\u043e\u0439", "shape": "dot", "size": 29.6, "title": "\u003cb\u003e\u0447\u0430\u0442 \u0441 \u0410\u043b\u0438\u0441\u043e\u0439\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.96\u003cbr\u003e"}, {"color": "#911eb4", "id": "5c166863-f7fb-477a-806e-e91ee8c2fcde", "label": "VPN", "shape": "dot", "size": 29.0, "title": "\u003cb\u003eVPN\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#e6194B", "id": "37076997-ca34-493e-97e0-3b8ca2ea1482", "label": "\u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#e6194B", "id": "e20345c4-c206-422e-b264-734762aafe38", "label": "\u0440\u0435\u0444\u0435\u0440\u0430\u0442 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u0441\u0442\u0430\u0442\u044c\u0438", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u0440\u0435\u0444\u0435\u0440\u0430\u0442 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u0441\u0442\u0430\u0442\u044c\u0438\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#4363d8", "id": "abb61a6a-2145-4966-b5bb-51648667cfa2", "label": "\u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c", "shape": "dot", "size": 29.7, "title": "\u003cb\u003e\u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#e6194B", "id": "01b63d1f-7ec2-45df-ae55-bc8a1319b6f6", "label": "\u0433\u043e\u0441\u0442", "shape": "dot", "size": 29.4, "title": "\u003cb\u003e\u0433\u043e\u0441\u0442\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.94\u003cbr\u003e"}, {"color": "#e6194B", "id": "194f99e7-e933-4e86-ac91-58be70d40c55", "label": "\u0440\u0435\u0444\u0435\u0440\u0430\u0442", "shape": "dot", "size": 29.7, "title": "\u003cb\u003e\u0440\u0435\u0444\u0435\u0440\u0430\u0442\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#e6194B", "id": "e2154be9-1691-4333-90eb-c06251e3d1a7", "label": "\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#ffe119", "id": "b47ce6fe-3b65-4f20-bff0-9cad1c80e3ec", "label": "\u043e\u043f\u0435\u043d- \u0430\u0439", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u043e\u043f\u0435\u043d- \u0430\u0439\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#911eb4", "id": "61f07154-ea6f-4a82-b1ae-821c9b321ddc", "label": "\u0447\u0430\u0442 \u0436\u0435 \u043f\u0438\u0442\u0435\u0442\u0430", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0447\u0430\u0442 \u0436\u0435 \u043f\u0438\u0442\u0435\u0442\u0430\u003c/b\u003e (technology)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "78aa16e8-2f3d-4dda-9148-6458e3b62057", "label": "RELEASED_IN", "title": "\u003cb\u003eRELEASED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "8f4d6a44-8d88-456b-81d6-290c889f8f07", "width": 3.7}, {"arrows": "to;from", "from": "6ba06028-1c35-459b-9112-5b9d0331a0b5", "label": "SIMILAR_TO", "title": "\u003cb\u003eSIMILAR_TO\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "22c2ca01-6809-4cca-9d42-2f3bdd5ab69d", "width": 3.8499999999999996}, {"arrows": "to", "from": "7186a40d-b09e-414d-92d5-8f55b3c0ad52", "label": "DIFFERENT_FROM", "title": "\u003cb\u003eDIFFERENT_FROM\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "40371c81-9c8f-4361-b43d-c8cb39e5bcf7", "width": 3.7}, {"arrows": "to", "from": "c568bd3a-3d94-4cc3-8b16-4f9d84f1e954", "label": "PART_OF", "title": "\u003cb\u003ePART_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.80\u003cbr\u003e", "to": "3f74fcee-edf2-4109-8017-8311be23e7e0", "width": 3.4000000000000004}, {"arrows": "to;from", "from": "9ae69fb5-cd8a-4a1a-a2ea-d0d33dea8376", "label": "SIMILAR_TO", "title": "\u003cb\u003eSIMILAR_TO\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "ca2630f8-092d-46f4-b6ae-22031c2502f9", "width": 3.7}, {"arrows": "to", "from": "5aa91106-d805-4d97-a39a-eac90814ce5c", "label": "ALIAS_OF", "title": "\u003cb\u003eALIAS_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.70\u003cbr\u003e", "to": "694b1057-4d76-4996-94a8-0112b8943144", "width": 3.0999999999999996}, {"arrows": "to;from", "from": "694b1057-4d76-4996-94a8-0112b8943144", "label": "ALIAS_OF", "title": "\u003cb\u003eALIAS_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "5c51cf6f-a06d-47aa-adfb-e1e9aab20b9c", "width": 3.8499999999999996}, {"arrows": "to;from", "from": "bfbc613e-7f5c-42f7-aeb9-bf4891d8dc36", "label": "SIMILAR_TO", "title": "\u003cb\u003eSIMILAR_TO\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "d6959e83-dbfd-45c1-80fd-3a280d6c3e55", "width": 3.7}, {"arrows": "to;from", "from": "42716701-61cd-4136-8791-9195897cda4c", "label": "SIMILAR_TO", "title": "\u003cb\u003eSIMILAR_TO\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "775defcb-32c7-41ae-8729-43a88c098aac", "width": 3.8499999999999996}, {"arrows": "to", "from": "2fb1de72-02b3-472f-b88d-61857edb3bdc", "label": "RELATED_TO", "title": "\u003cb\u003eRELATED_TO\u003c/b\u003e\u003cbr\u003eConfidence: 0.70\u003cbr\u003e", "to": "02a62ddc-bbfd-45f5-b577-738fefee863e", "width": 3.0999999999999996}, {"arrows": "to", "from": "e20345c4-c206-422e-b264-734762aafe38", "label": "ASSIGNED_IN", "title": "\u003cb\u003eASSIGNED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "67e7d7d3-75bb-4d3a-864b-90a1f197f7e5", "width": 3.7}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "shape": "dot", "size": 20}, "edges": {"font": {"size": 12, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.5, "springLength": 300, "springConstant": 0.04}, "minVelocity": 0.75, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+Analyze the following structural and semantic features of the knowledge graph and meta-graph and identify patterns and regularities.
+
+Structural features of the graph:
+{{graph_metrics}}
+
+Meta-graph:
+{{meta_concepts}}
+
+Identify the following types of patterns:
+
+1. Structural patterns:
+   - Hierarchical structures (tree-like relationships)
+   - Cyclic structures (interdependencies)
+   - Star-shaped structures (central concepts)
+   - Overlapping communities (multidisciplinary areas)
+
+2. Cause-effect chains:
+   - Sequences of "cause-effect" type relationships
+   - Cascade effects (one node affects many)
+   - Convergent causes (many nodes affect one)
+
+3. Frequently occurring motifs:
+   - Repeating triads or more complex structures
+   - Characteristic connection patterns between certain types of nodes
+   - Invariant relationships in different parts of the graph
+
+4. Anomalies and special cases:
+   - Unusual deviations from general patterns
+   - Contradictory or paradoxical relationships
+   - Isolated structures that do not correspond to the general picture
+
+For each identified pattern, specify:
+- Clear description of the pattern
+- Where in the graph it manifests (specific nodes or subgraphs)
+- Possible interpretation in the domain context
+- How universal the pattern is for this graph (local or global)
+
+Focus on meaningful and non-obvious patterns, not trivial ones.
+Present the result in a structured format with sections for each type of pattern.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

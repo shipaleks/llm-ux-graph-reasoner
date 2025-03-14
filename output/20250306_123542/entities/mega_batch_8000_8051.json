@@ -1,0 +1,408 @@
+[
+  {
+    "id": "ae81e6f0-446b-4db1-bc57-ca91134fb622",
+    "name": "один день",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bd7af713-d705-410f-b919-1be9f9a8c1e0",
+      "start": 36,
+      "end": 44,
+      "text": "один день"
+    }
+  },
+  {
+    "id": "c3b3b283-b007-47ce-b96d-4791c2e43259",
+    "name": "педиатр",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "15491b6b-199e-4bc7-bf3a-ae9f562fc222",
+      "start": 24,
+      "end": 32,
+      "text": "педиатру"
+    }
+  },
+  {
+    "id": "1ba73551-fc03-4ff0-bb89-dd038dca93b7",
+    "name": "сегодня",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "15491b6b-199e-4bc7-bf3a-ae9f562fc222",
+      "start": 71,
+      "end": 78,
+      "text": "сегодня"
+    }
+  },
+  {
+    "id": "4938fca5-968e-4e70-b5ea-3f08cb5a486e",
+    "name": "штуки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7fca131a-e4f3-4de2-b4b9-9ed9a192fe6d",
+      "start": 12,
+      "end": 17,
+      "text": "штуки"
+    }
+  },
+  {
+    "id": "b3f4f233-3136-4508-acc9-a36c73a0cd48",
+    "name": "как это работает",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f42f9293-d7eb-4d2d-a79a-9385231a133b",
+      "start": 36,
+      "end": 52,
+      "text": "как это работает"
+    }
+  },
+  {
+    "id": "3a2d9db0-d4e1-4307-8db6-0d0abcbc9a28",
+    "name": "привычка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7244bc89-9342-48fc-bf48-7f1abb3f4baa",
+      "start": 36,
+      "end": 44,
+      "text": "привычка"
+    }
+  },
+  {
+    "id": "dcfd7d33-f2dc-4583-abe4-280cdbed5c25",
+    "name": "старым",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7244bc89-9342-48fc-bf48-7f1abb3f4baa",
+      "start": 64,
+      "end": 70,
+      "text": "старым"
+    }
+  },
+  {
+    "id": "d4b7a26e-8b91-4b4c-af95-2c5b1eee5571",
+    "name": "глубокую информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3efa1cb5-8785-4239-b6a3-f7c4aec51ce5",
+      "start": 43,
+      "end": 61,
+      "text": "глубокую какую- то информацию"
+    }
+  },
+  {
+    "id": "9210ead1-7998-43c7-8c4a-c29e6f4c4fb3",
+    "name": "диплом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dfba26b0-8a62-4ded-9ddd-3e3e6bf81569",
+      "start": 24,
+      "end": 30,
+      "text": "диплом"
+    }
+  },
+  {
+    "id": "11d662bc-b0af-4bc5-ba77-1bc78d80cbd5",
+    "name": "диплом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "331812c4-821c-4eb5-b74f-20ad45c5e11f",
+      "start": 48,
+      "end": 54,
+      "text": "диплом"
+    }
+  },
+  {
+    "id": "003916a1-400c-4e0c-a0a3-28e5a4ceb023",
+    "name": "инструмент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "331812c4-821c-4eb5-b74f-20ad45c5e11f",
+      "start": 82,
+      "end": 92,
+      "text": "инструмент"
+    }
+  },
+  {
+    "id": "a2263a68-8b0a-4f08-83b1-f28d10927873",
+    "name": "час",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8d41417-1c6c-4775-a614-cdebe9767e93",
+      "start": 47,
+      "end": 50,
+      "text": "час"
+    }
+  },
+  {
+    "id": "f55aa883-bbae-41c9-9148-a4b347e85932",
+    "name": "блогеры",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf06921b-b0ee-4fd5-9d08-112ea4b64825",
+      "start": 36,
+      "end": 43,
+      "text": "блогеры"
+    }
+  },
+  {
+    "id": "f7135ba2-6f08-485a-a126-55eb08cb8ec5",
+    "name": "телеграмм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "750efcfd-9581-48f8-9e76-ef912fc147bf",
+      "start": 36,
+      "end": 45,
+      "text": "телеграмм"
+    }
+  },
+  {
+    "id": "84527143-5e11-4404-bb2f-eff07c86ad96",
+    "name": "штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76648253-b40a-4ab9-b9f9-940c2a5c4974",
+      "start": 22,
+      "end": 27,
+      "text": "штука"
+    }
+  },
+  {
+    "id": "60ee9d07-9d3b-4feb-ad54-d6881217b412",
+    "name": "новые вещи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f48c4fa8-be06-4481-9593-bd2047bf573c",
+      "start": 10,
+      "end": 20,
+      "text": "новые вещи"
+    }
+  },
+  {
+    "id": "7672828e-ae8f-49cc-8090-25aecaae5c87",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "feb4dbf5-b02c-4a46-9712-80ee7b822ac6",
+      "start": 23,
+      "end": 29,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "c9b3e2e5-f79d-42b8-9d01-8605a624e36b",
+    "name": "штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "feb4dbf5-b02c-4a46-9712-80ee7b822ac6",
+      "start": 37,
+      "end": 42,
+      "text": "штука"
+    }
+  },
+  {
+    "id": "9116e64f-551c-49ae-a00c-51ef26793d0c",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8fd7da75-b9e6-4bae-872c-bf467f12584e",
+      "start": 41,
+      "end": 47,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "ac940577-5b19-43b3-bdf1-c976a6bbe76b",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8fd7da75-b9e6-4bae-872c-bf467f12584e",
+      "start": 54,
+      "end": 60,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "656e11d9-354d-4109-a09c-b42f3e2c7f36",
+    "name": "кнопки исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 0,
+      "end": 18,
+      "text": "кнопки исследования"
+    }
+  },
+  {
+    "id": "3f6a79fc-e84d-474f-9a93-28d9f472d03c",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 25,
+      "end": 31,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "350ff5e8-8d4c-479e-a8ed-04cfff370e87",
+    "name": "новые вещи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 85,
+      "end": 95,
+      "text": "новые вещи"
+    }
+  },
+  {
+    "id": "f823b38e-3f24-45ad-9bb2-eb0ee940a140",
+    "name": "кнопкой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 171,
+      "end": 178,
+      "text": "кнопкой"
+    }
+  },
+  {
+    "id": "121ba4e9-2f04-43bf-b332-1bba2ae028fb",
+    "name": "рабочие задачи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a03d57f8-de69-4147-813e-7e11a38e24da",
+      "start": 71,
+      "end": 85,
+      "text": "рабочих задач"
+    }
+  },
+  {
+    "id": "ae38b26b-ad65-4511-a1ac-7f3c2d642198",
+    "name": "конкретный сложный приступ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "31104b6f-091c-489e-9c93-22668bc99935",
+      "start": 10,
+      "end": 36,
+      "text": "конкретный сложный так приступ"
+    }
+  },
+  {
+    "id": "f90e87fc-15fb-4cbd-bc2d-715d03ba5d0a",
+    "name": "разные темы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a8409b25-b3d3-41e6-bff5-606445fdc020",
+      "start": 66,
+      "end": 78,
+      "text": "разные темы"
+    }
+  },
+  {
+    "id": "7a7655d4-9870-4853-8eb4-c4b8fa3d48a1",
+    "name": "дипломы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af39b7a6-2600-4376-8f1d-cd2fceb7a825",
+      "start": 76,
+      "end": 83,
+      "text": "дипломы"
+    }
+  },
+  {
+    "id": "7b44b376-8b26-4729-b511-17587cdb5e60",
+    "name": "управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7238baf6-ca9c-4524-bf64-e19ba86732e2",
+      "start": 24,
+      "end": 34,
+      "text": "управление"
+    }
+  }
+]

@@ -1,0 +1,898 @@
+[
+  {
+    "id": "eb7e81d8-7736-4dcc-b135-686029ba99fa",
+    "name": "коллеги",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98bc8f64-56cd-4401-9d9e-3f1dc8296745",
+      "start": 36,
+      "end": 43,
+      "text": "коллеги"
+    }
+  },
+  {
+    "id": "53f36827-e80a-40a2-92fa-13848a71ba41",
+    "name": "ноутбук",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b3a893-8e56-48e3-8227-85c5cfc72c9f",
+      "start": 11,
+      "end": 18,
+      "text": "ноутбуке"
+    }
+  },
+  {
+    "id": "dc543691-5d25-4bea-a254-6ed8450628aa",
+    "name": "сервисы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b3a893-8e56-48e3-8227-85c5cfc72c9f",
+      "start": 54,
+      "end": 61,
+      "text": "сервисы"
+    }
+  },
+  {
+    "id": "e21aaf79-cfc4-449f-bb3c-4cc1a4b2f3d4",
+    "name": "устройства",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b3a893-8e56-48e3-8227-85c5cfc72c9f",
+      "start": 93,
+      "end": 103,
+      "text": "устройства"
+    }
+  },
+  {
+    "id": "97591a56-e15c-448e-bcdd-63a278237f67",
+    "name": "люди- ноутбуки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f19d2b1a-d305-4deb-b9e1-3553d006ebf0",
+      "start": 21,
+      "end": 35,
+      "text": "люди- ноутбуки"
+    }
+  },
+  {
+    "id": "0b1faaab-a472-4baa-92b8-ca5c4bd7680c",
+    "name": "g",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b58cf40e-b9b3-4145-b1b4-5dbe8ec71188",
+      "start": 31,
+      "end": 32,
+      "text": "g"
+    }
+  },
+  {
+    "id": "ce5790b9-0729-4d0f-87a7-1e7d14ba1c01",
+    "name": "g похожие сервисы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b58cf40e-b9b3-4145-b1b4-5dbe8ec71188",
+      "start": 41,
+      "end": 58,
+      "text": "g похожие сервисы"
+    }
+  },
+  {
+    "id": "582f631d-d2c9-49c0-b8c4-bcc46f4ccdb6",
+    "name": "три основных сервиса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4aa50e1c-ba34-4354-8ee1-60f43aba0f9e",
+      "start": 31,
+      "end": 51,
+      "text": "три основных сервиса"
+    }
+  },
+  {
+    "id": "dc1e30ce-770e-4984-bc48-0ae0fbeb57b6",
+    "name": "сайт",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd814fd2-08b2-4a94-adf5-0a2250527922",
+      "start": 43,
+      "end": 47,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "a8e64a7b-1208-4b2f-8f9e-7f3d8fdbce7f",
+    "name": "бот",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad28607f-d4d6-489b-958e-c1f7c998f9dc",
+      "start": 6,
+      "end": 9,
+      "text": "бот"
+    }
+  },
+  {
+    "id": "f2d64d8d-24d7-43c7-a79a-40399dd0c915",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad28607f-d4d6-489b-958e-c1f7c998f9dc",
+      "start": 13,
+      "end": 22,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "c3096016-7232-4e42-a1a7-42820dd87335",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad28607f-d4d6-489b-958e-c1f7c998f9dc",
+      "start": 37,
+      "end": 43,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "1ea4993e-c030-48e7-a9c8-d5819a974273",
+    "name": "сквозная информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad28607f-d4d6-489b-958e-c1f7c998f9dc",
+      "start": 85,
+      "end": 104,
+      "text": "сквозная информация"
+    }
+  },
+  {
+    "id": "965f9bd6-0a61-4efb-bb14-d93a7e56aa56",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "651e7c22-b213-44cd-869a-bcb0e3a37ae6",
+      "start": 13,
+      "end": 20,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "8d5c2b02-6543-428f-83b1-29ae0991da15",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "651e7c22-b213-44cd-869a-bcb0e3a37ae6",
+      "start": 51,
+      "end": 57,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "c43c2157-a875-442d-8def-33323d2f0f95",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d74d897-c574-48e1-8e1c-02a2ad2bdbb4",
+      "start": 26,
+      "end": 35,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "645e1508-8ba3-4fbc-b869-09782aa7d465",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7358e8b7-51d7-421b-8e39-4b298b2782a7",
+      "start": 5,
+      "end": 8,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "14aab29c-8862-43d9-a128-dbfe8a751fdd",
+    "name": "дип спик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2db3f02-a01b-4974-a1a7-86589f620b60",
+      "start": 11,
+      "end": 19,
+      "text": "дип спик"
+    }
+  },
+  {
+    "id": "62abe009-a8e7-47a8-82cf-24212875b8ab",
+    "name": "чат же пяти",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2db3f02-a01b-4974-a1a7-86589f620b60",
+      "start": 21,
+      "end": 32,
+      "text": "чат же пяти"
+    }
+  },
+  {
+    "id": "21b492f8-fc63-4cda-8a9f-7efae75a9f7c",
+    "name": "ограничения по запросам",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "63fb4c84-a7f5-45b5-8302-80e94c748088",
+      "start": 8,
+      "end": 31,
+      "text": "ограничений по запросам"
+    }
+  },
+  {
+    "id": "f8649266-763a-413e-a33a-80b40cfa97dc",
+    "name": "ограничения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "16aca923-504f-4016-bf7b-0d588061ec62",
+      "start": 13,
+      "end": 23,
+      "text": "ограничений"
+    }
+  },
+  {
+    "id": "90b0980f-5e14-4373-a134-cefc8441d267",
+    "name": "сформулировать название",
+    "type": "task",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03304f08-79f0-4579-91e0-e72e559e85b9",
+      "start": 14,
+      "end": 37,
+      "text": "сформулировать название"
+    }
+  },
+  {
+    "id": "ab0f484b-49e5-4974-9f7b-6bdadbbe7a10",
+    "name": "сформулировать цели",
+    "type": "task",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03304f08-79f0-4579-91e0-e72e559e85b9",
+      "start": 39,
+      "end": 58,
+      "text": "сформулировать цели"
+    }
+  },
+  {
+    "id": "3ab3b7c5-35a7-488d-bc22-a16d54c0ec01",
+    "name": "определить задачи",
+    "type": "task",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03304f08-79f0-4579-91e0-e72e559e85b9",
+      "start": 60,
+      "end": 77,
+      "text": "определить задачи"
+    }
+  },
+  {
+    "id": "a9185cbd-92ee-4a2b-a9b2-226ef59fa810",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d37d8d86-a171-431c-88cc-dadb6b04d568",
+      "start": 48,
+      "end": 55,
+      "text": "запросов"
+    }
+  },
+  {
+    "id": "6745556a-d3ec-486b-a832-7c272eee4b06",
+    "name": "бот",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d37d8d86-a171-431c-88cc-dadb6b04d568",
+      "start": 68,
+      "end": 72,
+      "text": "боту"
+    }
+  },
+  {
+    "id": "f6b97b49-663f-4a11-a7c7-35ecdcd02ac6",
+    "name": "виды консультационных услуг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "834323b3-dfcf-4c72-88d9-b1ab196868c0",
+      "start": 13,
+      "end": 40,
+      "text": "виды консультационных услуг"
+    }
+  },
+  {
+    "id": "d491666f-70a1-45e8-a9e9-bc38833673c1",
+    "name": "организаторов",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "834323b3-dfcf-4c72-88d9-b1ab196868c0",
+      "start": 51,
+      "end": 64,
+      "text": "организаторов"
+    }
+  },
+  {
+    "id": "d305233f-585d-46ac-a634-74b7f0d30c8a",
+    "name": "профориентолога",
+    "type": "profession",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cfc15a5c-ff5c-4f50-85e0-2fbf3e8e6af9",
+      "start": 36,
+      "end": 51,
+      "text": "профориентолога"
+    }
+  },
+  {
+    "id": "426c141f-d7ae-4be3-95bb-ecbf107caa1d",
+    "name": "за что им платят",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "765786f3-5d97-46ce-8a0a-38f4554dda19",
+      "start": 15,
+      "end": 31,
+      "text": "за что им платят"
+    }
+  },
+  {
+    "id": "a6aeb2b3-e60b-4b04-b18a-eda9443dbcd0",
+    "name": "занятия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eef406e7-3199-4063-b072-dc3b7b6e709b",
+      "start": 12,
+      "end": 20,
+      "text": "занятия"
+    }
+  },
+  {
+    "id": "e75364e2-4d66-4077-8ebd-824fd404466e",
+    "name": "большие проекты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eef406e7-3199-4063-b072-dc3b7b6e709b",
+      "start": 25,
+      "end": 40,
+      "text": "большие проекты"
+    }
+  },
+  {
+    "id": "65b5ab54-4fe4-45b5-9c03-942a765accab",
+    "name": "работа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a1cba40-bf7b-4389-8c17-8ee2b1d844eb",
+      "start": 15,
+      "end": 21,
+      "text": "работы"
+    }
+  },
+  {
+    "id": "fdabc3ce-e467-4486-962f-1d99672b8b8b",
+    "name": "объем работы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a1cba40-bf7b-4389-8c17-8ee2b1d844eb",
+      "start": 34,
+      "end": 46,
+      "text": "объем работы"
+    }
+  },
+  {
+    "id": "7ea840dc-8866-43c1-b4d2-1ba134d5a500",
+    "name": "социальный коэффициент проектной активности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d6c0e4a-8bd9-4350-9124-2d4a011ab5f6",
+      "start": 20,
+      "end": 63,
+      "text": "социальный коэффициент проектной активности"
+    }
+  },
+  {
+    "id": "72696d46-cf05-423f-8bb4-0349ec21a648",
+    "name": "теоретическое знание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dfa67837-1881-4d47-8e8d-b60a9564d916",
+      "start": 16,
+      "end": 36,
+      "text": "теоретическое знание"
+    }
+  },
+  {
+    "id": "16c932b2-fc49-4fb9-85db-3303a78b12d3",
+    "name": "сервис",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36dbd06f-a253-4e9f-856f-02649af897e8",
+      "start": 26,
+      "end": 32,
+      "text": "сервис"
+    }
+  },
+  {
+    "id": "12e26e56-4e9b-47ed-8034-0d55ca5a1cc0",
+    "name": "китайские сайты",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36dbd06f-a253-4e9f-856f-02649af897e8",
+      "start": 34,
+      "end": 49,
+      "text": "китайские сайты"
+    }
+  },
+  {
+    "id": "d92d430d-3981-41ce-bc34-00924dafa04c",
+    "name": "дипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20f1d58b-6961-481a-98ad-2f68c8bba7d0",
+      "start": 0,
+      "end": 6,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "53aad563-7aa8-4d33-a469-c6f4bfc569c5",
+    "name": "поисковик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20f1d58b-6961-481a-98ad-2f68c8bba7d0",
+      "start": 23,
+      "end": 32,
+      "text": "поисковике"
+    }
+  },
+  {
+    "id": "82d93e71-842a-47c0-af65-8520eb511563",
+    "name": "поисковик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2f7e7bd-cd0f-49cd-a0e3-9c8c17ce1663",
+      "start": 12,
+      "end": 21,
+      "text": "поисковик"
+    }
+  },
+  {
+    "id": "8423bd8c-3a5b-401d-b02e-ee994531a717",
+    "name": "гугл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2f7e7bd-cd0f-49cd-a0e3-9c8c17ce1663",
+      "start": 22,
+      "end": 27,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "770d2260-de03-4658-a958-dfc27cba5120",
+    "name": "гипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "069af162-a01d-40f1-8094-853d53e6b154",
+      "start": 10,
+      "end": 16,
+      "text": "гипсик"
+    }
+  },
+  {
+    "id": "33a83225-368c-439a-8a60-fa1f535da15b",
+    "name": "дипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b454da9-1c88-4ab5-bd0e-f638522b2f89",
+      "start": 20,
+      "end": 26,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "827f2c43-93b0-491c-8e3a-a6d04f9c8a95",
+    "name": "ипси",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8dd84865-bed4-4c08-bc04-15550ff0fa51",
+      "start": 112,
+      "end": 116,
+      "text": "ипси"
+    }
+  },
+  {
+    "id": "9c241491-c654-41e9-b332-e54ef2025ee3",
+    "name": "бот в телеграмме",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8dd84865-bed4-4c08-bc04-15550ff0fa51",
+      "start": 119,
+      "end": 135,
+      "text": "бот в телеграмме"
+    }
+  },
+  {
+    "id": "73bd3fe0-c898-466c-99f2-9b7e7c122df8",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8dd84865-bed4-4c08-bc04-15550ff0fa51",
+      "start": 146,
+      "end": 151,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "5d0d9a7f-cb01-4642-98bd-d6de3a0f8a10",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e21e1e49-ae36-4852-a7d3-efbd98b571fb",
+      "start": 2,
+      "end": 9,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "06e27c97-d16e-4932-ad6f-095a487d4af6",
+    "name": "адип сик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e7459a94-6e01-4094-a463-c81e90753e3c",
+      "start": 12,
+      "end": 20,
+      "text": "адип сик"
+    }
+  },
+  {
+    "id": "7a1517c6-bf4f-44c4-bbdf-c268c942559e",
+    "name": "вакансию на работу",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e5e96d98-4dfa-4aab-8610-b1a49d3f6990",
+      "start": 64,
+      "end": 82,
+      "text": "вакансию на работу"
+    }
+  },
+  {
+    "id": "0c453e24-8dfe-4c5f-a027-416a8bf3d768",
+    "name": "типсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4eb1d63-70fe-43d3-b481-4ec6524517aa",
+      "start": 31,
+      "end": 37,
+      "text": "типсик"
+    }
+  },
+  {
+    "id": "027b5ebc-d709-4320-8734-a154c47b132c",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b101ff13-5afe-4bca-8b8b-1854fcc8947b",
+      "start": 21,
+      "end": 30,
+      "text": "телеграмм"
+    }
+  },
+  {
+    "id": "8dd5a17a-edc1-4c47-96fe-8ad9cc725545",
+    "name": "мессенджер",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b101ff13-5afe-4bca-8b8b-1854fcc8947b",
+      "start": 45,
+      "end": 55,
+      "text": "мессенджер"
+    }
+  },
+  {
+    "id": "b46a7fbe-89c9-43f4-8d2a-d1ec8a332995",
+    "name": "дипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b101ff13-5afe-4bca-8b8b-1854fcc8947b",
+      "start": 91,
+      "end": 97,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "e8c616c3-114e-4737-a5d4-d79edae650e0",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5c65763-3cf2-4f55-aeac-fe5eb0fb6645",
+      "start": 8,
+      "end": 17,
+      "text": "телеграмм"
+    }
+  },
+  {
+    "id": "aab10547-a9fe-43bf-a26e-b4cb96d4b473",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5c65763-3cf2-4f55-aeac-fe5eb0fb6645",
+      "start": 46,
+      "end": 55,
+      "text": "телеграмм"
+    }
+  },
+  {
+    "id": "0f8ebfcb-477c-4446-9a47-621978f33e3f",
+    "name": "мессенджер",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5c65763-3cf2-4f55-aeac-fe5eb0fb6645",
+      "start": 79,
+      "end": 89,
+      "text": "мессенджер"
+    }
+  },
+  {
+    "id": "3ce2a475-2549-422a-9a30-33eff60d8126",
+    "name": "депсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58ed2f39-ee98-4087-983b-8fa66e34b527",
+      "start": 12,
+      "end": 18,
+      "text": "депсик"
+    }
+  },
+  {
+    "id": "4b9197f0-9d36-4610-b69f-66c8e13e5679",
+    "name": "телеграм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "beb90b18-e01c-4f49-a56a-dfe541da8826",
+      "start": 108,
+      "end": 116,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "e8fc0053-e40e-436f-a5e4-edebc7072b73",
+    "name": "телеграм штука",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "beb90b18-e01c-4f49-a56a-dfe541da8826",
+      "start": 122,
+      "end": 136,
+      "text": "телеграм штука"
+    }
+  },
+  {
+    "id": "58a4014e-e548-4a8e-a963-7e8f76952a75",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "31d5fdd1-130d-4492-b749-8c2de2b550bc",
+      "start": 64,
+      "end": 73,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "ddab431e-cdcc-4cd7-bb53-a38535b338b5",
+    "name": "депсика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07c2f7d5-1ecb-4ea2-ae65-d000aa8f0740",
+      "start": 31,
+      "end": 38,
+      "text": "депсика"
+    }
+  },
+  {
+    "id": "29457152-4009-4638-a461-52dfb166fa94",
+    "name": "повседневная сеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07c2f7d5-1ecb-4ea2-ae65-d000aa8f0740",
+      "start": 59,
+      "end": 76,
+      "text": "повседневная сеть"
+    }
+  },
+  {
+    "id": "37b41cb8-f1c6-4874-a246-39f68712e248",
+    "name": "приложение для телефона",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "442f1cda-d7a9-4514-9c8e-39878d8ec486",
+      "start": 36,
+      "end": 59,
+      "text": "приложение для телефона"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "04aeee96-2128-4f9c-99ca-5630b43fe39c",
+    "source_id": "b3ed5776-39c5-42a0-b8ee-be954a278ac9",
+    "target_id": "7ce657db-938d-499b-a289-49440de0aab5",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "679904b0-3f01-41f6-a644-91de9906a7f6",
+      "start": 7,
+      "end": 24,
+      "text": "карты, переводчик"
+    }
+  },
+  {
+    "id": "8a951d0c-9a25-4a4e-a52b-954fe5f0472c",
+    "source_id": "a3846029-9cd9-4532-8f0a-b58b30f701cc",
+    "target_id": "f63e3630-5c5b-46f5-8601-aba394c60f24",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36f347a8-1c57-40c6-abaf-b536af4fdfab",
+      "start": 42,
+      "end": 91,
+      "text": "поиском не пользуетесь и как одно из один из вот таких плюсов поиска назвали нейро"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "segment-1": {
+    "id": "segment-1",
+    "summary": "John Smith is the CEO of Acme Corporation, a software development company founded in 1985 and headquartered in New York City.",
+    "key_points": [
+      "John Smith is the CEO of Acme Corporation",
+      "Acme Corporation was founded in 1985",
+      "Acme Corporation is headquartered in New York City",
+      "Acme Corporation is a software development company"
+    ],
+    "role": "introduction",
+    "parent_relation": null
+  },
+  "segment-2": {
+    "id": "segment-2",
+    "summary": "Mary Johnson is the CTO of Acme Corporation, having joined in 2005. Before that, she was a senior developer at Tech Solutions Inc.",
+    "key_points": [
+      "Mary Johnson is the CTO of Acme Corporation",
+      "She joined Acme in 2005",
+      "She was previously a senior developer at Tech Solutions Inc."
+    ],
+    "role": "background",
+    "parent_relation": "Provides additional information about the company's leadership"
+  },
+  "segment-3": {
+    "id": "segment-3",
+    "summary": "Acme Corporation partnered with Global Systems Ltd. on Project Alpha, which was announced on January 15, 2023.",
+    "key_points": [
+      "Partnership between Acme Corporation and Global Systems Ltd.",
+      "The project is called Project Alpha",
+      "The announcement was made on January 15, 2023"
+    ],
+    "role": "development",
+    "parent_relation": "Describes a recent partnership involving the company"
+  }
+}

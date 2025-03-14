@@ -1,0 +1,457 @@
+[
+  {
+    "id": "279cef2c-194f-4ef2-ab9a-30415eed404a",
+    "source_id": "e55e0c95-bbe7-415e-893f-7d6d52f14c15",
+    "target_id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8",
+    "type": "EMPLOYED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 82,
+      "end": 138,
+      "text": "closely assisted by his trusted but morally ambiguous accountant"
+    }
+  },
+  {
+    "id": "e77fed23-9b41-4b39-b1e1-bc60641b383b",
+    "source_id": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc",
+    "target_id": "e55e0c95-bbe7-415e-893f-7d6d52f14c15",
+    "type": "RELATIVE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 212,
+      "end": 237,
+      "text": "Nathaniel’s nephew, Jacob Price"
+    }
+  },
+  {
+    "id": "8e762973-af91-47c3-9af9-5b15f2376f8e",
+    "source_id": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc",
+    "target_id": "2b3b5979-9363-4ff4-8406-4f33af16feb5",
+    "type": "ROMANTIC_RELATIONSHIP_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 271,
+      "end": 315,
+      "text": "secretly courted Eleanor despite Gregory’s fierce"
+    }
+  },
+  {
+    "id": "9c165db4-888d-4582-b510-7dd1f9b317e3",
+    "source_id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8",
+    "target_id": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc",
+    "type": "DISAPPROVES_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 271,
+      "end": 315,
+      "text": "secretly courted Eleanor despite Gregory’s fierce"
+    }
+  },
+  {
+    "id": "54901c76-b94c-4ff8-8689-9a18f9ebb759",
+    "source_id": "8356f45e-0f48-433c-99bc-624b5dbda16f",
+    "target_id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8",
+    "type": "UNREQUITED_LOVE_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 459,
+      "end": 531,
+      "text": "secretly harbored a profound and unrequited affection for Gregory"
+    }
+  },
+  {
+    "id": "53709c45-63c5-4de8-bc19-d54c5eb487d2",
+    "source_id": "8356f45e-0f48-433c-99bc-624b5dbda16f",
+    "target_id": "91e27abf-c90a-4c2c-8ed7-3e9967afba65",
+    "type": "EMPLOYED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c08e51cc-1821-4235-9584-f1e8fbdef314",
+      "start": 392,
+      "end": 434,
+      "text": "Prudence Hartwell, the Blythe family's"
+    }
+  },
+  {
+    "id": "6385e25b-bfca-4604-a207-b41653e2113a",
+    "source_id": "cf47d4ac-3454-49b4-820d-5b029b6a7d9c",
+    "target_id": "0ca5db70-e5c7-41f4-9c29-edc8a5c8a35b",
+    "type": "SEEKS_COUNSEL_FROM",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 0,
+      "end": 43,
+      "text": "Prudence regularly sought counsel in Reverend Edmund Crane"
+    }
+  },
+  {
+    "id": "3cc4a458-85b9-4ada-a9c0-584603816dfd",
+    "source_id": "c13eb197-b8a9-4793-a92a-547d10759183",
+    "target_id": "e419ecf1-b432-44cd-9ca4-72143128043a",
+    "type": "RELATIVE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 108,
+      "end": 134,
+      "text": "Edmund's younger sister, Harriet"
+    }
+  },
+  {
+    "id": "649dc8a3-d57f-4df5-8dae-b2872a65a589",
+    "source_id": "c13eb197-b8a9-4793-a92a-547d10759183",
+    "target_id": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc",
+    "type": "MANAGES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 136,
+      "end": 166,
+      "text": "managed the local bookstore"
+    }
+  },
+  {
+    "id": "60fbab9c-5310-4af0-a898-09685bffa8bb",
+    "source_id": "2b3b5979-9363-4ff4-8406-4f33af16feb5",
+    "target_id": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc",
+    "type": "FREQUENTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 179,
+      "end": 211,
+      "text": "a warm haven frequented by Eleanor"
+    }
+  },
+  {
+    "id": "ad344e95-b53c-4a2b-b90a-a7514e006dda",
+    "source_id": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc",
+    "target_id": "ba672dfa-74f1-4f36-a972-9b7e299e7f9d",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 255,
+      "end": 262,
+      "text": "Glenmoor"
+    }
+  },
+  {
+    "id": "b52b5ec1-5bff-4d0c-876f-a6eb5c30c4e2",
+    "source_id": "573e16f7-9f3e-4168-ab47-2eadbff9dc32",
+    "target_id": "4cd871f1-7112-4da5-9895-70bd3e2aa105",
+    "type": "AUTHOR_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 339,
+      "end": 387,
+      "text": "titled \"The Silent Echo,\" written by Maxwell Finch"
+    }
+  },
+  {
+    "id": "e10d54de-36d3-43e7-a31b-51d5535e447e",
+    "source_id": "b6b515b3-d20b-4995-8e89-bbd89aee7b4c",
+    "target_id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8",
+    "type": "RELATIVE_OF",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "Relationship Detail",
+        "value": "Estranged",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 389,
+      "end": 417,
+      "text": "Gregory's estranged cousin"
+    }
+  },
+  {
+    "id": "0856f7f0-1df4-431b-9d68-8e3ddb820532",
+    "source_id": "c7f88cc1-c29a-4af6-beaa-181d6f074792",
+    "target_id": "b6b515b3-d20b-4995-8e89-bbd89aee7b4c",
+    "type": "BELIEVES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "cfe142f5-b9ae-4b20-a615-0b747c54a92d",
+      "start": 537,
+      "end": 593,
+      "text": "yet whispers persisted among townsfolk who sensed otherwise"
+    }
+  },
+  {
+    "id": "fca1ff0d-276a-437d-bec7-fa4206bf8032",
+    "source_id": "ca2df3d0-374f-4a36-8ec9-b2e9aa0bdec5",
+    "target_id": "3fc3961e-0d4c-41bb-995f-b534270e7447",
+    "type": "AIDED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "f25c0e2f-e551-44aa-a79a-67c6076f0950",
+      "start": 139,
+      "end": 195,
+      "text": "Amelia was discreetly aided by her reluctant informant, Dr. Tobias Sinclair"
+    }
+  },
+  {
+    "id": "9501c586-8f90-44ee-b26a-1bfcc2dcbd99",
+    "source_id": "3fc3961e-0d4c-41bb-995f-b534270e7447",
+    "target_id": "91e27abf-c90a-4c2c-8ed7-3e9967afba65",
+    "type": "EMPLOYED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "f25c0e2f-e551-44aa-a79a-67c6076f0950",
+      "start": 197,
+      "end": 224,
+      "text": "the family physician burdened"
+    }
+  },
+  {
+    "id": "f7cd2e03-759d-4765-a65b-40e4958ae54d",
+    "source_id": "ac37ad67-59f4-4b85-bf7e-4ad27a779c69",
+    "target_id": "1dea6982-6035-4c46-9474-390ca1b9bad4",
+    "type": "TREATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "f25c0e2f-e551-44aa-a79a-67c6076f0950",
+      "start": 274,
+      "end": 319,
+      "text": "acquired decades earlier when treating Gregory’s late wife, Margaret"
+    }
+  },
+  {
+    "id": "3fbc7f8a-eae4-44c6-a9bf-f4587ede2177",
+    "source_id": "1dea6982-6035-4c46-9474-390ca1b9bad4",
+    "target_id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8",
+    "type": "SPOUSE_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "f25c0e2f-e551-44aa-a79a-67c6076f0950",
+      "start": 295,
+      "end": 319,
+      "text": "Gregory’s late wife, Margaret"
+    }
+  },
+  {
+    "id": "338526e2-89de-458e-a0a2-3c7204daa056",
+    "source_id": "ac37ad67-59f4-4b85-bf7e-4ad27a779c69",
+    "target_id": "2ddf0a3e-f841-4996-9f5c-49f83f45964c",
+    "type": "COMELLED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "f25c0e2f-e551-44aa-a79a-67c6076f0950",
+      "start": 359,
+      "end": 414,
+      "text": "his conscience compelling him towards Amelia despite the risks"
+    }
+  },
+  {
+    "id": "4930be95-4d23-4aec-bdf4-92c3278a25a9",
+    "source_id": "a64716c1-f38f-423a-9187-7aec823803c6",
+    "target_id": "b2f92280-79fc-4139-8651-f30d84b6164e",
+    "type": "LOCATION_OF_INTERACTIONS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "14f51033-9195-4e9e-b378-096878411edd",
+      "start": 36,
+      "end": 111,
+      "text": "watched interactions unfold at Madame Agnes’ elegant tea salon"
+    }
+  },
+  {
+    "id": "4eb5a8de-c254-429b-a6c1-a8cc3cdc260d",
+    "source_id": "b2f92280-79fc-4139-8651-f30d84b6164e",
+    "target_id": "74ea6d46-3b1b-4d75-b9f2-be12797f98ad",
+    "type": "FORMER_PROFESSION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "14f51033-9195-4e9e-b378-096878411edd",
+      "start": 147,
+      "end": 198,
+      "text": "once a celebrated Parisian opera singer known throughout Europe"
+    }
+  },
+  {
+    "id": "94a21e54-3d09-4694-893d-12569cc36335",
+    "source_id": "74ea6d46-3b1b-4d75-b9f2-be12797f98ad",
+    "target_id": "b8d82945-31a3-4d19-bed6-83871f1864db",
+    "type": "KNOWN_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "14f51033-9195-4e9e-b378-096878411edd",
+      "start": 181,
+      "end": 198,
+      "text": "known throughout Europe"
+    }
+  },
+  {
+    "id": "674cce50-c340-45b9-95f0-3356d5af967d",
+    "source_id": "b2f92280-79fc-4139-8651-f30d84b6164e",
+    "target_id": "2b3b5979-9363-4ff4-8406-4f33af16feb5",
+    "type": "CONFIDANTE_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "14f51033-9195-4e9e-b378-096878411edd",
+      "start": 203,
+      "end": 234,
+      "text": "Eleanor's close confidante"
+    }
+  },
+  {
+    "id": "f15dd256-6ba8-4f76-8c2d-8e05da3a4271",
+    "source_id": "5abb248e-d5a8-471a-b831-fab6e7ffe7f6",
+    "target_id": "2b3b5979-9363-4ff4-8406-4f33af16feb5",
+    "type": "SAW",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "488aef66-2a07-494a-a456-80713e911d9c",
+      "start": 178,
+      "end": 224,
+      "text": "saw Eleanor arguing passionately with Jacob"
+    }
+  },
+  {
+    "id": "7efbf6bc-1de0-459c-8918-ebc05fb1810f",
+    "source_id": "2b3b5979-9363-4ff4-8406-4f33af16feb5",
+    "target_id": "dc45c7ae-033d-4830-a7ba-814bda156cdb",
+    "type": "ARGUED_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "488aef66-2a07-494a-a456-80713e911d9c",
+      "start": 178,
+      "end": 224,
+      "text": "saw Eleanor arguing passionately with Jacob"
+    }
+  },
+  {
+    "id": "ea86877d-59bd-4f56-a1c1-a53af15a4f2d",
+    "source_id": "cf47d4ac-3454-49b4-820d-5b029b6a7d9c",
+    "target_id": "7905f329-caf1-4a25-82fe-f596c58ee047",
+    "type": "WITNESSED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "488aef66-2a07-494a-a456-80713e911d9c",
+      "start": 246,
+      "end": 298,
+      "text": "witnessed Nathaniel quietly slipping into Eleanor's chamber"
+    }
+  },
+  {
+    "id": "9fc7c7c9-bee6-4fb9-95e1-b74303a28fb8",
+    "source_id": "d3c9e65f-73f5-4522-a6a2-407e580370db",
+    "target_id": "e5aa9ed0-d7e4-4853-b1c7-9080c61696a4",
+    "type": "NOTICED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "488aef66-2a07-494a-a456-80713e911d9c",
+      "start": 318,
+      "end": 377,
+      "text": "noticed Celia Rhodes lurking near the estate’s outskirts in twilight"
+    }
+  },
+  {
+    "id": "ed0e3036-0144-4e97-b48a-76efb430016d",
+    "source_id": "a64716c1-f38f-423a-9187-7aec823803c6",
+    "target_id": "0b94a24e-8805-4ba3-a504-e9afea69f8ca",
+    "type": "FOUND",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9bacaa57-1397-423b-9527-9655337d5e17",
+      "start": 112,
+      "end": 143,
+      "text": "Detective Croft found Celia Rhodes"
+    }
+  }
+]

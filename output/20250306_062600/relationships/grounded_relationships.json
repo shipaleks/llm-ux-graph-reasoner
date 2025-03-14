@@ -1,0 +1,114 @@
+[
+  {
+    "id": "905258ab-0b4a-45c0-b595-5b4313cda052",
+    "source_id": "b517f6cd-14d8-43bb-9b2f-001ddf3ea39d",
+    "target_id": "4d4b5a76-13a2-4505-8b2b-51f6b341818c",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "448ea46c-b93a-4cde-98ce-36d996fd7a3a",
+      "start": 0,
+      "end": 60,
+      "text": "Иван Петров является генеральным директором компании \"ТехноИнновации\""
+    }
+  },
+  {
+    "id": "6cb260e9-1d9d-47f8-a6e7-0ff1f9ff95cd",
+    "source_id": "4d4b5a76-13a2-4505-8b2b-51f6b341818c",
+    "target_id": "c52676f4-ea34-4560-a277-b7b64e1dd721",
+    "type": "ОСНОВАНА",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "448ea46c-b93a-4cde-98ce-36d996fd7a3a",
+      "start": 72,
+      "end": 99,
+      "text": "Компания \"ТехноИнновации\" была основана в 2010 году"
+    }
+  },
+  {
+    "id": "879e9587-99c8-4acb-ac8d-26846eb33475",
+    "source_id": "f9367934-e05d-44ad-8688-e91b7105ad54",
+    "target_id": "a7f243c9-5580-4cbe-978d-1036fa0802cd",
+    "type": "РАБОТАЕТ_С",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "523d6379-3f8b-48ea-9177-b1a1fa1e1dde",
+      "start": 0,
+      "end": 85,
+      "text": "Мария Сидорова работает техническим директором компании \"ТехноИнновации\" с 2015 года."
+    }
+  },
+  {
+    "id": "b43cd6d3-fe30-4db2-9577-824a62217d12",
+    "source_id": "f9367934-e05d-44ad-8688-e91b7105ad54",
+    "target_id": "4dcd108e-1641-49a0-ad88-c02ec646c172",
+    "type": "РАБОТАЛА_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "523d6379-3f8b-48ea-9177-b1a1fa1e1dde",
+      "start": 0,
+      "end": 150,
+      "text": "Мария Сидорова работает техническим директором компании \"ТехноИнновации\" с 2015 года. До этого она была ведущим разработчиком в компании \"ИТ-Решения\"."
+    }
+  },
+  {
+    "id": "17350b23-4632-460f-bf1b-92b4589bd9dd",
+    "source_id": "4d4b5a76-13a2-4505-8b2b-51f6b341818c",
+    "target_id": "67d05f23-2a45-4367-a95a-80febffaa087",
+    "type": "ПАРТНЕРСТВО",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "c30308be-df7b-4c24-924d-18db5db6da81",
+      "start": 9,
+      "end": 65,
+      "text": "Компания \"ТехноИнновации\" заключила партнерство с \"Глобал Системс\""
+    }
+  },
+  {
+    "id": "d72571ec-350e-4e2f-be40-dffcfda239e6",
+    "source_id": "67d05f23-2a45-4367-a95a-80febffaa087",
+    "target_id": "78acf814-7696-4970-bec5-3f89bcef9218",
+    "type": "БАЗИРУЕТСЯ_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "882b3ddf-77a1-415f-a962-62b6e05a87de",
+      "start": 134,
+      "end": 245,
+      "text": " Компания \"Глобал Системс\" базируется в Санкт-Петербурге, и ее генеральным директором является Алексей Смирнов."
+    }
+  },
+  {
+    "id": "16751dfa-65d7-497f-84a8-f9a669e8d463",
+    "source_id": "1f339595-3513-4b1d-8e25-b6d12199ae54",
+    "target_id": "67d05f23-2a45-4367-a95a-80febffaa087",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "882b3ddf-77a1-415f-a962-62b6e05a87de",
+      "start": 134,
+      "end": 245,
+      "text": " Компания \"Глобал Системс\" базируется в Санкт-Петербурге, и ее генеральным директором является Алексей Смирнов."
+    }
+  }
+]

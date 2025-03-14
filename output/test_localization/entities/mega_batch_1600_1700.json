@@ -1,0 +1,345 @@
+[
+  {
+    "id": "cf11ef27-0131-44c3-99f0-5d9fe2ca1719",
+    "name": "g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "023e9295-c1c8-481c-8e8f-72640543f76e",
+      "start": 24,
+      "end": 25,
+      "text": "g"
+    }
+  },
+  {
+    "id": "2688c5a3-83ca-46d7-873d-cfe26546b30b",
+    "name": "телеграм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "023e9295-c1c8-481c-8e8f-72640543f76e",
+      "start": 51,
+      "end": 59,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "8fd4b3cb-3cb7-4890-af37-8120f4374979",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8d32c606-d603-4475-a359-efccc186943d",
+      "start": 21,
+      "end": 28,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "dd7150c8-135a-4724-a232-b1ca76149370",
+    "name": "телеграм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb10ca90-8caf-4293-b49d-787054ac3df0",
+      "start": 17,
+      "end": 25,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "1b0f98a0-83d7-4473-a4e1-40db927e956d",
+    "name": "чатни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3dbe815-fb6c-4e7b-9053-11616766d27c",
+      "start": 76,
+      "end": 81,
+      "text": "чатни"
+    }
+  },
+  {
+    "id": "85a5d5f2-54a9-40d9-b71e-45e7b79d1129",
+    "name": "телеграм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b895a060-4998-4410-b5a3-afb004e318dc",
+      "start": 64,
+      "end": 72,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "04c145c2-c329-43a9-8524-4dbfa8b0756e",
+    "name": "g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b895a060-4998-4410-b5a3-afb004e318dc",
+      "start": 73,
+      "end": 74,
+      "text": "g"
+    }
+  },
+  {
+    "id": "5970a35e-22b8-4fa6-a290-707769b03a17",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b895a060-4998-4410-b5a3-afb004e318dc",
+      "start": 86,
+      "end": 92,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "0d8fdef6-6094-4d37-a9d2-5e3deb9711fc",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f4ec967-6d17-4b5c-a9e6-fea55bb8babb",
+      "start": 55,
+      "end": 64,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "d1217051-0339-434f-8269-3dcbffae9142",
+    "name": "курсовая работа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd053fb0-179b-4b57-9a63-8f969ec394bd",
+      "start": 73,
+      "end": 88,
+      "text": "курсовой работы"
+    }
+  },
+  {
+    "id": "63e872ea-12ad-45de-81d7-3b2dd2dd4b27",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "557df2ed-9ace-4db9-8b1a-9da1f10d3f99",
+      "start": 91,
+      "end": 97,
+      "text": "собака"
+    }
+  },
+  {
+    "id": "7b8b8e85-5e97-4383-b408-7d6ec39be8ae",
+    "name": "гуманитарное образование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "51e239a1-41ca-4963-a48c-99e92a424b00",
+      "start": 64,
+      "end": 88,
+      "text": "гуманитарное образование"
+    }
+  },
+  {
+    "id": "c7158e16-31f0-4427-8259-6b619af59419",
+    "name": "международные отношения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "51e239a1-41ca-4963-a48c-99e92a424b00",
+      "start": 90,
+      "end": 114,
+      "text": "международные отношения"
+    }
+  },
+  {
+    "id": "51ae2596-4d21-47e7-9c8c-ed112d7a3437",
+    "name": "g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a1a3b675-34a1-4420-850f-bf003a123abf",
+      "start": 34,
+      "end": 35,
+      "text": "g"
+    }
+  },
+  {
+    "id": "b5202e9b-6569-4b3c-aa81-5ca9f15d2116",
+    "name": "чат g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d30e85dc-35bf-44d7-ad31-9040de54f784",
+      "start": 7,
+      "end": 12,
+      "text": "чату g"
+    }
+  },
+  {
+    "id": "9ba8b8e9-dc1b-40a3-a8bc-cce8518b0827",
+    "name": "инаугурация Трампа",
+    "type": "event",
+    "attributes": [
+      {
+        "key": "person",
+        "value": "Дональд Трамп",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73e7ee01-f329-4559-bd69-3b1ac6156523",
+      "start": 79,
+      "end": 97,
+      "text": "инаугурацию трампа"
+    }
+  },
+  {
+    "id": "60351b68-3e13-45b3-9af3-941eabc8fb8c",
+    "name": "чат g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f59d6f2b-62dd-43c1-a3a3-380cab740f0d",
+      "start": 11,
+      "end": 16,
+      "text": "чат g"
+    }
+  },
+  {
+    "id": "e650a4cd-679e-4f2d-9715-92f3a8c3e76f",
+    "name": "таймс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b006b4f8-f3bc-4005-80fd-f1a3a2dc12cd",
+      "start": 32,
+      "end": 37,
+      "text": "таймс"
+    }
+  },
+  {
+    "id": "c7b9af41-cc9e-48ec-b13a-a09321e862cf",
+    "name": "блумберг",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b006b4f8-f3bc-4005-80fd-f1a3a2dc12cd",
+      "start": 42,
+      "end": 50,
+      "text": "блумберг"
+    }
+  },
+  {
+    "id": "0b5830d9-91bc-48a6-a721-b8775b13c1b1",
+    "name": "дипсик",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9d18c05-1669-49a2-ba81-3e6fce506e88",
+      "start": 36,
+      "end": 42,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "46d1aa4a-1403-41fd-af14-a26577c4937f",
+    "name": "дипсиком",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7ca0cc5a-da53-4b40-b00e-4f1c0e68aec5",
+      "start": 15,
+      "end": 23,
+      "text": "дипсиком"
+    }
+  },
+  {
+    "id": "7e8b56a1-ea58-4c03-83a9-c90c01a0b11a",
+    "name": "Германия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1212d63c-d2be-4d2f-8ba4-90a23d524d2e",
+      "start": 44,
+      "end": 52,
+      "text": "германии"
+    }
+  },
+  {
+    "id": "e2c9af6e-d48e-4b4b-98fc-ded8b8b02205",
+    "name": "дипси",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cd26c4a1-8802-41bc-974c-b37438c22b1b",
+      "start": 53,
+      "end": 58,
+      "text": "дипси"
+    }
+  },
+  {
+    "id": "6c031fe4-1e91-4fe6-b4a3-176504142ea1",
+    "name": "g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "891ccb57-85db-4818-ba8f-4bb49c879212",
+      "start": 0,
+      "end": 1,
+      "text": "g"
+    }
+  }
+]

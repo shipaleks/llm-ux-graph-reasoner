@@ -1,0 +1,821 @@
+[
+  {
+    "id": "4f9f0bbd-170c-4944-b4c6-efc708d30031",
+    "name": "основы этикета",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "16e12f9d-8ede-497b-a87a-11e11e97a363",
+      "start": 30,
+      "end": 44,
+      "text": "основы этикета"
+    }
+  },
+  {
+    "id": "7cd4ff1e-30ba-4eae-ba85-74b2ac543afc",
+    "name": "правила современного джентльмена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8da072ce-d331-4ea8-a732-f4b8869e6608",
+      "start": 31,
+      "end": 65,
+      "text": "правила современного джентльмена"
+    }
+  },
+  {
+    "id": "ade597b4-33f8-4f55-97a0-c00c8912cab1",
+    "name": "девушкам",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8da072ce-d331-4ea8-a732-f4b8869e6608",
+      "start": 75,
+      "end": 83,
+      "text": "девушкам"
+    }
+  },
+  {
+    "id": "b97c87a1-fd89-4687-ad51-e03278177b54",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "87ca2521-933a-4e49-bb63-699c8808d33f",
+      "start": 54,
+      "end": 66,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "2b2294f7-be5e-406f-99eb-2728a0c683aa",
+    "name": "девушка",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a07782ba-43a5-4344-abc7-826474185219",
+      "start": 24,
+      "end": 31,
+      "text": "девушка"
+    }
+  },
+  {
+    "id": "74e88f60-7433-4210-88c9-84e1c0a36424",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "567b0be7-4149-4d13-9bc5-9c8b0bcaa1b2",
+      "start": 21,
+      "end": 33,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "a5e3ef07-e07f-4404-b68c-56c773ee30cc",
+    "name": "спасибо",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20957e1f-c53a-4a0c-ba00-bff0579ad4e1",
+      "start": 23,
+      "end": 30,
+      "text": "спасибо"
+    }
+  },
+  {
+    "id": "0cf9bdf2-b4b0-4577-8d3b-140d09fdf3ab",
+    "name": "пожалуйста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20957e1f-c53a-4a0c-ba00-bff0579ad4e1",
+      "start": 31,
+      "end": 40,
+      "text": "пожалуйста"
+    }
+  },
+  {
+    "id": "2aae4c17-6bc9-4223-b404-d31f426c1e17",
+    "name": "банальная информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68efa482-bd31-413f-961c-9881167789ca",
+      "start": 25,
+      "end": 45,
+      "text": "банальная информация"
+    }
+  },
+  {
+    "id": "3d27d6aa-e44b-49fb-80f0-00974e76c0f6",
+    "name": "отношение к леди",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "10c5b5cf-e220-4422-b881-1e798022244f",
+      "start": 5,
+      "end": 21,
+      "text": "отношение к леди"
+    }
+  },
+  {
+    "id": "8b2ec8a6-ce42-4945-93c3-74eaa91dc3d8",
+    "name": "пункт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "95075eeb-aaab-432a-9b24-85591d7be5f1",
+      "start": 67,
+      "end": 72,
+      "text": "пункт"
+    }
+  },
+  {
+    "id": "b5687f75-e47c-485e-bcc7-117d726e74ac",
+    "name": "пункты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f428dbb-e9e3-4fcb-86a4-9dea02db2ddc",
+      "start": 21,
+      "end": 27,
+      "text": "пункты"
+    }
+  },
+  {
+    "id": "a9045aa6-213c-4349-b8a1-8f0147d88d63",
+    "name": "пункт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56dc060f-d7d6-4a98-8735-03d53dee8ad2",
+      "start": 5,
+      "end": 10,
+      "text": "пункт"
+    }
+  },
+  {
+    "id": "c44a7d9b-30b3-4fc1-876c-75f87950c434",
+    "name": "джентльмену восемнадцатого века",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56dc060f-d7d6-4a98-8735-03d53dee8ad2",
+      "start": 68,
+      "end": 99,
+      "text": "джентльмену восемнадцатого века"
+    }
+  },
+  {
+    "id": "b068cd06-9b15-40ad-abc0-d56891d07a85",
+    "name": "женщинами",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "adbfe767-8218-4def-812e-b4dba470e726",
+      "start": 21,
+      "end": 30,
+      "text": "женщинами"
+    }
+  },
+  {
+    "id": "f0bca5ea-cc18-4c9e-a5e0-684efb2467c3",
+    "name": "дополнительные советы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3e29eeb-ba94-4235-9406-6ccb14cb9be9",
+      "start": 17,
+      "end": 38,
+      "text": "дополнительные советы"
+    }
+  },
+  {
+    "id": "e97a711a-d1ec-4eb6-8873-444333375ad2",
+    "name": "дополнительные советы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "72b51c9a-2684-4cf3-bed0-b115cc54e5dc",
+      "start": 26,
+      "end": 47,
+      "text": "дополнительные советы"
+    }
+  },
+  {
+    "id": "1076260a-6710-4c1d-ae81-67477c666275",
+    "name": "женщин",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d563158-1779-4c62-867b-a6f3f346bf90",
+      "start": 72,
+      "end": 78,
+      "text": "женщин"
+    }
+  },
+  {
+    "id": "ab7cf638-0eb4-4f4d-bea8-9980c0b90d17",
+    "name": "спасибо",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cd7cb28-173d-4570-a253-283d02da8498",
+      "start": 14,
+      "end": 21,
+      "text": "спасибо"
+    }
+  },
+  {
+    "id": "ebd22703-137d-4f34-9bf1-428f7ef7c5fb",
+    "name": "пожалуйста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cd7cb28-173d-4570-a253-283d02da8498",
+      "start": 24,
+      "end": 33,
+      "text": "пожалуйста"
+    }
+  },
+  {
+    "id": "b4b223f2-ba49-4930-b22f-81ab88147086",
+    "name": "жевать пищу с закрытым ртом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d6e4474-d57a-483e-9234-0cab11aeb683",
+      "start": 29,
+      "end": 57,
+      "text": "жевать пищу с закрытым ртом"
+    }
+  },
+  {
+    "id": "ab2d1e61-c397-42ac-aad0-70f6b95d2a6c",
+    "name": "основные правила этикеты для джентльменов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ddd27cec-8225-4f29-91a4-bad258e85917",
+      "start": 51,
+      "end": 94,
+      "text": "основные правила этикеты для джентльменов"
+    }
+  },
+  {
+    "id": "285ea40c-3ae9-4578-b207-23ff2abd1043",
+    "name": "три разных сайта",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4c1d8605-e691-4218-9c32-7a5bc2b2e619",
+      "start": 27,
+      "end": 43,
+      "text": "три разных сайта"
+    }
+  },
+  {
+    "id": "0b8b85ad-5a1d-405b-9047-ff17f282e612",
+    "name": "дополнительные советы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "934642d3-fa06-494e-bd86-72a17054eadc",
+      "start": 26,
+      "end": 47,
+      "text": "дополнительные советы"
+    }
+  },
+  {
+    "id": "772db44b-0125-4e22-ac0e-5b2b4d3343ca",
+    "name": "дзен точка ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7b8ae29-cc1d-43f9-a7dd-f5cf716c2e49",
+      "start": 4,
+      "end": 17,
+      "text": "дзен точка ру"
+    }
+  },
+  {
+    "id": "24f8be1b-432f-4f43-ba8a-7a788cd98ebd",
+    "name": "статьи на дзене",
+    "type": "publication",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7b8ae29-cc1d-43f9-a7dd-f5cf716c2e49",
+      "start": 44,
+      "end": 59,
+      "text": "статьи на дзене"
+    }
+  },
+  {
+    "id": "1f98dc3f-4abc-4d23-a7dc-5f556285b081",
+    "name": "тревел аск точка ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57936aad-b6ba-43da-8131-fb15fb750486",
+      "start": 6,
+      "end": 25,
+      "text": "тревел аск точка ру"
+    }
+  },
+  {
+    "id": "64c85525-78c2-40e1-83a4-c78ff4be66a3",
+    "name": "чак точка ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57936aad-b6ba-43da-8131-fb15fb750486",
+      "start": 33,
+      "end": 45,
+      "text": "чак точка ру"
+    }
+  },
+  {
+    "id": "2b576658-cc6e-4450-9a57-4ad68e9ae443",
+    "name": "видео",
+    "type": "media",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f049ce96-269c-419f-ae25-626d79109a0d",
+      "start": 27,
+      "end": 32,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "7e709c63-0787-4bf2-8b02-ebd8279ea165",
+    "name": "рекомендация по поводу видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2662aa5a-584e-4fde-85b9-9fdac934dc33",
+      "start": 0,
+      "end": 30,
+      "text": "рекомендация по поводу видео"
+    }
+  },
+  {
+    "id": "36aacd99-6134-4a69-9621-f29d3a9776c0",
+    "name": "как посмотреть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eef46747-912a-43aa-a402-208af63d8c60",
+      "start": 0,
+      "end": 14,
+      "text": "как посмотреть"
+    }
+  },
+  {
+    "id": "13184f67-a61a-4c84-8044-46c9c7a8088c",
+    "name": "посмотреть о том в видео в формате о том же самом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4b831f67-d0d2-40c3-a0c3-a0e7aef1e04e",
+      "start": 5,
+      "end": 54,
+      "text": "посмотреть о том в видео в формате о том же самом"
+    }
+  },
+  {
+    "id": "1e890c78-bf47-4f5d-bf60-943b6d00cc95",
+    "name": "ни слова про него не сказали",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37d5181a-f5de-40e4-ab43-b7a1a8cc9f37",
+      "start": 6,
+      "end": 34,
+      "text": "ни слова про него не сказали"
+    }
+  },
+  {
+    "id": "4bbafc4f-47c7-477e-bb99-f4ba1233d7c8",
+    "name": "завтрашнему классному часу",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d56b529-435c-4cfc-84d2-7a346be426a6",
+      "start": 61,
+      "end": 87,
+      "text": "завтрашнему классному часу"
+    }
+  },
+  {
+    "id": "6d947867-4934-451d-a0aa-8f3c484f0088",
+    "name": "час времени",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "222cb429-efcd-4ef9-aa45-edec39f6065f",
+      "start": 47,
+      "end": 58,
+      "text": "час времени"
+    }
+  },
+  {
+    "id": "7f46388d-576b-4c48-a178-5007010fbaac",
+    "name": "видео на четырнадцать минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb0c75b3-f9ee-4865-a315-8101722a7fb5",
+      "start": 17,
+      "end": 44,
+      "text": "видео на четырнадцать минут"
+    }
+  },
+  {
+    "id": "77501810-23dc-496d-a6a4-8ffb4bb32876",
+    "name": "информацию за три минуты",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb0c75b3-f9ee-4865-a315-8101722a7fb5",
+      "start": 62,
+      "end": 86,
+      "text": "информацию за три минуты"
+    }
+  },
+  {
+    "id": "9d3d0a42-435a-451e-8120-a6af2daca37a",
+    "name": "супер офигенные советы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "add9ce65-1f19-4313-96fc-70f61763f755",
+      "start": 12,
+      "end": 34,
+      "text": "супер офигенные советы"
+    }
+  },
+  {
+    "id": "2800b760-8b0f-4298-bab9-0a4c116823a8",
+    "name": "дня святого валентина",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e573470-3a7e-42a9-bae6-5f0dae0ba226",
+      "start": 76,
+      "end": 97,
+      "text": "дня святого валентина"
+    }
+  },
+  {
+    "id": "f13d77fb-034a-4307-a9cf-fe570f054d64",
+    "name": "видео в картинках",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e573470-3a7e-42a9-bae6-5f0dae0ba226",
+      "start": 155,
+      "end": 172,
+      "text": "видео в картинках"
+    }
+  },
+  {
+    "id": "2f2bf6ec-4295-454c-8d20-2bdb8d376815",
+    "name": "три тире пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e573470-3a7e-42a9-bae6-5f0dae0ba226",
+      "start": 204,
+      "end": 223,
+      "text": "три тире пять минут"
+    }
+  },
+  {
+    "id": "7b5e230c-1773-4d06-94ac-457ead500706",
+    "name": "такой материал",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190c7592-a586-4707-990e-616165cf9a91",
+      "start": 12,
+      "end": 26,
+      "text": "такой материал"
+    }
+  },
+  {
+    "id": "96786a70-af80-467f-8e76-5d0a7450cdca",
+    "name": "четырнадцать минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8efa0ef-0a20-4ce2-9b44-190cea1cdce3",
+      "start": 5,
+      "end": 23,
+      "text": "четырнадцать минут"
+    }
+  },
+  {
+    "id": "ef64cbe6-3f05-43de-9244-1418a339ceeb",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f102c897-bc16-478f-8fd4-688834077f8d",
+      "start": 31,
+      "end": 36,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "380ca41c-05c2-4d9e-b770-3912945a1a3c",
+    "name": "уточнить вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a761d989-3ff2-416f-9966-3e51c5cdf27a",
+      "start": 24,
+      "end": 39,
+      "text": "уточнить вопрос"
+    }
+  },
+  {
+    "id": "69a1c85b-23a6-4b1f-95e4-d54167d0e50a",
+    "name": "время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "449971d1-c8e0-478d-9c04-8157ac829bdb",
+      "start": 35,
+      "end": 40,
+      "text": "время"
+    }
+  },
+  {
+    "id": "acdb3e5d-0421-4c0a-b78e-2874564843d1",
+    "name": "количество просмотров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d73206b1-56e7-4e16-adf3-09da5f4d8fc9",
+      "start": 12,
+      "end": 33,
+      "text": "количество просмотров"
+    }
+  },
+  {
+    "id": "7e3601e7-a13c-4968-a403-4cc18c985c1b",
+    "name": "в контакте",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "short_name",
+        "value": "вк",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ff34857-f23f-4ab7-9690-f0cc1f399841",
+      "start": 57,
+      "end": 66,
+      "text": "в контакте"
+    }
+  },
+  {
+    "id": "6574c70d-28bb-48f3-a891-77471eeb84ab",
+    "name": "вк",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ff34857-f23f-4ab7-9690-f0cc1f399841",
+      "start": 68,
+      "end": 70,
+      "text": "вк"
+    }
+  },
+  {
+    "id": "c4045dd4-1305-497a-ad12-f5a4189e18b6",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ff34857-f23f-4ab7-9690-f0cc1f399841",
+      "start": 74,
+      "end": 79,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "8e9d74d4-363f-4b16-90ca-767f1b022b26",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "078f9535-30a6-494f-aef9-0a435dc7e940",
+      "start": 16,
+      "end": 26,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "c5d77c2f-9788-4650-8ee2-111bce81d259",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "38d275cb-9e87-47dc-930f-ad9320dd412f",
+      "start": 26,
+      "end": 31,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "4fdc446c-8931-4457-b2b2-807fc70c0f56",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acfcaef8-6c18-4473-a4d7-9a3c35fa0f9b",
+      "start": 69,
+      "end": 75,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "1464b623-ce51-49ee-af5e-0499aecbd0a1",
+    "name": "современных джентльменов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acfcaef8-6c18-4473-a4d7-9a3c35fa0f9b",
+      "start": 109,
+      "end": 133,
+      "text": "современных джентльменов"
+    }
+  },
+  {
+    "id": "f3546add-0168-4bac-836a-6be37f276872",
+    "name": "джентльмены, которые нравятся девушкам",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b76b93d-f8a7-48a5-8460-da95f0a57043",
+      "start": 6,
+      "end": 43,
+      "text": "джентльмены, которые нравятся девушкам"
+    }
+  },
+  {
+    "id": "2f80d4d5-e5e9-4a0c-8a35-225dd3de50d6",
+    "name": "день святого валентина",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52fb057f-d83e-41e0-8a01-81b339b2d9de",
+      "start": 16,
+      "end": 37,
+      "text": "день святого валентина"
+    }
+  },
+  {
+    "id": "eb8bd93b-6235-44b9-8f40-6e87d3139e2e",
+    "name": "день святого валентина",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7665b3f3-4120-40e4-8c96-3bc3645e774b",
+      "start": 17,
+      "end": 38,
+      "text": "день святого валентина"
+    }
+  },
+  {
+    "id": "8fab4968-37e8-4203-9e20-a2a0d2cb1b0c",
+    "name": "восьмое марта",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7665b3f3-4120-40e4-8c96-3bc3645e774b",
+      "start": 44,
+      "end": 57,
+      "text": "восьмое марта"
+    }
+  }
+]

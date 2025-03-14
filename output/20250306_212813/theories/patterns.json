@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Product-Concept Association",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Products are associated with concepts that define their functionality or the user needs they address. This suggests a design or marketing strategy focused on highlighting the conceptual benefits of the product.",
+    "examples": [
+      {
+        "text": "Яндекс Музыка - поиск",
+        "explanation": "Яндекс Музыка is a product related to the concept of 'поиск' (search), implying users can search for music within the platform."
+      },
+      {
+        "text": "Яндекс Пэй - рецепт блинов",
+        "explanation": "Яндекс Пэй is a product related to the concept of 'рецепт блинов' (pancake recipe), suggesting users might use the payment system to purchase ingredients or related services."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern highlights how products are being positioned in relation to user needs and activities. It suggests a focus on integrating products into everyday tasks and providing solutions to specific problems."
+  },
+  {
+    "name": "Organization-Concept Relationship",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Organizations are associated with concepts that represent their areas of expertise, research focus, or the problems they are trying to solve. This reflects the organization's mission or core activities.",
+    "examples": [
+      {
+        "text": "Яндекс - нейро",
+        "explanation": "Яндекс is associated with the concept 'нейро' (neural), indicating their involvement in neural networks or AI research."
+      },
+      {
+        "text": "университет - нейро",
+        "explanation": "университет (university) is associated with the concept 'нейро' (neural), indicating their involvement in neural networks or AI research."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals the core competencies and areas of focus for the organizations in the knowledge graph. It helps understand the role each organization plays in the broader ecosystem."
+  },
+  {
+    "name": "Concept Clustering around 'Search'",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The concept of 'search' appears to be a central theme, potentially connecting various products and organizations. This suggests a strong emphasis on information retrieval and accessibility.",
+    "examples": [
+      {
+        "text": "Яндекс Музыка - поиск",
+        "explanation": "The connection between Яндекс Музыка and 'поиск' (search) indicates the importance of search functionality within the music platform."
+      }
+    ],
+    "confidence": 0.7,
+    "significance": "The prominence of 'search' highlights its importance as a core function or value proposition within the represented ecosystem. It suggests that the ability to find information or content quickly and efficiently is a key priority."
+  }
+]

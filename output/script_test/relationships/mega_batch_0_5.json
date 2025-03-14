@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ad322ca8-0c3c-4a89-a4a5-cc82550c1407",
+    "source_id": "d8a9469e-7d31-4189-9a00-3f878438cdf2",
+    "target_id": "9255fa2a-854d-4adf-a024-ff2d4db8f406",
+    "type": "HAS_SUBDIVISION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dc340af1-1cb9-49e0-afb8-cff5712ba520",
+      "start": 36,
+      "end": 95,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, редактор"
+    }
+  },
+  {
+    "id": "76db290a-278e-4c4c-999c-71c726264e7a",
+    "source_id": "d8a9469e-7d31-4189-9a00-3f878438cdf2",
+    "target_id": "2a8859b8-5993-4942-bcf7-c3b15b9321fc",
+    "type": "HAS_SUBDIVISION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dc340af1-1cb9-49e0-afb8-cff5712ba520",
+      "start": 36,
+      "end": 105,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, редактор, пересказ"
+    }
+  },
+  {
+    "id": "f85c040f-0cf0-4b1e-9384-6d79d8964247",
+    "source_id": "d8a9469e-7d31-4189-9a00-3f878438cdf2",
+    "target_id": "f053be3d-bfb2-4ad7-9cf0-3daa692e6abc",
+    "type": "HAS_SUBDIVISION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dc340af1-1cb9-49e0-afb8-cff5712ba520",
+      "start": 36,
+      "end": 116,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, редактор, пересказ и переводчик"
+    }
+  },
+  {
+    "id": "f220b7a9-3dd6-4c4c-94c8-8078d88ca19d",
+    "source_id": "e783442b-549f-43f9-a63b-c2098f0b4459",
+    "target_id": "e606bcd7-5e5d-4ad1-9eb8-bad8fe6a594a",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "edbfbd96-39fe-41eb-8163-17c343fa1ecc",
+      "start": 35,
+      "end": 50,
+      "text": "это условно g пяти, кпт"
+    }
+  },
+  {
+    "id": "6c64719c-0b57-4697-86bb-79e97f635413",
+    "source_id": "41e9d208-9061-493d-8099-33db4fe92422",
+    "target_id": "125dec05-b273-48e8-983e-32be00f43187",
+    "type": "REPLACES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5702adcf-a4bb-4e83-a4ca-1d096cc1d3b7",
+      "start": 8,
+      "end": 54,
+      "text": "назовем алисой, избавляемся от яндекс g пяти"
+    }
+  },
+  {
+    "id": "f9339336-99a9-4b62-8dc2-2072fef0f052",
+    "source_id": "5b664471-9866-4cc1-9f37-0ff7bdeb988b",
+    "target_id": "d7c52558-67b1-4c2d-9afa-6e650f22212b",
+    "type": "ASSIGNED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1aa01b1-7a30-43ae-a2f0-6241b29c3927",
+      "start": 14,
+      "end": 46,
+      "text": "задание в университете делать реферат"
+    }
+  },
+  {
+    "id": "8d4c9a6c-4d61-46e8-bf19-a15d2792bfc0",
+    "source_id": "5b664471-9866-4cc1-9f37-0ff7bdeb988b",
+    "target_id": "29b22b12-4f9e-476a-bf87-f9495e687cbf",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1aa01b1-7a30-43ae-a2f0-6241b29c3927",
+      "start": 40,
+      "end": 60,
+      "text": "делать реферат научной статьи"
+    }
+  }
+]

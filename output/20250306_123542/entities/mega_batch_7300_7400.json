@@ -1,0 +1,933 @@
+[
+  {
+    "id": "23079c04-cac0-48aa-86bc-499088389e22",
+    "name": "ответила",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "48465da8-46e1-4bff-818f-5308ff6e2fd2",
+      "start": 24,
+      "end": 32,
+      "text": "ответила"
+    }
+  },
+  {
+    "id": "63092ade-78dd-4fd7-92fb-90994af4e751",
+    "name": "дала ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "48465da8-46e1-4bff-818f-5308ff6e2fd2",
+      "start": 39,
+      "end": 50,
+      "text": "дала ссылки"
+    }
+  },
+  {
+    "id": "d34079b1-9695-4ab0-8b4c-278cad7f6a0c",
+    "name": "поискать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "48465da8-46e1-4bff-818f-5308ff6e2fd2",
+      "start": 55,
+      "end": 63,
+      "text": "поискать"
+    }
+  },
+  {
+    "id": "8d1091a2-b933-4898-8b39-d0d27657ede4",
+    "name": "засыпал вопросов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "899abcc4-3b3d-463a-b6f5-158aaf5c9b5e",
+      "start": 17,
+      "end": 33,
+      "text": "засыпал вопросов"
+    }
+  },
+  {
+    "id": "3869f5cc-c0b9-4e72-b6f5-1f5b11ea77af",
+    "name": "важно расспрашивать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "899abcc4-3b3d-463a-b6f5-158aaf5c9b5e",
+      "start": 65,
+      "end": 84,
+      "text": "важно расспрашивать"
+    }
+  },
+  {
+    "id": "ad82b9a2-7560-4d32-a1ec-832d60eb37b0",
+    "name": "поделать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c38d7d73-81d2-4f42-9209-c4c0b6aaff92",
+      "start": 34,
+      "end": 42,
+      "text": "поделать"
+    }
+  },
+  {
+    "id": "7cbc6ebb-f86d-44af-95fe-8710c8b8d41b",
+    "name": "разбить на три части",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d77d55d-9eeb-4b1e-88f0-f46411da5114",
+      "start": 17,
+      "end": 37,
+      "text": "разобью на три части"
+    }
+  },
+  {
+    "id": "c1d4b595-5ab1-4e97-990b-6e5009b7245e",
+    "name": "попрошу вас поискать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d77d55d-9eeb-4b1e-88f0-f46411da5114",
+      "start": 44,
+      "end": 64,
+      "text": "попрошу вас поискать"
+    }
+  },
+  {
+    "id": "848cdb92-9bb8-4f44-9da4-bb1ef02e9143",
+    "name": "уложиться",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4815ae78-e00b-44fb-b020-4fc1b76906c0",
+      "start": 24,
+      "end": 33,
+      "text": "уложиться"
+    }
+  },
+  {
+    "id": "f25077dc-0f01-4f3d-b294-7479c59ae518",
+    "name": "поделюсь своим экраном",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4815ae78-e00b-44fb-b020-4fc1b76906c0",
+      "start": 53,
+      "end": 75,
+      "text": "поделюсь своим экраном"
+    }
+  },
+  {
+    "id": "df953cb1-4725-4b80-bbfa-d6b74cfa3c13",
+    "name": "передам возможность управления своим экраном",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4815ae78-e00b-44fb-b020-4fc1b76906c0",
+      "start": 79,
+      "end": 123,
+      "text": "передам возможность управления своим экраном"
+    }
+  },
+  {
+    "id": "18e23d60-6579-40b4-9c47-3ad32f6d7d75",
+    "name": "курсором",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ecf50c9-b7b8-487f-9fe7-ca51ea92948a",
+      "start": 16,
+      "end": 24,
+      "text": "курсором"
+    }
+  },
+  {
+    "id": "fe3092c4-0c04-4ed1-b577-6c64dc62f604",
+    "name": "мышкой",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ecf50c9-b7b8-487f-9fe7-ca51ea92948a",
+      "start": 34,
+      "end": 40,
+      "text": "мышкой"
+    }
+  },
+  {
+    "id": "81f6c47c-75c3-4e9f-ae39-3cc164e05761",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9faa1148-37e8-4a79-b3ef-75b91f7c7093",
+      "start": 21,
+      "end": 27,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "c9948aef-51da-4aca-94f4-6a7051a1c419",
+    "name": "настроить",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6df66ae-1bd1-4299-88e6-bf9d6309f834",
+      "start": 35,
+      "end": 44,
+      "text": "настроить"
+    }
+  },
+  {
+    "id": "44039ab6-2ce2-46b9-b51e-1bb78f9214b4",
+    "name": "большой экран",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3eba5a2-557b-466b-b562-247eb8b2052e",
+      "start": 11,
+      "end": 24,
+      "text": "большой экран"
+    }
+  },
+  {
+    "id": "8b7c1c45-acc4-40bd-b333-d4472896b89c",
+    "name": "экран",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88947dee-3e08-4ca3-8a39-aab3609fe971",
+      "start": 16,
+      "end": 21,
+      "text": "экран"
+    }
+  },
+  {
+    "id": "f9a9b69e-5492-41d4-b958-e120d09f5cf3",
+    "name": "ноутбук",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3a70db2-5d9e-4c61-b12c-c78df6d7ca79",
+      "start": 8,
+      "end": 15,
+      "text": "ноутбук"
+    }
+  },
+  {
+    "id": "c01b8190-f39d-4160-a4c5-12324893d266",
+    "name": "монитора",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3a70db2-5d9e-4c61-b12c-c78df6d7ca79",
+      "start": 19,
+      "end": 27,
+      "text": "монитора"
+    }
+  },
+  {
+    "id": "d471af3e-6d48-42b3-94f9-042f06ac9eec",
+    "name": "ноутбук",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f967f9e1-5500-4be3-9675-62603ee81e9d",
+      "start": 10,
+      "end": 17,
+      "text": "ноутбук"
+    }
+  },
+  {
+    "id": "88b80464-05be-4a19-be33-c828b1df5587",
+    "name": "стандартный",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56f31e42-2549-45a9-9e63-30539c48f248",
+      "start": 19,
+      "end": 30,
+      "text": "стандартный"
+    }
+  },
+  {
+    "id": "daccffca-53fa-409e-a550-546a1d4f3798",
+    "name": "транслируется",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88b5ad04-297d-46d7-8ee1-918f3c1faf7c",
+      "start": 40,
+      "end": 53,
+      "text": "транслируется"
+    }
+  },
+  {
+    "id": "aa3fc2fe-8ec5-4595-b9b3-a7b3f0490b94",
+    "name": "сложностей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7596250-dfc4-4c59-8dea-eee05fe6a612",
+      "start": 18,
+      "end": 28,
+      "text": "сложностей"
+    }
+  },
+  {
+    "id": "5cee5ec5-3d8a-456b-ae28-5bb23070e6ea",
+    "name": "проблем",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7596250-dfc4-4c59-8dea-eee05fe6a612",
+      "start": 30,
+      "end": 37,
+      "text": "проблем"
+    }
+  },
+  {
+    "id": "88e296d9-5860-49fc-b863-cb7134e373f4",
+    "name": "вторая часть всей этой истории",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1738cd41-bffa-4182-a373-d4241c47eccf",
+      "start": 7,
+      "end": 37,
+      "text": "вторая часть всей этой истории"
+    }
+  },
+  {
+    "id": "d1151385-50a7-47a2-89e6-7b5a1ca404de",
+    "name": "управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f130a17-4ce9-4b26-ad8e-02ae57315eb3",
+      "start": 21,
+      "end": 31,
+      "text": "управление"
+    }
+  },
+  {
+    "id": "46e2f74d-79b1-4b89-ab48-e9a96bef7e25",
+    "name": "курсор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4eec901-e8c7-4771-ae1f-b2c59948ea4e",
+      "start": 71,
+      "end": 78,
+      "text": "курсором"
+    }
+  },
+  {
+    "id": "0880eded-018c-485f-b483-c30c24f7ece3",
+    "name": "доступ мыши",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08617517-de98-440f-adfb-cecb07023f3b",
+      "start": 15,
+      "end": 26,
+      "text": "доступ мыши"
+    }
+  },
+  {
+    "id": "92015b26-93b3-4294-83d4-8f764014e365",
+    "name": "клавиатура",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08617517-de98-440f-adfb-cecb07023f3b",
+      "start": 41,
+      "end": 51,
+      "text": "клавиатуре"
+    }
+  },
+  {
+    "id": "dd6290e0-1cf3-4c84-b4bc-697279eb1be7",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7980c65d-f8e8-403c-baa3-b03f9ce33372",
+      "start": 54,
+      "end": 60,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "69dc9c9a-414c-4928-bab2-bafaaaf0d835",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b1b2398-cdf0-4779-afba-b34de43cd225",
+      "start": 9,
+      "end": 16,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "820a1984-a517-436b-9cf4-fe9922147297",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4c6fb74-9ae1-4e8f-8e4d-e7245f65f508",
+      "start": 34,
+      "end": 41,
+      "text": "запросов"
+    }
+  },
+  {
+    "id": "93404c47-afc2-46ee-ac75-fe89e10fe05a",
+    "name": "тематика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b6ad488c-d85e-4bb1-a14f-e170bb431f4f",
+      "start": 64,
+      "end": 72,
+      "text": "тематики"
+    }
+  },
+  {
+    "id": "7cf97ee0-714f-4e52-9acf-2de521d35ad2",
+    "name": "уклон",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a93eb790-09f0-47c9-a454-e39e2b9da643",
+      "start": 24,
+      "end": 29,
+      "text": "уклон"
+    }
+  },
+  {
+    "id": "a138911e-1c61-4b18-91e0-e11500ede9df",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a93eb790-09f0-47c9-a454-e39e2b9da643",
+      "start": 45,
+      "end": 56,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "d1329a43-acb5-435d-991e-7bb80b303fb2",
+    "name": "информационной",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "28ade74a-131c-4d17-9c9e-5b271d243832",
+      "start": 34,
+      "end": 48,
+      "text": "информационной"
+    }
+  },
+  {
+    "id": "5e8d53b0-7f46-4905-b5f5-58e4f1540e31",
+    "name": "ссылка на сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "28ade74a-131c-4d17-9c9e-5b271d243832",
+      "start": 135,
+      "end": 149,
+      "text": "ссылка на сайт"
+    }
+  },
+  {
+    "id": "a0e63279-78ea-43c9-974d-29956e6b431d",
+    "name": "прямого ответа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bda54c84-3221-4ac1-a7b4-5642a2da362c",
+      "start": 14,
+      "end": 28,
+      "text": "прямого ответа"
+    }
+  },
+  {
+    "id": "875839ae-c075-44e1-8c4a-47b10ddc7d24",
+    "name": "останкинской башни",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1bc5f3c1-3f4d-47be-9afa-8134b264da33",
+      "start": 7,
+      "end": 25,
+      "text": "останкинской башни"
+    }
+  },
+  {
+    "id": "76be9642-da1a-4b46-bf3a-730cf55f7ec6",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8804f8b2-91ca-486b-8a77-ccb3cc090f7a",
+      "start": 46,
+      "end": 52,
+      "text": "музыкой"
+    }
+  },
+  {
+    "id": "e359f990-a39a-4993-854d-6bef8daaeae8",
+    "name": "технология",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8804f8b2-91ca-486b-8a77-ccb3cc090f7a",
+      "start": 65,
+      "end": 75,
+      "text": "технология"
+    }
+  },
+  {
+    "id": "46581d65-db81-4ced-b50b-03c19d88f105",
+    "name": "выбор места",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8804f8b2-91ca-486b-8a77-ccb3cc090f7a",
+      "start": 86,
+      "end": 97,
+      "text": "выбор места"
+    }
+  },
+  {
+    "id": "00cc849c-954a-4318-9b00-a57cf56cc49a",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8804f8b2-91ca-486b-8a77-ccb3cc090f7a",
+      "start": 117,
+      "end": 139,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "2e9b8d97-fc61-46cd-92a1-547acdbcf9e2",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a305b297-53bc-4802-8879-57a7949e6557",
+      "start": 62,
+      "end": 72,
+      "text": "информацию"
+    }
+  },
+  {
+    "id": "7b091456-2aeb-4995-a8e4-19ef53413235",
+    "name": "вокальные техники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4cf77dfc-7693-43c4-863c-304d7d6bfb57",
+      "start": 21,
+      "end": 38,
+      "text": "вокальные техники"
+    }
+  },
+  {
+    "id": "10da0048-67f9-4e44-a5cf-bbbcceed32d2",
+    "name": "сравнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00833e17-a7b9-41b6-8056-d619730cc077",
+      "start": 5,
+      "end": 15,
+      "text": "сравнением"
+    }
+  },
+  {
+    "id": "d5236586-6697-4aa7-9f49-c24eb2a08922",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78a947b6-154a-4d92-bc9b-350c60c34a65",
+      "start": 91,
+      "end": 97,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "461bd736-470a-48d5-b9a7-48b9049afae6",
+    "name": "тостеры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89bd36b8-4aa9-4fb4-9e08-f4c6f6539c71",
+      "start": 24,
+      "end": 31,
+      "text": "тостеры"
+    }
+  },
+  {
+    "id": "60930ee8-02b2-4135-82be-a2a586f2eaad",
+    "name": "типы тостеров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89bd36b8-4aa9-4fb4-9e08-f4c6f6539c71",
+      "start": 71,
+      "end": 84,
+      "text": "типы этих тостеров"
+    }
+  },
+  {
+    "id": "e11a8b18-8f35-4e3c-838f-9e3ebf256c6f",
+    "name": "сравнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e258dec3-12cc-437d-b342-66b1a10df476",
+      "start": 11,
+      "end": 20,
+      "text": "сравнение"
+    }
+  },
+  {
+    "id": "9c7e5bf3-6a45-47aa-815c-fd129f5e51a9",
+    "name": "сравнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2123704-9afe-40de-afeb-4e8006d60509",
+      "start": 8,
+      "end": 17,
+      "text": "сравнение"
+    }
+  },
+  {
+    "id": "47f655d0-9ceb-4e0b-a9fa-71f125460ab0",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34026b4a-d395-461f-9621-fa7295fcad69",
+      "start": 21,
+      "end": 31,
+      "text": "информацией"
+    }
+  },
+  {
+    "id": "d507e80a-2848-4e28-8d85-2f49773cb99c",
+    "name": "техники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4ee2d12e-c393-4baa-9442-83c29e32cfbf",
+      "start": 44,
+      "end": 51,
+      "text": "техники"
+    }
+  },
+  {
+    "id": "a3dc2c89-14b4-4587-a754-fd6cc650cf3f",
+    "name": "минусовку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44ece7c8-8241-454d-bfc3-2a66dab5b0e7",
+      "start": 37,
+      "end": 46,
+      "text": "минусовку"
+    }
+  },
+  {
+    "id": "48e57839-2858-4174-8d4b-f91419990360",
+    "name": "качество",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44ece7c8-8241-454d-bfc3-2a66dab5b0e7",
+      "start": 51,
+      "end": 59,
+      "text": "качество"
+    }
+  },
+  {
+    "id": "15f9acb1-9aff-45b1-84e5-160581a9a33e",
+    "name": "качество записи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54fcbe26-a00c-43c1-acd0-b297a12ee7c1",
+      "start": 0,
+      "end": 15,
+      "text": "качество записи"
+    }
+  },
+  {
+    "id": "2a93abe3-9082-43bd-93ec-1a135200660d",
+    "name": "минус",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54fcbe26-a00c-43c1-acd0-b297a12ee7c1",
+      "start": 22,
+      "end": 27,
+      "text": "минуса"
+    }
+  },
+  {
+    "id": "08895a00-0ce7-462f-a397-d82a6b119717",
+    "name": "сравнение звука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8c4394e6-a1d3-48fb-a97a-ab5a169f3567",
+      "start": 62,
+      "end": 77,
+      "text": "сравнение звука"
+    }
+  },
+  {
+    "id": "4bfb6deb-f2a8-4d6a-bf0d-1bdff18ecc8b",
+    "name": "сравнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4a56ae1-2622-491e-b1a5-6e418def6471",
+      "start": 0,
+      "end": 9,
+      "text": "сравнение"
+    }
+  },
+  {
+    "id": "78971360-34f7-4783-a786-46efef1bbd08",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ba8dc9c-3897-4061-8d0b-100830bb5f02",
+      "start": 13,
+      "end": 23,
+      "text": "информация"
+    }
+  },
+  {
+    "id": "7a7943a4-d1f5-4613-a452-92d018d9830c",
+    "name": "достопримечательность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8657ac5-fa50-4e59-b6c5-3bb012c8c89f",
+      "start": 45,
+      "end": 66,
+      "text": "достопримечательность"
+    }
+  },
+  {
+    "id": "6ea12ced-e5e8-4833-92f9-2dedc64ed670",
+    "name": "май",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "month",
+        "value": "5",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da64ae02-0b18-4fd0-b64c-f7db5e1fa44b",
+      "start": 3,
+      "end": 6,
+      "text": "мае"
+    }
+  },
+  {
+    "id": "4e223ce7-6fbf-4804-b4f8-4cb48dcde033",
+    "name": "поездка",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da64ae02-0b18-4fd0-b64c-f7db5e1fa44b",
+      "start": 22,
+      "end": 29,
+      "text": "поездка"
+    }
+  },
+  {
+    "id": "c695fd3a-172c-4655-ad2d-cebcc63f0c92",
+    "name": "Уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da64ae02-0b18-4fd0-b64c-f7db5e1fa44b",
+      "start": 32,
+      "end": 36,
+      "text": "уфу"
+    }
+  },
+  {
+    "id": "8ae83fcd-cd7f-4fa3-a5bd-c3d324f38138",
+    "name": "город",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "10736166-8404-4b33-b448-05f97f27d16b",
+      "start": 5,
+      "end": 10,
+      "text": "городе"
+    }
+  },
+  {
+    "id": "28402adf-14c3-4808-9a4f-5ebbe640be68",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d67b9818-9b90-4d7a-9646-004d41c963e3",
+      "start": 64,
+      "end": 69,
+      "text": "поиск"
+    }
+  }
+]

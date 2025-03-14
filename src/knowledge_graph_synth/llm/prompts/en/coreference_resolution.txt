@@ -1,0 +1,29 @@
+Analyze the following list of entities extracted from different text segments and determine which ones refer to the same concept.
+
+Entities:
+{{entities}}
+
+For each group of potentially matching entities:
+
+1. Determine if they are indeed the same entity (yes/no)
+2. If yes, specify the canonical name for this entity
+3. Explain the reason for the decision (lexical similarity, contextual similarity, semantic similarity)
+4. Provide your level of confidence in the decision (0-1)
+5. Compile a combined list of attributes from all mentions
+
+Consider:
+- Synonyms and spelling variations
+- Hypernyms and hyponyms (genus-species relationships)
+- Metonymy (designation of an object through a related concept)
+- Anaphoric references (he, she, they, this, etc.)
+
+Pay special attention to:
+- Entities with similar names but different types
+- Entities with different names but similar attributes
+- Entities that appear in related contexts
+- Potential disambiguations needed for entities with the same name
+
+Present the result in JSON format with fields: entity_ids, canonical_name, canonical_type, merge_decision, reason, confidence, combined_attributes.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

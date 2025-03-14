@@ -1,0 +1,114 @@
+[
+  {
+    "id": "61f876f9-6224-4ccb-9b18-8b4575b1e18e",
+    "source_id": "622ab0fd-9020-4acb-9603-49ff466d0309",
+    "target_id": "304cb130-680a-4eee-a59d-2c7a3a272c9f",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e42fdc66-1f46-4877-9504-76267944f22d",
+      "start": 102,
+      "end": 111,
+      "text": "яндекс гбт"
+    }
+  },
+  {
+    "id": "95c875ad-1eda-41ac-bb4a-1526075698a4",
+    "source_id": "837e55e7-f269-4b8c-844c-d0b56d289df1",
+    "target_id": "1cec4823-e855-4057-a2a1-084d46208dc2",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8eec55e-cdda-4862-8f37-0f37914ce6ef",
+      "start": 76,
+      "end": 81,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "4264f4c3-b6d5-4155-9e0c-753b72e72c0c",
+    "source_id": "837e55e7-f269-4b8c-844c-d0b56d289df1",
+    "target_id": "97e6eb18-90e1-464d-ae98-a591ccf20721",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8eec55e-cdda-4862-8f37-0f37914ce6ef",
+      "start": 76,
+      "end": 81,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "857f1ff2-a1c6-42ea-b8b6-6b1119d87637",
+    "source_id": "837e55e7-f269-4b8c-844c-d0b56d289df1",
+    "target_id": "e84f2b84-4d49-4efa-9fe1-50f44cada345",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8eec55e-cdda-4862-8f37-0f37914ce6ef",
+      "start": 76,
+      "end": 81,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "2a6c9c1d-cc4f-4b56-a47a-206ea80918d9",
+    "source_id": "02c84a91-faee-46c5-bbf8-16a10b0f0915",
+    "target_id": "06870e9e-e29a-48fd-acbc-c52b1f2c48d7",
+    "type": "SIMILAR_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "38235abf-c5c2-4b59-bacc-7c61f828fe21",
+      "start": 42,
+      "end": 49,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "40e04f28-6c58-4056-be30-838312a12ae0",
+    "source_id": "e400cf0e-6549-48d5-9cc2-c660f32fb773",
+    "target_id": "91492f9c-807b-4a4d-9c82-81408d2de256",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eba34ade-d689-47a3-b7f4-077ad2820810",
+      "start": 15,
+      "end": 26,
+      "text": "женское имя"
+    }
+  },
+  {
+    "id": "b0509ef8-1701-41c7-b895-6dbc2dcf6bbe",
+    "source_id": "ee63b25a-f1c9-48cf-86cc-58576da383a4",
+    "target_id": "78e87697-7f04-4875-aa36-73ddaa7dfde2",
+    "type": "MAY_AFFECT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7569734f-3925-4cdd-9e6f-b805a24dcebf",
+      "start": 63,
+      "end": 66,
+      "text": "vpn"
+    }
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "c2be6d76-f307-4e22-b7cc-8580a1ad28d7",
+    "name": "отзыв",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a3269d08-3176-40fe-a8d5-b2db2a04d4e2",
+      "start": 54,
+      "end": 59,
+      "text": "отзыв"
+    }
+  },
+  {
+    "id": "08763e69-26ad-4347-b4ab-dce781741c35",
+    "name": "отзыв",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2e277fb5-f336-445c-86de-fd7d2e018772",
+      "start": 2,
+      "end": 7,
+      "text": "отзы-"
+    }
+  },
+  {
+    "id": "b0b61829-299d-4749-91fd-93641af442bd",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "84e62ff6-d4af-4907-b5d2-658c33ed7983",
+      "start": 56,
+      "end": 61,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "3eeccb88-69d9-42a1-a4c2-6b6994354b06",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7c5a6aa4-02b8-4f52-a099-0e067ff7d510",
+      "start": 21,
+      "end": 30,
+      "text": "нейросетью"
+    }
+  },
+  {
+    "id": "dac9e70e-ce20-463b-a81c-be315a50b902",
+    "name": "подборка мероприятий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6dd91e0-4624-4b9a-9060-8bb1b7b399fb",
+      "start": 0,
+      "end": 20,
+      "text": "подборка мероприятий"
+    }
+  },
+  {
+    "id": "9ee82672-5a03-412d-8894-7aa991586110",
+    "name": "концерт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6dd91e0-4624-4b9a-9060-8bb1b7b399fb",
+      "start": 22,
+      "end": 31,
+      "text": "концертов"
+    }
+  },
+  {
+    "id": "75eeb388-769e-41c0-a840-2b9b69059484",
+    "name": "блогер",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f913f2c1-5e4a-470e-8ba6-3fd65a9d4138",
+      "start": 26,
+      "end": 33,
+      "text": "блогера"
+    }
+  },
+  {
+    "id": "a187e4de-222c-4905-b416-74fdf3aed58b",
+    "name": "Саратов",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "becff563-dc84-48ec-b0f4-df755d41fbca",
+      "start": 24,
+      "end": 32,
+      "text": "саратове"
+    }
+  },
+  {
+    "id": "160915d6-68a6-4141-b03f-43f18add819a",
+    "name": "телеграмм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1df7de4-c072-4e9e-b1cd-f3a77397b0cf",
+      "start": 11,
+      "end": 21,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "2f7f1bf1-cb6a-4de1-b18b-29275fba36b5",
+    "name": "блогер",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1df7de4-c072-4e9e-b1cd-f3a77397b0cf",
+      "start": 31,
+      "end": 38,
+      "text": "блогера"
+    }
+  },
+  {
+    "id": "f1516c20-0539-43d8-9114-918d914b01e9",
+    "name": "удаленный стол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26b649ae-a927-4de7-aefd-13d7907a8299",
+      "start": 16,
+      "end": 30,
+      "text": "удаленному столу"
+    }
+  },
+  {
+    "id": "2d7bfaf3-dc02-4f19-8711-449027fa68df",
+    "name": "гост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "50d6e42b-7c3c-4a3f-a6be-1fb55977ef37",
+      "start": 55,
+      "end": 60,
+      "text": "госта"
+    }
+  },
+  {
+    "id": "1d607d51-053a-4dc4-bdd4-378f66f459f1",
+    "name": "кост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a22b259-6286-4746-9ba7-8e23e7f16e2a",
+      "start": 26,
+      "end": 30,
+      "text": "кост"
+    }
+  },
+  {
+    "id": "10e092f9-3912-45ee-aeb6-be5a3575b8d0",
+    "name": "гост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f67f1766-784c-469a-a1c7-a035e2985e29",
+      "start": 21,
+      "end": 25,
+      "text": "гост"
+    }
+  }
+]

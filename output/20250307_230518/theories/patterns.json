@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Hub: Gregory",
+    "type": "structural",
+    "subtype": "hub",
+    "description": "Gregory is a central entity connected to many others",
+    "entities": [
+      "428c2a34-bc9b-473e-8af2-08828beb1fe3"
+    ],
+    "examples": [
+      {
+        "text": "Gregory is connected to shipping empire, Jacob Price, Nathaniel Price",
+        "explanation": "Gregory serves as a hub connecting multiple entities"
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "name": "Centrality of Gregory and the Blythe Family",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Gregory and the Blythe family are highly connected nodes within the graph, involved in multiple relationships of different types.  This suggests they are central figures in the narrative or domain.",
+    "examples": [
+      {
+        "text": "Gregory → shipping empire (owns)",
+        "explanation": "Gregory owns a significant organization."
+      },
+      {
+        "text": "Nathaniel Price → Gregory (works_for)",
+        "explanation": "Gregory has employees, indicating a position of authority."
+      },
+      {
+        "text": "Maxwell Finch → Gregory (relative_of)",
+        "explanation": "Gregory has family connections within the graph."
+      },
+      {
+        "text": "Prudence Hartwell → Gregory (has_feelings_for)",
+        "explanation": "Gregory is the object of another character's affections."
+      },
+      {
+        "text": "Prudence Hartwell → Blythe family (works_for)",
+        "explanation": "The Blythe family, like Gregory, is an employer."
+      },
+      {
+        "text": "Amelia Cole → Blythe family (investigates)",
+        "explanation": "The Blythe family is the subject of an investigation."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern suggests that Gregory and the Blythe family are likely protagonists or key figures in a story or situation.  Their high connectivity indicates their importance and influence."
+  },
+  {
+    "name": "Professional Network around Investigation",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Several entities are connected through professional relationships, particularly centered around an investigation. This includes a journalist, an informant, and potentially others with occupations relevant to uncovering information.",
+    "examples": [
+      {
+        "text": "Amelia Cole → journalist (works_for)",
+        "explanation": "Amelia Cole is a journalist, a profession often involved in investigations."
+      },
+      {
+        "text": "Amelia Cole → Blythe family (investigates)",
+        "explanation": "Amelia is actively investigating the Blythe family."
+      },
+      {
+        "text": "Dr. Tobias Sinclair → Amelia (informant_for)",
+        "explanation": "Dr. Sinclair provides information to Amelia, supporting her investigation."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern highlights a core narrative element: an investigation. The professional relationships suggest a structured effort to uncover information about the Blythe family."
+  },
+  {
+    "name": "Social Circle and Secrets",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "There's a cluster of relationships indicating a social circle, with hints of secrets or hidden information. This includes relationships like 'confidante_of', 'witnessed', 'noticed', and 'seeks_counsel_from'.",
+    "examples": [
+      {
+        "text": "Prudence → Reverend Edmund Crane (seeks_counsel_from)",
+        "explanation": "Prudence seeks advice, suggesting a possible secret or dilemma."
+      },
+      {
+        "text": "Madame Agnes → Eleanor (confidante_of)",
+        "explanation": "Madame Agnes is a confidante, implying the sharing of private information."
+      },
+      {
+        "text": "Simon Bellows → Jacob (witnessed)",
+        "explanation": "Simon witnessed something involving Jacob, potentially a significant event."
+      },
+      {
+        "text": "Prudence → Nathaniel (witnessed)",
+        "explanation": "Prudence also witnessed something, possibly connected to the same event as Simon, or a separate incident involving Nathaniel."
+      },
+      {
+        "text": "Reverend Crane → Celia Rhodes (noticed)",
+        "explanation": "The Reverend noticed something about Celia, suggesting a potential observation of importance."
+      },
+      {
+        "text": "Harriet → Maxwell (noticed)",
+        "explanation": "Harriet also noticed something, in this case about Maxwell."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern suggests a narrative layer of hidden information and interpersonal dynamics. The characters involved may be privy to secrets or involved in events that are not fully public."
+  },
+  {
+    "name": "Location-Based Relationships",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Several entities are connected through their relationship to specific locations. This creates a sense of place and suggests potential interactions or events tied to these locations.",
+    "examples": [
+      {
+        "text": "tea salon → Glenmoor (located_in)",
+        "explanation": "The tea salon is a specific place within Glenmoor."
+      },
+      {
+        "text": "attic → bookstore (located_in)",
+        "explanation": "The attic is part of the bookstore."
+      },
+      {
+        "text": "Celia Rhodes → estate (located_near)",
+        "explanation": "Celia Rhodes is located near an estate, suggesting a potential connection or proximity to events occurring there."
+      },
+      {
+        "text": "Harriet → bookstore (manages)",
+        "explanation": "Harriet manages the bookstore, linking her directly to that location."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern establishes a geographical context for the narrative or domain. The relationships between entities and locations can be crucial for understanding events, interactions, and potential conflicts."
+  }
+]

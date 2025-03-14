@@ -1,0 +1,464 @@
+[
+  {
+    "id": "4500fc84-9485-4430-96be-ea698e8e7142",
+    "name": "университет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03b80fff-5607-4ec5-96c0-18b1410ee210",
+      "start": 24,
+      "end": 35,
+      "text": "университете"
+    }
+  },
+  {
+    "id": "e313a7df-85b7-409b-b8a4-eb0eb47fd950",
+    "name": "реферат научной статьи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03b80fff-5607-4ec5-96c0-18b1410ee210",
+      "start": 43,
+      "end": 64,
+      "text": "реферат научной статьи"
+    }
+  },
+  {
+    "id": "f106e317-9068-417a-b92d-a22a9d1b0660",
+    "name": "преподаватель",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e152dabd-a10c-4321-bfdf-57966aaa54d0",
+      "start": 71,
+      "end": 84,
+      "text": "преподаватель"
+    }
+  },
+  {
+    "id": "eea232a2-df58-44d8-87fb-02b9a9a74cd2",
+    "name": "реферат научной статьи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e152dabd-a10c-4321-bfdf-57966aaa54d0",
+      "start": 137,
+      "end": 158,
+      "text": "реферат научной статьи"
+    }
+  },
+  {
+    "id": "6340ff17-c9ec-44ca-8a62-cfaf03710dd5",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b363836-f77d-4c08-9b7c-f3679c85a30e",
+      "start": 69,
+      "end": 75,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "491193e6-f858-42c3-9f59-cfc624ca3321",
+    "name": "пласт задач",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "474c5356-7641-4d93-95a0-436ba54cfbe4",
+      "start": 24,
+      "end": 35,
+      "text": "пласт задач"
+    }
+  },
+  {
+    "id": "2931e4f1-026e-4576-bca5-a17c368db071",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4703398e-ed4c-4515-b77f-391e8afeaf79",
+      "start": 34,
+      "end": 40,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "83775e83-c063-49e9-b0c3-e314cd3dd201",
+    "name": "госст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2845983-9260-440c-be0c-23c13af1fb39",
+      "start": 76,
+      "end": 81,
+      "text": "госст"
+    }
+  },
+  {
+    "id": "abca0a26-a1c8-4eca-85c7-82be46185cdc",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98c138a8-0fc6-4328-a839-d36e7c04b312",
+      "start": 14,
+      "end": 20,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "9c477e3f-62f3-4b31-a0df-554cf4dffb3b",
+    "name": "гост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58cac940-6203-46f1-bbbd-9605c5f026dd",
+      "start": 36,
+      "end": 41,
+      "text": "госту"
+    }
+  },
+  {
+    "id": "7009e0b2-da23-4e64-81e6-5fb4fc42a837",
+    "name": "реферат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2981360e-fea8-4b70-a690-cffb61033f38",
+      "start": 75,
+      "end": 82,
+      "text": "рефератом"
+    }
+  },
+  {
+    "id": "dee9ac74-f85b-4f77-bc89-1d907d0befdc",
+    "name": "реферат научная статья",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f31d503a-30a2-4527-8ae3-8e6f73d87342",
+      "start": 0,
+      "end": 21,
+      "text": "реферат научная статья"
+    }
+  },
+  {
+    "id": "6137dd2d-ec7d-40e3-98a1-e70b64b0541c",
+    "name": "научная статья",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fcda4db2-d3f4-48ca-abad-c4a24980160b",
+      "start": 12,
+      "end": 26,
+      "text": "научную статью"
+    }
+  },
+  {
+    "id": "8797ff31-a24b-473d-b610-a425466a33c3",
+    "name": "реферат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fcda4db2-d3f4-48ca-abad-c4a24980160b",
+      "start": 71,
+      "end": 78,
+      "text": "реферат"
+    }
+  },
+  {
+    "id": "6d167cac-6493-40ee-bad7-78d0a270e7b7",
+    "name": "товарищ",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23604e38-8de2-48c7-a04e-f3691d4f8e83",
+      "start": 76,
+      "end": 84,
+      "text": "товарищей"
+    }
+  },
+  {
+    "id": "cc4005a7-5388-4dfa-a6af-94b556d9a9f6",
+    "name": "опен- ай",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58406ee0-a9ce-474e-9fa5-015f552f4b79",
+      "start": 76,
+      "end": 83,
+      "text": "опен- ай"
+    }
+  },
+  {
+    "id": "fb1361d9-da1c-40c3-a88e-aeb21d8166e5",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aaac0658-fd5e-405f-86d7-ccff19df9535",
+      "start": 21,
+      "end": 27,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "f0224a90-4d4a-45cf-b5b5-ba15a5a63bb9",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aaac0658-fd5e-405f-86d7-ccff19df9535",
+      "start": 35,
+      "end": 41,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "817fdf9b-87e8-4be8-84b4-dd84513fbfbb",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f356cc7-1bdb-4460-b35a-fd474eeca413",
+      "start": 118,
+      "end": 124,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "392178b3-7aa9-495a-8a51-eb6d4accacb8",
+    "name": "чат же питета",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "597db50c-bbf5-443b-9446-27ead516d900",
+      "start": 13,
+      "end": 25,
+      "text": "чат же питета"
+    }
+  },
+  {
+    "id": "193f664d-fcf1-409a-bd6c-5c0315582b1b",
+    "name": "чат g",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3573d043-e7ee-4a3b-b39d-58273f5a46a4",
+      "start": 0,
+      "end": 5,
+      "text": "чатом"
+    }
+  },
+  {
+    "id": "96c3aadd-4cd5-4f6c-b875-71cfc0829c5d",
+    "name": "g",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3573d043-e7ee-4a3b-b39d-58273f5a46a4",
+      "start": 6,
+      "end": 7,
+      "text": "g"
+    }
+  },
+  {
+    "id": "f80ae5d5-65d7-40ed-9ade-b84c79bc8486",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aeeb7e78-5fa0-4be9-9c5c-3f6553669531",
+      "start": 24,
+      "end": 30,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "b16696be-4e5e-4a60-8de5-4abfa08093ad",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aeeb7e78-5fa0-4be9-9c5c-3f6553669531",
+      "start": 46,
+      "end": 52,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "3b993e9b-62d8-42cf-bfad-2932b2eb96a1",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aeeb7e78-5fa0-4be9-9c5c-3f6553669531",
+      "start": 68,
+      "end": 74,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "066d2879-760a-4c4e-a29c-e6ecfaaea748",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5460d63f-b219-4c41-89de-c7047287bae6",
+      "start": 27,
+      "end": 33,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "ca113390-485e-4173-844e-cc6854aabb0e",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "356cc31a-00ec-4df6-bdd9-b9e001343da8",
+      "start": 24,
+      "end": 30,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "22209660-c6e1-4a27-ad9e-a395a4dfc6cb",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b976c3d-9f35-4bb5-aafb-9a69431be588",
+      "start": 5,
+      "end": 18,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "2d98337d-ff42-40ed-a7da-b54d594ba7ca",
+    "name": "вторая мировая",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07846b19-0335-4478-ab6a-183fcaa69bca",
+      "start": 7,
+      "end": 22,
+      "text": "вторая мировая"
+    }
+  },
+  {
+    "id": "b0916b20-0a0e-4cb9-b279-c130496ce882",
+    "name": "вторая мировая",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f539b162-9563-40b4-bd57-c5d232740153",
+      "start": 91,
+      "end": 106,
+      "text": "вторая мировая"
+    }
+  },
+  {
+    "id": "5193ebef-a409-41cd-b278-b1c9e16bc6b3",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5146e34-40fc-45be-a848-7e975b3e1749",
+      "start": 112,
+      "end": 118,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "51f91255-07df-4b40-85bc-d7687b24db77",
+    "name": "чат же пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b91c3d4c-ed81-4ed3-8e2b-fe9ca44250dd",
+      "start": 77,
+      "end": 87,
+      "text": "чат же пяти"
+    }
+  },
+  {
+    "id": "8b69e437-377f-4be7-940c-34e0ae9e9f5d",
+    "name": "вторая мировая",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b91c3d4c-ed81-4ed3-8e2b-fe9ca44250dd",
+      "start": 116,
+      "end": 131,
+      "text": "вторая мировая"
+    }
+  }
+]

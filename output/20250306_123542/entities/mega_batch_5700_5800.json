@@ -1,0 +1,170 @@
+[
+  {
+    "id": "9c315164-6945-44bb-9b9a-6fa44ce9ac14",
+    "name": "путешествие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a93d048-ebfd-43ee-8bb3-1b824f33265a",
+      "start": 62,
+      "end": 73,
+      "text": "путешествие"
+    }
+  },
+  {
+    "id": "f9c6a855-5043-441a-9ac0-9804502e9aea",
+    "name": "достопримечательности Австралии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f8838bd2-2d18-40c0-9e33-77e10151f3e0",
+      "start": 21,
+      "end": 53,
+      "text": "достопримечательности австралии"
+    }
+  },
+  {
+    "id": "5d3e0cbf-accf-46b6-9eee-5e177e0adacf",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c7feb9c1-cd5e-47ae-9aa1-0c1b273f4646",
+      "start": 36,
+      "end": 43,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "c744e3ba-1bbc-4c8d-ac80-f0c0e32ebff3",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ab9a766-da36-4179-9d28-52dc8a561b96",
+      "start": 23,
+      "end": 43,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "ff42bd43-50c6-4003-85b3-c7ab8c6c447c",
+    "name": "достопримечательностью",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f59f7eac-93e7-4366-b887-d96ec95a666a",
+      "start": 65,
+      "end": 87,
+      "text": "достопримечательностью"
+    }
+  },
+  {
+    "id": "709b8d11-a12d-4f93-8d53-9427819ed393",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0888140d-57a4-49fa-bb01-d24319f1fe24",
+      "start": 64,
+      "end": 86,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "c9349d6c-292a-405f-ad48-11dc22f8701c",
+    "name": "розетка",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26bd33cb-9635-497e-a11b-6f5281932b7e",
+      "start": 76,
+      "end": 83,
+      "text": "розетка"
+    }
+  },
+  {
+    "id": "a5ccefeb-9af9-41b7-8a31-4c86acc3f5d5",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3787480b-51f4-4d51-8611-a4dffc587126",
+      "start": 72,
+      "end": 94,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "987652e9-47a9-40c5-8c50-9520de968eca",
+    "name": "виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97adb7cd-7823-49c2-a9ed-de168859b898",
+      "start": 26,
+      "end": 31,
+      "text": "визу"
+    }
+  },
+  {
+    "id": "5310a1df-f569-4a1b-b8a8-c26f761f6df3",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97adb7cd-7823-49c2-a9ed-de168859b898",
+      "start": 42,
+      "end": 64,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "a540f913-0831-4e21-a418-ca07f6365379",
+    "name": "путешествие в Австралию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8acd81bb-bf16-4b14-9879-d127580fa361",
+      "start": 47,
+      "end": 70,
+      "text": "путешествие в австралию"
+    }
+  },
+  {
+    "id": "0e3dd522-69db-434d-8241-dd7cee334890",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "be10e9f4-b667-4280-95dc-1ef930afd594",
+      "start": 44,
+      "end": 53,
+      "text": "австралии"
+    }
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "30b1814c-4863-4bad-9385-7aa575f3f6df",
+    "name": "Марина Цветаева",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3654c028-8f81-4987-8fbb-12d207798d4c",
+      "start": 44,
+      "end": 59,
+      "text": "марина цветаева"
+    }
+  },
+  {
+    "id": "6aadc848-71c8-40a9-85aa-d66a2cb8d4ff",
+    "name": "Елабуга",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3654c028-8f81-4987-8fbb-12d207798d4c",
+      "start": 76,
+      "end": 83,
+      "text": "елабуге"
+    }
+  },
+  {
+    "id": "34651158-91a6-486e-9002-addaae4e91cb",
+    "name": "команда",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a56b653a-3bb0-41f2-b4b8-5433f237e2f8",
+      "start": 30,
+      "end": 38,
+      "text": "командой"
+    }
+  },
+  {
+    "id": "cae4d3c9-f06f-47d3-a935-68a010a532dd",
+    "name": "микрофон",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8910f98b-3775-45d3-97ad-b8b95874a5d3",
+      "start": 34,
+      "end": 42,
+      "text": "микрофон"
+    }
+  },
+  {
+    "id": "43895ca0-7718-4b90-809d-c7742f2bd82b",
+    "name": "микрофон",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "582f6a01-c19f-483c-b93a-e1f434b0aaad",
+      "start": 34,
+      "end": 42,
+      "text": "микрофон"
+    }
+  },
+  {
+    "id": "f1bf1955-0878-4ab1-9773-6dfa7a45076e",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6143860f-28eb-4d9e-99e9-31e8d2ca0649",
+      "start": 11,
+      "end": 21,
+      "text": "компьютере"
+    }
+  },
+  {
+    "id": "1e5bbfcd-939a-42f6-a26c-d376996a34d2",
+    "name": "телефон",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6143860f-28eb-4d9e-99e9-31e8d2ca0649",
+      "start": 28,
+      "end": 36,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "acc4742f-d282-45da-b62a-deea0c63c0e1",
+    "name": "иконка микрофона",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6143860f-28eb-4d9e-99e9-31e8d2ca0649",
+      "start": 48,
+      "end": 64,
+      "text": "иконку микрофона"
+    }
+  },
+  {
+    "id": "76b40439-1051-4dc2-a13a-4802d6746a87",
+    "name": "Катя",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e7b5521e-285c-4409-8ac3-11ebbf380f7f",
+      "start": 11,
+      "end": 15,
+      "text": "катя"
+    }
+  },
+  {
+    "id": "ab2f0de6-122b-4257-b500-bf75eb775ea9",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07212869-8c25-4cce-ade8-2ea10ae4d7ef",
+      "start": 29,
+      "end": 39,
+      "text": "компьютер"
+    }
+  },
+  {
+    "id": "7aa1d988-d6a6-4069-a904-9acb7fabe195",
+    "name": "телефон",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c59e3824-f1c3-46cf-85b3-039b9f59353a",
+      "start": 16,
+      "end": 23,
+      "text": "телефон"
+    }
+  },
+  {
+    "id": "7ffae9bb-febb-4500-9e87-9ed24a85b359",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2d63ff8-6f84-4eb3-b1e3-041c848c43da",
+      "start": 31,
+      "end": 41,
+      "text": "компьютер"
+    }
+  },
+  {
+    "id": "fb73fc60-fcd3-4174-8d02-d41d14abc5e3",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "566cae21-2f82-4961-8cad-8b0bc8c92e4b",
+      "start": 14,
+      "end": 24,
+      "text": "компьютере"
+    }
+  },
+  {
+    "id": "fd6b7ee5-86e3-4ce8-895a-bc01ce4eb054",
+    "name": "Леша",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2a9b8ea-ee63-4981-9883-3daa9eff05d9",
+      "start": 11,
+      "end": 15,
+      "text": "леша"
+    }
+  },
+  {
+    "id": "4ff0d67d-7af9-42ab-8548-53bfa6ced310",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d675f470-2530-47df-97eb-4a1e85feda9c",
+      "start": 41,
+      "end": 47,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "26913863-4e7b-45e3-ae11-7d3e8c00df6c",
+    "name": "поиск Яндекса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f97b6bfe-3581-479d-8fce-1c6575f8f917",
+      "start": 42,
+      "end": 55,
+      "text": "поиск яндекса"
+    }
+  },
+  {
+    "id": "56c11234-c8b6-4e00-a049-cd2d4bcbba2a",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "09e81b6f-b09f-4d51-8781-47762cae59a4",
+      "start": 62,
+      "end": 72,
+      "text": "компьютера"
+    }
+  },
+  {
+    "id": "57844cc5-3f0a-4c53-84ad-c553ae019f7d",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "50e1d7d0-8d79-4dd0-83ed-8f843ebec8fe",
+      "start": 9,
+      "end": 15,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "4ba2e1b7-0a64-4439-8245-2cdcad53f54a",
+    "name": "Московская область",
+    "type": "location",
+    "attributes": [
+      {
+        "key": "region",
+        "value": "Московская область",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef52da05-3846-44b8-9cfc-8403963f7367",
+      "start": 7,
+      "end": 24,
+      "text": "московской области"
+    }
+  },
+  {
+    "id": "47dc92ff-d8f9-4cb5-a2fe-d9921dbbec98",
+    "name": "Подмосковье",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef52da05-3846-44b8-9cfc-8403963f7367",
+      "start": 29,
+      "end": 40,
+      "text": "подмосковье"
+    }
+  },
+  {
+    "id": "854933f9-3b60-436e-8934-122ec3be8f0c",
+    "name": "Щелково",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "72560b7b-3366-46df-9cf1-e751f150702f",
+      "start": 0,
+      "end": 7,
+      "text": "щелково"
+    }
+  },
+  {
+    "id": "389769a6-148b-4885-8e06-2318cd2f6a48",
+    "name": "Московская область",
+    "type": "location",
+    "attributes": [
+      {
+        "key": "region",
+        "value": "Московская область",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "72560b7b-3366-46df-9cf1-e751f150702f",
+      "start": 9,
+      "end": 26,
+      "text": "московская область"
+    }
+  },
+  {
+    "id": "8096e8c6-84c2-4299-8d5c-2b0e16ec5e08",
+    "name": "эксплуатация инженерных систем зданий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3a549fa-7b30-45e4-8dfe-bc4d34549058",
+      "start": 14,
+      "end": 51,
+      "text": "эксплуатации инженерных систем зданий"
+    }
+  },
+  {
+    "id": "eca18b66-290c-4843-8b52-024165056e4d",
+    "name": "инженерия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2d332ed-8e85-493f-a270-d8570649f399",
+      "start": 17,
+      "end": 26,
+      "text": "инженерии"
+    }
+  },
+  {
+    "id": "213ae89b-9b0a-4675-bbff-36214ee16e9f",
+    "name": "строительство",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2d332ed-8e85-493f-a270-d8570649f399",
+      "start": 30,
+      "end": 43,
+      "text": "строительство"
+    }
+  },
+  {
+    "id": "0610dee1-e2af-4b9a-b144-c2db952bfcf5",
+    "name": "почта",
+    "type": "service",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4185ee6-4e83-4c22-bd28-688674693c47",
+      "start": 31,
+      "end": 36,
+      "text": "почта"
+    }
+  },
+  {
+    "id": "e1e011fe-7f29-4c14-a8a5-64b28f7652a5",
+    "name": "Яндекс Маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1c65b0c-eaad-42b6-9513-8274801ab86d",
+      "start": 0,
+      "end": 12,
+      "text": "яндекс маркет"
+    }
+  }
+]

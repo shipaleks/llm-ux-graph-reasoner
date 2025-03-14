@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "2da4ac69-854b-448e-b179-fb7d78fcd67b",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf3a144c-6206-4515-b715-f56fffeb206a",
+      "start": 0,
+      "end": 27,
+      "text": "давайте зададим вопрос в поиск"
+    }
+  },
+  {
+    "id": "99c76942-09e8-4c9d-a364-532de6b6ba2a",
+    "name": "тостеры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "688830a2-31ea-4868-a093-c83617596292",
+      "start": 43,
+      "end": 50,
+      "text": "тостеры"
+    }
+  },
+  {
+    "id": "d07ec0c8-fe94-4976-ac2d-81762b3299a3",
+    "name": "функции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "688830a2-31ea-4868-a093-c83617596292",
+      "start": 65,
+      "end": 72,
+      "text": "функции"
+    }
+  },
+  {
+    "id": "698e91ea-3523-4814-ade0-e6b304d45744",
+    "name": "Томск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "688830a2-31ea-4868-a093-c83617596292",
+      "start": 76,
+      "end": 81,
+      "text": "томске"
+    }
+  },
+  {
+    "id": "e69e11eb-b3db-42fd-83b5-883ce3527220",
+    "name": "вертикальная загрузка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f81a88c8-3b79-4117-a30f-919bad65a40c",
+      "start": 4,
+      "end": 25,
+      "text": "с вертикальной загрузкой"
+    }
+  },
+  {
+    "id": "9ccb1100-4a46-4b0b-ac98-c6be366182a1",
+    "name": "горизонтальная загрузка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f81a88c8-3b79-4117-a30f-919bad65a40c",
+      "start": 31,
+      "end": 53,
+      "text": "горизонтальной"
+    }
+  },
+  {
+    "id": "7798b615-2387-4783-89b5-0d3516d6f700",
+    "name": "кнопочка",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b7eb8e8-cd2f-436d-8f14-bc9931795a85",
+      "start": 12,
+      "end": 20,
+      "text": "кнопочку"
+    }
+  },
+  {
+    "id": "083dc377-fa0f-44d2-94fd-80a0478d1cc3",
+    "name": "четыре типа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e55e43be-8150-4770-9d99-46d2d9564277",
+      "start": 15,
+      "end": 26,
+      "text": "четыре типа"
+    }
+  },
+  {
+    "id": "9a5ceab7-3db6-4d74-878e-8ae66b029ec2",
+    "name": "выбор тостера",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "02fb2c90-64da-48a7-b40b-e79e2c322fc3",
+      "start": 36,
+      "end": 49,
+      "text": "выборе тостера"
+    }
+  },
+  {
+    "id": "ee1ebd9f-9f13-41fc-962f-78e3fcc5023f",
+    "name": "хлебушек",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1dc31615-db89-4c24-8ed1-22c37e25d652",
+      "start": 45,
+      "end": 53,
+      "text": "хлебушек"
+    }
+  },
+  {
+    "id": "77005305-adf9-453a-8d4a-ade348e1e435",
+    "name": "плоскость",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bfb60633-b08f-4b5f-ba53-b8d604deb58a",
+      "start": 21,
+      "end": 30,
+      "text": "плоскостью"
+    }
+  },
+  {
+    "id": "314ae518-6cd0-4691-8480-58d4cd151eff",
+    "name": "сэндвич тостеры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ea2ce1f-4b66-4fd7-a812-cac34c467984",
+      "start": 0,
+      "end": 15,
+      "text": "сэндвич тостеры"
+    }
+  },
+  {
+    "id": "9e3785a0-4b81-4ea3-9431-263cfbd35276",
+    "name": "хлеб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ea2ce1f-4b66-4fd7-a812-cac34c467984",
+      "start": 34,
+      "end": 39,
+      "text": "хлеба"
+    }
+  },
+  {
+    "id": "b074d107-e8c2-4e10-a961-8a864c337a12",
+    "name": "начинка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ea2ce1f-4b66-4fd7-a812-cac34c467984",
+      "start": 56,
+      "end": 63,
+      "text": "начинкой"
+    }
+  },
+  {
+    "id": "d68dd784-9349-4ef4-8edd-7ecf7f0e1a2e",
+    "name": "быстрые ответы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a316a98-faa8-405d-87d1-615bc0220ff7",
+      "start": 36,
+      "end": 50,
+      "text": "быстрых ответах"
+    }
+  },
+  {
+    "id": "d409ee97-e7da-4e4c-ac89-ab62d842620c",
+    "name": "конвейерная",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 0,
+      "end": 11,
+      "text": "конвейерная"
+    }
+  },
+  {
+    "id": "0482ce02-146d-435b-8726-3f3ea43e4796",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 24,
+      "end": 31,
+      "text": "рейтинг"
+    }
+  },
+  {
+    "id": "2b146bf2-02fc-4654-826e-5cd26fe8f23f",
+    "name": "тостеры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 54,
+      "end": 61,
+      "text": "тостеры"
+    }
+  },
+  {
+    "id": "4ad4c7bc-5b38-4fab-a7d8-b835ff3fdc2a",
+    "name": "магазины",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 74,
+      "end": 82,
+      "text": "магазинах"
+    }
+  },
+  {
+    "id": "d7027301-d11f-4174-989a-e861d281ad0a",
+    "name": "днс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 99,
+      "end": 102,
+      "text": "днс"
+    }
+  },
+  {
+    "id": "75ebdcc6-d557-4e99-a891-bd69fa982367",
+    "name": "м видео",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 107,
+      "end": 114,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "59243541-6a90-4bba-8e88-d799e9899074",
+    "name": "вайлдберис",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b8d0556-246f-4427-b3d4-0c664dd62cca",
+      "start": 115,
+      "end": 125,
+      "text": "вайлдберис"
+    }
+  },
+  {
+    "id": "5b012953-ed73-4ec8-8b02-8ee0070bbc1c",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "283b1aae-4831-42e5-ac11-f2660b9bf473",
+      "start": 11,
+      "end": 15,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "7328fdad-f4c9-4436-bfb6-c6294aae6b03",
+    "name": "функции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a0611a6e-9080-4ec0-a71a-8b08d5aa0c05",
+      "start": 41,
+      "end": 48,
+      "text": "функции"
+    }
+  },
+  {
+    "id": "5f4da7b4-1468-4c7f-a192-42992f4267b4",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a0611a6e-9080-4ec0-a71a-8b08d5aa0c05",
+      "start": 112,
+      "end": 116,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "19a1735e-1cc2-429e-9596-7b4b8e434a2e",
+    "name": "характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e1ff5d5c-87ee-49b2-b8f5-54b7157f02a2",
+      "start": 21,
+      "end": 34,
+      "text": "характеристики"
+    }
+  },
+  {
+    "id": "f0f7b7be-084d-4bc2-9852-b3774a190667",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4fea7c20-078f-43c7-91e9-67bfb3b83b8f",
+      "start": 12,
+      "end": 19,
+      "text": "рейтинг"
+    }
+  },
+  {
+    "id": "30499a16-d264-4156-9ee3-fd0c572ae2d3",
+    "name": "отзывы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e13c58d1-44d3-43d2-984c-25183d40ed2f",
+      "start": 54,
+      "end": 61,
+      "text": "отзывам"
+    }
+  },
+  {
+    "id": "a70e5355-7f06-4bb3-90f2-76299226d372",
+    "name": "сайты",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b074b4e-65a1-4f37-8c7f-abed09312a86",
+      "start": 36,
+      "end": 42,
+      "text": "сайтах"
+    }
+  },
+  {
+    "id": "2b51d756-452e-437f-92ed-39da7f64b27d",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b074b4e-65a1-4f37-8c7f-abed09312a86",
+      "start": 56,
+      "end": 63,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "c58e353c-c7a9-4256-8369-6517c49bb26e",
+    "name": "цена",
+    "type": "attribute",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a08568cc-1505-4c42-ae47-3a319653c700",
+      "start": 49,
+      "end": 53,
+      "text": "цена"
+    }
+  },
+  {
+    "id": "d2701774-b766-4a17-b02e-c5635d2a8bae",
+    "name": "тостер для хлеба с поддоном",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bd76c7a4-aaf6-40d9-abd9-2bbcf98f54d9",
+      "start": 0,
+      "end": 27,
+      "text": "тостер для хлеба с поддоном"
+    }
+  },
+  {
+    "id": "f0f82d37-f8f1-4b6a-87b2-c38675ae7edd",
+    "name": "цена",
+    "type": "attribute",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a60ede2-a3e7-4e02-afea-112e900d914c",
+      "start": 8,
+      "end": 12,
+      "text": "цена"
+    }
+  },
+  {
+    "id": "d6dd49f9-671c-4926-940f-bb73d47a85bc",
+    "name": "цена",
+    "type": "attribute",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5cc6f9d7-9c5b-4a99-a91f-00fca07b083c",
+      "start": 34,
+      "end": 54,
+      "text": "четыре пятьсот девяносто семь"
+    }
+  },
+  {
+    "id": "5cf07024-3099-4e6e-a35d-811bdd358279",
+    "name": "цена",
+    "type": "attribute",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a83505db-4125-475a-8316-54e0a4ba11c3",
+      "start": 46,
+      "end": 66,
+      "text": "четыре сто тридцать семь"
+    }
+  },
+  {
+    "id": "e99e402d-5b00-4002-84f8-f1197a484baa",
+    "name": "магазины",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d855492b-0b78-406a-b077-02ff42b9cea4",
+      "start": 44,
+      "end": 53,
+      "text": "магазинах"
+    }
+  },
+  {
+    "id": "ed3b475c-e543-41d3-9fae-a76e761a0e55",
+    "name": "магазин",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53acd486-71d0-43b8-8fb8-744f192e04d5",
+      "start": 78,
+      "end": 86,
+      "text": "магазине"
+    }
+  },
+  {
+    "id": "f08f0805-02f6-4b90-858d-18bddd6f351e",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "819d43dd-8f9d-4c2f-9e4d-c8a3ca7174b1",
+      "start": 13,
+      "end": 19,
+      "text": "ссылке"
+    }
+  },
+  {
+    "id": "1771248d-e72b-4c9b-bb73-78faadc9a716",
+    "name": "поиски",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ab678e6-bf3e-4610-ab39-5a9b91ba682f",
+      "start": 62,
+      "end": 68,
+      "text": "поиски"
+    }
+  },
+  {
+    "id": "db892dba-3349-4aea-a935-d913aa2f8f62",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3f1cbbc-0727-423f-997a-79e9e306f4f8",
+      "start": 46,
+      "end": 55,
+      "text": "компьютер"
+    }
+  },
+  {
+    "id": "70ea186a-ba12-4ec8-8775-a5772a1f9d29",
+    "name": "Zoom",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b4e406c-0154-47ca-b93f-70c85bc810e1",
+      "start": 3,
+      "end": 7,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "91aa227c-786b-4cee-9c5d-47bae7fe839a",
+    "name": "возможность поделиться экраном",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b4e406c-0154-47ca-b93f-70c85bc810e1",
+      "start": 14,
+      "end": 44,
+      "text": "возможность поделиться экраном"
+    }
+  },
+  {
+    "id": "bc85e978-dbb2-44d8-b999-6def21bce650",
+    "name": "функция передать управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b4e406c-0154-47ca-b93f-70c85bc810e1",
+      "start": 96,
+      "end": 124,
+      "text": "функция передать управление"
+    }
+  },
+  {
+    "id": "7550ac27-8234-4b54-b55b-28be19181022",
+    "name": "дистанционное управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cbb68698-c513-498e-b67a-49defd4538ad",
+      "start": 4,
+      "end": 28,
+      "text": "дистанционное управление"
+    }
+  },
+  {
+    "id": "5bf73789-9d15-4f7c-89bb-2dd96d3f29e1",
+    "name": "экран",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b49609f-342c-413a-9f4c-3b7c643d50fa",
+      "start": 8,
+      "end": 13,
+      "text": "экран"
+    }
+  },
+  {
+    "id": "96b676ef-1c45-4eae-99eb-65a162c0e4d3",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b49609f-342c-413a-9f4c-3b7c643d50fa",
+      "start": 33,
+      "end": 42,
+      "text": "компьютера"
+    }
+  },
+  {
+    "id": "9c80ad69-ce93-471e-b56f-f904715e372b",
+    "name": "ноутбук",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b49609f-342c-413a-9f4c-3b7c643d50fa",
+      "start": 46,
+      "end": 53,
+      "text": "ноутбука"
+    }
+  },
+  {
+    "id": "cd460405-92d5-476f-8f2f-65090403ac1f",
+    "name": "тринадцать дюймов",
+    "type": "measurement",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "abc0f390-6dbe-4016-875d-26ff93f74242",
+      "start": 0,
+      "end": 18,
+      "text": "тринадцать дюймов"
+    }
+  },
+  {
+    "id": "ab039efd-d58d-433b-808f-cf407fa13b1a",
+    "name": "экран",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ddf8c958-408f-403d-b42a-1727f6d7c217",
+      "start": 26,
+      "end": 31,
+      "text": "экран"
+    }
+  },
+  {
+    "id": "398d3721-9291-4c52-b9a2-98800776f218",
+    "name": "передача управления",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d7a6cfc-ab59-48ae-91f5-abd920e80107",
+      "start": 11,
+      "end": 30,
+      "text": "передача управления"
+    }
+  },
+  {
+    "id": "d6759515-6bc1-4f50-b7ca-b6f33b00648d",
+    "name": "мышка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93e16a0e-09d9-49b8-8b92-2089e68a51a6",
+      "start": 96,
+      "end": 101,
+      "text": "мышкой"
+    }
+  },
+  {
+    "id": "8b2c7fb9-6aa3-418f-9bc9-76db58dd61de",
+    "name": "клавиатура",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93e16a0e-09d9-49b8-8b92-2089e68a51a6",
+      "start": 116,
+      "end": 126,
+      "text": "клавиатурой"
+    }
+  },
+  {
+    "id": "7a8c7a0b-5785-4a41-b350-a84ef215897a",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d0c90f47-65fe-4308-8d7e-1ad021058e50",
+      "start": 2,
+      "end": 9,
+      "text": "тостерами"
+    }
+  },
+  {
+    "id": "73012215-1edf-43d8-808f-121d326be719",
+    "name": "изучение какой- то информации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db153627-cd82-4659-a364-87002b00c02b",
+      "start": 0,
+      "end": 30,
+      "text": "изучение какой- то информации"
+    }
+  },
+  {
+    "id": "df1fb6e4-e346-419b-917e-c2b248826241",
+    "name": "товар",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b18ad36a-4652-472c-99bb-13ad996a1eee",
+      "start": 11,
+      "end": 16,
+      "text": "товар"
+    }
+  },
+  {
+    "id": "bcc5e68d-45d9-4ec4-91bc-8585a50b69db",
+    "name": "место",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b18ad36a-4652-472c-99bb-13ad996a1eee",
+      "start": 28,
+      "end": 33,
+      "text": "место"
+    }
+  },
+  {
+    "id": "fdd94809-d09f-40cd-b489-c0cac90c0ace",
+    "name": "событие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b18ad36a-4652-472c-99bb-13ad996a1eee",
+      "start": 45,
+      "end": 52,
+      "text": "событие"
+    }
+  },
+  {
+    "id": "e1653db8-b1d2-46ce-a31a-dff8d98f69f0",
+    "name": "сайт",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39f7c343-aac1-49d6-8c91-2c45e77d37a0",
+      "start": 36,
+      "end": 41,
+      "text": "сайте"
+    }
+  },
+  {
+    "id": "55d9243f-c3e5-42a5-b692-2e2641f204d5",
+    "name": "контекстная реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39f7c343-aac1-49d6-8c91-2c45e77d37a0",
+      "start": 55,
+      "end": 74,
+      "text": "контекстная реклама"
+    }
+  },
+  {
+    "id": "f8203f09-b4c9-4f86-b913-664c8da7fa65",
+    "name": "контекстная реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ed77ae3-ab75-440a-89fe-c3a30db9c474",
+      "start": 62,
+      "end": 81,
+      "text": "контекстных рекламы"
+    }
+  },
+  {
+    "id": "fa20187e-67f2-4a4c-afcb-5426be2ea680",
+    "name": "серьги",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "406ae458-ad61-4baa-a543-1caa44398534",
+      "start": 6,
+      "end": 12,
+      "text": "серьги"
+    }
+  },
+  {
+    "id": "cd2f4911-c341-4990-b0ae-c77669895f10",
+    "name": "концерт слава кпсс",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "406ae458-ad61-4baa-a543-1caa44398534",
+      "start": 22,
+      "end": 41,
+      "text": "концерт слава кпсс"
+    }
+  },
+  {
+    "id": "878de678-c46a-4bb3-8884-45a912a2a924",
+    "name": "концерт славы кпсс",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b2c9fe3-37eb-4682-a4f3-981af24c0c88",
+      "start": 14,
+      "end": 33,
+      "text": "концерт славы кпсс"
+    }
+  },
+  {
+    "id": "28834b34-8893-48b9-ab14-3b3ac0f48e0c",
+    "name": "комик",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93446ea1-e761-4e62-877a-1f373e6efbfa",
+      "start": 18,
+      "end": 23,
+      "text": "комик"
+    }
+  },
+  {
+    "id": "f95221a4-63b4-47f6-b891-fdf5c5764285",
+    "name": "слава",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3de4f66-6d47-495d-9d8d-52e7db35eb04",
+      "start": 4,
+      "end": 9,
+      "text": "слава"
+    }
+  },
+  {
+    "id": "92d7d57d-83e1-46d6-9751-e2f7b8ed259c",
+    "name": "белорус",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3de4f66-6d47-495d-9d8d-52e7db35eb04",
+      "start": 17,
+      "end": 24,
+      "text": "белорус"
+    }
+  },
+  {
+    "id": "75ff3008-977e-4c96-98e2-562aa36729e0",
+    "name": "концерт",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3e13340-f7c6-4d75-9e59-6d6a46575a86",
+      "start": 11,
+      "end": 18,
+      "text": "концерт"
+    }
+  },
+  {
+    "id": "dc762bd2-e7d2-4461-98dd-a94cb364a6bd",
+    "name": "комик",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3e13340-f7c6-4d75-9e59-6d6a46575a86",
+      "start": 32,
+      "end": 37,
+      "text": "комика"
+    }
+  },
+  {
+    "id": "38ee1cdf-8471-47a9-870f-39c3f50a7294",
+    "name": "концерт",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3e13340-f7c6-4d75-9e59-6d6a46575a86",
+      "start": 41,
+      "end": 48,
+      "text": "концерт"
+    }
+  },
+  {
+    "id": "460242f5-fd2e-4a96-9ad4-c66b4a0785dd",
+    "name": "калининград",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d3d44a9e-2077-442c-bd98-a765ca46ffd8",
+      "start": 64,
+      "end": 75,
+      "text": "калининграде"
+    }
+  },
+  {
+    "id": "9eec099e-8f68-4f79-8c93-22da145aa091",
+    "name": "путешествие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5aa1d6c-47aa-4900-99c4-50ee465be12b",
+      "start": 41,
+      "end": 52,
+      "text": "путешествиями"
+    }
+  },
+  {
+    "id": "97675a2f-2a69-4d31-a8b2-918e02518866",
+    "name": "куда поехать зимой на машине с собакой в россии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3cfb233b-590a-45d4-9a5f-ce56c9d3334d",
+      "start": 21,
+      "end": 71,
+      "text": "куда поехать зимой на машине с собакой в россии"
+    }
+  }
+]

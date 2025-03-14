@@ -1,0 +1,27 @@
+File: tests/data/samples/sample.txt
+Date: 2025-03-06 19:37:50
+Total analysis time: 29.07 seconds
+
+Token Usage Summary
+===================
+Total API Calls: 0
+Total Tokens: 0 (Input: 0, Output: 0)
+Estimated Cost: $0.000000 USD
+Total API Duration: 0.00 seconds
+Total Analysis Time: 29.07 seconds
+
+Model Breakdown:
+
+JSON DATA:
+{
+  "file": "tests/data/samples/sample.txt",
+  "date": "2025-03-06 19:37:50",
+  "analysis_time": 29.0732581615448,
+  "api_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "total_cost_usd": 0.0,
+  "api_duration": 0.0,
+  "models": {}
+}

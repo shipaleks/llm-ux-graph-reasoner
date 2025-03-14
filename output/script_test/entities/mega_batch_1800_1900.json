@@ -1,0 +1,324 @@
+[
+  {
+    "id": "2319810a-edd4-47c2-95ea-3b1973d314e8",
+    "name": "дз",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "992e4a6c-6362-4571-8896-4c04f76aa6ba",
+      "start": 19,
+      "end": 21,
+      "text": "дз"
+    }
+  },
+  {
+    "id": "a604f666-106a-4791-aa7c-25824ed09736",
+    "name": "деформация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fd8bdda5-d5ca-4765-baaa-71f112873e4e",
+      "start": 21,
+      "end": 31,
+      "text": "деформация"
+    }
+  },
+  {
+    "id": "c61da98f-16e9-4962-a34f-88214c6df201",
+    "name": "карта",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ae5cf7c-5de8-4b3e-8e68-fb3250e2db66",
+      "start": 23,
+      "end": 28,
+      "text": "карта"
+    }
+  },
+  {
+    "id": "72d56d1e-a464-4937-8b3c-eadcc9e8ebaf",
+    "name": "кинотеатр",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ae5cf7c-5de8-4b3e-8e68-fb3250e2db66",
+      "start": 101,
+      "end": 110,
+      "text": "кинотеатр"
+    }
+  },
+  {
+    "id": "5973e203-613d-406e-97c5-82717669563a",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55bc7e1b-2f28-4386-bccc-b70bf0570c03",
+      "start": 41,
+      "end": 46,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "b589e4cb-26c4-46f5-ad49-928520b584b8",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "45d23522-52ca-407f-8333-c8771d1ffa8d",
+      "start": 37,
+      "end": 42,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "a298b490-eff7-49c0-b904-09beecba2102",
+    "name": "Задача трех тел",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "30a370f8-1361-44c6-a3d9-3de1367c6f60",
+      "start": 5,
+      "end": 20,
+      "text": "задача трех тел"
+    }
+  },
+  {
+    "id": "eee543d0-66be-4710-9ee1-d13a78008282",
+    "name": "темный лес",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "485f91b2-d474-4a48-8267-8f99db322429",
+      "start": 74,
+      "end": 84,
+      "text": "темный лес"
+    }
+  },
+  {
+    "id": "e0561f9a-4ee7-4406-a7ab-fa697ef8b355",
+    "name": "вечная жизнь",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "485f91b2-d474-4a48-8267-8f99db322429",
+      "start": 99,
+      "end": 111,
+      "text": "вечная жизнь"
+    }
+  },
+  {
+    "id": "e5c71214-3db8-4c22-9478-9e987089fda4",
+    "name": "темный лес",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c715ecfd-5792-4b27-b9b0-71bdc4f520e5",
+      "start": 34,
+      "end": 44,
+      "text": "темный лес"
+    }
+  },
+  {
+    "id": "9fd2e74f-8fee-4b9f-998b-a528db2d880f",
+    "name": "Лю Цысинь",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffb61789-5663-45e1-a4e7-3a8321cdf40a",
+      "start": 77,
+      "end": 85,
+      "text": "о люцисине"
+    }
+  },
+  {
+    "id": "d628b004-639c-420a-ae52-012ec637d37c",
+    "name": "две тысячи двадцать третьем году",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed7aac9e-c2dc-49ee-82e7-f2c7e3f4f78c",
+      "start": 21,
+      "end": 53,
+      "text": "в две тысячи, например, в двадцать третьем году"
+    }
+  },
+  {
+    "id": "e70910b6-3682-44ac-97c9-e31ab86fd160",
+    "name": "Лю Цысинь",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db4b725a-8770-4892-892d-e319b1b2207a",
+      "start": 64,
+      "end": 72,
+      "text": "люцисиним"
+    }
+  },
+  {
+    "id": "a58d63a1-1780-49dd-9600-8c58b93a34ef",
+    "name": "нанотрубки",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06d24c1f-b585-4129-84bd-96f127d0162e",
+      "start": 17,
+      "end": 27,
+      "text": "нанотрубки"
+    }
+  },
+  {
+    "id": "f4f6a04c-eef1-4186-97d5-5c18cef29168",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06d24c1f-b585-4129-84bd-96f127d0162e",
+      "start": 61,
+      "end": 73,
+      "text": "теория струн"
+    }
+  },
+  {
+    "id": "bb9b98f4-621c-40e0-b44a-204bf52f712e",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e471db5e-856f-4f78-bfb9-1a20b62a51d2",
+      "start": 0,
+      "end": 12,
+      "text": "теория струн"
+    }
+  },
+  {
+    "id": "9a2010a3-6fcd-45bd-8f92-ea1f0b35b61d",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57d92c06-f30b-4cbd-b6bf-61098fd6f903",
+      "start": 47,
+      "end": 59,
+      "text": "теории струн"
+    }
+  },
+  {
+    "id": "868cd4a8-3f80-4a74-a0f2-297df42dd149",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "791b3046-e13c-4dbb-a109-86a58e8a7331",
+      "start": 24,
+      "end": 36,
+      "text": "теория струн"
+    }
+  },
+  {
+    "id": "1177ae45-b9df-4d15-b0c4-28a3eac83e80",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56d22fd9-eb2e-4ad5-a729-7eabc6d45f10",
+      "start": 158,
+      "end": 167,
+      "text": "нейрести"
+    }
+  },
+  {
+    "id": "5ff445c5-2f4c-4d12-85eb-e0a9413bfaf2",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9510f789-1b4d-42ac-a34c-bd86d98b91dd",
+      "start": 0,
+      "end": 12,
+      "text": "теория струн"
+    }
+  },
+  {
+    "id": "34441e2c-1448-4023-9605-292c92aa3871",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "178ba1e5-dfdf-41e7-af27-4ed4d6874992",
+      "start": 62,
+      "end": 71,
+      "text": "нейросеть"
+    }
+  },
+  {
+    "id": "7cbb3395-1c3c-4606-a55d-943f1b0de1ad",
+    "name": "четыре глаза",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "122ab721-65de-47ef-a7c9-89adfe4f4488",
+      "start": 56,
+      "end": 68,
+      "text": "четыре глаза"
+    }
+  },
+  {
+    "id": "02e67a68-c41e-4f50-9061-bbb346d58073",
+    "name": "наука тв",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "122ab721-65de-47ef-a7c9-89adfe4f4488",
+      "start": 69,
+      "end": 77,
+      "text": "наука тв"
+    }
+  }
+]

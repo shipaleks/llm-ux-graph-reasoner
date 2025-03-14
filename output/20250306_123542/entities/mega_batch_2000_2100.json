@@ -1,0 +1,324 @@
+[
+  {
+    "id": "2e9701ea-8263-4548-b6df-9b34d12ba545",
+    "name": "Zoom",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fa2b7730-527a-4c0a-832d-fa78d6148b04",
+      "start": 49,
+      "end": 53,
+      "text": "зума"
+    }
+  },
+  {
+    "id": "9f4e1234-6f9a-4095-8dac-b939b9944761",
+    "name": "DeepSearch",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c85ce128-fd8a-41fa-8710-b715b02a5b9e",
+      "start": 26,
+      "end": 33,
+      "text": "дипсерш"
+    }
+  },
+  {
+    "id": "d36b0b9b-bdaa-47bb-94fe-d055d9ca61fa",
+    "name": "фильм",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c85ce128-fd8a-41fa-8710-b715b02a5b9e",
+      "start": 46,
+      "end": 51,
+      "text": "фильм"
+    }
+  },
+  {
+    "id": "80b138ef-8f90-4a49-8b74-7a737bb09f64",
+    "name": "DeepSearch",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "be6c2dbc-fcfa-419c-80ba-2b61901deb45",
+      "start": 11,
+      "end": 18,
+      "text": "дипсерш"
+    }
+  },
+  {
+    "id": "3d7cdba7-e7b8-4e9b-9551-2225972d838f",
+    "name": "финк",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "093a79ec-0afa-49af-a038-e25130d54346",
+      "start": 8,
+      "end": 12,
+      "text": "финк"
+    }
+  },
+  {
+    "id": "614b84bc-ad05-4fc8-ae9a-88a25fb9b68c",
+    "name": "Алиса Про",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2c6c412-29cd-40c1-bfc5-f690aa336206",
+      "start": 3,
+      "end": 12,
+      "text": "алисе про"
+    }
+  },
+  {
+    "id": "d5c6af70-9446-4e8f-8cbb-937664df8975",
+    "name": "Алиса Про",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8baefe9e-2600-411a-ba3b-bce61051a2c2",
+      "start": 41,
+      "end": 49,
+      "text": "алиса про"
+    }
+  },
+  {
+    "id": "4d798032-894f-4bda-bd18-893d74efa316",
+    "name": "Яндекс Про",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "434a651b-8150-47b8-973d-a7545647749a",
+      "start": 10,
+      "end": 20,
+      "text": "яндекс про"
+    }
+  },
+  {
+    "id": "3d1726ac-2cec-49e7-a4a0-e59110317cd6",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "de78198e-c190-42b4-8909-24dbd77f867c",
+      "start": 27,
+      "end": 32,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "3da02946-6f26-4205-8a31-aa798fc786e0",
+    "name": "Яндекс Браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "081c8b71-fa0f-465d-8044-b14aa3ed2b70",
+      "start": 14,
+      "end": 28,
+      "text": "яндекс браузере"
+    }
+  },
+  {
+    "id": "2478236f-67b7-460d-aa12-89decf03aa7c",
+    "name": "Google Chrome",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "081c8b71-fa0f-465d-8044-b14aa3ed2b70",
+      "start": 34,
+      "end": 45,
+      "text": "гугл хром"
+    }
+  },
+  {
+    "id": "14766149-5985-438f-bfbd-583c02478a45",
+    "name": "Grok",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7d4d06e-0966-4ea2-8f98-9dea6423daa2",
+      "start": 36,
+      "end": 42,
+      "text": "гроком"
+    }
+  },
+  {
+    "id": "ca0cb585-985b-4eee-827e-79199b30ba6e",
+    "name": "Perplexity",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7d4d06e-0966-4ea2-8f98-9dea6423daa2",
+      "start": 49,
+      "end": 57,
+      "text": "перпекс"
+    }
+  },
+  {
+    "id": "1a645e17-9780-4543-9900-d6c6e4a07017",
+    "name": "Perplexity",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3587f755-4022-4935-a7b5-ee0b94dba0b2",
+      "start": 3,
+      "end": 10,
+      "text": "перпия"
+    }
+  },
+  {
+    "id": "4e4b6e90-59d0-46a8-bcba-207d9e25f40f",
+    "name": "DeepSearch",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2051948-8f28-46be-aa07-e14e7047cd39",
+      "start": 15,
+      "end": 23,
+      "text": "дипсерчем"
+    }
+  },
+  {
+    "id": "1a919d66-1bba-4d0c-9564-4b8a4df9e755",
+    "name": "Grok",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b8f844d-ea7d-4681-b2e9-4adbbcfddaba",
+      "start": 31,
+      "end": 37,
+      "text": "гроком"
+    }
+  },
+  {
+    "id": "4c881d9e-0a6f-4b58-ba44-9af63150f402",
+    "name": "Perplexity",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4092a31-6eb9-4301-886f-bcd6d57f07fe",
+      "start": 21,
+      "end": 29,
+      "text": "перпикс"
+    }
+  },
+  {
+    "id": "334ac511-e022-4059-8e2a-718b0a297c1c",
+    "name": "Perplexity",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec5f6bbe-6c0d-4d40-803a-33981863acab",
+      "start": 0,
+      "end": 8,
+      "text": "перпикс"
+    }
+  },
+  {
+    "id": "6beb524c-2b74-4a7a-80aa-bf008dc2bbe3",
+    "name": "Наполеон",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "928e117e-4663-4fad-83e7-0c013f639f79",
+      "start": 111,
+      "end": 120,
+      "text": "наполеона"
+    }
+  },
+  {
+    "id": "849b4b56-f72c-46fc-b145-e55ab00ec51f",
+    "name": "library",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e0d3ffd4-d03c-4f36-9d71-e4fa5a8cc172",
+      "start": 27,
+      "end": 34,
+      "text": "лайбери"
+    }
+  },
+  {
+    "id": "e4d0dd4a-cc6d-462d-898d-0c1547d3d311",
+    "name": "chatGPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "240dd1b9-449b-4375-b701-4c07100b7fe2",
+      "start": 24,
+      "end": 32,
+      "text": "чат g пяти"
+    }
+  },
+  {
+    "id": "a500dc35-70f8-4836-b727-bf58a15c6106",
+    "name": "Grok",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f616056-73ae-46f5-8d74-6ac9701e849d",
+      "start": 18,
+      "end": 23,
+      "text": "грок"
+    }
+  },
+  {
+    "id": "a31560b5-d062-46f3-b3da-6e3a21ba94bd",
+    "name": "Наполеон",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7577f11-e60b-4cb0-85a2-8a3ab03c5cc4",
+      "start": 33,
+      "end": 42,
+      "text": "наполеона"
+    }
+  }
+]

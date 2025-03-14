@@ -1,0 +1,674 @@
+[
+  {
+    "id": "bcf7af58-9e64-4107-91d4-fd08ea8a3762",
+    "name": "праздник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea37aa2-004d-4435-b98e-c8bd590cb468",
+      "start": 24,
+      "end": 32,
+      "text": "праздник"
+    }
+  },
+  {
+    "id": "7a4b5c0d-54da-4c07-b137-3acaf10b9742",
+    "name": "британская культура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea37aa2-004d-4435-b98e-c8bd590cb468",
+      "start": 51,
+      "end": 61,
+      "text": "британской"
+    }
+  },
+  {
+    "id": "285693f4-1c99-4660-88c2-1d1b49f1532a",
+    "name": "американская культура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea37aa2-004d-4435-b98e-c8bd590cb468",
+      "start": 63,
+      "end": 75,
+      "text": "американской"
+    }
+  },
+  {
+    "id": "f22bda0f-ca3d-4e43-bfcc-319d84cf2122",
+    "name": "день дурака",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "befbde3a-3a16-4bf6-a7b1-711f3b6a7436",
+      "start": 9,
+      "end": 21,
+      "text": "день дурака"
+    }
+  },
+  {
+    "id": "152adb9a-15a7-4322-91e7-f11624ce345f",
+    "name": "первого апреля",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a551c4c9-52d6-4f4b-a40b-8257490eeced",
+      "start": 0,
+      "end": 15,
+      "text": "первого апреля"
+    }
+  },
+  {
+    "id": "dcde4020-d3e4-46f4-953d-937299fe3459",
+    "name": "первого апреля",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b75f297-e160-4aa3-b4d4-c367a622b9d2",
+      "start": 112,
+      "end": 127,
+      "text": "первого апреля"
+    }
+  },
+  {
+    "id": "bd08477b-beb4-4e72-a929-c74c51ff6119",
+    "name": "история праздника",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b75f297-e160-4aa3-b4d4-c367a622b9d2",
+      "start": 141,
+      "end": 158,
+      "text": "историю праздника"
+    }
+  },
+  {
+    "id": "ed867e7f-9e6e-4d73-b201-6cef905d6897",
+    "name": "проблемы со связью",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a77e88fa-954c-4469-8d01-74b42f66ecfc",
+      "start": 27,
+      "end": 45,
+      "text": "проблемы со связью"
+    }
+  },
+  {
+    "id": "62a1b926-c22f-482b-94e6-9ef0a288e634",
+    "name": "задержка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b05fed0e-f3c8-40d1-9711-72380acd65f8",
+      "start": 21,
+      "end": 29,
+      "text": "задержка"
+    }
+  },
+  {
+    "id": "0e24149e-e671-46de-beb3-35f07f90f188",
+    "name": "секунды",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b05fed0e-f3c8-40d1-9711-72380acd65f8",
+      "start": 30,
+      "end": 37,
+      "text": "секунды"
+    }
+  },
+  {
+    "id": "85bfaa41-b584-44f1-8802-2694b7456c49",
+    "name": "трансляцию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f769b9a-f09e-45a9-8f50-2f0955079b9a",
+      "start": 27,
+      "end": 37,
+      "text": "трансляцию"
+    }
+  },
+  {
+    "id": "9385935e-8aae-458c-9247-f478ce18ce75",
+    "name": "задержка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f769b9a-f09e-45a9-8f50-2f0955079b9a",
+      "start": 54,
+      "end": 62,
+      "text": "задержка"
+    }
+  },
+  {
+    "id": "0688a39d-e3c4-4fb9-8118-047e6c1ce502",
+    "name": "звук",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e0e68d4-b957-4a12-934e-547b1ed3cb38",
+      "start": 41,
+      "end": 45,
+      "text": "звук"
+    }
+  },
+  {
+    "id": "1cc2e7bf-d090-48d9-94b8-0544f2b6a27f",
+    "name": "наушники",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9c519b01-e8fd-4c64-93b2-cf3d5a078add",
+      "start": 31,
+      "end": 39,
+      "text": "наушники"
+    }
+  },
+  {
+    "id": "e0ffbd23-4304-431e-ba3f-f9b68a2e808d",
+    "name": "секунды",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4b43208a-b7de-4a4c-9fcd-57001e872f74",
+      "start": 26,
+      "end": 33,
+      "text": "секунды"
+    }
+  },
+  {
+    "id": "7149945a-45e7-4e63-9636-7b5caa330843",
+    "name": "звук",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4b43208a-b7de-4a4c-9fcd-57001e872f74",
+      "start": 46,
+      "end": 50,
+      "text": "звук"
+    }
+  },
+  {
+    "id": "48458c64-ad7a-44c1-9a27-7bc8901f2acf",
+    "name": "зум",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0dc5516f-e330-4d81-8ab1-a546b6b107f5",
+      "start": 34,
+      "end": 38,
+      "text": "зум"
+    }
+  },
+  {
+    "id": "01b95779-e7ec-4399-8dd4-039da17c75c0",
+    "name": "сбой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93f1b09b-70bd-40e4-bb1b-c4c80622fa57",
+      "start": 25,
+      "end": 29,
+      "text": "сбой"
+    }
+  },
+  {
+    "id": "52af760a-e52f-4a6d-8a4a-17524c9896fd",
+    "name": "экран",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "659284d6-ed29-4a75-9298-1892bb8e7754",
+      "start": 17,
+      "end": 22,
+      "text": "экран"
+    }
+  },
+  {
+    "id": "19f433e7-4a33-4c99-8419-b26718607f00",
+    "name": "контрол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "659284d6-ed29-4a75-9298-1892bb8e7754",
+      "start": 27,
+      "end": 34,
+      "text": "контрол"
+    }
+  },
+  {
+    "id": "09a58977-4b5f-44e7-b4b9-7cf68ba7720d",
+    "name": "управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "659284d6-ed29-4a75-9298-1892bb8e7754",
+      "start": 47,
+      "end": 57,
+      "text": "управление"
+    }
+  },
+  {
+    "id": "8698015d-d7c5-4338-83f7-13e705554a8b",
+    "name": "история праздника дурака",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "14987249-4e32-400a-99eb-79646609444b",
+      "start": 12,
+      "end": 36,
+      "text": "история праздника дурака"
+    }
+  },
+  {
+    "id": "2d713fed-9a04-442d-b077-ac999539b454",
+    "name": "день меня дурака",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9fce01a5-d365-49ec-ad32-303fd2c1fc07",
+      "start": 0,
+      "end": 17,
+      "text": "день меня дурака"
+    }
+  },
+  {
+    "id": "9bbd365b-f443-46d6-9938-dafe99412328",
+    "name": "порассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11df2c2d-0749-4106-a291-911a4b566cde",
+      "start": 27,
+      "end": 38,
+      "text": "порассуждай"
+    }
+  },
+  {
+    "id": "00895c3e-8d1c-4250-ae36-d363f6d694d1",
+    "name": "два источника",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f4a272e0-2dfc-4ea5-8bf7-9ea49fdbd60b",
+      "start": 36,
+      "end": 49,
+      "text": "два источника"
+    }
+  },
+  {
+    "id": "08cf545c-05f8-48d2-a2f7-215e4bcd1845",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7007a11d-7e9b-42a4-bec3-4bf94e1cbe57",
+      "start": 54,
+      "end": 60,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "c54e70ce-49c3-4e9d-a6f2-40917c2b187f",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "234e435b-27bb-4d6a-85b0-73634996a40d",
+      "start": 12,
+      "end": 18,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "4ce351f6-b2a6-4212-b4e0-2e1c63369918",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "234e435b-27bb-4d6a-85b0-73634996a40d",
+      "start": 22,
+      "end": 28,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "88d7e9f4-3bc8-49eb-994a-7b73695764c4",
+    "name": "таблетки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "106dd293-6ce9-455b-a715-cfbb14ba05da",
+      "start": 67,
+      "end": 75,
+      "text": "таблетки"
+    }
+  },
+  {
+    "id": "0a329e5b-60b8-4519-aeb4-c7bd915b8a68",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82327111-a480-4090-b2fe-f8c87f6ce63d",
+      "start": 47,
+      "end": 52,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "b69c6221-4c34-4ecd-91a7-d4bc42e465de",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "908afb25-336c-45d1-ae62-4c1fe59a4c08",
+      "start": 27,
+      "end": 31,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "765088da-769e-4f62-885d-4d455258ee09",
+    "name": "википедия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81924c8d-ee30-4a88-befe-fe54eaeaa607",
+      "start": 75,
+      "end": 84,
+      "text": "википедии"
+    }
+  },
+  {
+    "id": "dec078c3-b806-482f-a548-19636f37ea63",
+    "name": "авторитетный источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81924c8d-ee30-4a88-befe-fe54eaeaa607",
+      "start": 95,
+      "end": 115,
+      "text": "авторитетного источника"
+    }
+  },
+  {
+    "id": "f4c02e89-e2b5-46dd-9b87-0d5f4ecd922f",
+    "name": "визуальная нагрузка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "28f91a7b-672e-48ee-bce0-0dde3d21dc2f",
+      "start": 14,
+      "end": 33,
+      "text": "визуальной нагрузки"
+    }
+  },
+  {
+    "id": "23909ccc-e40c-4aa1-a967-a9d514f29b37",
+    "name": "таблеточки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00c3fa76-318f-4f9e-9ad6-752b23098a5b",
+      "start": 5,
+      "end": 15,
+      "text": "таблеточки"
+    }
+  },
+  {
+    "id": "e1d2e6a2-4638-45a4-8347-1ef7003e2d5a",
+    "name": "плашки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00c3fa76-318f-4f9e-9ad6-752b23098a5b",
+      "start": 20,
+      "end": 26,
+      "text": "плашек"
+    }
+  },
+  {
+    "id": "b7e7515e-05b3-480b-87e7-d24d680afeaf",
+    "name": "порассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6c832e4-e38c-4f40-b6fb-b69fc8761e42",
+      "start": 27,
+      "end": 38,
+      "text": "порассуждай"
+    }
+  },
+  {
+    "id": "ec8beb63-d1fa-491d-aa99-8697f2063c70",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7efda3e9-34dc-472c-b58b-1c240b9cc58e",
+      "start": 41,
+      "end": 48,
+      "text": "запросы"
+    }
+  },
+  {
+    "id": "a6c1adde-6c97-4728-8f91-5b7ea758a738",
+    "name": "порассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ebcd146-3885-491c-82d6-e461cb2edbfb",
+      "start": 10,
+      "end": 21,
+      "text": "порассуждай"
+    }
+  },
+  {
+    "id": "2c73c765-27d6-45e0-b871-d2fcb0a4baa9",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1c9aa5a3-3c36-471b-8e63-71680b2b451d",
+      "start": 31,
+      "end": 38,
+      "text": "запросы"
+    }
+  },
+  {
+    "id": "2709a566-f488-4464-b787-be35f9fbaf6b",
+    "name": "порассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9032f4ed-6379-4743-bc1e-65bc1bc29f7a",
+      "start": 22,
+      "end": 33,
+      "text": "порассуждай"
+    }
+  },
+  {
+    "id": "0124d942-6d7e-49d1-8b2c-8d03cd249806",
+    "name": "функция",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9032f4ed-6379-4743-bc1e-65bc1bc29f7a",
+      "start": 48,
+      "end": 55,
+      "text": "функция"
+    }
+  },
+  {
+    "id": "7c725c35-a71b-47ef-b5e5-146cebada446",
+    "name": "дополнительные вопросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53b28154-97c4-4578-a40b-8005db8b4210",
+      "start": 27,
+      "end": 49,
+      "text": "дополнительные вопросы"
+    }
+  },
+  {
+    "id": "91d90a2e-f1e7-4d14-95b2-1345b28bbbeb",
+    "name": "день игрока",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e1bf43a-2013-4fff-8e7f-020afc9a17cd",
+      "start": 5,
+      "end": 16,
+      "text": "день игрока"
+    }
+  },
+  {
+    "id": "b0d135d5-5b8c-45b8-bba9-f779bbe9a67f",
+    "name": "культура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e1bf43a-2013-4fff-8e7f-020afc9a17cd",
+      "start": 35,
+      "end": 43,
+      "text": "культуру"
+    }
+  },
+  {
+    "id": "8138c272-5fab-4650-900f-c7f0407d2432",
+    "name": "другие страны",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2794381-3426-4828-b305-79bad08c574f",
+      "start": 47,
+      "end": 60,
+      "text": "других странах"
+    }
+  },
+  {
+    "id": "860c4bd4-a71f-4ff7-8e7f-00776eabf7b7",
+    "name": "праздник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2794381-3426-4828-b305-79bad08c574f",
+      "start": 61,
+      "end": 69,
+      "text": "праздник"
+    }
+  },
+  {
+    "id": "bba296cf-fe6d-4a19-8a21-327600a960c9",
+    "name": "окно- лазер",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82e44ce3-5fd7-4ce0-acff-0dcd7948f52f",
+      "start": 10,
+      "end": 21,
+      "text": "окно- лазер"
+    }
+  }
+]

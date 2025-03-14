@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Hub: Acme Corporation",
+    "type": "structural",
+    "subtype": "hub",
+    "description": "Acme Corporation is a central entity connected to many others",
+    "entities": [
+      "cb98a426-c763-4f23-880c-e3ed76fc82ae"
+    ],
+    "examples": [
+      {
+        "text": "Acme Corporation is connected to 1985, New York City, software development",
+        "explanation": "Acme Corporation serves as a hub connecting multiple entities"
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "name": "Corporate Leadership and Structure",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern describes the hierarchical structure and key personnel within a company, including CEO, CTO, founding date, headquarters location, and areas of specialization.",
+    "examples": [
+      {
+        "text": "John Smith → Acme Corporation (ceo_of), Acme Corporation → 1985 (founded_in), Acme Corporation → New York City (headquartered_in), Acme Corporation → software development (specializes_in), Mary Johnson → Acme Corporation (cto_of)",
+        "explanation": "This example shows the relationships defining Acme Corporation's leadership (CEO and CTO), its origin (founding date), location (headquarters), and core business (specialization)."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern reveals the basic organizational structure and operational focus of a company, providing insights into its management, history, and core competencies. It highlights the key elements needed to understand a company's profile."
+  },
+  {
+    "name": "Employee Career Trajectory",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern represents an individual's employment history, including the companies they've worked for and the duration of their employment.",
+    "examples": [
+      {
+        "text": "Mary Johnson → Tech Solutions Inc. (worked_at), Mary Johnson → 2005 (worked_since)",
+        "explanation": "This example shows that Mary Johnson worked at Tech Solutions Inc. starting in 2005, indicating a part of her career history."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern provides information about an individual's professional background and experience, which can be useful for understanding their expertise and career progression. It highlights the temporal aspect of employment."
+  },
+  {
+    "name": "Business Partnership and Collaboration",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern describes the relationships between different organizations, including partnerships and collaborations.",
+    "examples": [
+      {
+        "text": "Acme Corporation → Global Systems Ltd. (partnered_with), Global Systems Ltd. → London (based_in), Global Systems Ltd. → David Brown (led_by)",
+        "explanation": "This example shows that Acme Corporation has a partnership with Global Systems Ltd., which is based in London and led by David Brown. This indicates a potential strategic alliance and geographical reach."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern reveals the collaborative network of organizations, highlighting potential synergies and dependencies. It provides insights into the strategic alliances and geographical distribution of businesses."
+  },
+  {
+    "name": "AI Solution Application Domain",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern represents the application of AI solutions in specific domains.",
+    "examples": [
+      {
+        "text": "AI solutions → healthcare (for)",
+        "explanation": "This example shows that AI solutions are being applied in the healthcare domain, indicating a specific area of focus for these technologies."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern highlights the practical applications of AI technologies, providing insights into the industries and sectors where AI is being utilized. It demonstrates the relevance and impact of AI in specific domains."
+  }
+]

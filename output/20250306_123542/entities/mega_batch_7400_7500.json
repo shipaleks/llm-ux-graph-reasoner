@@ -1,0 +1,912 @@
+[
+  {
+    "id": "18d9e107-bf56-4e0a-a3fe-fdac936676b5",
+    "name": "где поесть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "02ad89f8-260c-429f-8315-8ae31e4d42ec",
+      "start": 43,
+      "end": 52,
+      "text": "где поесть"
+    }
+  },
+  {
+    "id": "7689bf4e-bbfa-40ee-a76b-fef9fc432f4c",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "434e05df-d9ea-4ec3-bec2-b77ba089c0c0",
+      "start": 20,
+      "end": 24,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "f7739b61-e73b-44d8-b4b3-6c5f6645445e",
+    "name": "первую ссылку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5dff2929-a941-4f65-8834-915a645b4d64",
+      "start": 17,
+      "end": 30,
+      "text": "первую ссылку"
+    }
+  },
+  {
+    "id": "979f73e6-1921-4f8a-8932-edc9b951fdc9",
+    "name": "телеграмм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98599dc2-120e-40ab-a394-edb7f90d426c",
+      "start": 21,
+      "end": 30,
+      "text": "телеграмм"
+    }
+  },
+  {
+    "id": "0831e746-681e-4e86-a045-4dfda73004ce",
+    "name": "местные блогеры",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98599dc2-120e-40ab-a394-edb7f90d426c",
+      "start": 48,
+      "end": 64,
+      "text": "местных блогеров"
+    }
+  },
+  {
+    "id": "28afd115-0ce4-4059-ab7f-fe0b9292a7ae",
+    "name": "телеграмму",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "79cbcf13-f1b4-4be9-afae-1c4ccf352864",
+      "start": 31,
+      "end": 41,
+      "text": "телеграмму"
+    }
+  },
+  {
+    "id": "855f6313-78ac-4f3e-b648-5e6eca7502de",
+    "name": "телеграмму",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8c10ccc-3c2a-42ac-aae1-3da8b9bb06e4",
+      "start": 27,
+      "end": 37,
+      "text": "телеграмму"
+    }
+  },
+  {
+    "id": "b266bc7a-10db-4119-b3b1-5f8ba4c3a045",
+    "name": "телеграмму",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "022574c2-e618-4de9-a464-f542620c4365",
+      "start": 8,
+      "end": 18,
+      "text": "телеграмму"
+    }
+  },
+  {
+    "id": "107c5be7-bfed-4bc6-908e-26c95b82df2b",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "298fffc7-6b14-433a-a13a-f1cb47518c11",
+      "start": 41,
+      "end": 46,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "89428c56-37f7-4125-a114-715b0b519bd5",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d04ebf2c-9456-4d25-b556-77bcc408ae61",
+      "start": 11,
+      "end": 16,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "d098b1b7-9a87-46e6-9cb8-6640d8ad9aac",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4dc06853-c8aa-4d0d-ae91-7df066feee27",
+      "start": 20,
+      "end": 23,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "40d3d19d-63b6-4190-b5d8-c9a2b8a9aa57",
+    "name": "блогера",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4dc06853-c8aa-4d0d-ae91-7df066feee27",
+      "start": 44,
+      "end": 51,
+      "text": "блогера"
+    }
+  },
+  {
+    "id": "b2a984f1-bd6d-4b30-aaa0-6e6469389cb8",
+    "name": "чат пользователей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b17af983-1ba5-4095-b6e3-6008472e0e87",
+      "start": 21,
+      "end": 38,
+      "text": "чат пользователей"
+    }
+  },
+  {
+    "id": "c7941ba3-a342-4857-bbbb-860db64eb9d3",
+    "name": "блогеры",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b17af983-1ba5-4095-b6e3-6008472e0e87",
+      "start": 113,
+      "end": 120,
+      "text": "блогеров"
+    }
+  },
+  {
+    "id": "51e0f48f-6b9b-46e3-bc33-017b90db69ab",
+    "name": "еда",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b17af983-1ba5-4095-b6e3-6008472e0e87",
+      "start": 131,
+      "end": 135,
+      "text": "про еду"
+    }
+  },
+  {
+    "id": "b2cebf09-285f-4d5e-886e-82e1dc916185",
+    "name": "рестораны",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b17af983-1ba5-4095-b6e3-6008472e0e87",
+      "start": 141,
+      "end": 150,
+      "text": "рестораны"
+    }
+  },
+  {
+    "id": "9c8f9572-6234-4a2c-b60c-27feaa7fc064",
+    "name": "телеграмм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b9fb02a-fe86-469e-a585-d71c9f8ff5d0",
+      "start": 26,
+      "end": 35,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "2db56c8a-2d17-4ffe-bb50-6cfb59dc868d",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b9fb02a-fe86-469e-a585-d71c9f8ff5d0",
+      "start": 38,
+      "end": 43,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "0ba8e947-839c-47e1-b445-90e57109c28f",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b9fb02a-fe86-469e-a585-d71c9f8ff5d0",
+      "start": 51,
+      "end": 54,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "c2e7a3b8-3146-4745-8b01-bf1bc922f679",
+    "name": "вещества",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b9fb02a-fe86-469e-a585-d71c9f8ff5d0",
+      "start": 84,
+      "end": 92,
+      "text": "вещества"
+    }
+  },
+  {
+    "id": "f15b1154-d2dd-4002-89d6-e58d219f3c44",
+    "name": "эксперимент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08f42fb2-1a2e-44fd-b2bd-ec363042ab0d",
+      "start": 15,
+      "end": 26,
+      "text": "эксперимент"
+    }
+  },
+  {
+    "id": "e4188980-00e3-4b2e-b826-3d004ac74e2d",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6d005ac9-893f-440b-9e63-6502ee94a452",
+      "start": 54,
+      "end": 57,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "1c6b0fed-42cb-4035-bd4e-ecf63a1e8584",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6fb259c6-1856-49d3-9345-920cc6b42e79",
+      "start": 21,
+      "end": 24,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "4723a699-e0e7-4113-9dc4-6ac0bd167951",
+    "name": "интер уфа",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8e42fd54-70bd-4e07-9263-8682b4c80320",
+      "start": 85,
+      "end": 94,
+      "text": "интер уфа"
+    }
+  },
+  {
+    "id": "a88491df-7818-4fd9-b623-1e0214212677",
+    "name": "мероприятия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7954f977-8d43-493a-a342-33db213f14db",
+      "start": 32,
+      "end": 43,
+      "text": "мероприятия"
+    }
+  },
+  {
+    "id": "8d64cd40-745d-4026-8f87-c306df92dfce",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "64ed80b4-2227-491e-aa9e-068e737c3b61",
+      "start": 26,
+      "end": 29,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "2107aae2-5ae8-4d46-8fdd-70297f8a24dc",
+    "name": "мероприятия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a8fd45c7-a782-4a40-aa90-4f42a7a954c7",
+      "start": 14,
+      "end": 25,
+      "text": "мероприятия"
+    }
+  },
+  {
+    "id": "4780f95d-9673-4313-9f74-7c2e5fd66d48",
+    "name": "рестораны",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a8fd45c7-a782-4a40-aa90-4f42a7a954c7",
+      "start": 35,
+      "end": 44,
+      "text": "рестораны"
+    }
+  },
+  {
+    "id": "bbe78689-29ce-4b77-80ae-e4f8c406f2d2",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2d5e1d2-35ec-486f-935f-1202b359b563",
+      "start": 11,
+      "end": 14,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "53a9696b-a863-4326-85a1-986661bdde9c",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc8d8eb6-e8ac-4196-8fa6-1b4b7e40b3ab",
+      "start": 52,
+      "end": 55,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "e8d1f95a-2310-44bc-857e-18691ff48aa4",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "808362cb-b6a7-4233-a528-b9eea3b72d11",
+      "start": 76,
+      "end": 79,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "5278222f-c36e-4a12-b85a-8dd7771dd218",
+    "name": "рестораны",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "808362cb-b6a7-4233-a528-b9eea3b72d11",
+      "start": 81,
+      "end": 90,
+      "text": "рестораны"
+    }
+  },
+  {
+    "id": "c1ea5560-6b20-4b78-92a9-868384e86496",
+    "name": "уфе",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f76420a-6a49-4808-a221-0f914ee1f803",
+      "start": 68,
+      "end": 71,
+      "text": "уфе"
+    }
+  },
+  {
+    "id": "d30c196c-bd90-41df-bc60-97e28ad32574",
+    "name": "весной",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5de75658-09a2-46bf-9fb0-31ac92440ecd",
+      "start": 0,
+      "end": 6,
+      "text": "весной"
+    }
+  },
+  {
+    "id": "e71dab99-f034-4bdc-8f4f-323f640d9362",
+    "name": "май",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e3b8e4b-d355-41a9-9af9-e1eba60c9d04",
+      "start": 31,
+      "end": 34,
+      "text": "мае"
+    }
+  },
+  {
+    "id": "88a80c95-c405-4c7f-9749-b855fa6c88f6",
+    "name": "седьмого мая",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e3b8e4b-d355-41a9-9af9-e1eba60c9d04",
+      "start": 36,
+      "end": 48,
+      "text": "седьмого, восьмого"
+    }
+  },
+  {
+    "id": "ab319f85-0c03-4155-b728-1c748cb879fb",
+    "name": "девятое мая",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e3b8e4b-d355-41a9-9af9-e1eba60c9d04",
+      "start": 50,
+      "end": 61,
+      "text": "девятого мая"
+    }
+  },
+  {
+    "id": "03ffc004-ced2-4576-bbf5-fea945190112",
+    "name": "уфа",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4a9c9f3-ad2a-4877-8e9b-1d094646fcef",
+      "start": 28,
+      "end": 31,
+      "text": "уфа"
+    }
+  },
+  {
+    "id": "eedbcd72-94b8-4edc-a4b2-81def6698b0f",
+    "name": "май",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4a9c9f3-ad2a-4877-8e9b-1d094646fcef",
+      "start": 61,
+      "end": 64,
+      "text": "мае"
+    }
+  },
+  {
+    "id": "c8c9570f-359a-499e-a785-eea1f58f8095",
+    "name": "концерты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8cc82542-a273-4a17-930a-c489d728eb19",
+      "start": 31,
+      "end": 39,
+      "text": "концерты"
+    }
+  },
+  {
+    "id": "482cf211-dab3-4f04-94ef-c2097b2754c2",
+    "name": "афиша",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a9c15b8-343c-4d07-a898-a255818b4fc2",
+      "start": 16,
+      "end": 21,
+      "text": "афишу"
+    }
+  },
+  {
+    "id": "e6ab5964-3c50-4fb7-a619-7e7927c3f816",
+    "name": "расклад по проблемам",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b27acf34-ed49-49c6-8e5c-5bf93cddb40c",
+      "start": 0,
+      "end": 74,
+      "text": "если хотите я веду, потому что тут кажется будет расклад по проблемам."
+    }
+  },
+  {
+    "id": "23d38b1d-9914-4568-a148-f3792ad4ad03",
+    "name": "числа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98001605-354c-45c9-bc20-78f419d9f162",
+      "start": 45,
+      "end": 50,
+      "text": "числа"
+    }
+  },
+  {
+    "id": "8b2b511c-4a0c-43fc-a211-153bb28ae48c",
+    "name": "разные вкусы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e1094c0-d78a-4715-bcf7-cefe3bff4f79",
+      "start": 11,
+      "end": 23,
+      "text": "разные вкусы"
+    }
+  },
+  {
+    "id": "0fb54bca-3c46-4bc7-b22b-8c3e49556238",
+    "name": "скрежет зубов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e1094c0-d78a-4715-bcf7-cefe3bff4f79",
+      "start": 41,
+      "end": 54,
+      "text": "скрежет зубов"
+    }
+  },
+  {
+    "id": "dc207815-83bb-43b9-a9c2-bc69a4e44edb",
+    "name": "фотка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08b55cbb-82d0-413a-a972-976f48f6383e",
+      "start": 87,
+      "end": 92,
+      "text": "фотка"
+    }
+  },
+  {
+    "id": "f5d14847-adf5-4949-85f1-51dbaec09c38",
+    "name": "расклад",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "851df051-15bd-44ae-ad9a-890fd39e74b4",
+      "start": 26,
+      "end": 33,
+      "text": "расклад"
+    }
+  },
+  {
+    "id": "47c097e8-99ac-48a8-a7b8-2f1366357aa2",
+    "name": "строка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbfe8cb9-ade3-4313-a346-b5cd49eb7074",
+      "start": 38,
+      "end": 44,
+      "text": "строке"
+    }
+  },
+  {
+    "id": "666680f0-0cd8-4f93-a52e-9f31b342485e",
+    "name": "неудобной",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f21350d1-ffba-4e4b-9d75-1784e577bbd8",
+      "start": 20,
+      "end": 29,
+      "text": "неудобной"
+    }
+  },
+  {
+    "id": "69f04c0c-122c-4cd1-a302-dc849fe4d19d",
+    "name": "неудобный",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f472eb3f-ba80-4fd5-8e58-879098d95877",
+      "start": 23,
+      "end": 32,
+      "text": "неудобный"
+    }
+  },
+  {
+    "id": "c37edce1-ca68-425b-84bb-104e55c53f84",
+    "name": "неудобный",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "71fd049a-0570-478b-b12a-e61af736bc60",
+      "start": 23,
+      "end": 32,
+      "text": "неудобный"
+    }
+  },
+  {
+    "id": "aa937a03-c9a9-4896-a5a0-99f1860a4524",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "145414ac-da4c-4a21-8ffe-d4fb0f7c984a",
+      "start": 37,
+      "end": 42,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "6f7aa8f3-0404-49d1-abea-02714cdebc43",
+    "name": "штуки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "145414ac-da4c-4a21-8ffe-d4fb0f7c984a",
+      "start": 62,
+      "end": 67,
+      "text": "штуки"
+    }
+  },
+  {
+    "id": "a148ff65-8f1a-44dd-a546-87b56e3d0d38",
+    "name": "штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "352eb8e4-43dc-46b6-8adf-e47b7ea91f5b",
+      "start": 22,
+      "end": 27,
+      "text": "штука"
+    }
+  },
+  {
+    "id": "aaa8cb67-cc02-477a-adb4-7e793a4b224c",
+    "name": "неудобная",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "352eb8e4-43dc-46b6-8adf-e47b7ea91f5b",
+      "start": 28,
+      "end": 37,
+      "text": "неудобная"
+    }
+  },
+  {
+    "id": "a9ebc8f3-3cfe-49b8-b02d-4abd6cc79a1c",
+    "name": "кишка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dc9c90c-7f7c-447b-97ab-59d71486d41c",
+      "start": 54,
+      "end": 59,
+      "text": "кишка"
+    }
+  },
+  {
+    "id": "351a35ce-2fa4-4d73-938b-868cf2c7659d",
+    "name": "вертикальном",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dc9c90c-7f7c-447b-97ab-59d71486d41c",
+      "start": 79,
+      "end": 91,
+      "text": "вертикальном"
+    }
+  },
+  {
+    "id": "bde710a8-d1d9-4a76-89d7-d0f826614611",
+    "name": "свайпаешь",
+    "type": "action",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dc9c90c-7f7c-447b-97ab-59d71486d41c",
+      "start": 102,
+      "end": 111,
+      "text": "свайпаешь"
+    }
+  },
+  {
+    "id": "7a584935-4c25-48d0-9ebf-97d754b7b9ed",
+    "name": "в бок",
+    "type": "direction",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dc9c90c-7f7c-447b-97ab-59d71486d41c",
+      "start": 124,
+      "end": 129,
+      "text": "в бок"
+    }
+  },
+  {
+    "id": "e5e07ea1-0d01-4d4e-8d4d-28b4f4a113b7",
+    "name": "информации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53f42ea4-4ae2-4ee7-a535-a2bb2e1fa23d",
+      "start": 22,
+      "end": 32,
+      "text": "информации"
+    }
+  },
+  {
+    "id": "882a01be-7fd5-4ea6-9bb3-ecf217ec2ba9",
+    "name": "вайп",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d424cdc0-a86e-4d45-8abe-1042f31d715f",
+      "start": 4,
+      "end": 8,
+      "text": "вайп"
+    }
+  },
+  {
+    "id": "ced08fa5-fc0a-4a49-aa98-8b996808229f",
+    "name": "информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "608e462a-8adf-4bda-b7ab-66ecf833c639",
+      "start": 5,
+      "end": 15,
+      "text": "информацию"
+    }
+  },
+  {
+    "id": "41d398c1-1a8c-49bf-be23-8b8337af9c43",
+    "name": "сверху",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "608e462a-8adf-4bda-b7ab-66ecf833c639",
+      "start": 67,
+      "end": 73,
+      "text": "сверху"
+    }
+  },
+  {
+    "id": "026db4ba-c8d0-4d3e-a4a7-2b1d3796481d",
+    "name": "больше информации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "608e462a-8adf-4bda-b7ab-66ecf833c639",
+      "start": 82,
+      "end": 99,
+      "text": "больше информации"
+    }
+  },
+  {
+    "id": "c4eb399f-14e9-4bd1-9a02-6e6d5615bbab",
+    "name": "которая нужна",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5782d5e2-45b7-48dc-88eb-399b6f56620b",
+      "start": 0,
+      "end": 13,
+      "text": "которая нужна"
+    }
+  }
+]

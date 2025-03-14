@@ -1,0 +1,394 @@
+[
+  {
+    "id": "ad1a7e5b-4c49-490b-9bd8-7763bb540139",
+    "name": "википедия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "449cbb1a-3242-4fde-a712-763df2161cf2",
+      "start": 26,
+      "end": 35,
+      "text": "википедия"
+    }
+  },
+  {
+    "id": "dc94a020-6999-48d9-931a-c0d5c8140a87",
+    "name": "кнопка источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3e55916-17b8-4b78-a723-12d583f650ff",
+      "start": 19,
+      "end": 34,
+      "text": "кнопка источники"
+    }
+  },
+  {
+    "id": "05c9504d-9a25-4123-a4d1-9e729117ab64",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4948de34-e5a3-46a5-b117-509ebe6bfcc7",
+      "start": 4,
+      "end": 13,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "4e302e8f-4312-4f15-aa36-3fb26f011eff",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ebb3ef38-719f-4390-89e0-be313512f260",
+      "start": 21,
+      "end": 26,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "4f3831ad-cad3-490d-a26c-c3c6e66f28d5",
+    "name": "фидбек",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "30cacbec-86ad-46b0-a419-cd22ec568362",
+      "start": 73,
+      "end": 79,
+      "text": "фидбек"
+    }
+  },
+  {
+    "id": "7e220ace-e390-4909-9334-35ae11fb49ad",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9c8a199-d115-4d0a-a959-dff72745a89d",
+      "start": 13,
+      "end": 22,
+      "text": "нейросетей"
+    }
+  },
+  {
+    "id": "ea3c4024-8236-4ebd-b4c4-e27dcd697df4",
+    "name": "поисковая",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9c8a199-d115-4d0a-a959-dff72745a89d",
+      "start": 34,
+      "end": 43,
+      "text": "поисковая"
+    }
+  },
+  {
+    "id": "03783876-5874-4990-918b-6e0644245aa1",
+    "name": "нейросетьеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6eac3dc5-e0f2-45cb-9d13-e7b49b1517ff",
+      "start": 38,
+      "end": 50,
+      "text": "нейросетьеть"
+    }
+  },
+  {
+    "id": "80557560-b092-4e24-a8f4-4af25bcc2a3f",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937ef8ab-042d-4266-852b-4af49b7c3356",
+      "start": 8,
+      "end": 17,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "97c14f1d-1d62-4446-9e70-f9b937c1df75",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937ef8ab-042d-4266-852b-4af49b7c3356",
+      "start": 27,
+      "end": 32,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "8c1b9644-9523-4a70-9045-d5df1c8767b2",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e28fc42-3499-4ffc-bdd4-b0bcb5f0d22d",
+      "start": 12,
+      "end": 21,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "6c5fc514-02c3-4c68-9d14-16112b5db4be",
+    "name": "яндекс поисковик",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "843ac385-19db-4a60-9366-ce13b8e325e8",
+      "start": 112,
+      "end": 127,
+      "text": "яндекс поисковик"
+    }
+  },
+  {
+    "id": "7567083c-fff5-475a-b013-8074b4578650",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b705fa28-34cb-43fe-8bba-f45966825a37",
+      "start": 27,
+      "end": 32,
+      "text": "гроком"
+    }
+  },
+  {
+    "id": "ae3a99de-8a98-408c-bbc7-a27d5a19a6e5",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "092821ff-5249-4990-8f52-5e4eacc7c12c",
+      "start": 6,
+      "end": 11,
+      "text": "грока"
+    }
+  },
+  {
+    "id": "aadb003e-88d0-46d4-ab2c-587580981f9f",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b12a3b9-1a59-46c6-a754-7f0d7d0a563c",
+      "start": 0,
+      "end": 4,
+      "text": "грок"
+    }
+  },
+  {
+    "id": "b25809d3-9a20-4f65-bee0-0145134a5836",
+    "name": "яндекс проб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d33b4c-635a-4974-8aa1-51a5fa75e099",
+      "start": 41,
+      "end": 52,
+      "text": "яндекс проб"
+    }
+  },
+  {
+    "id": "c1942056-9c1b-483f-859d-0fa17241f66d",
+    "name": "гига- чат",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d33b4c-635a-4974-8aa1-51a5fa75e099",
+      "start": 64,
+      "end": 73,
+      "text": "гига- чат"
+    }
+  },
+  {
+    "id": "8b69b02d-6f07-436c-b95e-4ea8d526648e",
+    "name": "дипсик",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8502b35b-d0bc-43f8-a577-fca713cf0941",
+      "start": 21,
+      "end": 27,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "24a8eec3-eab9-4434-ad1d-56200144f6c2",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "490ba992-6fdb-46ff-bb7a-570ab41634a0",
+      "start": 31,
+      "end": 36,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "e84cd229-39ee-492f-9368-6ce1eef7b043",
+    "name": "чак g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "85263d71-9dd7-452b-b0f7-e9b972c6963c",
+      "start": 36,
+      "end": 45,
+      "text": "чак g пяти"
+    }
+  },
+  {
+    "id": "33e1a44f-5801-41df-b79b-80f4a4b647fc",
+    "name": "гроб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d94956f8-f5a1-468b-a433-cdf204c513b8",
+      "start": 44,
+      "end": 48,
+      "text": "гроб"
+    }
+  },
+  {
+    "id": "47560923-9844-404b-b7a1-296d2c819133",
+    "name": "гроб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0029d9ec-d362-4719-857c-c26c0757f14f",
+      "start": 2,
+      "end": 6,
+      "text": "гроб"
+    }
+  },
+  {
+    "id": "41b0164d-4e46-4bcf-ae67-846e4ce9c86f",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df8a2e05-e718-4080-813e-ab09e4765e62",
+      "start": 8,
+      "end": 12,
+      "text": "грок"
+    }
+  },
+  {
+    "id": "15bfde29-6355-4be2-b860-2cb17ca54a2e",
+    "name": "твиттер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cce0a467-15a2-4f11-94dd-e8788390db8d",
+      "start": 14,
+      "end": 21,
+      "text": "твиттера"
+    }
+  },
+  {
+    "id": "47035e6b-33aa-4a12-b3db-ebbe79e94d14",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e096897-1043-4cc2-8c96-0aaada40befa",
+      "start": 41,
+      "end": 45,
+      "text": "грок"
+    }
+  },
+  {
+    "id": "bd3cc4fa-647f-42cf-9049-e90403dd39ed",
+    "name": "чат g пять",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "60a33de1-b26c-4981-bdf9-99741f9039ad",
+      "start": 24,
+      "end": 33,
+      "text": "чат g пять"
+    }
+  },
+  {
+    "id": "b0aa1dc9-08ea-4aa2-a229-1137fb4dbabd",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4f1869e-8ff5-4d2b-9eef-9f02f2de5526",
+      "start": 48,
+      "end": 53,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "a14093c5-6915-452b-b52d-4786bd60b76c",
+    "name": "гроб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bd66af44-8d37-4217-b32e-d3b70d1bbf88",
+      "start": 13,
+      "end": 17,
+      "text": "гроб"
+    }
+  }
+]

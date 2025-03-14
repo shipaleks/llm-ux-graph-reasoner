@@ -1,0 +1,520 @@
+[
+  {
+    "id": "92fbf39d-3907-4182-b67d-3f85eb76be59",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1a19a9a2-69fd-4dcd-a414-2fe273b07605",
+      "start": 83,
+      "end": 95,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "d936e508-60a5-46b2-a72b-d5d88adaf248",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a7e2e77-4bfc-426a-bc4d-b79b9fc760bc",
+      "start": 87,
+      "end": 99,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "aee1a07b-57d8-4f63-ad10-74e14253261a",
+    "name": "тэг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "348183dd-cca7-4f3a-a0a5-6b4322ec73bd",
+      "start": 47,
+      "end": 50,
+      "text": "тэг"
+    }
+  },
+  {
+    "id": "0f429e3d-0327-442d-80f4-e5b885f69f34",
+    "name": "кнопку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "348183dd-cca7-4f3a-a0a5-6b4322ec73bd",
+      "start": 69,
+      "end": 75,
+      "text": "кнопку"
+    }
+  },
+  {
+    "id": "ba89b610-9ed1-499d-84d4-feb347a5fbe2",
+    "name": "кнопку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b24ef14f-b09a-4b12-9d3b-9e2a7b87166f",
+      "start": 24,
+      "end": 30,
+      "text": "кнопку"
+    }
+  },
+  {
+    "id": "08090197-8307-40bc-8356-62423d3853e0",
+    "name": "кнопку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06c0a496-7737-4de4-9904-28e92c6dc425",
+      "start": 24,
+      "end": 30,
+      "text": "кнопку"
+    }
+  },
+  {
+    "id": "19a39cd8-126f-418c-98fe-19922e0850dc",
+    "name": "кнопки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55b4c484-19e4-4b47-bd9d-8f9fd3a1308c",
+      "start": 32,
+      "end": 38,
+      "text": "кнопки"
+    }
+  },
+  {
+    "id": "9bf4da62-1097-4bb7-8d9b-1820d5182abe",
+    "name": "приказ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73110ff3-d79d-4923-baf0-e1838f43292b",
+      "start": 18,
+      "end": 24,
+      "text": "приказ"
+    }
+  },
+  {
+    "id": "b4fb60de-fbfc-4242-86f5-1f36b4f249f3",
+    "name": "печать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73110ff3-d79d-4923-baf0-e1838f43292b",
+      "start": 44,
+      "end": 50,
+      "text": "печать"
+    }
+  },
+  {
+    "id": "898137f5-4cf4-48aa-a473-a1b9a32e549c",
+    "name": "приказ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73110ff3-d79d-4923-baf0-e1838f43292b",
+      "start": 57,
+      "end": 63,
+      "text": "приказ"
+    }
+  },
+  {
+    "id": "e84c65af-a69e-467e-8cb3-e0a73d90dc3b",
+    "name": "проект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73110ff3-d79d-4923-baf0-e1838f43292b",
+      "start": 65,
+      "end": 71,
+      "text": "проект"
+    }
+  },
+  {
+    "id": "a0c7220b-7a8e-4cf5-a9d3-d9e45fb77bda",
+    "name": "проект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "09b08f60-23c3-46c7-b0bc-f09c6e41feb6",
+      "start": 76,
+      "end": 82,
+      "text": "проект"
+    }
+  },
+  {
+    "id": "4d7f8901-0cf7-41d6-868c-e320fe5280e6",
+    "name": "засекречено гриф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b8f3900-4bc8-431e-9f47-3d799c4ec93d",
+      "start": 10,
+      "end": 26,
+      "text": "засекречено гриф"
+    }
+  },
+  {
+    "id": "1e7315bb-08de-4332-be36-db0442115bcb",
+    "name": "поле",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2dd1882-ad74-4430-903e-68e81b060640",
+      "start": 23,
+      "end": 27,
+      "text": "полю"
+    }
+  },
+  {
+    "id": "cca48c35-ef7f-4b13-a84b-0921f432f76e",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7f32342a-6145-4195-904a-bc39cf3aff41",
+      "start": 43,
+      "end": 48,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "b900c0e8-4248-499b-805d-1e3d82cc72aa",
+    "name": "кнопку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d568526b-c948-47a1-a62d-1faa2050e3df",
+      "start": 34,
+      "end": 40,
+      "text": "кнопку"
+    }
+  },
+  {
+    "id": "8132b0de-8b3f-48c8-b259-45c40f63d531",
+    "name": "поисковая строка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "40276db4-8b09-48ba-a9f7-d77a84583c31",
+      "start": 64,
+      "end": 80,
+      "text": "поисковая строка"
+    }
+  },
+  {
+    "id": "2732ec66-3838-4e02-b789-73a9b27c5306",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7502606c-a342-4037-8e11-d29d62de63c9",
+      "start": 56,
+      "end": 61,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "be9078c0-33e3-4b6d-b2be-4bf843530881",
+    "name": "роликом мышки",
+    "type": "tool",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7502606c-a342-4037-8e11-d29d62de63c9",
+      "start": 70,
+      "end": 83,
+      "text": "роликом мышки"
+    }
+  },
+  {
+    "id": "35a9b942-4672-4234-8357-733bb5984978",
+    "name": "рамку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5de82ce9-df8d-4614-8dc3-7d0a2006c549",
+      "start": 64,
+      "end": 69,
+      "text": "рамку"
+    }
+  },
+  {
+    "id": "bdd69a10-d92a-46c0-894f-08a2e7430185",
+    "name": "поисковая строка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5de82ce9-df8d-4614-8dc3-7d0a2006c549",
+      "start": 95,
+      "end": 111,
+      "text": "поисковая строка"
+    }
+  },
+  {
+    "id": "10472a5b-f027-406d-ab46-d0e150b74038",
+    "name": "фон",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "50202de3-33c5-45f9-9e1d-6e98146179e8",
+      "start": 31,
+      "end": 34,
+      "text": "фон"
+    }
+  },
+  {
+    "id": "100fea53-b686-4101-9d85-464358ad8174",
+    "name": "кнопке исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d131bb79-f5be-419f-9a48-d4327fb48228",
+      "start": 23,
+      "end": 42,
+      "text": "кнопке исследования"
+    }
+  },
+  {
+    "id": "c8ca29f0-36e1-47a4-8f9d-6258ab56cd6c",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d91619be-fda7-483e-8737-bf04ebebf9f7",
+      "start": 75,
+      "end": 81,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "4f272380-7cfe-4f1c-b88f-c227cfea29d9",
+    "name": "кнопка исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aeef7a7f-20c8-4a97-8057-b7ce219fa3f3",
+      "start": 15,
+      "end": 34,
+      "text": "кнопка исследования"
+    }
+  },
+  {
+    "id": "427c5dd7-9645-4cbe-beab-d1ae042e53ee",
+    "name": "Алисе",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9e3cc6a-fee5-4d69-9680-25fcba05ef24",
+      "start": 34,
+      "end": 39,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "2ab14ec4-fb4c-46a0-b399-7b1f0cfa36e0",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9e3cc6a-fee5-4d69-9680-25fcba05ef24",
+      "start": 40,
+      "end": 46,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "018c2580-d011-44d5-a243-bbcfa0bcb630",
+    "name": "Карелия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d58b304d-471a-494d-8429-617429080bdf",
+      "start": 0,
+      "end": 7,
+      "text": "карелия"
+    }
+  },
+  {
+    "id": "194483ec-a4e9-46b8-a992-cc1eb7b6824f",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac422153-5a40-4528-aa60-9027e2ff511e",
+      "start": 48,
+      "end": 66,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "4cea022c-cfb9-49d3-a434-cc81c5809cd7",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98f4ae7a-0a8f-488b-8264-6ef1ea1b8ef8",
+      "start": 31,
+      "end": 43,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "fc30d024-bd75-41f1-a329-a1e4859119cf",
+    "name": "калининградская область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4c0a0c01-0b34-4225-8c65-8eca18f05db2",
+      "start": 0,
+      "end": 24,
+      "text": "калининградская область"
+    }
+  },
+  {
+    "id": "3de53f46-533c-4917-915d-45c9ae49891c",
+    "name": "краснодарскому краю",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ada1705a-8206-499e-8e40-eee0e9fbfaf9",
+      "start": 22,
+      "end": 42,
+      "text": "краснодарскому краю"
+    }
+  },
+  {
+    "id": "f79ba953-92e2-42f6-9762-130fc636a97b",
+    "name": "кнопку исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3e4b01f-432e-4652-92dd-09df8ee81d88",
+      "start": 47,
+      "end": 66,
+      "text": "кнопку исследования"
+    }
+  },
+  {
+    "id": "05eaa12a-53d1-470f-82a3-8eb9c0ba9a9d",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1dc1e6b7-2965-4a5e-8cbf-f217cd9e2903",
+      "start": 13,
+      "end": 19,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "54b09b98-a7ec-494f-a21f-66b5f4eb5715",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "71fbe493-cbaa-4344-bcf6-f484ff1d92f3",
+      "start": 6,
+      "end": 12,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "c8cb3d24-2117-4098-b31b-36236548a215",
+    "name": "девушке",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "71fbe493-cbaa-4344-bcf6-f484ff1d92f3",
+      "start": 21,
+      "end": 28,
+      "text": "девушке"
+    }
+  },
+  {
+    "id": "93a2edf9-bd64-44d9-b1dd-cd61e53af4e4",
+    "name": "восьмое марта",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "71fbe493-cbaa-4344-bcf6-f484ff1d92f3",
+      "start": 32,
+      "end": 45,
+      "text": "восьмое марта"
+    }
+  }
+]

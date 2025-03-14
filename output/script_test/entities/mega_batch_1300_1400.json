@@ -1,0 +1,478 @@
+[
+  {
+    "id": "c4773796-c7bd-446b-ba8b-8a8f3480c5c2",
+    "name": "кнопка источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b37ef5b-5ea8-4fe3-9884-718f7e7cb885",
+      "start": 30,
+      "end": 46,
+      "text": "кнопка источники"
+    }
+  },
+  {
+    "id": "280237e1-0d2a-4fae-a72b-f688de5ece67",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ceffe2c-5592-445f-9fee-203727580393",
+      "start": 21,
+      "end": 27,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "bd78fbfe-9703-4f90-a2d0-4834895592e8",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78b163ab-7a62-4e2a-aa3f-de8bcdc33a61",
+      "start": 61,
+      "end": 67,
+      "text": "ссылками"
+    }
+  },
+  {
+    "id": "f1c1ba51-009b-4682-8680-54117452fd14",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78b163ab-7a62-4e2a-aa3f-de8bcdc33a61",
+      "start": 87,
+      "end": 92,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8557fc54-9130-4632-a622-eecca5698ac8",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eacdfb4d-d6c7-44a0-8c0d-c3071225fa4e",
+      "start": 12,
+      "end": 18,
+      "text": "ссылками"
+    }
+  },
+  {
+    "id": "342bce2f-47f0-48f9-aad0-6c2180778c5e",
+    "name": "обычный поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ef3e750-8ee3-41b8-9ffc-17a4f731a78e",
+      "start": 61,
+      "end": 74,
+      "text": "обычный поиск"
+    }
+  },
+  {
+    "id": "1a0ee5a9-9978-4079-87a4-1f52c2fc346d",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e49b6968-9326-4588-a301-bc0ee17147c2",
+      "start": 34,
+      "end": 39,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "649ec224-02ba-42a8-8e02-135f4b291768",
+    "name": "внутренняя разработка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8e05c8ac-317e-406d-af54-ca497fb73fba",
+      "start": 27,
+      "end": 48,
+      "text": "внутренняя разработка"
+    }
+  },
+  {
+    "id": "e222fae3-d7d0-434c-bb73-23eae836c409",
+    "name": "обязательства на разглашение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8e05c8ac-317e-406d-af54-ca497fb73fba",
+      "start": 91,
+      "end": 119,
+      "text": "обязательства на разглашение"
+    }
+  },
+  {
+    "id": "484db29d-a27d-401e-bb65-9c42462766de",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d71249bc-ccd4-4bc6-8209-02628f306855",
+      "start": 5,
+      "end": 10,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "df475298-d480-4d5b-ad65-55f0684907ef",
+    "name": "голосовая штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d71249bc-ccd4-4bc6-8209-02628f306855",
+      "start": 17,
+      "end": 32,
+      "text": "голосовая штука"
+    }
+  },
+  {
+    "id": "4ed651f3-5502-4b1f-9082-607faf120257",
+    "name": "чат g пяти",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d71249bc-ccd4-4bc6-8209-02628f306855",
+      "start": 37,
+      "end": 47,
+      "text": "чате g пяти"
+    }
+  },
+  {
+    "id": "dc139e98-7262-476d-9f5c-1a03013ec33f",
+    "name": "возможность общаться",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20408851-9119-43bc-96ac-dcbdafe73f75",
+      "start": 8,
+      "end": 28,
+      "text": "возможность общаться"
+    }
+  },
+  {
+    "id": "717199ee-367b-4308-86be-7d0f00e7eca1",
+    "name": "алисы",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7b516dd-5c39-46d7-abb8-8016b60d55c6",
+      "start": 36,
+      "end": 41,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "83e748bd-997a-456e-8d78-dff185ef8937",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7b516dd-5c39-46d7-abb8-8016b60d55c6",
+      "start": 47,
+      "end": 52,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6f941e32-9654-4db9-a5e7-d6b03dc453d9",
+    "name": "озвучивание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8feacb6-40a6-4f93-9931-0bf5e5194ab2",
+      "start": 22,
+      "end": 33,
+      "text": "озвучивание"
+    }
+  },
+  {
+    "id": "e9a70695-d915-4216-8e36-4c11721d799d",
+    "name": "алису",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7098a24c-acc0-4bea-9c53-8af7ba839e40",
+      "start": 23,
+      "end": 28,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "8d3c68e2-d726-4f22-b5e2-5ea19fa0731a",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "042f9727-1748-4b2a-a354-d579f1920226",
+      "start": 26,
+      "end": 31,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "43ebcce1-b10e-4385-86df-45dc7ddf47d5",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "042f9727-1748-4b2a-a354-d579f1920226",
+      "start": 34,
+      "end": 39,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "1f9c16ba-63dd-43a8-8ac0-f0d219ddda43",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "042f9727-1748-4b2a-a354-d579f1920226",
+      "start": 43,
+      "end": 49,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "9d772a28-6406-4f10-a13c-50a411d03db2",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6af648a6-4cdb-4da7-a941-a3cd0c69e23d",
+      "start": 5,
+      "end": 10,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "2fd8f7e2-b613-438c-86b1-3ed1c8808fda",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6f17fd6e-2ff3-4878-85c4-23ee19bf7baf",
+      "start": 9,
+      "end": 14,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "c41a24c4-f407-45e4-9b82-543d2cf83526",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6f17fd6e-2ff3-4878-85c4-23ee19bf7baf",
+      "start": 17,
+      "end": 23,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "6c8d08ec-35da-4625-a98d-1c8e789f71ff",
+    "name": "яндекс про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6f17fd6e-2ff3-4878-85c4-23ee19bf7baf",
+      "start": 27,
+      "end": 37,
+      "text": "яндекс про"
+    }
+  },
+  {
+    "id": "bd9fa1c7-d29d-40a9-9d83-7cb2ee0e62dc",
+    "name": "поселок",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "51d8b86c-a911-4922-a4a1-7aa642adcc6b",
+      "start": 41,
+      "end": 48,
+      "text": "поселок"
+    }
+  },
+  {
+    "id": "e75378fe-91b1-4909-9f39-a2d85ef43767",
+    "name": "табличка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5451db7a-7bc2-4b9f-888d-26e1fd06ccc1",
+      "start": 9,
+      "end": 17,
+      "text": "табличка"
+    }
+  },
+  {
+    "id": "cd9e1a44-c3f3-465d-8e67-a04b6cdcf876",
+    "name": "расслопывающихся элементов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96fe08b7-ba0f-453a-91b7-6983aaa5ce57",
+      "start": 29,
+      "end": 56,
+      "text": "расслопывающихся элементов"
+    }
+  },
+  {
+    "id": "7e46581a-bc39-4902-9fe3-2011a2170237",
+    "name": "республику алтай",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08cf45ce-0c4f-400f-9942-a9221323d482",
+      "start": 31,
+      "end": 47,
+      "text": "республику алтай"
+    }
+  },
+  {
+    "id": "8352c6f4-5dfd-4e00-8443-f840ceb0ce70",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78884bad-2da3-4d4a-9c2f-b5d1df16cf60",
+      "start": 5,
+      "end": 11,
+      "text": "ссылка"
+    }
+  },
+  {
+    "id": "68e1a7aa-85d0-468e-9d49-ddc190c1b7fa",
+    "name": "дагестан",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2fbdc273-d933-4870-b4d6-c39eeda191fb",
+      "start": 37,
+      "end": 45,
+      "text": "дагестан"
+    }
+  },
+  {
+    "id": "01c73021-93d4-48dc-a6f0-7c7456f91199",
+    "name": "ссылка спортс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f04d0568-37ce-404f-b745-d927df4597fc",
+      "start": 27,
+      "end": 40,
+      "text": "ссылка спортс"
+    }
+  },
+  {
+    "id": "2c83ae0d-36f8-4aef-acec-e8333aab072c",
+    "name": "спортс.ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a646a2d-7f82-47f9-8474-edcd6e36902d",
+      "start": 0,
+      "end": 9,
+      "text": "спортс.ру"
+    }
+  },
+  {
+    "id": "2c18db01-3859-492a-9361-4290f5f16a7c",
+    "name": "сервис для бронирования билетов, туров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a646a2d-7f82-47f9-8474-edcd6e36902d",
+      "start": 51,
+      "end": 90,
+      "text": "сервис для бронирования билетов, туров"
+    }
+  },
+  {
+    "id": "7fbe80c5-5bbe-4de2-b4da-dd621f5a9bc0",
+    "name": "спортивный сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3af7e341-5c54-40f1-9787-188fe6b53b15",
+      "start": 7,
+      "end": 22,
+      "text": "спортивный сайт"
+    }
+  }
+]

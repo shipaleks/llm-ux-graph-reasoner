@@ -1,0 +1,86 @@
+[
+  {
+    "id": "65f90a22-fe1b-4dd1-8944-c0e30003c59e",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 29,
+      "end": 34,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "e2ce6003-1491-4adf-8139-7add1b8eb6fc",
+    "name": "умная колонка",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 38,
+      "end": 51,
+      "text": "умной колонке"
+    }
+  },
+  {
+    "id": "569a9baf-d3db-47b6-bb41-c5b1adabc1dc",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 55,
+      "end": 60,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "b3e441a2-88a2-4ae6-8284-e7b8b20a24a3",
+    "name": "GPT",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 65,
+      "end": 68,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "bec1fb00-099c-4c2f-8b4e-c8265bdda260",
+    "name": "G пять",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 117,
+      "end": 123,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "313a0a38-afbb-4f30-ab0e-254ac5c2381a",
+    "name": "OpenAI",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190416c6-6eab-48f3-9d0a-88885700d2a2",
+      "start": 128,
+      "end": 135,
+      "text": "опен- ай"
+    }
+  }
+]

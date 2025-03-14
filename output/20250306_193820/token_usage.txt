@@ -1,0 +1,41 @@
+File: tests/data/samples/sample.txt
+Date: 2025-03-06 19:38:54
+Total analysis time: 33.29 seconds
+
+Token Usage Summary
+===================
+Total API Calls: 2
+Total Tokens: 5960 (Input: 1459, Output: 4501)
+Estimated Cost: $0.007481 USD
+Total API Duration: 33.05 seconds
+Total Analysis Time: 33.29 seconds
+
+Model Breakdown:
+  gemini-2.0-pro-exp-02-05:
+    Calls: 2
+    Tokens: 5960 (Input: 1459, Output: 4501)
+    Cost: $0.007481 USD
+
+
+JSON DATA:
+{
+  "file": "tests/data/samples/sample.txt",
+  "date": "2025-03-06 19:38:54",
+  "analysis_time": 33.29030799865723,
+  "api_calls": 2,
+  "input_tokens": 1459,
+  "output_tokens": 4501,
+  "total_tokens": 5960,
+  "total_cost_usd": 0.007481000000000001,
+  "api_duration": 33.050000000000004,
+  "models": {
+    "gemini-2.0-pro-exp-02-05": {
+      "calls": 2,
+      "input_tokens": 1459,
+      "output_tokens": 4501,
+      "input_cost": 0.0007295,
+      "output_cost": 0.0067515000000000006,
+      "total_cost": 0.007481000000000001
+    }
+  }
+}

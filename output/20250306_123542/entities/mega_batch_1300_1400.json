@@ -1,0 +1,527 @@
+[
+  {
+    "id": "bdbf937c-3517-42bb-bbbe-99fd65d71dc0",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af28f1eb-378f-48e9-9ccd-2a62e0935053",
+      "start": 36,
+      "end": 42,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "011f93be-57f4-48d2-9b1b-dd91e806c3f9",
+    "name": "официальный сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3aac6312-fadf-4a4d-8972-6ea59f5d379a",
+      "start": 7,
+      "end": 23,
+      "text": "их официальный сайт"
+    }
+  },
+  {
+    "id": "70fd136a-4f35-4831-9bdf-a5dc8987741c",
+    "name": "официальному расписанию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3aac6312-fadf-4a4d-8972-6ea59f5d379a",
+      "start": 32,
+      "end": 55,
+      "text": "официальном расписанию"
+    }
+  },
+  {
+    "id": "e5dcd756-81db-4497-b862-5243a422140c",
+    "name": "официальное расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "214bb2a4-96c3-47b3-8b29-d8f24ae973ce",
+      "start": 34,
+      "end": 56,
+      "text": "официальное расписание"
+    }
+  },
+  {
+    "id": "bcb3782e-8c0b-4727-bf92-ab7683d571b3",
+    "name": "расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1beb34c-814f-4066-b980-56401bfda3cf",
+      "start": 34,
+      "end": 44,
+      "text": "расписание"
+    }
+  },
+  {
+    "id": "52066af4-48ea-4040-a6b5-13ec25a44b40",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34e22213-70dd-4d65-8733-be8c10330a5b",
+      "start": 26,
+      "end": 30,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "8b864793-56ea-4fe6-a447-73b6d655515d",
+    "name": "расписанию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88432021-e70e-48ce-ba3c-b38f0086d0e3",
+      "start": 41,
+      "end": 51,
+      "text": "расписанию"
+    }
+  },
+  {
+    "id": "afaa823e-b6d4-4d8d-b5bb-95789604d40f",
+    "name": "бассейн",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "10f07c82-48bb-4065-99cb-3e326b8a4bb0",
+      "start": 17,
+      "end": 24,
+      "text": "бассейн"
+    }
+  },
+  {
+    "id": "05c44c54-f7a4-4a1d-a435-956090e65cbf",
+    "name": "расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3893b944-8512-4512-a0da-b44fb30eba95",
+      "start": 98,
+      "end": 108,
+      "text": "расписание"
+    }
+  },
+  {
+    "id": "e3cf0afe-f00c-4a6b-ae3e-268ea14dad1f",
+    "name": "дни недели",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dd87349-8341-471e-ba12-8fe5c26f3048",
+      "start": 9,
+      "end": 19,
+      "text": "дни недели"
+    }
+  },
+  {
+    "id": "d968128c-7a9c-4b95-b3d7-f7f3d5b7db5f",
+    "name": "время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dd87349-8341-471e-ba12-8fe5c26f3048",
+      "start": 22,
+      "end": 27,
+      "text": "время"
+    }
+  },
+  {
+    "id": "efca5c19-5510-4e59-9c55-8536d532b10d",
+    "name": "битва на чудском",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3a41a447-3706-4ccb-8d38-0793cf016d2d",
+      "start": 43,
+      "end": 59,
+      "text": "битве на чудском"
+    }
+  },
+  {
+    "id": "a704e00f-e3ff-422c-8d04-083c7d6ffd08",
+    "name": "битва",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0236221-b7c6-433b-9474-886b1bc9ab90",
+      "start": 76,
+      "end": 82,
+      "text": "битвы"
+    }
+  },
+  {
+    "id": "eafdd61d-2290-4bfb-a82d-b7338c0bb240",
+    "name": "ассистенты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "abc95fd0-5a8c-42fa-a3ac-54f921d84d9b",
+      "start": 65,
+      "end": 75,
+      "text": "ассистенты"
+    }
+  },
+  {
+    "id": "696da897-9dad-4ec2-87f3-ce2483a21542",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92fa1996-2f27-4a2b-858b-e25b3d9d9581",
+      "start": 12,
+      "end": 17,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "fa7eb208-15c6-4928-bef0-b9b0ebc344a8",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2fd66396-9a2d-436f-9afe-c11f46d6174d",
+      "start": 2,
+      "end": 7,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "86eee0ae-e91a-48c9-b430-3bf416f36690",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70dc3232-5dee-42c3-a971-7eaf3d55bbcb",
+      "start": 33,
+      "end": 38,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6b70b873-1502-4710-ac90-6bc7eed5dac7",
+    "name": "запрос про бассейн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70dc3232-5dee-42c3-a971-7eaf3d55bbcb",
+      "start": 97,
+      "end": 115,
+      "text": "запрос про бассейн"
+    }
+  },
+  {
+    "id": "20cb46a6-0793-4125-bfd9-8757167e0f89",
+    "name": "сайт бассейна",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8075b9cb-ec25-495d-9758-7553cf90f641",
+      "start": 41,
+      "end": 54,
+      "text": "сайт бассейна"
+    }
+  },
+  {
+    "id": "f9e83867-bc93-4e03-a85c-d1236d96ba53",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ee0b8137-03d5-4d8e-8dee-105396a4f803",
+      "start": 7,
+      "end": 12,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6ccdbf6d-9441-4b70-8fb5-8fe63b7c1d20",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b4b24257-2f4d-4f38-af69-660ccd3d7dcc",
+      "start": 49,
+      "end": 54,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "54e9adfd-fd2c-43ae-935f-1d3adff61159",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6256e24c-4645-4afa-af76-5fafc53717a9",
+      "start": 44,
+      "end": 49,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "43b12665-0402-4823-adc1-3576a347a3b8",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d6dbe0f1-54d1-472a-9ab9-8348287825b8",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "a1a09dfe-41f3-49a9-8ccf-cd9153b8b857",
+    "name": "Александр Невский",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e5632e2-9d72-42b4-9f18-a5e7dc94075a",
+      "start": 49,
+      "end": 66,
+      "text": "александр невский"
+    }
+  },
+  {
+    "id": "5cde10af-52f5-4078-8ea1-8c9a80157d19",
+    "name": "расписание работы бассейна",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a515613-b603-4237-af31-173380f32592",
+      "start": 21,
+      "end": 49,
+      "text": "расписание работы бассейна"
+    }
+  },
+  {
+    "id": "3dd6b85e-4bfd-4843-bf8b-45e66627112f",
+    "name": "найро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ee1a959-82b3-4551-99fb-020a41729aa9",
+      "start": 89,
+      "end": 94,
+      "text": "найро"
+    }
+  },
+  {
+    "id": "4bad9b5d-45f2-4bd0-a412-b22a1cad7db2",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0b748f0-53b8-424a-9b94-680544a32749",
+      "start": 45,
+      "end": 50,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "676868be-7da3-4c63-b069-3ece64661d65",
+    "name": "список сайтов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0b748f0-53b8-424a-9b94-680544a32749",
+      "start": 111,
+      "end": 124,
+      "text": "список сайтов"
+    }
+  },
+  {
+    "id": "b5b78812-7e93-4645-ab98-1d1f2335f78e",
+    "name": "пиратский онлайн кинотеатр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "019ff15e-8bd9-4a73-aabf-fa393d52c2a2",
+      "start": 7,
+      "end": 33,
+      "text": "пиратский онлайн кинотеатр"
+    }
+  },
+  {
+    "id": "4ebe8545-5a14-4c54-a65c-e1ac530f735a",
+    "name": "маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4da522a-79e1-4bdb-83ae-7c5d204d1819",
+      "start": 11,
+      "end": 17,
+      "text": "маркет"
+    }
+  },
+  {
+    "id": "a5e7dd57-25ef-4dbd-ab60-d0c89284199c",
+    "name": "маркет",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "function",
+        "value": "сравнение",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eede3d4e-b13f-4e16-a918-c0d934b65669",
+      "start": 26,
+      "end": 32,
+      "text": "маркете"
+    }
+  },
+  {
+    "id": "7382c61b-1d42-46e7-b586-c2237ddb7301",
+    "name": "оля",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa1ca1d-fefd-43f5-825f-97ec3f2e6c9d",
+      "start": 7,
+      "end": 10,
+      "text": "оля"
+    }
+  },
+  {
+    "id": "4eff5023-f133-4ce0-8e07-2f7d283fd180",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce5caa53-94f1-4245-a0b5-b534095e9906",
+      "start": 13,
+      "end": 18,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "48f40a12-ec78-4acc-b083-f1e40473e340",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4de0f423-2487-447d-8429-9f4afe4a6a5e",
+      "start": 45,
+      "end": 50,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "28c28804-e3dc-4ccf-ab52-5db5dbff6d24",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88c2e2a3-036d-4334-b1c6-0aacd71fec50",
+      "start": 7,
+      "end": 12,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "8538bd57-b2e9-46c1-bca3-afce5f975079",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54289b91-c03c-4252-8bc4-4a0bf8bfe4ce",
+      "start": 11,
+      "end": 16,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "10e39050-d47c-469e-b465-c31349ac7c4c",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4cb9f502-99d3-4a78-9d9f-785faf08a68b",
+      "start": 12,
+      "end": 17,
+      "text": "нейро"
+    }
+  }
+]

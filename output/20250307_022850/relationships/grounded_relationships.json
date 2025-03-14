@@ -1,0 +1,386 @@
+[
+  {
+    "id": "68553958-5ec9-4b23-8c2b-cc2b3e4b740b",
+    "source_id": "a549fa51-cd26-4e18-9925-f3197f1151b8",
+    "target_id": "b109a65c-2f56-40fc-ae96-f59b9aa0a324",
+    "type": "CAN_BE_REFINED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6204fe84-01cc-408a-854f-3e957062ead4",
+      "start": 687,
+      "end": 900,
+      "text": "\n\nда, для меня просто исследу.\n\nэта кнопка она как про уточни, там сделай глубже, но если мне надо что- то сделать глубже, я могу уточнить, что мне просто можно сделать глубже.\n\nтам расскажи подробнее про рекламу."
+    }
+  },
+  {
+    "id": "1c350d16-1bb4-48da-a9ae-641f6a9fa527",
+    "source_id": "622aab9d-3e4d-4c77-a6dd-a06378cf4162",
+    "target_id": "6cdf852c-4de0-4928-8c9d-2a935b8b7017",
+    "type": "PROVIDES_ANSWER",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1fafddf7-4b3a-407b-b17d-61962124348a",
+      "start": 1296,
+      "end": 1450,
+      "text": "\n\nалиса, какая ближайшая станция метро до ваганьковского кладбища?\n\nближайшие к ваганьковскому кладбищу- станция метро улица тысяча девятьсот пятого года."
+    }
+  },
+  {
+    "id": "df71ad30-eda9-4d7d-a6c4-651656420487",
+    "source_id": "aee22c69-7338-419d-8efe-27cc9660d26e",
+    "target_id": "2b223d37-412b-44fe-9b88-1b56ffe66be2",
+    "type": "SUGGESTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1fafddf7-4b3a-407b-b17d-61962124348a",
+      "start": 9160,
+      "end": 9309,
+      "text": "\n\nалиса ведь не даст отзывы или дает?\n\nя помню, я как- то спрашивал, она отвечала согласно отзывам на яндекс маркете и то- то то то то то то говорил."
+    }
+  },
+  {
+    "id": "1d969244-2489-4da4-9cfd-590fea4d83c4",
+    "source_id": "3a27d743-a06f-4cad-9f97-af909d0788ae",
+    "target_id": "3a27d743-a06f-4cad-9f97-af909d0788ae",
+    "type": "DUPLICATES",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d57c37a-638f-4d2e-b042-eef16dc61e6f",
+      "start": 11345,
+      "end": 11378,
+      "text": "\n\nпочему нейросети изменит поиск?"
+    }
+  },
+  {
+    "id": "7872c778-2118-442f-9908-9422c94d78a5",
+    "source_id": "e2be4023-e20f-4f48-9c3d-da687be63651",
+    "target_id": "2243ff36-2b3a-4288-b143-c931b56d3364",
+    "type": "SUGGESTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d57c37a-638f-4d2e-b042-eef16dc61e6f",
+      "start": 6461,
+      "end": 6609,
+      "text": "\n\nхотя бы как в алисе добавить, вот видите где написано подробный ответ, подробный пересказ.\n\nв ватсапе сейчас так появилось, что типа как печатает."
+    }
+  },
+  {
+    "id": "8689c0f5-1767-4c5a-9941-40ee367dacd9",
+    "source_id": "3a27d743-a06f-4cad-9f97-af909d0788ae",
+    "target_id": "74fa36b2-5164-432f-94cd-25f17f36093c",
+    "type": "DUPLICATES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d57c37a-638f-4d2e-b042-eef16dc61e6f",
+      "start": 2361,
+      "end": 2454,
+      "text": "\n\nда, вот если бы это в настройках браузера сделать нейро.\n\nкороткий ответ и подробный ответ."
+    }
+  },
+  {
+    "id": "23b44cdd-db7f-481a-88ba-535db256e3c5",
+    "source_id": "8c183cc9-8e81-4cef-bf5b-39f7dd5b159c",
+    "target_id": "4d3f7f2d-8edd-4aab-a95b-e236488dbdef",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 414,
+      "end": 451,
+      "text": "\n\nпоскорее яндекс про, по- моему так."
+    }
+  },
+  {
+    "id": "eb3e1aa4-d00f-4e50-8060-c4d01005f250",
+    "source_id": "b7d60044-02df-4241-863a-534bbaaba68d",
+    "target_id": "c79e9a0d-5368-49a2-9abd-762595b75823",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 788,
+      "end": 903,
+      "text": "\n\nто есть у меня тут и чат и алиса.\n\nэто у меня в яндекс браузере, а в гугл хром соответственно тоже раз, два, три."
+    }
+  },
+  {
+    "id": "1a8e0656-ee29-4f2c-97ac-26d66f692020",
+    "source_id": "1a9abe13-f6d2-444f-b506-99005ff06460",
+    "target_id": "8326a7a3-2bc1-43f0-abf5-34e43d4f5263",
+    "type": "MENTIONS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 3751,
+      "end": 3865,
+      "text": "\n\nну то есть вот ты там кинул запрос про наполеона, он ему это интересно там, еще что- то спросил.\n\nмой.\n\nпрофиль."
+    }
+  },
+  {
+    "id": "0081ff0f-2800-48bf-8b11-bb4e219b4a57",
+    "source_id": "1a9abe13-f6d2-444f-b506-99005ff06460",
+    "target_id": "2a457c98-cf0f-42ad-9251-ef74bc3c6fac",
+    "type": "MENTIONS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 3855,
+      "end": 3910,
+      "text": "\n\nпрофиль.\n\nда?\n\nда, как там, не знаю, стартапы делать."
+    }
+  },
+  {
+    "id": "5d0b7106-d7fd-407c-b46e-9654b055624f",
+    "source_id": "89e57745-d7b2-4a08-b8d0-a3ee522c396c",
+    "target_id": "d75e56a4-a222-4fff-a805-0db1e6b4528e",
+    "type": "MENTIONS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 8751,
+      "end": 8900,
+      "text": " не буду называть нейросети, в общей.\n\nну, простой запрос там.\n\nрасскажи мне, кто этот человек, да?\n\nкакая- то типичная знаменитая.\n\nтакой илон маск?"
+    }
+  },
+  {
+    "id": "f81d33a7-c448-420e-9656-5e90bb711093",
+    "source_id": "b5d428d3-55db-4219-908d-e874059a2b3c",
+    "target_id": "6ca534d9-d6d4-4608-91df-f5f8a7be4dd5",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0777b416-fda0-4700-8d99-ace7365f5d12",
+      "start": 15188,
+      "end": 15302,
+      "text": "\n\nа, вот фермерский бокс.\n\nну вот перешел и вот он пишет: одной из первых эту схему реализовала компания с бостон."
+    }
+  },
+  {
+    "id": "b31275a0-e68a-49fb-b081-9b897402f0ac",
+    "source_id": "a1063e7e-eb84-458c-9754-32ed1a470eaa",
+    "target_id": "45c762bb-fe8e-44f8-b75d-d32843397425",
+    "type": "греет",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9dfc1f1b-bfaa-409b-87d6-b8878e1915ad",
+      "start": 7344,
+      "end": 7374,
+      "text": "\n\nтостер для хлеба с поддоном."
+    }
+  },
+  {
+    "id": "e79f3284-de57-41d7-868a-13e3f6e3131d",
+    "source_id": "4166b3b0-fc1f-4bae-b9bc-ebcbf0dd3396",
+    "target_id": "71be1981-c5d3-4f48-a2c2-69759b96ee33",
+    "type": "OFFERS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 2031,
+      "end": 2188,
+      "text": "\n\nпочему исследования- то?\n\nи там не хватало то.\n\nчтобы бы написал в начале, как показала там не знаю, анализ, когда даже если бы он написал двадцати сайтов."
+    }
+  },
+  {
+    "id": "8d15e56a-1928-49ed-ac49-076a976ff3a5",
+    "source_id": "4166b3b0-fc1f-4bae-b9bc-ebcbf0dd3396",
+    "target_id": "3ffdf3c2-4703-4fee-b83a-29553b62222d",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 1897,
+      "end": 2057,
+      "text": "\n\nвот здесь не хватает приписки, что как показала, не знаю там, анализ последних частых покупок.\n\nвот какое- то объяснение не хватает.\n\nпочему исследования- то?"
+    }
+  },
+  {
+    "id": "4ed9c9e6-7bfe-448e-abf9-6187c7fd67e8",
+    "source_id": "4166b3b0-fc1f-4bae-b9bc-ebcbf0dd3396",
+    "target_id": "71be1981-c5d3-4f48-a2c2-69759b96ee33",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 2031,
+      "end": 2188,
+      "text": "\n\nпочему исследования- то?\n\nи там не хватало то.\n\nчтобы бы написал в начале, как показала там не знаю, анализ, когда даже если бы он написал двадцати сайтов."
+    }
+  },
+  {
+    "id": "994816aa-2a84-4cd4-857d-7da700f73466",
+    "source_id": "c4ec9f19-5189-49cf-aff3-550104c7a137",
+    "target_id": "49624137-d3d6-44d4-b6c7-cab5ec8ebe2a",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 4772,
+      "end": 4987,
+      "text": "\n\nа вот сферу, ну, это очень активно и мы используем его, да.\n\nэто ничего нового.\n\nэто.\n\nкстати, это сфера площадка от вконтакте и нас сейчас более даже, ну как сказать, в татарстане нас обязывают, но не переходить."
+    }
+  },
+  {
+    "id": "e3d87be0-8350-45f3-bd34-aa03f291a41f",
+    "source_id": "80908bca-4469-4303-a256-79b043ba0250",
+    "target_id": "c4ec9f19-5189-49cf-aff3-550104c7a137",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 4772,
+      "end": 4987,
+      "text": "\n\nа вот сферу, ну, это очень активно и мы используем его, да.\n\nэто ничего нового.\n\nэто.\n\nкстати, это сфера площадка от вконтакте и нас сейчас более даже, ну как сказать, в татарстане нас обязывают, но не переходить."
+    }
+  },
+  {
+    "id": "3daa40cd-98c4-4a22-85d1-32ff20df16af",
+    "source_id": "4166b3b0-fc1f-4bae-b9bc-ebcbf0dd3396",
+    "target_id": "71be1981-c5d3-4f48-a2c2-69759b96ee33",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 2031,
+      "end": 2188,
+      "text": "\n\nпочему исследования- то?\n\nи там не хватало то.\n\nчтобы бы написал в начале, как показала там не знаю, анализ, когда даже если бы он написал двадцати сайтов."
+    }
+  },
+  {
+    "id": "c3530219-fa8a-4879-a613-9d78b677867a",
+    "source_id": "15c3f241-06c0-4d98-b0ba-dd2fdc24e108",
+    "target_id": "44e665ee-46a6-4939-ac4f-5764c16547bf",
+    "type": "EXPLAINS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32ddb1b9-0a67-45b9-9b70-ca0cf9b65e34",
+      "start": 5684,
+      "end": 5877,
+      "text": "\n\nто есть, если мы догадались, что исследование это уже на основе людей, значит там при нажатии на кнопку как искали, наверное, нам расскажут о том, на основе чего сделана вот эта вот подборка."
+    }
+  },
+  {
+    "id": "159b4e9b-68d7-40bc-8862-bdbba5b5cc15",
+    "source_id": "b9b0da5d-fadb-419a-bd36-204b685469e6",
+    "target_id": "53bc4c59-262e-48de-8731-31bcb20cb031",
+    "type": "ALTERNATIVES",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb176a94-cfb8-4146-9bd0-9af5d39cdc7f",
+      "start": 3612,
+      "end": 3742,
+      "text": "\n\nсистема и там проще переслать сообщения в телеграм- бот.\n\nда, надо было дипсику на первой странице написать скачайте приложение."
+    }
+  },
+  {
+    "id": "fefd4546-61e5-442b-8a75-1b2cdee8506c",
+    "source_id": "600a75ed-a9a9-4b54-93df-8de6e1f4d2a1",
+    "target_id": "db2169d4-6dc5-4b81-9c22-d18e87247c83",
+    "type": "WORKS_AT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b3bfe25-1f93-4d67-8f59-14feaa8498f0",
+      "start": 290,
+      "end": 533,
+      "text": "\n\nменя зовут леша.\n\nя занимаюсь тем, что исследую как люди пользуются поиском, наверное, можно так сказать.\n\nно по факту моя задача сделать так, чтобы поиск яндекса был понятный, удобный, все было на своих местах, ничего путающего и так далее."
+    }
+  },
+  {
+    "id": "61e21b97-c954-4278-846f-74bfd1bf898e",
+    "source_id": "5eecfd47-17c1-43a4-9382-dd10d6ca6ef5",
+    "target_id": "9133bd33-9000-48b0-94c0-5a0febe4f03b",
+    "type": "COMPARE",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b3bfe25-1f93-4d67-8f59-14feaa8498f0",
+      "start": 13859,
+      "end": 13943,
+      "text": "\n\nвот имеет смысл ли обновляться сорок восемьдесят на пятьдесят восемьдесят или нет?"
+    }
+  },
+  {
+    "id": "50387546-c169-4fd6-9198-99d2365632e1",
+    "source_id": "600a75ed-a9a9-4b54-93df-8de6e1f4d2a1",
+    "target_id": "b62957f6-c3ae-4ea7-992f-a301bb58223d",
+    "type": "WORKS_AT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af974c26-d691-496a-8285-1b30100a61a9",
+      "start": 2565,
+      "end": 2698,
+      "text": "\n\nменя зовут леша, я работаю в яндексе, связан с тем, что пытаюсь понять, как бы сделать поиск яндекс удобнее и понятнее и так далее."
+    }
+  }
+]

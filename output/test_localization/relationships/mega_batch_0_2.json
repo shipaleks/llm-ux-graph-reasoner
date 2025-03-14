@@ -1,0 +1,34 @@
+[
+  {
+    "id": "37d9e07d-eac7-43de-8dc9-2c3f7fecf5a3",
+    "source_id": "e28e534a-a44f-4bf3-bc39-0056c5c05e1c",
+    "target_id": "4da7fa73-3de1-4e91-8147-d60787c219c4",
+    "type": "SIMILAR_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d4582108-67fe-4c4f-afad-08f2d61fae79",
+      "start": 36,
+      "end": 52,
+      "text": "похожая задача"
+    }
+  },
+  {
+    "id": "f05f1ed0-c455-4bd1-b1d0-16be9865601c",
+    "source_id": "09b71e57-10cb-40a6-b8a8-941255a29063",
+    "target_id": "3fbeae04-cf39-4f04-b171-00e45f73edf7",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88dec832-2e15-4149-a8a7-575dfb8990e9",
+      "start": 36,
+      "end": 75,
+      "text": "релевантные статьи, релевантные ответы"
+    }
+  }
+]

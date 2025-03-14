@@ -1,0 +1,352 @@
+[
+  {
+    "id": "f10ee38b-2862-439a-b9e0-667e08696591",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ff6a1c63-1e83-4d46-87d5-67c0ce1b9bb5",
+      "start": 34,
+      "end": 52,
+      "text": "яндекс путешествие"
+    }
+  },
+  {
+    "id": "42812823-3b68-4b91-bab9-627f92b5ce08",
+    "name": "сервис",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52adb2a2-e6b3-48c4-b27a-abe05131f49d",
+      "start": 61,
+      "end": 68,
+      "text": "сервисе"
+    }
+  },
+  {
+    "id": "d08afb56-e41e-4448-954f-46083a1d1a37",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5d25d0e3-681e-46c6-912d-fbc3b459266f",
+      "start": 34,
+      "end": 52,
+      "text": "яндекс путешествие"
+    }
+  },
+  {
+    "id": "399b866e-7126-43a5-b2ac-d0efff262376",
+    "name": "билеты на самолет",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7607ec3-5615-4575-a6cb-f38aa3ad9bfb",
+      "start": 36,
+      "end": 53,
+      "text": "билеты на самолет"
+    }
+  },
+  {
+    "id": "ae0ee126-007b-480c-a09c-347dd275fd28",
+    "name": "отель",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7607ec3-5615-4575-a6cb-f38aa3ad9bfb",
+      "start": 58,
+      "end": 63,
+      "text": "отель"
+    }
+  },
+  {
+    "id": "c951253a-a84b-49d7-9595-7702994e1bab",
+    "name": "туры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7607ec3-5615-4575-a6cb-f38aa3ad9bfb",
+      "start": 70,
+      "end": 74,
+      "text": "туры"
+    }
+  },
+  {
+    "id": "f539362d-c705-4d51-b8b9-d9dd5ce205ca",
+    "name": "остров",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b953738b-6bab-4877-bbff-2dd3540f2b90",
+      "start": 47,
+      "end": 53,
+      "text": "остров"
+    }
+  },
+  {
+    "id": "dcdc971b-3e4d-4b3b-bf58-f2ebae42f0ce",
+    "name": "билеты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01c04b2c-4a87-4c4d-bf97-029e728be85b",
+      "start": 64,
+      "end": 70,
+      "text": "билеты"
+    }
+  },
+  {
+    "id": "df953dbb-d423-4af7-a10d-dabfdf49ee50",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccb0b558-7e39-4be5-998b-97e5399cdc0a",
+      "start": 43,
+      "end": 48,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "c45270f5-f955-4ca4-862f-d2efe290b478",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "40e53112-0c81-4367-9b42-65c6b87de798",
+      "start": 52,
+      "end": 57,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "9e13ddde-1a9d-42d4-a95b-8a929aab9c44",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "449de23b-b2c3-49d3-b22c-d7468b6b2c13",
+      "start": 32,
+      "end": 38,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "8f4d7105-3a83-4e37-87ca-685793a0a113",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "449de23b-b2c3-49d3-b22c-d7468b6b2c13",
+      "start": 54,
+      "end": 60,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "c98558d9-cab6-4483-9549-cf79f55825a4",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b60a32d3-1fff-45d6-98ca-3eb3664cb6cc",
+      "start": 76,
+      "end": 82,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "573839bf-7c52-4dc3-8440-f220d9dce011",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "023d9130-f11e-4c9c-b098-559d7dff1a82",
+      "start": 0,
+      "end": 12,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "50ae23b1-3619-4ff3-ab48-822e66f41f08",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01cf57b5-6bfe-406f-8328-ead4fc5af513",
+      "start": 0,
+      "end": 12,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "f901f0e9-8c02-460b-b080-2cd492f4ddb6",
+    "name": "достопримечательностей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3bbf12bc-70dd-4ed5-80cf-71fdc7f17162",
+      "start": 34,
+      "end": 57,
+      "text": "достопримечательностей"
+    }
+  },
+  {
+    "id": "91d31aac-265f-44a7-bb05-cdfe695bf70d",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "457cc4ea-567d-4ade-8d7e-f09e07872a7a",
+      "start": 24,
+      "end": 33,
+      "text": "нейросеть"
+    }
+  },
+  {
+    "id": "eb98eb30-97c5-44df-961a-c5fce762a916",
+    "name": "даосский парк",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0f3312d-d0f9-4876-80ba-89dc9a176114",
+      "start": 64,
+      "end": 77,
+      "text": "даосский парк"
+    }
+  },
+  {
+    "id": "eb35a94e-39ff-418e-913d-ee9cdd9911f3",
+    "name": "даосский парк",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d7b5e90a-ef67-4e61-b4a6-54c403000b0d",
+      "start": 24,
+      "end": 37,
+      "text": "даосский парк"
+    }
+  },
+  {
+    "id": "eb913c32-b5cf-498b-9d67-6fcfcd29f555",
+    "name": "даосский парк",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0f28f7df-c63c-4e47-8055-b4f7e0227060",
+      "start": 31,
+      "end": 44,
+      "text": "даосский парк"
+    }
+  },
+  {
+    "id": "4110b15c-0cd0-4f2d-83b6-9a0786ea3fb9",
+    "name": "кнопка исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f6e5425f-0f2a-4afd-acc4-e7cc8c6e243d",
+      "start": 54,
+      "end": 72,
+      "text": "кнопка исследования"
+    }
+  },
+  {
+    "id": "cddc0a0b-ca44-4289-a6ba-b5cca6b6735e",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb02f37b-abf0-47ff-af9d-090fe0a941d4",
+      "start": 111,
+      "end": 116,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f92f7688-e08b-4abc-becf-154089b77c45",
+    "name": "видеокарты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf98bce3-8acd-4d56-ac0c-edea3027b499",
+      "start": 37,
+      "end": 47,
+      "text": "видеокарты"
+    }
+  },
+  {
+    "id": "9a06fab6-b07d-422e-b5ac-cf79f5c96a03",
+    "name": "путешествие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53269639-8708-43f1-a400-cc9b9d92162b",
+      "start": 6,
+      "end": 17,
+      "text": "путешествие"
+    }
+  },
+  {
+    "id": "059777e1-1eee-42ff-98c3-e660d821536c",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53269639-8708-43f1-a400-cc9b9d92162b",
+      "start": 34,
+      "end": 55,
+      "text": "достопримечательности"
+    }
+  }
+]

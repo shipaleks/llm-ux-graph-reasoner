@@ -1,0 +1,27 @@
+Analyze the connections between the following text segments:
+
+Segment 1: {{segment1_text}}
+Segment ID: {{segment1_id}}
+
+Segment 2: {{segment2_text}}
+Segment ID: {{segment2_id}}
+
+Determine:
+
+1. Presence of meaningful connection (yes/no)
+2. Connection type:
+   - Cause-effect
+   - Argument-counterargument
+   - Common theme
+   - Example-illustration
+   - Thought development
+   - Contrast
+   - Other (specify)
+3. Connection strength (0-1, where 1 is very strong)
+4. Direction (one-way/bidirectional)
+5. Key words or phrases indicating the connection
+
+Present the result in JSON format with fields: segment1_id, segment2_id, has_connection, connection_type, strength, direction, key_indicators.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

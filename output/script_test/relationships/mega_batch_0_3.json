@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b0e738dc-373e-4fb7-84fc-eafdf031b079",
+    "source_id": "0e64f497-fffd-406e-baeb-ca0bb51490e9",
+    "target_id": "2223cf66-2530-4029-91d9-18809b213c3c",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a95e59d7-00aa-4536-a477-160bf845346a",
+      "start": 19,
+      "end": 40,
+      "text": "поиск, вообще сервисы яндекса"
+    }
+  },
+  {
+    "id": "89485265-d78e-4c5a-8548-fbafc4295b04",
+    "source_id": "2223cf66-2530-4029-91d9-18809b213c3c",
+    "target_id": "065cdd73-8886-45df-b3aa-147dbd1ef7d5",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [
+      {
+        "key": "clarification",
+        "value": "технологии",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a95e59d7-00aa-4536-a477-160bf845346a",
+      "start": 41,
+      "end": 56,
+      "text": "сервисы яндекса"
+    }
+  },
+  {
+    "id": "762f0733-0b97-4fba-b10c-50d065dd9585",
+    "source_id": "0f57ae62-ece8-4148-93e3-75f49ffd364a",
+    "target_id": "0f1cd042-ee26-4ed2-951d-7a126254c985",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac0f6645-f416-4486-8dba-76725015e9ca",
+      "start": 13,
+      "end": 26,
+      "text": "музыка, яндекс музыка"
+    }
+  }
+]

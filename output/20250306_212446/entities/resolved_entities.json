@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ad4fd923-7f33-404e-ad0c-7e4cccdb29c9",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "75ac2a55-0f0d-48e1-b203-9ed585a9eb7d",
+      "start": 40,
+      "end": 47,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "a7de351a-e564-43ca-8915-684e3b127649",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "25c13901-5156-4abf-85da-ba229be0e639",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "edeb8415-16f0-4ac1-9872-46366cb52d61",
+    "name": "Яндекс Музыка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "96d2e254-2f77-4030-886c-a1ba01cb4e77",
+      "start": 21,
+      "end": 35,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "7a6f65ae-4f5f-443a-9612-e5a6e52f2c1e",
+    "name": "Яндекс Пэй",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "587f0089-5ca2-41b8-bd8f-1615b2b75efd",
+      "start": 0,
+      "end": 10,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "89946d08-b85b-4e4a-ab7c-c7d7d0a5410e",
+    "name": "Яндекс Маркет",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "587f0089-5ca2-41b8-bd8f-1615b2b75efd",
+      "start": 27,
+      "end": 34,
+      "text": "маркетом"
+    }
+  },
+  {
+    "id": "97590f3d-0a23-426d-b33b-efd2c4640d6a",
+    "name": "Яндекс Такси",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "587f0089-5ca2-41b8-bd8f-1615b2b75efd",
+      "start": 49,
+      "end": 54,
+      "text": "такси"
+    }
+  },
+  {
+    "id": "285b59d0-4118-411e-8c6b-841bcf053f2d",
+    "name": "Яндекс Карты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "0062c9d8-61c1-4a09-b726-a5155c278074",
+      "start": 0,
+      "end": 5,
+      "text": "карты"
+    }
+  },
+  {
+    "id": "0c4e9f86-f4b5-44fa-a7fb-f67fc89d1466",
+    "name": "Яндекс Переводчик",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "0062c9d8-61c1-4a09-b726-a5155c278074",
+      "start": 7,
+      "end": 17,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "3ce3ded6-7366-4d82-992c-c956834da78e",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "0062c9d8-61c1-4a09-b726-a5155c278074",
+      "start": 27,
+      "end": 33,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "ddd2798c-dc0f-4df5-867a-08377a5dbff9",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "0062c9d8-61c1-4a09-b726-a5155c278074",
+      "start": 77,
+      "end": 80,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "24a9bbdb-dfdf-45aa-bdc3-8ce4d6adcd4a",
+    "name": "OpenAI",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "0062c9d8-61c1-4a09-b726-a5155c278074",
+      "start": 139,
+      "end": 145,
+      "text": "опен- ай"
+    }
+  },
+  {
+    "id": "4ce4e1a0-35ed-4cfa-8af6-7c2ef03d35d3",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "138a1be5-7613-4871-a13f-28883597da8a",
+      "start": 27,
+      "end": 34,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "463eeab8-304f-4e4d-ac22-7c7bf3ad941d",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "b461b543-127d-446b-a36c-0a3767da5c6a",
+      "start": 15,
+      "end": 28,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "1bfa0f62-5cc6-4df3-b445-a070568f4ca6",
+    "name": "университет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "5b4e16aa-90dd-433a-b7e0-b0a7bc9b3b8a",
+      "start": 19,
+      "end": 30,
+      "text": "университете"
+    }
+  },
+  {
+    "id": "20009b19-4669-42d5-8c03-bf64b28d5a83",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "733a61b8-75dc-4003-aeb5-16daa135faaf",
+      "start": 21,
+      "end": 30,
+      "text": "нейросеть"
+    }
+  }
+]

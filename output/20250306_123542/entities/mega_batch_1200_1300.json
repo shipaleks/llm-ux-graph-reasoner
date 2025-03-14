@@ -1,0 +1,478 @@
+[
+  {
+    "id": "5442dc38-afdc-4e9c-8f55-065f4678d788",
+    "name": "разделение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1f8c778-7dec-4731-8b7b-fdbe5360af67",
+      "start": 46,
+      "end": 56,
+      "text": "разделение"
+    }
+  },
+  {
+    "id": "3f0c76c4-a2ed-4a71-b697-aef1eaa2fd62",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58d69fee-6fa9-4535-8355-2996c75f3617",
+      "start": 47,
+      "end": 70,
+      "text": "искусственным интеллектом"
+    }
+  },
+  {
+    "id": "979015a6-855c-4b40-bf9b-0438e7be8e18",
+    "name": "голосовой помощник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58d69fee-6fa9-4535-8355-2996c75f3617",
+      "start": 73,
+      "end": 91,
+      "text": "голосовым помощником"
+    }
+  },
+  {
+    "id": "2948651b-0b96-46a2-a17e-ce6fa1677f35",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1675f3d6-452d-4328-a742-02ee54bf5015",
+      "start": 4,
+      "end": 9,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "ecd94326-1b29-40b8-9827-3095e9a940f3",
+    "name": "Салют",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f8ff1f1-e623-41a7-8283-60db9125e51a",
+      "start": 17,
+      "end": 24,
+      "text": "салюты"
+    }
+  },
+  {
+    "id": "824ca54d-bedd-43db-a3e1-308557ecd83f",
+    "name": "Гигачат",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f8ff1f1-e623-41a7-8283-60db9125e51a",
+      "start": 34,
+      "end": 41,
+      "text": "гигачать"
+    }
+  },
+  {
+    "id": "2b43b214-8432-4534-98b5-a1a59bdc5a1c",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd152b48-7c0a-49ee-9cfe-9d2181f2e9bd",
+      "start": 43,
+      "end": 66,
+      "text": "искусственный интеллект"
+    }
+  },
+  {
+    "id": "82829030-0cfa-453e-afcb-80a576830cab",
+    "name": "голосовой ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd152b48-7c0a-49ee-9cfe-9d2181f2e9bd",
+      "start": 80,
+      "end": 100,
+      "text": "голосовой ассистент"
+    }
+  },
+  {
+    "id": "898bed14-58a8-435f-b79f-280ca94ec5d7",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "83a01b27-e9eb-48f8-b63c-bb965db5603a",
+      "start": 36,
+      "end": 42,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "3a6f085d-5237-4932-9010-c7eae8e63e5e",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "83a01b27-e9eb-48f8-b63c-bb965db5603a",
+      "start": 51,
+      "end": 60,
+      "text": "ассистент"
+    }
+  },
+  {
+    "id": "30eb69e4-4827-4f9b-a3a6-a9506bff121a",
+    "name": "лимиты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37c317cb-0735-466e-b444-e4756ecf824a",
+      "start": 16,
+      "end": 22,
+      "text": "лимиты"
+    }
+  },
+  {
+    "id": "8964983d-95a6-4501-9cf0-29158c31277b",
+    "name": "количество сообщений",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37c317cb-0735-466e-b444-e4756ecf824a",
+      "start": 26,
+      "end": 45,
+      "text": "количество сообщений"
+    }
+  },
+  {
+    "id": "2f2ed8be-102f-4c19-897f-438cfef21040",
+    "name": "двадцать",
+    "type": "number",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d8182f1-26d5-4bb1-8e37-ae1d00da723e",
+      "start": 0,
+      "end": 8,
+      "text": "двадцать"
+    }
+  },
+  {
+    "id": "bee4d31b-2c03-4450-b831-72eedf750a19",
+    "name": "двадцать сообщений в день",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c29bd033-d56c-415c-b453-6ab7be2d5d43",
+      "start": 0,
+      "end": 25,
+      "text": "двадцать сообщений в день"
+    }
+  },
+  {
+    "id": "94c90d4e-14d9-4b4a-88df-e264b510e68e",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb32ec51-32cc-481a-8e53-6ae856851e61",
+      "start": 76,
+      "end": 81,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "2ece7450-6958-436a-bd3c-6e68b5e50cba",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "678ec95d-b1d3-4bec-afce-bec6e76de223",
+      "start": 8,
+      "end": 15,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "9be2ce12-23fe-4c56-b221-e9087218afc4",
+    "name": "индексовый",
+    "type": "attribute",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "678ec95d-b1d3-4bec-afce-bec6e76de223",
+      "start": 24,
+      "end": 34,
+      "text": "индексовый"
+    }
+  },
+  {
+    "id": "e5009e18-9ee2-4f29-a3f3-2348b1cdb46c",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4658d763-2c53-4c43-aa08-2dc7baf98566",
+      "start": 34,
+      "end": 43,
+      "text": "ассистент"
+    }
+  },
+  {
+    "id": "b03123ca-67da-4a95-abc5-b685a8ccace4",
+    "name": "Чудское озеро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "578f2694-6759-4711-baf0-8904fa6124ed",
+      "start": 0,
+      "end": 13,
+      "text": "чудское озеро"
+    }
+  },
+  {
+    "id": "ebd3aeb7-7a2b-47ea-a8ff-4bc72c4b43cb",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "852b8c7a-0043-4dd4-b45d-a4c92165d22f",
+      "start": 43,
+      "end": 49,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "bc2aaebe-d1d0-4bdc-8165-1da112fbb6dc",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "852b8c7a-0043-4dd4-b45d-a4c92165d22f",
+      "start": 58,
+      "end": 64,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "2b790214-c149-4459-bfa2-b79ed34a47a2",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "852b8c7a-0043-4dd4-b45d-a4c92165d22f",
+      "start": 87,
+      "end": 96,
+      "text": "ассистент"
+    }
+  },
+  {
+    "id": "ff5b1fdf-bfab-4933-963e-505b38e65c8a",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75a94ece-97a1-403a-ad0c-404d5793272f",
+      "start": 0,
+      "end": 5,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "a3397440-b148-4111-9f4f-b5e894c731cc",
+    "name": "станция метро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75a94ece-97a1-403a-ad0c-404d5793272f",
+      "start": 22,
+      "end": 35,
+      "text": "станция метро"
+    }
+  },
+  {
+    "id": "1b508e39-b4e9-4a33-923b-1ad19e865b92",
+    "name": "Ваганьковское кладбище",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75a94ece-97a1-403a-ad0c-404d5793272f",
+      "start": 39,
+      "end": 61,
+      "text": "ваганьковского кладбища"
+    }
+  },
+  {
+    "id": "da68c285-b145-4874-bf48-075df32951c6",
+    "name": "Ваганьковское кладбище",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df2b7d2a-b864-4873-a9ae-30a3ded16ed8",
+      "start": 12,
+      "end": 34,
+      "text": "ваганьковскому кладбищу"
+    }
+  },
+  {
+    "id": "e7f36718-450f-4f90-a623-72334cf12f0e",
+    "name": "станция метро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df2b7d2a-b864-4873-a9ae-30a3ded16ed8",
+      "start": 36,
+      "end": 49,
+      "text": "станция метро"
+    }
+  },
+  {
+    "id": "dc80f1e6-76d1-4097-9d4d-008461d9661a",
+    "name": "улица тысяча девятьсот пятого года",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df2b7d2a-b864-4873-a9ae-30a3ded16ed8",
+      "start": 50,
+      "end": 85,
+      "text": "улица тысяча девятьсот пятого года"
+    }
+  },
+  {
+    "id": "49eecda2-8e6f-46f4-969c-ebf1d4d1db61",
+    "name": "кнопка голосового ввода",
+    "type": "feature",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11901a3a-a7ee-453a-ab4f-ca029a67d2e8",
+      "start": 27,
+      "end": 50,
+      "text": "кнопкой голосового ввода"
+    }
+  },
+  {
+    "id": "eb6dbc01-a427-4dbf-adc5-bfc0feb304ed",
+    "name": "объемный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8847ac0e-650c-44fb-a8a3-bce9140b8def",
+      "start": 28,
+      "end": 42,
+      "text": "объемный ответ"
+    }
+  },
+  {
+    "id": "d3799214-a6e5-40d0-8e2c-6e33528d4ffd",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b4c6d87-c4fd-4cf6-8e1a-c6366c96d91f",
+      "start": 34,
+      "end": 40,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "0eeedeb5-deb4-4c8d-a178-f99a860e4560",
+    "name": "Масленица",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0f4ec31-43a7-4973-ad09-f774fad04665",
+      "start": 3,
+      "end": 12,
+      "text": "масленицей"
+    }
+  },
+  {
+    "id": "d8f365ea-dc96-489e-b2a8-31fb821ad5d6",
+    "name": "сатира",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c859fe73-dbce-4c31-9372-20e33cda52a4",
+      "start": 53,
+      "end": 59,
+      "text": "сатиры"
+    }
+  },
+  {
+    "id": "414d98e1-4ddc-4971-92bb-89285f1213d9",
+    "name": "юмор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c859fe73-dbce-4c31-9372-20e33cda52a4",
+      "start": 62,
+      "end": 67,
+      "text": "юмора"
+    }
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "e7cddd8e-0b99-4999-87e7-5fa6c82b6a43",
+    "source_id": "61d600fd-8ca1-4296-abd4-2e3a42107c7f",
+    "target_id": "1409569e-1c35-463c-b818-dee6ad2931b0",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2d81f32-d8ae-4711-9d04-421d9b9606c3",
+      "start": 0,
+      "end": 38,
+      "text": "там придумай текст по какой- то теме"
+    }
+  },
+  {
+    "id": "4ff646a1-2903-4009-9c06-cc467d9250dd",
+    "source_id": "f407018a-a893-484f-9125-fa405458205c",
+    "target_id": "2254336f-1ef6-475e-9c12-9c12beba81fc",
+    "type": "ALSO_KNOWN_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4c797a2e-d529-4991-8fd7-11fab488c92f",
+      "start": 51,
+      "end": 131,
+      "text": "элис и вот переходил так. то есть просто яндекс гбт нельзя было вести"
+    }
+  },
+  {
+    "id": "8fc03862-d452-45b3-a699-bf20ea281982",
+    "source_id": "6454ac8d-5942-4f97-8d88-b0462964b053",
+    "target_id": "83482ac6-c44f-46c5-8c5a-3247ba1a2690",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed49fe9c-37b6-4bf1-af1d-c1e7142a9214",
+      "start": 17,
+      "end": 36,
+      "text": "нейросети от яндекса"
+    }
+  },
+  {
+    "id": "99397ee5-7a10-47b5-865b-4b5e4bbc4ca5",
+    "source_id": "da948cd3-b3a2-4803-b380-25b394d85bc5",
+    "target_id": "dce46a04-2bb8-4c6a-953f-4c4d2e2ad190",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "edd7a894-894d-49a7-a236-0bd12d08bee9",
+      "start": 26,
+      "end": 43,
+      "text": "нейросети, алгоритмы"
+    }
+  },
+  {
+    "id": "0a5b2947-17ac-41b9-9196-ecfe5658f088",
+    "source_id": "fa453f0e-51cd-4195-bfa9-cd2072d55c93",
+    "target_id": "e1948c62-5a64-4a6e-aabe-099b46812bbf",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01b33157-8f26-408c-a3bd-fbc503bf7ea6",
+      "start": 91,
+      "end": 110,
+      "text": "на одном движке, на одной технологии"
+    }
+  },
+  {
+    "id": "f1efae3c-22e9-4f11-b66d-b4c61db44f34",
+    "source_id": "05235d86-aced-4a27-b866-c6e78042ac55",
+    "target_id": "ef939fee-c8ce-45ea-b1c1-59c26a643f06",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d2dfe63-b87b-4795-9584-e2eab24bc61c",
+      "start": 30,
+      "end": 73,
+      "text": "редактор, переводчик, пересказ это вот от яндекса алиса"
+    }
+  },
+  {
+    "id": "feac380a-d728-417d-848c-9a12475caa18",
+    "source_id": "f050743f-2801-4d77-b7ff-977987150101",
+    "target_id": "ef939fee-c8ce-45ea-b1c1-59c26a643f06",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d2dfe63-b87b-4795-9584-e2eab24bc61c",
+      "start": 30,
+      "end": 73,
+      "text": "редактор, переводчик, пересказ это вот от яндекса алиса"
+    }
+  },
+  {
+    "id": "c381b2d7-a5f2-4660-a7a8-836a8bf146cb",
+    "source_id": "5a50dede-96e9-4146-9366-5a86ee9fe541",
+    "target_id": "ef939fee-c8ce-45ea-b1c1-59c26a643f06",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d2dfe63-b87b-4795-9584-e2eab24bc61c",
+      "start": 30,
+      "end": 73,
+      "text": "редактор, переводчик, пересказ это вот от яндекса алиса"
+    }
+  },
+  {
+    "id": "e1bce39e-6c4b-4b96-b10a-42ffc9a13fa4",
+    "source_id": "aad1f090-c27d-4490-a24b-04a606ea44ea",
+    "target_id": "2c180dd3-22cc-4116-a560-fcb5c2b5fada",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22f24d38-7cb1-4099-a558-f7d7fea2b37a",
+      "start": 19,
+      "end": 40,
+      "text": "мем был с человеком- пауком"
+    }
+  },
+  {
+    "id": "2f0448a1-6757-4408-aad2-d0436d7be7cd",
+    "source_id": "8acc0e93-00a4-4b0f-9b52-3d7b7f009537",
+    "target_id": "d70f1708-19aa-4ac6-a34c-078bf8a73ceb",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e0e97716-2b5a-4d53-b8a8-88ee2f962ddb",
+      "start": 43,
+      "end": 54,
+      "text": "условно g пяти, кпт"
+    }
+  },
+  {
+    "id": "b96624fe-12d2-4376-8f88-21196923a8f7",
+    "source_id": "5eb1344c-87d0-4bb7-9f8b-90eeb6453a9b",
+    "target_id": "baf99a5e-21e6-4a43-a3d5-ddb28174cd89",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6ce37a63-8825-4cc5-8858-47882e585d3a",
+      "start": 30,
+      "end": 41,
+      "text": "свои задачи и цели"
+    }
+  },
+  {
+    "id": "64d13898-14be-4134-b413-40484e1d1968",
+    "source_id": "85512390-10ba-4530-9edd-7a2e73149763",
+    "target_id": "3652159c-9add-47dd-9992-3a5795cd224b",
+    "type": "ALSO_KNOWN_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a29c0ce-393d-4f5a-b824-ef07b9685a0e",
+      "start": 7,
+      "end": 39,
+      "text": "алисой, избавляемся от яндекс g пяти"
+    }
+  },
+  {
+    "id": "fd1c9047-7200-4391-a83e-cc9cac56509f",
+    "source_id": "dee30855-9605-4668-822e-3af1c2b78207",
+    "target_id": "fb90ff13-883a-48e5-9a2d-8f8f0ce57603",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26a4d7e0-37b5-4832-b69a-060b185a3c83",
+      "start": 21,
+      "end": 83,
+      "text": "помощник ассистента это все смыслы были заложены изначально вот в этот проект"
+    }
+  },
+  {
+    "id": "55dfd5e8-d077-4bbf-a1d1-4d564885efaa",
+    "source_id": "008c419a-9477-4882-9287-10313d439a50",
+    "target_id": "477b7833-9248-4a61-99f4-4edac0ad8c39",
+    "type": "HAS_TYPE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7df0be87-3311-4e4a-ad89-7ef29703560d",
+      "start": 76,
+      "end": 107,
+      "text": "нейросеть- это личный помощник"
+    }
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "89ce614a-17dd-486c-ae2b-1de2f39444ad",
+    "name": "соус",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "fe98cefa-50ca-4182-80fe-39bee57b17ad",
+      "start": 69,
+      "end": 74,
+      "text": "соусом"
+    }
+  },
+  {
+    "id": "a6c11f0a-9779-4f17-8881-72038e8a5fcf",
+    "name": "поселок",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "9ac3f6a2-80a8-4ca4-a042-5fbed56d3d8d",
+      "start": 47,
+      "end": 54,
+      "text": "поселок"
+    }
+  },
+  {
+    "id": "bfb08f3f-4c10-41c5-b02c-252d5a64e539",
+    "name": "республика алтай",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bee1c71d-326e-49ce-8425-e0e0b5b102ba",
+      "start": 42,
+      "end": 58,
+      "text": "республику алтай"
+    }
+  },
+  {
+    "id": "6f538765-70ed-4319-95f2-b4d13e83d74d",
+    "name": "Дагестан",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1500370c-ea6e-40df-bcc1-76bfef54ea4f",
+      "start": 56,
+      "end": 64,
+      "text": "дагестан"
+    }
+  },
+  {
+    "id": "3d858056-e004-4ae3-a724-843417f811e8",
+    "name": "спортс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f9695e8c-2562-4992-9632-87bbc36c0dd9",
+      "start": 38,
+      "end": 44,
+      "text": "спортс"
+    }
+  },
+  {
+    "id": "d7f03d05-e17b-41b0-8982-ca7962b4b268",
+    "name": "спортс.ру",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "domain",
+        "value": "sports.ru",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e1b4ec9b-de52-4202-b45e-713563178cda",
+      "start": 0,
+      "end": 3,
+      "text": "ру"
+    }
+  },
+  {
+    "id": "17431de0-e884-47b3-bab7-6a0c8025b26d",
+    "name": "спортс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b9c8e66f-4a35-4512-a008-be5b314c729c",
+      "start": 0,
+      "end": 6,
+      "text": "спортс"
+    }
+  },
+  {
+    "id": "3666bfb8-9191-43d8-83d9-a7ebabd39f9d",
+    "name": "спортс.ру",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "domain",
+        "value": "sports.ru",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "003f9a72-fc34-4d38-bee8-d8c0a5cab844",
+      "start": 0,
+      "end": 9,
+      "text": "ру- это"
+    }
+  },
+  {
+    "id": "ad04a53c-3c67-4c47-9c50-efe1bef33206",
+    "name": "сервис для бронирования билетов, туров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "003f9a72-fc34-4d38-bee8-d8c0a5cab844",
+      "start": 41,
+      "end": 79,
+      "text": "сервис для бронирования билетов, туров"
+    }
+  },
+  {
+    "id": "e3219bc9-e709-46f3-b818-f7195f4acfe5",
+    "name": "спортивный сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "78e04b24-96b7-4858-93ff-7c207fb7d653",
+      "start": 7,
+      "end": 21,
+      "text": "спортивный сайт"
+    }
+  },
+  {
+    "id": "2b615e78-7b6d-422e-9c8c-f0bfb7578087",
+    "name": "Дагестан",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "72b664a1-f596-4444-acb1-79cf0ebd2f73",
+      "start": 9,
+      "end": 17,
+      "text": "дагестан"
+    }
+  },
+  {
+    "id": "6e452065-05fc-4e50-9848-f516eaa56892",
+    "name": "Дагестан",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bfe63e37-7d81-4f7c-b212-a61c8bb0cfb3",
+      "start": 9,
+      "end": 17,
+      "text": "дагестан"
+    }
+  },
+  {
+    "id": "ed1e2345-2b30-4d14-9ea1-c9722f90e4b0",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "754bbbc0-280f-4826-90d8-59f6434f1f7b",
+      "start": 2,
+      "end": 8,
+      "text": "алисой"
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "20a2f8bc-3e82-4d45-84b1-282438438480",
+    "source_id": "16e302a7-e644-4014-a236-27b1e145f614",
+    "target_id": "ab460085-c5b7-4219-8732-6ced51ce55c6",
+    "type": "SELLS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aaf03c50-1f8d-4360-923c-249d4ade1d3f",
+      "start": 0,
+      "end": 77,
+      "text": "ну какая мне разница как пользователю сколько телевизоров продал сбер"
+    }
+  },
+  {
+    "id": "7608e174-1dac-4a8f-bd10-1d78f69654c6",
+    "source_id": "eaea291b-6531-4c36-940a-d1f0439883be",
+    "target_id": "6787b66f-7a1f-4d26-af76-0360a151d1c3",
+    "type": "INTERSECTS_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1c2f029f-9d74-4124-8d66-6537958495f7",
+      "start": 81,
+      "end": 137,
+      "text": "миры ассистента, как алиса предлагает, и поиск, они начинают"
+    }
+  },
+  {
+    "id": "2943505c-902e-4383-94c1-a2eff8143229",
+    "source_id": "b4b1c7f8-ad82-446a-ab16-51e506b81abf",
+    "target_id": "488526d6-72cf-4f8b-b343-925d4c166139",
+    "type": "INSTALLED_ON",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "639f46fd-d044-4924-854e-c5b80cbe8f82",
+      "start": 29,
+      "end": 67,
+      "text": "открывать приложения любые на телефоне"
+    }
+  },
+  {
+    "id": "72f6c18f-86b1-48d6-9d8d-c5c801ea0a3f",
+    "source_id": "4ff3116d-ed88-49d8-a803-46133acda54d",
+    "target_id": "50fb712d-f43e-437d-9c3d-62d8fb1c25b4",
+    "type": "CAN_BOOK",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26260351-afe4-483a-97bc-e6fbc61fdde6",
+      "start": 36,
+      "end": 141,
+      "text": "в поиске забронировать столик в ресторане и я должен спросить у алисы, если у меня есть это приложение, она сразу должна открывать это приложение"
+    }
+  },
+  {
+    "id": "f4446539-f176-4517-89b7-ada1ca13f685",
+    "source_id": "4a77abf1-e9fd-482d-b254-f47fce6d6238",
+    "target_id": "12671620-3993-4216-a401-778fb7cdf072",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ace01d16-6932-4f1c-b56c-9a480da8ab9e",
+      "start": 117,
+      "end": 143,
+      "text": "документ это предоставить в виде файла"
+    }
+  },
+  {
+    "id": "8359e0a5-1c50-4837-aaf1-571878eab342",
+    "source_id": "42aa5345-3feb-4462-a72e-0ccf7a606e75",
+    "target_id": "d8b430f5-4740-4cb1-a4c9-d6e689d008c0",
+    "type": "INCLUDES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8033496f-f1e3-4408-adca-ef3cd8d6ed77",
+      "start": 16,
+      "end": 44,
+      "text": "сам список сайтов и источников"
+    }
+  },
+  {
+    "id": "309b0920-a16d-4dd7-b1a6-99ab349240c8",
+    "source_id": "bcee19aa-fa62-4deb-9e58-4105565d4a9c",
+    "target_id": "4f1a5191-ac65-4c76-89a3-4383d576be5b",
+    "type": "HAS_FEATURE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4af0d344-6252-4580-b73f-6708ba0dfbc4",
+      "start": 29,
+      "end": 63,
+      "text": "зуме есть очень удобная функция"
+    }
+  },
+  {
+    "id": "3ebc1376-b35a-4341-bb8a-72d6e3ca0f8e",
+    "source_id": "69ec8b79-5c1a-4bad-86ad-634183c5c4fd",
+    "target_id": "b25809d3-9a20-4f65-bee0-0145134a5836",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d33b4c-635a-4974-8aa1-51a5fa75e099",
+      "start": 11,
+      "end": 40,
+      "text": "поисковик и потом яндекс проб использую"
+    }
+  },
+  {
+    "id": "339a9125-c18a-484d-9bef-7c689be56c3d",
+    "source_id": "69ec8b79-5c1a-4bad-86ad-634183c5c4fd",
+    "target_id": "c1942056-9c1b-483f-859d-0fa17241f66d",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d33b4c-635a-4974-8aa1-51a5fa75e099",
+      "start": 11,
+      "end": 62,
+      "text": "поисковик и потом яндекс проб использую, иногда гига- чат использую"
+    }
+  },
+  {
+    "id": "1e7e0ca2-a45b-43c9-a8d2-4fb213376db5",
+    "source_id": "298db75e-e4fb-4023-996d-7ccba867d70c",
+    "target_id": "52ca2d42-f034-40ba-b56b-d08afcfe1e83",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8d2a1c1-5cb1-477f-b883-2c3de01c4650",
+      "start": 64,
+      "end": 115,
+      "text": "в рунете, именно в русскоязычном пространстве, на русском языке"
+    }
+  },
+  {
+    "id": "0354da83-9ca1-4e1a-8d01-0ed99409c46b",
+    "source_id": "4f1a5191-ac65-4c76-89a3-4383d576be5b",
+    "target_id": "e13381f9-1261-4b02-a9a8-88309ebfaab9",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d365da1-451e-485e-9821-b0d00f4d1cfb",
+      "start": 0,
+      "end": 15,
+      "text": "функция дипсерч"
+    }
+  },
+  {
+    "id": "baf4a439-28cf-4dee-a58a-1639f2484207",
+    "source_id": "4f1a5191-ac65-4c76-89a3-4383d576be5b",
+    "target_id": "45b0a7da-7c2d-4a0b-b954-a962051998ec",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d365da1-451e-485e-9821-b0d00f4d1cfb",
+      "start": 17,
+      "end": 29,
+      "text": "функция финк"
+    }
+  },
+  {
+    "id": "b4c67a98-6d82-4fc6-a6a5-88546faf4d4a",
+    "source_id": "e1aa012c-57bf-431c-b75c-8a26185f5a34",
+    "target_id": "efdafe33-269e-4684-90c1-0a033bf401b7",
+    "type": "PLUGIN_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9536509-5aff-45ab-b215-9548987e085c",
+      "start": 18,
+      "end": 35,
+      "text": "в этом хроме плагин"
+    }
+  },
+  {
+    "id": "ff49457b-e408-43c9-9663-e16062f9d8b2",
+    "source_id": "3631623a-6fa5-4fd9-9d0d-60f9fd9d5bf8",
+    "target_id": "1bad8321-27ff-4f7c-8be8-b927fe81b368",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "955a4ae3-314f-41b3-8925-71b8bc7bf758",
+      "start": 17,
+      "end": 47,
+      "text": "функцией дипсерш и с функцией фильм"
+    }
+  },
+  {
+    "id": "26b331d0-937c-49a0-b098-8add5de0e5f4",
+    "source_id": "4bd267db-eb29-481c-a52c-d24661640aaa",
+    "target_id": "8ac9906a-8284-41b9-a2b3-053a9846a26b",
+    "type": "COMPARE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bca407a7-2cbb-4aac-965c-2294dce79c1d",
+      "start": 11,
+      "end": 54,
+      "text": "у меня в яндекс браузере, а в гугл хром соответственно"
+    }
+  },
+  {
+    "id": "1b48e91d-b49c-4cf9-a7a8-abf5bc36aed1",
+    "source_id": "2d349191-841c-42b4-ba8c-ea194ee34662",
+    "target_id": "4dcdcfb5-176d-40da-817f-1e0ff1c54d6e",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e7156ae7-f4cc-459b-bf4a-d07a0d481f8f",
+      "start": 29,
+      "end": 60,
+      "text": "слева есть лайбери, это ну типа библиотека"
+    }
+  },
+  {
+    "id": "a93fb263-1f96-4b48-b7e6-c3061f954ab2",
+    "source_id": "19fdcda7-d268-4b49-a572-4c1d7af2241a",
+    "target_id": "22a191bc-1de3-4fc9-9931-65e3ea027514",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90ae544d-a500-4980-b526-17dbba5d6d28",
+      "start": 51,
+      "end": 111,
+      "text": "в браузере сделать, потому что у меня там всегда это открыто, видно и понятное дело это браза"
+    }
+  },
+  {
+    "id": "95763f1d-a53c-415d-b9dd-3e91b32f41be",
+    "source_id": "9b93fca1-55b0-461d-a1da-d3e7f7a2a606",
+    "target_id": "5263a14f-0b81-4de4-83da-87b49e2a8d03",
+    "type": "SPORT_TYPE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54d850ff-55fa-4c13-ac0d-91fe13956568",
+      "start": 13,
+      "end": 41,
+      "text": "матч прошел недавно баскетбольный"
+    }
+  },
+  {
+    "id": "13e6919e-1051-4e17-a753-19a2b09c4c31",
+    "source_id": "0459748a-bc3b-46c4-bae0-aa3bf6a4c61f",
+    "target_id": "660a3bae-d101-43f6-b37c-196c517baebf",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a8e5878-567a-41ff-82db-e20b3279936d",
+      "start": 9,
+      "end": 41,
+      "text": "смартфону с качеством дисплеем и"
+    }
+  },
+  {
+    "id": "78df7ae3-cb2c-48cb-ad4f-52872266305f",
+    "source_id": "0459748a-bc3b-46c4-bae0-aa3bf6a4c61f",
+    "target_id": "58ee6bdc-e6b7-406a-ac78-0328b9cb24ef",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a8e5878-567a-41ff-82db-e20b3279936d",
+      "start": 9,
+      "end": 58,
+      "text": "смартфону с качеством дисплеем и хорошей камерой"
+    }
+  }
+]

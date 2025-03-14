@@ -1,0 +1,898 @@
+[
+  {
+    "id": "da3cc864-fb40-4d0a-934e-de6dd2ccd879",
+    "name": "аня",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b0698a7-c9b4-4ea0-a383-bfe0ca3bbccb",
+      "start": 0,
+      "end": 3,
+      "text": "аня"
+    }
+  },
+  {
+    "id": "b7a444ec-67bf-4834-a7cc-677838a6397a",
+    "name": "несколько источников",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22925b6c-be91-4ba4-bf17-9a570ecfeb7a",
+      "start": 41,
+      "end": 60,
+      "text": "несколько источников"
+    }
+  },
+  {
+    "id": "f2d2cac4-ede0-44b8-b646-027e26c92624",
+    "name": "более полный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a8db6fd0-e9d1-4532-99cc-813d2ae512f3",
+      "start": 12,
+      "end": 30,
+      "text": "более полный ответ"
+    }
+  },
+  {
+    "id": "26fa71ef-361d-4c84-964a-e0d6b979d45d",
+    "name": "нового в ответе",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc8ec887-e613-4308-978f-f1d3009cc24d",
+      "start": 36,
+      "end": 51,
+      "text": "нового в ответе"
+    }
+  },
+  {
+    "id": "c629cbe6-43f0-40a9-bdb6-cc721be968e3",
+    "name": "расширенная информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7f3345d2-5119-4e70-a932-df759d85d869",
+      "start": 7,
+      "end": 28,
+      "text": "расширенная информация"
+    }
+  },
+  {
+    "id": "79e80c4e-602a-4e22-b9f5-717307fdea04",
+    "name": "по каждому пункту",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7f3345d2-5119-4e70-a932-df759d85d869",
+      "start": 32,
+      "end": 48,
+      "text": "по каждому пункту"
+    }
+  },
+  {
+    "id": "fe960dc3-1bbe-496c-a710-502e6406f14d",
+    "name": "больше нюансов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ea91dc-e2ff-4e7e-b158-e37cba749855",
+      "start": 11,
+      "end": 25,
+      "text": "больше нюансов"
+    }
+  },
+  {
+    "id": "33eb0eeb-fd35-4d26-bb75-d26807ccfbd2",
+    "name": "по каждому пункту",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ea91dc-e2ff-4e7e-b158-e37cba749855",
+      "start": 29,
+      "end": 45,
+      "text": "по каждому пункту"
+    }
+  },
+  {
+    "id": "244c0604-871b-40fb-8fec-e633a09ce272",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e839f73c-aa10-4a8d-98ef-ba64b8847a85",
+      "start": 22,
+      "end": 32,
+      "text": "информация"
+    }
+  },
+  {
+    "id": "10193963-607e-46e4-99eb-ee446563c9b3",
+    "name": "ссылкам",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d760483e-7e6c-4f1b-9bb5-d25d26cfec5c",
+      "start": 23,
+      "end": 30,
+      "text": "ссылкам"
+    }
+  },
+  {
+    "id": "8daaf67d-57ee-45e2-80ab-d5fb8e677c68",
+    "name": "которые здесь есть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d760483e-7e6c-4f1b-9bb5-d25d26cfec5c",
+      "start": 36,
+      "end": 54,
+      "text": "которые здесь есть"
+    }
+  },
+  {
+    "id": "5a15ead1-1518-4482-aaf7-90318b1959ce",
+    "name": "с одного сайта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a43f54d-7e9d-4332-a085-c6bf37f484dd",
+      "start": 32,
+      "end": 46,
+      "text": "с одного сайта"
+    }
+  },
+  {
+    "id": "14d23ec4-e988-43b9-8d86-e13524a0bfca",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dae0f3cf-6841-4524-a4b2-3ddb01797909",
+      "start": 6,
+      "end": 12,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "2f2de134-f015-49d3-a17c-27f4dd19be2e",
+    "name": "основными",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce1af9d9-8d02-4ab8-a5df-76766ab7dc86",
+      "start": 26,
+      "end": 35,
+      "text": "основными"
+    }
+  },
+  {
+    "id": "5d1e0c71-a370-4ddd-935f-828a92cc64e9",
+    "name": "сайты",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "18e15756-1e40-486e-aae3-e0517edf9b67",
+      "start": 37,
+      "end": 42,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "d0be7aac-884a-4247-99d6-8fafe8fc6896",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ed96082-b5ac-4beb-ad86-ec3432c262e9",
+      "start": 10,
+      "end": 14,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "6576f389-17a2-432c-8f5e-4ad677645454",
+    "name": "туристическая виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7ac6f19-97b8-4d28-82f4-ae973d905993",
+      "start": 38,
+      "end": 56,
+      "text": "туристическая виза"
+    }
+  },
+  {
+    "id": "6334f391-9baf-4177-8600-aeb83bdb8826",
+    "name": "информации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89e50682-d027-4b0a-8342-83e01281331b",
+      "start": 33,
+      "end": 43,
+      "text": "информации"
+    }
+  },
+  {
+    "id": "cac77447-8f4b-4efa-af76-e7089f6bb191",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "27f459f0-25cf-403b-84a8-cbc4e864557a",
+      "start": 8,
+      "end": 17,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "5448ac93-2cd2-4ab5-9625-7f5a149498a6",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a4d8a8da-5dc5-4bee-9a6d-aec5ca557e27",
+      "start": 54,
+      "end": 59,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "4044582f-7b1f-4a14-b0b1-fdf852994277",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a4d8a8da-5dc5-4bee-9a6d-aec5ca557e27",
+      "start": 93,
+      "end": 97,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "b2bed79a-7128-4bb2-b293-252f2ae61fd8",
+    "name": "информацию на сайте",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a4d8a8da-5dc5-4bee-9a6d-aec5ca557e27",
+      "start": 106,
+      "end": 125,
+      "text": "информацию на сайте"
+    }
+  },
+  {
+    "id": "0cd04326-9b47-4f24-b248-8d900b2d0033",
+    "name": "информации из нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8c0095c-aeb4-4653-9512-68accedb0998",
+      "start": 8,
+      "end": 26,
+      "text": "информации из нейра"
+    }
+  },
+  {
+    "id": "eb1b5eb5-8bca-472e-9a73-1f3b76d89a06",
+    "name": "сайтов",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "18737ea2-2dd5-48d9-a3d8-fbb5bc92e723",
+      "start": 48,
+      "end": 54,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "59cdcbf8-60d5-4bf5-b1f8-78d1f81f3c2c",
+    "name": "оператор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7186c36-b6c8-46b1-9cc4-5c4edfc7cefc",
+      "start": 22,
+      "end": 30,
+      "text": "оператор"
+    }
+  },
+  {
+    "id": "89d15553-3d67-43e0-9d32-690a79aee0a5",
+    "name": "первоисточнику",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2ae7e75-4461-49ee-9557-960280d50a85",
+      "start": 36,
+      "end": 50,
+      "text": "первоисточнику"
+    }
+  },
+  {
+    "id": "f0c994bd-8441-447c-bd46-aebde7455cc7",
+    "name": "источников",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82479428-3164-4446-b42f-daed8df3ac13",
+      "start": 34,
+      "end": 44,
+      "text": "источников"
+    }
+  },
+  {
+    "id": "63e0a7f4-1a49-4671-8967-e405ae70b8e4",
+    "name": "вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91b67781-7d5e-43ca-b771-53188bef1ace",
+      "start": 48,
+      "end": 55,
+      "text": "вопрос"
+    }
+  },
+  {
+    "id": "73e3cfdd-d63c-48e4-a7db-a06df975b848",
+    "name": "сайт с анкетой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9eeea0f-7c6f-49b6-9ea5-39a564f9d6c9",
+      "start": 4,
+      "end": 19,
+      "text": "сайт с анкетой"
+    }
+  },
+  {
+    "id": "aeb9e4a4-4ff9-4d9a-ab0b-1f437b6c9c0d",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a93a7f1-cfc2-4fea-afcc-b961a1e8ad49",
+      "start": 15,
+      "end": 25,
+      "text": "информации"
+    }
+  },
+  {
+    "id": "5c6f2d3f-be1f-49d5-8eb3-4127bac5a1c5",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5d6ba9bd-3715-47af-b96d-d424b77429ac",
+      "start": 8,
+      "end": 13,
+      "text": "сайте"
+    }
+  },
+  {
+    "id": "2c0a45dc-f66e-469c-be8a-01dba57a4f33",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "990cfa21-8a5a-465a-8281-6a410e74a19c",
+      "start": 8,
+      "end": 13,
+      "text": "сайте"
+    }
+  },
+  {
+    "id": "380f8519-9497-4dc6-b54c-41d788774414",
+    "name": "подача заявлений на виз",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "447bcf3b-1729-4ee1-9a74-1ca70603cd77",
+      "start": 0,
+      "end": 24,
+      "text": "подача заявлений на виз"
+    }
+  },
+  {
+    "id": "c17b3e77-ecd9-4c98-8399-7cf0ba23faa6",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "447bcf3b-1729-4ee1-9a74-1ca70603cd77",
+      "start": 42,
+      "end": 46,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "8c8a154c-8a31-420f-95fe-51a88046b9be",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54198ed6-3acc-4df9-bae1-07b129e6009b",
+      "start": 11,
+      "end": 15,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "adb82edb-447c-42c3-a150-d3f963b0abbf",
+    "name": "создать аккаунт",
+    "type": "action",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54198ed6-3acc-4df9-bae1-07b129e6009b",
+      "start": 16,
+      "end": 31,
+      "text": "создать аккаунт"
+    }
+  },
+  {
+    "id": "9b79533c-a78e-4e2d-b0b0-ffbf5e37ef00",
+    "name": "заполнить визовую анкету",
+    "type": "action",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54198ed6-3acc-4df9-bae1-07b129e6009b",
+      "start": 33,
+      "end": 57,
+      "text": "заполнить визовую анкету"
+    }
+  },
+  {
+    "id": "4da7a73b-7822-4177-8418-224d1d6a6ee0",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f58f7449-e5f8-4ac1-b5c1-227386c96a6a",
+      "start": 36,
+      "end": 40,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "eafcc9bd-2393-4d2b-9873-567030d8f98f",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3c08688-a51f-41a2-8c28-72aa5b3b0174",
+      "start": 36,
+      "end": 40,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "c7f5a803-7fa4-4172-b180-30f70ad20651",
+    "name": "российское представительство посольства",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8935ca98-54a5-4e1d-8742-7e994049b9c5",
+      "start": 6,
+      "end": 43,
+      "text": "российское представительство посольства"
+    }
+  },
+  {
+    "id": "2858add8-6154-4db8-a2f5-564a8802a177",
+    "name": "визовая подача",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8935ca98-54a5-4e1d-8742-7e994049b9c5",
+      "start": 64,
+      "end": 78,
+      "text": "визовая подача"
+    }
+  },
+  {
+    "id": "9795d4d6-9c05-4b3c-ad8a-e0da32a1588e",
+    "name": "создать свой кабинет",
+    "type": "action",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7caa88e2-6922-4b9f-8901-5a368c88b071",
+      "start": 13,
+      "end": 33,
+      "text": "создать свой кабинет"
+    }
+  },
+  {
+    "id": "3011ffbe-14f5-4d29-b90e-7071c428323e",
+    "name": "загрузить документы",
+    "type": "action",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7caa88e2-6922-4b9f-8901-5a368c88b071",
+      "start": 35,
+      "end": 54,
+      "text": "загрузить документы"
+    }
+  },
+  {
+    "id": "1333b6d9-64a8-497b-826c-494d80a1f80d",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98cad4da-780e-4dc5-bb2c-422efb9892e3",
+      "start": 26,
+      "end": 31,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "b82a9da5-9fa4-45ea-9aa3-03ff4a182f2e",
+    "name": "ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b661f7a7-fec5-4ad0-879b-c9a85b953ce8",
+      "start": 23,
+      "end": 28,
+      "text": "ответ"
+    }
+  },
+  {
+    "id": "2caa93b2-81dd-4716-a880-306f98327d9d",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e0fd6e87-2085-4a7c-b002-3d04332c8ec3",
+      "start": 9,
+      "end": 14,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f07a47a2-059e-401b-9396-7010ef2d7796",
+    "name": "ответ от нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12dcb5d7-3971-4e2f-b601-6d850a241eb9",
+      "start": 0,
+      "end": 14,
+      "text": "ответ от нейро"
+    }
+  },
+  {
+    "id": "71dd6fd7-e1db-4211-a011-38c265242933",
+    "name": "структура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d2d1731-10a2-4c4a-ab5c-15350a719ba3",
+      "start": 27,
+      "end": 36,
+      "text": "структуре"
+    }
+  },
+  {
+    "id": "418a1b2a-d4bb-4952-9093-c7f6bd2aea79",
+    "name": "выбор источников",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d2d1731-10a2-4c4a-ab5c-15350a719ba3",
+      "start": 61,
+      "end": 77,
+      "text": "выбор источников"
+    }
+  },
+  {
+    "id": "6d7f2c3e-9c58-413f-a29a-3be738b51e8d",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5c2f4f1e-b85a-487f-9cfc-d2da5bb888d2",
+      "start": 42,
+      "end": 48,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "c8b939ed-a9a0-4b23-82eb-efb9477ff8ed",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5c2f4f1e-b85a-487f-9cfc-d2da5bb888d2",
+      "start": 61,
+      "end": 68,
+      "text": "реклама"
+    }
+  },
+  {
+    "id": "b3519366-3ebe-4e51-ac16-dca06321796c",
+    "name": "визовые центры",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4b79b53-abb6-4aee-bb02-f3a9724e1e5c",
+      "start": 78,
+      "end": 92,
+      "text": "визовые центры"
+    }
+  },
+  {
+    "id": "f4f58c5b-0bd3-4610-a6ba-1dcb8de976a4",
+    "name": "услуги",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4b79b53-abb6-4aee-bb02-f3a9724e1e5c",
+      "start": 117,
+      "end": 123,
+      "text": "услуги"
+    }
+  },
+  {
+    "id": "ff5cb68f-f744-43fc-9daf-0307df3f0588",
+    "name": "таргет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b71630de-59c0-4af0-8b89-99ae83e2069a",
+      "start": 12,
+      "end": 18,
+      "text": "таргета"
+    }
+  },
+  {
+    "id": "43d8f089-bdd8-4253-9990-638dfae8f354",
+    "name": "рекламные источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "684a466a-e973-49c3-a8f7-de4ce2ee3bbc",
+      "start": 0,
+      "end": 19,
+      "text": "рекламные источники"
+    }
+  },
+  {
+    "id": "bf083983-57e5-4b07-87f1-0874100b1fe7",
+    "name": "ответ на ира",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a1baf244-3020-4aea-8542-c5fcbfe2bd79",
+      "start": 11,
+      "end": 23,
+      "text": "ответа на ира"
+    }
+  },
+  {
+    "id": "277210c4-b6e4-458d-ac01-b8c5a8b007af",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b8f2de89-e9c9-46b4-abf6-39ee54d0bced",
+      "start": 27,
+      "end": 32,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "c9a926a5-2f40-4b7b-825c-1efb59bd2d17",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b8f2de89-e9c9-46b4-abf6-39ee54d0bced",
+      "start": 56,
+      "end": 62,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "615258a6-4abf-4ff0-9608-f08fde85ea95",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fcb91f53-0e9c-44b5-8a4f-4fa43ddddf1a",
+      "start": 7,
+      "end": 12,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8a6f31b5-2326-4d70-a9b9-47d37d4173ae",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "287efdad-99c1-43b4-8113-23e45295edcc",
+      "start": 16,
+      "end": 21,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "1073eab1-588e-4fe6-91e2-fdd92a18898c",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f56545b7-5a37-49b5-8550-eee13b5d3e82",
+      "start": 11,
+      "end": 16,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "20033491-f3c1-43ad-ba4e-13db08e27957",
+    "name": "цифры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2390330-0335-4a77-b41a-cc510e44b7bb",
+      "start": 9,
+      "end": 14,
+      "text": "цифры"
+    }
+  },
+  {
+    "id": "dbf68b4f-fe92-4d12-8e8d-86555679a94b",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2390330-0335-4a77-b41a-cc510e44b7bb",
+      "start": 16,
+      "end": 21,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "a6ada75b-562b-4ec3-881b-e425513b9fea",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e0e98090-aa03-40c9-b6b1-ef7a3190c3b0",
+      "start": 17,
+      "end": 22,
+      "text": "сайтами"
+    }
+  }
+]

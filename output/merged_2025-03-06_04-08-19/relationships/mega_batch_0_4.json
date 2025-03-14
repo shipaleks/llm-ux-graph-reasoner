@@ -1,0 +1,66 @@
+[
+  {
+    "id": "e2d92891-ac71-4f19-9370-63dd8d90aee1",
+    "source_id": "314182ac-ede0-4ab6-b587-cda09dbe321c",
+    "target_id": "ce369b60-5b7c-4f01-aa0e-029b24c67ee0",
+    "type": "похожая",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f750d1c-76de-4a47-b326-a09134fd1370",
+      "start": 28,
+      "end": 36,
+      "text": "похожая"
+    }
+  },
+  {
+    "id": "df8542ac-8eaf-418b-88dd-8e806b7495f6",
+    "source_id": "2d366dcc-8271-41c4-8e83-7b9067218586",
+    "target_id": "7c037847-0d03-44b0-935e-2745f9033d56",
+    "type": "PROVIDES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f36205e6-cdd9-4fbe-8f3d-4870c396d783",
+      "start": 21,
+      "end": 67,
+      "text": "давал в топе релевантные статьи, релевантные ответы"
+    }
+  },
+  {
+    "id": "f66f6d79-729a-41dc-8981-ac7c7bb2d0e0",
+    "source_id": "67170450-ccb3-4a57-80a4-1c66cfb1ef1a",
+    "target_id": "112349e5-eedf-4552-b324-2bdf2414767a",
+    "type": "SUMMARIZES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2b05cec-fb80-41e1-9b7e-0f7c3c67e912",
+      "start": 54,
+      "end": 93,
+      "text": "нейро вот эти релевантные статьи пересказывал"
+    }
+  },
+  {
+    "id": "65543cb6-9661-4e4b-a49e-7b26105f2ded",
+    "source_id": "410941c2-d9b7-4f03-8bf4-c5354abd259f",
+    "target_id": "73c187aa-5970-4080-9282-0e78d58fff68",
+    "type": "HAS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d3ebc81-7511-4033-b367-25d97d066e22",
+      "start": 23,
+      "end": 53,
+      "text": "есть редактор, есть еще отдельный там пересказ"
+    }
+  }
+]

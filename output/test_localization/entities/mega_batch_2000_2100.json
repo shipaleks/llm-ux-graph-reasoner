@@ -1,0 +1,884 @@
+[
+  {
+    "id": "3bcb332c-2e3f-4f5e-aae8-e5606a480a7f",
+    "name": "древнеславянский",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d9c8261-539f-415d-b7e6-1ddf1cbc449c",
+      "start": 20,
+      "end": 35,
+      "text": "пропа древнеславянский"
+    }
+  },
+  {
+    "id": "1ac5bb03-ad2c-48c9-ba94-31eba37edd2f",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bb57d08a-91ac-4431-bdb9-15d3a13f7c48",
+      "start": 30,
+      "end": 34,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "dba5513e-499d-4dfb-a4ec-436441d65604",
+    "name": "двгшник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2128232-fbe8-457f-bc06-54b738c0e6d7",
+      "start": 52,
+      "end": 59,
+      "text": "двгшник"
+    }
+  },
+  {
+    "id": "5ca8bc78-949d-4b6a-a83a-43220068b6fe",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6f818b9-b8a2-4245-aea9-d1fa28998b1a",
+      "start": 32,
+      "end": 36,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "255c7f37-2afb-4946-ae2f-4182c23b5903",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6f818b9-b8a2-4245-aea9-d1fa28998b1a",
+      "start": 72,
+      "end": 76,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "6c657d79-a676-4dfb-bdb2-6176c3dec883",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a75fd1a-c9b7-40c3-b831-8e8676fd7c81",
+      "start": 41,
+      "end": 45,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "4524d370-6d73-444e-890f-8beaa03859bc",
+    "name": "лингвистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a75fd1a-c9b7-40c3-b831-8e8676fd7c81",
+      "start": 82,
+      "end": 93,
+      "text": "лингвистики"
+    }
+  },
+  {
+    "id": "6f46c50c-0d95-4485-881d-02da182a29c5",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a75fd1a-c9b7-40c3-b831-8e8676fd7c81",
+      "start": 104,
+      "end": 108,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "98f39853-0b26-4807-98e5-2a89ef768276",
+    "name": "испанский",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23e8ff0e-3962-4c0c-bd1a-38868e439767",
+      "start": 14,
+      "end": 23,
+      "text": "испанском"
+    }
+  },
+  {
+    "id": "78234816-7b27-4d26-87b5-4199649243be",
+    "name": "древнегреческая версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f01b275-7ddd-4dda-8d28-468b67ca6be7",
+      "start": 23,
+      "end": 45,
+      "text": "древнегреческая версия"
+    }
+  },
+  {
+    "id": "97f0f09e-5405-4be6-a899-fc425ee72039",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f01b275-7ddd-4dda-8d28-468b67ca6be7",
+      "start": 63,
+      "end": 67,
+      "text": "хлеба"
+    }
+  },
+  {
+    "id": "63e4364e-10fe-4bd0-8a77-b1875dcc709f",
+    "name": "горшки",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f01b275-7ddd-4dda-8d28-468b67ca6be7",
+      "start": 68,
+      "end": 74,
+      "text": "горшки"
+    }
+  },
+  {
+    "id": "b192459b-2877-4f32-bf2e-89cc8220015a",
+    "name": "горшки",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f01b275-7ddd-4dda-8d28-468b67ca6be7",
+      "start": 76,
+      "end": 82,
+      "text": "горшки"
+    }
+  },
+  {
+    "id": "f9a5a800-5b7d-4fd6-acc0-af731470681a",
+    "name": "древнегреческая",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f01b275-7ddd-4dda-8d28-468b67ca6be7",
+      "start": 84,
+      "end": 98,
+      "text": "древнегреческая"
+    }
+  },
+  {
+    "id": "6338ee36-c5fa-4f39-8363-3b2305f2fbca",
+    "name": "древнеславянская",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c6c3b48a-8d2a-43b8-aec7-0593188015a4",
+      "start": 14,
+      "end": 30,
+      "text": "древнеславянская"
+    }
+  },
+  {
+    "id": "b56d394b-b17c-479d-acf7-eb538f6a9ec0",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a29f2323-2548-405b-8318-b896711bf41a",
+      "start": 112,
+      "end": 121,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "317a1608-aeb1-42bd-b1dc-c563a4ad6edf",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a29f2323-2548-405b-8318-b896711bf41a",
+      "start": 153,
+      "end": 157,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "2b30bfbf-e328-43c3-980b-fe3083aa2263",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a29f2323-2548-405b-8318-b896711bf41a",
+      "start": 201,
+      "end": 205,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "a4c8cdfd-8099-4ad6-840e-e1a0585146db",
+    "name": "испанский язык",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a29f2323-2548-405b-8318-b896711bf41a",
+      "start": 226,
+      "end": 240,
+      "text": "испанском языке"
+    }
+  },
+  {
+    "id": "8a19bbe6-6dc9-4f44-bd89-6eb207bc1e84",
+    "name": "китайский язык",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a29f2323-2548-405b-8318-b896711bf41a",
+      "start": 247,
+      "end": 261,
+      "text": "китайском языке"
+    }
+  },
+  {
+    "id": "c378877a-2a13-4620-96c3-091858568b83",
+    "name": "древнегреческой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "663a18f2-8bc2-49bd-8cf2-f34ec61fd98d",
+      "start": 18,
+      "end": 32,
+      "text": "древнегреческой"
+    }
+  },
+  {
+    "id": "d5cacd07-5414-46ad-ba63-c0d4836dac2e",
+    "name": "древнеславянское",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "663a18f2-8bc2-49bd-8cf2-f34ec61fd98d",
+      "start": 34,
+      "end": 50,
+      "text": "древнеславянское"
+    }
+  },
+  {
+    "id": "4da1f8ad-f97c-4fb8-92b9-a13650158399",
+    "name": "индоевропейские",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "663a18f2-8bc2-49bd-8cf2-f34ec61fd98d",
+      "start": 52,
+      "end": 67,
+      "text": "индоевропейские"
+    }
+  },
+  {
+    "id": "6a5b20e3-0269-496c-9adc-d3919e3a614a",
+    "name": "новый свет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "663a18f2-8bc2-49bd-8cf2-f34ec61fd98d",
+      "start": 79,
+      "end": 89,
+      "text": "новый свет"
+    }
+  },
+  {
+    "id": "fcf7187b-de78-42f8-9274-7d2bd31d82cc",
+    "name": "ацтеки",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "663a18f2-8bc2-49bd-8cf2-f34ec61fd98d",
+      "start": 94,
+      "end": 100,
+      "text": "ацтеки"
+    }
+  },
+  {
+    "id": "67489755-1b21-4c22-b0be-6a284e3e4681",
+    "name": "айфон",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5875c56a-6209-40b3-9066-7b115d910de5",
+      "start": 24,
+      "end": 30,
+      "text": "айфоне"
+    }
+  },
+  {
+    "id": "296aa9db-43cd-4eea-a862-73ee9ca942e6",
+    "name": "двести нит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5931a9f6-9269-4cac-b92b-b752daa796b5",
+      "start": 30,
+      "end": 40,
+      "text": "двести нит"
+    }
+  },
+  {
+    "id": "f429c2c8-d192-4b0d-96e4-f7ebc49a5f5f",
+    "name": "нит",
+    "type": "unit",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "278e7d90-6fd9-47ad-8188-cfe586c72c9c",
+      "start": 73,
+      "end": 76,
+      "text": "нит"
+    }
+  },
+  {
+    "id": "2ae88f9c-124f-48ff-90b5-4d70a3ccc636",
+    "name": "нит",
+    "type": "unit",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e1e49b81-d256-43ff-8c02-ade39aa357d2",
+      "start": 15,
+      "end": 18,
+      "text": "нит"
+    }
+  },
+  {
+    "id": "cd049a7c-9f7a-4b1b-b242-89459a74449b",
+    "name": "основные характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ede40ce4-1bc4-429d-a95a-92c10d08b1da",
+      "start": 20,
+      "end": 42,
+      "text": "основные характеристики"
+    }
+  },
+  {
+    "id": "1bc8bd28-cd45-4e8d-a2fb-ad75f71358cf",
+    "name": "функция",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b43fcac-0c21-4137-b736-baa5a96dcb8c",
+      "start": 43,
+      "end": 51,
+      "text": "функция"
+    }
+  },
+  {
+    "id": "7730b838-f60b-4a07-92ff-f12c227014e8",
+    "name": "запрос пользователя",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b43fcac-0c21-4137-b736-baa5a96dcb8c",
+      "start": 71,
+      "end": 90,
+      "text": "запрос пользователя"
+    }
+  },
+  {
+    "id": "ad0f1780-9b74-4b04-8905-6feb4359f9be",
+    "name": "процесс поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b43fcac-0c21-4137-b736-baa5a96dcb8c",
+      "start": 116,
+      "end": 130,
+      "text": "процесса поиска"
+    }
+  },
+  {
+    "id": "7fd93f46-4a8c-4b0f-b034-cd7ff85f7f65",
+    "name": "телеграм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da4b7aeb-4c59-4f14-b9e9-0b68674977b4",
+      "start": 27,
+      "end": 35,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "20db07db-f1e6-4bc9-8b28-b75414708412",
+    "name": "время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34945969-ccda-4b16-8f45-4eff86e78e52",
+      "start": 42,
+      "end": 48,
+      "text": "по времени"
+    }
+  },
+  {
+    "id": "099f656e-9f2a-4733-b595-b32465baa7b1",
+    "name": "люфт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c54631ec-3de1-459e-a38c-1b437dfdc5d6",
+      "start": 28,
+      "end": 32,
+      "text": "люфт"
+    }
+  },
+  {
+    "id": "ef9a075d-b58a-40bf-bf59-4ff44630c6a7",
+    "name": "сорок минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c54631ec-3de1-459e-a38c-1b437dfdc5d6",
+      "start": 34,
+      "end": 45,
+      "text": "сорок минут"
+    }
+  },
+  {
+    "id": "76186583-9b0d-4ad7-a2c4-e985b5a1041a",
+    "name": "десять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fdf50b30-a956-47c4-9f79-805fe216e791",
+      "start": 27,
+      "end": 39,
+      "text": "десять минут"
+    }
+  },
+  {
+    "id": "81900fd7-1ff8-418e-92ce-f31fd0b3d804",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91cd112b-186b-4117-a033-88bee97159e5",
+      "start": 51,
+      "end": 58,
+      "text": "запросы"
+    }
+  },
+  {
+    "id": "657a8e3a-d44e-495c-b003-2bde30e41de6",
+    "name": "исторические события",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91cd112b-186b-4117-a033-88bee97159e5",
+      "start": 74,
+      "end": 93,
+      "text": "исторические события"
+    }
+  },
+  {
+    "id": "266b7401-7c04-42a9-9199-15ccb6ee8d2c",
+    "name": "политология",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "405d9c9f-e89d-40fd-8a73-a5fe7f7cfb5e",
+      "start": 20,
+      "end": 31,
+      "text": "политология"
+    }
+  },
+  {
+    "id": "1aa78442-9562-42f5-b9f6-9398ab1ed8fc",
+    "name": "международные отношения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "405d9c9f-e89d-40fd-8a73-a5fe7f7cfb5e",
+      "start": 33,
+      "end": 56,
+      "text": "международные отношения"
+    }
+  },
+  {
+    "id": "73c96a4c-48da-4432-8a07-e97f98439472",
+    "name": "предмет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed968cd2-2fd0-4e29-94e9-30446259330d",
+      "start": 76,
+      "end": 83,
+      "text": "предмете"
+    }
+  },
+  {
+    "id": "0ce84ca9-1e46-4c9b-8d9c-f7b3a92940c2",
+    "name": "исторические события",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07e73809-39f0-4a0b-a17a-a90dec8de553",
+      "start": 27,
+      "end": 46,
+      "text": "историческими событиями"
+    }
+  },
+  {
+    "id": "98464162-0774-46ec-b58e-21540a85cb89",
+    "name": "холодная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1d85a81-84ae-4255-8b4d-574bc46c7a49",
+      "start": 20,
+      "end": 34,
+      "text": "холодная война"
+    }
+  },
+  {
+    "id": "57a19d85-5ea6-4fa3-9cf2-9426adf0b772",
+    "name": "карибский кризис",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8056b345-43e3-44a7-b7e5-760324a6463c",
+      "start": 17,
+      "end": 33,
+      "text": "карибский кризис"
+    }
+  },
+  {
+    "id": "baba8c49-967d-41c6-895e-c7d0f9f3ae2f",
+    "name": "холодная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52ce4b08-37b2-461d-b52a-98e834f3813e",
+      "start": 40,
+      "end": 54,
+      "text": "холодная война"
+    }
+  },
+  {
+    "id": "4f15685b-f453-4992-bfad-39f3a6b2d3be",
+    "name": "причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52ce4b08-37b2-461d-b52a-98e834f3813e",
+      "start": 55,
+      "end": 62,
+      "text": "причины"
+    }
+  },
+  {
+    "id": "cd554445-a8db-4d42-a7ed-f033b52a645c",
+    "name": "причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "24a15dc2-bc0e-47b9-b2a5-2490fc6da904",
+      "start": 20,
+      "end": 27,
+      "text": "причины"
+    }
+  },
+  {
+    "id": "f5955039-1e4d-4dd2-a0bd-861136805cf0",
+    "name": "причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "16d44bb4-a23d-4a9a-90b2-d73420ca220b",
+      "start": 27,
+      "end": 34,
+      "text": "причины"
+    }
+  },
+  {
+    "id": "e163bdbc-0ddb-4f38-aae7-7e6c58269838",
+    "name": "политические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8a5e23c6-3f37-48f6-84e0-5bcdd5053b17",
+      "start": 20,
+      "end": 31,
+      "text": "политические"
+    }
+  },
+  {
+    "id": "99faf71a-4644-49d0-83d6-75e0b9bf11da",
+    "name": "экономические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8a5e23c6-3f37-48f6-84e0-5bcdd5053b17",
+      "start": 33,
+      "end": 45,
+      "text": "экономические"
+    }
+  },
+  {
+    "id": "afa38939-3196-4666-b948-f0777ffbc48d",
+    "name": "военные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8a5e23c6-3f37-48f6-84e0-5bcdd5053b17",
+      "start": 47,
+      "end": 54,
+      "text": "военные"
+    }
+  },
+  {
+    "id": "eae4645d-07b4-4772-8764-d3cb571feed0",
+    "name": "политически",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6c66f4f8-b634-422c-b05f-e3dfaf93f224",
+      "start": 41,
+      "end": 52,
+      "text": "политически"
+    }
+  },
+  {
+    "id": "c21e97d9-0359-4ba0-a535-9a8e6f298fc4",
+    "name": "экономические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd30d24f-a9bc-4884-96b6-89c3b5849d5c",
+      "start": 41,
+      "end": 53,
+      "text": "экономические"
+    }
+  },
+  {
+    "id": "fb8062ee-0321-43ce-abb0-2d525e74df93",
+    "name": "политические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd30d24f-a9bc-4884-96b6-89c3b5849d5c",
+      "start": 65,
+      "end": 76,
+      "text": "политические"
+    }
+  },
+  {
+    "id": "bf4eea48-e017-49a6-a91f-cc12bd2ac4c5",
+    "name": "экономика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f95c8d9-a8ad-42fd-826a-0054ad993e51",
+      "start": 125,
+      "end": 134,
+      "text": "экономика"
+    }
+  },
+  {
+    "id": "a7ee0560-b4a3-41ec-8038-936720cdefa7",
+    "name": "семьдесят процентов конфликтов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f95c8d9-a8ad-42fd-826a-0054ad993e51",
+      "start": 95,
+      "end": 124,
+      "text": "семьдесят процентов конфликтов"
+    }
+  },
+  {
+    "id": "6fa54b2a-3495-4b35-9a98-26e24370aee0",
+    "name": "этапы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccf7c163-c679-4fd7-9a43-9af173fd1ae6",
+      "start": 19,
+      "end": 24,
+      "text": "этапы"
+    }
+  },
+  {
+    "id": "edfbdf33-7e7a-4b47-87f2-62101ac19894",
+    "name": "последствия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccf7c163-c679-4fd7-9a43-9af173fd1ae6",
+      "start": 26,
+      "end": 37,
+      "text": "последствия"
+    }
+  },
+  {
+    "id": "508ed760-9680-43ea-b25d-757018687ea5",
+    "name": "противостояние",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89e30033-0994-46c8-8f8a-b64f91f69e32",
+      "start": 26,
+      "end": 40,
+      "text": "противостояние"
+    }
+  },
+  {
+    "id": "a353c9ce-1140-4954-a3f0-51b94933b777",
+    "name": "мозг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea5dfaf5-7933-42cd-bde1-67b61763aa65",
+      "start": 42,
+      "end": 46,
+      "text": "мозг"
+    }
+  },
+  {
+    "id": "26e40e6a-2533-4813-9c1b-2b96d94348cb",
+    "name": "причина",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "beb06ff8-3ed7-4d9b-8580-e253e6267454",
+      "start": 34,
+      "end": 41,
+      "text": "причина"
+    }
+  }
+]

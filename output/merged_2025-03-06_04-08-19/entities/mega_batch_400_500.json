@@ -1,0 +1,506 @@
+[
+  {
+    "id": "04291a04-addd-4baa-9032-fb6960593a42",
+    "name": "гаичи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db329bda-0b79-46f2-b580-0be55fb6648f",
+      "start": 0,
+      "end": 28,
+      "text": "здесь опять вот было гаичи"
+    }
+  },
+  {
+    "id": "42b95d98-e31d-4055-a9c5-5373c07bef04",
+    "name": "сложный выбор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07ceb762-56b1-4d54-8ffb-a535f5eb64aa",
+      "start": 21,
+      "end": 33,
+      "text": "сложный выбор"
+    }
+  },
+  {
+    "id": "f05185f0-3b78-4e87-bc48-17a48ee3e67c",
+    "name": "выбор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7c697340-2c71-414b-8dc7-00f4e6e8a041",
+      "start": 17,
+      "end": 22,
+      "text": "выбор"
+    }
+  },
+  {
+    "id": "ee3aee73-a09b-4ce6-9632-fa8d7d6279d8",
+    "name": "яндекс путешествия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7fb2ba79-bd0b-4a16-b7e2-e2ef075fa06a",
+      "start": 43,
+      "end": 61,
+      "text": "яндекс путешествия"
+    }
+  },
+  {
+    "id": "7103664f-2eaa-4a6c-aa59-0375749b0aa5",
+    "name": "нейро поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "80005e63-27b7-4972-aa29-90834a93c585",
+      "start": 47,
+      "end": 62,
+      "text": "не на нейро поисковик"
+    }
+  },
+  {
+    "id": "d1649e3c-2fc2-499e-b907-6133fd61ca70",
+    "name": "куда поехать на выходные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32911303-0908-43fe-9429-0a9e52ccf64d",
+      "start": 24,
+      "end": 49,
+      "text": "куда поехать на выходные"
+    }
+  },
+  {
+    "id": "bed239c1-382d-47af-a793-139e7610a638",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3f53037-fe4f-4f94-84af-ea58ec77fd5d",
+      "start": 0,
+      "end": 7,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "6c40a705-a9f7-48e0-89a3-42c1634d50b9",
+    "name": "подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d27de1ed-5bc7-4629-9735-699bf8485cf7",
+      "start": 6,
+      "end": 14,
+      "text": "подольск"
+    }
+  },
+  {
+    "id": "5647afc5-208c-4246-bb6c-a83de6f962dd",
+    "name": "тулу",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d27de1ed-5bc7-4629-9735-699bf8485cf7",
+      "start": 20,
+      "end": 24,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "86463770-2636-45a3-ae14-9a276304ea5f",
+    "name": "москва",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d27de1ed-5bc7-4629-9735-699bf8485cf7",
+      "start": 37,
+      "end": 43,
+      "text": "москвы"
+    }
+  },
+  {
+    "id": "d7c74dd5-c01a-4ac9-be7a-5bc81c0fed96",
+    "name": "москва",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d27de1ed-5bc7-4629-9735-699bf8485cf7",
+      "start": 50,
+      "end": 56,
+      "text": "москвы"
+    }
+  },
+  {
+    "id": "550216c1-9249-44fb-9d08-37203815ba32",
+    "name": "геолокация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58a52b91-70f7-44c2-a6aa-11a989a8871a",
+      "start": 49,
+      "end": 60,
+      "text": "геолокация"
+    }
+  },
+  {
+    "id": "7d8c3aef-1c71-412c-9654-57cb06dbf980",
+    "name": "музеи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0df62d8-18a9-4483-9533-667a3debb4db",
+      "start": 34,
+      "end": 39,
+      "text": "музеи"
+    }
+  },
+  {
+    "id": "2ea4c687-14f8-40a0-9b76-fe67eb3402bd",
+    "name": "подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0df62d8-18a9-4483-9533-667a3debb4db",
+      "start": 60,
+      "end": 68,
+      "text": "подольске"
+    }
+  },
+  {
+    "id": "fa9b4f4b-eb59-4c1a-a400-e792682cf50d",
+    "name": "тульский кремль",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0df62d8-18a9-4483-9533-667a3debb4db",
+      "start": 72,
+      "end": 86,
+      "text": "тульском кремле"
+    }
+  },
+  {
+    "id": "0e4adf77-b3a8-4fd7-9d79-1eec740a6ff7",
+    "name": "тульский кремль",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8746de80-f5dd-4753-a4e8-c8392e70f2a0",
+      "start": 82,
+      "end": 96,
+      "text": "тульский кремль"
+    }
+  },
+  {
+    "id": "ca9fbcbe-95fc-456e-ab8d-0cd6a018fa31",
+    "name": "тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "079200ba-f42c-4259-9c38-966e0ae451ed",
+      "start": 27,
+      "end": 31,
+      "text": "туле"
+    }
+  },
+  {
+    "id": "10ee8f57-bd72-4095-b4d9-505317e85cca",
+    "name": "гостиница",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "079200ba-f42c-4259-9c38-966e0ae451ed",
+      "start": 42,
+      "end": 51,
+      "text": "гостинице"
+    }
+  },
+  {
+    "id": "b0657b24-7e55-4a82-ac9d-1b93fc7aacdb",
+    "name": "рассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2092693-15d6-4084-bd33-eb8b9c515abc",
+      "start": 44,
+      "end": 53,
+      "text": "рассуждай"
+    }
+  },
+  {
+    "id": "47aac463-c0bd-4020-9169-588a350d1368",
+    "name": "подсказки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0ca72e8-46fa-4e29-a717-0f211c8644fa",
+      "start": 47,
+      "end": 56,
+      "text": "подсказки"
+    }
+  },
+  {
+    "id": "a8f6b465-e90d-4eb9-8fd8-b7d7e6710890",
+    "name": "шаблоны ответов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0ca72e8-46fa-4e29-a717-0f211c8644fa",
+      "start": 74,
+      "end": 89,
+      "text": "шаблоны ответов"
+    }
+  },
+  {
+    "id": "0180cb8d-a26b-4de5-ba21-52650446007c",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1196c1a5-4ee7-4be2-9007-df334a5c45f8",
+      "start": 28,
+      "end": 33,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6e70151d-32e6-443e-b599-116b681eb770",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e6445990-fe00-4064-b448-12d54c923cca",
+      "start": 29,
+      "end": 38,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "3ba95c5b-903a-4569-bfbe-ff20cdefbbd0",
+    "name": "процесс размышления",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e31af328-6974-46f1-b175-7eb9674c070c",
+      "start": 41,
+      "end": 60,
+      "text": "процесс размышления"
+    }
+  },
+  {
+    "id": "49c8f922-eac9-4341-9147-2d33eba5f780",
+    "name": "подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f3d0eee-8a50-4861-ae01-3eaebf6da450",
+      "start": 47,
+      "end": 55,
+      "text": "подольске"
+    }
+  },
+  {
+    "id": "9c7f0144-c314-4089-91eb-61b2d521c591",
+    "name": "тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f3d0eee-8a50-4861-ae01-3eaebf6da450",
+      "start": 57,
+      "end": 62,
+      "text": "витулу"
+    }
+  },
+  {
+    "id": "9a1af25b-5e6a-4a9c-8b31-c004d35d1922",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "59e91201-ca23-45c9-96bf-e0f254782dd7",
+      "start": 30,
+      "end": 48,
+      "text": "яндекс путешествие"
+    }
+  },
+  {
+    "id": "89e39f42-9e8d-4c7a-a0c9-9d92dbd2c295",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57dfe513-71e7-47b3-b76b-dd760dbd48b7",
+      "start": 21,
+      "end": 39,
+      "text": "яндекс путешествие"
+    }
+  },
+  {
+    "id": "da10c5b7-dd55-4305-8f03-c4adf00c9c70",
+    "name": "тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9440ceb-e8ac-4d3e-82a3-711352cd9cf6",
+      "start": 48,
+      "end": 53,
+      "text": "доклептулу"
+    }
+  },
+  {
+    "id": "932c0cd1-3601-4fd6-b484-0eb1369410a4",
+    "name": "яндекс путешествия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3480963-b7be-430a-aea1-54f08e632fb3",
+      "start": 24,
+      "end": 42,
+      "text": "яндекс путешествия"
+    }
+  },
+  {
+    "id": "651b3170-ea09-405c-a684-f0fcb51a919c",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6718ba94-c667-4485-9016-453cad69f5bb",
+      "start": 77,
+      "end": 95,
+      "text": "яндекс путешествие"
+    }
+  },
+  {
+    "id": "713a0b20-c5ca-4f7b-be42-2ac498a33b18",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "507d9723-d2e7-474c-8629-5d717f22c0c8",
+      "start": 31,
+      "end": 40,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "5818963e-f50d-4390-9d2f-14c2bee6e695",
+    "name": "подольск усадьба",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "507d9723-d2e7-474c-8629-5d717f22c0c8",
+      "start": 109,
+      "end": 125,
+      "text": "из подольска усадьба"
+    }
+  },
+  {
+    "id": "cf109805-f0ec-4986-aeb0-c2e880bb5539",
+    "name": "усадьба",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "122a755d-8ba9-4c68-9349-52b903c639fc",
+      "start": 6,
+      "end": 13,
+      "text": "усадьба"
+    }
+  },
+  {
+    "id": "cbd0b850-d7e4-4bee-b211-64029907ef78",
+    "name": "яндекс путешествие",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "122a755d-8ba9-4c68-9349-52b903c639fc",
+      "start": 44,
+      "end": 64,
+      "text": "яндекс там путешествие"
+    }
+  },
+  {
+    "id": "9aa37120-577a-4ef0-86c8-cb4358a27520",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "200ae549-5206-4c92-8dc7-c15c9f9c9986",
+      "start": 28,
+      "end": 34,
+      "text": "яндекс"
+    }
+  }
+]

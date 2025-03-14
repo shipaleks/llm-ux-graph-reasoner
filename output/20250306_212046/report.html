@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: sample.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+        
+        .segment-actions {
+            margin-top: 0.75rem;
+        }
+        
+        .segment-link {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #0366d6;
+        }
+        
+        .segment-link:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: sample.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-06 21:21:52</p>
+            <p><strong>Источник:</strong> tests/data/samples/sample.txt</p>
+            <p><strong>Количество сущностей:</strong> 19</p>
+            <p><strong>Количество связей:</strong> 13</p>
+            <p><strong>Количество текстовых сегментов:</strong> 5</p>
+            
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 19 сущностей 10 различных типов и 13 связей 13 различных видов. Наиболее распространенные типы сущностей: concept (3), person (3), organization (3). Преобладающие типы связей: CEO_OF (1), FOUNDED_IN (1), HEADQUARTERED_IN (1). Ключевые темы, исследуемые в тексте: Компания "ТехноИнновации" под руководством Ивана Петрова сотрудничает с "Глобал Системс" для реализации "Проекта Альфа", направленного на разработку AI-решений для здравоохранения с бюджетом 300 млн рублей. Ivan Petrov is the CEO of TechnoInnova, a company founded in 2010 and located in Moscow. Maria Sidorova has been the Technical Director at TechnoInnovaations since 2015. Previously, she was a lead developer at IT-Solutions.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 19 сущностей и 13 связей. Наиболее центральные сущности в графе: Acme Corporation, Mary Johnson, Global Systems Ltd., которые формируют ключевые точки связи в сети. Граф состоит из 6 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством связей между сущностями. Наиболее значимая теория, полученная в результате анализа — 'Без названия' с уровнем достоверности 0.75.  Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на 5 логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 4 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены 19 ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены 13 связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 1 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            <div class="segment-summary" id="segment-1">
+                <h4>ТехноИнновации, Глобал Системс, Проект Альфа</h4>
+                <p><strong>Сводка:</strong> Компания "ТехноИнновации" под руководством Ивана Петрова сотрудничает с "Глобал Системс" для реализации "Проекта Альфа", направленного на разработку AI-решений для здравоохранения с бюджетом 300 млн рублей.</p>
+                <p><strong>Роль в тексте:</strong> Детализация</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>"ТехноИнновации" сотрудничает с "Глобал Системс".</li>
+                    
+                    <li>Партнерство объявлено 15 января 2023 года.</li>
+                    
+                    <li>"Проект Альфа" направлен на AI-решения для здравоохранения.</li>
+                    
+                    <li>Бюджет проекта составляет 300 миллионов рублей.</li>
+                    
+                    <li>Генеральный директор "Глобал Системс" - Алексей Смирнов.</li>
+                    
+                </ul>
+                
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/b04d9e3b-efad-4495-bfb9-053ff63cd219.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-2">
+                <h4>TechnoInnova CEO and Foundation</h4>
+                <p><strong>Сводка:</strong> Ivan Petrov is the CEO of TechnoInnova, a company founded in 2010 and located in Moscow.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Ivan Petrov is the CEO.</li>
+                    
+                    <li>TechnoInnova was founded in 2010.</li>
+                    
+                    <li>TechnoInnova is located in Moscow.</li>
+                    
+                </ul>
+                
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/448ea46c-b93a-4cde-98ce-36d996fd7a3a.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-3">
+                <h4>Maria Sidorova: Technical Director</h4>
+                <p><strong>Сводка:</strong> Maria Sidorova has been the Technical Director at TechnoInnovaations since 2015. Previously, she was a lead developer at IT-Solutions.</p>
+                <p><strong>Роль в тексте:</strong> Background</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Maria Sidorova is the Technical Director.</li>
+                    
+                    <li>She works at TechnoInnovations.</li>
+                    
+                    <li>She started in 2015.</li>
+                    
+                    <li>Prior role: Lead Developer at IT-Solutions.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Provides information about a key employee at TechnoInnovations, complementing the information about the CEO and the company's founding.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/523d6379-3f8b-48ea-9177-b1a1fa1e1dde.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-4">
+                <h4>ТехноИнновации и Глобал Системс партнерство</h4>
+                <p><strong>Сводка:</strong> Компания "ТехноИнновации" под руководством Ивана Петрова заключила партнерство с "Глобал Системс" для работы над "Проектом Альфа", о чем было объявлено 15 января 2023 года.</p>
+                <p><strong>Роль в тексте:</strong> Факт</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Партнерство между ТехноИнновации и Глобал Системс</li>
+                    
+                    <li>Проект Альфа - цель партнерства</li>
+                    
+                    <li>Объявление о партнерстве: 15 января 2023</li>
+                    
+                    <li>Иван Петров объявил о партнерстве</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Детализирует деятельность компании "ТехноИнновации", возглавляемой Иваном Петровым, демонстрируя ее развитие и расширение через партнерства.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/c30308be-df7b-4c24-924d-18db5db6da81.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-5">
+                <h4>AI Healthcare Project by Global Systems</h4>
+                <p><strong>Сводка:</strong> Global Systems, led by CEO Alexey Smirnov and based in St. Petersburg, is undertaking a 300 million ruble AI healthcare project.</p>
+                <p><strong>Роль в тексте:</strong> Introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>AI healthcare project</li>
+                    
+                    <li>Budget: 300 million rubles</li>
+                    
+                    <li>Company: Global Systems</li>
+                    
+                    <li>Location: St. Petersburg</li>
+                    
+                    <li>CEO: Alexey Smirnov</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Introduces a separate company and project, potentially for comparison or collaboration with TechnoInnovations.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/882b3ddf-77a1-415f-a962-62b6e05a87de.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                ТехноИнновации, Глобал Системс, Проект Альфа
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                ТехноИнновации, Глобал Системс, Проект Альфа
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                TechnoInnova CEO and Foundation
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                TechnoInnova CEO and Foundation
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                Maria Sidorova: Technical Director
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                Maria Sidorova: Technical Director
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                ТехноИнновации и Глобал Системс партнерство
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                ТехноИнновации и Глобал Системс партнерство
+                            </a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>knowledge graph synthesis system</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CEO</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1985</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>New York City</td>
+                        <td>location</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>software development</td>
+                        <td>concept</td>
+                        <td>0.92</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CTO</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2005</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tech Solutions Inc.</td>
+                        <td>organization</td>
+                        <td>0.96</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>senior developer</td>
+                        <td>role</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>organization</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>project</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>January 15, 2023</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>press conference</td>
+                        <td>event</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AI solutions</td>
+                        <td>concept</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>healthcare</td>
+                        <td>industry</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>$5 million</td>
+                        <td>money</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>London</td>
+                        <td>location</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>David Brown</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CEO</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>CEO_OF</td>
+                        <td>Acme Corporation</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>FOUNDED_IN</td>
+                        <td>1985</td>
+                        <td>0.98</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>HEADQUARTERED_IN</td>
+                        <td>New York City</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>SPECIALIZES_IN</td>
+                        <td>software development</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>CTO_OF</td>
+                        <td>Acme Corporation</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>WORKED_AT</td>
+                        <td>Tech Solutions Inc.</td>
+                        <td>0.97</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>WORKED_SINCE</td>
+                        <td>2005</td>
+                        <td>0.96</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>PARTNERED_WITH</td>
+                        <td>Project Alpha</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>ANNOUNCED_ON</td>
+                        <td>January 15, 2023</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>ANNOUNCED_DURING</td>
+                        <td>press conference</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AI solutions</td>
+                        <td>DEVELOPS</td>
+                        <td>healthcare</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>BASED_IN</td>
+                        <td>London</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>LED_BY</td>
+                        <td>David Brown</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.038</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.37</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">3</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>0.278</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>0.167</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>0.167</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>0.167</td>
+                        <td>project</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>0.056</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1985</td>
+                        <td>0.056</td>
+                        <td>date</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>New York City</td>
+                        <td>0.056</td>
+                        <td>location</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>software development</td>
+                        <td>0.056</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2005</td>
+                        <td>0.056</td>
+                        <td>date</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tech Solutions Inc.</td>
+                        <td>0.056</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+            <div class="research-process">
+                <h3></h3>
+                <p><strong>Достоверность:</strong> 0.75</p>
+                <p></p>
+                
+                
+            </div>
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Acme Corporation, Mary Johnson, Global Systems Ltd. как центральные концепции, связывающие несколько тем. Преобладающие типы отношений (ANNOUNCED_DURING, SPECIALIZES_IN, LED_BY) подчеркивают ключевые взаимодействия в предметной области. В ходе анализа было сформировано 1 теорий, объясняющих наблюдаемые закономерности. Теория 'Без названия' имеет наиболее сильную поддержку с достоверностью 0.75. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-06 21:21:52</p>
+        </div>
+    </footer>
+</body>
+</html>

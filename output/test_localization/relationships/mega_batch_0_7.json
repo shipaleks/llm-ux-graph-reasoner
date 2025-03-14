@@ -1,0 +1,146 @@
+[
+  {
+    "id": "5c84cf37-3de8-440c-ae7a-491787185187",
+    "source_id": "ec5efaff-0a2c-4ac5-8a39-89cbfd847c02",
+    "target_id": "28116fe0-93e8-46d2-b3e6-0aec9eaa3b53",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5d26ed8-adff-49d0-af41-b20ce6a8ae90",
+      "start": 6,
+      "end": 32,
+      "text": "пересказ, переводчик, редактор"
+    }
+  },
+  {
+    "id": "24c088c8-b4b1-4933-b7b8-e2d7152a4fc1",
+    "source_id": "ec5efaff-0a2c-4ac5-8a39-89cbfd847c02",
+    "target_id": "34f3bf26-0087-430e-8799-a8dbeea597c1",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5d26ed8-adff-49d0-af41-b20ce6a8ae90",
+      "start": 6,
+      "end": 32,
+      "text": "пересказ, переводчик, редактор"
+    }
+  },
+  {
+    "id": "6eb7d18b-0e7a-49aa-be6d-138e5b7c2473",
+    "source_id": "28116fe0-93e8-46d2-b3e6-0aec9eaa3b53",
+    "target_id": "34f3bf26-0087-430e-8799-a8dbeea597c1",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a5d26ed8-adff-49d0-af41-b20ce6a8ae90",
+      "start": 6,
+      "end": 32,
+      "text": "пересказ, переводчик, редактор"
+    }
+  },
+  {
+    "id": "d5ec2791-c275-49c8-b555-45573b218fee",
+    "source_id": "5b3c0a1d-984b-4f1f-aa7f-80115dffe904",
+    "target_id": "dc8fc358-7ae0-48e4-999c-2e176bb06614",
+    "type": "ALIAS_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7946242a-abe1-439a-9b6f-b25fd36b5bea",
+      "start": 69,
+      "end": 80,
+      "text": "яндекс гбт"
+    }
+  },
+  {
+    "id": "105ed38f-ade9-44dd-830b-6b91088953f9",
+    "source_id": "eed78489-1b71-4d78-a0dd-38d645e4cf26",
+    "target_id": "1c4df145-5bfd-4262-996d-e5f73a7ad17a",
+    "type": "IS_A",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "530ff360-8312-4da9-b10d-992f63ece2fb",
+      "start": 82,
+      "end": 112,
+      "text": "нейросеть- это личный помощник"
+    }
+  },
+  {
+    "id": "24b4c5a1-c258-4f6e-b262-061d8201186c",
+    "source_id": "310ae14d-823a-4061-a69e-c7949034f261",
+    "target_id": "eabcdd52-c066-4688-8adf-756c0b0a845d",
+    "type": "OFFERS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d5882f5-6f76-4a2e-a88e-e6d218aa081c",
+      "start": 36,
+      "end": 63,
+      "text": "яндекс gp предлагает и чат с алисой"
+    }
+  },
+  {
+    "id": "0dc0e6fd-250c-4466-9fe2-3a20baf7c3af",
+    "source_id": "10e021cc-5b84-4e71-8923-8bbac31651de",
+    "target_id": "718efb80-16e9-4376-90c9-fae3c300242d",
+    "type": "MAY_AFFECT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1c522b0f-8648-4018-9f54-00a44578793e",
+      "start": 47,
+      "end": 74,
+      "text": "vpn у нас может это зум слететь"
+    }
+  },
+  {
+    "id": "cd25c2a4-ea9f-4b7d-a804-4b9d843141f5",
+    "source_id": "54231c3c-0e02-46d3-9455-bed7070e1c4d",
+    "target_id": "ff334969-429c-4e8b-80ed-43cdbb71439f",
+    "type": "USED_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd1af08f-3df7-4448-bd35-a54be08b699f",
+      "start": 47,
+      "end": 74,
+      "text": "рефера для учебы научные статьи"
+    }
+  },
+  {
+    "id": "032b4a9f-af91-40f8-b945-cfc8e5273b91",
+    "source_id": "641d2522-e7c6-4815-b086-300c84234997",
+    "target_id": "02574319-9e6c-4258-9f27-9326e4dbf7df",
+    "type": "IS_A",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c7734231-8ad2-4e0e-8498-16ecba5dee31",
+      "start": 14,
+      "end": 58,
+      "text": "задание в университете делать реферат научной статьи"
+    }
+  }
+]

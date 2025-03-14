@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Yandex Ecosystem Dominance",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "The knowledge graph heavily features entities and relationships centered around Yandex, its products, services, and personnel. This suggests a strong bias or focus on the Yandex ecosystem.",
+    "examples": [
+      {
+        "text": "works_at: Леша → поиск Яндекса, Леша → Яндекс",
+        "explanation": "Illustrates Yandex's presence as an employer."
+      },
+      {
+        "text": "has_feature: Яндекс Про → про, Яндекс Браузер → чат",
+        "explanation": "Shows Yandex products and their features."
+      },
+      {
+        "text": "suggests: Алиса → Яндекс Маркет",
+        "explanation": "Yandex's AI assistant promoting another Yandex service."
+      },
+      {
+        "text": "Entity types: organization (43 entities), product (81 entities), service (9 entities) contain many Yandex-related terms.",
+        "explanation": "The sheer number of entities related to Yandex demonstrates its dominance in the graph."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern suggests that the knowledge graph is likely derived from a source with a strong Yandex focus, potentially limiting its objectivity or breadth of coverage.  It highlights the interconnectedness of the Yandex ecosystem."
+  },
+  {
+    "name": "AI and Search Focus",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "A significant portion of the graph revolves around AI-related entities (like Нейро, Алиса) and search functionalities. This indicates a thematic emphasis on artificial intelligence and information retrieval.",
+    "examples": [
+      {
+        "text": "Entity types: technology (7 entities) includes Нейро, алиса, нейра",
+        "explanation": "These are all AI-related technologies."
+      },
+      {
+        "text": "Entity types: service (9 entities) includes поиск, чат, дипсик",
+        "explanation": "These services are related to search and AI-powered communication."
+      },
+      {
+        "text": "duplicates: Нейро → подробный ответ",
+        "explanation": "Indicates that 'Нейро' (likely an AI) provides detailed answers, a search-related function."
+      },
+      {
+        "text": "suggests: ватсап → подробный пересказ",
+        "explanation": "Suggests a functionality, possibly AI-driven, for summarizing information."
+      },
+      {
+        "text": "explains: как искали → подборка",
+        "explanation": "Relates search queries to curated results, a core function of search engines."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern suggests the knowledge graph is likely related to a domain where AI-powered search and information processing are central. It might represent a system designed for information retrieval or AI assistance."
+  },
+  {
+    "name": "Information Seeking and Refinement",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "The graph contains relationships that suggest a process of seeking, refining, and analyzing information. This points to a user interaction pattern focused on information discovery.",
+    "examples": [
+      {
+        "text": "can_be_refined: исследу → рекламу",
+        "explanation": "Indicates a refinement of a broader search ('исследу') to a more specific topic ('рекламу')."
+      },
+      {
+        "text": "related_to: исследования → анализ",
+        "explanation": "Connects the act of researching with the process of analysis."
+      },
+      {
+        "text": "offers: исследования → анализ",
+        "explanation": "Similar to the above, showing 'исследования' offering 'анализ'."
+      },
+      {
+        "text": "provides_answer: Алиса → улица тысяча девятьсот пятого года",
+        "explanation": "An AI assistant providing an answer to a query."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern highlights the user-centric aspect of the knowledge graph, suggesting it models how users interact with information. It implies a system designed to support iterative search and analysis."
+  },
+  {
+    "name": "Mentions and Connections",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "The 'mentions' relationship type reveals connections between disparate entities, potentially indicating contextual relationships or co-occurrences.",
+    "examples": [
+      {
+        "text": "mentions: профиль → Наполеон",
+        "explanation": "A profile (likely user or entity profile) mentions Napoleon."
+      },
+      {
+        "text": "mentions: профиль → стартапы",
+        "explanation": "A profile mentions startups."
+      },
+      {
+        "text": "mentions: нейросети → Илон Маск",
+        "explanation": "Neural networks are mentioned in connection with Elon Musk."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern can reveal hidden connections and contextual information. For example, the mention of Elon Musk in relation to neural networks is expected, but the mentions within 'профиль' could indicate user interests, content tagging, or entity associations."
+  }
+]

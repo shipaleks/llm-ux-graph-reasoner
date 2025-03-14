@@ -1,0 +1,122 @@
+[
+  {
+    "name": "The Ravenscroft Manor Mystery",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "A cluster of entities and relationships centered around Ravenscroft Manor, suggesting a central narrative location and potential source of conflict or mystery.",
+    "examples": [
+      {
+        "text": "revelations of dark secrets → manor",
+        "explanation": "Dark secrets are located within the manor."
+      },
+      {
+        "text": "hidden altars → manor",
+        "explanation": "Hidden altars, potentially related to rituals, are located beneath the manor."
+      },
+      {
+        "text": "supernatural forces → Ravenscroft Manor",
+        "explanation": "Supernatural forces reside within the manor, adding a supernatural element to the narrative."
+      },
+      {
+        "text": "Lord Alistair Ravenscroft → 11:43 PM",
+        "explanation": "A specific time is associated with Lord Alistair, possibly the time of his death or another significant event."
+      },
+      {
+        "text": "Lord Alistair Ravenscroft → grand library",
+        "explanation": "Lord Alistair was found in the grand library, a specific location within the manor."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern highlights the central importance of Ravenscroft Manor to the overall narrative. It suggests a complex history, hidden secrets, and potential supernatural involvement, making it a focal point for investigation and conflict."
+  },
+  {
+    "name": "Secret Societies and Rituals",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "A recurring theme of clandestine organizations and obscure practices, suggesting hidden knowledge and potentially dangerous activities.",
+    "examples": [
+      {
+        "text": "Elias Greer → obscure rituals",
+        "explanation": "Elias Greer engages in obscure rituals."
+      },
+      {
+        "text": "Mr. Finch → ancient secret society",
+        "explanation": "Mr. Finch hints about an ancient secret society."
+      },
+      {
+        "text": "clandestine society → supernatural forces",
+        "explanation": "A clandestine society is dedicated to supernatural forces."
+      },
+      {
+        "text": "anonymous letter → revelations of dark secrets",
+        "explanation": "An anonymous letter promises revelations of dark secrets, potentially related to the society or rituals."
+      },
+      {
+        "text": "Lord Alistair → mysterious rites",
+        "explanation": "Lord Alistair is mentioned in connection to mysterious rites."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern suggests the presence of hidden groups with potentially dangerous knowledge and practices.  It adds a layer of intrigue and suggests that some characters may be involved in activities beyond the immediate understanding of others."
+  },
+  {
+    "name": "Investigation and Revelation",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "A pattern of inquiry and uncovering of hidden information, suggesting a narrative structure of investigation and discovery.",
+    "examples": [
+      {
+        "text": "Samuel Hartwell → anonymous letter",
+        "explanation": "Samuel Hartwell, an Inspector, is summoned by an anonymous letter."
+      },
+      {
+        "text": "anonymous letter → revelations of dark secrets",
+        "explanation": "The anonymous letter promises revelations, driving the investigation."
+      },
+      {
+        "text": "Barnaby → buried truths",
+        "explanation": "Barnaby is muttering about buried truths, suggesting hidden information."
+      },
+      {
+        "text": "Miranda Holloway → espionage",
+        "explanation": "Miranda Holloway is involved in espionage, an activity centered around uncovering secrets."
+      },
+      {
+        "text": "Mr. Finch → ancient secret society",
+        "explanation": "Mr. Finch provides clues (hints) about a secret society."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern indicates a narrative driven by the uncovering of secrets. It suggests that characters are actively seeking information and that the knowledge graph represents a situation where hidden truths are being brought to light."
+  },
+  {
+    "name": "Objects of Significance",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Certain objects appear to hold importance, either as containers of other items or as clues in themselves.",
+    "examples": [
+      {
+        "text": "Vivian Locke → leather case",
+        "explanation": "Vivian Locke possesses a leather case."
+      },
+      {
+        "text": "leather case → vials",
+        "explanation": "The leather case contains vials, suggesting potentially important or dangerous substances."
+      },
+      {
+        "text": "Elias Greer → ancient grimoires",
+        "explanation": "Elias Greer studies ancient grimoires, implying they contain valuable knowledge."
+      },
+      {
+        "text": "alchemical symbols → grimoire",
+        "explanation": "Alchemical symbols are found on a grimoire, further emphasizing its significance."
+      },
+      {
+        "text": "Lord Alistair Ravenscroft → poisoned goblet",
+        "explanation": "A poisoned goblet is associated with Lord Alistair, suggesting it was the murder weapon."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern highlights the importance of specific objects within the narrative. These objects may serve as clues, containers of important items, or even weapons, and are likely to be crucial to understanding the events and relationships within the knowledge graph."
+  }
+]

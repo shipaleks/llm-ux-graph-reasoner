@@ -1,0 +1,861 @@
+[
+  {
+    "id": "2a958ff1-a1c6-40b0-9fc7-83124cc5ab8f",
+    "name": "Elias Greer",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "occupation",
+        "value": "professor",
+        "confidence": 1.0,
+        "source_span": null
+      },
+      {
+        "key": "research interest",
+        "value": "occult",
+        "confidence": 1.0,
+        "source_span": null
+      }
+    ],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 31,
+      "end": 48,
+      "text": "Professor Elias Greer"
+    }
+  },
+  {
+    "id": "cd6efe5f-b45e-46c3-a60c-55144bc6dded",
+    "name": "ancient grimoires",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 116,
+      "end": 132,
+      "text": "ancient grimoires"
+    }
+  },
+  {
+    "id": "a7549415-d7ba-4c1f-ac8f-d17e2813310b",
+    "name": "obscure rituals",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 151,
+      "end": 166,
+      "text": "obscure rituals"
+    }
+  },
+  {
+    "id": "3935d524-2978-45e7-ae18-d8d110480335",
+    "name": "Miranda Holloway",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "relation",
+        "value": "Lord Alistair’s distant yet enigmatic cousin",
+        "confidence": 1.0,
+        "source_span": null
+      }
+    ],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 187,
+      "end": 209,
+      "text": "Lady Miranda Holloway"
+    }
+  },
+  {
+    "id": "e6be7055-7120-4465-981c-ad397be6a9d7",
+    "name": "Lord Alistair",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 211,
+      "end": 224,
+      "text": "Lord Alistair"
+    }
+  },
+  {
+    "id": "729b3a6d-2c3b-4b13-8c50-ea32e783ab8e",
+    "name": "espionage",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 296,
+      "end": 305,
+      "text": "espionage"
+    }
+  },
+  {
+    "id": "af7cbfc7-6323-4119-9b01-99c86b934e35",
+    "name": "Vivian Locke",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "occupation",
+        "value": "physician",
+        "confidence": 1.0,
+        "source_span": null
+      },
+      {
+        "key": "research interest",
+        "value": "experimental and controversial treatments",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 312,
+      "end": 329,
+      "text": "Dr. Vivian Locke"
+    }
+  },
+  {
+    "id": "305d8d42-2a23-4f63-ad2e-bdfaface6428",
+    "name": "leather case",
+    "type": "object",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 377,
+      "end": 389,
+      "text": "leather case"
+    }
+  },
+  {
+    "id": "6faf6f8d-5376-4e9d-898e-e6758e2a37ee",
+    "name": "vials",
+    "type": "object",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+      "start": 401,
+      "end": 406,
+      "text": "vials"
+    }
+  },
+  {
+    "id": "f9e036cc-523b-43b7-9488-f7ff088a4c00",
+    "name": "Samuel Hartwell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+      "start": 31,
+      "end": 46,
+      "text": "Samuel Hartwell"
+    }
+  },
+  {
+    "id": "d93e7e21-35c0-4d72-abeb-84d168ccbcbd",
+    "name": "Inspector",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+      "start": 21,
+      "end": 30,
+      "text": "Inspector"
+    }
+  },
+  {
+    "id": "7addc19d-13d2-458d-a90d-d952ab41e51e",
+    "name": "anonymous letter",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+      "start": 116,
+      "end": 132,
+      "text": "anonymous letter"
+    }
+  },
+  {
+    "id": "8aab246e-7aa8-407e-94d0-5da93728488a",
+    "name": "revelations of dark secrets",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+      "start": 143,
+      "end": 170,
+      "text": "revelations of dark secrets"
+    }
+  },
+  {
+    "id": "4ef4d89d-50f4-4064-a5de-c3bdf8646f34",
+    "name": "manor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+      "start": 182,
+      "end": 187,
+      "text": "manor"
+    }
+  },
+  {
+    "id": "651f71df-ea7c-4fe9-805b-92097d0b7b74",
+    "name": "11:43 PM",
+    "type": "time",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "e853b14b-7679-4772-8247-16145283b6b0",
+      "start": 13,
+      "end": 20,
+      "text": "11:43 PM"
+    }
+  },
+  {
+    "id": "eecd1fa3-9a04-4cbf-be49-9532cd5e5777",
+    "name": "Lord Alistair Ravenscroft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "e853b14b-7679-4772-8247-16145283b6b0",
+      "start": 116,
+      "end": 141,
+      "text": "Lord Alistair Ravenscroft"
+    }
+  },
+  {
+    "id": "86d6f33b-796b-4228-a2d0-adc7b3454636",
+    "name": "grand library",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "e853b14b-7679-4772-8247-16145283b6b0",
+      "start": 168,
+      "end": 181,
+      "text": "grand library"
+    }
+  },
+  {
+    "id": "91c03155-7b31-4fdc-a5eb-57164246bb94",
+    "name": "poisoned goblet",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "e853b14b-7679-4772-8247-16145283b6b0",
+      "start": 194,
+      "end": 208,
+      "text": "poisoned goblet"
+    }
+  },
+  {
+    "id": "83cbbc61-1cd7-4538-9fbc-c1b89eabb699",
+    "name": "Inspector Hartwell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 0,
+      "end": 17,
+      "text": "Inspector Hartwell"
+    }
+  },
+  {
+    "id": "19df233b-7fa1-4762-b67b-7c2a5e2ccb5b",
+    "name": "Professor Greer",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 65,
+      "end": 80,
+      "text": "Professor Greer"
+    }
+  },
+  {
+    "id": "6b3e1273-1c61-475d-a714-47262ed9596a",
+    "name": "cursed grimoire",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 106,
+      "end": 121,
+      "text": "cursed grimoire"
+    }
+  },
+  {
+    "id": "a7397d76-40f1-4c7a-8874-b3950fe0773a",
+    "name": "Lady Miranda",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 187,
+      "end": 199,
+      "text": "Lady Miranda"
+    }
+  },
+  {
+    "id": "0939c4e0-7d10-4bfc-a46e-20a6d3c05802",
+    "name": "conservatory",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 212,
+      "end": 224,
+      "text": "conservatory"
+    }
+  },
+  {
+    "id": "89f41b65-438f-4045-a18a-b5e9eec1f4f5",
+    "name": "Ravenscroft curse",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 296,
+      "end": 313,
+      "text": "Ravenscroft curse"
+    }
+  },
+  {
+    "id": "fa78545d-7b09-45a6-bfa4-90678852fdd9",
+    "name": "Dr. Locke",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 342,
+      "end": 351,
+      "text": "Dr. Locke"
+    }
+  },
+  {
+    "id": "60a87452-8234-4d4a-a55d-e9382d6510b0",
+    "name": "alchemical symbols",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "132635c1-8c81-4de8-a20f-2231d099c7f4",
+      "start": 61,
+      "end": 78,
+      "text": "alchemical symbols"
+    }
+  },
+  {
+    "id": "7648e2a6-31d6-494e-8c42-c9dc9c158ce5",
+    "name": "runes",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 410,
+      "end": 415,
+      "text": "runes"
+    }
+  },
+  {
+    "id": "87320f59-1fa9-4d0e-a04b-626be95119a4",
+    "name": "hidden altars",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+      "start": 429,
+      "end": 442,
+      "text": "hidden altars"
+    }
+  },
+  {
+    "id": "64614698-1064-440c-8ba7-607d821750e0",
+    "name": "Mr. Finch",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 36,
+      "end": 45,
+      "text": "Mr. Finch"
+    }
+  },
+  {
+    "id": "c5f604ea-c860-440a-b752-121699e54071",
+    "name": "Ravenscrofts",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 85,
+      "end": 97,
+      "text": "Ravenscrofts"
+    }
+  },
+  {
+    "id": "5f14ff59-8e98-477b-b32f-22796804a22a",
+    "name": "ancient secret society",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 124,
+      "end": 146,
+      "text": "ancient secret society"
+    }
+  },
+  {
+    "id": "abdfa7e0-ec60-467e-b110-0382ff5f6210",
+    "name": "Clara",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 172,
+      "end": 177,
+      "text": "Clara"
+    }
+  },
+  {
+    "id": "6db9be01-d8e9-4f07-88ed-1bae50c9edad",
+    "name": "Barnaby",
+    "type": "person",
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 274,
+      "end": 281,
+      "text": "Barnaby"
+    }
+  },
+  {
+    "id": "8d7af8b0-2382-4105-8a92-c6eca0a20130",
+    "name": "rose garden",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 331,
+      "end": 342,
+      "text": "rose garden"
+    }
+  },
+  {
+    "id": "f07d739c-45e5-449d-a8e3-a5a8c29b19bd",
+    "name": "buried truths",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 371,
+      "end": 384,
+      "text": "buried truths"
+    }
+  },
+  {
+    "id": "693538ef-d47a-49b5-8fcd-0426a13f1028",
+    "name": "voices beneath the earth",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "a7ef055c-5ef9-4e6d-8ffa-bbd7c5cdb9bd",
+      "start": 390,
+      "end": 414,
+      "text": "voices beneath the earth"
+    }
+  },
+  {
+    "id": "b2d60f06-bf90-47a3-9031-6cb1819cd8b9",
+    "name": "betrayal",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "761464ac-f6c3-4570-ad01-70ebb50bc1a2",
+      "start": 193,
+      "end": 202,
+      "text": "betrayal"
+    }
+  },
+  {
+    "id": "f007b4db-28db-4bbe-9975-588627d1486f",
+    "name": "mysterious rites",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "761464ac-f6c3-4570-ad01-70ebb50bc1a2",
+      "start": 204,
+      "end": 220,
+      "text": "mysterious rites"
+    }
+  },
+  {
+    "id": "ef51b696-d08e-4bf0-9972-1c59da33f780",
+    "name": "betrayer’s blood",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "761464ac-f6c3-4570-ad01-70ebb50bc1a2",
+      "start": 261,
+      "end": 277,
+      "text": "betrayer’s blood"
+    }
+  },
+  {
+    "id": "24339ef5-6fc2-45c1-94ab-c319f2a75b58",
+    "name": "Lucinda Grey",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b3764751-e75a-40c4-bf38-5cef9e68669a",
+      "start": 42,
+      "end": 54,
+      "text": "Lucinda Grey"
+    }
+  },
+  {
+    "id": "8387dcd1-954f-4b9b-896e-be6bf79fda60",
+    "name": "hidden guilt",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b3764751-e75a-40c4-bf38-5cef9e68669a",
+      "start": 145,
+      "end": 157,
+      "text": "hidden guilt"
+    }
+  },
+  {
+    "id": "71223dd2-e2d4-42da-9e6b-bc0deea28e75",
+    "name": "secrets",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b3764751-e75a-40c4-bf38-5cef9e68669a",
+      "start": 161,
+      "end": 168,
+      "text": "secrets"
+    }
+  },
+  {
+    "id": "31cacafb-b430-4842-b300-fb1be7b476a7",
+    "name": "goblet",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b3764751-e75a-40c4-bf38-5cef9e68669a",
+      "start": 212,
+      "end": 218,
+      "text": "goblet"
+    }
+  },
+  {
+    "id": "a98b8cad-e4a9-492a-ac54-39f15a339423",
+    "name": "Hartwell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "132635c1-8c81-4de8-a20f-2231d099c7f4",
+      "start": 3,
+      "end": 11,
+      "text": "Hartwell"
+    }
+  },
+  {
+    "id": "ca480f7e-7679-4bad-a29d-50c7b44e8f27",
+    "name": "grimoire",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "132635c1-8c81-4de8-a20f-2231d099c7f4",
+      "start": 130,
+      "end": 138,
+      "text": "grimoire"
+    }
+  },
+  {
+    "id": "2a56a312-a4ed-4c84-87e1-dda14fe95cf1",
+    "name": "11:43",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "132635c1-8c81-4de8-a20f-2231d099c7f4",
+      "start": 231,
+      "end": 236,
+      "text": "11:43"
+    }
+  },
+  {
+    "id": "7eeadae8-73d0-4bbd-b7a5-b2e9472445ff",
+    "name": "clandestine society",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 22,
+      "end": 40,
+      "text": "clandestine society"
+    }
+  },
+  {
+    "id": "d80b086b-7c1f-4f57-9e77-4769a674565f",
+    "name": "supernatural forces",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 71,
+      "end": 89,
+      "text": "supernatural forces"
+    }
+  },
+  {
+    "id": "3b282017-4aed-45ad-83dc-e35555a2a822",
+    "name": "Ravenscroft Manor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 109,
+      "end": 126,
+      "text": "Ravenscroft Manor"
+    }
+  },
+  {
+    "id": "a3d5bd50-56ba-4ae7-bc3b-a01d0640efad",
+    "name": "greed",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 164,
+      "end": 169,
+      "text": "greed"
+    }
+  },
+  {
+    "id": "a27563f6-ea7a-46c6-9019-3274d00d465a",
+    "name": "revenge",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 171,
+      "end": 178,
+      "text": "revenge"
+    }
+  },
+  {
+    "id": "2927c3c5-b56e-4c3c-8aa9-b051b54e9eb2",
+    "name": "ambition",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 180,
+      "end": 188,
+      "text": "ambition"
+    }
+  },
+  {
+    "id": "b9a1509c-eee3-4e5b-a254-f9848b0ada2d",
+    "name": "obsession",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f0f79a16-67a7-49f0-9266-31703900b4fa",
+      "start": 193,
+      "end": 202,
+      "text": "obsession"
+    }
+  },
+  {
+    "id": "efc636a7-4459-4874-9210-5ae639e4461e",
+    "name": "murder",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9d177025-1115-419a-9a7e-bc3b848a01db",
+      "start": 33,
+      "end": 39,
+      "text": "murder"
+    }
+  },
+  {
+    "id": "8bff0c8d-c31b-46f2-9c5e-dee4318a6025",
+    "name": "tangled alliances",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9d177025-1115-419a-9a7e-bc3b848a01db",
+      "start": 128,
+      "end": 145,
+      "text": "tangled alliances"
+    }
+  },
+  {
+    "id": "4b1b04c7-4a75-4289-88c7-96ac4c7fb0d7",
+    "name": "hidden histories",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9d177025-1115-419a-9a7e-bc3b848a01db",
+      "start": 147,
+      "end": 163,
+      "text": "hidden histories"
+    }
+  },
+  {
+    "id": "27a65d3f-a287-4c1b-afe9-bbea9a9e23b1",
+    "name": "cryptic symbols",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9d177025-1115-419a-9a7e-bc3b848a01db",
+      "start": 169,
+      "end": 184,
+      "text": "cryptic symbols"
+    }
+  },
+  {
+    "id": "c0f5c2ea-79ab-4539-902b-7e54c1c9872e",
+    "name": "one of shared blood",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "54d811a7-91b2-4ac6-985a-ecaeffab6722",
+      "start": 86,
+      "end": 105,
+      "text": "one of shared blood"
+    }
+  },
+  {
+    "id": "3902c656-6066-4b79-a93e-545ec14a2c59",
+    "name": "envy",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "54d811a7-91b2-4ac6-985a-ecaeffab6722",
+      "start": 127,
+      "end": 131,
+      "text": "envy"
+    }
+  }
+]

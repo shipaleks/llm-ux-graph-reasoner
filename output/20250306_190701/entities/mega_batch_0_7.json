@@ -1,0 +1,142 @@
+[
+  {
+    "id": "fda7af6b-9803-4f24-acb8-e0fd9380642f",
+    "name": "WEBVTT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "95b80dd5-f057-4ccd-8296-93c91dad197e",
+      "start": 0,
+      "end": 6,
+      "text": "WEBVTT"
+    }
+  },
+  {
+    "id": "a57859ed-6b1f-4ae5-ad0a-f2613319a39c",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "61819ced-c5ae-4a19-ad45-e57cbc9c749b",
+      "start": 41,
+      "end": 48,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "aa5184ad-4160-46db-94d8-90afb6e4b8fc",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "61819ced-c5ae-4a19-ad45-e57cbc9c749b",
+      "start": 62,
+      "end": 69,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "7f65ea81-6a86-4341-846c-aaae1cec7107",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "61819ced-c5ae-4a19-ad45-e57cbc9c749b",
+      "start": 21,
+      "end": 27,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "c5512315-3159-4f0b-bc4b-ac860aeab498",
+    "name": "конкуренты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "c1ef9b44-8535-496f-a828-93925e4009ae",
+      "start": 99,
+      "end": 109,
+      "text": "конкурентов"
+    }
+  },
+  {
+    "id": "04468d4b-7a93-417e-92c2-82e431994950",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "f29d2cc1-0917-457b-93d1-7657d9b9b7d1",
+      "start": 43,
+      "end": 50,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "836c242e-b4bc-4011-bc0a-3db8e9f76c22",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "f29d2cc1-0917-457b-93d1-7657d9b9b7d1",
+      "start": 14,
+      "end": 20,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "8639211a-d3b4-4cfa-98cc-f0e9b15ffd60",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "2ab07999-9a21-46b7-b994-d6676969db52",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "746cbf96-0a92-4455-b169-ae6e385cf880",
+    "name": "яндекс музыка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "df5dbbc7-a34b-43ac-b574-63c4ecfd1342",
+      "start": 21,
+      "end": 35,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "aba98e3d-9f6d-4706-8ebf-532a0b06c861",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "tmpxcmhl6m8.txt",
+      "segment_id": "df5dbbc7-a34b-43ac-b574-63c4ecfd1342",
+      "start": 14,
+      "end": 20,
+      "text": "музыка"
+    }
+  }
+]

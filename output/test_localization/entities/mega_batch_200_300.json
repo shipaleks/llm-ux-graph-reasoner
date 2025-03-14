@@ -1,0 +1,436 @@
+[
+  {
+    "id": "65a06998-1cc5-4c80-bbde-eae010c1468f",
+    "name": "исторический",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fa334e37-0eb0-4247-b273-df3d56554e87",
+      "start": 40,
+      "end": 52,
+      "text": "исторический"
+    }
+  },
+  {
+    "id": "27655b0e-87da-4b11-a927-faa93f3aa05a",
+    "name": "Александр Невский",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2d73cad-07a0-4abd-be84-5421dfddc196",
+      "start": 76,
+      "end": 94,
+      "text": "александра невского"
+    }
+  },
+  {
+    "id": "3fcf05e3-eb54-4cac-a26b-400a1bd9042a",
+    "name": "битва",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c2d73cad-07a0-4abd-be84-5421dfddc196",
+      "start": 66,
+      "end": 72,
+      "text": "про битвы"
+    }
+  },
+  {
+    "id": "5d170a36-a1dc-4515-bf11-d02b5e43085f",
+    "name": "исторические фигуры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4aca6147-d006-4b7d-a04c-9106e58df3e5",
+      "start": 61,
+      "end": 80,
+      "text": "исторические фигуры"
+    }
+  },
+  {
+    "id": "5aa07739-0c1c-4cef-ba2d-6433c8e561dd",
+    "name": "события",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4aca6147-d006-4b7d-a04c-9106e58df3e5",
+      "start": 89,
+      "end": 96,
+      "text": "события"
+    }
+  },
+  {
+    "id": "ab9e4301-f736-44e6-8c49-240636b65e9c",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "585ba0c2-5806-4d3b-b99b-3bba9c01616f",
+      "start": 27,
+      "end": 38,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "937ea5c4-0509-45ee-b24c-e7ddca829da9",
+    "name": "скриншот",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "569a9ed1-f140-4e89-a42f-ac19f927fc62",
+      "start": 9,
+      "end": 17,
+      "text": "скриншот"
+    }
+  },
+  {
+    "id": "bb2d39d4-7e7a-4a5e-ba7c-cd1c8dca7e8d",
+    "name": "нагромождение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98e160f3-945f-4223-b796-cd2808a86031",
+      "start": 26,
+      "end": 39,
+      "text": "нагромождение"
+    }
+  },
+  {
+    "id": "531dd0f5-326f-4d70-a242-bd62f561bb01",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a3150c5-59c8-43a5-8ede-fa5dff7d8834",
+      "start": 21,
+      "end": 26,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8e561c68-2ab6-459d-bfff-597839d62d19",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a3150c5-59c8-43a5-8ede-fa5dff7d8834",
+      "start": 33,
+      "end": 38,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "5a829bbf-f4ce-4bb4-b0cf-c0a890cc1763",
+    "name": "нейра",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9261ab7-a2d9-4b89-aeb5-a540de04b2c8",
+      "start": 64,
+      "end": 69,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "c0fc7b11-4608-4c06-a5a7-278c63cf6ab0",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "974b475c-8055-4fd4-80ac-04987c8dd983",
+      "start": 59,
+      "end": 64,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "5d256865-501e-4ce9-9da4-07b8f59181bf",
+    "name": "настройки браузера",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "974b475c-8055-4fd4-80ac-04987c8dd983",
+      "start": 39,
+      "end": 58,
+      "text": "настройках браузера"
+    }
+  },
+  {
+    "id": "35a2f5fe-c991-4229-938f-3dfb9a37b219",
+    "name": "короткий ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b80c7b07-b507-4ea0-bb83-1e8eba6e8d09",
+      "start": 0,
+      "end": 14,
+      "text": "короткий ответ"
+    }
+  },
+  {
+    "id": "69039888-cd2b-4185-b3c1-2626d01dad40",
+    "name": "подробный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b80c7b07-b507-4ea0-bb83-1e8eba6e8d09",
+      "start": 17,
+      "end": 32,
+      "text": "подробный ответ"
+    }
+  },
+  {
+    "id": "1582960a-94cc-4e0d-a33b-6142cfa506c1",
+    "name": "расхлопывание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e621bc07-74ca-4b74-8ec1-4bbc322348c0",
+      "start": 54,
+      "end": 67,
+      "text": "расхлопывание"
+    }
+  },
+  {
+    "id": "40636189-a84d-481d-8e5a-f5bcb269481f",
+    "name": "техника",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1cdd3a9c-5037-4320-a464-c5e2bbb9d3d8",
+      "start": 27,
+      "end": 34,
+      "text": "технику"
+    }
+  },
+  {
+    "id": "e1bf3b92-9fe7-43b6-b10a-8ea7e0389a36",
+    "name": "тв",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9fde5189-7a70-48cf-ba36-2d60497f930c",
+      "start": 36,
+      "end": 38,
+      "text": "тв"
+    }
+  },
+  {
+    "id": "568a1032-d555-40d5-bd1f-afac119ed89c",
+    "name": "нейра",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9fde5189-7a70-48cf-ba36-2d60497f930c",
+      "start": 52,
+      "end": 57,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "eb301b7a-2f95-44d9-be33-2f55541cb076",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2df8e48-493b-4426-93ea-59ea141c2aaa",
+      "start": 13,
+      "end": 19,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "2cd16734-7bc9-41f6-9320-852fe7f77206",
+    "name": "нейра",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b47869f7-f724-4c46-a12d-9859ca4b7b01",
+      "start": 27,
+      "end": 32,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "e1e1a19a-9576-4507-a5ae-148e09b2c071",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "079d9f41-c40e-4e10-b56d-1ced78024df1",
+      "start": 11,
+      "end": 16,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8bc7bd16-f607-423d-98f3-49b3f71e5924",
+    "name": "отзывы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5cd446d8-d9b9-426e-bad6-298b755044be",
+      "start": 21,
+      "end": 27,
+      "text": "отзывы"
+    }
+  },
+  {
+    "id": "5f38555d-ef35-4715-909b-03df34eecad7",
+    "name": "отзывы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5cd446d8-d9b9-426e-bad6-298b755044be",
+      "start": 57,
+      "end": 63,
+      "text": "отзывы"
+    }
+  },
+  {
+    "id": "e564df04-062d-4408-9c4a-4065e42a0c42",
+    "name": "отзывы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4234b569-4a84-4f73-bfad-8a8afeca90e1",
+      "start": 0,
+      "end": 6,
+      "text": "отзывы"
+    }
+  },
+  {
+    "id": "19099632-09cf-4f23-8e1e-e58847b1d003",
+    "name": "отзывы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4234b569-4a84-4f73-bfad-8a8afeca90e1",
+      "start": 36,
+      "end": 42,
+      "text": "отзывы"
+    }
+  },
+  {
+    "id": "c4546336-21b6-45be-b1aa-03382735320f",
+    "name": "яндекс тв",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2382eeb4-1b0f-4135-8762-3b20ea9873cf",
+      "start": 79,
+      "end": 88,
+      "text": "яндекс тв"
+    }
+  },
+  {
+    "id": "7b80d7b2-0213-4b5e-9016-585b01534a0c",
+    "name": "сбертв",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2382eeb4-1b0f-4135-8762-3b20ea9873cf",
+      "start": 95,
+      "end": 101,
+      "text": "сберт"
+    }
+  },
+  {
+    "id": "4b509833-278a-4fde-a054-5023d7a116ee",
+    "name": "яндекс тв",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2382eeb4-1b0f-4135-8762-3b20ea9873cf",
+      "start": 144,
+      "end": 153,
+      "text": "яндекс тв"
+    }
+  },
+  {
+    "id": "7061d17b-4433-4e15-82d7-b67fea6a40c6",
+    "name": "сбертв",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2382eeb4-1b0f-4135-8762-3b20ea9873cf",
+      "start": 170,
+      "end": 176,
+      "text": "сберт"
+    }
+  },
+  {
+    "id": "eac6d2aa-0e31-4e76-a40e-25300496b2c0",
+    "name": "разворот в сравнении цен моделей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad2d783e-a480-4c45-b68a-6cb29887fc6c",
+      "start": 48,
+      "end": 81,
+      "text": "разворот в сравнении цен моделей"
+    }
+  }
+]

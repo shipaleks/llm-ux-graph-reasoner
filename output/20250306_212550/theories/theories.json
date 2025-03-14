@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Yandex AI-Driven Service Ecosystem",
+    "summary": "Yandex operates a service ecosystem powered by its underlying AI technologies. This ecosystem is characterized by specialized products and services built upon a foundation of AI capabilities.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Central Hub"
+      },
+      {
+        "name": "g",
+        "type": "technology",
+        "role": "Enabling Technology"
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Specialized Product"
+      },
+      {
+        "name": "поиск",
+        "type": "concept",
+        "role": "Core Functionality"
+      },
+      {
+        "name": "карты",
+        "type": "service",
+        "role": "AI-Powered Service"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Яндекс",
+        "target": "поиск",
+        "type": "related_to",
+        "description": "Yandex provides search functionality."
+      },
+      {
+        "source": "g",
+        "target": "карты",
+        "type": "uses",
+        "description": "Technology 'g' powers the maps service."
+      },
+      {
+        "source": "Яндекс Музыка",
+        "target": "музыка",
+        "type": "instance_of",
+        "description": "Yandex Music is a specific instance of music services."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Яндекс → поиск",
+        "relevance": "Demonstrates Yandex's core functionality in search."
+      },
+      {
+        "text": "Яндекс → сервисы",
+        "relevance": "Indicates a broad range of services offered by Yandex."
+      },
+      {
+        "text": "g → карты",
+        "relevance": "Shows that technology 'g' is used to power the maps service."
+      },
+      {
+        "text": "Яндекс Музыка → музыка",
+        "relevance": "Illustrates the specialization of Yandex Music within the broader category of music."
+      },
+      {
+        "text": "нейро, ГПТ",
+        "relevance": "Highlights Yandex's focus on AI and related technologies."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.75,
+    "alternative_explanations": [
+      {
+        "summary": "Yandex's service offerings are primarily driven by market demand and competitive pressures, with AI playing a supporting role.",
+        "confidence": 0.5
+      }
+    ],
+    "gaps": [
+      "The specific functionalities of technology 'g' are not detailed.",
+      "The extent of AI integration across all Yandex services is unclear.",
+      "The competitive landscape and market positioning of Yandex are not described."
+    ]
+  },
+  {
+    "title": "Yandex: A Service Aggregator Leveraging Foundational Technologies",
+    "summary": "Yandex functions primarily as a service aggregator, integrating various services and products under a unified brand. This aggregation is enabled by foundational technologies, but the core value proposition lies in the breadth and accessibility of the service offerings, rather than solely on AI innovation.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Service aggregator"
+      },
+      {
+        "name": "сервисы",
+        "type": "concept",
+        "role": "Aggregated services"
+      },
+      {
+        "name": "g",
+        "type": "technology",
+        "role": "Enabling technology"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Яндекс",
+        "target": "сервисы",
+        "type": "related_to",
+        "description": "Yandex provides various services."
+      },
+      {
+        "source": "g",
+        "target": "карты",
+        "type": "uses",
+        "description": "Technology 'g' powers maps service."
+      },
+      {
+        "source": "g",
+        "target": "переводчик",
+        "type": "uses",
+        "description": "Technology 'g' powers translator service."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Яндекс → поиск",
+        "relevance": "Yandex provides search service."
+      },
+      {
+        "text": "Яндекс → сервисы",
+        "relevance": "Yandex provides various services."
+      },
+      {
+        "text": "g → карты",
+        "relevance": "Technology 'g' powers maps service."
+      },
+      {
+        "text": "g → переводчик",
+        "relevance": "Technology 'g' powers translator service."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.7,
+    "alternative_explanations": null,
+    "gaps": [
+      "The specific technologies used to integrate services are not detailed.",
+      "The competitive landscape and market positioning of Yandex are not considered."
+    ],
+    "is_alternative": true,
+    "alternative_to": "Yandex AI-Driven Service Ecosystem"
+  }
+]

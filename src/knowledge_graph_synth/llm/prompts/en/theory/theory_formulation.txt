@@ -1,0 +1,50 @@
+Based on the identified patterns and regularities in the knowledge graph, formulate a comprehensive theory that explains the structure and relationships in this field.
+
+Identified patterns and regularities:
+{{patterns}}
+
+Key meta-concepts:
+{{meta_concepts}}
+
+Formulate a theory including:
+
+1. Theory name:
+   - Brief and precise
+   - Reflecting the essence of the explanation
+   - In accordance with domain terminology
+
+2. Basic postulates:
+   - 3-5 key statements on which the theory is based
+   - Each postulate should be clear and verifiable
+   - Postulates should be logically connected to each other
+
+3. Explanatory mechanism:
+   - How the theory explains the identified patterns
+   - Causal or structural mechanisms
+   - Levels or hierarchy of explanation
+
+4. Scope of applicability:
+   - To which parts of the graph the theory is fully applicable
+   - Where there are limitations or exceptions
+   - Conditions under which the theory operates
+
+5. Predictive power:
+   - What new patterns can be predicted based on the theory
+   - What potential nodes or connections may exist but are not reflected in the graph
+   - What changes may occur under certain conditions
+
+6. Relationship with existing theories:
+   - How this theory relates to known concepts in the field
+   - What new insights it adds to existing understanding
+   - Where it refines or contradicts established views
+
+Strive for a theory that is:
+- Simple (uses the minimum necessary concepts)
+- Complete (explains most of the identified patterns)
+- Falsifiable (can be disproven by specific observations)
+- Generative (allows for new predictions)
+
+Present the theory in a structured format with sections for each aspect.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

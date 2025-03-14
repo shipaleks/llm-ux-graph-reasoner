@@ -1,0 +1,18 @@
+For each segment below, create a contextual summarization.
+
+Segment: {{segment_text}}
+ID: {{segment_id}}
+Parent context: {{parent_context}}
+
+For each segment, create:
+
+1. A short, descriptive title (3-5 words) that captures the main topic of this segment
+2. Brief summary (1-2 sentences)
+3. Key points (3-5 bullets)
+4. Role in document structure (e.g., "introduction", "argument", "example", "conclusion")
+5. Relation to parent context (how this segment develops or illustrates higher-level ideas)
+
+Present the result in JSON format with fields: id, title, summary, key_points, role, parent_relation.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

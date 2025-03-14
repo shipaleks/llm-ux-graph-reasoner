@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Yandex Ecosystem and Services",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Yandex is central, with many relationships to various services and concepts, indicating a broad ecosystem.",
+    "examples": [
+      {
+        "text": "Yandex → поиск, Yandex → сервисы",
+        "explanation": "Yandex is directly related to 'поиск' (search) and 'сервисы' (services), suggesting these are core offerings."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "Highlights Yandex's role as a central platform providing a wide range of services. It emphasizes the company's strategy of offering a comprehensive suite of products."
+  },
+  {
+    "name": "Technology Driving Services",
+    "type": "causal",
+    "subtype": "semantic",
+    "description": "The 'uses' relationship connects technology to specific services, showing how technology enables or powers those services.",
+    "examples": [
+      {
+        "text": "g → карты, g → переводчик",
+        "explanation": "The technology 'g' (likely a general technology or platform) is used by 'карты' (maps) and 'переводчик' (translator), indicating a technological dependency."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "Illustrates the practical application of technology within the Yandex ecosystem. It shows how specific technologies are leveraged to deliver concrete services to users."
+  },
+  {
+    "name": "Product Specialization",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The 'instance_of' relationship indicates a specialization or categorization of products. It shows how specific products fit into broader categories.",
+    "examples": [
+      {
+        "text": "Яндекс Музыка → музыка",
+        "explanation": "Yandex Music is an instance of 'музыка' (music), categorizing it as a music-related product."
+      }
+    ],
+    "confidence": 0.7,
+    "significance": "Highlights the product portfolio and how individual products are classified within broader categories. This helps understand the scope and focus of Yandex's product offerings."
+  },
+  {
+    "name": "AI and Neural Networks Focus",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The presence of 'нейро' (neural) and 'ГПТ' (GPT) as concepts suggests a focus on AI and neural network technologies within the organization.",
+    "examples": [
+      {
+        "text": "нейро is a concept",
+        "explanation": "The presence of 'нейро' as a concept indicates a focus on neural networks."
+      },
+      {
+        "text": "ГПТ is a technology",
+        "explanation": "The presence of 'ГПТ' as a technology indicates a focus on large language models."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "Indicates a strategic emphasis on AI and neural network technologies, which likely underpin many of the services and products offered by Yandex."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+    "target_id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+    "type": "Common theme",
+    "strength": 0.8,
+    "direction": "bidirectional"
+  },
+  {
+    "source_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+    "target_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+    "type": "Thought development",
+    "strength": 0.8,
+    "direction": "one-way"
+  },
+  {
+    "source_id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+    "target_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+    "type": "Common theme",
+    "strength": 0.8,
+    "direction": "bidirectional"
+  },
+  {
+    "source_id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+    "target_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+    "type": "Common theme",
+    "strength": 0.6,
+    "direction": "one-way"
+  },
+  {
+    "source_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+    "target_id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+    "type": "Common theme",
+    "strength": 0.8,
+    "direction": "bidirectional"
+  },
+  {
+    "source_id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+    "target_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+    "type": "Common theme",
+    "strength": 0.8,
+    "direction": "bidirectional"
+  }
+]

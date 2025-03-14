@@ -1,0 +1,443 @@
+[
+  {
+    "id": "e2efc0e9-cceb-4c94-9c6c-d01205825e74",
+    "name": "Бородинское сражение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3775f05d-ed85-4d77-8ebf-8e8fb9b589c4",
+      "start": 96,
+      "end": 116,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "afd744fe-4b1f-4697-b0f2-e0306d65bf2b",
+    "name": "Бородинское сражение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fe577176-d2ea-40c1-aa2b-857d5904558e",
+      "start": 47,
+      "end": 67,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "d6812974-7c35-4fa1-a481-9bcc64c3a015",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "167ddf54-759b-4c05-bc37-144bc912045b",
+      "start": 23,
+      "end": 34,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "994e897a-6f8c-45e4-937b-4caf1785ba0d",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4739b2f-b7ba-4584-9566-6a51178fd57e",
+      "start": 21,
+      "end": 31,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "339d9003-beaa-47c3-95bd-ac9a0f7fc2bc",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d4a5d400-cf0d-48b8-9bd6-49df648ff272",
+      "start": 60,
+      "end": 70,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "17302dc3-4ea1-4664-9aa0-2c05df26133a",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "825f5644-d84d-4c2d-8178-096c2c0e196b",
+      "start": 9,
+      "end": 19,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "9adbcfdf-d5b0-40b9-9dce-04616a0819d9",
+    "name": "расстановка сил от сражения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fe812afb-504f-4e8d-8a22-6e87ffec70dc",
+      "start": 64,
+      "end": 91,
+      "text": "расстановку сил от сражения"
+    }
+  },
+  {
+    "id": "5aba8e88-b6db-4653-bd9e-b8bbc0ec7e3d",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "censorship",
+        "value": "high",
+        "confidence": 0.8,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fbf6d9a5-1bab-4191-a1f4-e4e57e0f7119",
+      "start": 54,
+      "end": 61,
+      "text": "яндексу"
+    }
+  },
+  {
+    "id": "ee218542-d8b9-4e71-a76e-800acc2ff567",
+    "name": "игрок",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2239abc6-f5b9-4a85-8455-c9df543bc117",
+      "start": 61,
+      "end": 66,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "a1d79523-ca4e-4b4f-bd5c-f78355369437",
+    "name": "история",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7c1618fe-7d54-48e2-9087-6ac9f7e97dbb",
+      "start": 17,
+      "end": 24,
+      "text": "история"
+    }
+  },
+  {
+    "id": "f890da0e-4ea5-48f3-bb55-aaf6088e92f0",
+    "name": "росло",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8bd5bcf0-627a-4f77-82f0-0c54cd401c8c",
+      "start": 17,
+      "end": 22,
+      "text": "росло"
+    }
+  },
+  {
+    "id": "7d3eb190-f5c2-424c-931f-4515a5f8425d",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "47446870-7d3c-4aa8-ac9d-d60261659a05",
+      "start": 106,
+      "end": 111,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "116b258e-162b-4892-b6b2-237e0bc475ad",
+    "name": "память о наследии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b02ef474-8fde-474a-9f49-2d19ad5dc9c7",
+      "start": 21,
+      "end": 38,
+      "text": "память о наследии"
+    }
+  },
+  {
+    "id": "feaffda4-138d-42d7-b849-4f23a5bf753c",
+    "name": "наследия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "497fc410-e03c-4a11-b572-af8eedf1dc85",
+      "start": 9,
+      "end": 17,
+      "text": "наследия"
+    }
+  },
+  {
+    "id": "0bd336a0-6ccd-4967-a2c0-b5243d67aa7e",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9478085-9aa3-4d24-ac04-edebed0969ff",
+      "start": 54,
+      "end": 66,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "531f51c2-48d2-4e8a-bbc0-a3acdfe63761",
+    "name": "обычного режима",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9478085-9aa3-4d24-ac04-edebed0969ff",
+      "start": 78,
+      "end": 92,
+      "text": "обычного режима"
+    }
+  },
+  {
+    "id": "004fe65e-4386-48cf-9478-da4a6fa947de",
+    "name": "значения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70f46101-24f2-48ab-a637-04af8cbaf047",
+      "start": 21,
+      "end": 29,
+      "text": "значения"
+    }
+  },
+  {
+    "id": "8aa9bf00-236b-4c25-811a-865a706f4614",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34a22592-27c2-4a0e-bb95-81ed44416512",
+      "start": 16,
+      "end": 20,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "436d4497-8782-4d9f-9d95-1ebea04998ae",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bd0e782c-4d5c-4e40-a1be-1229da8cd9b1",
+      "start": 18,
+      "end": 22,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "daca971d-eb99-4769-b235-c9bf91920933",
+    "name": "россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73bb65c3-734b-41a6-b2e7-1226185d3d8e",
+      "start": 28,
+      "end": 34,
+      "text": "россия"
+    }
+  },
+  {
+    "id": "970a64ed-328b-473a-826f-3fdd49260ec3",
+    "name": "франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73bb65c3-734b-41a6-b2e7-1226185d3d8e",
+      "start": 47,
+      "end": 54,
+      "text": "франция"
+    }
+  },
+  {
+    "id": "5c4a16f8-6aab-4fe1-8fa8-cbe391599a11",
+    "name": "франции",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8c3a192c-fd43-4086-82ba-ed8ab0e08f59",
+      "start": 57,
+      "end": 64,
+      "text": "франции"
+    }
+  },
+  {
+    "id": "6bf9975d-ac3b-4cc9-9b88-f0509e90884f",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9c2cfaf-283f-45bd-bfd8-9f43bff7d785",
+      "start": 28,
+      "end": 36,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "6d251d6d-be4b-4b0d-b4cb-11adb56c2c71",
+    "name": "бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9c2cfaf-283f-45bd-bfd8-9f43bff7d785",
+      "start": 98,
+      "end": 118,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "4290d4f0-e9f9-4229-aa9d-9644493c5d2f",
+    "name": "росс",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9c2cfaf-283f-45bd-bfd8-9f43bff7d785",
+      "start": 127,
+      "end": 131,
+      "text": "росс"
+    }
+  },
+  {
+    "id": "fabec0f5-7178-4697-a810-45ff887c3c0b",
+    "name": "бородинском сражении",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd02b240-acad-44cf-a1e3-2d2ab693dca2",
+      "start": 17,
+      "end": 37,
+      "text": "бородинском сражении"
+    }
+  },
+  {
+    "id": "602abc83-e6e5-4d45-ab8b-79faafa9c490",
+    "name": "российская армия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd02b240-acad-44cf-a1e3-2d2ab693dca2",
+      "start": 43,
+      "end": 59,
+      "text": "российская армия"
+    }
+  },
+  {
+    "id": "4e0865d7-2675-4714-93b3-2bf545d5002d",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd02b240-acad-44cf-a1e3-2d2ab693dca2",
+      "start": 84,
+      "end": 92,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "94ab78c1-4d6e-4660-8ebd-0ee247b5ec3c",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "430a1e09-c078-4460-ae00-40512221fb4f",
+      "start": 24,
+      "end": 34,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "71ae87e4-0615-4cb4-98ec-6ae34ddf101c",
+    "name": "топ-пять недорогих мест рф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "299645ca-1cbf-4653-a2c9-dbe222368c70",
+      "start": 24,
+      "end": 50,
+      "text": "топ- пять недорогих мест рф"
+    }
+  },
+  {
+    "id": "31e3313f-6e1a-4bba-b93d-c73416953458",
+    "name": "казань",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b853ecef-d260-423e-9d5a-7585b8681613",
+      "start": 34,
+      "end": 40,
+      "text": "казань"
+    }
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "544d4164-6724-416f-89e8-2a21aab348a3",
+    "name": "карта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 20,
+      "end": 25,
+      "text": "карты"
+    }
+  },
+  {
+    "id": "f08b499b-25bc-4833-849a-3f0e144a2a99",
+    "name": "переводчик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 27,
+      "end": 37,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "f1ae1912-a246-4c8b-80d9-0eb7e4dcefb9",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 47,
+      "end": 53,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "7c63904d-f70b-439b-8d92-9515f17631a8",
+    "name": "умная колонка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 67,
+      "end": 81,
+      "text": "умной колонке"
+    }
+  },
+  {
+    "id": "711759d1-8d71-4ae0-8984-6cd41a034964",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 93,
+      "end": 99,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "4bbe9c44-5422-47d2-bb2b-747c01ec9971",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 106,
+      "end": 112,
+      "text": "гпт новой"
+    }
+  },
+  {
+    "id": "b6f1dd08-c37f-4598-a817-46b6062e5697",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 176,
+      "end": 182,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "21eecff6-0a47-45e4-8a7f-c8b83fb45a5f",
+    "name": "OpenAI",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20743b-d6f6-4350-bf59-67ead8a6178b",
+      "start": 188,
+      "end": 195,
+      "text": "опен- ай"
+    }
+  },
+  {
+    "id": "2bd104be-5b4f-4a56-90e5-73d76f387394",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb77c028-bca8-4825-a36c-53409e94c622",
+      "start": 32,
+      "end": 39,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "c099eb69-2838-436c-a31a-3bb1e449fcf0",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb77c028-bca8-4825-a36c-53409e94c622",
+      "start": 71,
+      "end": 77,
+      "text": "поиска"
+    }
+  },
+  {
+    "id": "b1898793-3727-4d2c-941a-7482dea1a407",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb77c028-bca8-4825-a36c-53409e94c622",
+      "start": 85,
+      "end": 90,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "83502adc-3adf-4145-9a84-f8af9c2fcd41",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a7639adb-afc0-4423-9977-943d80655a20",
+      "start": 41,
+      "end": 46,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f02c2f9b-4c1a-49cb-b21d-bea26467e14b",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a502815-f697-41cf-aea3-7edb97477c57",
+      "start": 81,
+      "end": 87,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "c607f22e-b22c-43be-a131-91223206cdc4",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a502815-f697-41cf-aea3-7edb97477c57",
+      "start": 90,
+      "end": 95,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "06d235b3-6eb2-4bd1-9159-6fb0122edac3",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9795c8eb-41a3-4177-9017-13c016f7dd65",
+      "start": 31,
+      "end": 44,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "6b3b3880-a5b1-46f1-8d43-37d240d9a80b",
+    "name": "рецепты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3da41fb2-0231-4a39-bb21-60e86a0fe8ff",
+      "start": 115,
+      "end": 122,
+      "text": "рецепты"
+    }
+  },
+  {
+    "id": "58c3c529-9d27-485f-8862-4aa34553f38a",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5486d1f-4636-4a3e-a5a7-a4f996c50aa7",
+      "start": 20,
+      "end": 33,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "8b567eee-a94c-4f47-b021-5ec3d4306d4f",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e47f2383-f721-4646-aa3a-6b440e09a55f",
+      "start": 23,
+      "end": 28,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "daaa2183-c305-461f-a2b3-e457329191bd",
+    "name": "университет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d61452d-de72-4eff-9081-588e67f3a3fb",
+      "start": 31,
+      "end": 42,
+      "text": "университете"
+    }
+  },
+  {
+    "id": "36dec9c5-05f4-492b-bfa5-89d64a828c76",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d61452d-de72-4eff-9081-588e67f3a3fb",
+      "start": 76,
+      "end": 79,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "e15b87ac-8ded-4da2-8ccf-904f362b2dcb",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0291661c-9f7d-4396-a8aa-11e3acfbaeb1",
+      "start": 47,
+      "end": 56,
+      "text": "нейросеть"
+    }
+  },
+  {
+    "id": "d031f8e2-172f-407d-9d25-be512f420024",
+    "name": "ставка налогообложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "744703c5-2322-461c-abb0-b669cc6e9619",
+      "start": 107,
+      "end": 129,
+      "text": "ставка налогообложения"
+    }
+  }
+]

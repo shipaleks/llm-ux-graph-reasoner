@@ -1,0 +1,19 @@
+Divide the following text into hierarchically organized segments.
+
+Text: {{text}}
+
+Create a structure with the following levels:
+1. Main sections (if any)
+2. Subsections (if any)
+3. Logical blocks within subsections
+4. Individual paragraphs or groups of related sentences
+
+For each segment, specify:
+- Unique ID (e.g., "1.2.3" for the 3rd block of the 2nd subsection of the 1st section)
+- Original text
+- Position in document (start-end in characters)
+
+Present the result in JSON format with a nested structure reflecting the hierarchy.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

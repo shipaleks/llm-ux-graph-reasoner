@@ -1,0 +1,1129 @@
+[
+  {
+    "id": "722da2ab-4e58-4cf9-b831-08dbda152335",
+    "name": "Helena Cross",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "investigator",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 11,
+      "end": 23,
+      "text": "Helena Cross"
+    }
+  },
+  {
+    "id": "b2f0d282-9623-43b5-be94-bbc42c1fcdb0",
+    "name": "insomnia",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 62,
+      "end": 70,
+      "text": "insomnia"
+    }
+  },
+  {
+    "id": "fdba82f4-390b-48fc-9f61-eb8d1da87a4a",
+    "name": "riddles",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 91,
+      "end": 98,
+      "text": "riddles"
+    }
+  },
+  {
+    "id": "44db63ee-eac1-4380-947f-dcfe4a710358",
+    "name": "compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 136,
+      "end": 143,
+      "text": "compass"
+    }
+  },
+  {
+    "id": "8cd34718-eed9-4ad6-a593-7b745b6063eb",
+    "name": "Ezra Hollow",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "clockmaker",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 149,
+      "end": 160,
+      "text": "Ezra Hollow"
+    }
+  },
+  {
+    "id": "d490ef28-3adc-4ebe-86d7-73863fe5cb72",
+    "name": "midnight blizzard",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 271,
+      "end": 288,
+      "text": "midnight blizzard"
+    }
+  },
+  {
+    "id": "5a7dd4b3-798b-4dd5-8be2-58e8cd409af7",
+    "name": "clocks",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 302,
+      "end": 308,
+      "text": "clocks"
+    }
+  },
+  {
+    "id": "1715d698-ef92-4e40-95cd-c165e8e69dc4",
+    "name": "Ezra Hollow",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 0,
+      "end": 11,
+      "text": "Ezra’s"
+    }
+  },
+  {
+    "id": "e29b4008-d02b-4685-957f-78dea7c67b3f",
+    "name": "Vera Hollow",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 21,
+      "end": 31,
+      "text": "Vera Hollow"
+    }
+  },
+  {
+    "id": "10861374-ef2f-4a72-a9ca-e67e769ec71d",
+    "name": "village inn",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 47,
+      "end": 58,
+      "text": "village inn"
+    }
+  },
+  {
+    "id": "6b6045df-a90c-429a-8800-3872d6ae2234",
+    "name": "Lucian Greer",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "herbalist",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 98,
+      "end": 110,
+      "text": "Lucian Greer"
+    }
+  },
+  {
+    "id": "0f4db720-2348-401b-8fb4-5d59af2de1ba",
+    "name": "exotic plants",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 135,
+      "end": 148,
+      "text": "exotic plants"
+    }
+  },
+  {
+    "id": "e4685e44-c296-48c1-b612-1536f575acb7",
+    "name": "moonlight",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 166,
+      "end": 175,
+      "text": "moonlight"
+    }
+  },
+  {
+    "id": "cee151d5-f99c-473d-ac8f-3e1c08289c59",
+    "name": "journals",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 187,
+      "end": 195,
+      "text": "journals"
+    }
+  },
+  {
+    "id": "df8e75fd-741d-4d24-a94f-415ff3e967c4",
+    "name": "botanical sketches",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 214,
+      "end": 232,
+      "text": "botanical sketches"
+    }
+  },
+  {
+    "id": "c52edc63-97d7-4472-a64a-ab2c619d8c8e",
+    "name": "celestial charts",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 248,
+      "end": 264,
+      "text": "celestial charts"
+    }
+  },
+  {
+    "id": "c2b36c0c-8a89-4644-b7f1-57a8b02c7161",
+    "name": "Bridget Locke",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "historian",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 289,
+      "end": 302,
+      "text": "Bridget Locke"
+    }
+  },
+  {
+    "id": "ecff08bb-0f94-484c-844d-27dc04d94435",
+    "name": "ancient legends",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 331,
+      "end": 346,
+      "text": "ancient legends"
+    }
+  },
+  {
+    "id": "a33ff64b-2a83-4fc6-bf2a-b135087fb2fa",
+    "name": "Bridget",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 0,
+      "end": 7,
+      "text": "Bridget"
+    }
+  },
+  {
+    "id": "469abe72-72a2-4097-b62a-9c1ecedc3119",
+    "name": "Dominic Locke",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 24,
+      "end": 37,
+      "text": "Dominic Locke"
+    }
+  },
+  {
+    "id": "87410f88-75f0-4256-b184-92f47ed6fd24",
+    "name": "Dominic",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 176,
+      "end": 183,
+      "text": "Dominic"
+    }
+  },
+  {
+    "id": "72ba744d-97d1-4d52-8953-df36690dc702",
+    "name": "eerie landscapes",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 54,
+      "end": 70,
+      "text": "eerie landscapes"
+    }
+  },
+  {
+    "id": "e621d992-3b7a-45f1-8e1d-7815fefa023c",
+    "name": "villagers",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 99,
+      "end": 108,
+      "text": "villagers"
+    }
+  },
+  {
+    "id": "5442a6d3-a05a-4eb3-9f5c-44d3cbfb3260",
+    "name": "visions",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 197,
+      "end": 204,
+      "text": "visions"
+    }
+  },
+  {
+    "id": "7eb4f9d2-5382-4545-9fa9-26078a12ac0b",
+    "name": "Veiled Compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 297,
+      "end": 311,
+      "text": "Veiled Compass"
+    }
+  },
+  {
+    "id": "3907e5d0-f732-41d6-b400-d55538903d1a",
+    "name": "Alder Shaw",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 11,
+      "end": 21,
+      "text": "Alder Shaw"
+    }
+  },
+  {
+    "id": "fed8efd7-29fc-4572-8ca3-a4563ec110f4",
+    "name": "village blacksmith",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 27,
+      "end": 45,
+      "text": "village blacksmith"
+    }
+  },
+  {
+    "id": "73b7de51-0371-4be1-b147-d766d7b2a676",
+    "name": "anonymous client",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 96,
+      "end": 112,
+      "text": "anonymous client"
+    }
+  },
+  {
+    "id": "7ad5c4bf-79ad-457c-bdf9-b780a1ac7da7",
+    "name": "compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 143,
+      "end": 150,
+      "text": "compass"
+    }
+  },
+  {
+    "id": "9f8fa173-17ef-42e7-ac3f-bf0ebcc105e7",
+    "name": "Alder",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 153,
+      "end": 158,
+      "text": "Alder"
+    }
+  },
+  {
+    "id": "d0d067b9-930a-4a56-991e-ef8d0c4644b4",
+    "name": "Maeve Thorn",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 195,
+      "end": 206,
+      "text": "Maeve Thorn"
+    }
+  },
+  {
+    "id": "6187c873-5548-4447-89e2-96b0df64b6d4",
+    "name": "reclusive widow",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 213,
+      "end": 228,
+      "text": "reclusive widow"
+    }
+  },
+  {
+    "id": "d2b9a5c4-fd63-4941-ba0b-de80586ab1f9",
+    "name": "local library",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 243,
+      "end": 256,
+      "text": "local library"
+    }
+  },
+  {
+    "id": "9cf33669-3d72-493a-ae20-a467e4f49b61",
+    "name": "obscure manuscripts",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 269,
+      "end": 287,
+      "text": "obscure manuscripts"
+    }
+  },
+  {
+    "id": "dadb4f33-19b4-4cd4-81f5-6f0d1d7206e4",
+    "name": "riddles and paradoxes",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 294,
+      "end": 315,
+      "text": "riddles and paradoxes"
+    }
+  },
+  {
+    "id": "6f4e7d7e-0a24-4d85-a2d4-99b2d12579a2",
+    "name": "Maeve",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 0,
+      "end": 5,
+      "text": "Maeve"
+    }
+  },
+  {
+    "id": "80c0df17-a07f-4096-bab2-cf2e4a4996d4",
+    "name": "Father Silas Hart",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 26,
+      "end": 44,
+      "text": "Father Silas Hart"
+    }
+  },
+  {
+    "id": "33e69369-2627-420f-9c00-e21179c4d1e6",
+    "name": "village’s aging cleric",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 50,
+      "end": 72,
+      "text": "village’s aging cleric"
+    }
+  },
+  {
+    "id": "42a1d6ac-8b7e-49c5-bee7-99174fa0cfa1",
+    "name": "village chapel",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 112,
+      "end": 126,
+      "text": "village chapel"
+    }
+  },
+  {
+    "id": "f31140a0-4611-4943-a740-d8f69d539a5f",
+    "name": "Father Silas",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "related_to",
+        "value": "Father Silas Hart",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 128,
+      "end": 140,
+      "text": "Father Silas"
+    }
+  },
+  {
+    "id": "05801023-9509-4da2-bd02-e25451179b76",
+    "name": "Isaac Cole",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 173,
+      "end": 183,
+      "text": "Isaac Cole"
+    }
+  },
+  {
+    "id": "82ca6e18-5996-4028-9261-b55fff282e32",
+    "name": "timid apprentice",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 154,
+      "end": 170,
+      "text": "timid apprentice"
+    }
+  },
+  {
+    "id": "0c498f3e-6ff7-4ea9-a6d4-9b0bc4817634",
+    "name": "chapel’s ancient crypts",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 214,
+      "end": 237,
+      "text": "chapel’s ancient crypts"
+    }
+  },
+  {
+    "id": "7824586b-4783-40cd-b774-2ad38c90fe4e",
+    "name": "stone carvings",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 245,
+      "end": 259,
+      "text": "stone carvings"
+    }
+  },
+  {
+    "id": "8fd458a7-3601-4d86-a966-faf3e56da182",
+    "name": "Inspector Cross",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 13,
+      "end": 28,
+      "text": "Inspector Cross"
+    }
+  },
+  {
+    "id": "139207cf-5ed2-4a30-bd87-3d1a1b0d4b29",
+    "name": "village tavern",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 52,
+      "end": 65,
+      "text": "village tavern"
+    }
+  },
+  {
+    "id": "c88f50e9-c7e9-46cd-a2b9-706817ac7920",
+    "name": "Rowan Dusk",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 73,
+      "end": 83,
+      "text": "Rowan Dusk"
+    }
+  },
+  {
+    "id": "2c890095-9c2f-4694-abaa-cf21fa999a5e",
+    "name": "adventurer",
+    "type": "occupation",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 94,
+      "end": 104,
+      "text": "adventurer"
+    }
+  },
+  {
+    "id": "ec3085ab-148d-4640-b491-dc089d6f0ee3",
+    "name": "Moira Bell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 156,
+      "end": 166,
+      "text": "Moira Bell"
+    }
+  },
+  {
+    "id": "0c95f4f0-f151-4205-881b-55b2af85bd20",
+    "name": "key",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 203,
+      "end": 206,
+      "text": "key"
+    }
+  },
+  {
+    "id": "55a3cf33-8b3a-4fcc-944f-2d32c00b2ab8",
+    "name": "villagers",
+    "type": "group",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 224,
+      "end": 233,
+      "text": "villagers"
+    }
+  },
+  {
+    "id": "91adf55c-f2c6-4f62-a193-d71e00298e51",
+    "name": "Inspector Cross",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 3,
+      "end": 18,
+      "text": "Inspector Cross"
+    }
+  },
+  {
+    "id": "2023391b-0ddd-4948-8faf-82e9b48b23f2",
+    "name": "Ezra Hollow",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 112,
+      "end": 123,
+      "text": "Ezra Hollow"
+    }
+  },
+  {
+    "id": "666379d4-3109-4fb3-8d58-1faf5432d15e",
+    "name": "clocks",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 134,
+      "end": 140,
+      "text": "clocks"
+    }
+  },
+  {
+    "id": "679d2a54-c983-47ef-b669-a69546865443",
+    "name": "Lucian",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 182,
+      "end": 188,
+      "text": "Lucian"
+    }
+  },
+  {
+    "id": "c54e82b1-f721-4dde-b816-e8823189dce1",
+    "name": "botanical sketches",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 191,
+      "end": 209,
+      "text": "botanical sketches"
+    }
+  },
+  {
+    "id": "b522bdd2-77aa-4c3b-a597-2187bfa0a278",
+    "name": "Dominic",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 228,
+      "end": 235,
+      "text": "Dominic"
+    }
+  },
+  {
+    "id": "7365fe00-ea23-4506-99a8-ab33f14de402",
+    "name": "paintings",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 238,
+      "end": 247,
+      "text": "paintings"
+    }
+  },
+  {
+    "id": "187b2beb-7055-46c5-9162-d4b2071a39bf",
+    "name": "Bridget Locke",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 249,
+      "end": 262,
+      "text": "Bridget Locke"
+    }
+  },
+  {
+    "id": "72f17b40-440f-4ce1-8411-b48b5d0bb506",
+    "name": "compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 296,
+      "end": 303,
+      "text": "compass"
+    }
+  },
+  {
+    "id": "14c0d2ab-dc2e-487d-9b8f-a1ca742945d0",
+    "name": "Alder Shaw",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 324,
+      "end": 334,
+      "text": "Alder Shaw"
+    }
+  },
+  {
+    "id": "6ab67882-41d7-4127-9958-2dc4d9b24358",
+    "name": "replica",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 337,
+      "end": 344,
+      "text": "replica"
+    }
+  },
+  {
+    "id": "6e0fdf86-ae5a-4d0b-8786-67a4c0a6c597",
+    "name": "villagers",
+    "type": "group",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 22,
+      "end": 31,
+      "text": "villagers"
+    }
+  },
+  {
+    "id": "67809654-1e1b-4f1e-afca-9a6bf50e16de",
+    "name": "cryptic notes",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 46,
+      "end": 59,
+      "text": "cryptic notes"
+    }
+  },
+  {
+    "id": "4345d993-492a-4115-be58-dffbaf2dce58",
+    "name": "V",
+    "type": "symbol",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 79,
+      "end": 80,
+      "text": "V"
+    }
+  },
+  {
+    "id": "6c7d2403-d946-4d58-95d4-354fa855ece2",
+    "name": "Inspector Cross",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 133,
+      "end": 148,
+      "text": "Inspector Cross"
+    }
+  },
+  {
+    "id": "11ac1da5-f81a-475e-ab8a-2ed689621138",
+    "name": "Veiled Compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 163,
+      "end": 177,
+      "text": "Veiled Compass"
+    }
+  },
+  {
+    "id": "2a6369a2-f468-4161-9248-95cda9d58462",
+    "name": "Inspector Cross",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "ee8a7d4a-8870-4e25-9f10-663f486f2620",
+      "start": 36,
+      "end": 51,
+      "text": "Inspector Cross"
+    }
+  },
+  {
+    "id": "924556a0-2a7b-4fbf-a046-443c8bf2a704",
+    "name": "Maeve Thorn",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "ee8a7d4a-8870-4e25-9f10-663f486f2620",
+      "start": 79,
+      "end": 89,
+      "text": "Maeve Thorn"
+    }
+  },
+  {
+    "id": "dd12ca94-3be8-45d5-a44e-182f739b59ff",
+    "name": "manuscripts",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "ee8a7d4a-8870-4e25-9f10-663f486f2620",
+      "start": 99,
+      "end": 110,
+      "text": "manuscripts"
+    }
+  },
+  {
+    "id": "567499b3-9b7c-4406-af81-008570a18e73",
+    "name": "cryptic riddle",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "ee8a7d4a-8870-4e25-9f10-663f486f2620",
+      "start": 121,
+      "end": 135,
+      "text": "cryptic riddle"
+    }
+  },
+  {
+    "id": "9620c4c0-f22c-4420-8412-d3e7b2f1e4d6",
+    "name": "compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "1c3518f8-c764-47c1-ac5b-ed522dc7e6ef",
+      "start": 126,
+      "end": 133,
+      "text": "compass"
+    }
+  },
+  {
+    "id": "048666ee-e094-45d2-b55f-cf4aa154946f",
+    "name": "village of Eldermoor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 4,
+      "end": 24,
+      "text": "village of Eldermoor"
+    }
+  },
+  {
+    "id": "4b87edd3-4d32-4135-b1ee-520997b8c2d5",
+    "name": "secrets",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 39,
+      "end": 46,
+      "text": "secrets"
+    }
+  },
+  {
+    "id": "54600b17-7e2c-430d-83fb-0b0010c65b17",
+    "name": "visions",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 48,
+      "end": 55,
+      "text": "visions"
+    }
+  },
+  {
+    "id": "d7e9ed9a-87d2-4564-bb14-33ff47bacc3d",
+    "name": "deceptions",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 71,
+      "end": 81,
+      "text": "deceptions"
+    }
+  },
+  {
+    "id": "2c81f4ed-51f3-4a6a-9004-f2547565966e",
+    "name": "Veiled Compass",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 109,
+      "end": 123,
+      "text": "Veiled Compass"
+    }
+  },
+  {
+    "id": "11d02625-49e8-4ed0-a788-fb642a4fbfca",
+    "name": "fog of mystery and deceit",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 212,
+      "end": 237,
+      "text": "fog of mystery and deceit"
+    }
+  }
+]

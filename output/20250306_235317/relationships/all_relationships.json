@@ -1,0 +1,66 @@
+[
+  {
+    "id": "f201cfdd-4ea5-4a1a-af13-3e10332d35e6",
+    "source_id": "07b66f3f-2fad-4dea-88d5-04a508266fd2",
+    "target_id": "640499fc-c627-4021-b1c7-3a427270940c",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "9e9e1484-b1f3-4605-8417-04d17137b00f",
+      "start": 179,
+      "end": 192,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "ebe8563c-c537-499c-9ece-fe83414c1d35",
+    "source_id": "640499fc-c627-4021-b1c7-3a427270940c",
+    "target_id": "640499fc-c627-4021-b1c7-3a427270940c",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "9e9e1484-b1f3-4605-8417-04d17137b00f",
+      "start": 109,
+      "end": 131,
+      "text": "основной поиск использую"
+    }
+  },
+  {
+    "id": "861ae745-a204-4168-a3b2-95eb65f610c8",
+    "source_id": "22af5164-933e-4b37-9c98-0afead38c4ab",
+    "target_id": "22af5164-933e-4b37-9c98-0afead38c4ab",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "fda2cf27-b3f3-41af-8d85-3f2a0106aa71",
+      "start": 28,
+      "end": 52,
+      "text": "яндекс пэй иногда использую"
+    }
+  },
+  {
+    "id": "2f5faa46-db15-4fe1-ade9-aeae7bcfeb8e",
+    "source_id": "cc0e8a24-75c5-40c1-a32f-9960882b96d7",
+    "target_id": "cc0e8a24-75c5-40c1-a32f-9960882b96d7",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "fda2cf27-b3f3-41af-8d85-3f2a0106aa71",
+      "start": 81,
+      "end": 94,
+      "text": "такси пользуюсь"
+    }
+  }
+]

@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: sample_ru.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+        
+        .segment-actions {
+            margin-top: 0.75rem;
+        }
+        
+        .segment-link {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #0366d6;
+        }
+        
+        .segment-link:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: sample_ru.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-06 06:42:21</p>
+            <p><strong>Источник:</strong> tests/data/samples/sample_ru.txt</p>
+            <p><strong>Количество сущностей:</strong> 20</p>
+            <p><strong>Количество связей:</strong> 2</p>
+            <p><strong>Количество текстовых сегментов:</strong> 5</p>
+            
+            <p><strong>Отчет о расширении графа:</strong> <a href="graphs/expanded/expansion_process.md" target="_blank">Просмотреть отчет</a></p>
+            
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                
+                <li><a href="#graph-expansion">Расширение графа</a></li>
+                
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 20 сущностей 7 различных типов и 2 связей 2 различных видов. Наиболее распространенные типы сущностей: organization (7), person (4), date (3). Преобладающие типы связей: WORKS_AT_AS (1), WORKS_SINCE (1). Ключевые темы, исследуемые в тексте: TechnoInnovaions, led by CEO Ivan Petrov, partnered with Global Systems on 'Project Alpha,' a 300 million ruble AI healthcare initiative. The partnership, announced on January 15, 2023, involves Global Systems, based in St. Petersburg and led by CEO Alexey Smirnov. Иван Петров является генеральным директором компании "ТехноИнновации", основанной в 2010 году и расположенной в Москве. Мария Сидорова является техническим директором компании "ТехноИнновации" с 2015 года, ранее работала ведущим разработчиком в компании "ИТ-Решения". Это демонстрирует ее опыт и квалификацию в области технологий.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 20 сущностей и 2 связей. Наиболее центральные сущности в графе: Мария Сидорова, 2015, ИТ-Решения, которые формируют ключевые точки связи в сети. Граф состоит из 18 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством связей между сущностями. Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на 5 логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 4 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены 20 ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены 2 связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 0 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            <div class="segment-summary" id="segment-1">
+                <h4>TechnoInnovaions' AI Healthcare Project</h4>
+                <p><strong>Сводка:</strong> TechnoInnovaions, led by CEO Ivan Petrov, partnered with Global Systems on 'Project Alpha,' a 300 million ruble AI healthcare initiative. The partnership, announced on January 15, 2023, involves Global Systems, based in St. Petersburg and led by CEO Alexey Smirnov.</p>
+                <p><strong>Роль в тексте:</strong> Context</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>TechnoInnovaions partners with Global Systems.</li>
+                    
+                    <li>Project Alpha focuses on AI for healthcare.</li>
+                    
+                    <li>Project budget is 300 million rubles.</li>
+                    
+                    <li>Ivan Petrov announced the partnership.</li>
+                    
+                    <li>Global Systems is based in St. Petersburg.</li>
+                    
+                </ul>
+                
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/9eba21e8-9b7c-457c-9114-0c3ed82227b6.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-2">
+                <h4>ТехноИнновации: Руководство и местоположение</h4>
+                <p><strong>Сводка:</strong> Иван Петров является генеральным директором компании "ТехноИнновации", основанной в 2010 году и расположенной в Москве.</p>
+                <p><strong>Роль в тексте:</strong> Введение</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Генеральный директор: Иван Петров</li>
+                    
+                    <li>Компания: ТехноИнновации</li>
+                    
+                    <li>Год основания: 2010</li>
+                    
+                    <li>Местоположение: Москва</li>
+                    
+                </ul>
+                
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/485998b5-f090-4263-a7b0-e44898ac6e38.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-3">
+                <h4>Мария Сидорова: Технический директор</h4>
+                <p><strong>Сводка:</strong> Мария Сидорова является техническим директором компании "ТехноИнновации" с 2015 года, ранее работала ведущим разработчиком в компании "ИТ-Решения". Это демонстрирует ее опыт и квалификацию в области технологий.</p>
+                <p><strong>Роль в тексте:</strong> background</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Мария Сидорова - технический директор "ТехноИнновации".</li>
+                    
+                    <li>Работает в компании с 2015 года.</li>
+                    
+                    <li>Имеет опыт работы ведущим разработчиком в "ИТ-Решения".</li>
+                    
+                    <li>Подтверждает квалификацию руководящей должности.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Предоставляет информацию о ключевом сотруднике компании, дополняя информацию о генеральном директоре и истории компании.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/9a1bf100-ef22-496a-8cde-6f04e1e3580f.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-4">
+                <h4>ТехноИнновации и Глобал Системс партнерство</h4>
+                <p><strong>Сводка:</strong> Компания "ТехноИнновации" заключила партнерство с "Глобал Системс" для работы над "Проектом Альфа", о чем объявил Иван Петров 15 января 2023 года.</p>
+                <p><strong>Роль в тексте:</strong> Факт</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Партнерство между ТехноИнновации и Глобал Системс</li>
+                    
+                    <li>Проект Альфа - цель партнерства</li>
+                    
+                    <li>Объявление 15 января 2023 года</li>
+                    
+                    <li>Иван Петров объявил о партнерстве</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Предоставляет конкретный пример деятельности компании ТехноИнновации, возглавляемой Иваном Петровым.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/9e26e76a-7985-4029-9040-3b525e6c07cd.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-5">
+                <h4>AI Healthcare Project by Global Systems</h4>
+                <p><strong>Сводка:</strong> Global Systems, led by Alexey Smirnov in St. Petersburg, is undertaking a 300 million ruble AI healthcare project.</p>
+                <p><strong>Роль в тексте:</strong> Introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Project focuses on AI solutions for healthcare.</li>
+                    
+                    <li>Budget is 300 million rubles.</li>
+                    
+                    <li>Global Systems is based in St. Petersburg.</li>
+                    
+                    <li>Alexey Smirnov is the CEO of Global Systems.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Introduces a different company and project, potentially for comparison or contrast with TechnoInnovations.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/96d81b97-8f73-4392-96fd-818a83f11c9c.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                TechnoInnovaions' AI Healthcare Project
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                TechnoInnovaions' AI Healthcare Project
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                ТехноИнновации: Руководство и местоположение
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                ТехноИнновации: Руководство и местоположение
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                Мария Сидорова: Технический директор
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                Мария Сидорова: Технический директор
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                ТехноИнновации и Глобал Системс партнерство
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                ТехноИнновации и Глобал Системс партнерство
+                            </a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Иван Петров</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>title:</strong> генеральный директор</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2010</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Москва</td>
+                        <td>location</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Мария Сидорова</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>title:</strong> технический директор</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2015</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ИТ-Решения</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Глобал Системс</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Проект Альфа</td>
+                        <td>project</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>15 января 2023 года</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Иван Петров</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>искусственный интеллект</td>
+                        <td>concept</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>здравоохранение</td>
+                        <td>concept</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>300 миллионов рублей</td>
+                        <td>money</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Глобал Системс</td>
+                        <td>organization</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Санкт-Петербург</td>
+                        <td>location</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Алексей Смирнов</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>title:</strong> генеральный директор</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Мария Сидорова</td>
+                        <td>WORKS_AT_AS</td>
+                        <td>ИТ-Решения</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Мария Сидорова</td>
+                        <td>WORKS_SINCE</td>
+                        <td>2015</td>
+                        <td>0.97</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        
+        <section id="graph-expansion" class="section">
+            <h2>Расширение графа</h2>
+            
+            <p>Граф знаний был расширен с помощью автоматического механизма задавания вопросов к ключевым сущностям.</p>
+            
+            <div class="expansion-summary">
+                <h3>Обзор процесса расширения</h3>
+                <p>В ходе расширения система выбрала наиболее важные сущности и задала вопросы для получения дополнительной информации. 
+                На основе ответов были выделены новые сущности и отношения, которые обогатили исходный граф знаний.</p>
+                
+                <div class="action-button">
+                    <a href="graphs/expanded/expansion_process.md" target="_blank" class="btn btn-primary">Подробный отчет о процессе расширения</a>
+                </div>
+            </div>
+            
+            <div class="expansion-visualization">
+                <h3>Результат расширения</h3>
+                <p>Визуализация расширенного графа знаний демонстрирует новые сущности и отношения, полученные в результате процесса расширения.</p>
+                
+                <div class="graph-container">
+                    <iframe src="graphs/expanded/expanded_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.0053</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.2</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">2</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Мария Сидорова</td>
+                        <td>0.105</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2015</td>
+                        <td>0.053</td>
+                        <td>date</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ИТ-Решения</td>
+                        <td>0.053</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Иван Петров</td>
+                        <td>0.000</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2010</td>
+                        <td>0.000</td>
+                        <td>date</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Москва</td>
+                        <td>0.000</td>
+                        <td>location</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ТехноИнновации</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Мария Сидорова, 2015, ИТ-Решения как центральные концепции, связывающие несколько тем. Преобладающие типы отношений (WORKS_SINCE, WORKS_AT_AS) подчеркивают ключевые взаимодействия в предметной области. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-06 06:42:21</p>
+        </div>
+    </footer>
+</body>
+</html>

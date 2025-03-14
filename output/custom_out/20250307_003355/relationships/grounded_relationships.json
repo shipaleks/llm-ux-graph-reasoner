@@ -1,0 +1,162 @@
+[
+  {
+    "id": "f93a9749-be92-448f-9610-9126b2831b3a",
+    "source_id": "dfff2a59-3b69-4712-97f4-3bd49f31bbc6",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 231,
+      "end": 271,
+      "text": "\n\nно основной поиск использую в яндексе."
+    }
+  },
+  {
+    "id": "c5441f74-ce1a-49fa-aa3e-b7f48c3bd99f",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "dfff2a59-3b69-4712-97f4-3bd49f31bbc6",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 231,
+      "end": 322,
+      "text": "\n\nно основной поиск использую в яндексе.\n\nнейро очень удобен тем, что не надо долго искать."
+    }
+  },
+  {
+    "id": "126e90da-2bb9-43cf-b8fe-c46663787ead",
+    "source_id": "5761a4bb-ae1a-47ed-8179-07d7270f7552",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 322,
+      "end": 390,
+      "text": "\n\nэто из такого музыка, яндекс музыка, потому что других больше нет."
+    }
+  },
+  {
+    "id": "77323efa-9b76-4ee2-af45-58be6a36e122",
+    "source_id": "5972fdee-9728-4683-ad9d-11cfb1361e83",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 454,
+      "end": 570,
+      "text": "\n\nяндекс пэй иногда использую, маркетом не пользуюсь, такси пользуюсь, потому что это просто единственное, что есть."
+    }
+  },
+  {
+    "id": "ef3e0c61-763c-4b51-96a9-c70a8e0ecc96",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "269ae96b-e105-4799-be28-711dcda608ed",
+    "type": "BENEFIT_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 1086,
+      "end": 1243,
+      "text": "\n\nнужно я здесь спрошу, что нравится в нейро, что, чем он, какую пользу он несет?\n\nвот так я бы спросил.\n\nон сокращает время для выяснения ответа по вопросу."
+    }
+  },
+  {
+    "id": "b2516e35-b232-4db2-a7ab-d9cdd1e604c0",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "fad3c6ee-b40a-4521-81e1-5baace901b4f",
+    "type": "EXAMPLE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 1243,
+      "end": 1454,
+      "text": "\n\nесли я попрошу какой- нибудь может быть конкретный запрос, что- нибудь, что вы спрашивали в поиске и нейро удалось вам помочь решить задачу.\n\nможете что- нибудь вспомнить?\n\nда, да, вот буквально рецепт блинов."
+    }
+  },
+  {
+    "id": "a9754172-fec0-42fc-b31e-1b31b2eda683",
+    "source_id": "4de65657-2a47-4d87-a81d-155c5ccada88",
+    "target_id": "a814d0a1-0c05-401a-b03c-6401092ed19e",
+    "type": "HELPS_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "ac30b1e8-f5a5-49fb-a6b1-69968ba38386",
+      "start": 182,
+      "end": 419,
+      "text": "\n\nто есть вот у нас в университете очень быстро помогает, быстрее, чем любой гпт справляется в плане такой быстрой выжимки.\n\nпотому что обычно любая нейросеть она сначала размышляет, потом выкатывает огромный ответ, а тут прям суть дает."
+    }
+  },
+  {
+    "id": "796563cd-d48a-47f4-961f-dc0d5486dbae",
+    "source_id": "4de65657-2a47-4d87-a81d-155c5ccada88",
+    "target_id": "23bca8ef-8cb3-400f-8f8c-ab60202be441",
+    "type": "COMPARED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "ac30b1e8-f5a5-49fb-a6b1-69968ba38386",
+      "start": 182,
+      "end": 419,
+      "text": "\n\nто есть вот у нас в университете очень быстро помогает, быстрее, чем любой гпт справляется в плане такой быстрой выжимки.\n\nпотому что обычно любая нейросеть она сначала размышляет, потом выкатывает огромный ответ, а тут прям суть дает."
+    }
+  },
+  {
+    "id": "01175029-7476-4c2d-830c-504ae3b3ef12",
+    "source_id": "63f4d86f-e4e1-4c81-8938-485ce577a0d3",
+    "target_id": "6d14b718-26f8-4eb7-819c-b0214342349c",
+    "type": "COMPETITOR_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "00725387-bb56-4a7a-a780-269f64e625d3",
+      "start": 114,
+      "end": 343,
+      "text": "\n\nя точно не помню в пятнадцатом или в каком году вот браузер выпустили, ну примерно вот с этого периода.\n\nпотому что тогда был вот хром, хром, еще какие- то другие были аналоги, но они все оказались какими- то такими какими- то."
+    }
+  },
+  {
+    "id": "81631106-7b71-4e9f-a7ff-d3649f26cbf0",
+    "source_id": "6d14b718-26f8-4eb7-819c-b0214342349c",
+    "target_id": "63f4d86f-e4e1-4c81-8938-485ce577a0d3",
+    "type": "COMPETITOR_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "00725387-bb56-4a7a-a780-269f64e625d3",
+      "start": 114,
+      "end": 343,
+      "text": "\n\nя точно не помню в пятнадцатом или в каком году вот браузер выпустили, ну примерно вот с этого периода.\n\nпотому что тогда был вот хром, хром, еще какие- то другие были аналоги, но они все оказались какими- то такими какими- то."
+    }
+  }
+]

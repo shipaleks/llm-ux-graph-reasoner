@@ -1,0 +1,639 @@
+[
+  {
+    "id": "9893e027-367d-4e2a-be1a-b4638b27b0bd",
+    "name": "сто",
+    "type": "number",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b7df146-58b0-475d-a75d-ba2a72303ca1",
+      "start": 24,
+      "end": 27,
+      "text": "сто"
+    }
+  },
+  {
+    "id": "3ad4358f-5a28-4cb1-b5bd-85085fcc5605",
+    "name": "достижения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e45b99a-aaf7-47f8-9fea-9a9f8be29208",
+      "start": 44,
+      "end": 54,
+      "text": "достижения"
+    }
+  },
+  {
+    "id": "d2ebe9af-2c01-4137-931e-af74ba7e08ef",
+    "name": "минусы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e45b99a-aaf7-47f8-9fea-9a9f8be29208",
+      "start": 57,
+      "end": 63,
+      "text": "минусы"
+    }
+  },
+  {
+    "id": "353c422d-d913-4c96-87e0-759f6037290e",
+    "name": "биографический вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190c6d74-6684-440d-b8ff-dc59a6789ada",
+      "start": 30,
+      "end": 51,
+      "text": "биографическом вопросе"
+    }
+  },
+  {
+    "id": "f0eeab81-d891-4222-8ab6-f69fd5f605a6",
+    "name": "плюсы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190c6d74-6684-440d-b8ff-dc59a6789ada",
+      "start": 71,
+      "end": 77,
+      "text": "плюсы"
+    }
+  },
+  {
+    "id": "aeb08d7c-19a8-48c4-86fc-47d81b4b0b43",
+    "name": "минусы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "190c6d74-6684-440d-b8ff-dc59a6789ada",
+      "start": 85,
+      "end": 91,
+      "text": "минусы"
+    }
+  },
+  {
+    "id": "eb41dc46-e66c-4a88-9215-673537f47f15",
+    "name": "количество",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f91963c5-a990-49cb-82ec-f3b7293a58d9",
+      "start": 14,
+      "end": 24,
+      "text": "количество"
+    }
+  },
+  {
+    "id": "d96c2671-3c95-4c1f-a56f-193fdae4dd93",
+    "name": "основные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e46d0b0c-7999-4fa3-9f77-8b6a174a094c",
+      "start": 5,
+      "end": 13,
+      "text": "основные"
+    }
+  },
+  {
+    "id": "76d436bd-27f2-4e18-8a76-efd4e7059d22",
+    "name": "некоторое",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "803e001e-6f20-4401-9b94-d4ecc221fb08",
+      "start": 11,
+      "end": 20,
+      "text": "некоторое"
+    }
+  },
+  {
+    "id": "116faee6-369d-45e4-8406-34da13666df8",
+    "name": "главные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6486c344-12c7-42c4-8e5d-7520649220bc",
+      "start": 49,
+      "end": 56,
+      "text": "главные"
+    }
+  },
+  {
+    "id": "84638093-db00-42dc-bf82-0f538c9036ab",
+    "name": "исследования дандела",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d3199d58-2882-474d-a88f-eb763994c2b0",
+      "start": 62,
+      "end": 82,
+      "text": "исследования дандела"
+    }
+  },
+  {
+    "id": "1f2c8614-cb8b-4a72-8eca-ab9e8eeb65d5",
+    "name": "биографию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1a9a8e1-9c7b-4af3-8244-094413d928b2",
+      "start": 11,
+      "end": 20,
+      "text": "биографию"
+    }
+  },
+  {
+    "id": "25d127f4-6d47-4f99-898e-54430b149e03",
+    "name": "основные достижения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6c08dd3b-83f2-4f7a-9be0-45f0761422b8",
+      "start": 54,
+      "end": 73,
+      "text": "основные достижения"
+    }
+  },
+  {
+    "id": "d5d10a10-2da5-4b1a-b8d4-4d3022138ef8",
+    "name": "успехи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8cfa656-1201-4997-8579-0df3341c6d2d",
+      "start": 0,
+      "end": 6,
+      "text": "успехи"
+    }
+  },
+  {
+    "id": "c063e14f-e417-41e7-96a5-1bc5bdd0f61c",
+    "name": "неудачи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8cfa656-1201-4997-8579-0df3341c6d2d",
+      "start": 8,
+      "end": 15,
+      "text": "неудачи"
+    }
+  },
+  {
+    "id": "cb4056ee-1472-4065-84f4-9d52a7cb80e1",
+    "name": "наследие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8cfa656-1201-4997-8579-0df3341c6d2d",
+      "start": 17,
+      "end": 25,
+      "text": "наследие"
+    }
+  },
+  {
+    "id": "3bc9d5d2-0339-4c38-a58d-1eaed92ae86b",
+    "name": "некоторые",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "695e3bc8-6a91-47a8-b575-5fec01b669d5",
+      "start": 11,
+      "end": 20,
+      "text": "некоторые"
+    }
+  },
+  {
+    "id": "25fafdb6-2931-458f-b043-52221b8da3d7",
+    "name": "расхлопы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9083764e-58a6-4da9-b498-33d3be87b8d5",
+      "start": 16,
+      "end": 24,
+      "text": "расхлопы"
+    }
+  },
+  {
+    "id": "4d7561ef-7845-479a-a76e-057b53e5ad8c",
+    "name": "кнопки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d3ab5419-122d-42df-88f3-d7883848a7f4",
+      "start": 24,
+      "end": 30,
+      "text": "кнопки"
+    }
+  },
+  {
+    "id": "86527e1e-896f-4f8f-85de-6a61452390d6",
+    "name": "информации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d3ab5419-122d-42df-88f3-d7883848a7f4",
+      "start": 71,
+      "end": 81,
+      "text": "информации"
+    }
+  },
+  {
+    "id": "d0be0900-d396-42a0-8d3e-7557f142b83a",
+    "name": "глав",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9123ccd-d8fa-4002-9408-1af0211f6ef6",
+      "start": 76,
+      "end": 80,
+      "text": "глав"
+    }
+  },
+  {
+    "id": "0767942b-6dff-419f-bfbb-6800b071dccc",
+    "name": "вкладки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88f0b122-97a3-4de7-84db-4e429d090114",
+      "start": 71,
+      "end": 78,
+      "text": "вкладки"
+    }
+  },
+  {
+    "id": "9c2e6126-d072-4c1e-bb86-ce9a085bddc1",
+    "name": "гору текста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fec6cdf4-b84f-4af4-8b81-b667dec29fcf",
+      "start": 27,
+      "end": 38,
+      "text": "гору текста"
+    }
+  },
+  {
+    "id": "ea4aa43e-d925-4cbd-88c4-7a924a21d54c",
+    "name": "функцию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1391ba98-0eeb-494e-98b3-fe8234746406",
+      "start": 34,
+      "end": 41,
+      "text": "функцию"
+    }
+  },
+  {
+    "id": "0b53da29-583b-4513-8be1-1b40d87638de",
+    "name": "бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8d2d54f-8b14-49a0-8575-e7fd59924009",
+      "start": 69,
+      "end": 89,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "8aca7031-5f84-471f-93a9-8c78a944b731",
+    "name": "бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3ce7e9db-bf27-4c24-83a5-9baba2601c38",
+      "start": 35,
+      "end": 55,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "36341c6c-1a6d-40e3-a2c2-ae8c00f55cdc",
+    "name": "время",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bfd1b282-4be2-4c14-bb03-1754e3f42720",
+      "start": 43,
+      "end": 48,
+      "text": "время"
+    }
+  },
+  {
+    "id": "fa1a2e7d-8a02-4e2a-a4ea-fb38b4361029",
+    "name": "прототип",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "164c7361-4269-4ff1-9fdf-3035a4fc562b",
+      "start": 41,
+      "end": 49,
+      "text": "прототип"
+    }
+  },
+  {
+    "id": "c902e91c-e670-42c6-a3a9-78024a02743c",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9fe8084b-cd8a-4cc8-9f17-eb125cb3c53c",
+      "start": 0,
+      "end": 10,
+      "text": "на пять минут"
+    }
+  },
+  {
+    "id": "2f8eab88-6a60-4041-ad68-639d7f231325",
+    "name": "расстановка сил от сражения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "427916d8-c5b7-4bcf-b9a8-538a5e5090fd",
+      "start": 43,
+      "end": 71,
+      "text": "расстановку сил от сражения"
+    }
+  },
+  {
+    "id": "a24ca5b6-1fe1-425e-9dad-5b22a4d0ef1f",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "censorship",
+        "value": "много цензуры",
+        "confidence": 0.8,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea99f039-74be-4312-b0b9-18517b54c685",
+      "start": 45,
+      "end": 52,
+      "text": "яндексу"
+    }
+  },
+  {
+    "id": "6acf3f9f-2288-4ff0-bd85-b06a2b1aa3e0",
+    "name": "цензура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea99f039-74be-4312-b0b9-18517b54c685",
+      "start": 88,
+      "end": 95,
+      "text": "цензуры"
+    }
+  },
+  {
+    "id": "353d8f68-c536-495f-b67a-9f81c7ead9f7",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "afc81805-699c-428f-8127-1d548ebcdc15",
+      "start": 47,
+      "end": 52,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "0ad5bb15-c680-43f3-a448-b7e582935d77",
+    "name": "точка зрения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b177a5a-5330-4477-a926-3513f4036806",
+      "start": 27,
+      "end": 39,
+      "text": "точка зрения"
+    }
+  },
+  {
+    "id": "60eddaa4-dba3-4ea4-aaea-d3cf34d47c5a",
+    "name": "история пишет победитель",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2c3e1a99-d6b0-4197-aec3-c8fec8426146",
+      "start": 14,
+      "end": 37,
+      "text": "история пишет победитель"
+    }
+  },
+  {
+    "id": "b7db2f6d-4af4-45c2-ba3c-c9bc8bf30cab",
+    "name": "устройство прототипа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd48ed75-923d-49a0-91d3-145589ccc900",
+      "start": 21,
+      "end": 41,
+      "text": "устройству вот этого прототипа"
+    }
+  },
+  {
+    "id": "7dedfc9e-2a76-40cb-ac12-a0a3b6ea3ae6",
+    "name": "росло",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "35631f3a-2d7e-4aa1-99ba-d150998c9f55",
+      "start": 5,
+      "end": 10,
+      "text": "росло"
+    }
+  },
+  {
+    "id": "c605741b-27eb-4671-acf8-020d3ef5fc8d",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "854eb9d4-735d-484b-b128-9a7c09c58bdf",
+      "start": 87,
+      "end": 92,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "b05951d1-19a3-458d-ac1a-c617ee76de6a",
+    "name": "память о наследии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3504d2c-98ef-41fd-b782-7288c2711c86",
+      "start": 21,
+      "end": 38,
+      "text": "память о наследии"
+    }
+  },
+  {
+    "id": "125d04e4-1dfc-4282-bf19-a40329475aa9",
+    "name": "наследие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1770aa04-f563-4c55-9d2e-03f3fd149780",
+      "start": 0,
+      "end": 8,
+      "text": "наследия"
+    }
+  },
+  {
+    "id": "de495b8b-2ad1-4983-a9a9-3afe150d75d3",
+    "name": "смартфон",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9bbf4b3-4acb-48f4-bb8b-0a6656409a8f",
+      "start": 26,
+      "end": 36,
+      "text": "смартфонами"
+    }
+  },
+  {
+    "id": "78149599-8b19-42a8-bf25-a5d5609c462d",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f87a2e2d-59c9-43a1-925c-c0604d733042",
+      "start": 47,
+      "end": 59,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "1934301e-fe4c-4d70-8747-b3953d6ec396",
+    "name": "обычный режим",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f87a2e2d-59c9-43a1-925c-c0604d733042",
+      "start": 74,
+      "end": 87,
+      "text": "обычного режима"
+    }
+  },
+  {
+    "id": "d5339533-4c9d-4b36-8155-4c99e5938e1e",
+    "name": "наруто",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "42ce928b-fd02-4ea4-8431-a3fd1f8a18c5",
+      "start": 16,
+      "end": 22,
+      "text": "наруто"
+    }
+  },
+  {
+    "id": "3d445bb0-fb3b-4c87-bc68-e038e26e1a65",
+    "name": "видео",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3363357-dac4-4ce2-8f38-b155212c3050",
+      "start": 37,
+      "end": 42,
+      "text": "видео"
+    }
+  }
+]

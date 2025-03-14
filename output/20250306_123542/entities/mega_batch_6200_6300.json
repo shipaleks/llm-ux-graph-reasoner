@@ -1,0 +1,940 @@
+[
+  {
+    "id": "6c19e0b7-217f-43ae-9f71-4b5cbf90de42",
+    "name": "Zoom",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2091974-7e39-4202-8d30-5bf57a0a1ca3",
+      "start": 3,
+      "end": 7,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "cba1ce3f-4901-48d7-82a2-4b891dada435",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2091974-7e39-4202-8d30-5bf57a0a1ca3",
+      "start": 19,
+      "end": 25,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "cc775cc7-a43f-4c4a-a1bd-dec608f9f32b",
+    "name": "шер",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2091974-7e39-4202-8d30-5bf57a0a1ca3",
+      "start": 76,
+      "end": 79,
+      "text": "шер"
+    }
+  },
+  {
+    "id": "1e651d0e-0d09-4f88-b6bd-2fc8588581a2",
+    "name": "поделиться",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2091974-7e39-4202-8d30-5bf57a0a1ca3",
+      "start": 86,
+      "end": 96,
+      "text": "поделиться"
+    }
+  },
+  {
+    "id": "7a4f7e5e-8949-43e5-8c65-5f46ab1c81ea",
+    "name": "поделиться",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97ebf959-acee-44c6-b095-26f7091ed7f9",
+      "start": 9,
+      "end": 19,
+      "text": "поделиться"
+    }
+  },
+  {
+    "id": "e7e9205e-ec66-4750-afbb-f446fa29ee85",
+    "name": "окно браузера",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bfce3836-6c89-4a7d-b08b-ae74adae221b",
+      "start": 54,
+      "end": 67,
+      "text": "окно браузера"
+    }
+  },
+  {
+    "id": "563227a5-bea1-4352-96e0-5ccbcb7f37a5",
+    "name": "грузится",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70ac4baf-63b6-49e9-861c-b091c6c3bd5d",
+      "start": 54,
+      "end": 62,
+      "text": "грузится"
+    }
+  },
+  {
+    "id": "d9a36029-58c0-423f-be61-c7c0b1aeb996",
+    "name": "грузится",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5c02c271-dbc0-46ae-b2b2-0daf21f39eff",
+      "start": 0,
+      "end": 8,
+      "text": "грузится"
+    }
+  },
+  {
+    "id": "48f90fd1-6766-4bd3-ac9e-dcd627ec919a",
+    "name": "грузится",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a852b654-84dd-4372-abd6-4042fa0c979b",
+      "start": 16,
+      "end": 24,
+      "text": "грузится"
+    }
+  },
+  {
+    "id": "289646d2-682e-4582-a276-d21a7e603b34",
+    "name": "рабочий стол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7838b8fb-43ee-405c-addd-0dd4cb215bf8",
+      "start": 19,
+      "end": 31,
+      "text": "рабочий стол"
+    }
+  },
+  {
+    "id": "be1e9761-a43a-4e03-8e32-49297d3ece03",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7838b8fb-43ee-405c-addd-0dd4cb215bf8",
+      "start": 54,
+      "end": 60,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "c209a0ce-249c-4836-aa55-114ce7f87e03",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7838b8fb-43ee-405c-addd-0dd4cb215bf8",
+      "start": 71,
+      "end": 79,
+      "text": "браузера"
+    }
+  },
+  {
+    "id": "15aa7ce5-9b0c-4366-b190-ee4d8928e752",
+    "name": "Дзен",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "64dfdf53-d39b-4de6-8395-444fe35b1fd2",
+      "start": 27,
+      "end": 31,
+      "text": "дзен"
+    }
+  },
+  {
+    "id": "36b19cc8-65b3-4d50-b53e-7c2240e13bb4",
+    "name": "главная страница",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "64dfdf53-d39b-4de6-8395-444fe35b1fd2",
+      "start": 36,
+      "end": 52,
+      "text": "главная страница"
+    }
+  },
+  {
+    "id": "ce6aff1b-c41b-49f1-a596-0fb4fc8f9513",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d3526a7-d7bd-46f7-8382-a25cfcd79c57",
+      "start": 45,
+      "end": 53,
+      "text": "запросов"
+    }
+  },
+  {
+    "id": "5c1782da-4ff9-42f2-b84a-b085e8464057",
+    "name": "комплектующие для компьютера",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f68da92f-155d-420c-b3de-c4642bec32d4",
+      "start": 36,
+      "end": 65,
+      "text": "комплектующими для компьютера"
+    }
+  },
+  {
+    "id": "7181ae18-b1ba-4605-8078-8ded503a7f46",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aaadcda4-4866-4522-82c1-2ec373b883b1",
+      "start": 27,
+      "end": 33,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "94bc84d5-ada0-47e5-84ed-3f1601c46bd7",
+    "name": "результаты поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b56b355-6079-4086-be19-0190ce2f0ed5",
+      "start": 38,
+      "end": 55,
+      "text": "результаты поиска"
+    }
+  },
+  {
+    "id": "0c6eea1b-b204-4560-97d7-4dd9e62876bf",
+    "name": "комплектующие",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e97bb8f-bb7c-4d6c-a1dc-f2ede10b9436",
+      "start": 95,
+      "end": 108,
+      "text": "комплектующие"
+    }
+  },
+  {
+    "id": "ef5eed59-9595-4e91-a6d6-caa4ba2d450c",
+    "name": "характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e97bb8f-bb7c-4d6c-a1dc-f2ede10b9436",
+      "start": 110,
+      "end": 124,
+      "text": "характеристики"
+    }
+  },
+  {
+    "id": "06b79f7c-8a15-491c-aced-52eb1a9fe5a2",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "02ca7462-ebde-4d09-9e07-c70103ad060d",
+      "start": 37,
+      "end": 43,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "a59d9dea-d0bd-4645-8ab9-9431247ee348",
+    "name": "новое поколение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "79554484-3c64-4620-ad2b-b01167dd335a",
+      "start": 22,
+      "end": 37,
+      "text": "новое поколение"
+    }
+  },
+  {
+    "id": "09ee0f9d-c68a-436d-95ee-b97edef73376",
+    "name": "сорок- восемьдесят",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26c0405e-6451-4a99-8e33-fe875e8520ab",
+      "start": 142,
+      "end": 160,
+      "text": "сорок- восемьдесят"
+    }
+  },
+  {
+    "id": "16b79056-42e6-4687-95a5-4a34b27e56b6",
+    "name": "нейросете",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26c0405e-6451-4a99-8e33-fe875e8520ab",
+      "start": 175,
+      "end": 185,
+      "text": "нейросете"
+    }
+  },
+  {
+    "id": "2ca1df0d-3b6e-4e73-acfe-2302f802d37f",
+    "name": "видеоигры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26c0405e-6451-4a99-8e33-fe875e8520ab",
+      "start": 193,
+      "end": 202,
+      "text": "видеоигры"
+    }
+  },
+  {
+    "id": "e8448245-2106-447d-a5c9-25d48bf0ecf0",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "351a012e-e202-4633-9c8d-82b6395776c7",
+      "start": 49,
+      "end": 55,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "c72ae72f-0b6b-4313-b881-677b96ff6fbd",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e71e62a0-5627-4db8-b219-4af806259032",
+      "start": 37,
+      "end": 43,
+      "text": "ютуба"
+    }
+  },
+  {
+    "id": "c520c51d-5cf0-45df-9674-4b2be37a973f",
+    "name": "блогеры-технологи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e71e62a0-5627-4db8-b219-4af806259032",
+      "start": 47,
+      "end": 64,
+      "text": "блогеров- технологов"
+    }
+  },
+  {
+    "id": "5449433f-fbf0-4bdc-b22a-79996144ea2b",
+    "name": "статьи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e7ac0f9a-b9d4-46b1-835b-9d5969f33b7a",
+      "start": 38,
+      "end": 44,
+      "text": "статьи"
+    }
+  },
+  {
+    "id": "41607226-3162-4535-9749-12c489b8db67",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e7ac0f9a-b9d4-46b1-835b-9d5969f33b7a",
+      "start": 79,
+      "end": 83,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "1e7b5f2c-e8a0-41cb-bd86-d31b6832189e",
+    "name": "видеокарты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "547c77d6-e6d5-4251-98d6-c78035736311",
+      "start": 58,
+      "end": 68,
+      "text": "видеокарты"
+    }
+  },
+  {
+    "id": "e5118e2e-7dc4-4514-a2be-50bba4abeb1d",
+    "name": "новое поколение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "547c77d6-e6d5-4251-98d6-c78035736311",
+      "start": 73,
+      "end": 88,
+      "text": "новое поколение"
+    }
+  },
+  {
+    "id": "d1097095-f0ef-41eb-af27-162c72b9e782",
+    "name": "новое поколение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ddada83-56a5-471d-b778-3726cb79abfb",
+      "start": 9,
+      "end": 24,
+      "text": "новое поколение"
+    }
+  },
+  {
+    "id": "3158154c-9636-42c1-9853-37599bf4db5f",
+    "name": "задача",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2e83db38-e329-40a6-97e2-39fdf73cecb5",
+      "start": 44,
+      "end": 50,
+      "text": "задача"
+    }
+  },
+  {
+    "id": "7290f247-109d-4f93-a994-3365aedc8fba",
+    "name": "сорок- восемьдесят",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b26d275a-5533-4432-9117-10162e5ff7d6",
+      "start": 11,
+      "end": 29,
+      "text": "сорок- восемьдесят"
+    }
+  },
+  {
+    "id": "93cb5b40-dcf3-47b1-a67d-bc04c89322b9",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0e95ff3f-7316-46b4-8204-41d5656c351d",
+      "start": 32,
+      "end": 37,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "ceb7fcea-a9ed-484f-8210-c9a3d861dacb",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77975932-a488-4d1e-98a8-f1498a7be6ec",
+      "start": 21,
+      "end": 27,
+      "text": "запросе"
+    }
+  },
+  {
+    "id": "54d83106-9eaa-4176-9a00-c926a9e925f4",
+    "name": "сорок восемьдесят",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2c851ca7-a4da-45c2-aa89-ff975bb5120e",
+      "start": 0,
+      "end": 16,
+      "text": "сорок восемьдесят"
+    }
+  },
+  {
+    "id": "72516d3a-3a76-42ad-8637-71073c3650ac",
+    "name": "пятьдесят восемьдесят",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d598cb57-0e38-4065-b49c-fc2744ec0603",
+      "start": 7,
+      "end": 28,
+      "text": "пятьдесят, восемьдесят"
+    }
+  },
+  {
+    "id": "66af7755-5e15-4bc0-b6d6-acb493b6cdff",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efc147af-0382-44b6-8158-9f6e18914e19",
+      "start": 36,
+      "end": 41,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "8edf4ca4-e238-4f85-b6e8-6315f4e2dcfe",
+    "name": "видеокарты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efc147af-0382-44b6-8158-9f6e18914e19",
+      "start": 163,
+      "end": 173,
+      "text": "видеокартах"
+    }
+  },
+  {
+    "id": "22f343e8-6244-4f56-8dcc-bd76a94489fe",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9d0e247e-bdb7-4be8-947e-6daf5cb58b2d",
+      "start": 47,
+      "end": 52,
+      "text": "сайте"
+    }
+  },
+  {
+    "id": "fff32feb-adb2-4e17-ba0a-996242c219d0",
+    "name": "характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f9f70764-c6aa-436f-8f09-b5427a63dfc9",
+      "start": 19,
+      "end": 33,
+      "text": "характеристики"
+    }
+  },
+  {
+    "id": "e83d774e-0464-4759-b4f9-5c3b9d5e105d",
+    "name": "видеокарты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f9f70764-c6aa-436f-8f09-b5427a63dfc9",
+      "start": 38,
+      "end": 48,
+      "text": "видеокарты"
+    }
+  },
+  {
+    "id": "a8317dca-f290-4be2-a593-0d1f2949b08e",
+    "name": "основные детали",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb2859b5-66b4-4d6a-a30a-6ce3fbd0b122",
+      "start": 11,
+      "end": 26,
+      "text": "основных деталей"
+    }
+  },
+  {
+    "id": "20bf384f-350c-4b36-a603-0b6037ba0140",
+    "name": "подробные характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb2859b5-66b4-4d6a-a30a-6ce3fbd0b122",
+      "start": 28,
+      "end": 53,
+      "text": "подробные характеристики"
+    }
+  },
+  {
+    "id": "92402f50-312f-429b-bca7-a63d3e5ec889",
+    "name": "объем памяти",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a7a2a2c-f5a5-43e1-961c-ae89fd847e61",
+      "start": 11,
+      "end": 23,
+      "text": "объем памяти"
+    }
+  },
+  {
+    "id": "a7edb2cf-19b6-4fe5-9f92-3a29025394fc",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f04d65e-af9d-4d61-a1d1-04bc77460997",
+      "start": 29,
+      "end": 34,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "7a0a0c85-3efc-4722-9a0e-d9aa0d633601",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a536785-1bea-4cd2-a97d-d69e481b598d",
+      "start": 36,
+      "end": 42,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "1df3d172-9b06-4863-a1d8-dc7541f57a10",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8fe4e1cd-c9f7-4d54-afe8-3bcd4e0168d8",
+      "start": 64,
+      "end": 70,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "3ed4e1fc-fcbe-445e-adaa-372988c121c7",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a12998b6-8b91-4db8-b1d2-5c8f14359e49",
+      "start": 111,
+      "end": 116,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "251f086b-711f-4d5a-a413-e6e2f0f67347",
+    "name": "запросе",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a12998b6-8b91-4db8-b1d2-5c8f14359e49",
+      "start": 131,
+      "end": 138,
+      "text": "запросе"
+    }
+  },
+  {
+    "id": "96b8a625-decd-4854-8dc7-af733af0fbb3",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "488e52cb-1bfc-4baa-b8d4-ce47a5fa8614",
+      "start": 28,
+      "end": 34,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "acff2c1a-6fa9-45e4-8c6f-8717aeea321b",
+    "name": "ресурсы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea8b8b16-aece-4eac-92d9-1f821f442a12",
+      "start": 76,
+      "end": 83,
+      "text": "ресурсы"
+    }
+  },
+  {
+    "id": "e5302420-fd53-4eb4-bc53-e8ab5f6f407b",
+    "name": "найро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ebbff339-385b-4fd4-9b49-e28c83f8f60a",
+      "start": 19,
+      "end": 24,
+      "text": "найро"
+    }
+  },
+  {
+    "id": "5f698b59-860c-4925-9b12-e1aa3344bcd4",
+    "name": "видеокарта",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eef3a317-b7ad-4979-a1f4-1b626be82845",
+      "start": 8,
+      "end": 18,
+      "text": "видеокарта"
+    }
+  },
+  {
+    "id": "e0e7b498-cb98-4f01-9d3c-49e0f83f1d14",
+    "name": "технические термины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3ecf7c2d-c711-4511-86d7-3f14d7c9a738",
+      "start": 28,
+      "end": 47,
+      "text": "технических терминах"
+    }
+  },
+  {
+    "id": "54589e3b-0f5e-4a87-a535-4b8d5ec3f10c",
+    "name": "карта",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6539116c-23b0-4002-af1f-080ec7ba0889",
+      "start": 12,
+      "end": 17,
+      "text": "карта"
+    }
+  },
+  {
+    "id": "ed0905e6-e5db-476e-973f-1ea7f53ae025",
+    "name": "работа с графикой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6539116c-23b0-4002-af1f-080ec7ba0889",
+      "start": 39,
+      "end": 56,
+      "text": "работе с графикой"
+    }
+  },
+  {
+    "id": "140d421b-9baa-4e19-989e-62f4183c3c41",
+    "name": "архитектор",
+    "type": "profession",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a4b20d14-131e-40bb-9920-f4bcd31952af",
+      "start": 36,
+      "end": 46,
+      "text": "архитектор"
+    }
+  },
+  {
+    "id": "8816187b-2993-4ce5-a200-04d820f2ef66",
+    "name": "три д модели",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bca44b87-d419-41c9-a007-f34c02fe5376",
+      "start": 8,
+      "end": 20,
+      "text": "три д модели"
+    }
+  },
+  {
+    "id": "2880e1c4-d83f-4c2a-8233-4c05b7c8ef59",
+    "name": "гугл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d056213f-15a3-4e74-ae31-b16eae21ff50",
+      "start": 18,
+      "end": 23,
+      "text": "гугле"
+    }
+  },
+  {
+    "id": "3fbf77e4-e183-4876-91dd-68d8ad2d6ebd",
+    "name": "инженерной видеокарты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c30fd92c-e12c-43ca-b0e7-f00f7f7c1e99",
+      "start": 24,
+      "end": 45,
+      "text": "инженерной видеокарты"
+    }
+  },
+  {
+    "id": "ccfada15-f813-4fd7-b195-b10545caa68e",
+    "name": "архитектура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73917795-3f91-4c87-87cf-2b7882f3f61b",
+      "start": 34,
+      "end": 45,
+      "text": "архитектурой"
+    }
+  },
+  {
+    "id": "ff52f177-b47b-4067-a77e-8a08ee715518",
+    "name": "архитектура",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01250991-a6a2-4f82-b19d-8a265f49ca17",
+      "start": 79,
+      "end": 90,
+      "text": "архитектуре"
+    }
+  },
+  {
+    "id": "ed93d18c-0f10-44e4-af35-feddc4b87aa4",
+    "name": "блендер",
+    "type": "software",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01250991-a6a2-4f82-b19d-8a265f49ca17",
+      "start": 112,
+      "end": 119,
+      "text": "блендер"
+    }
+  },
+  {
+    "id": "ca7d6318-33d3-4161-ba89-f323af7246f5",
+    "name": "симуляции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01250991-a6a2-4f82-b19d-8a265f49ca17",
+      "start": 130,
+      "end": 139,
+      "text": "симуляции"
+    }
+  }
+]

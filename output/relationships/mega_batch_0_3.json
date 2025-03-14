@@ -1,0 +1,82 @@
+[
+  {
+    "id": "b6ae395e-1143-4041-b0ab-8cf1bb46d2a8",
+    "source_id": "f84a165f-0608-43ed-86dd-bbe2347e1aff",
+    "target_id": "1a518588-36bb-426d-8820-e265900dbb25",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22e00e41-ba10-47ef-8223-7e6ace8ecf78",
+      "start": 26,
+      "end": 42,
+      "text": "использую в яндексе"
+    }
+  },
+  {
+    "id": "2fca7d2f-05fa-4afa-8908-ddbc7a6bf50b",
+    "source_id": "fbba2eac-48c6-418a-9390-1ff51c0e7a53",
+    "target_id": "47e1bded-59ec-4d96-8dc3-2643435a310c",
+    "type": "IS_A",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bedf1f0e-56a1-40d8-bc0b-68b653a2a482",
+      "start": 13,
+      "end": 26,
+      "text": "музыка, яндекс музыка"
+    }
+  },
+  {
+    "id": "345e05a3-83fc-49d9-8d4b-d7b8526f2c23",
+    "source_id": "f02467a2-aa70-40e2-841f-d8d18b13d4df",
+    "target_id": "f02467a2-aa70-40e2-841f-d8d18b13d4df",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e5924cf-b2d7-4ee4-8d31-4a30641d6e94",
+      "start": 0,
+      "end": 23,
+      "text": "яндекс пэй иногда использую"
+    }
+  },
+  {
+    "id": "8faf4a68-2dde-45fa-a9de-8172d5060330",
+    "source_id": "2f596e4c-28d3-415b-9a2f-bed143fc557f",
+    "target_id": "2f596e4c-28d3-415b-9a2f-bed143fc557f",
+    "type": "DOES_NOT_USE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e5924cf-b2d7-4ee4-8d31-4a30641d6e94",
+      "start": 25,
+      "end": 44,
+      "text": "маркетом не пользуюсь"
+    }
+  },
+  {
+    "id": "70d061b7-e028-4070-a050-e4fee786bec6",
+    "source_id": "f68be1e2-e90a-43a3-a529-4b4a6a33bf70",
+    "target_id": "f68be1e2-e90a-43a3-a529-4b4a6a33bf70",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e5924cf-b2d7-4ee4-8d31-4a30641d6e94",
+      "start": 46,
+      "end": 60,
+      "text": "такси пользуюсь"
+    }
+  }
+]

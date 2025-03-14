@@ -1,0 +1,268 @@
+[
+  {
+    "id": "adbbc8c0-8991-4a51-890f-247c320cbed3",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98f9495d-4561-48f7-bf58-ff4ec73694b2",
+      "start": 20,
+      "end": 26,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "5b81076b-9afd-4ee7-881a-eb3b2add5545",
+    "name": "поисковиками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aab6b799-0086-4110-a0c7-72cca758b285",
+      "start": 123,
+      "end": 135,
+      "text": "поисковиками"
+    }
+  },
+  {
+    "id": "a997d28c-e141-4e6f-950a-5aea4defc809",
+    "name": "леша",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b985135-30a4-4af4-820e-4f254185f95e",
+      "start": 0,
+      "end": 4,
+      "text": "леша"
+    }
+  },
+  {
+    "id": "3731f2fe-1ac7-43ba-825a-e0290dbe2b28",
+    "name": "зум",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e00dbd7d-d04b-4386-ada4-462706b8b063",
+      "start": 41,
+      "end": 44,
+      "text": "зум"
+    }
+  },
+  {
+    "id": "a24b4777-f165-42ad-a84d-792e92b8bfb6",
+    "name": "зума",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e72166d-3256-4eb6-8af1-9a003cb39cc1",
+      "start": 49,
+      "end": 53,
+      "text": "зума"
+    }
+  },
+  {
+    "id": "05711128-5b75-432f-a9ab-55d72022fd40",
+    "name": "даша",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f90da3ec-b34c-42f1-ac08-8ce25177df8a",
+      "start": 12,
+      "end": 16,
+      "text": "даша"
+    }
+  },
+  {
+    "id": "620379a6-90a2-41bf-b1e1-3f2b591a791f",
+    "name": "саратове",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f90da3ec-b34c-42f1-ac08-8ce25177df8a",
+      "start": 41,
+      "end": 49,
+      "text": "саратове"
+    }
+  },
+  {
+    "id": "aa0b7921-74b4-4cdf-8257-7509ed8d4c45",
+    "name": "заводе промышленного газового оборудования",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f90da3ec-b34c-42f1-ac08-8ce25177df8a",
+      "start": 61,
+      "end": 105,
+      "text": "заводе промышленного газового оборудования"
+    }
+  },
+  {
+    "id": "e8b146a1-7f73-4ac6-afcc-b8cad0aa8809",
+    "name": "технические условия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac5251c2-d779-4d70-b925-45052175ab84",
+      "start": 32,
+      "end": 50,
+      "text": "технические условия"
+    }
+  },
+  {
+    "id": "8cf68e23-a37e-41df-888b-963e1d4621a2",
+    "name": "газовые приборы",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac5251c2-d779-4d70-b925-45052175ab84",
+      "start": 54,
+      "end": 69,
+      "text": "газовые приборы"
+    }
+  },
+  {
+    "id": "ce28e8d0-4af9-44af-b48e-b1f977da37e3",
+    "name": "менеджер системы менеджмента качества",
+    "type": "job_title",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9319b1d3-c4db-4126-89ff-4b2098715ab6",
+      "start": 27,
+      "end": 64,
+      "text": "менеджер системы менеджмента качества"
+    }
+  },
+  {
+    "id": "a12136d2-73d3-4293-b5c0-f58565c120c2",
+    "name": "преподавателя эстрадно- джазового пения",
+    "type": "job_title",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb83502f-3560-405e-8910-7227925af221",
+      "start": 17,
+      "end": 57,
+      "text": "преподавателя эстрадно- джазового пения"
+    }
+  },
+  {
+    "id": "ea3413b4-b981-46eb-89b1-9a5fa7b03eae",
+    "name": "учредитель этого завода",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "926efcdd-7bcc-4ee7-8853-a968747726c5",
+      "start": 4,
+      "end": 27,
+      "text": "учредитель этого завода"
+    }
+  },
+  {
+    "id": "b68cca03-01d4-4bdc-a66c-fca38b38ba73",
+    "name": "занятия по вокалу",
+    "type": "activity",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "926efcdd-7bcc-4ee7-8853-a968747726c5",
+      "start": 37,
+      "end": 55,
+      "text": "занятия по вокалу"
+    }
+  },
+  {
+    "id": "24dc3cf3-91a7-4ee2-b3c2-c98ac4587706",
+    "name": "Яндексом",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0f09fa5-a006-4af1-9000-8d1f9d0b04a5",
+      "start": 18,
+      "end": 26,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "b6788974-6709-49af-a6a2-959147e0dfd5",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ac67957-8c51-43d3-bb7f-6048ff4b9b4a",
+      "start": 34,
+      "end": 40,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "71705e4e-8419-48f5-955d-b41119c9b4af",
+    "name": "чат g пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "078b724b-e1d6-4b39-9a21-a2a8dcf0da85",
+      "start": 12,
+      "end": 22,
+      "text": "чат g пяти"
+    }
+  },
+  {
+    "id": "1b64c4a3-87f7-411d-804f-01fd964aa767",
+    "name": "джипек",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eca4191d-57b1-43a5-a8a9-3c9f5b142c99",
+      "start": 23,
+      "end": 29,
+      "text": "джипек"
+    }
+  },
+  {
+    "id": "02f31c7c-ac29-4375-b956-9e74d9d329b0",
+    "name": "пдф",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eca4191d-57b1-43a5-a8a9-3c9f5b142c99",
+      "start": 32,
+      "end": 35,
+      "text": "пдф"
+    }
+  }
+]

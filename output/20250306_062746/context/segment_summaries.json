@@ -1,0 +1,68 @@
+{
+  "1d59ab78-c2f8-4f57-925e-0ef8e0493f91": {
+    "id": "1d59ab78-c2f8-4f57-925e-0ef8e0493f91",
+    "title": "TechnoInnovaции, Global Systems Partnership",
+    "summary": "Компания \"ТехноИнновации\" и \"Глобал Системс\" объявили о партнерстве для работы над \"Проектом Альфа\", направленным на разработку решений в области искусственного интеллекта для здравоохранения с бюджетом 300 миллионов рублей.",
+    "key_points": [
+      "Партнерство между \"ТехноИнновации\" и \"Глобал Системс\"",
+      "Проект Альфа: разработка AI решений для здравоохранения",
+      "Бюджет проекта: 300 миллионов рублей",
+      "Объявление о партнерстве: 15 января 2023 года",
+      "Генеральный директор \"Глобал Системс\": Алексей Смирнов"
+    ],
+    "role": "Детализация",
+    "parent_relation": null
+  },
+  "8a7a9663-7f12-44f9-b14d-51e48ad6019e": {
+    "id": "8a7a9663-7f12-44f9-b14d-51e48ad6019e",
+    "title": "ТехноИнновации: Руководство и информация",
+    "summary": "Иван Петров является генеральным директором компании \"ТехноИнновации\", основанной в 2010 году и расположенной в Москве.",
+    "key_points": [
+      "Иван Петров - генеральный директор",
+      "Компания называется \"ТехноИнновации\"",
+      "Компания основана в 2010 году",
+      "Компания находится в Москве"
+    ],
+    "role": "Введение",
+    "parent_relation": null
+  },
+  "3273a2fe-29e6-4539-95b6-d368126a2c6b": {
+    "id": "3273a2fe-29e6-4539-95b6-d368126a2c6b",
+    "title": "Мария Сидорова: Технический директор",
+    "summary": "Мария Сидорова является техническим директором компании \"ТехноИнновации\" с 2015 года, ранее работала в компании \"ИТ-Решения\". Это демонстрирует ее опыт и квалификацию в сфере технологий.",
+    "key_points": [
+      "Мария Сидорова - технический директор \"ТехноИнновации\"",
+      "Работает в компании с 2015 года",
+      "Имеет опыт работы в \"ИТ-Решения\"",
+      "Занимала должность ведущего разработчика"
+    ],
+    "role": "background",
+    "parent_relation": "Предоставляет информацию о ключевом сотруднике компании \"ТехноИнновации\", дополняя информацию о генеральном директоре и истории компании."
+  },
+  "bf173813-5bb4-400a-bbb1-94bcd4bd1c58": {
+    "id": "bf173813-5bb4-400a-bbb1-94bcd4bd1c58",
+    "title": "TechnoInnovations Partners with Global Systems",
+    "summary": "TechnoInnovations, led by CEO Ivan Petrov, partnered with Global Systems for Project Alpha, as announced on January 15, 2023.",
+    "key_points": [
+      "TechnoInnovations partnered with Global Systems.",
+      "The partnership is for 'Project Alpha'.",
+      "Announcement date: January 15, 2023.",
+      "Ivan Petrov announced the partnership."
+    ],
+    "role": "Event Announcement",
+    "parent_relation": "Illustrates TechnoInnovations' activities and strategic direction under Ivan Petrov's leadership."
+  },
+  "ad6adc56-81f1-44c2-9e27-ee2949a2942e": {
+    "id": "ad6adc56-81f1-44c2-9e27-ee2949a2942e",
+    "title": "AI Healthcare Project in St. Petersburg",
+    "summary": "Global Systems, led by Alexey Smirnov in St. Petersburg, is undertaking a 300 million ruble AI healthcare project.",
+    "key_points": [
+      "Project focuses on AI solutions for healthcare.",
+      "Budget is 300 million rubles.",
+      "Global Systems is based in St. Petersburg.",
+      "Alexey Smirnov is the CEO of Global Systems."
+    ],
+    "role": "Example",
+    "parent_relation": "Provides a contrasting example of another company (Global Systems) and its project, differing from TechnoInnovations in location and focus, but also involved in technological innovation."
+  }
+}

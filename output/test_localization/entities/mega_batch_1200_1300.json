@@ -1,0 +1,324 @@
+[
+  {
+    "id": "75ee1f4f-9304-4990-b90d-fb32b6f60ccc",
+    "name": "Бородинское сражение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "451f0da2-1ede-448f-9f17-a3cbaaf79dcb",
+      "start": 89,
+      "end": 110,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "978961c4-9927-4f48-9b0e-172297292fc6",
+    "name": "Бородинское сражение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b8ee0954-58dd-4e07-a0d9-4afbabb705c3",
+      "start": 31,
+      "end": 52,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "b2cedc22-d977-4014-9885-66e12332eb9f",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c604c903-4a00-4fd4-8837-bbdee997f536",
+      "start": 21,
+      "end": 31,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "59256e52-30c6-4860-9c52-4ac1ecd1b24d",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b64793b1-ad54-4d5e-8bcb-3844bbd63680",
+      "start": 62,
+      "end": 72,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "c1d8b203-3961-4733-9c63-4e302001ea67",
+    "name": "пять минут",
+    "type": "time",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "baa42b77-ad44-43d6-8b54-5fb20149534d",
+      "start": 4,
+      "end": 14,
+      "text": "пять минут"
+    }
+  },
+  {
+    "id": "76639c82-c022-43e9-8ae6-bcf2c2b28285",
+    "name": "расстановка сил от сражения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4468a68c-5e1b-4c91-828d-061aecee525e",
+      "start": 62,
+      "end": 90,
+      "text": "расстановку сил от сражения"
+    }
+  },
+  {
+    "id": "ab049daa-b5c5-4583-becb-88fde23ed43d",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "84dff552-bc4a-41dc-9f4b-6b2e52bccf3e",
+      "start": 47,
+      "end": 53,
+      "text": "яндексу"
+    }
+  },
+  {
+    "id": "738e96b2-ec27-42db-8259-e98f6a54f70c",
+    "name": "игрок",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "29e87237-0b1a-4ac9-87db-a95859e473ad",
+      "start": 65,
+      "end": 70,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "5d74fac4-8f7b-41ff-9a72-90ef83160800",
+    "name": "история пишет победитель",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "878ae1a8-fb38-40dc-8929-2ae70b412013",
+      "start": 15,
+      "end": 39,
+      "text": "история пишет победитель"
+    }
+  },
+  {
+    "id": "1f28302d-1e5e-4655-b16d-c2c5f2762540",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d56cdca-1a47-4be6-8b03-205f85285c3e",
+      "start": 112,
+      "end": 117,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "d275c15f-2776-4bd0-8ca3-225d13760d49",
+    "name": "наруто",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93667d0f-904b-4e43-9cf5-53a99840b4ca",
+      "start": 17,
+      "end": 23,
+      "text": "наруто"
+    }
+  },
+  {
+    "id": "31ea67df-4b83-4e2b-a68f-47495f3a0e55",
+    "name": "россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23aaf278-fee5-4108-80d5-d7e7f173ed4e",
+      "start": 16,
+      "end": 22,
+      "text": "россия"
+    }
+  },
+  {
+    "id": "e3e022e0-ffef-4a3a-9abb-e539c8310d13",
+    "name": "франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23aaf278-fee5-4108-80d5-d7e7f173ed4e",
+      "start": 35,
+      "end": 42,
+      "text": "франция"
+    }
+  },
+  {
+    "id": "7b0904f0-49a4-4fb0-9343-d1f635eedac9",
+    "name": "франции",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb2f67d1-e61a-463e-b4e2-81b51b0b48ec",
+      "start": 67,
+      "end": 74,
+      "text": "франции"
+    }
+  },
+  {
+    "id": "955b263f-2677-4160-89e0-f64500f39f8a",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5084dda9-c07f-4aeb-bd0c-ea68efed732a",
+      "start": 22,
+      "end": 30,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "48bb110a-7f8b-4d69-8a4e-a8aa12aaf5a2",
+    "name": "бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5084dda9-c07f-4aeb-bd0c-ea68efed732a",
+      "start": 104,
+      "end": 125,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "40e4b2db-060e-4135-8a38-b17330a73420",
+    "name": "росс",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5084dda9-c07f-4aeb-bd0c-ea68efed732a",
+      "start": 134,
+      "end": 138,
+      "text": "росс"
+    }
+  },
+  {
+    "id": "790448c4-33ac-491e-b262-4acbb333472c",
+    "name": "бородинском сражении",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bb20f28a-e164-445d-9b9e-9e1eea0c7e8d",
+      "start": 15,
+      "end": 36,
+      "text": "бородинском сражении"
+    }
+  },
+  {
+    "id": "e9d4a62c-2bcb-4181-b7f7-7b94fcba0132",
+    "name": "российская армия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bb20f28a-e164-445d-9b9e-9e1eea0c7e8d",
+      "start": 45,
+      "end": 61,
+      "text": "российская армия"
+    }
+  },
+  {
+    "id": "ecdc5ece-6f96-4f5d-be28-8c8460384960",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bb20f28a-e164-445d-9b9e-9e1eea0c7e8d",
+      "start": 93,
+      "end": 101,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "cadacd02-b44c-4d5a-9fa5-29b9ca2a7d31",
+    "name": "рф",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bafcfa92-085a-4c09-85bd-699bd12661f8",
+      "start": 47,
+      "end": 49,
+      "text": "рф"
+    }
+  },
+  {
+    "id": "177acf91-adf4-4760-92bf-221feb4150ac",
+    "name": "ней",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e68292b-491a-41cf-a087-fd8697eff1ea",
+      "start": 2,
+      "end": 5,
+      "text": "ней"
+    }
+  },
+  {
+    "id": "7b349554-6808-4da1-9a47-5b035b3ce376",
+    "name": "казань",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af5a3095-d74c-4845-b7cd-292d54b9da09",
+      "start": 27,
+      "end": 33,
+      "text": "казань"
+    }
+  }
+]

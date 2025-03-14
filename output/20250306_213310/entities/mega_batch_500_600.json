@@ -1,0 +1,674 @@
+[
+  {
+    "id": "b56b2c1d-a794-4daf-b116-296213e73d1a",
+    "name": "матч прошел недавно баскетбольный ликерс даллас",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3281fad9-9e49-4c89-b7d2-702678675a75",
+      "start": 10,
+      "end": 61,
+      "text": "матч прошел недавно баскетбольный ликерс даллас"
+    }
+  },
+  {
+    "id": "64a44331-82b2-4f77-92d2-2d24fea1e043",
+    "name": "ликерс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3281fad9-9e49-4c89-b7d2-702678675a75",
+      "start": 41,
+      "end": 47,
+      "text": "ликерс"
+    }
+  },
+  {
+    "id": "f6041c1e-6229-489f-b76d-178df3cfba93",
+    "name": "даллас",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3281fad9-9e49-4c89-b7d2-702678675a75",
+      "start": 48,
+      "end": 54,
+      "text": "даллас"
+    }
+  },
+  {
+    "id": "8bfc7fe7-f4d9-4a58-92bc-e269a0cbcaea",
+    "name": "статистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "87df8948-de5f-4f19-a6a4-4d1b64645d29",
+      "start": 0,
+      "end": 10,
+      "text": "статистика"
+    }
+  },
+  {
+    "id": "2d1a7c1e-7293-45f7-b1dc-5aabb3366a4c",
+    "name": "матча статистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1fe2ed42-56d2-48f3-bb57-9629982a5253",
+      "start": 21,
+      "end": 37,
+      "text": "матча статистика"
+    }
+  },
+  {
+    "id": "1c78dc45-ad7e-4b5c-8479-b85fced0da57",
+    "name": "табличка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e3deb187-55fd-4232-94f7-8cc0c21a022d",
+      "start": 0,
+      "end": 8,
+      "text": "табличка"
+    }
+  },
+  {
+    "id": "0f26d25b-3693-43dd-9bf4-21738b835e55",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "56015d91-ca77-4fc6-9acb-af958c186365",
+      "start": 24,
+      "end": 29,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "553ba7bd-c47a-4ff4-8372-0d554423fa06",
+    "name": "статистику",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4a464ea9-3e8c-4463-af40-8db7cd7c1f86",
+      "start": 69,
+      "end": 79,
+      "text": "статистику"
+    }
+  },
+  {
+    "id": "2bfb62d1-b7f6-4f32-a353-5026e9b3b7bf",
+    "name": "табличной форме",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4a464ea9-3e8c-4463-af40-8db7cd7c1f86",
+      "start": 88,
+      "end": 102,
+      "text": "табличной форме"
+    }
+  },
+  {
+    "id": "5047cfbf-0cff-4b4b-987b-2f2f57d8c122",
+    "name": "результат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e05ede66-5553-4594-96e9-5d26c78badcd",
+      "start": 21,
+      "end": 29,
+      "text": "результат"
+    }
+  },
+  {
+    "id": "b25f3676-fc2c-4c0c-884b-06a945b0069e",
+    "name": "дата",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e05ede66-5553-4594-96e9-5d26c78badcd",
+      "start": 31,
+      "end": 35,
+      "text": "дата"
+    }
+  },
+  {
+    "id": "7436ca34-124e-475a-bb9b-dae665aa321f",
+    "name": "таблица",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e05ede66-5553-4594-96e9-5d26c78badcd",
+      "start": 55,
+      "end": 62,
+      "text": "таблица"
+    }
+  },
+  {
+    "id": "c6eb0643-4d45-4fff-8ddc-cbcf7816e9dd",
+    "name": "минуты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 21,
+      "end": 27,
+      "text": "минуты"
+    }
+  },
+  {
+    "id": "0bc5c4bb-98e2-40af-a354-0ec3b61c3601",
+    "name": "броски",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 29,
+      "end": 35,
+      "text": "броски"
+    }
+  },
+  {
+    "id": "aeda97ca-63fb-41ec-a3de-04431fb9b086",
+    "name": "подпоры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 37,
+      "end": 44,
+      "text": "подпоры"
+    }
+  },
+  {
+    "id": "1aaaa739-9e9b-44d1-bf26-5247974c91c1",
+    "name": "кнопка назад",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2fb3c391-3aa9-44ba-9607-2e36bed03f48",
+      "start": 0,
+      "end": 12,
+      "text": "кнопка назад"
+    }
+  },
+  {
+    "id": "35909fb3-a7b7-4bda-81f4-373648fe89c9",
+    "name": "табличка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "16a73ed6-a986-4b1f-8e09-43899c931503",
+      "start": 47,
+      "end": 55,
+      "text": "табличка"
+    }
+  },
+  {
+    "id": "e87c69b2-7425-4e55-95b1-34cd501b9e89",
+    "name": "статистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d6017daa-a89a-4ecd-9346-bbdcab895eb3",
+      "start": 12,
+      "end": 22,
+      "text": "статистика"
+    }
+  },
+  {
+    "id": "4bf44c85-0a9c-49f2-9754-fdde2eb12eaa",
+    "name": "запрос спортивный",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b88d7786-9602-4ddd-915e-159596ba39c1",
+      "start": 21,
+      "end": 37,
+      "text": "запрос спортивный"
+    }
+  },
+  {
+    "id": "4d2440c5-9ab7-46c2-8291-25e1b34bf846",
+    "name": "статистики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1c42f8b8-10f4-424f-a12b-3d18594c8fd1",
+      "start": 54,
+      "end": 64,
+      "text": "статистики"
+    }
+  },
+  {
+    "id": "11fe6763-ae11-41b6-b4ed-d9a2d8f71879",
+    "name": "сравнить",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7b605eb4-74df-4ecf-aebf-40ee8345b6ab",
+      "start": 54,
+      "end": 62,
+      "text": "сравнить"
+    }
+  },
+  {
+    "id": "7aa125a3-ef95-47e1-9e72-029986136874",
+    "name": "выбрать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "be1d9653-82b5-41ee-b2ab-1a9619b04b68",
+      "start": 10,
+      "end": 17,
+      "text": "выбрать"
+    }
+  },
+  {
+    "id": "7aa4fb2a-d70c-4bf2-9edd-d21c1d6b3f34",
+    "name": "вещами",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "be1d9653-82b5-41ee-b2ab-1a9619b04b68",
+      "start": 23,
+      "end": 29,
+      "text": "вещами"
+    }
+  },
+  {
+    "id": "40c2937b-515a-41dd-b2d2-96deb1c412e3",
+    "name": "местами",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "be1d9653-82b5-41ee-b2ab-1a9619b04b68",
+      "start": 33,
+      "end": 40,
+      "text": "местами"
+    }
+  },
+  {
+    "id": "44073872-97e3-49c4-b129-15ce37347007",
+    "name": "смартфоны мировых",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "040cda98-9114-41c3-99e0-2982ce77b2dc",
+      "start": 19,
+      "end": 36,
+      "text": "смартфоны мировых"
+    }
+  },
+  {
+    "id": "85011aa5-c383-4ead-a4e3-b0a5043f7a29",
+    "name": "смартфонам",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "040cda98-9114-41c3-99e0-2982ce77b2dc",
+      "start": 46,
+      "end": 56,
+      "text": "смартфонам"
+    }
+  },
+  {
+    "id": "0f96c1fb-da72-4d07-a649-9a75e6b3640d",
+    "name": "десять смартфонов",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "883c61f9-9efe-441d-b14f-85fb2e633d94",
+      "start": 16,
+      "end": 33,
+      "text": "десять смартфонов"
+    }
+  },
+  {
+    "id": "f6e0d68c-445d-4d55-8719-77f34d670b30",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7a1dcbb9-c913-4aff-869b-1c06033288a9",
+      "start": 6,
+      "end": 14,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "66bc381e-51ff-4640-93a8-1dd0ee3e34cc",
+    "name": "параметры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7a1dcbb9-c913-4aff-869b-1c06033288a9",
+      "start": 81,
+      "end": 90,
+      "text": "параметры"
+    }
+  },
+  {
+    "id": "320d5a3d-e237-4dbc-b99f-32d0105e9d80",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a5579860-9b82-414c-87a6-66bf6c2fc35a",
+      "start": 12,
+      "end": 20,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "11483973-dfef-419d-a902-815c5af39527",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "68c229da-853c-4c59-96b2-34e62eed478b",
+      "start": 0,
+      "end": 8,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "0a1a4ef3-47b1-4952-851c-6137a31fc581",
+    "name": "параметр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "68c229da-853c-4c59-96b2-34e62eed478b",
+      "start": 10,
+      "end": 18,
+      "text": "параметр"
+    }
+  },
+  {
+    "id": "27c8a6cb-d913-4068-895f-106936fb3ca9",
+    "name": "параметры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5907a0c9-739f-4130-834c-60196d690c8f",
+      "start": 14,
+      "end": 23,
+      "text": "параметры"
+    }
+  },
+  {
+    "id": "d0253992-ce5d-4fb9-a938-9d5a92be02ab",
+    "name": "амали процессор",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2435cc2a-81c3-4ba9-87d4-5ac8dc48be8c",
+      "start": 12,
+      "end": 27,
+      "text": "амали процессор"
+    }
+  },
+  {
+    "id": "9a6f6eaa-3dff-4570-b63b-2cb816062ea1",
+    "name": "смартфон",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6f6fa197-1390-405d-955d-49abf1b68833",
+      "start": 10,
+      "end": 19,
+      "text": "смартфону"
+    }
+  },
+  {
+    "id": "2e14693a-9ebc-4466-aa0b-3b8dde4e02c1",
+    "name": "дисплей",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6f6fa197-1390-405d-955d-49abf1b68833",
+      "start": 33,
+      "end": 41,
+      "text": "дисплеем"
+    }
+  },
+  {
+    "id": "4a72f8d8-7136-43ba-9944-a2edbec16596",
+    "name": "камера",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6f6fa197-1390-405d-955d-49abf1b68833",
+      "start": 53,
+      "end": 60,
+      "text": "камерой"
+    }
+  },
+  {
+    "id": "de9eb638-29b3-4d59-a640-5e9e772e80c0",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "42da6956-5fc6-47dd-9877-f7bdc3c17cd6",
+      "start": 0,
+      "end": 4,
+      "text": "цена"
+    }
+  },
+  {
+    "id": "1e099639-b542-4e79-ba8b-14b4ffd5dda1",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "63c8b175-d02f-43a4-8ba0-b17f3de93c61",
+      "start": 9,
+      "end": 13,
+      "text": "цена"
+    }
+  },
+  {
+    "id": "69c98046-1de1-450d-81d7-7708c0cad2b9",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "86f5d22d-f1e9-4916-b1da-a4e1ebab10ab",
+      "start": 21,
+      "end": 25,
+      "text": "цена"
+    }
+  },
+  {
+    "id": "4d46434a-4c66-47e3-8acb-3ffe2e5a4541",
+    "name": "самсунг галакси пятьдесят четыре",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "8f90ca44-c6d0-48af-91fa-5473626c8f4d",
+      "start": 38,
+      "end": 71,
+      "text": "самсунг галакси пятьдесят четыре"
+    }
+  },
+  {
+    "id": "9131f851-e63d-499f-9ba8-ddbec01011cd",
+    "name": "инфиникс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3c5dd985-4bb1-4208-b68e-37edd6b1b8e8",
+      "start": 17,
+      "end": 25,
+      "text": "инфиникс"
+    }
+  },
+  {
+    "id": "edce95d0-2066-4549-a796-1bd9022c867a",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5273d960-ce2a-4b7b-8f0f-7d857dc5893d",
+      "start": 10,
+      "end": 15,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "053d61a2-0b2a-4d72-a080-d37ffc73af29",
+    "name": "шнейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "18bdee0f-ea00-4475-b252-30068936ac7e",
+      "start": 18,
+      "end": 24,
+      "text": "шнейра"
+    }
+  },
+  {
+    "id": "e1560337-5008-44ba-a537-9cb536005917",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "18bdee0f-ea00-4475-b252-30068936ac7e",
+      "start": 29,
+      "end": 34,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "3f89b95f-29ee-465d-a2aa-37814ec33a59",
+    "name": "карточка нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6c75096e-bc59-4cdb-8b3b-985035c380d2",
+      "start": 12,
+      "end": 26,
+      "text": "карточка нейра"
+    }
+  },
+  {
+    "id": "19c6a597-e32c-4e2a-8667-ef949958ccd7",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a72a117b-e791-4e0f-91fd-938281c1b94d",
+      "start": 27,
+      "end": 31,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "048d9ffc-082c-4c66-850a-5e98066e8f91",
+    "name": "рейтинги",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a72a117b-e791-4e0f-91fd-938281c1b94d",
+      "start": 34,
+      "end": 42,
+      "text": "рейтинги"
+    }
+  }
+]

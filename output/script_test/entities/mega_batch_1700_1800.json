@@ -1,0 +1,632 @@
+[
+  {
+    "id": "b62efda3-86f1-46ee-807d-8f08a293c48c",
+    "name": "выжимку ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67dabffa-a2c4-4157-8705-77b5e820e06e",
+      "start": 74,
+      "end": 88,
+      "text": "сделай выжимку ссылки"
+    }
+  },
+  {
+    "id": "b489e3a1-704e-4002-9615-c5033435c03d",
+    "name": "функция поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "28f21d37-86f8-474b-9fdd-7473ad3a4ff7",
+      "start": 5,
+      "end": 20,
+      "text": "функция поиска"
+    }
+  },
+  {
+    "id": "a202ac3c-e189-436b-82ee-4b4dd3dbe9cb",
+    "name": "задачи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33ae3810-285a-40aa-8cd0-53a5aa2c1837",
+      "start": 67,
+      "end": 73,
+      "text": "задачи"
+    }
+  },
+  {
+    "id": "ff8070b8-337a-4a32-bb52-08452e2defb5",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33ae3810-285a-40aa-8cd0-53a5aa2c1837",
+      "start": 96,
+      "end": 102,
+      "text": "поиска"
+    }
+  },
+  {
+    "id": "dc3abe34-34fb-4974-9d81-7e3adaf48279",
+    "name": "нейросети",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33ae3810-285a-40aa-8cd0-53a5aa2c1837",
+      "start": 112,
+      "end": 121,
+      "text": "ней сетями"
+    }
+  },
+  {
+    "id": "9d5831e4-8d7f-4df5-ba7b-230bc2eaa87e",
+    "name": "интеграция нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a50106f-67ab-4af1-be70-e3a3372b0791",
+      "start": 89,
+      "end": 109,
+      "text": "интеграции нейросети"
+    }
+  },
+  {
+    "id": "1dca15de-e3ef-4f1c-b2c2-01a2e9cfe4e5",
+    "name": "поиск Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a50106f-67ab-4af1-be70-e3a3372b0791",
+      "start": 113,
+      "end": 126,
+      "text": "поиске яндекса"
+    }
+  },
+  {
+    "id": "1de685d5-8565-4d65-b270-cae4a5e48723",
+    "name": "нейроответы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a50106f-67ab-4af1-be70-e3a3372b0791",
+      "start": 139,
+      "end": 151,
+      "text": "много нейро ответов"
+    }
+  },
+  {
+    "id": "bbf987bb-f6c1-4ae2-b2a3-35b88a28cad0",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb33fc42-81d2-4cbb-a09c-2f8cb3906ef0",
+      "start": 16,
+      "end": 21,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "2313e7c1-b6cf-4653-961a-60fe4e8e0ab1",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb33fc42-81d2-4cbb-a09c-2f8cb3906ef0",
+      "start": 78,
+      "end": 84,
+      "text": "поиску"
+    }
+  },
+  {
+    "id": "befb8f48-938c-4d7a-b4f5-795e6303c19f",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97726513-dd78-47bc-a69c-f74a33cdae61",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "2c69428b-be80-4ede-b414-6d9d7e4980a9",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97726513-dd78-47bc-a69c-f74a33cdae61",
+      "start": 32,
+      "end": 38,
+      "text": "поиску"
+    }
+  },
+  {
+    "id": "9900d5ab-fda6-4f68-b1c2-51960f9df63f",
+    "name": "работа с текстом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b053aad2-5c7c-48ce-837b-c227e94a3568",
+      "start": 87,
+      "end": 103,
+      "text": "работать именно с текстом"
+    }
+  },
+  {
+    "id": "80089225-40cb-48b8-a947-bb7ed16e1d32",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39b9f427-e612-487b-8fd0-10f663020893",
+      "start": 0,
+      "end": 5,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "d47cfb56-ea08-4ec0-8286-cdde20d14cf8",
+    "name": "фича про озвучку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39b9f427-e612-487b-8fd0-10f663020893",
+      "start": 24,
+      "end": 40,
+      "text": "фича про сейчас даже озвучку"
+    }
+  },
+  {
+    "id": "6d0df96c-0416-4886-b418-021fafc59353",
+    "name": "генерация субтитров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39b9f427-e612-487b-8fd0-10f663020893",
+      "start": 96,
+      "end": 115,
+      "text": "про генерацию субтитров"
+    }
+  },
+  {
+    "id": "44f2b0fe-0f72-4b27-9880-d7f4a177dfef",
+    "name": "поиск через нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67a92b97-42a2-4749-9bf8-07aa86fd3728",
+      "start": 35,
+      "end": 52,
+      "text": "поиск через нейро"
+    }
+  },
+  {
+    "id": "5b29e436-9432-424e-b040-1759e3a63512",
+    "name": "крещение руси",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3c0fb138-6d88-44aa-8cd8-ce4b40865449",
+      "start": 82,
+      "end": 96,
+      "text": "крещение руси"
+    }
+  },
+  {
+    "id": "616f1892-bcf6-46d3-822f-1ee884ea6a2c",
+    "name": "чат gpt",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b34d938-e2e9-44b1-b304-dde79f27cf95",
+      "start": 123,
+      "end": 132,
+      "text": "чатом g пяти"
+    }
+  },
+  {
+    "id": "a61cfda1-af06-42a6-a2d7-dd36c7e8a29e",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "046fcc20-90a7-4977-a8e7-51ad3473e1e3",
+      "start": 47,
+      "end": 52,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "46aababd-e1da-48c9-8c7b-7f9780801a03",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4f6308f-6362-4a06-886e-ab7e0821f43b",
+      "start": 139,
+      "end": 144,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "8bd9a076-f8ea-40bb-a4e2-199d388d62a3",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4f6308f-6362-4a06-886e-ab7e0821f43b",
+      "start": 77,
+      "end": 85,
+      "text": "браузере"
+    }
+  },
+  {
+    "id": "1950d7ba-2544-4778-aaef-518474279918",
+    "name": "голосовой помощник",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2ee92ac-0d5a-4422-bbeb-da4cbab38007",
+      "start": 26,
+      "end": 44,
+      "text": "голосового помощника"
+    }
+  },
+  {
+    "id": "e1b7f2df-e36f-41a3-9515-90320f586c6e",
+    "name": "поисковая система",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2ee92ac-0d5a-4422-bbeb-da4cbab38007",
+      "start": 60,
+      "end": 77,
+      "text": "поисковая система"
+    }
+  },
+  {
+    "id": "5a1d718e-4546-4015-8519-e32a03b3d9ad",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "118344f4-c593-4f0b-92a5-b10c129db667",
+      "start": 37,
+      "end": 45,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "c9a93872-61ab-448d-b237-6a948d26ddb9",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "118344f4-c593-4f0b-92a5-b10c129db667",
+      "start": 64,
+      "end": 71,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "9f87ed80-b660-4b5e-b2ca-9faa8b4dc677",
+    "name": "две тысячи семнадцатого- шестнадцатого года",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91c15e77-895f-4b16-bc3d-2fc67bdcd726",
+      "start": 31,
+      "end": 75,
+      "text": "две тысячи, не раньше две тысячи семнадцатого- шестнадцатого года"
+    }
+  },
+  {
+    "id": "93eb3b26-90f4-4585-92a5-71dfc4fda3e8",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a1bfddd-3626-4eab-baa8-83a691975641",
+      "start": 9,
+      "end": 14,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "a003d0c9-6b70-40b1-be3f-5537a21af4c7",
+    "name": "поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a1bfddd-3626-4eab-baa8-83a691975641",
+      "start": 43,
+      "end": 52,
+      "text": "поисковиком"
+    }
+  },
+  {
+    "id": "9531d192-4254-436d-857c-0302331256fb",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a1bfddd-3626-4eab-baa8-83a691975641",
+      "start": 91,
+      "end": 98,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "21e6d9cb-8a8a-4a1e-aa1a-19d9f55ad06b",
+    "name": "быстрый ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f001894-8772-480d-9178-8072c3e6fa0d",
+      "start": 17,
+      "end": 30,
+      "text": "быстрый ответ"
+    }
+  },
+  {
+    "id": "36a2f3a0-0d4a-48f8-9834-b027403e7983",
+    "name": "Эйфелева башня",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac3376a4-b4c9-483b-9650-6be1c21180d6",
+      "start": 42,
+      "end": 56,
+      "text": "эйфелевой башни"
+    }
+  },
+  {
+    "id": "e85c31a7-32d0-4877-928e-ab3f780be67e",
+    "name": "Эверест",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5cb51a0-90b8-4016-a11f-70f190c1f99d",
+      "start": 3,
+      "end": 10,
+      "text": "эвереста"
+    }
+  },
+  {
+    "id": "e3dccf1d-bef2-4c6b-9d1e-5f65ae657210",
+    "name": "быстрые ответы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2afb461-a114-4b9b-8d19-7e200a2649e8",
+      "start": 47,
+      "end": 61,
+      "text": "быстрые ответы"
+    }
+  },
+  {
+    "id": "2ef4a4b7-843b-4b1b-b309-65f47b35b6d2",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fc577089-b754-4761-aaba-3001af1f5441",
+      "start": 44,
+      "end": 49,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6a6f0762-49b8-4890-97f1-9f986467af8b",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26487953-64c3-4c08-8edc-bb3c0e6020fd",
+      "start": 21,
+      "end": 26,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "e5b03ee6-ea68-4857-bc07-b2315681969e",
+    "name": "аксиомы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3e6bbff7-027d-4a86-98e6-31965ca03a3a",
+      "start": 76,
+      "end": 83,
+      "text": "аксиомы"
+    }
+  },
+  {
+    "id": "eabd0744-536c-4b4c-b2ef-508f8c578085",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3e6bbff7-027d-4a86-98e6-31965ca03a3a",
+      "start": 137,
+      "end": 142,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f845fd22-237d-4494-adda-726292cb3d1c",
+    "name": "война",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5521b39a-c08b-4b91-9c1c-0d2fd62132f8",
+      "start": 76,
+      "end": 81,
+      "text": "война"
+    }
+  },
+  {
+    "id": "bad058e9-51ab-4b6e-979d-1b89dd2c6242",
+    "name": "Великая отечественная",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5521b39a-c08b-4b91-9c1c-0d2fd62132f8",
+      "start": 117,
+      "end": 138,
+      "text": "великая отечественная"
+    }
+  },
+  {
+    "id": "7297d7e4-7216-4d6e-8edf-e10a927a0fe7",
+    "name": "отечественная двенадцатого года",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5521b39a-c08b-4b91-9c1c-0d2fd62132f8",
+      "start": 140,
+      "end": 172,
+      "text": "отечественная двенадцатого года"
+    }
+  },
+  {
+    "id": "8ec9a0a6-4fd8-433f-acb2-e9e88db235a4",
+    "name": "русско-турецкая",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5521b39a-c08b-4b91-9c1c-0d2fd62132f8",
+      "start": 178,
+      "end": 193,
+      "text": "русско- турецкая"
+    }
+  },
+  {
+    "id": "e09e28ba-aad6-4941-9c29-3bab2b88c968",
+    "name": "зум",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f47d6028-81e2-42dc-baf2-53216b59e3c5",
+      "start": 12,
+      "end": 16,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "81f99969-185c-4ce5-9fc9-11726c48d404",
+    "name": "темный режим",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98f0e813-f1a3-444f-8857-ac5f4c5c4644",
+      "start": 7,
+      "end": 19,
+      "text": "темный режим"
+    }
+  },
+  {
+    "id": "8d7d7d9c-0246-4b34-afc1-2c261da7f1fe",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98832362-2c51-4256-84aa-31bc7a0e12ea",
+      "start": 76,
+      "end": 81,
+      "text": "нейро"
+    }
+  }
+]

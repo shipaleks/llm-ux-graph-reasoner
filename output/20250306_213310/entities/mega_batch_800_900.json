@@ -1,0 +1,982 @@
+[
+  {
+    "id": "e1bad36c-1eb0-4659-94c1-07956f694f2a",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "44a38b3c-1bd7-463e-aa7b-2551f50a4ee3",
+      "start": 51,
+      "end": 63,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "5c87b47b-4442-4bd0-86ec-2cfd7d7528bd",
+    "name": "обычного режима",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "44a38b3c-1bd7-463e-aa7b-2551f50a4ee3",
+      "start": 78,
+      "end": 92,
+      "text": "обычного режима"
+    }
+  },
+  {
+    "id": "aa83e4a2-1ca9-41e7-8729-fd2de732cc15",
+    "name": "штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2aef2182-723c-46f7-b813-e84ce5468aa7",
+      "start": 17,
+      "end": 22,
+      "text": "штука"
+    }
+  },
+  {
+    "id": "f2bbe7f8-18dd-4600-ac6e-4e70307dcbce",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7de8a0da-3f77-47c0-8239-f6b204ce6581",
+      "start": 5,
+      "end": 13,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "c34507ed-46cb-4827-87ed-2a35ea8c166b",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7de8a0da-3f77-47c0-8239-f6b204ce6581",
+      "start": 16,
+      "end": 22,
+      "text": "ссылка"
+    }
+  },
+  {
+    "id": "8ccb0787-b73d-4b96-887f-9d088d4f07ed",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "78ebcc63-2414-4a35-840c-db42cf3c84c7",
+      "start": 7,
+      "end": 13,
+      "text": "ссылка"
+    }
+  },
+  {
+    "id": "a6b6f07d-f367-43fa-b641-1a4940c4dad7",
+    "name": "наруто",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "78ebcc63-2414-4a35-840c-db42cf3c84c7",
+      "start": 14,
+      "end": 20,
+      "text": "наруто"
+    }
+  },
+  {
+    "id": "4dda65f6-d8a0-4d5b-95fb-d97d06280ab1",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "78ebcc63-2414-4a35-840c-db42cf3c84c7",
+      "start": 22,
+      "end": 27,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "8cd168b5-9389-438c-aad8-971de86b46e1",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "06ab9587-69f7-4872-af7a-64ab8d343350",
+      "start": 41,
+      "end": 46,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "4a37ee16-301d-425d-b104-eabe577d179d",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d32edc6d-a41a-41b5-a56a-d87e95cadb81",
+      "start": 30,
+      "end": 35,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "6125a18f-44bc-4ea7-9571-f2299bb70246",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "8071e046-c2a0-4258-a6a9-fcb4f42505a2",
+      "start": 51,
+      "end": 56,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "5ed349d7-39c7-4cc9-8e3a-2198f7ce214c",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "08426b6c-fa66-43fa-a7d7-6bd8432621da",
+      "start": 24,
+      "end": 32,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "5ca5f885-a3df-49b9-b44b-c6679ee7b45e",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "08426b6c-fa66-43fa-a7d7-6bd8432621da",
+      "start": 35,
+      "end": 41,
+      "text": "ссылка"
+    }
+  },
+  {
+    "id": "4e13c69e-0972-47a0-aefb-592b4f05d5f5",
+    "name": "рабочем столе",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7aa2a4d9-f767-4440-87f5-c8f1e05a8d90",
+      "start": 24,
+      "end": 37,
+      "text": "рабочем столе"
+    }
+  },
+  {
+    "id": "37d462d7-daf8-4489-8a30-c805d5c9418a",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7aa2a4d9-f767-4440-87f5-c8f1e05a8d90",
+      "start": 64,
+      "end": 69,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "c0bf21b9-2991-4feb-ad2c-8c8603a27356",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "448a964f-c5ef-4c3c-bc85-78f0e2391f3f",
+      "start": 31,
+      "end": 36,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "b2800edb-f5c0-4d2c-a7d5-7e7090c1c666",
+    "name": "картинками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "448a964f-c5ef-4c3c-bc85-78f0e2391f3f",
+      "start": 64,
+      "end": 74,
+      "text": "картинками"
+    }
+  },
+  {
+    "id": "6bf7cc19-3e94-4457-a051-b02667b79fd0",
+    "name": "ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6fd53836-0c19-4562-95fb-70597262e6ce",
+      "start": 59,
+      "end": 65,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "b49515fb-9c43-4312-bd91-a5ebf292ac93",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "778d399d-0458-4265-97a3-8f72c6b6c47d",
+      "start": 8,
+      "end": 12,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "5f1b7a4f-b533-4184-bc70-f182f796db37",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f4038b7c-a371-4818-b596-679c1a9dc9b0",
+      "start": 16,
+      "end": 20,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "9f8da48b-1bd1-442b-b8dc-947412ddc939",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f4038b7c-a371-4818-b596-679c1a9dc9b0",
+      "start": 46,
+      "end": 51,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "c0e5a2af-3089-4f96-850f-43139dec7895",
+    "name": "точка зрения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "677f91b9-e246-45e3-bbbe-d45522071853",
+      "start": 27,
+      "end": 39,
+      "text": "точка зрения"
+    }
+  },
+  {
+    "id": "27fc7ee4-2bed-4ea6-9fb5-fe8e099f7bee",
+    "name": "россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "17311452-1681-4b5b-b3c2-9312c4161d2d",
+      "start": 10,
+      "end": 16,
+      "text": "россия"
+    }
+  },
+  {
+    "id": "18a60c6b-be6e-4e0a-8e43-515d775c037a",
+    "name": "франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "17311452-1681-4b5b-b3c2-9312c4161d2d",
+      "start": 28,
+      "end": 35,
+      "text": "франция"
+    }
+  },
+  {
+    "id": "94a7b1de-2e17-431c-bc91-02ee862319e5",
+    "name": "франции",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "96bd1eae-efe4-4ffa-bcac-1aa2016dc99e",
+      "start": 43,
+      "end": 50,
+      "text": "франции"
+    }
+  },
+  {
+    "id": "0f16268d-6ecc-48af-b600-e1f250a5a8e8",
+    "name": "французы",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 21,
+      "end": 29,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "4f4d4a21-4f04-4592-8bdb-e717b9d0cebf",
+    "name": "победа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 64,
+      "end": 70,
+      "text": "победа"
+    }
+  },
+  {
+    "id": "df35c302-be75-45eb-804a-d08919b1a49f",
+    "name": "бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 91,
+      "end": 111,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "6c3a232c-a5f0-4e7e-93ae-bf2d4cb5a2ad",
+    "name": "победой росс",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 112,
+      "end": 124,
+      "text": "победой росс"
+    }
+  },
+  {
+    "id": "5d6720ae-075c-4391-a776-e44afe2472d2",
+    "name": "бородинском сражении",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "732378d7-b938-4500-a09a-7414ad063bf8",
+      "start": 12,
+      "end": 32,
+      "text": "бородинском сражении"
+    }
+  },
+  {
+    "id": "adbbef00-c71f-4f51-a4b5-14437d3620c2",
+    "name": "российская армия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "732378d7-b938-4500-a09a-7414ad063bf8",
+      "start": 39,
+      "end": 55,
+      "text": "российская армия"
+    }
+  },
+  {
+    "id": "40c42eec-b93b-4301-a1d1-30908a48b755",
+    "name": "французы",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "732378d7-b938-4500-a09a-7414ad063bf8",
+      "start": 85,
+      "end": 93,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "8572a1cb-bf71-41b3-9fa6-8b88dd0d4046",
+    "name": "прототип",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7b180c2b-78b6-47a4-8abb-dc485078e3f3",
+      "start": 48,
+      "end": 56,
+      "text": "прототип"
+    }
+  },
+  {
+    "id": "ddcc6751-32d1-4898-be97-e71b22888c04",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cd71f637-b9c5-4800-a435-23020eb66c7b",
+      "start": 41,
+      "end": 47,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "41c5416f-d8ac-4ad4-8e9f-52477143fd5a",
+    "name": "место",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4e319ffe-8c63-411d-bfaf-f8faef0f990c",
+      "start": 119,
+      "end": 124,
+      "text": "место"
+    }
+  },
+  {
+    "id": "3f2e8722-91b1-4258-9764-57bda1f73563",
+    "name": "топ-пять недорогих мест рф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "542e5f6c-694c-4920-a849-2f258b990189",
+      "start": 24,
+      "end": 50,
+      "text": "топ- пять недорогих мест рф"
+    }
+  },
+  {
+    "id": "c6be3dbe-ac76-4bf2-86fc-3eb3acb4a12c",
+    "name": "совместного путешествия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "542e5f6c-694c-4920-a849-2f258b990189",
+      "start": 61,
+      "end": 84,
+      "text": "совместного путешествия"
+    }
+  },
+  {
+    "id": "058b4fc1-81bd-4c5f-afb2-56873aff70dd",
+    "name": "кей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cd1f33d0-81bc-4672-904d-5e9c7975fae4",
+      "start": 31,
+      "end": 34,
+      "text": "кей"
+    }
+  },
+  {
+    "id": "340182ef-94a6-47d6-85d4-3cfd63b585ca",
+    "name": "казань",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cd1f33d0-81bc-4672-904d-5e9c7975fae4",
+      "start": 36,
+      "end": 42,
+      "text": "казань"
+    }
+  },
+  {
+    "id": "fec64b8d-ecf7-46de-bde4-627b0ff39e8b",
+    "name": "штуки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "22d4761d-9db1-47c7-9d01-ba681df98417",
+      "start": 17,
+      "end": 22,
+      "text": "штуки"
+    }
+  },
+  {
+    "id": "6cfddc6b-4224-4ee1-ae73-02d7db1d0611",
+    "name": "картинки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "668718c1-8d8e-4ffa-8bb5-58a11d4de112",
+      "start": 0,
+      "end": 8,
+      "text": "картинки"
+    }
+  },
+  {
+    "id": "248ac78d-f246-42ec-b625-3e51f78d07a8",
+    "name": "картинки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0c2d755e-0dd1-4691-be9e-c230be7914fa",
+      "start": 20,
+      "end": 28,
+      "text": "картинки"
+    }
+  },
+  {
+    "id": "4729604a-8e3d-437d-bd0a-63d3f3dfda10",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e1f67459-dca9-464d-a9a4-4369de8d2956",
+      "start": 26,
+      "end": 30,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "58a5985c-5485-408e-94b7-bffbedf0c778",
+    "name": "облачков",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ceb62496-7f25-4cf0-9f21-09beb80cd4fa",
+      "start": 21,
+      "end": 29,
+      "text": "облачков"
+    }
+  },
+  {
+    "id": "87ead277-b47d-4145-832e-4d5de046a471",
+    "name": "кнопка источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "145e1e14-80cd-4d8e-80a2-8dd16e20d530",
+      "start": 24,
+      "end": 40,
+      "text": "кнопка источники"
+    }
+  },
+  {
+    "id": "e8756804-be07-4918-8e3f-eddf04c0521e",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "61ed6598-766d-45d7-922e-34d2cb33e0a3",
+      "start": 28,
+      "end": 34,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "12bcd345-0837-4b45-9a75-3cd2c188da42",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "dd2feadd-656d-4363-9189-1cb313ffd0b5",
+      "start": 54,
+      "end": 60,
+      "text": "ссылками"
+    }
+  },
+  {
+    "id": "0111ba1d-25d3-488e-add4-6f144d2efbbf",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "dd2feadd-656d-4363-9189-1cb313ffd0b5",
+      "start": 79,
+      "end": 84,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "9834ef10-1008-4e8d-9201-1d12d1ffffdc",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7f93c33d-a2a9-4ba1-965c-bfb0c23ec5d5",
+      "start": 12,
+      "end": 18,
+      "text": "ссылками"
+    }
+  },
+  {
+    "id": "a185ba17-a1af-4a2e-9c10-19f34a870ea7",
+    "name": "обычный поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1f7ee1af-d8de-465c-973e-6b53b0f6048c",
+      "start": 67,
+      "end": 80,
+      "text": "обычный поиск"
+    }
+  },
+  {
+    "id": "b5300703-663e-4185-908b-f6c488f0e607",
+    "name": "сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d427d1dc-1825-41fc-a5b6-f93d1d05490b",
+      "start": 31,
+      "end": 36,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "d1123851-88f9-4753-9e57-533b4ace6560",
+    "name": "рассуждаю",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "71c7705b-a44c-4375-afae-64378cd0aa9a",
+      "start": 34,
+      "end": 43,
+      "text": "рассуждаю"
+    }
+  },
+  {
+    "id": "04a5860a-e98c-4550-9cc5-1dce166635b5",
+    "name": "внутренняя разработка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ad6b82ff-91c6-4ba2-90fb-5950dd11eead",
+      "start": 23,
+      "end": 44,
+      "text": "внутренняя разработка"
+    }
+  },
+  {
+    "id": "0998cc7f-2fdf-403c-999c-4807b36db67e",
+    "name": "обязательства на разглашение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ad6b82ff-91c6-4ba2-90fb-5950dd11eead",
+      "start": 91,
+      "end": 119,
+      "text": "обязательства на разглашение"
+    }
+  },
+  {
+    "id": "b08affa9-d605-422b-8cb8-480af3133ce8",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bbea35a1-45fc-4ead-9ada-a0a491a57dc8",
+      "start": 5,
+      "end": 10,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "16483703-7c2f-43b5-80ae-1ba4734cc22f",
+    "name": "голосовая штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bbea35a1-45fc-4ead-9ada-a0a491a57dc8",
+      "start": 17,
+      "end": 32,
+      "text": "голосовая штука"
+    }
+  },
+  {
+    "id": "1c22ee1e-495f-4646-97e0-26473b4bd37e",
+    "name": "чат g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bbea35a1-45fc-4ead-9ada-a0a491a57dc8",
+      "start": 37,
+      "end": 46,
+      "text": "чате g пяти"
+    }
+  },
+  {
+    "id": "624300f1-658c-4718-a0f1-7e17db803c09",
+    "name": "алисы",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "406698be-65d7-4429-9f31-832fdc3c6ea0",
+      "start": 31,
+      "end": 36,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "de9099c3-1c84-404e-a942-17bd0ac7f135",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "406698be-65d7-4429-9f31-832fdc3c6ea0",
+      "start": 42,
+      "end": 47,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f7892f09-a973-4bd8-98bf-7d08b53765e7",
+    "name": "озвучивание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3e64b848-37f9-410c-a6fe-9154c9252973",
+      "start": 26,
+      "end": 37,
+      "text": "озвучивание"
+    }
+  },
+  {
+    "id": "2a39ca10-1aeb-4126-9e15-ddbe99588a71",
+    "name": "алису",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "30b61a05-c1f2-4bfb-bead-a387455c49c9",
+      "start": 21,
+      "end": 26,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "0495213b-82e3-4cd8-9eff-af41a57c77ea",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d9e6f362-eec7-4126-810d-40727085d36d",
+      "start": 24,
+      "end": 29,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "0c155e87-9360-499c-81ca-a7e003c350bb",
+    "name": "нейро",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d9e6f362-eec7-4126-810d-40727085d36d",
+      "start": 34,
+      "end": 39,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "2112286d-9db6-45aa-a40b-490233ae8908",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d9e6f362-eec7-4126-810d-40727085d36d",
+      "start": 43,
+      "end": 49,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "1436d055-fda1-40af-bb26-21fede094c9f",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "49e223f5-e624-4c22-b6a7-7407b789e2a8",
+      "start": 9,
+      "end": 14,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "b8d1a025-b6d2-4c81-bf47-e8f49f5b63b8",
+    "name": "алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a91c369a-8518-407a-bcb2-57306c60a1ee",
+      "start": 9,
+      "end": 14,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "5f010a30-cbb9-4f69-9625-e6c32a2bc0d3",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a91c369a-8518-407a-bcb2-57306c60a1ee",
+      "start": 18,
+      "end": 24,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "9e3b1dce-1a3d-4079-b7e9-e49a8661b417",
+    "name": "яндекс про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a91c369a-8518-407a-bcb2-57306c60a1ee",
+      "start": 28,
+      "end": 38,
+      "text": "яндекс про"
+    }
+  },
+  {
+    "id": "417bdb3f-8068-4bfd-a08b-2ae92877361d",
+    "name": "про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b2306f61-44b8-4dd6-a6ed-ba014937b546",
+      "start": 28,
+      "end": 31,
+      "text": "про"
+    }
+  },
+  {
+    "id": "4bf059fc-d8a9-49b4-a0c9-abe77e48f494",
+    "name": "про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b2306f61-44b8-4dd6-a6ed-ba014937b546",
+      "start": 36,
+      "end": 39,
+      "text": "про"
+    }
+  }
+]

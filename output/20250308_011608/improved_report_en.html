@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: story-3.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: story-3.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Date:</strong> 2025-03-08 01:24:25</p>
+            <p><strong>Source:</strong> /Users/shipaleks/Downloads/story-3.txt</p>
+            <p><strong>Number of entities:</strong> 59</p>
+            <p><strong>Number of relationships:</strong> 32</p>
+            <p><strong>Number of text segments:</strong> 6</p>
+        </div>
+        
+        <div class="toc">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#research-process">Research Process</a></li>
+                <li><a href="#contextual-analysis">Contextual Analysis</a></li>
+                <li><a href="#entity-analysis">Entity Analysis</a></li>
+                <li><a href="#relationship-analysis">Relationship Analysis</a></li>
+                <li><a href="#graph-visualization">Graph Visualization</a></li>
+                <li><a href="#graph-metrics">Graph Metrics</a></li>
+                <li><a href="#theories">Theories and Hypotheses</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+                <li><a href="#expansion">Graph Expansion</a></li>
+        </div>
+        
+        <section id="abstract" class="section">
+        <h2>Abstract</h2>
+        <p>This report presents a comprehensive analysis of the provided text using knowledge graph techniques. 
+        The analysis includes entity extraction, relationship identification, and theory generation based on the 
+        constructed knowledge graph.</p>
+        
+        <p>The knowledge graph approach enables the identification of key entities, their relationships, 
+        and underlying patterns that may not be immediately obvious through conventional reading. Through this 
+        structured approach, the analysis reveals insights about the text's narrative structure, key themes, 
+        and implicit connections.</p>
+        </section>
+        
+        <section id="summary" class="section">
+        <h2>Summary</h2>
+        <div class="summary-content">
+            <p>The analysis of the provided text identified key entities, relationships, and patterns through 
+            knowledge graph construction and analysis. This approach allows for a structured understanding of 
+            the text's content and context.</p>
+            
+            <div class="summary-stats">
+                <div class="stat">
+                    <span class="stat-name">Text Processing</span>
+                    <span class="stat-value">The text was segmented for detailed analysis, enabling contextual understanding across segments</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-name">Entity Extraction</span>
+                    <span class="stat-value">Multiple entities were identified across various entity types</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-name">Relationship Mapping</span>
+                    <span class="stat-value">Relationships between entities were mapped to form a comprehensive knowledge graph</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-name">Theory Generation</span>
+                    <span class="stat-value">Theories were formulated based on graph analysis, revealing underlying patterns</span>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Research Process</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Step 1: Loading and Segmenting Text</h3>
+                    <p>The source text was loaded and divided into 6 logical segments for detailed analysis.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Contextual Analysis</h3>
+                    <p>Context analysis was performed between segments to identify semantic connections.</p>
+                    <p>Identified 0 connections between segments.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 3: Entity Extraction</h3>
+                    <p>Extracted 59 key entities of various types.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 4: Relationship Identification</h3>
+                    <p>Between entities, 32 connections and relationships were identified.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 5: Knowledge Graph Construction</h3>
+                    <p>Based on the extracted entities and relationships, a knowledge graph was constructed.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 6: Graph Analysis and Theory Generation</h3>
+                    <p>Graph analysis was performed and theories were formed explaining the identified connections.</p>
+                    <p>Сгенерировано 2 theories based on graph analysis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Contextual Analysis</h2>
+            <p>Contextual Analysis examines the relationships between different parts of the text, revealing semantic coherence and interdependencies between segments.</p>
+            
+            <h3>Segment Summaries</h3>
+            
+            <div class="segment-summary">
+                <h4>Segment 1</h4>
+                <p><strong>Summary:</strong> During a masquerade ball at Ravenscroft Manor, Lord Alistair Ravenscroft is found murdered, prompting an investigation by Inspector Hartwell amidst a web of secrets, suspects, and supernatural elements. The investigation reveals numerous clues, hidden passages, and a clandestine society, all pointing to a meticulously planned murder.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Lord Alistair Ravenscroft is murdered during a masquerade ball.</li>
+                    
+                    <li>Inspector Hartwell investigates, uncovering numerous suspects and clues.</li>
+                    
+                    <li>Secret passages, a hidden society, and supernatural elements complicate the investigation.</li>
+                    
+                    <li>Key suspects include Professor Greer, Lady Miranda, and Dr. Locke.</li>
+                    
+                    <li>The murder appears meticulously planned, with clues pointing to betrayal and hidden motives.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> Sets the scene and introduces the main problem (murder) and the context (investigation, suspects, and setting).</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 2</h4>
+                <p><strong>Summary:</strong> Lord Alistair Ravenscroft held a lavish masquerade ball at his gothic mansion, Ravenscroft Manor, which was known for its eerie atmosphere and hidden secrets. The manor, located on a cliff, was rumored to be haunted and full of mysteries.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Stormy autumn evening setting</li>
+                    
+                    <li>Extravagant masquerade ball</li>
+                    
+                    <li>Ravenscroft Manor: gothic, cliffside location</li>
+                    
+                    <li>Manor known for secrets and ghost stories</li>
+                    
+                    <li>Lord Alistair Ravenscroft as host</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment is the same as the parent context, serving as the introductory setting for the narrative.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 3</h4>
+                <p><strong>Summary:</strong> The segment introduces three guests at Lord Ravenscroft's masquerade ball: Professor Elias Greer, Lady Miranda Holloway, and Dr. Vivian Locke. Each guest has a mysterious or unusual background, hinting at potential intrigue.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Professor Greer is an occult scholar.</li>
+                    
+                    <li>Lady Holloway is Lord Alistair's enigmatic cousin with a possible history of espionage.</li>
+                    
+                    <li>Dr. Locke is a physician interested in controversial treatments.</li>
+                    
+                    <li>Each guest has secrets or unusual characteristics.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the parent context by introducing key characters attending the masquerade ball, setting the stage for potential plot developments.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 4</h4>
+                <p><strong>Summary:</strong> Inspector Samuel Hartwell attended the masquerade ball in disguise, summoned by an anonymous letter. He observed the hidden tensions among the guests.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Inspector Hartwell was in disguise.</li>
+                    
+                    <li>He was summoned by an anonymous letter.</li>
+                    
+                    <li>The letter promised dark secrets.</li>
+                    
+                    <li>Hartwell observed subtle tensions.</li>
+                    
+                    <li>The event was a masquerade ball.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the setting introduced in the parent context by adding a key character and hinting at underlying conflicts.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 5</h4>
+                <p><strong>Summary:</strong> During a thunderstorm, Ravenscroft Manor lost power, and when the lights returned, Lord Ravenscroft was found dead in the library from poisoning.</p>
+                <p><strong>Role in text:</strong> inciting incident</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Sudden power outage at 11:43 PM.</li>
+                    
+                    <li>Loud thunderclap.</li>
+                    
+                    <li>Lord Ravenscroft found dead.</li>
+                    
+                    <li>Cause of death: poisoning.</li>
+                    
+                    <li>Location: grand library.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment details the central event (Lord Ravenscroft's death) that unfolds within the setting established by the parent context (a masquerade ball at Ravenscroft Manor).</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 6</h4>
+                <p><strong>Summary:</strong> Inspector Hartwell's investigation reveals several clues linking Professor Greer, Lady Miranda, and Dr. Locke to the events. These clues involve a cursed grimoire, a torn letter, and cryptic alchemical symbols.</p>
+                <p><strong>Role in text:</strong> evidence</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Professor Greer was seen with a cursed grimoire.</li>
+                    
+                    <li>A page was ripped from the grimoire.</li>
+                    
+                    <li>Lady Miranda had a torn letter and earth-stained gloves.</li>
+                    
+                    <li>The letter referenced the "Ravenscroft curse".</li>
+                    
+                    <li>Dr. Locke's vials had symbols matching runes on hidden altars.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the mystery introduced in the parent context by presenting the initial clues found during the investigation.</p>
+                
+            </div>
+            
+            
+            <h3>Connections between segments</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>From segment</th>
+                        <th>Connection type</th>
+                        <th>To segment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Entity Analysis</h2>
+            
+            <p>This section presents the key entities identified in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Type</th>
+                        <th>Confidence</th>
+                        <th>Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Elias Greer</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>occupation:</strong> professor</li>
+                                
+                                <li><strong>research interest:</strong> occult</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ancient grimoires</td>
+                        <td>object</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>obscure rituals</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Miranda Holloway</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>relation:</strong> Lord Alistair’s distant yet enigmatic cousin</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>espionage</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Vivian Locke</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>occupation:</strong> physician</li>
+                                
+                                <li><strong>research interest:</strong> experimental and controversial treatments</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>leather case</td>
+                        <td>object</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>vials</td>
+                        <td>object</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Hartwell</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Inspector</td>
+                        <td>person</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>anonymous letter</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>revelations of dark secrets</td>
+                        <td>concept</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>manor</td>
+                        <td>location</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>11:43 PM</td>
+                        <td>time</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair Ravenscroft</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>grand library</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>poisoned goblet</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Inspector Hartwell</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Professor Greer</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cursed grimoire</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lady Miranda</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>conservatory</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ravenscroft curse</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dr. Locke</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>alchemical symbols</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>runes</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>hidden altars</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mr. Finch</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ravenscrofts</td>
+                        <td>organization</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ancient secret society</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Clara</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Barnaby</td>
+                        <td>person</td>
+                        <td>1.00</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>rose garden</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>buried truths</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>voices beneath the earth</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>betrayal</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>mysterious rites</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>betrayer’s blood</td>
+                        <td>concept</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucinda Grey</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>hidden guilt</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>secrets</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>goblet</td>
+                        <td>object</td>
+                        <td>0.70</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Hartwell</td>
+                        <td>person</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>grimoire</td>
+                        <td>object</td>
+                        <td>0.70</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>11:43</td>
+                        <td>time</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>clandestine society</td>
+                        <td>organization</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>supernatural forces</td>
+                        <td>concept</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ravenscroft Manor</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>greed</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>revenge</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ambition</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>obsession</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>murder</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>tangled alliances</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>hidden histories</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cryptic symbols</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>one of shared blood</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>envy</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Relationship Analysis</h2>
+            
+            <p>This section presents the relationships identified between entities in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Relationship</th>
+                        <th>Target</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Elias Greer</td>
+                        <td>STUDIES</td>
+                        <td>ancient grimoires</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Elias Greer</td>
+                        <td>ENGAGES_IN</td>
+                        <td>obscure rituals</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Miranda Holloway</td>
+                        <td>RELATED_TO</td>
+                        <td>Lord Alistair</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Miranda Holloway</td>
+                        <td>INVOLVED_IN</td>
+                        <td>espionage</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Vivian Locke</td>
+                        <td>POSSESSES</td>
+                        <td>leather case</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>leather case</td>
+                        <td>CONTAINS</td>
+                        <td>vials</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Hartwell</td>
+                        <td>IS_A</td>
+                        <td>Inspector</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Hartwell</td>
+                        <td>SUMMONED_BY</td>
+                        <td>anonymous letter</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>anonymous letter</td>
+                        <td>PROMISES</td>
+                        <td>revelations of dark secrets</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>revelations of dark secrets</td>
+                        <td>LOCATED_IN</td>
+                        <td>manor</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair Ravenscroft</td>
+                        <td>TIME_OF_EVENT</td>
+                        <td>11:43 PM</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair Ravenscroft</td>
+                        <td>FOUND_IN</td>
+                        <td>grand library</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair Ravenscroft</td>
+                        <td>HAS_WITH</td>
+                        <td>poisoned goblet</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Professor Greer</td>
+                        <td>STUDYING</td>
+                        <td>cursed grimoire</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lady Miranda</td>
+                        <td>FOUND_IN</td>
+                        <td>conservatory</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>runes</td>
+                        <td>INSCRIBED_ON</td>
+                        <td>hidden altars</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>hidden altars</td>
+                        <td>LOCATED_BENEATH</td>
+                        <td>manor</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mr. Finch</td>
+                        <td>SERVED</td>
+                        <td>Ravenscrofts</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mr. Finch</td>
+                        <td>HINTS_ABOUT</td>
+                        <td>ancient secret society</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Barnaby</td>
+                        <td>DIGGING_IN</td>
+                        <td>rose garden</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Barnaby</td>
+                        <td>MUTTERING_ABOUT</td>
+                        <td>buried truths</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Barnaby</td>
+                        <td>MENTIONS</td>
+                        <td>voices beneath the earth</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair</td>
+                        <td>MENTIONS</td>
+                        <td>betrayal</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair</td>
+                        <td>MENTIONS</td>
+                        <td>mysterious rites</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair</td>
+                        <td>MENTIONS</td>
+                        <td>betrayer’s blood</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>alchemical symbols</td>
+                        <td>FOUND_ON</td>
+                        <td>grimoire</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>clandestine society</td>
+                        <td>DEDICATED_TO</td>
+                        <td>supernatural forces</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>supernatural forces</td>
+                        <td>RESIDE_WITHIN</td>
+                        <td>Ravenscroft Manor</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>murder</td>
+                        <td>RELATED_TO</td>
+                        <td>tangled alliances</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>murder</td>
+                        <td>RELATED_TO</td>
+                        <td>hidden histories</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>murder</td>
+                        <td>RELATED_TO</td>
+                        <td>cryptic symbols</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>one of shared blood</td>
+                        <td>GUIDED_BY</td>
+                        <td>envy</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Graph Visualization</h2>
+            
+            <p>This interactive visualization represents the knowledge graph, where entities are nodes and relationships are links.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Graph Metrics</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.0094</div>
+                    <div>Graph Density</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.08</div>
+                    <div>Average Degree</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Average Clustering Coefficient</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">6</div>
+                    <div>Graph Diameter</div>
+                </div>
+            </div>
+            
+            <h3>Central Entities</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Centrality Score</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Lord Alistair</td>
+                        <td>0.069</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lord Alistair Ravenscroft</td>
+                        <td>0.052</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Barnaby</td>
+                        <td>0.052</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>murder</td>
+                        <td>0.052</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Elias Greer</td>
+                        <td>0.034</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Miranda Holloway</td>
+                        <td>0.034</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>leather case</td>
+                        <td>0.034</td>
+                        <td>object</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Hartwell</td>
+                        <td>0.034</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>anonymous letter</td>
+                        <td>0.034</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>revelations of dark secrets</td>
+                        <td>0.034</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        
+            <section id="theories" class="section">
+                <h2>Theories and Hypotheses</h2>
+                <p>This section presents theories and hypotheses derived from the knowledge graph analysis.</p>
+            
+                <div class="research-process">
+                    <h3>The Ravenscroft Curse and the Secret Society's Pursuit of Supernatural Power</h3>
+                    <p><strong>Confidence:</strong> 0.85</p>
+                    <div class="theory-description">
+                        Lord Alistair Ravenscroft's murder was a consequence of a power struggle within a clandestine society dedicated to harnessing supernatural forces, fueled by envy and betrayal, and linked to an ancient curse plaguing the Ravenscroft family.<br><br>This theory is based on the analysis of the document and the relationships identified within it.<br><br>Key evidence supporting this theory:<br>- Clandestine society dedicated to supernatural forces<br>- Supernatural forces reside within Ravenscroft Manor<br>- Lord Alistair mentions betrayal and mysterious rites<br>- Mr. Finch hints about ancient secret society<br>- Runes inscribed on hidden altars located beneath manor<br>- Professor Greer/Elias Greer studies cursed grimoire and engages in obscure rituals<br><br>Key entities involved:<br>- Lord Alistair Ravenscroft: Victim of the curse and the society's internal power struggle.<br>- Clandestine Society: Perpetrator of rituals and driver of the conflict, seeking to control supernatural forces.<br>- Ravenscroft Curse: Underlying force driving misfortune and tragedy within the Ravenscroft family.<br>- Supernatural Forces: Object of the society's pursuit and potential source of the curse's power.<br>- Mr. Finch: Potential whistleblower or informant, aware of the society's existence and activities.<br>- Professor Greer/Elias Greer: Potential member of the secret society, or a researcher investigating it, due to his study of ancient and cursed grimoires and engagement in obscure rituals.<br><br>The theory proposes to view the presented information as an interconnected structure,<br>where each element plays a role in the overall picture. This approach allows for a better<br>understanding of the context and reveals hidden patterns that may not be obvious from a<br>surface reading of the text.
+                    </div>
+                
+                    <div class="theory-evidence">
+                        <h4>Supporting Evidence:</h4>
+                        <ul>
+                    <li><strong>Clandestine society dedicated to supernatural forces</strong> - Establishes the existence of a group focused on manipulating the supernatural, a core element of the theory.</li><li><strong>Supernatural forces reside within Ravenscroft Manor</strong> - Connects the supernatural to the central location of the mystery, suggesting a source of the curse's power.</li><li><strong>Lord Alistair mentions betrayal and mysterious rites</strong> - Indicates internal conflict and involvement in potentially dangerous rituals, linking him to the society's activities.</li><li><strong>Mr. Finch hints about ancient secret society</strong> - Provides direct evidence of a secret society's existence and its connection to the Ravenscroft family.</li><li><strong>Runes inscribed on hidden altars located beneath manor</strong> - Suggests ritualistic activity taking place in secret, reinforcing the society's involvement and the subterranean secrets theme.</li><li><strong>Professor Greer/Elias Greer studies cursed grimoire and engages in obscure rituals</strong> - Directly links a character to the core activities of the secret society, suggesting his involvement or deep knowledge of their practices.</li>
+                        </ul>
+                    </div>
+                    </div>
+                <div class="research-process">
+                    <h3>The Ravenscroft Inheritance: A Conspiracy of Silence and Misdirection</h3>
+                    <p><strong>Confidence:</strong> 0.75</p>
+                    <div class="theory-description">
+                        Lord Alistair Ravenscroft's death was not a murder but a staged event, orchestrated by a network of individuals, including himself, to protect a dangerous secret tied to the Ravenscroft lineage and their involvement with a clandestine society. The 'curse' is a fabrication, a smokescreen to conceal the true nature of their activities.<br><br>This theory is based on the analysis of the document and the relationships identified within it.<br><br>Key evidence supporting this theory:<br>- Lord Alistair Ravenscroft → 11:43 PM<br>- Lord Alistair Ravenscroft → poisoned goblet<br>- Mr. Finch → ancient secret society<br>- Barnaby → buried truths<br>- runes → hidden altars<br><br>Key entities involved:<br>- Lord Alistair Ravenscroft: Architect of the misdirection, faking his own death to protect the secret.<br>- Mr. Finch: Keeper of the secret, providing subtle clues to maintain the narrative while concealing the truth.<br>- Barnaby: Active participant in maintaining the physical aspects of the deception, possibly burying or retrieving items.<br>- Clandestine Society: The entity whose secrets are being protected, though their specific activities are unknown.<br>- Ancient Grimoires/Cursed Grimoire: Props used in the misdirection, containing misleading information or instructions for the staged events.<br><br>The theory proposes to view the presented information as an interconnected structure,<br>where each element plays a role in the overall picture. This approach allows for a better<br>understanding of the context and reveals hidden patterns that may not be obvious from a<br>surface reading of the text.
+                    </div>
+                
+                    <div class="theory-evidence">
+                        <h4>Supporting Evidence:</h4>
+                        <ul>
+                    <li><strong>Lord Alistair Ravenscroft → 11:43 PM</strong> - The precise time suggests a planned event, not a spontaneous murder.</li><li><strong>Lord Alistair Ravenscroft → poisoned goblet</strong> - The goblet is too obvious a clue, suggesting it was planted.</li><li><strong>Mr. Finch → ancient secret society</strong> - Mr. Finch's hints are carefully chosen to mislead, not to inform.</li><li><strong>Barnaby → buried truths</strong> - Barnaby's actions and mutterings contribute to the fabricated narrative.</li><li><strong>runes → hidden altars</strong> - The runes and altars are likely part of the staged ritualistic misdirection.</li>
+                        </ul>
+                    </div>
+                    </div>
+            </section>
+            
+        
+        <section id="expansion" class="section">
+    <div class="expansion-section">
+        <h2>Knowledge Graph Expansion Process</h2>
+        <p>During the analysis, the system asked additional questions to expand the knowledge graph.
+        This process helps reveal hidden relationships and provides a more complete picture.</p>
+        
+        <h3>Analysis Questions</h3>
+        <div class="expansion-questions">
+    <ul><li><strong>Lord Alistair</strong>: To whom is Lord Alistair referring when he mentions "betrayer's blood"?</li><li><strong>Lord Alistair</strong>: What is the context or purpose of the "mysterious rites" that Lord Alistair mentions?</li><li><strong>Lord Alistair</strong>: What is the specific nature of the relationship between Lord Alistair and Miranda Holloway (e.g., familial, professional, adversarial)?</li><li><strong>Lord Alistair Ravenscroft</strong>:  What action was Lord Alistair Ravenscroft performing at 11:43 PM in the grand library that involved the poisoned goblet?</li><li><strong>Lord Alistair Ravenscroft</strong>:  What is Lord Alistair Ravenscroft's relationship to the grand library (e.g., owner, visitor, employee)?</li><li><strong>Lord Alistair Ravenscroft</strong>:  Was the poisoned goblet intended for Lord Alistair Ravenscroft, or was it related to another individual or purpose within the grand library at 11:43 PM?</li><li><strong>Barnaby</strong>: What is Barnaby digging for in the rose garden?</li><li><strong>Barnaby</strong>: What specific buried truths is Barnaby muttering about?</li><li><strong>Barnaby</strong>: To whom does Barnaby mention the voices beneath the earth?</li><li><strong>Lord Alistair</strong>: Is Lord Alistair depicted as the *perpetrator* or the *victim* of the "betrayal" he mentions?</li><li><strong>Lord Alistair</strong>: Are the "mysterious rites" Lord Alistair mentions rituals that he *conducts*, *observes*, or *warns against*?</li><li><strong>Lord Alistair</strong>: What is the *nature* of the relationship between Miranda Holloway and Lord Alistair – are they allies, rivals, or family members?</li><li><strong>Lord Alistair Ravenscroft</strong>: What was Lord Alistair Ravenscroft's PURPOSE for being in the grand library at 11:43 PM?</li><li><strong>Lord Alistair Ravenscroft</strong>: What ACTION was Lord Alistair Ravenscroft taking at 11:43 PM in the grand library that involved the poisoned goblet?</li><li><strong>Lord Alistair Ravenscroft</strong>: Who was the intended RECIPIENT of the poisoned goblet associated with Lord Alistair Ravenscroft?</li><li><strong>Barnaby</strong>: What is Barnaby's PURPOSE for DIGGING_IN the rose garden?</li><li><strong>Barnaby</strong>: What are the SPECIFIC "buried truths" that Barnaby is MUTTERING_ABOUT?</li><li><strong>Barnaby</strong>: To WHOM does Barnaby MENTION the "voices beneath the earth"?</li><li><strong>Lord Alistair</strong>: What is the specific nature of the relationship between Lord Alistair and Miranda Holloway (e.g., familial, professional, adversarial)?</li><li><strong>Lord Alistair</strong>: In what context does Lord Alistair mention "betrayal," "mysterious rites," and "betrayer's blood" – is he describing events he witnessed, beliefs he holds, or something else?</li><li><strong>Lord Alistair</strong>: Does Lord Alistair hold a position of authority or influence implied by his title "Lord," and if so, what is the scope or nature of this authority?</li><li><strong>Lord Alistair Ravenscroft</strong>: What is the relationship between Lord Alistair Ravenscroft and other key entities?</li><li><strong>Lord Alistair Ravenscroft</strong>: What additional attributes or characteristics does Lord Alistair Ravenscroft have?</li><li><strong>Lord Alistair Ravenscroft</strong>: How does Lord Alistair Ravenscroft fit into the larger context?</li><li><strong>Barnaby</strong>: Is Barnaby DIGGING_IN the rose garden to bury something, or to unearth something?</li><li><strong>Barnaby</strong>: Are the "buried truths" Barnaby is MUTTERING_ABOUT related to events that occurred IN the rose garden?</li><li><strong>Barnaby</strong>: Does Barnaby believe the "voices beneath the earth" he MENTIONS are literal voices, or a metaphor for something else?</li></ul>
+        </div>
+        
+        <h3>Answers and New Knowledge</h3>
+        <div class="expansion-answers">
+    
+            <div class="expansion-answer">
+                <h4>Question 1: To whom is Lord Alistair referring when he mentions "betrayer's blood"?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x10798dfc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 2: What is the context or purpose of the "mysterious rites" that Lord Alistair mentions?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x127109fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 3: What is the specific nature of the relationship between Lord Alistair and Miranda Holloway (e.g., familial, professional, adversarial)?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x105995fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 4:  What action was Lord Alistair Ravenscroft performing at 11:43 PM in the grand library that involved the poisoned goblet?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x120ae1fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 5:  What is Lord Alistair Ravenscroft's relationship to the grand library (e.g., owner, visitor, employee)?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x11c3bdfc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 6:  Was the poisoned goblet intended for Lord Alistair Ravenscroft, or was it related to another individual or purpose within the grand library at 11:43 PM?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x1233bdfc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 7: What is Barnaby digging for in the rose garden?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x117cb9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 8: What specific buried truths is Barnaby muttering about?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x124709fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 9: To whom does Barnaby mention the voices beneath the earth?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x120de1fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 10: Is Lord Alistair depicted as the *perpetrator* or the *victim* of the "betrayal" he mentions?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x126eb9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 11: Are the "mysterious rites" Lord Alistair mentions rituals that he *conducts*, *observes*, or *warns against*?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x12b709fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 12: What is the *nature* of the relationship between Miranda Holloway and Lord Alistair – are they allies, rivals, or family members?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x124f09fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 13: What was Lord Alistair Ravenscroft's PURPOSE for being in the grand library at 11:43 PM?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x122309fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 14: What ACTION was Lord Alistair Ravenscroft taking at 11:43 PM in the grand library that involved the poisoned goblet?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x125bb9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 15: Who was the intended RECIPIENT of the poisoned goblet associated with Lord Alistair Ravenscroft?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x1255b9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 16: What is Barnaby's PURPOSE for DIGGING_IN the rose garden?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x11c4bdfc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 17: What are the SPECIFIC "buried truths" that Barnaby is MUTTERING_ABOUT?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x124c11fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 18: To WHOM does Barnaby MENTION the "voices beneath the earth"?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x1226e1fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 19: What is the specific nature of the relationship between Lord Alistair and Miranda Holloway (e.g., familial, professional, adversarial)?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x1238bdfc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 20: In what context does Lord Alistair mention "betrayal," "mysterious rites," and "betrayer's blood" – is he describing events he witnessed, beliefs he holds, or something else?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x125009fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 21: Does Lord Alistair hold a position of authority or influence implied by his title "Lord," and if so, what is the scope or nature of this authority?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x12f1b9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 22: What is the relationship between Lord Alistair Ravenscroft and other key entities?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x11a4b9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 23: What additional attributes or characteristics does Lord Alistair Ravenscroft have?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x122809fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 24: How does Lord Alistair Ravenscroft fit into the larger context?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x1274e1fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 25: Is Barnaby DIGGING_IN the rose garden to bury something, or to unearth something?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x12efb9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 26: Are the "buried truths" Barnaby is MUTTERING_ABOUT related to events that occurred IN the rose garden?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x109d21fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 27: Does Barnaby believe the "voices beneath the earth" he MENTIONS are literal voices, or a metaphor for something else?</h4>
+                <div class="answer-content">
+                    <p><coroutine object GeminiProvider.generate_text at 0x12b5b9fc0></p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.7</div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+        <section id="conclusion" class="section">
+            <h2>Conclusion</h2>
+            <p>This text analysis has revealed key relationships, entities, and patterns within the document. 
+            The knowledge graph construction provides a structured representation of the information, 
+            highlighting connections that might not be readily apparent from a simple reading.</p>
+            
+            <p>The identified theories offer interpretations of the underlying narrative and relationships,
+            providing deeper insight into the content and context of the text. These interpretations
+            can serve as a foundation for further analysis or deeper understanding of the material.</p>
+            
+            <p>The knowledge graph approach demonstrates the value of structured information extraction
+            and relationship mapping for complex textual content analysis. It reveals implicit connections,
+            patterns, and structures that enhance our understanding of the document.</p>
+            </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Generated by the Knowledge Graph Synthesis System</p>
+            <p>2025-03-08 01:24:25</p>
+        </div>
+    </footer>
+</body>
+</html>

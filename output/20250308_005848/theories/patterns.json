@@ -1,0 +1,98 @@
+[
+  {
+    "name": "The Ravenscroft Curse and Conspiracy",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern centers around the Ravenscroft family, their involvement with the occult, a secret society, and a murder. It suggests a narrative of hidden histories, betrayals, and supernatural consequences.",
+    "examples": [
+      {
+        "text": "Lord Alistair Ravenscroft → time_of_death → 11:43 PM",
+        "explanation": "Establishes the central event of the narrative: Lord Alistair's death."
+      },
+      {
+        "text": "Lord Alistair Ravenscroft → wrote_about → mysterious rites, Lord Alistair Ravenscroft → wrote_about → betrayer’s blood",
+        "explanation": "Connects Alistair to occult practices and foreshadows betrayal."
+      },
+      {
+        "text": "Mr. Finch → served → Ravenscrofts, Mr. Finch → hints_about → ancient secret society",
+        "explanation": "Links the Ravenscroft family to a secret society through their butler."
+      },
+      {
+        "text": "ancient secret society → bound_by → blood oaths, clandestine society → dedicated_to → supernatural forces, supernatural forces → reside_within → Ravenscroft Manor",
+        "explanation": "Establishes the society's dangerous nature and connection to the Ravenscroft estate."
+      },
+      {
+        "text": "betrayal → foretold → one of shared blood, one of shared blood → guided_by → envy",
+        "explanation": "Highlights the theme of betrayal within the family, driven by envy."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern forms the core narrative of the knowledge graph, suggesting a story of a family entangled in dark secrets and deadly consequences. It points to a likely murder mystery with supernatural elements."
+  },
+  {
+    "name": "Occult Investigation and Knowledge Seeking",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern revolves around the pursuit of occult knowledge and the investigation into related events. It highlights a semantic cluster focused on forbidden knowledge and its consequences.",
+    "examples": [
+      {
+        "text": "Elias Greer → obsessed_with → occult, Elias Greer → studies → ancient grimoires, Elias Greer → engaged_in → obscure rituals",
+        "explanation": "Establishes Elias Greer as deeply involved in occult practices."
+      },
+      {
+        "text": "Professor Greer → seen_with → cursed grimoire",
+        "explanation": "Connects another character, likely related to Elias Greer, to a dangerous occult object."
+      },
+      {
+        "text": "Inspector Hartwell → investigating → cursed grimoire, Inspector Hartwell → investigating → alchemical symbols",
+        "explanation": "Shows an investigation into the occult elements, likely linked to the murder."
+      },
+      {
+        "text": "alchemical symbols → match → runes, runes → located_at → hidden altars",
+        "explanation": "Connects the investigation to physical locations and objects associated with occult practices."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals a strong thematic focus on the dangers of forbidden knowledge and the investigation surrounding it. It suggests that the occult is not just background but a central element to the events."
+  },
+  {
+    "name": "Subterranean Secrets and Unease",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern focuses on Barnaby, the groundskeeper, and his unsettling behavior related to the grounds of Ravenscroft Manor. It suggests hidden secrets buried beneath the surface, both literally and metaphorically.",
+    "examples": [
+      {
+        "text": "Barnaby → works_as → groundskeeper",
+        "explanation": "Establishes Barnaby's role and connection to the physical location of the manor."
+      },
+      {
+        "text": "Barnaby → digging_in → rose garden",
+        "explanation": "Suggests a potential disturbance of something buried."
+      },
+      {
+        "text": "Barnaby → muttering_about → buried truths, Barnaby → muttering_about → voices beneath the earth",
+        "explanation": "Creates a sense of unease and hints at hidden secrets, possibly related to the Ravenscroft family or the secret society."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern adds a layer of suspense and mystery, suggesting that the grounds themselves hold clues or are connected to the supernatural events. It creates a sense of unease and foreshadows potential revelations."
+  },
+  {
+    "name": "Evasive Actions and Hidden Connections",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights Clara the maid's avoidance of the inspector, suggesting a hidden connection or secret she is trying to protect.",
+    "examples": [
+      {
+        "text": "Clara → works_as → maid",
+        "explanation": "Establishes Clara's role within the household."
+      },
+      {
+        "text": "Clara → avoids → inspector",
+        "explanation": "Indicates a deliberate attempt to avoid interaction with the investigation, suggesting guilt, fear, or knowledge of something relevant."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern is significant because it introduces a potential suspect or person of interest beyond the obvious connections to the occult. Clara's avoidance raises suspicion and suggests a hidden layer to the narrative."
+  }
+]

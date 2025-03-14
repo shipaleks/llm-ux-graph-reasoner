@@ -1,0 +1,86 @@
+{
+  "af7217a5-a28c-4740-82e5-98cf7a8ccd9a": {
+    "id": "af7217a5-a28c-4740-82e5-98cf7a8ccd9a",
+    "title": "The Veiled Compass Mystery",
+    "summary": "Inspector Helena Cross arrives in the isolated village of Eldermoor to investigate the disappearance of the Veiled Compass, a mysterious artifact. The investigation reveals a web of interconnected secrets, cryptic clues, and suspicious characters, all revolving around the compass and its potential power.",
+    "key_points": [
+      "The Veiled Compass, a relic rumored to guide users through impossible paths, disappears.",
+      "Inspector Cross investigates, encountering numerous villagers with secrets and connections to the compass.",
+      "Cryptic clues include stopped clocks, botanical sketches, visionary paintings, and a blacksmith's replica.",
+      "Mysterious notes signed with a \"V\" predict future events, suggesting the compass was intentionally hidden.",
+      "A riddle from an ancient manuscript hints at the compass's location and the method of its concealment."
+    ],
+    "role": "introduction",
+    "parent_relation": null
+  },
+  "5aa57a4b-49c6-492f-b936-9d470344b69e": {
+    "id": "5aa57a4b-49c6-492f-b936-9d470344b69e",
+    "title": "Mystery in Eldermoor",
+    "summary": "The quiet mountain village of Eldermoor is struck by a mystery surrounding the disappearance of a valuable artifact, the Veiled Compass.",
+    "key_points": [
+      "Isolated mountain village setting",
+      "Disappearance of the Veiled Compass",
+      "Artifact rumored to have special powers",
+      "Perpetual snow and whispering pines",
+      "Quiet village life disrupted"
+    ],
+    "role": "introduction",
+    "parent_relation": "This segment is the full parent context. It introduces the setting and the central mystery of the story."
+  },
+  "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb": {
+    "id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+    "title": "The Clockmaker's Tale",
+    "summary": "Inspector Helena Cross arrives in Eldermoor to investigate the disappearance of a compass, learning from clockmaker Ezra Hollow that it vanished during a blizzard when his clocks stopped.",
+    "key_points": [
+      "Inspector Helena Cross is introduced as the investigator.",
+      "Ezra Hollow, the clockmaker, is a key witness.",
+      "The compass disappeared during a midnight blizzard.",
+      "All of Ezra's clocks stopped at the time of the disappearance.",
+      "Ezra's clocks show different, incorrect times."
+    ],
+    "role": "introduction",
+    "parent_relation": "This segment develops the initial mystery introduced in the parent context, introducing the investigator and the first witness."
+  },
+  "6cd98e23-560b-4a25-a50d-9cc5277928ac": {
+    "id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+    "title": "The Inn and Guests",
+    "summary": "Vera Hollow ran the village inn, hosting guests like Lucian Greer, an herbalist with cryptic journals that interested the local historian, Bridget Locke. These journals combined botanical sketches and celestial charts.",
+    "key_points": [
+      "Vera Hollow manages the village inn.",
+      "Lucian Greer, a wandering herbalist, is a guest.",
+      "Lucian's journals contain cryptic botanical and celestial information.",
+      "Bridget Locke, the local historian, covets Lucian's journals.",
+      "Bridget is obsessed with ancient legends."
+    ],
+    "role": "introduction",
+    "parent_relation": "Introduces key characters and a potential source of mystery (Lucian's journals) within the setting established in the parent context."
+  },
+  "2beadc1c-42ac-4688-b70e-120518b37416": {
+    "id": "2beadc1c-42ac-4688-b70e-120518b37416",
+    "title": "Dominic's Prophetic Paintings",
+    "summary": "Bridget's younger brother, Dominic Locke, paints eerie landscapes that are rumored to predict future locations. His latest painting features a shadowy figure holding the Veiled Compass, a key item in the mystery.",
+    "key_points": [
+      "Dominic Locke paints eerie, seemingly non-existent landscapes.",
+      "Villagers believe Dominic's paintings sometimes predict real locations.",
+      "Dominic is plagued by visions.",
+      "His recent painting depicts the Veiled Compass.",
+      "The Veiled Compass is held by a shadowy figure in the painting."
+    ],
+    "role": "example",
+    "parent_relation": "This segment develops the central mystery introduced in the parent context by introducing a character with a potential connection to the Veiled Compass and the unfolding events."
+  },
+  "8913ab4e-6a6f-469d-87ee-59b834ede517": {
+    "id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+    "title": "Blacksmith's Secret Commission",
+    "summary": "Alder Shaw, the village blacksmith, is secretly commissioned to replicate the compass, confiding only in the librarian, Maeve Thorn. Maeve is a reclusive widow who takes care of the local library.",
+    "key_points": [
+      "Alder Shaw is commissioned to replicate the compass.",
+      "The client is anonymous.",
+      "Alder is secretive and wary.",
+      "He confides only in Maeve Thorn.",
+      "Maeve Thorn is a reclusive widow and librarian."
+    ],
+    "role": "development",
+    "parent_relation": "This segment develops the central mystery introduced in the parent context by introducing key characters and a suspicious commission related to the compass."
+  }
+}

@@ -1,0 +1,744 @@
+[
+  {
+    "id": "73d19412-1678-4931-9cec-4db7c03653c0",
+    "name": "погода",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01742bbd-8720-4a7d-989d-990327ae57e7",
+      "start": 22,
+      "end": 28,
+      "text": "погода"
+    }
+  },
+  {
+    "id": "20057ca6-96bb-4fb5-9fa6-de497d57aabe",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e328d36a-231a-4cfe-b26b-2806503ded7f",
+      "start": 30,
+      "end": 37,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "faf38001-2a04-49ce-ac48-6072f291b87e",
+    "name": "приложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b6eed59-0c1d-4830-b494-d6782bf120e0",
+      "start": 26,
+      "end": 36,
+      "text": "приложения"
+    }
+  },
+  {
+    "id": "bcee4cb3-17a2-4b80-934f-3f5f386eec9a",
+    "name": "сервис",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b6eed59-0c1d-4830-b494-d6782bf120e0",
+      "start": 40,
+      "end": 46,
+      "text": "сервис"
+    }
+  },
+  {
+    "id": "28b6ac9b-c119-4c63-9391-d334d131329a",
+    "name": "ВКонтакте",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec7761d-10f2-4594-92f5-d1156297e320",
+      "start": 22,
+      "end": 31,
+      "text": "вконтакте"
+    }
+  },
+  {
+    "id": "2c0357bd-2dbc-4339-b19e-d1c1df7e43dc",
+    "name": "Instagram",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36a496d0-2ff3-42c8-a3c6-ff6c2171253d",
+      "start": 0,
+      "end": 9,
+      "text": "инстаграм"
+    }
+  },
+  {
+    "id": "ed741b27-c9b5-4ce7-bb68-8e8bc6e8dbb0",
+    "name": "приложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "65bd06ce-aca2-41da-97d3-e24d9afcd099",
+      "start": 6,
+      "end": 16,
+      "text": "приложения"
+    }
+  },
+  {
+    "id": "f52eea30-8cc4-4dac-9997-bd9a0942ef94",
+    "name": "VPN",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86e84af2-345d-49ba-8c0b-ed40d433d446",
+      "start": 3,
+      "end": 6,
+      "text": "впн"
+    }
+  },
+  {
+    "id": "9e5b12a1-34c1-4af3-80ad-2f6b7dd1fc07",
+    "name": "VPN",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d71510d0-0dd0-4cef-bd79-e682a67aecdd",
+      "start": 11,
+      "end": 13,
+      "text": "вп"
+    }
+  },
+  {
+    "id": "e7dbe266-2425-4271-9bdc-4f819d399b4b",
+    "name": "Chrome",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "140e5146-16de-4b40-803c-42eaea13da2b",
+      "start": 26,
+      "end": 31,
+      "text": "хроме"
+    }
+  },
+  {
+    "id": "48804be5-dffc-4777-8540-221309c90a87",
+    "name": "расширение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "140e5146-16de-4b40-803c-42eaea13da2b",
+      "start": 16,
+      "end": 25,
+      "text": "расширение"
+    }
+  },
+  {
+    "id": "3da2745f-3f2e-443f-a3bb-10327da0be0f",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae375b27-e3fa-4776-9790-2eb19ce62cf0",
+      "start": 9,
+      "end": 14,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "43c31f47-56b9-4dca-a077-6f8c2118508c",
+    "name": "чат же пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61ed5cff-43df-4753-bef1-fe9830defa95",
+      "start": 61,
+      "end": 72,
+      "text": "чат же пяти"
+    }
+  },
+  {
+    "id": "59c67af6-1d97-4e76-a9f3-c820916b03f3",
+    "name": "дипсик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61ed5cff-43df-4753-bef1-fe9830defa95",
+      "start": 74,
+      "end": 80,
+      "text": "дипсик"
+    }
+  },
+  {
+    "id": "46b0bba8-fabe-400a-80c1-2a8f76793703",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "600f14ad-dae6-49d9-a104-31c180c6de77",
+      "start": 31,
+      "end": 38,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "8d662c79-557a-4daf-bed4-be3bd67bce00",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "600f14ad-dae6-49d9-a104-31c180c6de77",
+      "start": 42,
+      "end": 47,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "83623a65-1eca-41e8-97ae-fc7f3f090024",
+    "name": "нейро-сетками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "600f14ad-dae6-49d9-a104-31c180c6de77",
+      "start": 16,
+      "end": 28,
+      "text": "нейро сетками"
+    }
+  },
+  {
+    "id": "45316096-d583-482a-940a-ad4c605a6687",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "712e5ba5-ed36-4401-ae83-bbfc55f1032f",
+      "start": 20,
+      "end": 25,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "aacd9e59-1178-48aa-b5f6-9417b1c12c73",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e3aff131-143b-4761-8cae-e4c94f8112b2",
+      "start": 24,
+      "end": 31,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "3cde78e3-da56-412a-8467-9eb929a9b834",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e3aff131-143b-4761-8cae-e4c94f8112b2",
+      "start": 35,
+      "end": 41,
+      "text": "гуглом"
+    }
+  },
+  {
+    "id": "a05df028-57da-46a6-ba48-858127631d00",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e3bab72b-05cc-4946-96b0-448c84dcbf4b",
+      "start": 27,
+      "end": 34,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "e7b1260f-d394-4973-912d-fa5875d92c71",
+    "name": "Chrome",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1528da35-23fb-4baf-9c37-04f88f4dcc66",
+      "start": 18,
+      "end": 23,
+      "text": "хром"
+    }
+  },
+  {
+    "id": "c102bba7-97b9-4e73-9f18-a6c999118181",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96162809-4125-4cb9-ac10-fb22bbff4c58",
+      "start": 45,
+      "end": 51,
+      "text": "ютуба"
+    }
+  },
+  {
+    "id": "c253079f-c20f-4c97-99c9-ae36a19be50b",
+    "name": "продукты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9dc055e-9196-410e-96cc-8bcdbebe56eb",
+      "start": 8,
+      "end": 16,
+      "text": "продукты"
+    }
+  },
+  {
+    "id": "57a7d609-e13e-4d20-a7ac-1843d13dc35e",
+    "name": "продукты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fff6bc49-bb73-4ca0-8e9a-a8b241c4d3eb",
+      "start": 8,
+      "end": 16,
+      "text": "продукты"
+    }
+  },
+  {
+    "id": "039d33f4-d024-4fb8-b1b0-aba859bc01a4",
+    "name": "лавка",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a5f298a-4d39-4f08-a6cb-8fc23701c3ba",
+      "start": 27,
+      "end": 32,
+      "text": "лавку"
+    }
+  },
+  {
+    "id": "e96642cf-b91d-4dda-bffd-8792055ba4d1",
+    "name": "Яндекс Еда",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c99a45ea-477e-4c57-96c1-4d0c088134b3",
+      "start": 71,
+      "end": 81,
+      "text": "яндекс еда"
+    }
+  },
+  {
+    "id": "14c4e524-185d-4208-8019-14907b6ec2e2",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "093a7467-01e0-4e32-bc3f-dd879063d058",
+      "start": 23,
+      "end": 30,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "16163f51-e262-457a-bbf1-43b5564ac24f",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "093a7467-01e0-4e32-bc3f-dd879063d058",
+      "start": 43,
+      "end": 50,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "9a8b8610-7f11-49ca-927b-9b6925fe47d3",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bee42a7c-10e9-4523-8209-7817c1a6eacc",
+      "start": 3,
+      "end": 9,
+      "text": "я точка"
+    }
+  },
+  {
+    "id": "b2c582b5-11e6-4287-a312-07329a4b7b07",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e2273dc-51e3-408b-9d1e-8c0b8a3e45fa",
+      "start": 13,
+      "end": 20,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "1e9e192a-a00c-4264-bd54-811be2193034",
+    "name": "приложение еды",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e2273dc-51e3-408b-9d1e-8c0b8a3e45fa",
+      "start": 93,
+      "end": 106,
+      "text": "приложение еды"
+    }
+  },
+  {
+    "id": "edaa5702-e028-45da-8665-c60a9a929d31",
+    "name": "Маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e2273dc-51e3-408b-9d1e-8c0b8a3e45fa",
+      "start": 109,
+      "end": 115,
+      "text": "маркета"
+    }
+  },
+  {
+    "id": "00a06d4a-bdf3-45b5-9b2e-0e5f99cc1331",
+    "name": "википедия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "804f0008-b6fa-4bc2-85b0-4dbe16e71d87",
+      "start": 74,
+      "end": 83,
+      "text": "википедию"
+    }
+  },
+  {
+    "id": "5fa300d4-f7b0-409a-bef2-b9b10cf65f4d",
+    "name": "двигатель",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 41,
+      "end": 49,
+      "text": "двигатель"
+    }
+  },
+  {
+    "id": "1e6c847f-868d-4b14-8a2f-ddffe7d0bfd1",
+    "name": "частотный преобразователь",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 79,
+      "end": 103,
+      "text": "частотный преобразователь"
+    }
+  },
+  {
+    "id": "ce414e93-4b17-4a08-b59e-28a9893e3362",
+    "name": "двигатель",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 119,
+      "end": 127,
+      "text": "двигатель"
+    }
+  },
+  {
+    "id": "691e06f8-9832-4788-8508-40e43d2f8e00",
+    "name": "винт установки",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 133,
+      "end": 147,
+      "text": "винт установки"
+    }
+  },
+  {
+    "id": "86af7fb4-5542-4794-80da-6d5ceda53693",
+    "name": "винт машины",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 149,
+      "end": 160,
+      "text": "винт машины"
+    }
+  },
+  {
+    "id": "f231bc2b-54c9-4012-9711-413a45615dfb",
+    "name": "вентиляционной машины",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d7cb18e-69fd-43dc-937f-4920bef7841b",
+      "start": 162,
+      "end": 183,
+      "text": "вентиляционной машины"
+    }
+  },
+  {
+    "id": "c98cab82-80bb-4629-987e-b79ee7d06858",
+    "name": "вентиляционная установка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d98ef5f8-c7f4-4a05-ab48-21b8558ed528",
+      "start": 21,
+      "end": 45,
+      "text": "вентиляционная установка"
+    }
+  },
+  {
+    "id": "4e32d848-92a0-47b4-bbfb-317bde1fdadc",
+    "name": "короткое замыкание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "05122d80-e4a0-4a7e-be79-97c0126af945",
+      "start": 19,
+      "end": 37,
+      "text": "короткое замыкание"
+    }
+  },
+  {
+    "id": "c25ea600-c495-4aa9-adf4-31678f1c5e71",
+    "name": "двигатель",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "05122d80-e4a0-4a7e-be79-97c0126af945",
+      "start": 42,
+      "end": 51,
+      "text": "двигателем"
+    }
+  },
+  {
+    "id": "1f5b9f9c-ecae-4722-b4de-6b806ff18a14",
+    "name": "пк",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f609eda1-f634-491b-a2ef-69eb99e4752e",
+      "start": 54,
+      "end": 56,
+      "text": "пк"
+    }
+  },
+  {
+    "id": "5e33ab73-9ad2-4b00-884b-bc01b3352aa9",
+    "name": "комплектующие",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a1ce9aa-24f8-4ef7-9367-8f4044aaebbf",
+      "start": 49,
+      "end": 62,
+      "text": "комплектующие"
+    }
+  },
+  {
+    "id": "4fbb2415-2792-4f8a-b0dc-baf59ac6f378",
+    "name": "пк",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f89ffa56-a14b-4ba0-9b12-1c1e5c64a6d8",
+      "start": 58,
+      "end": 60,
+      "text": "пк"
+    }
+  },
+  {
+    "id": "481a3786-ddc3-44a1-a0e2-fff89f2e5852",
+    "name": "ютуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "60a8cbc7-a0d0-48a6-8982-42e03542cb95",
+      "start": 76,
+      "end": 81,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "f28f1454-811f-4ace-934d-c6fd511c9971",
+    "name": "ютуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c6eb1bbd-4553-4a41-adb0-98ac6be8c528",
+      "start": 24,
+      "end": 29,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "bbd71331-e947-4877-a357-d5c039a307ec",
+    "name": "авито",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c6eb1bbd-4553-4a41-adb0-98ac6be8c528",
+      "start": 36,
+      "end": 41,
+      "text": "авито"
+    }
+  },
+  {
+    "id": "c13e5a74-cc5e-4785-95a2-1c0218eaf05e",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c6eb1bbd-4553-4a41-adb0-98ac6be8c528",
+      "start": 48,
+      "end": 54,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "c534b547-6069-42a7-8d20-c6f6965a1cde",
+    "name": "видеокарта",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9130da3-6196-4eea-a5b2-7e69ff1b3d72",
+      "start": 109,
+      "end": 119,
+      "text": "видеокарта"
+    }
+  },
+  {
+    "id": "ba25cce0-5849-446a-9e00-a8ee53a57544",
+    "name": "процессор",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9130da3-6196-4eea-a5b2-7e69ff1b3d72",
+      "start": 127,
+      "end": 136,
+      "text": "процессор"
+    }
+  },
+  {
+    "id": "2d4f38bc-04b4-436b-8b28-6c46230c02e5",
+    "name": "компьютеры",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dda483ea-34c2-4e26-8b66-28e814715e23",
+      "start": 112,
+      "end": 122,
+      "text": "компьютеры"
+    }
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "id": "56904ec5-3542-415e-b0fb-129636ef7227",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af4f09ee-751c-4bad-ac1c-ce7e733c5088",
+      "start": 36,
+      "end": 42,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "7d52ccd7-8bb1-4eea-9dc4-f787b9b253e3",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4da0f7c3-dbb2-4608-947e-d7caa8f2cb0c",
+      "start": 8,
+      "end": 13,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "6d3a652d-f041-4b73-b818-4d1882c3367e",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cfc02498-ea26-46cc-80a3-df72a43e9a1c",
+      "start": 54,
+      "end": 59,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "36ae6ff7-df74-4743-9a6c-e279ee021f14",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca6b61b2-29b7-40bd-a699-96fb16453bac",
+      "start": 76,
+      "end": 81,
+      "text": "него"
+    }
+  },
+  {
+    "id": "b7dcf61a-cc27-40c2-bef9-40bee0053728",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae34511e-5d11-42ed-8573-a7a01e38431a",
+      "start": 56,
+      "end": 61,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "079c6cb2-fb9f-482c-8ba8-1d0e7d01043c",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea6b50a-44c7-4c36-a3a6-eba29dd5d404",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "e4703011-10cc-4e2e-8c41-7663c435f84b",
+    "name": "открытые сайты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea6b50a-44c7-4c36-a3a6-eba29dd5d404",
+      "start": 16,
+      "end": 29,
+      "text": "открытым сайтам"
+    }
+  },
+  {
+    "id": "b715b60c-6477-4e74-bd82-9906beb46489",
+    "name": "открытые источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ea6b50a-44c7-4c36-a3a6-eba29dd5d404",
+      "start": 34,
+      "end": 51,
+      "text": "открытым источникам"
+    }
+  },
+  {
+    "id": "8e6b4d13-fc66-4b77-83ad-c380df72b3d9",
+    "name": "разные источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "024f6a4c-0b63-4a22-8585-0a76ad58db25",
+      "start": 3,
+      "end": 19,
+      "text": "разных источников"
+    }
+  },
+  {
+    "id": "4cc7a77c-4702-448d-878d-84a6983c9d93",
+    "name": "Александр Невский",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0597d773-52ce-45a1-b923-3b36667b0263",
+      "start": 44,
+      "end": 61,
+      "text": "александр невский"
+    }
+  },
+  {
+    "id": "884b15c8-2d70-4967-8d6e-e5f06fe92c8f",
+    "name": "битвы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0597d773-52ce-45a1-b923-3b36667b0263",
+      "start": 31,
+      "end": 37,
+      "text": "битвах"
+    }
+  },
+  {
+    "id": "da62ed1f-a078-4572-b453-63ea017f5253",
+    "name": "вопросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2dd1fd74-c2bd-4102-88ba-99db1be473f8",
+      "start": 31,
+      "end": 39,
+      "text": "вопросов"
+    }
+  },
+  {
+    "id": "5a420c36-2d4f-475b-aafd-4eafe362b439",
+    "name": "история",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b1fb6bc-e821-491d-83c8-37fdee394a98",
+      "start": 26,
+      "end": 33,
+      "text": "истории"
+    }
+  },
+  {
+    "id": "153ce1e6-831b-4b2f-891c-f998e42a629f",
+    "name": "бытовой вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b1fb6bc-e821-491d-83c8-37fdee394a98",
+      "start": 47,
+      "end": 61,
+      "text": "бытовой вопрос"
+    }
+  },
+  {
+    "id": "4ace364c-66c1-4d48-9e86-4b55d97118e0",
+    "name": "расписание работы бассейна",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e64a8579-668b-498f-ade8-2b7141da58b8",
+      "start": 20,
+      "end": 47,
+      "text": "расписание работы бассейна"
+    }
+  },
+  {
+    "id": "f94cbb0a-c385-4a7b-ad35-40bfb5ceaaa0",
+    "name": "области жизни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "025708c8-6571-4410-aae9-5089915e4df0",
+      "start": 36,
+      "end": 49,
+      "text": "областях жизни"
+    }
+  },
+  {
+    "id": "0eaa7bca-6508-47c4-8393-857026d93118",
+    "name": "поисковые запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "025708c8-6571-4410-aae9-5089915e4df0",
+      "start": 63,
+      "end": 80,
+      "text": "поисковые запросы"
+    }
+  },
+  {
+    "id": "8b14752c-1fc5-437e-9143-bad0e39ad38a",
+    "name": "найро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "025708c8-6571-4410-aae9-5089915e4df0",
+      "start": 96,
+      "end": 101,
+      "text": "найро"
+    }
+  },
+  {
+    "id": "be547864-cdfd-4eb9-b8dd-bc4da425059c",
+    "name": "области жизни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88aa3099-3d15-417c-80f6-99574fbd12a2",
+      "start": 34,
+      "end": 47,
+      "text": "областях жизни"
+    }
+  },
+  {
+    "id": "931c6e7b-655b-4a2c-9936-0f3a24bf729d",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "47238f1e-b303-4b6a-bed8-407074ae7c83",
+      "start": 47,
+      "end": 52,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8d16b647-db97-4b3c-ba3d-f518d5438e2a",
+    "name": "список сайтов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "47238f1e-b303-4b6a-bed8-407074ae7c83",
+      "start": 123,
+      "end": 135,
+      "text": "список сайтов"
+    }
+  },
+  {
+    "id": "553668a6-b443-4ea6-b830-59d695af58e8",
+    "name": "пиратский онлайн кинотеатр",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "840a9890-35d0-4574-81a8-c1061c5332c2",
+      "start": 9,
+      "end": 35,
+      "text": "пиратский онлайн кинотеатр"
+    }
+  },
+  {
+    "id": "8820a8de-9d9e-401a-bf42-3e4ab7d4fa6d",
+    "name": "контент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f7a2505-06a6-43d5-af09-e5d93f033e22",
+      "start": 17,
+      "end": 24,
+      "text": "контент"
+    }
+  },
+  {
+    "id": "e9b71949-c83d-45d5-9383-a9a7b541f53f",
+    "name": "действие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4444f856-1962-4407-a899-04a221b2b7e6",
+      "start": 37,
+      "end": 45,
+      "text": "действие"
+    }
+  },
+  {
+    "id": "95677aa7-001b-4ed2-96db-aa0eef4cf4cb",
+    "name": "вещь",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4444f856-1962-4407-a899-04a221b2b7e6",
+      "start": 69,
+      "end": 73,
+      "text": "вещь"
+    }
+  },
+  {
+    "id": "1473ea5e-9186-4abe-8bbb-3ec19712f1fe",
+    "name": "маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93b3f58c-3539-41ac-ae5d-154c7bc0c7ae",
+      "start": 12,
+      "end": 18,
+      "text": "маркет"
+    }
+  },
+  {
+    "id": "6f0b2b2e-d622-4b6a-aa50-64a4f6e3f5c9",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9c3ed3d5-4dfe-446a-85cf-da332764da8c",
+      "start": 16,
+      "end": 22,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "f05ffbc1-99df-4e52-bd8f-1f6ed9bece9d",
+    "name": "ситуации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f449bb7-8714-43cc-b0ab-d159569ff468",
+      "start": 86,
+      "end": 94,
+      "text": "ситуации"
+    }
+  },
+  {
+    "id": "92a4feb6-a546-46d2-9b64-9cd5cb17b281",
+    "name": "товар",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9fb2323-c509-4907-bcbc-3e2d72ae0238",
+      "start": 17,
+      "end": 22,
+      "text": "товар"
+    }
+  },
+  {
+    "id": "29bf093c-c2d6-4849-ad02-27c21ce170f9",
+    "name": "место",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9fb2323-c509-4907-bcbc-3e2d72ae0238",
+      "start": 37,
+      "end": 42,
+      "text": "место"
+    }
+  },
+  {
+    "id": "b4325ee8-7f9e-4424-b29a-c09ce98aa13d",
+    "name": "вещи",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b4b02ff-9acc-4178-84bb-b629b2a9fc7c",
+      "start": 24,
+      "end": 28,
+      "text": "вещи"
+    }
+  },
+  {
+    "id": "8dd547c0-e591-4a68-899b-e062e41ffa39",
+    "name": "задачки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "478a22c4-ad31-4070-b75e-8e618a09f908",
+      "start": 35,
+      "end": 42,
+      "text": "задачки"
+    }
+  },
+  {
+    "id": "f1a6b174-e50b-4514-8159-8126cd81f220",
+    "name": "характеристики",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5b89459-7c3f-4f34-909f-87c1bd936958",
+      "start": 3,
+      "end": 16,
+      "text": "характеристикам"
+    }
+  },
+  {
+    "id": "e91c757e-fd05-4e68-b3cd-b63f58c3c10d",
+    "name": "маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "224788d9-4dc7-4776-88dd-7fb26510011c",
+      "start": 26,
+      "end": 32,
+      "text": "маркете"
+    }
+  },
+  {
+    "id": "0b3e91de-31e6-4844-9264-717f188704b7",
+    "name": "оля",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bfccc5ee-a403-48a8-88f4-908245c88142",
+      "start": 8,
+      "end": 11,
+      "text": "оли"
+    }
+  },
+  {
+    "id": "7dfecf76-5862-4e6a-8d1f-f883deba3aad",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e60a98a5-8730-4e8a-8fb2-5a6bc8815a91",
+      "start": 12,
+      "end": 18,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "4c6c1aef-3bbf-4a80-bff4-19782917abcd",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d4ee10e6-0f8a-4c1f-b537-8f4f3c730724",
+      "start": 49,
+      "end": 54,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "7b5310f3-86dc-4599-a590-1a37a2b43ebe",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cf47966-000d-441d-9073-518fdbdbda0a",
+      "start": 6,
+      "end": 12,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "f04e7f28-2658-4bd8-9f01-601db87fede4",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "243a6a09-3481-46b7-9d12-9eb7072ee1fe",
+      "start": 9,
+      "end": 15,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "c8cd2dff-f857-4d53-a47b-5273f1adad3e",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5d3be36-17a4-4863-9e71-c63593cadc4a",
+      "start": 14,
+      "end": 19,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "0a917d6c-82e7-422c-9fe9-f2e367b5d818",
+    "name": "телевизор",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96751be5-abd0-440d-884f-bfcd84fcc686",
+      "start": 17,
+      "end": 27,
+      "text": "телевизоры"
+    }
+  },
+  {
+    "id": "5104d885-b4ee-4297-bfb0-ebb702657dbe",
+    "name": "операционная система",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96751be5-abd0-440d-884f-bfcd84fcc686",
+      "start": 44,
+      "end": 64,
+      "text": "операционную систему"
+    }
+  },
+  {
+    "id": "d35d339d-c3e8-4ff2-9249-9c67eaee2c29",
+    "name": "пользовательский опыт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb7a4388-73ea-4366-aede-24c9cf383a3d",
+      "start": 12,
+      "end": 33,
+      "text": "пользовательский опыт"
+    }
+  },
+  {
+    "id": "9182356e-c9fd-4c79-bfdc-2e8690c6487b",
+    "name": "отзывы людей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a0db7f5-9342-4251-82b3-4eb36ccf3f78",
+      "start": 16,
+      "end": 29,
+      "text": "отзывы людей"
+    }
+  },
+  {
+    "id": "d7e86286-6a42-44f3-9674-1df488d43667",
+    "name": "телевизор",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "21f59e1a-e867-4b2e-a45f-6a0993d1ec12",
+      "start": 18,
+      "end": 27,
+      "text": "телевизор"
+    }
+  },
+  {
+    "id": "56388a18-2f86-450c-805b-f32358f53fd7",
+    "name": "операционка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "21f59e1a-e867-4b2e-a45f-6a0993d1ec12",
+      "start": 64,
+      "end": 75,
+      "text": "операционка"
+    }
+  },
+  {
+    "id": "d61af24d-3974-4b9d-a138-8325c4d725d5",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cbb2a62e-8b3f-40fd-96d0-ca2a1aba0f6e",
+      "start": 41,
+      "end": 47,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "309e216a-e77a-42cb-a4cc-65a9e75fa826",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92bfe785-0388-476b-942a-d56ef7c2acd5",
+      "start": 0,
+      "end": 6,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "13e63b67-4110-4a14-a93b-26cdaef98acd",
+    "name": "яндекс маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab2a1370-1353-4c26-a381-8db3078781f7",
+      "start": 74,
+      "end": 87,
+      "text": "яндекс маркете"
+    }
+  },
+  {
+    "id": "57fc075a-5a18-45b1-95d0-106d699cb690",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a0543d3-131b-4e68-8e47-14b8487827cd",
+      "start": 43,
+      "end": 48,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "ca214876-8da6-44ed-badd-8a154a3b46ae",
+    "name": "сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6981f635-c60e-4ae7-88bb-b53540092a05",
+      "start": 98,
+      "end": 103,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "6205c964-ec2a-4c33-bf3c-845f3b775e4c",
+    "name": "андроид инсайдер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5c586c54-6061-454e-a743-b83e65a78672",
+      "start": 22,
+      "end": 38,
+      "text": "андроид инсайдер"
+    }
+  },
+  {
+    "id": "577ad978-48d9-4dac-9e34-7b5eb629f1b7",
+    "name": "сбер тв",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d5469691-6995-4d63-9117-7154a5f63b7b",
+      "start": 81,
+      "end": 88,
+      "text": "сбер тв"
+    }
+  },
+  {
+    "id": "206cbad1-a097-4bd4-8d82-4245c43cc117",
+    "name": "яндекс тв",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d5469691-6995-4d63-9117-7154a5f63b7b",
+      "start": 98,
+      "end": 107,
+      "text": "яндекс тв"
+    }
+  },
+  {
+    "id": "e5d6bfaa-dd82-4462-b1c3-224b8df0898a",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bbd91f82-dbac-4fa5-b3b1-e749070b3824",
+      "start": 87,
+      "end": 93,
+      "text": "алису"
+    }
+  }
+]

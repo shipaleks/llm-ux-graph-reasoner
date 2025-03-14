@@ -1,0 +1,179 @@
+[
+  {
+    "title": "The Self-Reinforcing Product Ecosystem Theory",
+    "summary": "Organizations like Яндекс build product ecosystems where products leverage the organization's core technologies and even themselves to improve and expand their functionality, creating a self-reinforcing cycle of growth and innovation.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Core Organization"
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Ecosystem Product"
+      },
+      {
+        "name": "Яндекс Пэй",
+        "type": "product",
+        "role": "Ecosystem Product"
+      },
+      {
+        "name": "Яндекс Такси",
+        "type": "product",
+        "role": "Ecosystem Product"
+      },
+      {
+        "name": "Нейро",
+        "type": "product",
+        "role": "Ecosystem Product"
+      },
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "Enabling Technology"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Яндекс Музыка",
+        "target": "Яндекс",
+        "type": "part_of",
+        "description": "Indicates that Яндекс Музыка is a product within the Яндекс ecosystem."
+      },
+      {
+        "source": "Яндекс Пэй",
+        "target": "Яндекс Пэй",
+        "type": "uses",
+        "description": "Indicates that Яндекс Пэй uses itself, suggesting a self-improving system."
+      },
+      {
+        "source": "Яндекс",
+        "target": "Яндекс",
+        "type": "uses",
+        "description": "Indicates that Яндекс uses itself, suggesting a self-improving system."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Яндекс Музыка → Яндекс",
+        "relevance": "Demonstrates the product ecosystem centered on Яндекс."
+      },
+      {
+        "text": "Яндекс Пэй → Яндекс Пэй",
+        "relevance": "Demonstrates self-referential technology use."
+      },
+      {
+        "text": "Яндекс → Яндекс",
+        "relevance": "Demonstrates self-referential technology use."
+      },
+      {
+        "text": "Technology as an Enabler (narrative): A technology entity (нейросеть) likely enables or supports the functionality of product entities",
+        "relevance": "Supports the idea of technology as an enabler within the ecosystem."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.75,
+    "alternative_explanations": [
+      {
+        "summary": "The observed patterns are simply the result of independent product development efforts within Яндекс, without a deliberate ecosystem strategy.",
+        "confidence": 0.4
+      }
+    ],
+    "gaps": [
+      "The specific ways in which нейросеть is used by different products within the Яндекс ecosystem.",
+      "Quantitative data on the performance improvements resulting from self-referential technology use.",
+      "The degree of integration and data sharing between different products within the Яндекс ecosystem."
+    ]
+  },
+  {
+    "title": "The Controlled Innovation Silo Theory",
+    "summary": "Organizations strategically isolate innovation within specific product lines, leveraging core technologies in a controlled manner. This approach prioritizes focused development and risk mitigation over broad, interconnected ecosystem growth, resulting in self-contained improvements and limited cross-pollination between products.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Parent organization controlling technology deployment"
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Product line with specific technology focus"
+      },
+      {
+        "name": "Яндекс Пэй",
+        "type": "product",
+        "role": "Product line with specific technology focus"
+      },
+      {
+        "name": "Яндекс Такси",
+        "type": "product",
+        "role": "Product line with specific technology focus"
+      },
+      {
+        "name": "Нейро",
+        "type": "product",
+        "role": "Product line with specific technology focus"
+      },
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "Core technology deployed selectively across product lines"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Яндекс Музыка",
+        "target": "Яндекс",
+        "type": "part_of",
+        "description": "Indicates organizational structure, not necessarily functional integration"
+      },
+      {
+        "source": "Яндекс Пэй",
+        "target": "Яндекс Пэй",
+        "type": "uses",
+        "description": "Indicates focused improvement within a specific product line"
+      },
+      {
+        "source": "Яндекс",
+        "target": "Яндекс",
+        "type": "uses",
+        "description": "Indicates focused improvement within a specific product line"
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Яндекс Музыка → Яндекс",
+        "relevance": "Supports the organizational structure aspect of the theory, showing that Яндекс Музыка is part of Яндекс, but doesn't imply functional integration."
+      },
+      {
+        "text": "Яндекс Пэй → Яндекс Пэй",
+        "relevance": "Supports the idea of focused improvement within a specific product line, as Яндекс Пэй uses itself."
+      },
+      {
+        "text": "Яндекс → Яндекс",
+        "relevance": "Supports the idea of focused improvement within a specific product line, as Яндекс uses itself."
+      },
+      {
+        "text": "Нейросеть as a technology entity",
+        "relevance": "Suggests a core technology that could be deployed selectively across product lines, supporting the controlled technology deployment mechanism."
+      },
+      {
+        "text": "Multiple product entities are 'part_of' a central organization",
+        "relevance": "Supports the organizational structure aspect of the theory, showing that multiple products are part of Яндекс, but doesn't imply functional integration."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.7,
+    "alternative_explanations": null,
+    "gaps": [
+      "The degree of technology sharing between product lines is unknown.",
+      "The specific reasons for limiting technology deployment are not identified.",
+      "The impact of siloed innovation on overall organizational performance is unclear."
+    ],
+    "is_alternative": true,
+    "alternative_to": "The Self-Reinforcing Product Ecosystem Theory"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "83d0505e-d0f4-4be7-b12d-a4dd8074974c",
+    "source_id": "3a2240c4-c53b-42de-a1a5-5ac06742159c",
+    "target_id": "6e6de848-ad38-47a5-bb5b-e8bed20ba0c1",
+    "type": "sought_counsel_in",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 0,
+      "end": 42,
+      "text": "Prudence regularly sought counsel in Reverend Edmund Crane"
+    }
+  },
+  {
+    "id": "a455ead4-c001-4361-aa6d-bcc8a7b8e134",
+    "source_id": "26999e3f-1042-4872-a8ad-67172d1a29a5",
+    "target_id": "9de695d0-8a8b-424e-9be6-645032a90578",
+    "type": "younger_sister_of",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 102,
+      "end": 130,
+      "text": "Edmund's younger sister, Harriet"
+    }
+  },
+  {
+    "id": "3fe7a10b-bba3-44d3-81a3-b05201c6b733",
+    "source_id": "26999e3f-1042-4872-a8ad-67172d1a29a5",
+    "target_id": "3200fde0-013e-4e95-ba7d-3f9000e4ad33",
+    "type": "managed",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 132,
+      "end": 163,
+      "text": "managed the local bookstore"
+    }
+  },
+  {
+    "id": "48644007-fc9f-4082-941f-26c8313e3101",
+    "source_id": "3a4696de-529b-48d2-8602-a86ce99cecc4",
+    "target_id": "3200fde0-013e-4e95-ba7d-3f9000e4ad33",
+    "type": "frequented",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 176,
+      "end": 206,
+      "text": "frequented by Eleanor"
+    }
+  },
+  {
+    "id": "40f7f313-c340-4ebb-ba27-1c39669ed06e",
+    "source_id": "a6ab1701-91c6-4831-aa48-fb3e57c3fa64",
+    "target_id": "14289df8-65ee-431e-b841-a48769b469ff",
+    "type": "written_by",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 298,
+      "end": 335,
+      "text": "written by Maxwell Finch—"
+    }
+  },
+  {
+    "id": "f30150f0-68ac-477e-b0d3-a46196ea3ae6",
+    "source_id": "14289df8-65ee-431e-b841-a48769b469ff",
+    "target_id": "04dfb170-c048-4185-aeda-687422c810dd",
+    "type": "estranged_cousin_of",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 335,
+      "end": 361,
+      "text": "—Gregory's estranged cousin—"
+    }
+  },
+  {
+    "id": "77cc73da-e3c0-456e-8817-414edd28a178",
+    "source_id": "14289df8-65ee-431e-b841-a48769b469ff",
+    "target_id": "4493a30c-c10f-4637-9f3a-eeb60bcf4a82",
+    "type": "same_as",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 362,
+      "end": 369,
+      "text": "Maxwell"
+    }
+  },
+  {
+    "id": "3e6276da-0bc0-4f19-8ce4-e7e645d31682",
+    "source_id": "993716a2-422f-40f1-af92-57c1815097f9",
+    "target_id": "4493a30c-c10f-4637-9f3a-eeb60bcf4a82",
+    "type": "sensed_otherwise",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "317e86f8-d7ae-4da6-8418-5d577b02fbc1",
+      "start": 457,
+      "end": 495,
+      "text": "whispers persisted among townsfolk who sensed otherwise"
+    }
+  },
+  {
+    "id": "b945929e-9bd0-4f1c-b83c-7f2b0c2e84ae",
+    "source_id": "57b24bd4-e593-43a7-a65d-859c5cf9f132",
+    "target_id": "6bf2a688-c9be-4838-b170-0d513d6dc8a9",
+    "type": "same_as",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 0,
+      "end": 11,
+      "text": "Amelia Cole"
+    }
+  },
+  {
+    "id": "fda266a0-3aae-4a4f-a427-d7e9a12f7e34",
+    "source_id": "57b24bd4-e593-43a7-a65d-859c5cf9f132",
+    "target_id": "71515d15-baf7-480a-a9b3-43831316ead3",
+    "type": "occupation",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 13,
+      "end": 45,
+      "text": "an ambitious young journalist"
+    }
+  },
+  {
+    "id": "8cb89db8-24b8-43f0-8068-8b66612ccb61",
+    "source_id": "57b24bd4-e593-43a7-a65d-859c5cf9f132",
+    "target_id": "48d72dd9-1d60-45e5-afb2-bcfc7196733e",
+    "type": "chased_leads_regarding",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 81,
+      "end": 143,
+      "text": "chased leads regarding the myriad secrets and scandals enveloping the Blythe family"
+    }
+  },
+  {
+    "id": "0f69e9ba-2fb6-44d8-a6a4-2c54058e7e20",
+    "source_id": "6bf2a688-c9be-4838-b170-0d513d6dc8a9",
+    "target_id": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20",
+    "type": "aided_by",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 154,
+      "end": 208,
+      "text": "was discreetly aided by her reluctant informant, Dr. Tobias Sinclair"
+    }
+  },
+  {
+    "id": "9aa01900-0d06-4364-b4ef-b855b3892592",
+    "source_id": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20",
+    "target_id": "06d4ad9f-cfea-4f9f-9683-9e504e8d6df6",
+    "type": "same_as",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 185,
+      "end": 203,
+      "text": "Dr. Tobias Sinclair"
+    }
+  },
+  {
+    "id": "7261952e-34c5-4374-9b4b-1fb71e4bfc2a",
+    "source_id": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20",
+    "target_id": "732c7a10-583d-426b-9443-56523363ade6",
+    "type": "occupation",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 210,
+      "end": 226,
+      "text": "family physician"
+    }
+  },
+  {
+    "id": "e26b99d2-23bf-4711-b3de-1339bab861d6",
+    "source_id": "3aacc53b-9f16-4489-a85a-dff060978cea",
+    "target_id": "04dfb170-c048-4185-aeda-687422c810dd",
+    "type": "wife_of",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "80442f79-5cce-4e2f-858f-78e65b858156",
+      "start": 277,
+      "end": 294,
+      "text": "Gregory’s late wife, Margaret"
+    }
+  },
+  {
+    "id": "6b8ebfb0-dda0-4800-b381-a24a8bd83673",
+    "source_id": "ffdf4603-df13-40f9-b25c-9826b5ebdb78",
+    "target_id": "17d0af90-e3b5-4d15-9151-27e51172086c",
+    "type": "watched_interactions_at",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "09205057-fde4-4f1f-956a-942f7860030f",
+      "start": 26,
+      "end": 110,
+      "text": "Detective Croft meticulously watched interactions unfold at Madame Agnes’ elegant tea salon"
+    }
+  },
+  {
+    "id": "e0bf4263-b4da-49f0-bc56-5fd03ba8d481",
+    "source_id": "17d0af90-e3b5-4d15-9151-27e51172086c",
+    "target_id": "981be236-23c5-486a-8bf4-6d6dda579c50",
+    "type": "former_occupation",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "09205057-fde4-4f1f-956a-942f7860030f",
+      "start": 154,
+      "end": 201,
+      "text": "once a celebrated Parisian opera singer"
+    }
+  },
+  {
+    "id": "4fe4288e-301d-4eb2-aaa6-8943e1f0cf8d",
+    "source_id": "981be236-23c5-486a-8bf4-6d6dda579c50",
+    "target_id": "db2846a1-a6a2-42ea-b161-cfda87cfc055",
+    "type": "known_throughout",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "09205057-fde4-4f1f-956a-942f7860030f",
+      "start": 202,
+      "end": 224,
+      "text": "known throughout Europe"
+    }
+  },
+  {
+    "id": "74f83878-22a8-4a53-8770-fff80c0f6a55",
+    "source_id": "57922ca2-6385-4a2a-83c2-682c7301496a",
+    "target_id": "85317f2a-d5ae-41c6-8e8d-7b2d3a2c45f8",
+    "type": "saw_arguing_with",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "39dc2a00-bae0-4d93-be27-cf26000967e4",
+      "start": 174,
+      "end": 223,
+      "text": "saw Eleanor arguing passionately with Jacob"
+    }
+  },
+  {
+    "id": "a3247bac-b2a2-47c7-9bc5-74f7c42be01b",
+    "source_id": "3a2240c4-c53b-42de-a1a5-5ac06742159c",
+    "target_id": "dec033fe-58ca-4b57-a57f-d17db5d9e2ee",
+    "type": "witnessed_slipping_into_chamber",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "39dc2a00-bae0-4d93-be27-cf26000967e4",
+      "start": 247,
+      "end": 296,
+      "text": "witnessed Nathaniel quietly slipping into Eleanor's chamber"
+    }
+  },
+  {
+    "id": "7db449ca-c6a4-4139-a0b2-12e7d867d9dc",
+    "source_id": "f642963e-940c-434a-aea5-a2b9c761b1dd",
+    "target_id": "35fe819c-e7f1-4343-afbe-ed61e979b9c4",
+    "type": "noticed_lurking_near",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "39dc2a00-bae0-4d93-be27-cf26000967e4",
+      "start": 324,
+      "end": 385,
+      "text": "noticed Celia Rhodes lurking near the estate’s outskirts in twilight"
+    }
+  },
+  {
+    "id": "6f95641c-9093-4bf1-8ab2-c458d5166aea",
+    "source_id": "f171f949-4068-4484-b42b-7a3b97f713d2",
+    "target_id": "35fe819c-e7f1-4343-afbe-ed61e979b9c4",
+    "type": "same_as",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8ad95ff6-ccef-4dbe-96a1-4485803b5bc2",
+      "start": 99,
+      "end": 110,
+      "text": "Celia Rhodes"
+    }
+  },
+  {
+    "id": "1bdb6362-4589-4ad1-99bf-37c7052022ad",
+    "source_id": "7164af96-2dc6-4020-83a4-62565c76f726",
+    "target_id": "ffdf4603-df13-40f9-b25c-9826b5ebdb78",
+    "type": "same_as",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8ad95ff6-ccef-4dbe-96a1-4485803b5bc2",
+      "start": 83,
+      "end": 97,
+      "text": "Detective Croft"
+    }
+  },
+  {
+    "id": "da5e2897-cc3e-453a-8e3c-1b834c279123",
+    "source_id": "ffdf4603-df13-40f9-b25c-9826b5ebdb78",
+    "target_id": "35fe819c-e7f1-4343-afbe-ed61e979b9c4",
+    "type": "found",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8ad95ff6-ccef-4dbe-96a1-4485803b5bc2",
+      "start": 83,
+      "end": 110,
+      "text": "Detective Croft found Celia Rhodes"
+    }
+  }
+]

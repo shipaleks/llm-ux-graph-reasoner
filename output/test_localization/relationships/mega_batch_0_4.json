@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3ee08a61-0d8a-48bd-af8e-8d4bb03d2aa8",
+    "source_id": "50849d8d-7151-4974-9338-f30841d18604",
+    "target_id": "c5e078b5-68bf-44d0-ae6d-681ec35dbfec",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc58fc7e-bd0c-45ee-9af7-ab03dadb58b1",
+      "start": 23,
+      "end": 37,
+      "text": "сервисы яндекса"
+    }
+  },
+  {
+    "id": "303978af-c8b4-479e-89e0-46daa405e235",
+    "source_id": "50849d8d-7151-4974-9338-f30841d18604",
+    "target_id": "a3abac6f-16b4-4fd6-815c-b7f0b31a16ec",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc58fc7e-bd0c-45ee-9af7-ab03dadb58b1",
+      "start": 41,
+      "end": 58,
+      "text": "технологии яндекса"
+    }
+  },
+  {
+    "id": "e533f84d-e6cd-4b33-95c9-c975149a0991",
+    "source_id": "bbb94402-697d-4176-8c1a-00c220f97819",
+    "target_id": "81e84b13-99a6-43ec-950e-f9884c56252f",
+    "type": "IS_A",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8b8c27d-188d-4460-8266-4b157203a3a6",
+      "start": 14,
+      "end": 27,
+      "text": "музыка, яндекс музыка"
+    }
+  },
+  {
+    "id": "3d5337aa-ef7a-4a38-9c84-9840013fcabd",
+    "source_id": "8b724934-e206-4a2e-aa35-9d26530d10e6",
+    "target_id": "8b724934-e206-4a2e-aa35-9d26530d10e6",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bce8ff9-137e-4c5c-81ce-40e728c4919d",
+      "start": 62,
+      "end": 74,
+      "text": "такси пользуюсь"
+    }
+  },
+  {
+    "id": "ed332554-484b-416a-83b9-aff3e8db208a",
+    "source_id": "25751bab-f2c7-4d99-9b68-ff1b36f9d7ef",
+    "target_id": "25751bab-f2c7-4d99-9b68-ff1b36f9d7ef",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bce8ff9-137e-4c5c-81ce-40e728c4919d",
+      "start": 0,
+      "end": 22,
+      "text": "яндекс пэй иногда использую"
+    }
+  }
+]

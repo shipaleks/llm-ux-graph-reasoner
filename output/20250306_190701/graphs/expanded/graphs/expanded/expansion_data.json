@@ -1,0 +1,199 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "targets": [
+        {
+          "entity_name": "яндекс музыка",
+          "entity_type": "product",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "музыка",
+          "entity_type": "concept",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "WEBVTT",
+          "entity_type": "technology",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "targets": [
+        {
+          "entity_name": "яндекс музыка",
+          "entity_type": "product",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "музыка",
+          "entity_type": "concept",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "WEBVTT",
+          "entity_type": "technology",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "entity_name": "яндекс музыка",
+      "entity_type": "product",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "музыка",
+      "entity_type": "concept",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "WEBVTT",
+      "entity_type": "technology",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "яндекс музыка",
+      "entity_type": "product",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "музыка",
+      "entity_type": "concept",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "WEBVTT",
+      "entity_type": "technology",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    }
+  ],
+  "questions": [
+    {
+      "iteration": 0,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "What are the key features and functionalities offered by Яндекс Музыка that differentiate it from other music streaming services?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "What types of content (e.g., podcasts, audiobooks, exclusive releases) are available on Яндекс Музыка besides music?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "What platforms and devices is Яндекс Музыка accessible on (e.g., mobile apps, web browser, smart speakers)?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "What are some key characteristics or qualities associated with \"музыка\" (e.g., emotional impact, cultural significance, structural elements)?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "Besides \"яндекс музыка,\" what are other common platforms or mediums through which \"музыка\" is typically accessed or consumed?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "What are some common genres or styles that fall under the umbrella of \"музыка\"?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": " Beyond basic captioning, what specific accessibility features or enhancements does WEBVTT enable for users with disabilities, and how do these compare to alternative captioning formats?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": " What are the primary software tools and platforms used for creating, editing, and validating WEBVTT files, and how do their features impact the efficiency and accuracy of the captioning workflow?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": " How does the implementation of WEBVTT differ across various media players and streaming services (e.g., YouTube, Netflix, custom players), and what are the common challenges or inconsistencies encountered in ensuring consistent display and functionality?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "What are the key features and functionalities offered by Яндекс Музыка that differentiate it from other music streaming services?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "Does Яндекс Музыка have any exclusive content or partnerships with specific artists or labels?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "яндекс музыка",
+      "target_type": "product",
+      "question": "What platforms and devices is Яндекс Музыка available on (e.g., mobile apps, web browser, smart speakers)?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "What are some key characteristics or elements that define \"музыка\" as a concept, beyond simply being a product offered by \"яндекс музыка\"? (Focuses on attributes and defining features)"
+    },
+    {
+      "iteration": 1,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "What are some common genres or styles that fall under the umbrella of \"музыка\"? (Focuses on hierarchical relationships and sub-categories)"
+    },
+    {
+      "iteration": 1,
+      "target_name": "музыка",
+      "target_type": "concept",
+      "question": "What are some common emotions or feelings associated with listening to \"музыка\"? (Focuses on experiential attributes and related concepts)"
+    },
+    {
+      "iteration": 1,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": "What specific media formats and platforms commonly utilize WEBVTT for displaying subtitles or captions, and what are the technical advantages of using WEBVTT over alternative formats in these contexts?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": "Beyond basic text display, what advanced features or functionalities does WEBVTT support (e.g., styling, positioning, cue timing), and how do these features contribute to improved accessibility or user experience?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "WEBVTT",
+      "target_type": "technology",
+      "question": "What are the primary software tools or libraries used for creating, editing, and validating WEBVTT files, and what are the key considerations for developers when choosing these tools to ensure compatibility and accuracy?"
+    }
+  ],
+  "answers": []
+}

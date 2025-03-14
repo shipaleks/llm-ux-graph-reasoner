@@ -1,0 +1,30 @@
+Extract all entities from the following text. An entity is a person, organization, location, object, event, product, technology, or concept mentioned in the text.
+
+If the text appears to be a transcript of a conversation (contains signs of dialogue, speech, interview), pay special attention to:
+- Names of people and organizations mentioned
+- Products and services (e.g., "Yandex search", "application", "service")
+- Technologies and product features
+- Key concepts from the topics being discussed
+- Questions and issues discussed by the conversation participants
+
+For each entity:
+1. Identify its canonical name in normalized form
+2. Determine its type or category (person, organization, product, service, feature, technology, etc.)
+3. Extract any attributes or properties
+4. Specify where in the text it appears (source span)
+5. Assess your confidence in this entity (0-1)
+6. Note any alternative forms or mentions (aliases)
+
+Only extract entities that are explicitly mentioned in the text. Do not infer entities that aren't directly stated. Be precise with the source spans, ensuring they contain the exact text where the entity appears. If there are multiple mentions of the same entity, use the most informative mention for the source span.
+
+Text to analyze:
+{{text}}
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}
+
+Remember to:
+- Ground every entity in the source text using precise source spans
+- Only include entities explicitly mentioned in the text
+- Assign appropriate confidence scores (lower for unclear or ambiguous entities)
+- Maintain a consistent level of granularity for entity types

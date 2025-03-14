@@ -1,0 +1,82 @@
+[
+  {
+    "name": "AI-Driven Information Retrieval and Assistance",
+    "type": "Semantic",
+    "subtype": "semantic",
+    "description": "This pattern highlights the use of AI, specifically neural networks, in information retrieval and assistance. It shows AI being used to enhance search, provide summaries, and assist users with tasks like text editing and answering questions.",
+    "examples": [
+      {
+        "text": "нейросеть → редактор, нейросеть → пересказ, нейросеть → работа с текстом",
+        "explanation": "Neural networks are being used for text editing, summarization, and general text processing."
+      },
+      {
+        "text": "алисы → поисковика, чаты → поисковика",
+        "explanation": "AI assistants like Алиса are positioned as replacements or alternatives to traditional search engines."
+      },
+      {
+        "text": "яндексе → нейросети",
+        "explanation": "Yandex is using neural networks to perform similar tasks to other search methods."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern indicates a shift towards AI-powered information access and task completion, where AI assistants and neural networks are becoming increasingly integrated into search and productivity tools. It also suggests a competition between traditional search engines and AI-driven interfaces."
+  },
+  {
+    "name": "Legal and Informational Search Focus",
+    "type": "Relational",
+    "subtype": "semantic",
+    "description": "This pattern reveals a strong emphasis on legal and informational search, particularly through the organization 'Консультант Плюс'. It suggests a need for users to access legal documents, scientific articles, and other informational materials.",
+    "examples": [
+      {
+        "text": "консультант плюс → научную статью, консультант плюс → материал, консультант плюс → закон",
+        "explanation": "Консультант Плюс is used to search for scientific articles, general materials, and laws."
+      },
+      {
+        "text": "двести пятьдесят девятый фз",
+        "explanation": "The presence of a specific law (259-FZ) as an entity indicates a focus on legal information."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern highlights the importance of legal and informational resources for the users represented in the knowledge graph. It suggests that users are actively seeking legal and scientific information, possibly for professional or academic purposes."
+  },
+  {
+    "name": "Product Ecosystem and Integration",
+    "type": "Structural",
+    "subtype": "semantic",
+    "description": "This pattern demonstrates the interconnectedness of products within a larger ecosystem, specifically within Yandex and Sber. It shows how different products are related and integrated, creating a cohesive user experience.",
+    "examples": [
+      {
+        "text": "яндекс музыка → яндекса, око → сберовской экосистемы",
+        "explanation": "Yandex Music is part of the broader Yandex ecosystem, and 'Oko' is part of the Sber ecosystem."
+      },
+      {
+        "text": "продукт яндекса, чат с алисой",
+        "explanation": "The presence of 'Yandex product' and 'Chat with Alice' as product entities indicates a focus on Yandex's product offerings."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern reveals the strategic importance of product ecosystems in providing a comprehensive and integrated user experience. It suggests that companies like Yandex and Sber are building interconnected product suites to enhance user engagement and retention."
+  },
+  {
+    "name": "Ambiguous AI Capabilities and Limitations",
+    "type": "Narrative",
+    "subtype": "semantic",
+    "description": "This pattern highlights both the potential and the limitations of AI. While AI is presented as a replacement for search engines and capable of various tasks, there are also indications of potential issues like confusion caused by multiple AI systems and the need for VPNs to access certain AI services.",
+    "examples": [
+      {
+        "text": "две нейросети → путаница",
+        "explanation": "The fact that two neural networks can cause confusion suggests limitations in AI's ability to handle complex or conflicting information."
+      },
+      {
+        "text": "чат g пять → vpn",
+        "explanation": "The requirement of a VPN to access 'Chat G Five' suggests potential restrictions or limitations on the availability and accessibility of AI services."
+      },
+      {
+        "text": "алисы → поисковика, чаты → поисковика",
+        "explanation": "AI assistants are presented as replacements for search engines, implying a high level of capability."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern provides a balanced view of AI, acknowledging both its potential benefits and its current limitations. It suggests that while AI is rapidly advancing, there are still challenges to overcome in terms of reliability, accessibility, and the ability to handle complex information."
+  }
+]

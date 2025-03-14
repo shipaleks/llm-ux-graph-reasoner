@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Corporate Leadership and Establishment",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the relationship between a person serving as a 'генеральный_директор' (General Director) of an 'organization' and the 'основана_в' (founded in) relationship of that organization. It suggests a connection between leadership and the founding date of a company.",
+    "examples": [
+      {
+        "text": "Иван Петров → ТехноИнновации, ТехноИнновации → 2010",
+        "explanation": "Ivan Petrov is the General Director of TeknoInnovatsii, which was founded in 2010. This links a leader to the company's origin."
+      },
+      {
+        "text": "Алексей Смирнов → Глобал Системс",
+        "explanation": "Alexey Smirnov is the General Director of Global Systems. While the founding date isn't directly linked to him, the pattern suggests a potential connection to be explored."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern is significant because it shows the hierarchical structure within the companies and their historical context. It implies that the General Director plays a crucial role in the organization's history and potentially its future direction."
+  },
+  {
+    "name": "Temporal Progression of Employment and Partnerships",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern describes the sequence of events related to a person's employment history and the announcement of partnerships involving organizations. It suggests a timeline of professional activities and corporate collaborations.",
+    "examples": [
+      {
+        "text": "Мария Сидорова → ИТ-Решения, Мария Сидорова → 2015, 15 января 2023 года → Глобал Системс",
+        "explanation": "Maria Sidorova worked at IT-Resheniya, then started working with a date (2015), and later, a partnership involving Global Systems was announced on January 15, 2023. This suggests a possible career progression and involvement in corporate partnerships."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern is significant because it provides a chronological context for the entities and relationships. It helps understand the evolution of professional relationships and corporate strategies over time."
+  },
+  {
+    "name": "Geographic Anchoring of Organizations",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern highlights the 'базируется_в' (based in) relationship, indicating the physical location of an organization. It suggests the importance of geographic location for the organization's operations or identity.",
+    "examples": [
+      {
+        "text": "Глобал Системс → Санкт-Петербург",
+        "explanation": "Global Systems is based in Saint Petersburg. This indicates the company's physical location and potential ties to the region."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern is significant because it provides a geographic context for the organization. It can be relevant for understanding the company's market, resources, and potential collaborations within the region."
+  }
+]

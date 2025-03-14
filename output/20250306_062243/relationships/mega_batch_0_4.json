@@ -1,0 +1,73 @@
+[
+  {
+    "id": "92825164-a3fe-45c4-998a-9eba4694f72b",
+    "source_id": "66dd2d07-7195-4df9-bcde-4f1ec42759ca",
+    "target_id": "c50d6959-d1e1-45c2-9e20-b22969928f1d",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 0,
+      "end": 60,
+      "text": "Иван Петров является генеральным директором компании \"ТехноИнновации\""
+    }
+  },
+  {
+    "id": "6da30112-ef01-4d1f-bf5a-bb6bf97e1702",
+    "source_id": "c50d6959-d1e1-45c2-9e20-b22969928f1d",
+    "target_id": "efd77c99-a1d1-4b0e-992c-74cbe98dd6f8",
+    "type": "ОСНОВАНА_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 71,
+      "end": 97,
+      "text": "была основана в 2010 году"
+    }
+  },
+  {
+    "id": "7c3b6ab8-c832-4e53-aa30-5529f1ffc707",
+    "source_id": "79814a93-442a-4803-8ca5-7b587fba37f6",
+    "target_id": "2b40e59f-6af2-4947-ac56-c4b02974f030",
+    "type": "РАБОТАЛА_В",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "position",
+        "value": "ведущий разработчик",
+        "confidence": 0.96,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "3f39df6c-0505-4614-9a27-773a930456f2",
+      "start": 93,
+      "end": 142,
+      "text": "ведущим разработчиком в компании \"ИТ-Решения\""
+    }
+  },
+  {
+    "id": "d4c3d5d4-726a-4b8c-b310-7eaab84eecd2",
+    "source_id": "4a9fb7ce-c8ed-4c86-8446-3e7618845081",
+    "target_id": "ab8d5811-44f2-417a-ae85-6baba0daac2f",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 128,
+      "end": 160,
+      "text": "базируется в Санкт-Петербурге"
+    }
+  }
+]

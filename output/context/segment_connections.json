@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "448ea46c-b93a-4cde-98ce-36d996fd7a3a",
+    "target_id": "523d6379-3f8b-48ea-9177-b1a1fa1e1dde",
+    "type": "Общая тема",
+    "strength": 0.8,
+    "direction": "Двусторонняя"
+  },
+  {
+    "source_id": "448ea46c-b93a-4cde-98ce-36d996fd7a3a",
+    "target_id": "c30308be-df7b-4c24-924d-18db5db6da81",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "523d6379-3f8b-48ea-9177-b1a1fa1e1dde",
+    "target_id": "c30308be-df7b-4c24-924d-18db5db6da81",
+    "type": "Общая тема",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "c30308be-df7b-4c24-924d-18db5db6da81",
+    "target_id": "882b3ddf-77a1-415f-a962-62b6e05a87de",
+    "type": "Общая тема",
+    "strength": 0.8,
+    "direction": "Двусторонняя"
+  }
+]

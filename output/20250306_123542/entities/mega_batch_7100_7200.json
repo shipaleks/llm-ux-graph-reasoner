@@ -1,0 +1,730 @@
+[
+  {
+    "id": "8f006e9d-1a91-401b-b293-ea631933367a",
+    "name": "коллега иностранной должностью",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "48313336-6666-452d-af58-37a49137b0c8",
+      "start": 7,
+      "end": 41,
+      "text": "какая- то коллега иностранной должностью"
+    }
+  },
+  {
+    "id": "178ee59d-8380-4048-b5b9-15019d8d8cb0",
+    "name": "уточняющих вопросов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b00a22c7-f672-477f-b129-95e0c4174e21",
+      "start": 43,
+      "end": 61,
+      "text": "уточняющих вопросов"
+    }
+  },
+  {
+    "id": "080cc268-f8be-4db9-8ffb-989c5d09f592",
+    "name": "человект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58e5d673-ebd5-4c50-a762-91ce193cc93e",
+      "start": 26,
+      "end": 34,
+      "text": "человект"
+    }
+  },
+  {
+    "id": "24d9a5df-bf78-49d5-862d-54c939755e17",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4488e21-b9ef-4106-b40b-ad2b25f63a4a",
+      "start": 6,
+      "end": 12,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "1c1bf5ed-17b0-483d-88eb-4d074a9fb3fb",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c4488e21-b9ef-4106-b40b-ad2b25f63a4a",
+      "start": 26,
+      "end": 30,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "bcabe7ee-9726-4334-bada-96f3c1b13b5b",
+    "name": "ча g",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44f2fe61-3cce-4c87-8508-84f32317d270",
+      "start": 17,
+      "end": 20,
+      "text": "ча g"
+    }
+  },
+  {
+    "id": "43c4fb21-90fa-4612-8315-155744a72c20",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "856de1d1-8442-4e83-8612-604c1c17a77e",
+      "start": 27,
+      "end": 33,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "93d952cc-db4a-4dde-9747-24b8e8438cda",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f541d78-e1af-4d50-a478-5b515e3941e9",
+      "start": 11,
+      "end": 18,
+      "text": "рекламы"
+    }
+  },
+  {
+    "id": "8e98128b-4cd7-4cf9-9d0f-e7906a6b9510",
+    "name": "подписку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f541d78-e1af-4d50-a478-5b515e3941e9",
+      "start": 41,
+      "end": 49,
+      "text": "подписку"
+    }
+  },
+  {
+    "id": "b9ebcf4a-206e-485d-9240-b46de3f3b9a3",
+    "name": "сайтах",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d439c9f2-bfbc-470a-9e7b-01faec3e629e",
+      "start": 21,
+      "end": 27,
+      "text": "сайтах"
+    }
+  },
+  {
+    "id": "fbaf71b4-fe57-458a-9748-01a0b6ed69bf",
+    "name": "ограничения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d439c9f2-bfbc-470a-9e7b-01faec3e629e",
+      "start": 54,
+      "end": 65,
+      "text": "ограничения"
+    }
+  },
+  {
+    "id": "92fc2bec-df2d-479e-ad8e-8fe68c0aac70",
+    "name": "подписка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d439c9f2-bfbc-470a-9e7b-01faec3e629e",
+      "start": 76,
+      "end": 84,
+      "text": "подписка"
+    }
+  },
+  {
+    "id": "76f506ef-b811-40b3-961b-fc20e5f2cf38",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92f8eb09-bc25-4b52-9b24-aed49b76d848",
+      "start": 17,
+      "end": 24,
+      "text": "реклама"
+    }
+  },
+  {
+    "id": "a61c3986-7918-4991-b82f-c71b2f567ffc",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92f8eb09-bc25-4b52-9b24-aed49b76d848",
+      "start": 91,
+      "end": 95,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "d4230632-87bd-4a5b-8728-5675f897da82",
+    "name": "пример",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a02d5a76-d4d6-466d-a616-acb5d4915e1c",
+      "start": 43,
+      "end": 49,
+      "text": "пример"
+    }
+  },
+  {
+    "id": "c2556458-82b3-4998-a9a1-f3f937040932",
+    "name": "технологиями",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d62dde29-db16-409b-994a-398f639987df",
+      "start": 54,
+      "end": 66,
+      "text": "технологиями"
+    }
+  },
+  {
+    "id": "690192de-3a18-4f05-afd5-87692f3c81ee",
+    "name": "раза два в неделю",
+    "type": "frequency",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8a4433de-58e2-44d5-90cc-032e21f9c456",
+      "start": 9,
+      "end": 26,
+      "text": "раза два в неделю"
+    }
+  },
+  {
+    "id": "87277b5e-0087-4c06-b77b-2a12c6fcb61c",
+    "name": "части g пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4e225253-a85d-4e0a-a331-734919517c09",
+      "start": 21,
+      "end": 33,
+      "text": "части g пяти"
+    }
+  },
+  {
+    "id": "ba218259-7fb9-4508-b74c-ac8b8458cda7",
+    "name": "рекламу",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54c8d68f-3fc3-42a6-82bc-4d310b042276",
+      "start": 22,
+      "end": 29,
+      "text": "рекламу"
+    }
+  },
+  {
+    "id": "b210d636-5232-468b-8716-ede004762c25",
+    "name": "авито",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54c8d68f-3fc3-42a6-82bc-4d310b042276",
+      "start": 33,
+      "end": 38,
+      "text": "авито"
+    }
+  },
+  {
+    "id": "233e9df0-4e35-460b-990b-dcbf288f30f4",
+    "name": "чата g пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54c8d68f-3fc3-42a6-82bc-4d310b042276",
+      "start": 51,
+      "end": 62,
+      "text": "чата g пяти"
+    }
+  },
+  {
+    "id": "fa43a192-6e4d-4361-9e10-736b3ba1d5b7",
+    "name": "объявление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "54c8d68f-3fc3-42a6-82bc-4d310b042276",
+      "start": 70,
+      "end": 79,
+      "text": "объявление"
+    }
+  },
+  {
+    "id": "fb3df138-f8c4-4eed-bcd6-fc0ff6a8ad40",
+    "name": "услуги музыканта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d4274cc2-de08-46e3-bca6-29c28f5e48b7",
+      "start": 5,
+      "end": 20,
+      "text": "услуги музыканта"
+    }
+  },
+  {
+    "id": "8db4371b-33c1-4639-8307-eb6b59651971",
+    "name": "помощь с текстом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91d87a00-2596-4d27-9068-fb73c57c5eb4",
+      "start": 12,
+      "end": 28,
+      "text": "помощь с текстом"
+    }
+  },
+  {
+    "id": "8243043e-0eb3-4e00-a501-9ad54dfbdafb",
+    "name": "промптом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b15b87f-f7af-4f54-bb64-40e7a8013e59",
+      "start": 15,
+      "end": 23,
+      "text": "промптом"
+    }
+  },
+  {
+    "id": "43117d61-5313-4cb8-9822-bdb5121f9ea9",
+    "name": "чат g пяти",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b15b87f-f7af-4f54-bb64-40e7a8013e59",
+      "start": 49,
+      "end": 59,
+      "text": "чат g пяти"
+    }
+  },
+  {
+    "id": "949bb833-b328-4bd4-a41f-348b522331ff",
+    "name": "услугу",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91f6cbfc-ef31-4c50-827a-ca8c43bd19b5",
+      "start": 9,
+      "end": 15,
+      "text": "услугу"
+    }
+  },
+  {
+    "id": "c1d2aafd-f911-423a-84c2-4a709774aa75",
+    "name": "репертуаре",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70b9674d-2ece-47bc-a616-c079b6fb5a4e",
+      "start": 47,
+      "end": 57,
+      "text": "репертуаре"
+    }
+  },
+  {
+    "id": "cc52cfbe-11f8-47b3-98b4-41bc459ddd0c",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3a53a2c-5114-44e6-b69c-12aeb80c26fc",
+      "start": 54,
+      "end": 59,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "1d8559e1-3153-4286-abfd-461cb25bf798",
+    "name": "авито",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b3f0991b-b64a-4f94-904c-9d13d4501845",
+      "start": 62,
+      "end": 67,
+      "text": "авито"
+    }
+  },
+  {
+    "id": "51be4d03-3d89-441d-bd0d-5c935894dbf9",
+    "name": "мама",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4274a896-5c70-47e8-a597-924bb8ee36ee",
+      "start": 28,
+      "end": 32,
+      "text": "маме"
+    }
+  },
+  {
+    "id": "3eeb9df6-6dd8-4f6b-9c9e-cd470b76de20",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df1cbe3c-969b-4fcc-ae5f-77dbcec2b034",
+      "start": 36,
+      "end": 43,
+      "text": "свадьбы"
+    }
+  },
+  {
+    "id": "cea71632-31ee-42d6-8058-250d8dcb603c",
+    "name": "юбилей",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df1cbe3c-969b-4fcc-ae5f-77dbcec2b034",
+      "start": 45,
+      "end": 51,
+      "text": "юбилей"
+    }
+  },
+  {
+    "id": "a6e2e913-015f-447c-b277-01bd41fad3fa",
+    "name": "вечеринка",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df1cbe3c-969b-4fcc-ae5f-77dbcec2b034",
+      "start": 59,
+      "end": 68,
+      "text": "вечеринки"
+    }
+  },
+  {
+    "id": "1d65b54b-e872-4b1d-b0a3-9f0b301504f6",
+    "name": "хит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e58a3811-0e91-439b-b99e-bf15ea99d524",
+      "start": 17,
+      "end": 22,
+      "text": "хитов"
+    }
+  },
+  {
+    "id": "e34a7ee5-6fd6-4973-881e-12a11f5ac4e3",
+    "name": "жанр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e58a3811-0e91-439b-b99e-bf15ea99d524",
+      "start": 32,
+      "end": 37,
+      "text": "жанры"
+    }
+  },
+  {
+    "id": "3f0d9bca-d32f-4be6-a2b7-cc13383df712",
+    "name": "дуэт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b4e2c49d-303a-464a-9326-4e87ea2616bc",
+      "start": 14,
+      "end": 18,
+      "text": "дуэт"
+    }
+  },
+  {
+    "id": "497273c2-8039-4bc9-85df-534ed9a4eead",
+    "name": "музыкальные друзья",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b4e2c49d-303a-464a-9326-4e87ea2616bc",
+      "start": 24,
+      "end": 41,
+      "text": "музыкальные друзья"
+    }
+  },
+  {
+    "id": "c044b6f5-154c-4100-8e43-c758d741c43e",
+    "name": "авито",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53ff2c33-d136-4a53-b858-7f03fe6041cc",
+      "start": 17,
+      "end": 22,
+      "text": "авито"
+    }
+  },
+  {
+    "id": "685a287f-7fa2-4445-b5c6-dfcb4ba42b80",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "856b93ec-acfc-47d7-9a0d-dcd6ea81e3f5",
+      "start": 53,
+      "end": 60,
+      "text": "свадьбы"
+    }
+  },
+  {
+    "id": "bbccd0c8-c1a8-40c8-beb1-0b3c8d8dc036",
+    "name": "юбилей",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "856b93ec-acfc-47d7-9a0d-dcd6ea81e3f5",
+      "start": 62,
+      "end": 68,
+      "text": "юбилее"
+    }
+  },
+  {
+    "id": "ac541da3-ba9f-41f1-83cb-f57661bda229",
+    "name": "тусовка",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "856b93ec-acfc-47d7-9a0d-dcd6ea81e3f5",
+      "start": 70,
+      "end": 77,
+      "text": "тусовки"
+    }
+  },
+  {
+    "id": "783d9727-939a-42c1-aa6a-3a5cc400cd09",
+    "name": "мероприятие",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "856b93ec-acfc-47d7-9a0d-dcd6ea81e3f5",
+      "start": 90,
+      "end": 102,
+      "text": "мероприятия"
+    }
+  },
+  {
+    "id": "7ec27ad0-8d4f-4f1f-9be9-5c507733d19f",
+    "name": "поп",
+    "type": "music_genre",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61c94e69-6e2e-49f8-b702-89dfbd13b90e",
+      "start": 30,
+      "end": 33,
+      "text": "поп"
+    }
+  },
+  {
+    "id": "f0a9471b-c552-4052-8e08-1e6dab8b0d00",
+    "name": "рок",
+    "type": "music_genre",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61c94e69-6e2e-49f8-b702-89dfbd13b90e",
+      "start": 35,
+      "end": 38,
+      "text": "рок"
+    }
+  },
+  {
+    "id": "e615a5ff-77ec-4958-9a92-d18eef22b6bc",
+    "name": "джаз",
+    "type": "music_genre",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61c94e69-6e2e-49f8-b702-89dfbd13b90e",
+      "start": 40,
+      "end": 44,
+      "text": "джаз"
+    }
+  },
+  {
+    "id": "37ec58ce-29bf-40f7-9f52-18d18b8a7ae6",
+    "name": "классика",
+    "type": "music_genre",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c341345f-baa0-4323-98b1-d34d621426a9",
+      "start": 24,
+      "end": 32,
+      "text": "классики"
+    }
+  },
+  {
+    "id": "ffc91284-4ee4-45d8-9b39-eb950a5455d0",
+    "name": "хит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c341345f-baa0-4323-98b1-d34d621426a9",
+      "start": 47,
+      "end": 52,
+      "text": "хитов"
+    }
+  },
+  {
+    "id": "a5226092-41c1-4963-aa5b-523e829e5b07",
+    "name": "мероприятие",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6c325003-e3be-49ea-9ddc-ef1901bf1963",
+      "start": 30,
+      "end": 42,
+      "text": "мероприятия"
+    }
+  },
+  {
+    "id": "3fcc280d-7d17-483a-9e27-f1ce84408d27",
+    "name": "репертуар",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6c325003-e3be-49ea-9ddc-ef1901bf1963",
+      "start": 67,
+      "end": 76,
+      "text": "репертуар"
+    }
+  },
+  {
+    "id": "102f125c-0255-4558-b30a-188cc4361696",
+    "name": "пауза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a38fd45-35f5-4e0f-8714-27abbaead5c5",
+      "start": 34,
+      "end": 39,
+      "text": "пауз"
+    }
+  },
+  {
+    "id": "133dc36f-b80a-4442-ba94-737cd3d352e9",
+    "name": "праздник",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8befab59-15e5-444d-be47-a8c7c32ffc29",
+      "start": 34,
+      "end": 42,
+      "text": "праздник"
+    }
+  }
+]

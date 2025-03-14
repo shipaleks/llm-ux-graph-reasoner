@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Hub: теорию струн",
+    "type": "structural",
+    "subtype": "hub",
+    "description": "теорию струн is a central entity connected to many others",
+    "entities": [
+      "f2953236-2e5c-4780-9c09-10f3637818c1"
+    ],
+    "examples": [
+      {
+        "text": "теорию струн is connected to теорию струн, теорию струн, критика",
+        "explanation": "теорию струн serves as a hub connecting multiple entities"
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "name": "Yandex Ecosystem Focus",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The knowledge graph demonstrates a strong focus on Yandex's products, services, and features, particularly those related to AI and search.",
+    "examples": [
+      {
+        "text": "нейросеть → поисковик яндекса",
+        "explanation": "Indicates that a neural network is part of Yandex's search engine."
+      },
+      {
+        "text": "редактор нейросеть яндекс → нейросеть яндекс",
+        "explanation": "Shows a specific Yandex product (neural network editor) as an instance of Yandex's broader neural network capabilities."
+      },
+      {
+        "text": "картиночная нейросеть яндекса → нейросеть яндекс",
+        "explanation": "Highlights another specific Yandex product (image-based neural network) related to the core neural network technology."
+      },
+      {
+        "text": "Яндекс",
+        "explanation": "The organization 'Yandex' appears multiple times, connected to various products and features."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern reveals the primary subject matter of the knowledge graph, highlighting Yandex's AI-driven ecosystem."
+  },
+  {
+    "name": "AI and Search Functionality",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "The graph emphasizes the use of neural networks (нейросеть) and their integration with search functionalities.",
+    "examples": [
+      {
+        "text": "has_feature: поиск через нейро → нейро",
+        "explanation": "Shows that search using neural networks has a neural network feature."
+      },
+      {
+        "text": "replaces: нейро → поиск",
+        "explanation": "Suggests that neural networks are replacing or enhancing traditional search methods."
+      },
+      {
+        "text": "part_of: нейросеть → поисковик яндекса",
+        "explanation": "A neural network is a component of Yandex's search engine."
+      },
+      {
+        "text": "used_with: переводчика → поиска",
+        "explanation": "A translator is used with the search functionality."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern highlights the core technological advancements and their application in search, a key area for Yandex."
+  },
+  {
+    "name": "Chatbot and Conversational AI Emphasis",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "There's a recurring theme of chatbots and conversational AI, with multiple entities related to 'чат' and its variations.",
+    "examples": [
+      {
+        "text": "similar_to: чат → кандинским",
+        "explanation": "Indicates a similarity between a generic 'chat' and a specific chatbot (possibly Kandinsky)."
+      },
+      {
+        "text": "similar_to: чат → чат g",
+        "explanation": "Shows similarity to another chatbot variant ('чат g')."
+      },
+      {
+        "text": "used_for: чат → социальных сетей",
+        "explanation": "Chat is used for social networks."
+      },
+      {
+        "text": "product: чат, кандинским, чат g пяти",
+        "explanation": "Multiple products are identified as types of chats."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern suggests a focus on conversational AI applications, likely within the Yandex ecosystem or in a broader context of chatbot technology."
+  },
+  {
+    "name": "Literary References and Narrative Sequencing",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "The presence of 'Задача трех тел', 'Темный лес', and 'Вечная жизнь', along with the 'sequel_to' relationships, indicates a narrative sequence from a work of literature (likely the Three-Body Problem trilogy).",
+    "examples": [
+      {
+        "text": "sequel_to: темный лес → задача трех тел",
+        "explanation": "'Темный лес' (The Dark Forest) is a sequel to 'Задача трех тел' (The Three-Body Problem)."
+      },
+      {
+        "text": "sequel_to: вечная жизнь → темный лес",
+        "explanation": "'Вечная жизнь' (Death's End) is a sequel to 'Темный лес' (The Dark Forest)."
+      },
+      {
+        "text": "work_of_art: задача трех тел, темный лес, вечная жизнь",
+        "explanation": "These are identified as works of art."
+      }
+    ],
+    "confidence": 0.98,
+    "significance": "This pattern introduces a distinct narrative element, possibly used for illustrative purposes, testing, or as a specific domain of knowledge within the graph."
+  },
+  {
+    "name": "Asthma and Medical Context",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "The graph includes terms related to asthma ('асма', 'астму', 'астма') and the field of medicine ('медицина').",
+    "examples": [
+      {
+        "text": "same_as: астму → астма",
+        "explanation": "Different forms of the word 'asthma' are recognized as the same entity."
+      },
+      {
+        "text": "example_of: асма → медицина",
+        "explanation": "Asthma is presented as an example within the field of medicine."
+      },
+      {
+        "text": "disease: асма, астму, астма",
+        "explanation": "Asthma related words are identified as diseases."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern indicates a potential medical context or application within the knowledge graph, although it appears limited in scope."
+  }
+]

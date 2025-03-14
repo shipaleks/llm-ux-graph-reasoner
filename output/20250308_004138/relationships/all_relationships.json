@@ -1,0 +1,802 @@
+[
+  {
+    "id": "2ba0d15e-ea12-4b8a-8feb-6c28b9beaf49",
+    "source_id": "722da2ab-4e58-4cf9-b831-08dbda152335",
+    "target_id": "b2f0d282-9623-43b5-be94-bbc42c1fcdb0",
+    "type": "AFFLICTED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 60,
+      "end": 86,
+      "text": "burdened by insomnia and"
+    }
+  },
+  {
+    "id": "7afef7c9-94b9-43ac-b777-5417d62c5d0a",
+    "source_id": "722da2ab-4e58-4cf9-b831-08dbda152335",
+    "target_id": "fdba82f4-390b-48fc-9f61-eb8d1da87a4a",
+    "type": "FASCINATED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 92,
+      "end": 112,
+      "text": "a fascination with riddles"
+    }
+  },
+  {
+    "id": "531b8c49-5ea2-49d1-99b4-2b9b357cafe7",
+    "source_id": "722da2ab-4e58-4cf9-b831-08dbda152335",
+    "target_id": "6001d2d2-50ee-4a85-a730-18115a7907b1",
+    "type": "INFORMED_ABOUT_COMPASS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 137,
+      "end": 177,
+      "text": "She first learned of the compass from Ezra Hollow"
+    }
+  },
+  {
+    "id": "e4fdc46c-e64c-4d4b-8e61-7a55c4c8c7aa",
+    "source_id": "6001d2d2-50ee-4a85-a730-18115a7907b1",
+    "target_id": "d490ef28-3adc-4ebe-86d7-73863fe5cb72",
+    "type": "CLAIMED_ABOUT_COMPASS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 290,
+      "end": 348,
+      "text": "Ezra claimed the compass vanished during a midnight blizzard"
+    }
+  },
+  {
+    "id": "d2c5e82e-2712-4ce7-bf98-2f8ac51ec18d",
+    "source_id": "6001d2d2-50ee-4a85-a730-18115a7907b1",
+    "target_id": "a41d70f8-b0aa-43a7-a419-8dfbc13d2538",
+    "type": "ASSOCIATED_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 212,
+      "end": 288,
+      "text": "Ezra Hollow, the village clockmaker, whose shop housed innumerable ticking clocks"
+    }
+  },
+  {
+    "id": "953051f8-5d96-4d73-bc31-7c8c71fe5587",
+    "source_id": "d490ef28-3adc-4ebe-86d7-73863fe5cb72",
+    "target_id": "a41d70f8-b0aa-43a7-a419-8dfbc13d2538",
+    "type": "EVENT_OCCURRED_DURING",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "01e95a9e-e75a-47b8-880b-f0c1b5af2dfb",
+      "start": 357,
+      "end": 392,
+      "text": "exactly as his clocks simultaneously halted"
+    }
+  },
+  {
+    "id": "48eb35e5-3217-4a88-8d7e-2d8a152d41a4",
+    "source_id": "e29b4008-d02b-4685-957f-78dea7c67b3f",
+    "target_id": "10861374-ef2f-4a72-a9ca-e67e769ec71d",
+    "type": "MAINTAINS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 24,
+      "end": 56,
+      "text": "maintained the village inn, often"
+    }
+  },
+  {
+    "id": "3d202011-3a01-4d75-b82e-49cb643e6a18",
+    "source_id": "10861374-ef2f-4a72-a9ca-e67e769ec71d",
+    "target_id": "6b6045df-a90c-429a-8800-3872d6ae2234",
+    "type": "HOSTED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 57,
+      "end": 139,
+      "text": "hosting guests with enigmatic purposes. Among them was Lucian Greer, a wandering herbalist"
+    }
+  },
+  {
+    "id": "52dfd839-6fcc-4dd6-93e7-1dc9280c53fb",
+    "source_id": "6b6045df-a90c-429a-8800-3872d6ae2234",
+    "target_id": "0f4db720-2348-401b-8fb4-5d59af2de1ba",
+    "type": "OBSESSED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 140,
+      "end": 186,
+      "text": "obsessed with exotic plants said to bloom only"
+    }
+  },
+  {
+    "id": "24e30222-bacd-4dbd-a826-6596af8da130",
+    "source_id": "0f4db720-2348-401b-8fb4-5d59af2de1ba",
+    "target_id": "e4685e44-c296-48c1-b612-1536f575acb7",
+    "type": "BLOOM_UNDER",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 174,
+      "end": 201,
+      "text": "said to bloom only under moonlight"
+    }
+  },
+  {
+    "id": "8f0ed4ae-7cef-4740-9c19-4f866b901c98",
+    "source_id": "6b6045df-a90c-429a-8800-3872d6ae2234",
+    "target_id": "cee151d5-f99c-473d-ac8f-3e1c08289c59",
+    "type": "OWNS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 203,
+      "end": 219,
+      "text": "Lucian's journals"
+    }
+  },
+  {
+    "id": "e9b60ee2-21ba-453f-9d93-71a993d3e5d7",
+    "source_id": "cee151d5-f99c-473d-ac8f-3e1c08289c59",
+    "target_id": "df8e75fd-741d-4d24-a94f-415ff3e967c4",
+    "type": "FILLED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 227,
+      "end": 277,
+      "text": "filled with cryptic botanical sketches intertwined"
+    }
+  },
+  {
+    "id": "4029787f-c7fe-466d-a4a8-643e5ed597ca",
+    "source_id": "df8e75fd-741d-4d24-a94f-415ff3e967c4",
+    "target_id": "c52edc63-97d7-4472-a64a-ab2c619d8c8e",
+    "type": "INTERTWINED_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 265,
+      "end": 303,
+      "text": "intertwined with celestial charts, hinted"
+    }
+  },
+  {
+    "id": "545e2344-f187-4af6-8b0d-ce41bdb466a1",
+    "source_id": "cee151d5-f99c-473d-ac8f-3e1c08289c59",
+    "target_id": "231c75d4-ede8-4591-81ae-c827109f0905",
+    "type": "COVETED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 326,
+      "end": 398,
+      "text": "were coveted by Bridget Locke, the local historian whose fascination with"
+    }
+  },
+  {
+    "id": "915ba8f2-b5fa-4d33-a1c4-c7b311678770",
+    "source_id": "231c75d4-ede8-4591-81ae-c827109f0905",
+    "target_id": "ecff08bb-0f94-484c-844d-27dc04d94435",
+    "type": "FASCINATED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "6cd98e23-560b-4a25-a50d-9cc5277928ac",
+      "start": 399,
+      "end": 448,
+      "text": "ancient legends bordered on obsession"
+    }
+  },
+  {
+    "id": "36a264d0-c8a1-42d3-b8c1-169293be7153",
+    "source_id": "a33ff64b-2a83-4fc6-bf2a-b135087fb2fa",
+    "target_id": "469abe72-72a2-4097-b62a-9c1ecedc3119",
+    "type": "HAS_SIBLING",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 0,
+      "end": 41,
+      "text": "Bridget’s younger brother, Dominic Locke"
+    }
+  },
+  {
+    "id": "4b794b90-f1dc-4f7c-b551-8e5aab8dc5f4",
+    "source_id": "469abe72-72a2-4097-b62a-9c1ecedc3119",
+    "target_id": "904b53d2-d1bb-4b5d-b897-75b1538d3706",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "id": "8e1892e8-7525-42cb-ab21-47544d385e24",
+    "source_id": "469abe72-72a2-4097-b62a-9c1ecedc3119",
+    "target_id": "72ba744d-97d1-4d52-8953-df36690dc702",
+    "type": "PAINTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 55,
+      "end": 93,
+      "text": "painting eerie landscapes depicting places"
+    }
+  },
+  {
+    "id": "5a3e4a06-a452-404e-879f-eae956e010d5",
+    "source_id": "e621d992-3b7a-45f1-8e1d-7815fefa023c",
+    "target_id": "72ba744d-97d1-4d52-8953-df36690dc702",
+    "type": "WHISPERED_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 116,
+      "end": 183,
+      "text": "villagers whispered these paintings occasionally mirrored real locations"
+    }
+  },
+  {
+    "id": "ee77c0ee-e7f2-4571-b107-f4a6b0591340",
+    "source_id": "904b53d2-d1bb-4b5d-b897-75b1538d3706",
+    "target_id": "e976688a-5804-4fa8-87aa-9b6399881e5e",
+    "type": "PLAGUED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 185,
+      "end": 204,
+      "text": "Dominic, plagued by visions"
+    }
+  },
+  {
+    "id": "49ef62c3-fe0b-4b6b-8de0-2130d6649f7a",
+    "source_id": "904b53d2-d1bb-4b5d-b897-75b1538d3706",
+    "target_id": "52676518-5eb1-4ebd-ad2f-4920898c2075",
+    "type": "FEATURED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "2beadc1c-42ac-4688-b70e-120518b37416",
+      "start": 226,
+      "end": 297,
+      "text": "a canvas featuring a shadowy figure holding what unmistakably resembled the Veiled Compass"
+    }
+  },
+  {
+    "id": "dd66ff9d-9feb-465c-8de8-f4988948a186",
+    "source_id": "4b5c3cd0-b04f-4f5a-8b0d-1ab7d8c92d89",
+    "target_id": "fed8efd7-29fc-4572-8ca3-a4563ec110f4",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 10,
+      "end": 48,
+      "text": "Alder Shaw, the village blacksmith known"
+    }
+  },
+  {
+    "id": "312eeafa-c361-43e7-85af-0788e8ab1f98",
+    "source_id": "4b5c3cd0-b04f-4f5a-8b0d-1ab7d8c92d89",
+    "target_id": "73b7de51-0371-4be1-b147-d766d7b2a676",
+    "type": "COMMISSIONED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 86,
+      "end": 125,
+      "text": "had been commissioned by an anonymous client"
+    }
+  },
+  {
+    "id": "e15e2f7e-bc7a-4559-b23d-c2585caa3434",
+    "source_id": "4b5c3cd0-b04f-4f5a-8b0d-1ab7d8c92d89",
+    "target_id": "9f8fa173-17ef-42e7-ac3f-bf0ebcc105e7",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "id": "402cda31-4d19-4fc7-9ede-6381b518d0cb",
+    "source_id": "9f8fa173-17ef-42e7-ac3f-bf0ebcc105e7",
+    "target_id": "89a710df-1265-4594-8a12-e6cf9ac5cbb8",
+    "type": "CONFIDED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 176,
+      "end": 213,
+      "text": "Alder, tight-lipped and wary, confided only in Maeve Thorn"
+    }
+  },
+  {
+    "id": "6f27e624-e6f6-48dc-94e6-59aed636f396",
+    "source_id": "89a710df-1265-4594-8a12-e6cf9ac5cbb8",
+    "target_id": "6187c873-5548-4447-89e2-96b0df64b6d4",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 215,
+      "end": 248,
+      "text": "a reclusive widow who tended the"
+    }
+  },
+  {
+    "id": "badd478d-ecd6-45a3-90a4-58fb4434c83a",
+    "source_id": "89a710df-1265-4594-8a12-e6cf9ac5cbb8",
+    "target_id": "d2b9a5c4-fd63-4941-ba0b-de80586ab1f9",
+    "type": "TENDED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 234,
+      "end": 264,
+      "text": "who tended the local library"
+    }
+  },
+  {
+    "id": "f6e928e0-bc94-40b6-a031-af8475078ce4",
+    "source_id": "d2b9a5c4-fd63-4941-ba0b-de80586ab1f9",
+    "target_id": "9cf33669-3d72-493a-ae20-a467e4f49b61",
+    "type": "STOCKED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 265,
+      "end": 306,
+      "text": "stocked with obscure manuscripts filled"
+    }
+  },
+  {
+    "id": "c0b5589b-3165-4aea-a42a-04449720817c",
+    "source_id": "9cf33669-3d72-493a-ae20-a467e4f49b61",
+    "target_id": "dadb4f33-19b4-4cd4-81f5-6f0d1d7206e4",
+    "type": "FILLED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8913ab4e-6a6f-469d-87ee-59b834ede517",
+      "start": 307,
+      "end": 336,
+      "text": "filled with riddles and paradoxes"
+    }
+  },
+  {
+    "id": "802e4e45-9a8a-47e6-b2b0-f2d69aa806f9",
+    "source_id": "6f4e7d7e-0a24-4d85-a2d4-99b2d12579a2",
+    "target_id": "80c0df17-a07f-4096-bab2-cf2e4a4996d4",
+    "type": "CONSULTED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 17,
+      "end": 67,
+      "text": "consulted with Father Silas Hart, the village’s aging cleric"
+    }
+  },
+  {
+    "id": "cfcb3e2c-fd35-4187-ba1b-19319a210d46",
+    "source_id": "80c0df17-a07f-4096-bab2-cf2e4a4996d4",
+    "target_id": "33e69369-2627-420f-9c00-e21179c4d1e6",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 44,
+      "end": 67,
+      "text": "Father Silas Hart, the village’s aging cleric"
+    }
+  },
+  {
+    "id": "911c28f4-02d3-4d98-b720-df77d5c3debe",
+    "source_id": "80c0df17-a07f-4096-bab2-cf2e4a4996d4",
+    "target_id": "42a1d6ac-8b7e-49c5-bee7-99174fa0cfa1",
+    "type": "REFERENCED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 84,
+      "end": 134,
+      "text": "secrets buried beneath the village chapel"
+    }
+  },
+  {
+    "id": "7af0ad07-ba1a-47df-85d8-950f06390f52",
+    "source_id": "80c0df17-a07f-4096-bab2-cf2e4a4996d4",
+    "target_id": "f31140a0-4611-4943-a740-d8f69d539a5f",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "id": "73b8d08f-0a45-4b72-9717-48a6abd3bc01",
+    "source_id": "f31140a0-4611-4943-a740-d8f69d539a5f",
+    "target_id": "05801023-9509-4da2-bd02-e25451179b76",
+    "type": "HAS_PROTÉGÉ",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 136,
+      "end": 177,
+      "text": "Father Silas’ protege, a timid apprentice named Isaac Cole"
+    }
+  },
+  {
+    "id": "7d916fb1-525e-4c6d-9dee-36cf3d2f3f3d",
+    "source_id": "05801023-9509-4da2-bd02-e25451179b76",
+    "target_id": "82ca6e18-5996-4028-9261-b55fff282e32",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 161,
+      "end": 177,
+      "text": "a timid apprentice"
+    }
+  },
+  {
+    "id": "47455c2f-398a-46d5-a52b-11f25a5ffd17",
+    "source_id": "05801023-9509-4da2-bd02-e25451179b76",
+    "target_id": "0c498f3e-6ff7-4ea9-a6d4-9b0bc4817634",
+    "type": "DOCUMENTED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 194,
+      "end": 249,
+      "text": "documented oddities in the chapel’s ancient crypts"
+    }
+  },
+  {
+    "id": "d14bbc8d-1740-4cfb-9513-4a6a6e1540dc",
+    "source_id": "7824586b-4783-40cd-b774-2ad38c90fe4e",
+    "target_id": "0c498f3e-6ff7-4ea9-a6d4-9b0bc4817634",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "8d6ca2f3-3c24-4aae-915b-d0fab9c15432",
+      "start": 257,
+      "end": 299,
+      "text": "where stone carvings inexplicably altered"
+    }
+  },
+  {
+    "id": "7c6c9443-7bef-43cb-96b8-4878af78bf7f",
+    "source_id": "7f835f40-3a9a-4729-9b35-95ccebd42f39",
+    "target_id": "139207cf-5ed2-4a30-bd87-3d1a1b0d4b29",
+    "type": "OBSERVED_AT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 23,
+      "end": 64,
+      "text": "Inspector Cross observed interactions at the village tavern"
+    }
+  },
+  {
+    "id": "5d80a7a4-54b3-43b1-b752-34f5bed94152",
+    "source_id": "139207cf-5ed2-4a30-bd87-3d1a1b0d4b29",
+    "target_id": "c88f50e9-c7e9-46cd-a2b9-706817ac7920",
+    "type": "RUN_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 65,
+      "end": 115,
+      "text": "run by Rowan Dusk, a former adventurer whose past"
+    }
+  },
+  {
+    "id": "bfa62544-7138-48a9-b0af-d77f92353610",
+    "source_id": "c88f50e9-c7e9-46cd-a2b9-706817ac7920",
+    "target_id": "2c890095-9c2f-4694-abaa-cf21fa999a5e",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 83,
+      "end": 99,
+      "text": "former adventurer"
+    }
+  },
+  {
+    "id": "3abf3aab-5c49-484a-9a5a-5083b0ce4bd4",
+    "source_id": "c88f50e9-c7e9-46cd-a2b9-706817ac7920",
+    "target_id": "ec3085ab-148d-4640-b491-dc089d6f0ee3",
+    "type": "KEPT_COMPANY_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 155,
+      "end": 206,
+      "text": "Rowan kept company with Moira Bell, an enigmatic woman"
+    }
+  },
+  {
+    "id": "115b61e4-6741-4e8b-a2f2-97ece4f8a949",
+    "source_id": "ec3085ab-148d-4640-b491-dc089d6f0ee3",
+    "target_id": "0c95f4f0-f151-4205-881b-55b2af85bd20",
+    "type": "CARRIED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 227,
+      "end": 261,
+      "text": "carried a key around her neck—a key"
+    }
+  },
+  {
+    "id": "3ab33d0d-e13c-48cc-90aa-3b350a85f2b8",
+    "source_id": "2b2e7e27-e1c8-46a5-a0e3-584b2f0b313c",
+    "target_id": "0c95f4f0-f151-4205-881b-55b2af85bd20",
+    "type": "MURMURED_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "253581e1-2c99-492c-b53e-40fa84408205",
+      "start": 273,
+      "end": 311,
+      "text": "that, villagers murmured, opened doors unseen"
+    }
+  },
+  {
+    "id": "679cb8d7-88e5-44a6-930b-5f814ed55549",
+    "source_id": "c54e82b1-f721-4dde-b816-e8823189dce1",
+    "target_id": "7365fe00-ea23-4506-99a8-ab33f14de402",
+    "type": "ALIGNED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 134,
+      "end": 185,
+      "text": "Lucian’s botanical sketches aligned suspiciously with Dominic’s paintings"
+    }
+  },
+  {
+    "id": "718bcccc-ba9f-4e85-8396-d39cf83f656f",
+    "source_id": "679d2a54-c983-47ef-b669-a69546865443",
+    "target_id": "c54e82b1-f721-4dde-b816-e8823189dce1",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "f994ce5b-d834-4f90-b920-c538db3b5e9e",
+      "start": 126,
+      "end": 156,
+      "text": "Lucian’s botanical sketches"
+    }
+  },
+  {
+    "id": "1e71bf91-9506-4fd8-8611-810e24ac9798",
+    "source_id": "67809654-1e1b-4f1e-afca-9a6bf50e16de",
+    "target_id": "4345d993-492a-4115-be58-dffbaf2dce58",
+    "type": "SIGNED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "20a9d12f-756a-4ead-ab82-5ce75f2a7e54",
+      "start": 41,
+      "end": 71,
+      "text": "notes signed only with a stylized \"V,\""
+    }
+  },
+  {
+    "id": "64cb30a5-6bd5-41dc-a72d-d2c97b113845",
+    "source_id": "567499b3-9b7c-4406-af81-008570a18e73",
+    "target_id": "dd12ca94-3be8-45d5-a44e-182f739b59ff",
+    "type": "FROM",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "ee8a7d4a-8870-4e25-9f10-663f486f2620",
+      "start": 73,
+      "end": 116,
+      "text": "from one of Maeve Thorn’s ancient manuscripts, bearing a cryptic riddle"
+    }
+  },
+  {
+    "id": "2eccfc59-157c-4fa1-8640-dd1b9d15ad61",
+    "source_id": "048666ee-e094-45d2-b55f-cf4aa154946f",
+    "target_id": "4b87edd3-4d32-4135-b1ee-520997b8c2d5",
+    "type": "FILLED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 23,
+      "end": 43,
+      "text": "brimming with secrets"
+    }
+  },
+  {
+    "id": "6d21a049-e455-4289-848f-abebc841b8e4",
+    "source_id": "048666ee-e094-45d2-b55f-cf4aa154946f",
+    "target_id": "d7e9ed9a-87d2-4564-bb14-33ff47bacc3d",
+    "type": "FILLED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 53,
+      "end": 76,
+      "text": "and intricate deceptions"
+    }
+  },
+  {
+    "id": "98c43c02-3eed-4371-9525-fccbca4ab7fb",
+    "source_id": "11d02625-49e8-4ed0-a788-fb642a4fbfca",
+    "target_id": "d7e9ed9a-87d2-4564-bb14-33ff47bacc3d",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-2.txt",
+      "segment_id": "a14f939c-16d3-47b0-b0c1-6b3cd93f3641",
+      "start": 183,
+      "end": 207,
+      "text": "fog of mystery and deceit"
+    }
+  }
+]

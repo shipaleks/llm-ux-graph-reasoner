@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{ title }}</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> {{ date }}</p>
+            <p><strong>Источник:</strong> {{ source_file }}</p>
+            <p><strong>Количество сущностей:</strong> {{ entity_count }}</p>
+            <p><strong>Количество связей:</strong> {{ relationship_count }}</p>
+            <p><strong>Количество текстовых сегментов:</strong> {{ segment_count }}</p>
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>{{ abstract }}</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>{{ executive_summary }}</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на {{ segment_count }} логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено {{ segment_connections|length }} связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены {{ entity_count }} ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены {{ relationship_count }} связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано {{ theories|length }} теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            {% for summary in segment_summaries %}
+            <div class="segment-summary">
+                <h4>Сегмент {{ loop.index }}</h4>
+                <p><strong>Сводка:</strong> {{ summary.summary }}</p>
+                <p><strong>Роль в тексте:</strong> {{ summary.role }}</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    {% for point in summary.key_points %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                
+                {% if summary.parent_relation %}
+                <p><strong>Связь с родительским сегментом:</strong> {{ summary.parent_relation }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for connection in segment_connections %}
+                    <tr>
+                        <td>Сегмент {{ loop.index0 + 1 }}</td>
+                        <td>{{ connection.type }}</td>
+                        <td>Сегмент {{ loop.index + 1 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entity in entities %}
+                    <tr>
+                        <td>{{ entity.name }}</td>
+                        <td>{{ entity.type }}</td>
+                        <td>{{ "%.2f"|format(entity.confidence) }}</td>
+                        <td>
+                            {% if entity.attributes %}
+                            <ul>
+                                {% for attr in entity.attributes %}
+                                <li><strong>{{ attr.key }}:</strong> {{ attr.value }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            -
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rel in relationships %}
+                    <tr>
+                        <td>{{ rel.source_name }}</td>
+                        <td>{{ rel.type }}</td>
+                        <td>{{ rel.target_name }}</td>
+                        <td>{{ "%.2f"|format(rel.confidence) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                {{ graph_visualization|safe }}
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.density|round(4) }}</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.avg_degree|round(2) }}</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.avg_clustering|round(4) }}</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.diameter }}</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entity in metrics.central_entities %}
+                    <tr>
+                        <td>{{ entity.name }}</td>
+                        <td>{{ "%.3f"|format(entity.centrality) }}</td>
+                        <td>{{ entity.type }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            {% for theory in theories %}
+            <div class="research-process">
+                <h3>{{ theory.name }}</h3>
+                <p><strong>Достоверность:</strong> {{ "%.2f"|format(theory.confidence) }}</p>
+                <p>{{ theory.description }}</p>
+                
+                {% if theory.hypotheses %}
+                <h4>Гипотезы:</h4>
+                {% for hypothesis in theory.hypotheses %}
+                <div class="process-step">
+                    <p><strong>{{ hypothesis.statement }}</strong> (Достоверность: {{ "%.2f"|format(hypothesis.confidence) }})</p>
+                    
+                    {% if hypothesis.evidence %}
+                    <p>Доказательства:</p>
+                    <ul>
+                        {% for ev in hypothesis.evidence %}
+                        <li>{{ ev.description }} (Сила: {{ "%.2f"|format(ev.strength) }})</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>{{ conclusion }}</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>{{ date }}</p>
+        </div>
+    </footer>
+</body>
+</html>

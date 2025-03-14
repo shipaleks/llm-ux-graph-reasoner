@@ -1,0 +1,617 @@
+[
+  {
+    "id": "d1926bda-f487-4b2a-8753-61a0ff050fdd",
+    "source_id": "6e38a348-4170-42cb-9dc8-1e9b555c6af6",
+    "target_id": "c9459171-5720-4f66-95df-cdc19d9b9f1f",
+    "type": "OBSESSED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 0,
+      "end": 196,
+      "text": "Among the esteemed guests was Professor Elias Greer, a scholar renowned for his obsession with the occult, who spent his days decoding ancient grimoires and his nights immersed in obscure rituals."
+    }
+  },
+  {
+    "id": "087a72cd-9ee8-4e95-9488-75cd4de77d35",
+    "source_id": "6e38a348-4170-42cb-9dc8-1e9b555c6af6",
+    "target_id": "e475d7cb-672d-41d0-98c8-5b9a6c27e7ad",
+    "type": "STUDIES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 0,
+      "end": 196,
+      "text": "Among the esteemed guests was Professor Elias Greer, a scholar renowned for his obsession with the occult, who spent his days decoding ancient grimoires and his nights immersed in obscure rituals."
+    }
+  },
+  {
+    "id": "28c257a2-3e34-4710-b0a3-01615bb77d98",
+    "source_id": "6e38a348-4170-42cb-9dc8-1e9b555c6af6",
+    "target_id": "c652508b-82cc-4d40-9a78-09b6637bd54a",
+    "type": "ENGAGED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 0,
+      "end": 196,
+      "text": "Among the esteemed guests was Professor Elias Greer, a scholar renowned for his obsession with the occult, who spent his days decoding ancient grimoires and his nights immersed in obscure rituals."
+    }
+  },
+  {
+    "id": "f66a4ddf-cd10-42a1-9b13-a48be4a7ea12",
+    "source_id": "0d8b4990-67f7-4c7f-a4ac-c295bef29623",
+    "target_id": "e1975979-ee7f-4154-a4a4-41e69e79242a",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "relationship_type",
+        "value": "distant cousin",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 196,
+      "end": 377,
+      "text": " Also attending was Lady Miranda Holloway, Lord Alistair’s distant yet enigmatic cousin, whose exotic travels often involved unexplained absences and whispered stories of espionage."
+    }
+  },
+  {
+    "id": "c61099e9-991b-4f93-bfb5-0033656b597e",
+    "source_id": "0d8b4990-67f7-4c7f-a4ac-c295bef29623",
+    "target_id": "81a3dfcd-46ce-457b-84c4-50d4a1c22648",
+    "type": "ASSOCIATED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 196,
+      "end": 377,
+      "text": " Also attending was Lady Miranda Holloway, Lord Alistair’s distant yet enigmatic cousin, whose exotic travels often involved unexplained absences and whispered stories of espionage."
+    }
+  },
+  {
+    "id": "9ddfbdd1-43a8-42af-bb0b-1aee0a83e74d",
+    "source_id": "860c6b56-6cd7-4c01-9af1-ed5b290b0c28",
+    "target_id": "b3f63c06-2df4-447b-bb65-5206eb1090ff",
+    "type": "INTERESTED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "47accd43-6fe9-4871-9dd8-e596653eadf7",
+      "start": 381,
+      "end": 570,
+      "text": " Vivian Locke, a reputed physician with a fascination for experimental and controversial treatments, quietly mingled, carrying a small leather case filled with vials of suspicious contents."
+    }
+  },
+  {
+    "id": "af6fdfce-3e68-48fb-93b1-2de0ab17498e",
+    "source_id": "345796c8-eeac-4903-be25-dc7ada09e1ae",
+    "target_id": "e0c1b270-5c9c-4402-9bb4-7a60c6b1c684",
+    "type": "SUMMONED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "95b566ab-8c83-4984-88dd-d06b16c34df7",
+      "start": 0,
+      "end": 204,
+      "text": "Unbeknownst to most guests, Inspector Samuel Hartwell was present under a carefully maintained disguise, having been summoned by an anonymous letter promising revelations of dark secrets within the manor."
+    }
+  },
+  {
+    "id": "143ca8cb-c5f8-4187-aa92-68828edf9f5c",
+    "source_id": "3730adc0-cef9-48f7-8bf0-f8cf19b709f5",
+    "target_id": "e0c1b270-5c9c-4402-9bb4-7a60c6b1c684",
+    "type": "CONTAINED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "95b566ab-8c83-4984-88dd-d06b16c34df7",
+      "start": 0,
+      "end": 204,
+      "text": "Unbeknownst to most guests, Inspector Samuel Hartwell was present under a carefully maintained disguise, having been summoned by an anonymous letter promising revelations of dark secrets within the manor."
+    }
+  },
+  {
+    "id": "cb3de490-8a37-4fb1-91f2-4bd4c309c3d3",
+    "source_id": "f5902f40-7c67-4de8-97cf-8c14d51acb32",
+    "target_id": "3f2bd503-426f-4189-8fba-76477c5efcd5",
+    "type": "TIME_OF_DEATH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f6fccfad-1b3d-477b-b23c-e33d06eafdae",
+      "start": 0,
+      "end": 271,
+      "text": "At precisely 11:43 PM, the manor abruptly plunged into darkness amidst a deafening crack of thunder. When the candles and chandeliers flickered back to life, Lord Alistair Ravenscroft was discovered collapsed in the grand library, lifeless, a poisoned goblet at his side."
+    }
+  },
+  {
+    "id": "9cae1514-db55-43ce-9edc-d6f572246c7d",
+    "source_id": "f5902f40-7c67-4de8-97cf-8c14d51acb32",
+    "target_id": "28ae143c-3051-414e-86ca-2de7dab80f3e",
+    "type": "LOCATION_OF_DEATH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f6fccfad-1b3d-477b-b23c-e33d06eafdae",
+      "start": 100,
+      "end": 271,
+      "text": " When the candles and chandeliers flickered back to life, Lord Alistair Ravenscroft was discovered collapsed in the grand library, lifeless, a poisoned goblet at his side."
+    }
+  },
+  {
+    "id": "a1521347-c948-4842-a909-5fcc346ed435",
+    "source_id": "f5902f40-7c67-4de8-97cf-8c14d51acb32",
+    "target_id": "078ec6dd-6865-4475-849e-8ad23574bf9a",
+    "type": "POSSIBLE_CAUSE_OF_DEATH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "f6fccfad-1b3d-477b-b23c-e33d06eafdae",
+      "start": 100,
+      "end": 271,
+      "text": " When the candles and chandeliers flickered back to life, Lord Alistair Ravenscroft was discovered collapsed in the grand library, lifeless, a poisoned goblet at his side."
+    }
+  },
+  {
+    "id": "03867abc-f5de-46cf-a5b8-6b4e2349bf73",
+    "source_id": "3bc45b11-0358-49cd-8b1c-c2aac3470403",
+    "target_id": "706fbbfb-4313-49b0-8d94-50f02e347d8e",
+    "type": "INVESTIGATING",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 0,
+      "end": 229,
+      "text": "Inspector Hartwell discreetly began his investigation, finding numerous perplexing clues. Professor Greer had been seen anxiously poring over a cursed grimoire shortly before the blackout, a page clearly ripped from its bindings."
+    }
+  },
+  {
+    "id": "bb2eecf5-fca7-4023-85a7-3fe7c8accd24",
+    "source_id": "7e988e05-639a-4ada-8658-612e2194ec21",
+    "target_id": "706fbbfb-4313-49b0-8d94-50f02e347d8e",
+    "type": "SEEN_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 89,
+      "end": 229,
+      "text": " Professor Greer had been seen anxiously poring over a cursed grimoire shortly before the blackout, a page clearly ripped from its bindings."
+    }
+  },
+  {
+    "id": "02369791-6cd0-4f5c-be33-209416c55e34",
+    "source_id": "ab6151f3-a508-46d1-9ec7-763bffd1c325",
+    "target_id": "4a7dfecc-a6a5-4172-abac-bf18621e067d",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 229,
+      "end": 411,
+      "text": " Lady Miranda was found in the conservatory, visibly shaken and clutching the torn fragment of a letter referencing the mysterious \"Ravenscroft curse,\" her gloves stained with earth."
+    }
+  },
+  {
+    "id": "67d6c7b1-17c6-4c1a-91c1-bc8c3036f6b0",
+    "source_id": "a90df0f4-fc96-4aca-89bf-616120dd1844",
+    "target_id": "89f41f60-b35b-4faf-8e4a-e706b203df25",
+    "type": "HAS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 411,
+      "end": 557,
+      "text": " Dr. Locke's vials bore cryptic alchemical symbols, each matching mysterious runes inscribed upon hidden altars discovered deep beneath the manor."
+    }
+  },
+  {
+    "id": "e719ede0-2bab-44eb-b15f-429b4efe1e60",
+    "source_id": "89f41f60-b35b-4faf-8e4a-e706b203df25",
+    "target_id": "40808f1b-5ec7-4809-a411-6d1f9b20d2db",
+    "type": "BEAR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 415,
+      "end": 557,
+      "text": " Locke's vials bore cryptic alchemical symbols, each matching mysterious runes inscribed upon hidden altars discovered deep beneath the manor."
+    }
+  },
+  {
+    "id": "4f4dd297-bb8f-4151-a159-6a934046ce5e",
+    "source_id": "40808f1b-5ec7-4809-a411-6d1f9b20d2db",
+    "target_id": "60a31af5-65ff-426b-a7db-d112b4ad5591",
+    "type": "MATCH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 415,
+      "end": 557,
+      "text": " Locke's vials bore cryptic alchemical symbols, each matching mysterious runes inscribed upon hidden altars discovered deep beneath the manor."
+    }
+  },
+  {
+    "id": "2484b82e-f376-4a4a-a1b3-a11f1d676e57",
+    "source_id": "60a31af5-65ff-426b-a7db-d112b4ad5591",
+    "target_id": "ad691df6-b47b-48a0-ab27-17c4ebf10c6c",
+    "type": "LOCATED_AT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "9713b549-138b-4f04-a9d3-01a2339f61db",
+      "start": 415,
+      "end": 557,
+      "text": " Locke's vials bore cryptic alchemical symbols, each matching mysterious runes inscribed upon hidden altars discovered deep beneath the manor."
+    }
+  },
+  {
+    "id": "68eb3ece-54d6-4a49-8f0c-c465ae46ec3d",
+    "source_id": "e6173193-5f29-4d19-a453-e6b78e710ccd",
+    "target_id": "e30322df-a0a0-45a1-912c-8ea35eaad65e",
+    "type": "WORKS_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 48,
+      "end": 208,
+      "text": " Mr. Finch, the elderly butler who had served three generations of Ravenscrofts, muttered foreboding hints about an ancient secret society bound by blood oaths."
+    }
+  },
+  {
+    "id": "66f01fd6-d984-4196-9a58-0b9ac8b876dd",
+    "source_id": "e6173193-5f29-4d19-a453-e6b78e710ccd",
+    "target_id": "4d7b88ab-9e7a-477a-bbcd-0f62f5e2ac4d",
+    "type": "SERVED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 48,
+      "end": 208,
+      "text": " Mr. Finch, the elderly butler who had served three generations of Ravenscrofts, muttered foreboding hints about an ancient secret society bound by blood oaths."
+    }
+  },
+  {
+    "id": "cfb98019-8ae3-47d7-817f-ce610305b501",
+    "source_id": "e6173193-5f29-4d19-a453-e6b78e710ccd",
+    "target_id": "f9708194-6fbf-43df-9f33-b62380a6415a",
+    "type": "HINTS_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 48,
+      "end": 208,
+      "text": " Mr. Finch, the elderly butler who had served three generations of Ravenscrofts, muttered foreboding hints about an ancient secret society bound by blood oaths."
+    }
+  },
+  {
+    "id": "d6f190e0-ad3a-4981-9229-d67d519f0abb",
+    "source_id": "f9708194-6fbf-43df-9f33-b62380a6415a",
+    "target_id": "8064f029-cbb8-42b4-bfa9-efa8dbf98199",
+    "type": "BOUND_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 52,
+      "end": 208,
+      "text": " Finch, the elderly butler who had served three generations of Ravenscrofts, muttered foreboding hints about an ancient secret society bound by blood oaths."
+    }
+  },
+  {
+    "id": "7c266b1c-ee52-4c37-9d1b-8e1c5443ffc0",
+    "source_id": "5461815e-5037-48c2-a0ee-7fa0450f55c4",
+    "target_id": "794c1863-97d3-4553-9daa-46a10b75e3df",
+    "type": "WORKS_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 208,
+      "end": 347,
+      "text": " Clara, the young maid with strangely bruised knuckles, avoided questioning, nervously averting her gaze whenever the inspector approached."
+    }
+  },
+  {
+    "id": "6b209b5d-19c1-439c-a99e-2523d8c46290",
+    "source_id": "5461815e-5037-48c2-a0ee-7fa0450f55c4",
+    "target_id": "3c959862-4a26-4a6f-962e-ca3dc7f8f919",
+    "type": "AVOIDS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 208,
+      "end": 347,
+      "text": " Clara, the young maid with strangely bruised knuckles, avoided questioning, nervously averting her gaze whenever the inspector approached."
+    }
+  },
+  {
+    "id": "aea0c2a9-2720-4841-884e-faa19ba4a98f",
+    "source_id": "8b1eb72f-33cb-4ce5-957a-b2f025636d3b",
+    "target_id": "597b9046-e0f2-48d2-adcb-56b706fe4ab2",
+    "type": "WORKS_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 347,
+      "end": 535,
+      "text": " Barnaby, the groundskeeper, was conspicuously absent, later found frantically digging in the manor’s rose garden, muttering incoherently about buried truths and \"voices beneath the earth."
+    }
+  },
+  {
+    "id": "4d782e42-3428-4241-ba3a-4c95ade49daa",
+    "source_id": "8b1eb72f-33cb-4ce5-957a-b2f025636d3b",
+    "target_id": "6ca7f0bf-58a3-4778-bcea-79bff6ef1180",
+    "type": "DIGGING_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 347,
+      "end": 535,
+      "text": " Barnaby, the groundskeeper, was conspicuously absent, later found frantically digging in the manor’s rose garden, muttering incoherently about buried truths and \"voices beneath the earth."
+    }
+  },
+  {
+    "id": "7448d5da-119b-4787-b8c7-dde5e5c7d134",
+    "source_id": "8b1eb72f-33cb-4ce5-957a-b2f025636d3b",
+    "target_id": "20287028-fc64-44ee-90f8-422c5232fc6a",
+    "type": "MUTTERING_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 347,
+      "end": 535,
+      "text": " Barnaby, the groundskeeper, was conspicuously absent, later found frantically digging in the manor’s rose garden, muttering incoherently about buried truths and \"voices beneath the earth."
+    }
+  },
+  {
+    "id": "6465a0b5-e39a-40d6-90a3-c58be3dd4766",
+    "source_id": "8b1eb72f-33cb-4ce5-957a-b2f025636d3b",
+    "target_id": "d25e200b-a6e6-4fb8-abea-2a7caf913e30",
+    "type": "MUTTERING_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "6d99a74b-5170-4d15-b040-5983d86d8bf1",
+      "start": 347,
+      "end": 535,
+      "text": " Barnaby, the groundskeeper, was conspicuously absent, later found frantically digging in the manor’s rose garden, muttering incoherently about buried truths and \"voices beneath the earth."
+    }
+  },
+  {
+    "id": "d0f689e1-465e-4f45-b8ef-6a0c506ba93f",
+    "source_id": "553592bd-d178-4777-9334-7a6e3e9b786f",
+    "target_id": "27529f6d-d6f6-4f18-80ba-3dd5110438dc",
+    "type": "WROTE_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "2d7178da-989b-4c02-9e5c-12c1640f6cef",
+      "start": 153,
+      "end": 358,
+      "text": " Inspector Hartwell uncovered a diary belonging to Lord Alistair, filled with increasingly frantic entries about betrayal, mysterious rites performed underground, and cryptic warnings of \"betrayer’s blood."
+    }
+  },
+  {
+    "id": "eefd82b6-2209-4e4a-8a92-6fa2fdacac2d",
+    "source_id": "553592bd-d178-4777-9334-7a6e3e9b786f",
+    "target_id": "2b5c8aea-7227-42a5-ae3e-4af2722117a2",
+    "type": "WROTE_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "2d7178da-989b-4c02-9e5c-12c1640f6cef",
+      "start": 153,
+      "end": 358,
+      "text": " Inspector Hartwell uncovered a diary belonging to Lord Alistair, filled with increasingly frantic entries about betrayal, mysterious rites performed underground, and cryptic warnings of \"betrayer’s blood."
+    }
+  },
+  {
+    "id": "308fc138-cd5f-4ada-9eab-43b32f14dd22",
+    "source_id": "d34405ff-576f-4eba-8b66-ae85b61a2658",
+    "target_id": "40808f1b-5ec7-4809-a411-6d1f9b20d2db",
+    "type": "INVESTIGATING",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "da1fe643-9b19-469c-8b4d-be6c4ce294e9",
+      "start": 0,
+      "end": 113,
+      "text": "As Hartwell delved deeper, he discovered the manor’s mirrors etched with the same alchemical symbols found on Dr."
+    }
+  },
+  {
+    "id": "8a4ab86b-0ac4-433a-9140-f8aae2a32c96",
+    "source_id": "78ba8f52-0726-4cb1-bd7f-ba55a09f1735",
+    "target_id": "8a3c5c19-dfa3-439e-ad3f-f067d6ee1eb2",
+    "type": "DEDICATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "4089f99a-9c5b-48e0-8ec7-b4d77cc751ad",
+      "start": 0,
+      "end": 147,
+      "text": "Whispers emerged of a clandestine society among the guests, dedicated to harnessing supernatural forces rumored to reside within Ravenscroft Manor."
+    }
+  },
+  {
+    "id": "4f422503-6796-4c12-8691-1b4bd76619f5",
+    "source_id": "8a3c5c19-dfa3-439e-ad3f-f067d6ee1eb2",
+    "target_id": "4f201fc1-ae23-4c8f-8e06-349701fefd8f",
+    "type": "RESIDE_WITHIN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "4089f99a-9c5b-48e0-8ec7-b4d77cc751ad",
+      "start": 0,
+      "end": 147,
+      "text": "Whispers emerged of a clandestine society among the guests, dedicated to harnessing supernatural forces rumored to reside within Ravenscroft Manor."
+    }
+  },
+  {
+    "id": "afec66e0-fd92-416c-abf7-7460ac948983",
+    "source_id": "00cfe174-be8f-459c-90e7-24700ea49630",
+    "target_id": "0bee2834-9570-4434-97d0-1b98c883d1b6",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b0725218-063f-46a6-81d9-93f9e7238c2f",
+      "start": 0,
+      "end": 253,
+      "text": "Amid layers of subterfuge, it was clear the murder had been intricately planned, each detail orchestrated to mislead and confuse. Inspector Hartwell had to decipher tangled alliances, hidden histories, and cryptic symbols scattered throughout the manor."
+    }
+  },
+  {
+    "id": "b1323fb5-c884-4de6-94cc-15ad4a0b212a",
+    "source_id": "00cfe174-be8f-459c-90e7-24700ea49630",
+    "target_id": "05082f18-613a-4760-8028-bdad74ff44cb",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b0725218-063f-46a6-81d9-93f9e7238c2f",
+      "start": 0,
+      "end": 253,
+      "text": "Amid layers of subterfuge, it was clear the murder had been intricately planned, each detail orchestrated to mislead and confuse. Inspector Hartwell had to decipher tangled alliances, hidden histories, and cryptic symbols scattered throughout the manor."
+    }
+  },
+  {
+    "id": "5cd27f15-8528-4c65-93f4-63e8c7161006",
+    "source_id": "00cfe174-be8f-459c-90e7-24700ea49630",
+    "target_id": "b300bead-7a23-4230-b48e-d1060af6a267",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "b0725218-063f-46a6-81d9-93f9e7238c2f",
+      "start": 0,
+      "end": 253,
+      "text": "Amid layers of subterfuge, it was clear the murder had been intricately planned, each detail orchestrated to mislead and confuse. Inspector Hartwell had to decipher tangled alliances, hidden histories, and cryptic symbols scattered throughout the manor."
+    }
+  },
+  {
+    "id": "198efdd3-b03e-454d-b5c0-64653cd40cb8",
+    "source_id": "d220e633-a2bc-43e1-bca7-2b5ddeca103b",
+    "target_id": "8f3419a0-f85a-4fc4-8ac4-4840a11682bd",
+    "type": "FORETOLD",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "ae77f264-6017-42fd-a0b6-a1ab3512dce2",
+      "start": 0,
+      "end": 182,
+      "text": "The final, crucial revelation awaited discovery in the secret crypt beneath the manor, where inscriptions foretold betrayal by \"one of shared blood, veiled in shadow, guided by envy."
+    }
+  },
+  {
+    "id": "b59e4615-a112-4c69-b23b-6bd88763d3bb",
+    "source_id": "8f3419a0-f85a-4fc4-8ac4-4840a11682bd",
+    "target_id": "05ae1374-bcb0-4c1f-b915-d38dae240c44",
+    "type": "GUIDED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story-3.txt",
+      "segment_id": "ae77f264-6017-42fd-a0b6-a1ab3512dce2",
+      "start": 0,
+      "end": 182,
+      "text": "The final, crucial revelation awaited discovery in the secret crypt beneath the manor, where inscriptions foretold betrayal by \"one of shared blood, veiled in shadow, guided by envy."
+    }
+  }
+]

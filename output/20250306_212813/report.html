@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: neuroBSO_test.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+        
+        .segment-actions {
+            margin-top: 0.75rem;
+        }
+        
+        .segment-link {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #0366d6;
+        }
+        
+        .segment-link:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: neuroBSO_test.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-06 21:29:54</p>
+            <p><strong>Источник:</strong> tests/data/samples/neuroBSO_test.txt</p>
+            <p><strong>Количество сущностей:</strong> 8</p>
+            <p><strong>Количество связей:</strong> 0</p>
+            <p><strong>Количество текстовых сегментов:</strong> 35</p>
+            
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 8 сущностей 3 различных типов и 0 связей 0 различных видов. Наиболее распространенные типы сущностей: concept (4), organization (2), product (2). Ключевые темы, исследуемые в тексте: Респондент рассказывает об использовании различных сервисов Яндекса, выделяя удобство поиска с использованием нейросети и Яндекс.Музыки, а также опыт использования других сервисов, таких как Яндекс.Пэй и Такси. Нейросеть помогает быстро находить нужную информацию, особенно в учебе и бытовых задачах. Сегмент посвящен обсуждению использования сервисов и технологий Яндекса. Спрашивается об опыте использования сервисов Яндекса. Сегмент представляет собой введение к обсуждению использования сервисов и технологий Яндекса, в частности, поисковой системы.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 8 сущностей и 0 связей. Наиболее центральные сущности в графе: Яндекс, нейро, Яндекс Музыка, которые формируют ключевые точки связи в сети. Граф состоит из 8 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством связей между сущностями. Наиболее значимая теория, полученная в результате анализа — 'Без названия' с уровнем достоверности 0.75.  Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на 35 логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 62 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены 8 ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены 0 связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 1 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            <div class="segment-summary" id="segment-1">
+                <h4>Яндекс сервисы: поиск и нейро</h4>
+                <p><strong>Сводка:</strong> Респондент рассказывает об использовании различных сервисов Яндекса, выделяя удобство поиска с использованием нейросети и Яндекс.Музыки, а также опыт использования других сервисов, таких как Яндекс.Пэй и Такси. Нейросеть помогает быстро находить нужную информацию, особенно в учебе и бытовых задачах.</p>
+                <p><strong>Роль в тексте:</strong> argument</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Основной поиск используется в Яндексе, особенно удобен нейропоиск.</li>
+                    
+                    <li>Яндекс.Музыка - предпочтительный сервис.</li>
+                    
+                    <li>Яндекс.Пэй и Такси используются из-за удобства и доступности.</li>
+                    
+                    <li>Алиса используется на умной колонке, но новые версии не пробовались.</li>
+                    
+                    <li>Нейросеть помогает быстро находить ответы, например, рецепты блинов и информацию для учебы.</li>
+                    
+                </ul>
+                
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/6abf2f26-5210-4611-be0c-ad1a45b24ebe.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-2">
+                <h4>Использование сервисов и технологий Яндекса</h4>
+                <p><strong>Сводка:</strong> Сегмент посвящен обсуждению использования сервисов и технологий Яндекса. Спрашивается об опыте использования сервисов Яндекса.</p>
+                <p><strong>Роль в тексте:</strong> Введение</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Обсуждение сервисов Яндекса</li>
+                    
+                    <li>Технологии Яндекса</li>
+                    
+                    <li>Опыт использования сервисов Яндекса</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Введение в тему обсуждения сервисов Яндекса.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/71e0139e-2919-4ac2-bcec-cf50e728ea83.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-3">
+                <h4>Яндекс: поиск и технологии</h4>
+                <p><strong>Сводка:</strong> Сегмент представляет собой введение к обсуждению использования сервисов и технологий Яндекса, в частности, поисковой системы.</p>
+                <p><strong>Роль в тексте:</strong> Введение</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Обсуждение сервисов Яндекса</li>
+                    
+                    <li>Обсуждение технологий Яндекса</li>
+                    
+                    <li>Упор на поисковую систему</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> WEBVTT</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/c1e6a530-98d3-41ee-a911-e67cf98504c0.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-4">
+                <h4>Usage of Yandex vs. Competitors</h4>
+                <p><strong>Сводка:</strong> The speaker is asked to describe where they use Yandex technologies and where they prefer competitors, specifying what is more convenient in other services.</p>
+                <p><strong>Роль в тексте:</strong> Question</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Inquiry about Yandex technology usage.</li>
+                    
+                    <li>Request for comparison with competitors.</li>
+                    
+                    <li>Focus on user convenience in different services.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Follow-up question to the introduction of Yandex services.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/08e4d1a3-916c-49d0-87d0-e39888ea434d.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-5">
+                <h4>Main search engine preference</h4>
+                <p><strong>Сводка:</strong> The speaker primarily uses Yandex for their main search engine needs.</p>
+                <p><strong>Роль в тексте:</strong> Example</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Yandex is the preferred search engine.</li>
+                    
+                    <li>Main search activities are conducted on Yandex.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Illustrates usage of Yandex services mentioned in the parent context.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/265c3476-d3d5-4199-92d9-19b086e80f73.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-6">
+                <h4>Нейросеть: удобство быстрого поиска</h4>
+                <p><strong>Сводка:</strong> Нейросеть удобна тем, что избавляет от необходимости тратить время на долгие поиски.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Нейросеть экономит время.</li>
+                    
+                    <li>Быстрый поиск информации.</li>
+                    
+                    <li>Удобство использования.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация удобства сервисов Яндекса, в частности, быстрого поиска.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/062821a6-28b0-4303-bfd2-f54f23ecb9c5.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-7">
+                <h4>Яндекс Музыка как выбор</h4>
+                <p><strong>Сводка:</strong> Упоминание Яндекс Музыки как предпочтительного музыкального сервиса из-за отсутствия других альтернатив.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Яндекс Музыка - основной выбор.</li>
+                    
+                    <li>Ограниченность альтернативных сервисов.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация использования сервисов Яндекса.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/2fb87bb9-04fb-4101-873e-caa6f06fa905.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-8">
+                <h4>Everything else is awful</h4>
+                <p><strong>Сводка:</strong> The speaker expresses a strong negative opinion, stating that everything else besides what was previously mentioned is "awful". This suggests a contrast or comparison being made.</p>
+                <p><strong>Роль в тексте:</strong> Negative evaluation</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Negative sentiment expressed.</li>
+                    
+                    <li>Contrast implied.</li>
+                    
+                    <li>Unspecified 'everything else'.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment provides a contrasting negative opinion, likely related to the discussion of Yandex services and technologies mentioned in the parent context. It could be a counterpoint or a specific criticism.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/220cdab1-100e-4883-a7bf-30fa5af939e5.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-9">
+                <h4>Affirmation or Filler Word</h4>
+                <p><strong>Сводка:</strong> The segment contains the word "вот," which can function as an affirmation, filler word, or discourse marker.</p>
+                <p><strong>Роль в тексте:</strong> Transition/Filler</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>The segment consists of a single word: "вот."</li>
+                    
+                    <li>"Вот" can be used as an affirmation.</li>
+                    
+                    <li>"Вот" can be used as a filler word.</li>
+                    
+                    <li>"Вот" can be used as a discourse marker.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Potentially continues or affirms the previous statement about using Yandex services and technologies.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/be844dcf-c104-4409-8bbe-b220bbccba78.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-10">
+                <h4>Яндекс: Дополнительное использование</h4>
+                <p><strong>Сводка:</strong> Спрашивающий интересуется, какие еще сервисы Яндекса использует респондент.</p>
+                <p><strong>Роль в тексте:</strong> Уточнение</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Вопрос о дополнительных сервисах Яндекса</li>
+                    
+                    <li>Уточнение об использовании технологий Яндекса</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Развитие темы использования сервисов Яндекса, начатой в предыдущих сегментах.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/5ef4226c-1ca7-48e0-af7a-f66e87eb2cc0.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-11">
+                <h4>Яндекс.Пэй, Маркет, Такси: Использование</h4>
+                <p><strong>Сводка:</strong> Респондент использует Яндекс.Пэй иногда и Яндекс.Такси, потому что это единственная доступная опция, но не пользуется Маркетом.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Использование Яндекс.Пэй: иногда</li>
+                    
+                    <li>Использование Яндекс.Маркет: не пользуется</li>
+                    
+                    <li>Использование Яндекс.Такси: пользуется из-за отсутствия альтернатив</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрирует использование сервисов Яндекса, упомянутых в родительском контексте.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/af9a9539-89fa-4445-ad62-8618d68159bd.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-12">
+                <h4>Exploring Additional Options/Features</h4>
+                <p><strong>Сводка:</strong> The speaker is prompting for more information or options beyond what has already been discussed, indicating a desire to explore further possibilities.</p>
+                <p><strong>Роль в тексте:</strong> Transition</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Inquiry about further options</li>
+                    
+                    <li>Seeking additional features</li>
+                    
+                    <li>Desire for more information</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Follows the discussion about using Yandex services and technologies, prompting for more details.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/0e5d57c5-2f3e-40e3-8d57-bbf677425600.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-13">
+                <h4>Яндекс: Алиса и другие сервисы</h4>
+                <p><strong>Сводка:</strong> Спикер использует карты, переводчик и Алису на умной колонке от Яндекса, но не пользовался котор gpt и старается не использовать аналоги от Open AI.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Использование карт и переводчика от Яндекса.</li>
+                    
+                    <li>Активное использование Алисы на умной колонке.</li>
+                    
+                    <li>Отказ от использования котор gpt.</li>
+                    
+                    <li>Предпочтение аналогам от Open AI.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация использования сервисов Яндекса.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/bca4ccc6-177c-4bbc-84ec-4811c962881c.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-14">
+                <h4>Общее впечатление о сервисах</h4>
+                <p><strong>Сводка:</strong> Сегмент представляет собой общее заключение или переход к другой теме.</p>
+                <p><strong>Роль в тексте:</strong> Переход</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Общее впечатление.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Завершение обсуждения предыдущей темы.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/91745648-d17f-45e2-b8df-932b622e29dc.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-15">
+                <h4>Ощущения: другой уровень сервиса</h4>
+                <p><strong>Сводка:</strong> Говорящий предполагает, что в другом месте уровень сервиса воспринимается иначе, возможно, выше.</p>
+                <p><strong>Роль в тексте:</strong> Мнение/Оценка</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Разный уровень сервиса</li>
+                    
+                    <li>Ощущения как основание</li>
+                    
+                    <li>Предположение о другом месте</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Развитие темы использования сервисов Яндекса, возможно, сравнение с другими сервисами.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/828f3866-6581-45f0-b96e-cec6543ff299.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-16">
+                <h4>Expressing a simple desire</h4>
+                <p><strong>Сводка:</strong> The speaker expresses a simple desire or wish, without specifying what that desire is.</p>
+                <p><strong>Роль в тексте:</strong> Transition</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Expression of a desire</li>
+                    
+                    <li>Unspecified desire</li>
+                    
+                    <li>Informal tone</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Continues the discussion about using Yandex services and technologies, possibly leading into a specific example or use case.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/c218902c-e03b-483a-8c09-8ce0688d7241.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-17">
+                <h4>Clarifying questions to follow</h4>
+                <p><strong>Сводка:</strong> The speaker indicates they will have some clarifying questions to ask.</p>
+                <p><strong>Роль в тексте:</strong> Transition</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Speaker will ask clarifying questions</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Follows the initial introduction of the topic of Yandex services and technologies.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/7e8df407-f071-4e3a-aca4-45bfc0618c6e.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-18">
+                <h4>Первый: начало обсуждения</h4>
+                <p><strong>Сводка:</strong> Сегмент содержит короткое слово "первый", вероятно, являющееся началом фразы или ответа.</p>
+                <p><strong>Роль в тексте:</strong> Переход</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Начало высказывания</li>
+                    
+                    <li>Возможно, первое слово ответа</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Введение в обсуждение сервисов Яндекса</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/0f9c3929-257b-426c-b148-c33d577551f8.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-19">
+                <h4>Нейросеть как плюс отказа</h4>
+                <p><strong>Сводка:</strong> Собеседник подтвердил, что не пользуется поиском, и нейросети были названы одним из преимуществ такого отказа.</p>
+                <p><strong>Роль в тексте:</strong> Аргумент</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Собеседник не использует поиск.</li>
+                    
+                    <li>Нейросети - одно из преимуществ отказа от поиска.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Развивает тему использования сервисов Яндекса, фокусируясь на отказе от поиска и его причинах.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/6ac0f2bf-90b1-49a7-aa66-5914cc5cd995.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-20">
+                <h4>Вопрос о пользе нейросети</h4>
+                <p><strong>Сводка:</strong> Спрашивающий планирует задать вопрос о том, что нравится в нейросети и какую пользу она приносит.</p>
+                <p><strong>Роль в тексте:</strong> Вопрос</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Вопрос о преимуществах нейросети</li>
+                    
+                    <li>Определение полезности нейросети</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Переход к конкретным вопросам о сервисах Яндекса</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/22d9bd88-ace7-458c-9aa1-95604d7831ff.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-21">
+                <h4>Asking a question example</h4>
+                <p><strong>Сводка:</strong> The speaker provides an example of how they would phrase a question, indicating a transition or clarification in the conversation.</p>
+                <p><strong>Роль в тексте:</strong> Example</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Example question phrasing</li>
+                    
+                    <li>Transition in conversation</li>
+                    
+                    <li>Clarification of previous point</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Illustrates how to ask about the use of Yandex services and technologies.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/3783c733-ea58-413c-96f7-5c2ad55d6ca1.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-22">
+                <h4>Reduces time to answer</h4>
+                <p><strong>Сводка:</strong> The technology reduces the time needed to find answers to questions.</p>
+                <p><strong>Роль в тексте:</strong> Benefit</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Reduces answer finding time</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Illustrates the benefits of using Yandex technologies.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/fcb39491-5913-4e75-8c8f-c8df13c5ce4c.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-23">
+                <h4>Конкретный запрос к поиску</h4>
+                <p><strong>Сводка:</strong> Собеседника просят привести конкретный пример запроса в поиске Яндекса, который был успешно решен с помощью нейросетей.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Привести конкретный пример запроса.</li>
+                    
+                    <li>Запрос должен быть сделан в поиске Яндекса.</li>
+                    
+                    <li>Нейросети помогли решить задачу.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация использования сервисов Яндекса</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/d1fad2ab-30c8-4f49-8518-6660554e238c.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-24">
+                <h4>Recalling Specific Experiences</h4>
+                <p><strong>Сводка:</strong> The segment prompts the speaker to recall specific instances or experiences related to the previously discussed topic of using Yandex services and technologies.</p>
+                <p><strong>Роль в тексте:</strong> Transition/Elicitation</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Prompt to recall specific experiences</li>
+                    
+                    <li>Focus on previous discussion</li>
+                    
+                    <li>Related to Yandex services and technologies</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Follows the introduction of Yandex services and technologies and seeks concrete examples.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/48f95128-587c-4738-a531-8059a58b2250.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-25">
+                <h4>Рецепт блинов как пример</h4>
+                <p><strong>Сводка:</strong> Сегмент представляет собой пример, а именно упоминание рецепта блинов.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Упоминание рецепта блинов</li>
+                    
+                    <li>Пример чего-то (не указано чего)</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация использования технологий Яндекса (предположительно)</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/96b48fd0-a428-40b7-9c44-e20cbf1cf974.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-26">
+                <h4>Systematization and Kalina Preparation</h4>
+                <p><strong>Сводка:</strong> The speaker mentions a systematization of several options and suggests a couple of ways to prepare Kalina.</p>
+                <p><strong>Роль в тексте:</strong> Example</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Systematization of multiple options</li>
+                    
+                    <li>Suggestion of Kalina preparation methods</li>
+                    
+                    <li>Offering a couple of variations</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Illustrates the use of Yandex services/technologies by providing a specific example of how information is organized and presented.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/508ab667-5b05-4b65-9842-e37426e5cb84.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-27">
+                <h4>Удобный поиск рецептов</h4>
+                <p><strong>Сводка:</strong> Вместо поиска по сайтам с плохим дизайном, можно сразу находить хорошие и удобные рецепты.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Избегание поиска по неудобным сайтам</li>
+                    
+                    <li>Прямой доступ к хорошим рецептам</li>
+                    
+                    <li>Удобство поиска рецептов</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация использования сервисов Яндекса для удобства пользователей.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/25569efe-0cd1-4947-b515-27e62e6d3131.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-28">
+                <h4>Домашние рецепты и задачи</h4>
+                <p><strong>Сводка:</strong> Упоминается рецепт блинов как что-то домашнее, и задается вопрос о получении задач.</p>
+                <p><strong>Роль в тексте:</strong> Переход</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Рецепт блинов ассоциируется с домашней обстановкой.</li>
+                    
+                    <li>Задан вопрос о процессе получения задач.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Не связано напрямую с предыдущим контекстом, представляет собой отдельную мысль или вопрос.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/225ea865-6934-4ba2-8f4e-04cefa829b0a.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-29">
+                <h4>Affirmation of Previous Statement</h4>
+                <p><strong>Сводка:</strong> The segment simply contains the word 'да' (yes), affirming a previous statement or question.</p>
+                <p><strong>Роль в тексте:</strong> Confirmation</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Affirmation</li>
+                    
+                    <li>Agreement</li>
+                    
+                    <li>Confirmation</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Confirms the preceding question about using Yandex services.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/fc5bf604-7e27-4259-b561-84ee6ed37f31.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-30">
+                <h4>Нейросети: дом и работа?</h4>
+                <p><strong>Сводка:</strong> Обсуждается, используются ли нейросети только для домашних задач или также в рабочих процессах.</p>
+                <p><strong>Роль в тексте:</strong> Вопрос</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Вопрос об использовании нейросетей.</li>
+                    
+                    <li>Домашние задачи vs. рабочие процессы.</li>
+                    
+                    <li>Возможность применения в обеих сферах.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Развивает тему использования технологий Яндекса, переходя к конкретному вопросу о применении нейросетей.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/a865138c-f2ad-4cdd-aea5-969d4ae57620.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-31">
+                <h4>Yandex helps with studies</h4>
+                <p><strong>Сводка:</strong> The speaker confirms that Yandex services are helpful for studies.</p>
+                <p><strong>Роль в тексте:</strong> Confirmation</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Yandex services are beneficial.</li>
+                    
+                    <li>Specifically helps with studies.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment provides a specific example of how Yandex services are useful, building upon the initial discussion of Yandex's role.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/1c7c9916-f659-4314-a037-6a0a37792fab.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-32">
+                <h4>University's fast information retrieval</h4>
+                <p><strong>Сводка:</strong> The speaker highlights the university's ability to quickly provide information, surpassing the speed of GPT models in extracting relevant data.</p>
+                <p><strong>Роль в тексте:</strong> Example</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>University provides fast information retrieval.</li>
+                    
+                    <li>Faster than GPT models in quick extraction.</li>
+                    
+                    <li>Focus on speed of information delivery.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Illustrates the use of Yandex services by highlighting a faster alternative for information retrieval.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/25feb3d0-d8cb-4723-80f0-0e1d822c1174.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-33">
+                <h4>Нейросеть выдает суть сразу</h4>
+                <p><strong>Сводка:</strong> В отличие от обычных нейросетей, которые сначала размышляют, а потом выдают длинный ответ, эта нейросеть сразу предоставляет суть.</p>
+                <p><strong>Роль в тексте:</strong> Пример</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Нейросети обычно долго размышляют.</li>
+                    
+                    <li>Обычные нейросети выдают длинные ответы.</li>
+                    
+                    <li>Эта нейросеть сразу выдает суть.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Иллюстрация преимуществ технологий Яндекса в поиске.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/d859e20e-3df8-4101-a7a9-20de590384b0.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-34">
+                <h4>Clarifying Work-Related Aspects</h4>
+                <p><strong>Сводка:</strong> The speaker mentions that there are work-related aspects that need clarification, suggesting a need for further discussion or explanation regarding specific tasks or responsibilities.</p>
+                <p><strong>Роль в тексте:</strong> Transition</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Work-related aspects require clarification.</li>
+                    
+                    <li>Further discussion may be needed.</li>
+                    
+                    <li>Specific tasks might need explanation.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment follows a general introduction about using Yandex services and transitions into specific work-related questions.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/d8fc6a7f-44a6-4446-89c4-2e81234cb405.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            <div class="segment-summary" id="segment-35">
+                <h4>Immediate Response Indication</h4>
+                <p><strong>Сводка:</strong> The speaker indicates they can provide an immediate answer or response.</p>
+                <p><strong>Роль в тексте:</strong> Transition</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Speaker is ready to answer quickly</li>
+                    
+                    <li>Implies familiarity with the topic</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Follows the introduction of the topic of Yandex services and technologies, suggesting the speaker is prepared to discuss their usage.</p>
+                
+                
+                <div class="segment-actions">
+                    <a href="./segments/51ce864e-fc69-4b27-8b30-43d8aa4bda64.html" target="_blank" class="segment-link">Посмотреть полный текст сегмента</a>
+                </div>
+            </div>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                    
+                                    Яндекс сервисы: поиск и нейро
+                                
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-1">
+                                
+                                    
+                                    Яндекс сервисы: поиск и нейро
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                    
+                                    Использование сервисов и технологий Яндекса
+                                
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-2">
+                                
+                                    
+                                    Использование сервисов и технологий Яндекса
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                    
+                                    Яндекс: поиск и технологии
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-3">
+                                
+                                    
+                                    Яндекс: поиск и технологии
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                    
+                                    Usage of Yandex vs. Competitors
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-4">
+                                
+                                    
+                                    Usage of Yandex vs. Competitors
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-5">
+                                
+                                    
+                                    Main search engine preference
+                                
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-5">
+                                
+                                    
+                                    Main search engine preference
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-6">
+                                
+                                    
+                                    Нейросеть: удобство быстрого поиска
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-6">
+                                
+                                    
+                                    Нейросеть: удобство быстрого поиска
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-7">
+                                
+                                    
+                                    Яндекс Музыка как выбор
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-7">
+                                
+                                    
+                                    Яндекс Музыка как выбор
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-8">
+                                
+                                    
+                                    Everything else is awful
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-8">
+                                
+                                    
+                                    Everything else is awful
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-9">
+                                
+                                    
+                                    Affirmation or Filler Word
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-9">
+                                
+                                    
+                                    Affirmation or Filler Word
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-10">
+                                
+                                    
+                                    Яндекс: Дополнительное использование
+                                
+                            </a>
+                        </td>
+                        <td>Противопоставление</td>
+                        <td>
+                            <a href="#segment-10">
+                                
+                                    
+                                    Яндекс: Дополнительное использование
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-11">
+                                
+                                    
+                                    Яндекс.Пэй, Маркет, Такси: Использование
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-11">
+                                
+                                    
+                                    Яндекс.Пэй, Маркет, Такси: Использование
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-12">
+                                
+                                    
+                                    Exploring Additional Options/Features
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-12">
+                                
+                                    
+                                    Exploring Additional Options/Features
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-13">
+                                
+                                    
+                                    Яндекс: Алиса и другие сервисы
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-13">
+                                
+                                    
+                                    Яндекс: Алиса и другие сервисы
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-14">
+                                
+                                    
+                                    Общее впечатление о сервисах
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-14">
+                                
+                                    
+                                    Общее впечатление о сервисах
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-15">
+                                
+                                    
+                                    Ощущения: другой уровень сервиса
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-15">
+                                
+                                    
+                                    Ощущения: другой уровень сервиса
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-16">
+                                
+                                    
+                                    Expressing a simple desire
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-16">
+                                
+                                    
+                                    Expressing a simple desire
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-17">
+                                
+                                    
+                                    Clarifying questions to follow
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-17">
+                                
+                                    
+                                    Clarifying questions to follow
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-18">
+                                
+                                    
+                                    Первый: начало обсуждения
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-18">
+                                
+                                    
+                                    Первый: начало обсуждения
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-19">
+                                
+                                    
+                                    Нейросеть как плюс отказа
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-19">
+                                
+                                    
+                                    Нейросеть как плюс отказа
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-20">
+                                
+                                    
+                                    Вопрос о пользе нейросети
+                                
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-20">
+                                
+                                    
+                                    Вопрос о пользе нейросети
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-21">
+                                
+                                    
+                                    Asking a question example
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-21">
+                                
+                                    
+                                    Asking a question example
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-22">
+                                
+                                    
+                                    Reduces time to answer
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-22">
+                                
+                                    
+                                    Reduces time to answer
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-23">
+                                
+                                    
+                                    Конкретный запрос к поиску
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-23">
+                                
+                                    
+                                    Конкретный запрос к поиску
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-24">
+                                
+                                    
+                                    Recalling Specific Experiences
+                                
+                            </a>
+                        </td>
+                        <td>Причина-следствие</td>
+                        <td>
+                            <a href="#segment-24">
+                                
+                                    
+                                    Recalling Specific Experiences
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-25">
+                                
+                                    
+                                    Рецепт блинов как пример
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-25">
+                                
+                                    
+                                    Рецепт блинов как пример
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-26">
+                                
+                                    
+                                    Systematization and Kalina Preparation
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-26">
+                                
+                                    
+                                    Systematization and Kalina Preparation
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-27">
+                                
+                                    
+                                    Удобный поиск рецептов
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-27">
+                                
+                                    
+                                    Удобный поиск рецептов
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-28">
+                                
+                                    
+                                    Домашние рецепты и задачи
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-28">
+                                
+                                    
+                                    Домашние рецепты и задачи
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-29">
+                                
+                                    
+                                    Affirmation of Previous Statement
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-29">
+                                
+                                    
+                                    Affirmation of Previous Statement
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-30">
+                                
+                                    
+                                    Нейросети: дом и работа?
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-30">
+                                
+                                    
+                                    Нейросети: дом и работа?
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-31">
+                                
+                                    
+                                    Yandex helps with studies
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-31">
+                                
+                                    
+                                    Yandex helps with studies
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-32">
+                                
+                                    
+                                    University's fast information retrieval
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-32">
+                                
+                                    
+                                    University's fast information retrieval
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-33">
+                                
+                                    
+                                    Нейросеть выдает суть сразу
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-33">
+                                
+                                    
+                                    Нейросеть выдает суть сразу
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-34">
+                                
+                                    
+                                    Clarifying Work-Related Aspects
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-34">
+                                
+                                    
+                                    Clarifying Work-Related Aspects
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-35">
+                                
+                                    
+                                    Immediate Response Indication
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-35">
+                                
+                                    
+                                    Immediate Response Indication
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-36">
+                                
+                                    Сегмент 36
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-36">
+                                
+                                    Сегмент 36
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-37">
+                                
+                                    Сегмент 37
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-37">
+                                
+                                    Сегмент 37
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-38">
+                                
+                                    Сегмент 38
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-38">
+                                
+                                    Сегмент 38
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-39">
+                                
+                                    Сегмент 39
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-39">
+                                
+                                    Сегмент 39
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-40">
+                                
+                                    Сегмент 40
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-40">
+                                
+                                    Сегмент 40
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-41">
+                                
+                                    Сегмент 41
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-41">
+                                
+                                    Сегмент 41
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-42">
+                                
+                                    Сегмент 42
+                                
+                            </a>
+                        </td>
+                        <td>Пример-иллюстрация</td>
+                        <td>
+                            <a href="#segment-42">
+                                
+                                    Сегмент 42
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-43">
+                                
+                                    Сегмент 43
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-43">
+                                
+                                    Сегмент 43
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-44">
+                                
+                                    Сегмент 44
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-44">
+                                
+                                    Сегмент 44
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-45">
+                                
+                                    Сегмент 45
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-45">
+                                
+                                    Сегмент 45
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-46">
+                                
+                                    Сегмент 46
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-46">
+                                
+                                    Сегмент 46
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-47">
+                                
+                                    Сегмент 47
+                                
+                            </a>
+                        </td>
+                        <td>Общая тема</td>
+                        <td>
+                            <a href="#segment-47">
+                                
+                                    Сегмент 47
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-48">
+                                
+                                    Сегмент 48
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-48">
+                                
+                                    Сегмент 48
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-49">
+                                
+                                    Сегмент 49
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-49">
+                                
+                                    Сегмент 49
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-50">
+                                
+                                    Сегмент 50
+                                
+                            </a>
+                        </td>
+                        <td>Другое</td>
+                        <td>
+                            <a href="#segment-50">
+                                
+                                    Сегмент 50
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-51">
+                                
+                                    Сегмент 51
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-51">
+                                
+                                    Сегмент 51
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-52">
+                                
+                                    Сегмент 52
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-52">
+                                
+                                    Сегмент 52
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-53">
+                                
+                                    Сегмент 53
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-53">
+                                
+                                    Сегмент 53
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-54">
+                                
+                                    Сегмент 54
+                                
+                            </a>
+                        </td>
+                        <td>Пример-иллюстрация</td>
+                        <td>
+                            <a href="#segment-54">
+                                
+                                    Сегмент 54
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-55">
+                                
+                                    Сегмент 55
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-55">
+                                
+                                    Сегмент 55
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-56">
+                                
+                                    Сегмент 56
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-56">
+                                
+                                    Сегмент 56
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-57">
+                                
+                                    Сегмент 57
+                                
+                            </a>
+                        </td>
+                        <td>Причина-следствие</td>
+                        <td>
+                            <a href="#segment-57">
+                                
+                                    Сегмент 57
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-58">
+                                
+                                    Сегмент 58
+                                
+                            </a>
+                        </td>
+                        <td>Причина-следствие</td>
+                        <td>
+                            <a href="#segment-58">
+                                
+                                    Сегмент 58
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-59">
+                                
+                                    Сегмент 59
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-59">
+                                
+                                    Сегмент 59
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-60">
+                                
+                                    Сегмент 60
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-60">
+                                
+                                    Сегмент 60
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-61">
+                                
+                                    Сегмент 61
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-61">
+                                
+                                    Сегмент 61
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <a href="#segment-62">
+                                
+                                    Сегмент 62
+                                
+                            </a>
+                        </td>
+                        <td>Развитие мысли</td>
+                        <td>
+                            <a href="#segment-62">
+                                
+                                    Сегмент 62
+                                
+                            </a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Яндекс</td>
+                        <td>organization</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>нейро</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Яндекс Музыка</td>
+                        <td>product</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Яндекс Пэй</td>
+                        <td>product</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>поиск</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>рецепт блинов</td>
+                        <td>concept</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>университет</td>
+                        <td>organization</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>нейросеть</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Яндекс</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>нейро</td>
+                        <td>0.000</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Яндекс Музыка</td>
+                        <td>0.000</td>
+                        <td>product</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Яндекс Пэй</td>
+                        <td>0.000</td>
+                        <td>product</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>поиск</td>
+                        <td>0.000</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>рецепт блинов</td>
+                        <td>0.000</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>университет</td>
+                        <td>0.000</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>нейросеть</td>
+                        <td>0.000</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+            <div class="research-process">
+                <h3></h3>
+                <p><strong>Достоверность:</strong> 0.75</p>
+                <p></p>
+                
+                
+            </div>
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Яндекс, нейро, Яндекс Музыка как центральные концепции, связывающие несколько тем. В ходе анализа было сформировано 1 теорий, объясняющих наблюдаемые закономерности. Теория 'Без названия' имеет наиболее сильную поддержку с достоверностью 0.75. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-06 21:29:54</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "eecd7194-6fe1-4c55-9ff1-9deae0ef3a0e",
+    "source_id": "6b5d01d4-6d23-4405-ba51-913f1c9efc5c",
+    "target_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "type": "CEO_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+      "start": 0,
+      "end": 32,
+      "text": "John Smith is the CEO of Acme Corporation"
+    }
+  },
+  {
+    "id": "cf476340-0b7c-43e8-b210-e74e9e1f8115",
+    "source_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "target_id": "cf6bff6d-6d40-4554-af8b-163fab57abd1",
+    "type": "FOUNDED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+      "start": 0,
+      "end": 69,
+      "text": "John Smith is the CEO of Acme Corporation, which was founded in 1985."
+    }
+  },
+  {
+    "id": "500e7ddf-99af-4ca0-8bed-3d9d22ce7140",
+    "source_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "target_id": "ec925aad-561a-4e76-ad07-86ce1e5b3833",
+    "type": "HEADQUARTERED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+      "start": 75,
+      "end": 113,
+      "text": "Acme Corporation is headquartered in New York City"
+    }
+  },
+  {
+    "id": "1261fb25-04b5-48b5-8fdb-496481f3399f",
+    "source_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "target_id": "43feafd6-d34b-497f-8579-fbd61945e1d5",
+    "type": "SPECIALIZES_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "d011a545-9600-4806-a1be-0db55b7204c2",
+      "start": 69,
+      "end": 161,
+      "text": "\nAcme Corporation is headquartered in New York City and specializes in software development."
+    }
+  },
+  {
+    "id": "b8865d55-5847-4579-a3a7-b0fb3bd5ca1f",
+    "source_id": "e7254b74-e9d1-4c6d-a318-692f70a5a87f",
+    "target_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "type": "CTO_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+      "start": 0,
+      "end": 35,
+      "text": "Mary Johnson is the CTO of Acme Corporation"
+    }
+  },
+  {
+    "id": "6c28667f-e622-4b06-9a5c-6152d627b6ac",
+    "source_id": "e7254b74-e9d1-4c6d-a318-692f70a5a87f",
+    "target_id": "78e53e0d-b41d-4552-9833-d3d86700a00c",
+    "type": "WORKED_AT",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "role",
+        "value": "senior developer",
+        "confidence": 0.97,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+      "start": 0,
+      "end": 144,
+      "text": "Mary Johnson is the CTO of Acme Corporation and has worked there since 2005.\nShe previously worked at Tech Solutions Inc. as a senior developer."
+    }
+  },
+  {
+    "id": "83797540-194c-49c4-8b93-dd14f6d7d0b0",
+    "source_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "target_id": "1906e74c-1202-48b5-8f36-e47b531532e8",
+    "type": "PARTNERED_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+      "start": 0,
+      "end": 51,
+      "text": "Acme Corporation recently partnered with Global Systems Ltd."
+    }
+  },
+  {
+    "id": "96758e0a-106c-48c8-8acd-9e2a5baf74f6",
+    "source_id": "48782559-3baf-4e04-9b54-e461fabbf3e4",
+    "target_id": "eba92852-0c03-43fd-ba0a-18db9e8a59a9",
+    "type": "PROJECT_NAME",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+      "start": 0,
+      "end": 101,
+      "text": "Acme Corporation recently partnered with Global Systems Ltd. on a new project called \"Project Alpha\"."
+    }
+  },
+  {
+    "id": "fc8c36e1-068c-4b44-916b-fba14e89803a",
+    "source_id": "c761f6ef-8612-4cdc-b972-69d8ef0abed4",
+    "target_id": "8f4d59d4-ad47-47f2-b1dd-3ec1ed0d37e4",
+    "type": "FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+      "start": 0,
+      "end": 67,
+      "text": "The project aims to develop innovative AI solutions for healthcare."
+    }
+  },
+  {
+    "id": "57c8153c-5dac-4a6a-b355-edd3dceff6d9",
+    "source_id": "1906e74c-1202-48b5-8f36-e47b531532e8",
+    "target_id": "3c7fadb4-57b5-4159-a729-c60796829a83",
+    "type": "BASED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+      "start": 123,
+      "end": 193,
+      "text": "\nGlobal Systems Ltd. is based in London and is led by CEO David Brown."
+    }
+  },
+  {
+    "id": "17145b72-2f6c-4398-a9fa-420777dddf19",
+    "source_id": "5159b116-cfa8-48d3-9f9f-725c073afd06",
+    "target_id": "1906e74c-1202-48b5-8f36-e47b531532e8",
+    "type": "CEO_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+      "start": 123,
+      "end": 193,
+      "text": "\nGlobal Systems Ltd. is based in London and is led by CEO David Brown."
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Hub: Acme Corporation",
+    "type": "structural",
+    "subtype": "hub",
+    "description": "Acme Corporation is a central entity connected to many others",
+    "entities": [
+      "f8b4bac0-6b48-455f-91ba-3cc8e0028b2f"
+    ],
+    "examples": [
+      {
+        "text": "Acme Corporation is connected to 1985, New York City, software development",
+        "explanation": "Acme Corporation serves as a hub connecting multiple entities"
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "name": "Corporate Evolution and Specialization",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern describes the lifecycle and focus of a company, from its founding to its area of expertise and geographical location. It involves the relationships between an organization, its founding date, its headquarters, and its specialization.",
+    "examples": [
+      {
+        "text": "Acme Corporation → founded_in → 1985, Acme Corporation → headquartered_in → New York City, Acme Corporation → specializes_in → software development",
+        "explanation": "This shows Acme Corporation was founded in 1985, is based in New York City, and focuses on software development. This illustrates a typical company profile."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern is significant because it provides a basic understanding of a company's history, location, and core business. It's a fundamental building block for understanding the corporate landscape within the knowledge graph."
+  },
+  {
+    "name": "Leadership and Management Structure",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the leadership structure within an organization, connecting people to their roles and the companies they manage. It involves relationships like 'ceo_of' and 'cto_of'.",
+    "examples": [
+      {
+        "text": "John Smith → ceo_of → Acme Corporation, Mary Johnson → cto_of → Acme Corporation",
+        "explanation": "This shows John Smith is the CEO and Mary Johnson is the CTO of Acme Corporation, indicating a clear leadership hierarchy."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "Understanding the leadership structure is crucial for understanding decision-making processes and power dynamics within the organization. It also helps in identifying key individuals within the network."
+  },
+  {
+    "name": "Project Announcement and Context",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern describes how a project is announced and the context surrounding that announcement, linking a project to a specific date and event.",
+    "examples": [
+      {
+        "text": "Project Alpha → announced_on → January 15, 2023, Project Alpha → announced_during → press conference",
+        "explanation": "This shows that Project Alpha was announced on January 15, 2023, during a press conference, providing a specific timeline and setting for the announcement."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern is important for understanding the timing and circumstances surrounding a project's launch, which can be crucial for interpreting its significance and potential impact."
+  },
+  {
+    "name": "Technological Specialization in Healthcare",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern highlights the application of a specific technology (AI solutions) within a particular industry (healthcare).",
+    "examples": [
+      {
+        "text": "AI solutions → develops → healthcare",
+        "explanation": "This indicates that AI solutions are being developed for the healthcare industry, showcasing a specific application of AI."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern is significant because it reveals a specific area where technology is being applied, which can be useful for identifying trends and opportunities in the market."
+  }
+]

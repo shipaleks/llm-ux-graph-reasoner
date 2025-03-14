@@ -1,0 +1,233 @@
+[
+  {
+    "id": "66dd2d07-7195-4df9-bcde-4f1ec42759ca",
+    "name": "Иван Петров",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "title",
+        "value": "генеральный директор",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 0,
+      "end": 11,
+      "text": "Иван Петров"
+    }
+  },
+  {
+    "id": "c50d6959-d1e1-45c2-9e20-b22969928f1d",
+    "name": "ТехноИнновации",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 45,
+      "end": 60,
+      "text": "ТехноИнновации"
+    }
+  },
+  {
+    "id": "efd77c99-a1d1-4b0e-992c-74cbe98dd6f8",
+    "name": "2010",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 100,
+      "end": 104,
+      "text": "2010"
+    }
+  },
+  {
+    "id": "27e0c681-86ed-47a6-b9df-0d16524d01a3",
+    "name": "Москва",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "775bc487-cd7b-43d1-9de8-3c2eb446c3a6",
+      "start": 126,
+      "end": 132,
+      "text": "Москве"
+    }
+  },
+  {
+    "id": "79814a93-442a-4803-8ca5-7b587fba37f6",
+    "name": "Мария Сидорова",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "title",
+        "value": "технический директор",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "3f39df6c-0505-4614-9a27-773a930456f2",
+      "start": 0,
+      "end": 14,
+      "text": "Мария Сидорова"
+    }
+  },
+  {
+    "id": "47691ea7-bfe3-41d6-b945-d6477eaae266",
+    "name": "2015",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "3f39df6c-0505-4614-9a27-773a930456f2",
+      "start": 67,
+      "end": 71,
+      "text": "2015"
+    }
+  },
+  {
+    "id": "2b40e59f-6af2-4947-ac56-c4b02974f030",
+    "name": "ИТ-Решения",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "3f39df6c-0505-4614-9a27-773a930456f2",
+      "start": 108,
+      "end": 118,
+      "text": "ИТ-Решения"
+    }
+  },
+  {
+    "id": "4a9fb7ce-c8ed-4c86-8446-3e7618845081",
+    "name": "Глобал Системс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "12d2a251-b3a3-4e92-951e-f2c26db86560",
+      "start": 42,
+      "end": 56,
+      "text": "Глобал Системс"
+    }
+  },
+  {
+    "id": "0a2dde5d-1473-45d9-982d-37cb0c5661c8",
+    "name": "Проект Альфа",
+    "type": "project",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "12d2a251-b3a3-4e92-951e-f2c26db86560",
+      "start": 76,
+      "end": 89,
+      "text": "Проектом Альфа"
+    }
+  },
+  {
+    "id": "e34aef3e-87a9-4dc0-bfe1-f48c235a03ae",
+    "name": "15 января 2023 года",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "12d2a251-b3a3-4e92-951e-f2c26db86560",
+      "start": 113,
+      "end": 131,
+      "text": "15 января 2023 года"
+    }
+  },
+  {
+    "id": "299e52ec-069b-452c-9314-f5400dcebd3e",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 52,
+      "end": 74,
+      "text": "искусственного интеллекта"
+    }
+  },
+  {
+    "id": "27a7d4a4-f082-4314-8f4f-6844f8de384e",
+    "name": "здравоохранение",
+    "type": "industry",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 80,
+      "end": 94,
+      "text": "здравоохранения"
+    }
+  },
+  {
+    "id": "4297d674-d93c-4b9d-930a-126884fb85be",
+    "name": "300 миллионов рублей",
+    "type": "money",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 107,
+      "end": 127,
+      "text": "300 миллионов рублей"
+    }
+  },
+  {
+    "id": "ab8d5811-44f2-417a-ae85-6baba0daac2f",
+    "name": "Санкт-Петербург",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 169,
+      "end": 184,
+      "text": "Санкт-Петербурге"
+    }
+  },
+  {
+    "id": "6cfca330-baba-4e3a-9c50-b8aec25cde28",
+    "name": "Алексей Смирнов",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "title",
+        "value": "генеральный директор",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "ecb45d19-5b84-4f98-8c7f-15ee71503597",
+      "start": 217,
+      "end": 231,
+      "text": "Алексей Смирнов"
+    }
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "6fde1cff-32cb-4287-9d62-dc48adb92c4b",
+    "name": "g",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad9da683-038a-4e27-af9f-64debbb7803b",
+      "start": 26,
+      "end": 27,
+      "text": "g"
+    }
+  },
+  {
+    "id": "6ce8ad18-ccd7-4864-8078-8f6e2d8fbae6",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa8bbef9-4a3d-485e-8411-7b52eecf5705",
+      "start": 21,
+      "end": 30,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "50c3f2be-fe02-4176-8be7-941b6ac818a3",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b92fe4b3-d482-4203-851f-1ca0032e1d36",
+      "start": 76,
+      "end": 85,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "28ac62a3-3c58-4bb3-8505-38c1fa688b20",
+    "name": "доктор зуев",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b92fe4b3-d482-4203-851f-1ca0032e1d36",
+      "start": 87,
+      "end": 99,
+      "text": "доктор зуев"
+    }
+  },
+  {
+    "id": "25e149a9-2f3f-452a-b458-ea6e739dc70e",
+    "name": "мегано",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b92fe4b3-d482-4203-851f-1ca0032e1d36",
+      "start": 121,
+      "end": 127,
+      "text": "мегано"
+    }
+  },
+  {
+    "id": "7aa3fa85-2065-4609-915e-9418102baecf",
+    "name": "минстрой",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b92fe4b3-d482-4203-851f-1ca0032e1d36",
+      "start": 129,
+      "end": 137,
+      "text": "минстрой"
+    }
+  },
+  {
+    "id": "4a494724-d229-4d37-a86f-fee818fd7d12",
+    "name": "министерство строительства калининградской области",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b92fe4b3-d482-4203-851f-1ca0032e1d36",
+      "start": 156,
+      "end": 210,
+      "text": "министерство строительства калининградской области"
+    }
+  },
+  {
+    "id": "826161a8-f9ce-4af4-8d9b-1ebf61ecd078",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6ef94a1-c32d-4189-9b27-112c6857b446",
+      "start": 26,
+      "end": 35,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "86044208-365c-4933-b134-d59d2235ff6b",
+    "name": "доктор зуфи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c256b73b-1fc0-4967-a87c-53a2a7630415",
+      "start": 5,
+      "end": 16,
+      "text": "доктор зуфи"
+    }
+  },
+  {
+    "id": "c865e4d4-890b-4883-8d61-d1d9c429855c",
+    "name": "фильтр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df9280af-76d5-463f-907e-4b3f8a2a2a11",
+      "start": 23,
+      "end": 29,
+      "text": "фильтра"
+    }
+  },
+  {
+    "id": "58039638-fcf0-4ad9-88b1-0e47f601be67",
+    "name": "надежность источников",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df9280af-76d5-463f-907e-4b3f8a2a2a11",
+      "start": 44,
+      "end": 65,
+      "text": "надежность источников"
+    }
+  },
+  {
+    "id": "93182038-c32b-4d0a-a48a-28902c50ea29",
+    "name": "ключевые слова",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ecaa556-8b7f-4d25-ba0d-4731eafc81da",
+      "start": 54,
+      "end": 68,
+      "text": "ключевые слова"
+    }
+  },
+  {
+    "id": "09188b52-ccfc-48b4-82a7-cb4b49ac2b1b",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a2ed57c-9a3b-4532-a746-f288b60ce218",
+      "start": 4,
+      "end": 11,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "06540849-e215-4eb0-a8bb-8e427d5cd3f6",
+    "name": "консультант плюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a2ed57c-9a3b-4532-a746-f288b60ce218",
+      "start": 31,
+      "end": 47,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "c8c54c40-948d-478e-99ff-de926633b271",
+    "name": "сайт президента кремля",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a2ed57c-9a3b-4532-a746-f288b60ce218",
+      "start": 48,
+      "end": 71,
+      "text": "сайт президента кремля"
+    }
+  },
+  {
+    "id": "66dd271f-0864-4d6f-8884-427c27ea67c3",
+    "name": "доктор зуев",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ba413553-3098-4556-a6df-f121396f4410",
+      "start": 77,
+      "end": 89,
+      "text": "доктор зуев"
+    }
+  },
+  {
+    "id": "e6b53309-aa5f-462c-b5c7-df77895c2fdb",
+    "name": "впн",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af14bece-f942-4736-9d69-f9112731232a",
+      "start": 16,
+      "end": 19,
+      "text": "впн"
+    }
+  },
+  {
+    "id": "0885d9b9-7dbf-45d0-ac14-3ea48e9b03dc",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0e5071e-554f-43ca-951a-ad78cd8a84f9",
+      "start": 20,
+      "end": 25,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "9216949d-fed7-4c0b-b5c8-618d367454bf",
+    "name": "гай ричи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ef9549b-9c6a-4204-9aaa-1bab4d4e6e88",
+      "start": 9,
+      "end": 17,
+      "text": "гай ричи"
+    }
+  },
+  {
+    "id": "ea9a0966-409a-4ad1-86ff-b27bcd898f47",
+    "name": "передача управления",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a914d09c-3106-459b-ae5e-49cbae680433",
+      "start": 37,
+      "end": 57,
+      "text": "передача управления"
+    }
+  },
+  {
+    "id": "9c594ca7-b05a-4815-940c-3ff9d0543254",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "839c18d2-ee0c-432c-8d6f-4886fcfa046e",
+      "start": 71,
+      "end": 76,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "e8873058-d250-4fda-aaa6-f3cdf0cb7a8e",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81b62aaf-34fa-4d93-90dc-e85e1c7f99ef",
+      "start": 11,
+      "end": 16,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "2616f5cd-939b-4714-8223-49afe430df69",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d5662406-41c7-4914-b7a2-df9cbe2948c8",
+      "start": 0,
+      "end": 12,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "134ea6ed-78fa-4813-bda0-37f967a90114",
+    "name": "википедии",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9308c7e-2bc3-463d-a78a-9a517af99bda",
+      "start": 54,
+      "end": 63,
+      "text": "википедии"
+    }
+  },
+  {
+    "id": "1f37413f-896b-4e10-866c-99a13bc55393",
+    "name": "гай ричи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9308c7e-2bc3-463d-a78a-9a517af99bda",
+      "start": 117,
+      "end": 125,
+      "text": "гай ричи"
+    }
+  },
+  {
+    "id": "85811bc3-a35f-435b-a419-e79df080ab45",
+    "name": "британский кинорежиссер",
+    "type": "profession",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c922eb80-0b5a-4216-8349-25a810c19f50",
+      "start": 34,
+      "end": 57,
+      "text": "британский кинорежиссер"
+    }
+  },
+  {
+    "id": "9f019b83-7e1c-4428-ad59-965588719b59",
+    "name": "фильмографии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "30bace1d-b560-4370-b0d7-b04baa69d994",
+      "start": 17,
+      "end": 29,
+      "text": "фильмографии"
+    }
+  },
+  {
+    "id": "5c89195e-ded1-4fe2-aa59-f00820410639",
+    "name": "личная жизнь",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "30bace1d-b560-4370-b0d7-b04baa69d994",
+      "start": 30,
+      "end": 42,
+      "text": "личная жизнь"
+    }
+  },
+  {
+    "id": "588d4e60-8e0b-4fc5-88a1-0fe67336a0cb",
+    "name": "википедии",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "254653c6-49a3-4402-9951-4535650babd7",
+      "start": 57,
+      "end": 66,
+      "text": "википедии"
+    }
+  },
+  {
+    "id": "7217a911-ee9d-4a9d-891c-2143b313448f",
+    "name": "гай ричи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bee5b163-ab9b-449a-9ef1-b9e6379b33b3",
+      "start": 79,
+      "end": 87,
+      "text": "гай ричи"
+    }
+  }
+]

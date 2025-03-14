@@ -1,0 +1,198 @@
+[
+  {
+    "id": "d53fb64d-1352-4e2b-95dd-79e633817204",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "3e8b238d-a2c7-4208-aced-5d846fcab221",
+      "start": 40,
+      "end": 47,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "4f6f0700-1f2e-4d46-b66f-01a652def90d",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "3e8b238d-a2c7-4208-aced-5d846fcab221",
+      "start": 62,
+      "end": 69,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "e05e086d-e60a-414a-9bc2-aa7f876d8f5c",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "4c1fd91b-b2f0-4306-8a5d-5fa850ffec82",
+      "start": 34,
+      "end": 41,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "465d4374-d096-4438-a8c3-9c0f7119f3a9",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "4c3e2567-86b7-46aa-b829-fa0f71ef09f3",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "7dee6a0e-6213-42a1-8e71-21bc762aca55",
+    "name": "Яндекс Музыка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "40cc77b5-bc2e-4afb-b59e-6f5f1bb488f8",
+      "start": 15,
+      "end": 28,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "810275ba-42b9-4028-accb-d2d786551898",
+    "name": "Яндекс Пэй",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "4411379a-1239-4d72-9618-1465c38d2621",
+      "start": 0,
+      "end": 10,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "d0dabc97-34db-4857-b0cf-2bd0bfa8454d",
+    "name": "Яндекс Маркет",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "4411379a-1239-4d72-9618-1465c38d2621",
+      "start": 27,
+      "end": 35,
+      "text": "маркетом"
+    }
+  },
+  {
+    "id": "f6c037b8-29fb-4705-817a-383358ba32b8",
+    "name": "Яндекс Такси",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "4411379a-1239-4d72-9618-1465c38d2621",
+      "start": 49,
+      "end": 54,
+      "text": "такси"
+    }
+  },
+  {
+    "id": "d2b654b5-4f39-47ba-a2df-772b8fcb77e6",
+    "name": "Яндекс Карты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 0,
+      "end": 5,
+      "text": "карты"
+    }
+  },
+  {
+    "id": "99ccb3f7-9349-4233-9730-37f29fe2de84",
+    "name": "Яндекс Переводчик",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 7,
+      "end": 17,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "26b1ddf2-9952-434c-be35-01676e7ab8df",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 27,
+      "end": 33,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "be0d534a-74eb-4ef5-9775-d16e3ef55054",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 60,
+      "end": 65,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "83726876-a22a-482c-8bad-9a75f3f23e22",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 72,
+      "end": 75,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "8665f059-d278-46b6-a8d6-3d7f52dbc8a7",
+    "name": "OpenAI",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmpg1q4_cet.txt",
+      "segment_id": "48e5aad8-7e7b-4597-b5a7-93dbd24cde5f",
+      "start": 127,
+      "end": 133,
+      "text": "опен- ай"
+    }
+  }
+]

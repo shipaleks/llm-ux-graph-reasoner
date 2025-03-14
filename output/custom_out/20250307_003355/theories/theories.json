@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Yandex's Neuro-Centric Ecosystem Strategy",
+    "summary": "Yandex is building a centralized ecosystem of services powered by its 'Neuro' AI technology, aiming to improve user experience and compete with other technology providers like Google (Chrome).",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Central platform and provider of the ecosystem."
+      },
+      {
+        "name": "нейро",
+        "type": "feature",
+        "role": "Core AI technology powering various services."
+      },
+      {
+        "name": "поиск",
+        "type": "service",
+        "role": "A key service within the ecosystem, heavily utilizing 'Neuro'."
+      },
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "The underlying technology powering 'Neuro'."
+      },
+      {
+        "name": "браузер",
+        "type": "product",
+        "role": "A product category where Yandex competes."
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Яндекс Музыка",
+        "target": "Яндекс",
+        "type": "uses"
+      },
+      {
+        "source": "Яндекс Пэй",
+        "target": "Яндекс",
+        "type": "uses"
+      },
+      {
+        "source": "поиск",
+        "target": "Яндекс",
+        "type": "uses"
+      },
+      {
+        "source": "нейро",
+        "target": "поиск",
+        "type": "part_of"
+      },
+      {
+        "source": "нейро",
+        "target": "сокращает время для выяснения ответа по вопросу",
+        "type": "benefit_of"
+      },
+      {
+        "source": "браузер",
+        "target": "хром",
+        "type": "competitor_of"
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Yandex is the central organization, with many services and features connected to it.",
+        "relevance": "Supports the concept of a centralized ecosystem."
+      },
+      {
+        "text": "The entity 'нейро' (neuro) appears in multiple relationships, indicating its importance as a feature or technology across different services and applications.",
+        "relevance": "Supports the 'Neuro-Centric' aspect of the theory."
+      },
+      {
+        "text": "The 'browser' and 'chrome' entities are linked by a bidirectional 'competitor_of' relationship.",
+        "relevance": "Highlights the competitive landscape and Yandex's position within it."
+      },
+      {
+        "text": "The 'нейросеть' (neural network) entity has a 'helps_with' relationship to the 'университет' (university) entity.",
+        "relevance": "Suggests broader applications of the underlying AI technology."
+      },
+      {
+        "text": "The entities 'нейросеть' (neural network) and 'ГПТ' (GPT) are linked by a 'compared_with' relationship.",
+        "relevance": "Indicates awareness of and comparison with other leading AI technologies."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.85,
+    "alternative_explanations": [
+      {
+        "summary": "Yandex's service connections are simply a result of organic growth and diversification, not a deliberate AI-centric strategy.",
+        "confidence": 0.4
+      },
+      {
+        "summary": "The 'Neuro' feature is a marketing term and does not represent a significant technological advantage.",
+        "confidence": 0.2
+      }
+    ],
+    "gaps": [
+      "Specific details about the architecture and capabilities of 'Neuro'.",
+      "Quantitative data on the performance improvements achieved by 'Neuro' in various services.",
+      "Information on user adoption and satisfaction with 'Neuro'-powered features.",
+      "Details about Yandex's long-term AI research and development roadmap."
+    ]
+  },
+  {
+    "title": "Fragmented AI Experimentation and Competitive Benchmarking",
+    "summary": "Yandex is not building a unified AI ecosystem, but rather experimenting with various AI applications ('нейро') in different services, primarily for competitive benchmarking against rivals like Google (Chrome) and internal technology comparisons (GPT).",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "The central experimenter, initiating various AI projects to test and compare technologies."
+      },
+      {
+        "name": "нейро",
+        "type": "feature",
+        "role": "A label for diverse, independent AI experiments, rather than a unified technology."
+      },
+      {
+        "name": "хром",
+        "type": "product",
+        "role": "A primary competitor, driving Yandex's browser-related development efforts."
+      },
+      {
+        "name": "ГПТ",
+        "type": "technology",
+        "role": "An internal benchmark for evaluating the performance of Yandex's own 'нейро' experiments."
+      },
+      {
+        "name": "университет",
+        "type": "organization",
+        "role": "An external entity used to showcase the potential applications of Yandex's experimental AI technologies."
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "браузер",
+        "target": "хром",
+        "type": "competitor_of",
+        "description": "This relationship highlights the competitive pressure driving Yandex's browser development."
+      },
+      {
+        "source": "нейросеть",
+        "target": "ГПТ",
+        "type": "compared_with",
+        "description": "This signifies internal benchmarking of Yandex's AI experiments against existing technologies."
+      },
+      {
+        "source": "нейро",
+        "target": "поиск",
+        "type": "part_of",
+        "description": "Indicates an isolated AI experiment within the search service, not necessarily integrated with other 'нейро' instances."
+      },
+      {
+        "source": "Яндекс Музыка",
+        "target": "Яндекс",
+        "type": "uses"
+      },
+      {
+        "source": "Яндекс Пэй",
+        "target": "Яндекс",
+        "type": "uses"
+      },
+      {
+        "source": "поиск",
+        "target": "Яндекс",
+        "type": "uses"
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Yandex Ecosystem Dominance (relational): Yandex is the central organization, with many services and features connected to it.",
+        "relevance": "This supports the idea of Yandex as a central experimenter, initiating various projects across its services."
+      },
+      {
+        "text": "Neuro-Centric Functionality (semantic): The entity 'нейро' (neuro) appears in multiple relationships, indicating its importance as a feature or technology across different services and applications.",
+        "relevance": "This supports the 'Fragmented Experimentation' mechanism, where 'нейро' represents multiple independent projects."
+      },
+      {
+        "text": "Browser Competition (relational): The 'browser' and 'chrome' entities are linked by a bidirectional 'competitor_of' relationship, indicating a direct competitive relationship.",
+        "relevance": "This highlights the competitive pressure driving Yandex's development, supporting the 'Competitive Benchmarking' mechanism."
+      },
+      {
+        "text": "AI Technology Comparison (relational): The entities 'нейросеть' (neural network) and 'ГПТ' (GPT) are linked by a 'compared_with' relationship.",
+        "relevance": "This indicates internal benchmarking, a key aspect of the 'Competitive Benchmarking' mechanism."
+      },
+      {
+        "text": "AI for Education (relational): The 'нейросеть' (neural network) entity has a 'helps_with' relationship to the 'университет' (university) entity.",
+        "relevance": "This supports the idea of Yandex using external entities for showcasing and validating its experimental AI capabilities."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.75,
+    "alternative_explanations": [
+      {
+        "summary": "Yandex's Neuro-Centric Ecosystem Strategy",
+        "confidence": 0.6
+      }
+    ],
+    "gaps": [
+      "Lack of information on internal communication and resource sharing between different 'нейро' projects.",
+      "Absence of data on long-term strategic goals for AI development at Yandex.",
+      "Limited information on the specific metrics used for competitive benchmarking."
+    ],
+    "is_alternative": true,
+    "alternative_to": "Yandex's Neuro-Centric Ecosystem Strategy"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "febcc7c3-4847-4556-8464-579c64c6c9fa",
+    "name": "картину твоей личности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "27c0972a-b88d-4c4d-bb04-912c03e51733",
+      "start": 44,
+      "end": 66,
+      "text": "картину твоей личности"
+    }
+  },
+  {
+    "id": "8013a9a7-c8a0-4dcf-b0da-4d5bab37cd0d",
+    "name": "наполеон",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "35ee9bbb-bb8d-4e3f-832c-3cb771b7e332",
+      "start": 24,
+      "end": 32,
+      "text": "наполеона"
+    }
+  },
+  {
+    "id": "44c39d23-c89c-4ed0-8166-1ad68afba349",
+    "name": "стартапы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bba40064-1dc7-4ba1-ac0d-4edebab27df7",
+      "start": 17,
+      "end": 25,
+      "text": "стартапы"
+    }
+  },
+  {
+    "id": "cf93435b-a981-4a88-95f2-562b690fa948",
+    "name": "интернет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f15f07f7-f750-4a28-910e-bccb966b5846",
+      "start": 34,
+      "end": 42,
+      "text": "интернете"
+    }
+  },
+  {
+    "id": "de94c4dc-1d94-4fec-a3d8-27f7804013a6",
+    "name": "контекстная реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e4591153-9e2c-4970-9428-6d03d8408756",
+      "start": 0,
+      "end": 19,
+      "text": "контекстная реклама"
+    }
+  },
+  {
+    "id": "a951b974-f0d4-4ba4-be06-70529ec6afe9",
+    "name": "гро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4d54d1fb-570d-4c40-ad28-75f69d5b00b9",
+      "start": 11,
+      "end": 14,
+      "text": "гро"
+    }
+  },
+  {
+    "id": "45fcef09-e5a4-44af-96fc-17f44a808df4",
+    "name": "контекстную информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4d54d1fb-570d-4c40-ad28-75f69d5b00b9",
+      "start": 44,
+      "end": 66,
+      "text": "контекстную информацию"
+    }
+  },
+  {
+    "id": "ad577839-4ab6-4b20-bab4-7fca1a4d8a39",
+    "name": "пол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4d54d1fb-570d-4c40-ad28-75f69d5b00b9",
+      "start": 121,
+      "end": 124,
+      "text": "пол"
+    }
+  },
+  {
+    "id": "a13e1bf0-ae3f-458d-b967-f623a057f2f6",
+    "name": "возраст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4d54d1fb-570d-4c40-ad28-75f69d5b00b9",
+      "start": 126,
+      "end": 133,
+      "text": "возраст"
+    }
+  },
+  {
+    "id": "b802a378-46fd-4125-83a2-888300b1b260",
+    "name": "таргет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f3a386df-7be2-4ea9-8c70-8c67c77498bb",
+      "start": 64,
+      "end": 70,
+      "text": "таргет"
+    }
+  },
+  {
+    "id": "ba1548e8-eab2-4f84-ae4d-960ffdafcf96",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5b9284f1-e5d2-4217-883f-12f5aa039bf7",
+      "start": 21,
+      "end": 26,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "0e775f21-90b3-4eb5-9433-f9caf8a03424",
+    "name": "аппл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2360fd38-929a-4332-8c94-1e1fee2c078a",
+      "start": 47,
+      "end": 51,
+      "text": "аппл"
+    }
+  },
+  {
+    "id": "f8cc193a-31c9-4d2e-be30-d086a7627386",
+    "name": "аппл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7dd0fc3d-7d02-4ffc-987b-fca49c6f7ba9",
+      "start": 16,
+      "end": 20,
+      "text": "аппл"
+    }
+  },
+  {
+    "id": "21f7397f-6891-468c-9313-067ba2276f59",
+    "name": "креативность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0cddf945-1011-4af0-9968-52d2153df5a0",
+      "start": 27,
+      "end": 39,
+      "text": "креативность"
+    }
+  },
+  {
+    "id": "9c3b518b-d873-4415-a105-16b8e9babb4e",
+    "name": "робот",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "927133db-4771-4172-a964-31c9d0a67037",
+      "start": 112,
+      "end": 117,
+      "text": "робот"
+    }
+  },
+  {
+    "id": "8f7f4fc5-947e-4123-9695-1cd52d199dbc",
+    "name": "человек",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "927133db-4771-4172-a964-31c9d0a67037",
+      "start": 131,
+      "end": 138,
+      "text": "человек"
+    }
+  },
+  {
+    "id": "b81ed72d-11bd-4541-b209-9469671d14a3",
+    "name": "бренд",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1f6949a2-611f-4826-8946-2797c8265678",
+      "start": 32,
+      "end": 38,
+      "text": "бренда"
+    }
+  },
+  {
+    "id": "ac0db756-f269-43b9-960b-1ce393e352fe",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "354da858-07f1-4fc3-b5cd-66495e9c8f54",
+      "start": 44,
+      "end": 49,
+      "text": "гроком"
+    }
+  },
+  {
+    "id": "eff7b04f-db80-497e-91ad-66cb6d1563ae",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "354da858-07f1-4fc3-b5cd-66495e9c8f54",
+      "start": 66,
+      "end": 75,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "5b070d10-1b1d-4dc0-bd63-864c6f436b3a",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b229a4a4-6286-48b4-8f59-ffea42e8d490",
+      "start": 51,
+      "end": 57,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "ab188558-fce2-41fd-8686-efee39cfa995",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b229a4a4-6286-48b4-8f59-ffea42e8d490",
+      "start": 70,
+      "end": 77,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "9e5f76cd-b324-442d-af0e-bf4dddffe5f1",
+    "name": "гугл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b229a4a4-6286-48b4-8f59-ffea42e8d490",
+      "start": 79,
+      "end": 84,
+      "text": "гуглом"
+    }
+  },
+  {
+    "id": "fd71f40d-b2ad-4817-b75e-7f71d5c8da1c",
+    "name": "грок",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "08524b6d-64b9-4342-859f-0ef3afb50807",
+      "start": 21,
+      "end": 26,
+      "text": "гроку"
+    }
+  },
+  {
+    "id": "7f5f1813-a446-49e6-b47e-1ac416b97694",
+    "name": "депсик",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "8e72829a-8d59-4f7f-9865-f0b2fee04046",
+      "start": 0,
+      "end": 6,
+      "text": "депсик"
+    }
+  },
+  {
+    "id": "3d14de6c-28f6-41ef-a9e1-f16a1fcdbea1",
+    "name": "россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4374afad-7ec4-434f-a005-c1b9900c8ddc",
+      "start": 47,
+      "end": 53,
+      "text": "россии"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+Based on the following cluster of nodes from the knowledge graph, formulate a meta-concept that unifies and abstracts these nodes.
+
+Cluster: {{cluster_name}}
+Cluster nodes:
+{{nodes}}
+
+Internal connections:
+{{internal_connections}}
+
+External connections:
+{{external_connections}}
+
+Formulate:
+
+1. Meta-concept name:
+   - Precise and informative
+   - Reflecting the essence of the unified concepts
+   - In accordance with domain terminology
+
+2. Meta-concept definition:
+   - Clear and concise definition (1-2 sentences)
+   - Covering all key aspects of the included nodes
+   - At the right level of abstraction
+
+3. Key attributes:
+   - Common attributes preserved from the original nodes
+   - New attributes emerging at the meta-concept level
+   - Variable attributes reflecting the diversity of included nodes
+
+4. Internal structure:
+   - How the included nodes relate to each other within the meta-concept
+   - What subcategories can be identified
+   - What hierarchy or typology can be applied
+
+5. Relationships with other concepts:
+   - How the meta-concept relates to other parts of the graph
+   - What types of relationships are preserved at the meta-level
+   - What new types of relationships emerge
+
+Ensure a balance between abstraction (to unify diverse elements) and concreteness (to preserve essential information).
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

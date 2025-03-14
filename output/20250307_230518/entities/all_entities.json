@@ -1,0 +1,982 @@
+[
+  {
+    "id": "0a6cf7f1-a563-4f04-b3ed-4f3035af377c",
+    "name": "Gregory",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "description",
+        "value": "stern and elusive",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 0,
+      "end": 7,
+      "text": "Gregory"
+    }
+  },
+  {
+    "id": "d2b12e96-78fb-456d-b42f-57b9859c4e87",
+    "name": "shipping empire",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 29,
+      "end": 45,
+      "text": "shipping empire"
+    }
+  },
+  {
+    "id": "6b318c33-044a-4324-aaf2-324d3cf811e2",
+    "name": "Nathaniel Price",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "occupation",
+        "value": "accountant",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 112,
+      "end": 127,
+      "text": "Nathaniel Price"
+    }
+  },
+  {
+    "id": "3a1614d0-749b-4658-a696-269a515310a6",
+    "name": "Nathaniel",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 129,
+      "end": 138,
+      "text": "Nathaniel"
+    }
+  },
+  {
+    "id": "dd9ca07b-d3f9-4dea-9f8a-277c7e69c928",
+    "name": "Jacob Price",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 239,
+      "end": 250,
+      "text": "Jacob Price"
+    }
+  },
+  {
+    "id": "2adbf518-41e7-4823-96e0-ca7f6247a576",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 273,
+      "end": 280,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "9b58a273-304b-4000-8691-94431a75402e",
+    "name": "Gregory",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 291,
+      "end": 299,
+      "text": "Gregory"
+    }
+  },
+  {
+    "id": "0c6a3930-3e85-4756-880e-d8a785c1c3ad",
+    "name": "Jacob",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 302,
+      "end": 307,
+      "text": "Jacob"
+    }
+  },
+  {
+    "id": "722a01cc-7a8f-4d28-b06e-c8e6a3ecf50a",
+    "name": "Prudence Hartwell",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "occupation",
+        "value": "housekeeper",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 384,
+      "end": 401,
+      "text": "Prudence Hartwell"
+    }
+  },
+  {
+    "id": "80b96fe3-c7a3-4198-8780-f605f2608e7e",
+    "name": "Blythe family",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 407,
+      "end": 420,
+      "text": "Blythe family"
+    }
+  },
+  {
+    "id": "c0af9a55-17b7-441a-a6a5-8d1fe0f5d92b",
+    "name": "Gregory",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "e2048854-4c54-4c06-b39a-ec559b880c6f",
+      "start": 496,
+      "end": 503,
+      "text": "Gregory"
+    }
+  },
+  {
+    "id": "291bd2bb-19b7-4a64-9d91-637a2b2f47ff",
+    "name": "Prudence",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 0,
+      "end": 8,
+      "text": "Prudence"
+    }
+  },
+  {
+    "id": "240ba9f5-eaed-4875-bb8e-a2a61c2d45b2",
+    "name": "Reverend Edmund Crane",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "occupation",
+        "value": "clergyman",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 31,
+      "end": 52,
+      "text": "Reverend Edmund Crane"
+    }
+  },
+  {
+    "id": "b584c1a1-8ad2-45b2-a52a-42e89566b4b2",
+    "name": "Edmund",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 95,
+      "end": 101,
+      "text": "Edmund"
+    }
+  },
+  {
+    "id": "3da42647-a3e7-455d-a736-80e2387eb4dd",
+    "name": "Harriet",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 117,
+      "end": 124,
+      "text": "Harriet"
+    }
+  },
+  {
+    "id": "31b489a6-b473-4a82-9dec-91651d8df0d1",
+    "name": "bookstore",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 140,
+      "end": 149,
+      "text": "bookstore"
+    }
+  },
+  {
+    "id": "c224fc3e-8458-42dd-b8a6-224751922369",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 176,
+      "end": 183,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "210ddd00-94c3-40b6-8d4b-729bb3b43488",
+    "name": "Glenmoor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 223,
+      "end": 231,
+      "text": "Glenmoor"
+    }
+  },
+  {
+    "id": "bd287f3d-1844-405b-8a07-60d83149b035",
+    "name": "Harriet",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 233,
+      "end": 240,
+      "text": "Harriet"
+    }
+  },
+  {
+    "id": "d51e7dfb-0cbe-4c7d-85c7-13b0896d3135",
+    "name": "The Silent Echo",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 278,
+      "end": 293,
+      "text": "The Silent Echo"
+    }
+  },
+  {
+    "id": "2ec6dc98-1551-4928-95e2-5e9ee11c1d0a",
+    "name": "Maxwell Finch",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 304,
+      "end": 317,
+      "text": "Maxwell Finch"
+    }
+  },
+  {
+    "id": "49ef2403-84ce-4fb4-8e76-5d4bc4819d12",
+    "name": "Gregory",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 319,
+      "end": 327,
+      "text": "Gregory"
+    }
+  },
+  {
+    "id": "20b2ba91-5032-4b4f-a0a2-b812a0091793",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 375,
+      "end": 382,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "ac1d0c1a-9c3f-4bb1-b613-5b5c135ce7df",
+    "name": "Maxwell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "51bee51d-aa7f-4272-8523-1d141c58f4f0",
+      "start": 413,
+      "end": 420,
+      "text": "Maxwell"
+    }
+  },
+  {
+    "id": "6b7eec72-0135-42e2-a00f-7d0bef765750",
+    "name": "Amelia Cole",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 0,
+      "end": 11,
+      "text": "Amelia Cole"
+    }
+  },
+  {
+    "id": "9ea0f228-2546-4f3d-b762-8cd4cd3ac065",
+    "name": "journalist",
+    "type": "occupation",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 29,
+      "end": 39,
+      "text": "journalist"
+    }
+  },
+  {
+    "id": "31a2368d-619b-4109-b488-f9c4c12f61b5",
+    "name": "Blythe family",
+    "type": "family",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 132,
+      "end": 145,
+      "text": "Blythe family"
+    }
+  },
+  {
+    "id": "5d8a0da7-5f6f-440c-a31a-0e671fd7c634",
+    "name": "Amelia",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 147,
+      "end": 153,
+      "text": "Amelia"
+    }
+  },
+  {
+    "id": "f305a2f6-c99c-45f7-b54f-2bcb415a9012",
+    "name": "Dr. Tobias Sinclair",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 180,
+      "end": 199,
+      "text": "Dr. Tobias Sinclair"
+    }
+  },
+  {
+    "id": "83c4ad40-225a-4646-9d1f-db316ad99d71",
+    "name": "family physician",
+    "type": "occupation",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 205,
+      "end": 221,
+      "text": "family physician"
+    }
+  },
+  {
+    "id": "3deb1fe5-3048-4db1-97b6-b46d27e0b871",
+    "name": "Gregory",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 267,
+      "end": 274,
+      "text": "Gregory"
+    }
+  },
+  {
+    "id": "e49a45ae-eae9-493d-945f-3c8db762d62d",
+    "name": "Margaret",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 287,
+      "end": 295,
+      "text": "Margaret"
+    }
+  },
+  {
+    "id": "ade0d8e4-a07f-459c-888b-3139ce83dfb4",
+    "name": "Margaret",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 298,
+      "end": 306,
+      "text": "Margaret’s"
+    }
+  },
+  {
+    "id": "532d4e20-0e6f-4234-84cb-998d6665003e",
+    "name": "Tobias",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 336,
+      "end": 342,
+      "text": "Tobias"
+    }
+  },
+  {
+    "id": "5bb46ea6-16d6-4255-a596-567337897eb7",
+    "name": "Amelia",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "9ffdc150-c47b-45ac-bf7f-532b670c66c8",
+      "start": 383,
+      "end": 389,
+      "text": "Amelia"
+    }
+  },
+  {
+    "id": "3b3f6c21-ea5e-46be-94d4-0e8fb8a672cc",
+    "name": "Sunday",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 6,
+      "end": 12,
+      "text": "Sunday"
+    }
+  },
+  {
+    "id": "369fbc01-7c34-4789-9df7-30e907f872f8",
+    "name": "Detective Croft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 23,
+      "end": 38,
+      "text": "Detective Croft"
+    }
+  },
+  {
+    "id": "eace66a9-0276-40ab-b654-5c562fa1b890",
+    "name": "Madame Agnes",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 77,
+      "end": 89,
+      "text": "Madame Agnes"
+    }
+  },
+  {
+    "id": "88d3b1f1-7255-4c7d-ba58-6ac4d6dee173",
+    "name": "tea salon",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 100,
+      "end": 109,
+      "text": "tea salon"
+    }
+  },
+  {
+    "id": "665ba99b-06d4-4bc1-b443-05c02517bcea",
+    "name": "Glenmoor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 127,
+      "end": 135,
+      "text": "Glenmoor"
+    }
+  },
+  {
+    "id": "1f204975-fc9e-4f80-80b7-da1cb44dafa6",
+    "name": "Madame Agnes",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 166,
+      "end": 178,
+      "text": "Madame Agnes"
+    }
+  },
+  {
+    "id": "f63c19f9-12a0-4352-8ac2-3dff6a1cb193",
+    "name": "Parisian opera singer",
+    "type": "occupation",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 190,
+      "end": 212,
+      "text": "Parisian opera singer"
+    }
+  },
+  {
+    "id": "7f98043f-48ac-4433-a30a-1d4ceb5a5556",
+    "name": "Europe",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 231,
+      "end": 237,
+      "text": "Europe"
+    }
+  },
+  {
+    "id": "66be792e-0acf-4180-8f12-044cfa1f6db5",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 242,
+      "end": 249,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "88d70144-c109-4f11-8af1-f89602ddb166",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "61b423c7-07f3-448e-a43a-dd59deb09c96",
+      "start": 341,
+      "end": 348,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "09c1c160-027d-43f7-b930-7ba1b097007f",
+    "name": "Detective Croft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 11,
+      "end": 26,
+      "text": "Detective Croft"
+    }
+  },
+  {
+    "id": "f8853a1c-81d6-4342-b4d1-2389b6b54bbf",
+    "name": "Simon Bellows",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 172,
+      "end": 185,
+      "text": "Simon Bellows"
+    }
+  },
+  {
+    "id": "7530813b-217d-4efc-9bdb-6fef0fe620b8",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 210,
+      "end": 217,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "dbab924c-7289-4ecc-b6c7-7882e3f17b06",
+    "name": "Jacob",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 241,
+      "end": 246,
+      "text": "Jacob"
+    }
+  },
+  {
+    "id": "50b16479-97c6-4ddf-9cf1-e69ec9e3c898",
+    "name": "Prudence",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 274,
+      "end": 282,
+      "text": "Prudence"
+    }
+  },
+  {
+    "id": "93bcb970-933d-443c-a10f-64645acbda89",
+    "name": "Nathaniel",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 312,
+      "end": 321,
+      "text": "Nathaniel"
+    }
+  },
+  {
+    "id": "9d924f12-9339-4a95-bc88-e9eff09a1249",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 338,
+      "end": 345,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "15ad967d-5d23-455c-a90b-bfc1d7ca1ec4",
+    "name": "Reverend Crane",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 356,
+      "end": 370,
+      "text": "Reverend Crane"
+    }
+  },
+  {
+    "id": "adfcd28f-626d-4576-8229-40c4a7b232f3",
+    "name": "Celia Rhodes",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 404,
+      "end": 416,
+      "text": "Celia Rhodes"
+    }
+  },
+  {
+    "id": "fb38fcd4-694f-4ef8-ac33-ba2cf267c1c9",
+    "name": "estate",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 432,
+      "end": 439,
+      "text": "estate’s"
+    }
+  },
+  {
+    "id": "5d6fb4d7-5df6-4588-b429-cd7da7301231",
+    "name": "Harriet",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 467,
+      "end": 474,
+      "text": "Harriet"
+    }
+  },
+  {
+    "id": "e3e96c77-2d06-4b1c-abbc-7d4847d4d90b",
+    "name": "Maxwell",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "49294550-62c8-477b-acb9-7e350910848c",
+      "start": 517,
+      "end": 524,
+      "text": "Maxwell"
+    }
+  },
+  {
+    "id": "a786cd3f-9689-4219-bb02-d1917a0456e3",
+    "name": "attic",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 37,
+      "end": 42,
+      "text": "attic"
+    }
+  },
+  {
+    "id": "83020692-028a-4489-bce3-35222f16bbbe",
+    "name": "Harriet",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 49,
+      "end": 56,
+      "text": "Harriet"
+    }
+  },
+  {
+    "id": "38e61b1c-a5f2-4b23-9c8f-e28058633870",
+    "name": "bookstore",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 59,
+      "end": 68,
+      "text": "bookstore"
+    }
+  },
+  {
+    "id": "f9ba4118-d37c-4b73-aeb5-96a86293fe41",
+    "name": "Detective Croft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 113,
+      "end": 128,
+      "text": "Detective Croft"
+    }
+  },
+  {
+    "id": "17d29fd1-a37b-4b7c-a7d3-6e3f71196c25",
+    "name": "Celia Rhodes",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 134,
+      "end": 146,
+      "text": "Celia Rhodes"
+    }
+  },
+  {
+    "id": "75acface-0421-4f16-a867-f1204a8175df",
+    "name": "Celia",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 203,
+      "end": 208,
+      "text": "Celia"
+    }
+  },
+  {
+    "id": "1939bb6a-ed25-4f4a-8ba1-a1ad93901cfc",
+    "name": "Croft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "7086b61c-10cc-4a1c-813f-c7789cf6f627",
+      "start": 264,
+      "end": 269,
+      "text": "Croft"
+    }
+  },
+  {
+    "id": "a4f8bf15-8e10-4d09-b1dd-1f32646608cc",
+    "name": "Detective Croft",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "a9cc0f98-7b24-4a51-8a15-fdabfd2cbb19",
+      "start": 11,
+      "end": 26,
+      "text": "Detective Croft"
+    }
+  },
+  {
+    "id": "0a2415a6-79bb-46b3-9498-7bf8a18f57e6",
+    "name": "investigation",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "a9cc0f98-7b24-4a51-8a15-fdabfd2cbb19",
+      "start": 46,
+      "end": 59,
+      "text": "investigation"
+    }
+  },
+  {
+    "id": "c47bdcee-68e4-411a-8dee-24adaa3f19b9",
+    "name": "Eleanor",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "a9cc0f98-7b24-4a51-8a15-fdabfd2cbb19",
+      "start": 72,
+      "end": 79,
+      "text": "Eleanor"
+    }
+  },
+  {
+    "id": "b10b05a5-93aa-46ee-b17a-3c2eceb8f406",
+    "name": "Glenmoor",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "a9cc0f98-7b24-4a51-8a15-fdabfd2cbb19",
+      "start": 125,
+      "end": 133,
+      "text": "Glenmoor"
+    }
+  }
+]

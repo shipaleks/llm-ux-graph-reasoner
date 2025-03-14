@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Corporate Partnership Dynamics",
+    "description": "This theory explains how technology companies form strategic partnerships to develop innovative projects in specific domains.",
+    "confidence": 0.92,
+    "hypotheses": [
+      {
+        "statement": "Companies with complementary expertise are more likely to form successful partnerships.",
+        "confidence": 0.88,
+        "evidence": [
+          {
+            "description": "Acme Corporation (software) partnered with Global Systems Ltd. (systems integration) on Project Alpha.",
+            "strength": 0.85
+          }
+        ]
+      },
+      {
+        "statement": "Leadership roles significantly influence the direction of partnership projects.",
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "description": "Both CEOs were involved in the announcement of Project Alpha.",
+            "strength": 0.78
+          },
+          {
+            "description": "The CTO's technical background aligns with the AI focus of the project.",
+            "strength": 0.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AI Application in Industry Verticals",
+    "description": "This theory explores how AI solutions are tailored to specific industry verticals, particularly healthcare.",
+    "confidence": 0.85,
+    "hypotheses": [
+      {
+        "statement": "Healthcare is a priority vertical for AI applications due to potential impact.",
+        "confidence": 0.83,
+        "evidence": [
+          {
+            "description": "Project Alpha specifically focuses on AI solutions for healthcare.",
+            "strength": 0.81
+          }
+        ]
+      }
+    ]
+  }
+]

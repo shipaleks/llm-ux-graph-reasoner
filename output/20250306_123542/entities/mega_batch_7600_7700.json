@@ -1,0 +1,716 @@
+[
+  {
+    "id": "6dea94eb-48e1-4b58-a079-a5917bcd6cb4",
+    "name": "человек",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36752cce-150a-4c3a-bc8c-4db8dfa0e426",
+      "start": 62,
+      "end": 69,
+      "text": "человек"
+    }
+  },
+  {
+    "id": "700efbb2-180e-4e62-a634-f67be8e42e4a",
+    "name": "номер госта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34de479a-d6c6-493b-80db-f44c8bcf3ce4",
+      "start": 0,
+      "end": 11,
+      "text": "номер госта"
+    }
+  },
+  {
+    "id": "207d9319-bb55-4f7e-b14d-446a801d5b8e",
+    "name": "система менеджмент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34de479a-d6c6-493b-80db-f44c8bcf3ce4",
+      "start": 36,
+      "end": 54,
+      "text": "система менеджмент"
+    }
+  },
+  {
+    "id": "33e416b6-0bf4-47d5-948c-2b267f10397f",
+    "name": "менеджмента качества требований",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d113c34a-81fe-43db-8cf3-d33eb6aca452",
+      "start": 0,
+      "end": 31,
+      "text": "менеджмента качества требований"
+    }
+  },
+  {
+    "id": "b89c6dce-7df1-4158-8abf-1adf8058dd8e",
+    "name": "путешествия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b87e83c8-51f3-48c3-905f-10053adb3c92",
+      "start": 18,
+      "end": 29,
+      "text": "путешествиями"
+    }
+  },
+  {
+    "id": "0e7a9979-6098-47d0-8b58-0eaf96164757",
+    "name": "блогеры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b87e83c8-51f3-48c3-905f-10053adb3c92",
+      "start": 49,
+      "end": 56,
+      "text": "блогеры"
+    }
+  },
+  {
+    "id": "4d8334e5-5702-443a-b0cf-3576b9bdd93e",
+    "name": "путешествия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab3099f2-bd78-4db6-9a9d-bdf0998611b5",
+      "start": 7,
+      "end": 18,
+      "text": "путешествиями"
+    }
+  },
+  {
+    "id": "e2a2b0e9-a7ed-4a59-ba14-b1d3b7c98509",
+    "name": "места",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab3099f2-bd78-4db6-9a9d-bdf0998611b5",
+      "start": 21,
+      "end": 27,
+      "text": "местами"
+    }
+  },
+  {
+    "id": "e2ac1e9a-adff-46fb-9d21-95c7062fcbb9",
+    "name": "гост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34b98b9d-191b-445c-b3b7-6838400e61d0",
+      "start": 5,
+      "end": 10,
+      "text": "гостом"
+    }
+  },
+  {
+    "id": "ee0c9d20-d758-4318-b341-804cdafcaad9",
+    "name": "аккорды к песням",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f075ca0-855f-4af7-8bf8-16d74b069f35",
+      "start": 27,
+      "end": 43,
+      "text": "аккорды к песням"
+    }
+  },
+  {
+    "id": "adc8aa31-8695-4d33-8283-98f10f188693",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f075ca0-855f-4af7-8bf8-16d74b069f35",
+      "start": 47,
+      "end": 53,
+      "text": "музыке"
+    }
+  },
+  {
+    "id": "1e7d9356-e36a-4b37-a190-30350e8326c0",
+    "name": "информационная составляющая",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6753528b-12ec-48d7-8613-9eb1e6126471",
+      "start": 30,
+      "end": 58,
+      "text": "информационная составляющая"
+    }
+  },
+  {
+    "id": "b37b52af-69d7-48e1-b357-12610cac46d2",
+    "name": "песни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6753528b-12ec-48d7-8613-9eb1e6126471",
+      "start": 66,
+      "end": 71,
+      "text": "песен"
+    }
+  },
+  {
+    "id": "3ac98f79-bee1-4d1f-956c-a98d462d4c05",
+    "name": "история создания",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "325cbccc-ab0b-47d0-a7cf-68b67715d4e4",
+      "start": 30,
+      "end": 46,
+      "text": "история создания"
+    }
+  },
+  {
+    "id": "9f12b698-22c7-4724-92b8-3d4f953a89a6",
+    "name": "плейлист",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "197c7d08-fd4d-457f-8305-43446f090482",
+      "start": 45,
+      "end": 53,
+      "text": "плейлист"
+    }
+  },
+  {
+    "id": "0df420d5-b025-4927-832c-082bb5669aa8",
+    "name": "бар молодость",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937fab23-abc7-4b5c-a1ef-97d766e7add8",
+      "start": 23,
+      "end": 36,
+      "text": "баре молодость"
+    }
+  },
+  {
+    "id": "8ee00a87-a160-4c0f-9e89-cd26fcbce513",
+    "name": "песни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937fab23-abc7-4b5c-a1ef-97d766e7add8",
+      "start": 45,
+      "end": 50,
+      "text": "песни"
+    }
+  },
+  {
+    "id": "5bac8764-fdbf-40dc-98ff-02083bd18feb",
+    "name": "восьмидесятые",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1980s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937fab23-abc7-4b5c-a1ef-97d766e7add8",
+      "start": 58,
+      "end": 70,
+      "text": "восьмидесятых"
+    }
+  },
+  {
+    "id": "5bc6a65b-3a3b-4f79-bd04-c1f973bf92b0",
+    "name": "девяностые",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1990s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "937fab23-abc7-4b5c-a1ef-97d766e7add8",
+      "start": 74,
+      "end": 84,
+      "text": "девяностых"
+    }
+  },
+  {
+    "id": "2469c70f-436e-45b9-aba5-bef4552e0a70",
+    "name": "года песен",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0393299f-0510-460a-ba4b-80f95dcdafa0",
+      "start": 17,
+      "end": 27,
+      "text": "года песен"
+    }
+  },
+  {
+    "id": "0f7e96a0-ce41-4352-b97a-68a088b70b3c",
+    "name": "восьмидесятые",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1980s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0393299f-0510-460a-ba4b-80f95dcdafa0",
+      "start": 54,
+      "end": 66,
+      "text": "восьмидесятые"
+    }
+  },
+  {
+    "id": "d737afd1-dd34-4bdf-9e31-b15bd1e12800",
+    "name": "девяностые",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1990s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0393299f-0510-460a-ba4b-80f95dcdafa0",
+      "start": 75,
+      "end": 85,
+      "text": "девяностые"
+    }
+  },
+  {
+    "id": "10cfebc0-ef25-40be-b46a-bfc229bf98c6",
+    "name": "лист песен",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "18030703-e18e-4917-b6f7-77ba4c95d3ef",
+      "start": 22,
+      "end": 32,
+      "text": "лист песен"
+    }
+  },
+  {
+    "id": "3242790b-3fb4-43a9-9193-7e6ba5ac2645",
+    "name": "российские",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ef468bb-b10f-4fc3-95d8-c4ff89f83df8",
+      "start": 6,
+      "end": 16,
+      "text": "российские"
+    }
+  },
+  {
+    "id": "6385060a-19af-4cf9-b158-37757450eca6",
+    "name": "зарубежные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ef468bb-b10f-4fc3-95d8-c4ff89f83df8",
+      "start": 20,
+      "end": 30,
+      "text": "зарубежные"
+    }
+  },
+  {
+    "id": "c70be64a-83ff-46b9-b602-5462ea912424",
+    "name": "отечественные исполнители",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "99134fd9-a081-4c57-8fff-bd9e1b8fa5bc",
+      "start": 12,
+      "end": 37,
+      "text": "отечественные исполнители"
+    }
+  },
+  {
+    "id": "413872d6-ad67-4749-9846-d01c8d95b389",
+    "name": "список песен",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70a57ab2-df56-4bb7-964c-ac8118288c06",
+      "start": 12,
+      "end": 24,
+      "text": "список песен"
+    }
+  },
+  {
+    "id": "b2ca799c-e64d-4e78-9778-632b65343d82",
+    "name": "восьмидесятых",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1980s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70a57ab2-df56-4bb7-964c-ac8118288c06",
+      "start": 28,
+      "end": 40,
+      "text": "восьмидесятых"
+    }
+  },
+  {
+    "id": "e8ab1e4b-34cb-4fea-be54-52f626922d67",
+    "name": "девяностых",
+    "type": "date",
+    "attributes": [
+      {
+        "key": "decade",
+        "value": "1990s",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70a57ab2-df56-4bb7-964c-ac8118288c06",
+      "start": 42,
+      "end": 52,
+      "text": "девяностых"
+    }
+  },
+  {
+    "id": "8e33d81a-2cd4-4725-91f3-234a93d768a8",
+    "name": "раскладку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c426258b-e9eb-4593-b8f1-f86ab8c3dc08",
+      "start": 0,
+      "end": 43,
+      "text": "может быть вам нужно переключить раскладку?"
+    }
+  },
+  {
+    "id": "c3bef4ce-dcbd-4e9f-8a2d-0d16d5ee2e21",
+    "name": "переключить",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db779a91-c20d-41fe-8b44-9bb531a66e21",
+      "start": 0,
+      "end": 21,
+      "text": "как ее переключить?"
+    }
+  },
+  {
+    "id": "3e08e039-7865-4842-8c36-3a35d41f04e6",
+    "name": "компьютере",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2da17a82-a23e-41fd-a449-2c6d761e089b",
+      "start": 0,
+      "end": 31,
+      "text": "так как у вас на компьютере."
+    }
+  },
+  {
+    "id": "049f1fa3-7f98-42a6-8ef7-25be408e1eea",
+    "name": "конфликт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a3b7fe66-c459-426a-be84-fca2769a4b71",
+      "start": 0,
+      "end": 38,
+      "text": "бывает конфликт, когда у того, кто."
+    }
+  },
+  {
+    "id": "79f9e3a1-49f4-4026-9540-ae9639dde2bc",
+    "name": "русский язык",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2871bf28-f633-44dc-a18b-04e7b8c89961",
+      "start": 0,
+      "end": 27,
+      "text": "у меня сейчас выставлен русский язык"
+    }
+  },
+  {
+    "id": "5be525ef-12b8-4ac9-9b32-bc3c362f0fa0",
+    "name": "английский",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2871bf28-f633-44dc-a18b-04e7b8c89961",
+      "start": 0,
+      "end": 87,
+      "text": "у меня сейчас выставлен русский язык, а вот у вас, если в этот момент выставлен на английский, может быть."
+    }
+  },
+  {
+    "id": "5e936b37-fe85-4ee2-94d3-5040a0f0e709",
+    "name": "русскоязычные",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d639f118-4745-4b34-97f0-0f9f522ef5c1",
+      "start": 0,
+      "end": 36,
+      "text": "мы еще говорили, что русскоязычные."
+    }
+  },
+  {
+    "id": "8f259501-11af-4da1-ba31-ae3df015f47c",
+    "name": "нейру",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc90b1a3-252b-4aa3-a910-40af03343a13",
+      "start": 0,
+      "end": 31,
+      "text": "и давайте сразу в нейру пойдем."
+    }
+  },
+  {
+    "id": "053e9b83-483f-441f-ad57-e78da9a0e9dc",
+    "name": "песня",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68eaba4e-120a-4462-b31e-107317196b01",
+      "start": 0,
+      "end": 137,
+      "text": "ну вот, например, в некоторых песнях не указан исполнитель, а я. ну не все песни мне нравятся, исполнители нравятся, например, и я бы искала по исполнителю какие- то еще композиции."
+    }
+  },
+  {
+    "id": "3cdcd7e8-deb7-468d-be12-3e35f92f9895",
+    "name": "исполнитель",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68eaba4e-120a-4462-b31e-107317196b01",
+      "start": 0,
+      "end": 137,
+      "text": "ну вот, например, в некоторых песнях не указан исполнитель, а я. ну не все песни мне нравятся, исполнители нравятся, например, и я бы искала по исполнителю какие- то еще композиции."
+    }
+  },
+  {
+    "id": "26227b84-ac01-4711-8c14-44e38eab46fc",
+    "name": "композиции",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68eaba4e-120a-4462-b31e-107317196b01",
+      "start": 0,
+      "end": 137,
+      "text": "ну вот, например, в некоторых песнях не указан исполнитель, а я. ну не все песни мне нравятся, исполнители нравятся, например, и я бы искала по исполнителю какие- то еще композиции."
+    }
+  },
+  {
+    "id": "222834ea-e095-4cab-80bd-cd3232c19a04",
+    "name": "песня",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22b0b2d6-f5c2-4659-b652-fbcb367310e2",
+      "start": 0,
+      "end": 92,
+      "text": "ну то есть условно там я не знаю, конкретно эта песня не подходит, но хотели бы другую песню от того же исполнителя?"
+    }
+  },
+  {
+    "id": "868d81f6-004f-493f-bed4-36b77a32ad0c",
+    "name": "исполнителя",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22b0b2d6-f5c2-4659-b652-fbcb367310e2",
+      "start": 0,
+      "end": 92,
+      "text": "ну то есть условно там я не знаю, конкретно эта песня не подходит, но хотели бы другую песню от того же исполнителя?"
+    }
+  },
+  {
+    "id": "d19f48ab-a587-4ba4-881a-4c9d050de723",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1648c4de-0e26-49e8-86da-4406d3e46e14",
+      "start": 0,
+      "end": 27,
+      "text": "поэтому я пользуюсь яндекс."
+    }
+  },
+  {
+    "id": "8e37e89e-24a8-4dce-a9e2-9497bfd24e30",
+    "name": "музыкой",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0bab7eea-4c60-49c6-9aab-263cde317671",
+      "start": 0,
+      "end": 36,
+      "text": "музыкой, я и там обычно это делаю."
+    }
+  },
+  {
+    "id": "027e2021-0d5a-45e4-a9d0-341f0132e397",
+    "name": "год",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c13ae0de-8c34-4284-ae17-df5268bfee68",
+      "start": 0,
+      "end": 39,
+      "text": "а в поиске просто я сверяла год. вот."
+    }
+  },
+  {
+    "id": "8e10e2d1-7626-4cc9-965c-b4d5ec886ca4",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7849f9b4-e44f-44b9-858a-6a1309f8742f",
+      "start": 0,
+      "end": 97,
+      "text": "или здесь просто мне кажется, что я человек далекий от музыки, даже здесь очень много что знаю и."
+    }
+  },
+  {
+    "id": "f6c32b9d-ba31-4846-b615-0acf74b390d9",
+    "name": "песен",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f6577e5-b672-48f2-8bfb-45c183422ed9",
+      "start": 0,
+      "end": 71,
+      "text": "песен пять там на какой- нибудь сет нужно еще добить, где- то что- то просмотреть."
+    }
+  },
+  {
+    "id": "33c6d697-bb80-4825-ba0e-f3991d0765c9",
+    "name": "сет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f6577e5-b672-48f2-8bfb-45c183422ed9",
+      "start": 0,
+      "end": 71,
+      "text": "песен пять там на какой- нибудь сет нужно еще добить, где- то что- то просмотреть."
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "94b1765d-610a-4b45-9ddb-9ebe45ae5458",
+    "name": "нашими технологиями",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9ebc6d8-5d7d-43e7-b92e-402616a95d9b",
+      "start": 36,
+      "end": 54,
+      "text": "нашими технологиями"
+    }
+  },
+  {
+    "id": "c9587b68-8a5a-4cd6-85de-0579091b6ad8",
+    "name": "других сервисах",
+    "type": "service",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9ebc6d8-5d7d-43e7-b92e-402616a95d9b",
+      "start": 100,
+      "end": 115,
+      "text": "других сервисах"
+    }
+  }
+]

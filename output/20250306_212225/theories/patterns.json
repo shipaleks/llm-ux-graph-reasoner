@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Hub: Acme Corporation",
+    "type": "structural",
+    "subtype": "hub",
+    "description": "Acme Corporation is a central entity connected to many others",
+    "entities": [
+      "f2110a1d-952d-434c-920a-a0a344e85968"
+    ],
+    "examples": [
+      {
+        "text": "Acme Corporation is connected to 1985, New York City, software development",
+        "explanation": "Acme Corporation serves as a hub connecting multiple entities"
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "name": "Corporate Leadership and Structure",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern describes the hierarchical structure and key personnel within a company, including the CEO, CTO, founding date, headquarters location, and areas of specialization.",
+    "examples": [
+      {
+        "text": "John Smith → ceo_of → Acme Corporation, Acme Corporation → founded_in → 1985, Acme Corporation → headquartered_in → New York City",
+        "explanation": "This shows the CEO of Acme Corporation and when the company was founded and where it is headquartered."
+      },
+      {
+        "text": "Mary Johnson → cto_of → Acme Corporation",
+        "explanation": "This shows the CTO of Acme Corporation."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern reveals the basic organizational structure and history of a company, which is fundamental to understanding its operations and strategic direction."
+  },
+  {
+    "name": "Employee Career Trajectory",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern illustrates an individual's professional history, including previous employers, roles, and the duration of their employment.",
+    "examples": [
+      {
+        "text": "Mary Johnson → worked_at → Tech Solutions Inc., Mary Johnson → worked_since → 2005",
+        "explanation": "This shows that Mary Johnson worked at Tech Solutions Inc. since 2005."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern provides insights into an individual's experience and expertise, which can be valuable for assessing their capabilities and contributions."
+  },
+  {
+    "name": "Business Partnerships and Projects",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights collaborative relationships between organizations and the projects they undertake together.",
+    "examples": [
+      {
+        "text": "Acme Corporation → partnered_with → Global Systems Ltd., Acme Corporation → project_name → Project Alpha",
+        "explanation": "This shows that Acme Corporation partnered with Global Systems Ltd. and is working on Project Alpha."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals strategic alliances and ongoing initiatives, which can indicate a company's growth strategy and market positioning."
+  },
+  {
+    "name": "Technology Application in Specific Industries",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern describes the application of specific technologies or solutions within particular industries.",
+    "examples": [
+      {
+        "text": "AI solutions → for → healthcare",
+        "explanation": "This shows that AI solutions are used in the healthcare industry."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern highlights the practical use of technology in addressing industry-specific challenges and opportunities."
+  }
+]

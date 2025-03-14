@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#bfef45", "id": "80b8c543-96e6-4d78-9964-651e281e425a", "label": "knowledge graph synthesis system", "shape": "dot", "size": 29.0, "title": "\u003cb\u003eknowledge graph synthesis system\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#4363d8", "id": "dd3d3ec1-1a70-46c2-a945-71473badaa32", "label": "John Smith", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eJohn Smith\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- role: CEO\u003cbr\u003e"}, {"color": "#e6194B", "id": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "Acme Corporation", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eAcme Corporation\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "b362dc22-64d8-42c4-b1df-14feb0e2f3b8", "label": "1985", "shape": "dot", "size": 29.9, "title": "\u003cb\u003e1985\u003c/b\u003e (date)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#f032e6", "id": "9dafb0cf-e31a-4cd1-8824-b0a8169e3b7f", "label": "New York City", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eNew York City\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#bfef45", "id": "1bd382ad-77df-46e5-8355-79978177c3eb", "label": "software development", "shape": "dot", "size": 29.200000000000003, "title": "\u003cb\u003esoftware development\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.92\u003cbr\u003e"}, {"color": "#4363d8", "id": "f312be8d-f2ed-495c-9d15-823b5a291165", "label": "Mary Johnson", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eMary Johnson\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- role: CTO\u003cbr\u003e"}, {"color": "#3cb44b", "id": "f3a94d23-7151-402d-8ea1-d4ec22c233d2", "label": "2005", "shape": "dot", "size": 29.9, "title": "\u003cb\u003e2005\u003c/b\u003e (date)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#e6194B", "id": "9a839038-9e44-4f24-b491-3709cdb8e1df", "label": "Tech Solutions Inc.", "shape": "dot", "size": 29.6, "title": "\u003cb\u003eTech Solutions Inc.\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.96\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- role: senior developer\u003cbr\u003e"}, {"color": "#e6194B", "id": "fddcc753-7f5c-454c-b13a-3d3cca72d94b", "label": "Global Systems Ltd.", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eGlobal Systems Ltd.\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#42d4f4", "id": "00828ed7-d510-41c8-b99c-89ff07a59500", "label": "Project Alpha", "shape": "dot", "size": 29.5, "title": "\u003cb\u003eProject Alpha\u003c/b\u003e (project)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#3cb44b", "id": "7259ee12-3445-4333-9b3f-9b2a9cf83395", "label": "January 15, 2023", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eJanuary 15, 2023\u003c/b\u003e (date)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#911eb4", "id": "bc8bbea7-11ef-4a62-9fdd-854eebd9b8f4", "label": "press conference", "shape": "dot", "size": 29.0, "title": "\u003cb\u003epress conference\u003c/b\u003e (event)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#bfef45", "id": "276fd961-8c4c-48fd-b9ac-6f04c81b6116", "label": "innovative AI solutions", "shape": "dot", "size": 28.8, "title": "\u003cb\u003einnovative AI solutions\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.88\u003cbr\u003e"}, {"color": "#ffe119", "id": "47e42b91-b067-45ce-9f0b-0a9175bed35d", "label": "healthcare", "shape": "dot", "size": 29.0, "title": "\u003cb\u003ehealthcare\u003c/b\u003e (industry)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#f58231", "id": "aed0d753-adc3-46e6-a905-88b667bf9b0b", "label": "$5 million", "shape": "dot", "size": 29.9, "title": "\u003cb\u003e$5 million\u003c/b\u003e (money)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#f032e6", "id": "ce44fa77-fec5-482f-9494-61ea1cc9c146", "label": "London", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eLondon\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#4363d8", "id": "9a31389d-0195-4dab-8893-e26546d375b8", "label": "David Brown", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eDavid Brown\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- role: CEO\u003cbr\u003e"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "dd3d3ec1-1a70-46c2-a945-71473badaa32", "label": "CEO_OF", "title": "\u003cb\u003eCEO_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "width": 3.9699999999999998}, {"arrows": "to", "from": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "FOUNDED_IN", "title": "\u003cb\u003eFOUNDED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "b362dc22-64d8-42c4-b1df-14feb0e2f3b8", "width": 3.94}, {"arrows": "to", "from": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "HEADQUARTERED_IN", "title": "\u003cb\u003eHEADQUARTERED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "9dafb0cf-e31a-4cd1-8824-b0a8169e3b7f", "width": 3.9699999999999998}, {"arrows": "to", "from": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "SPECIALIZES_IN", "title": "\u003cb\u003eSPECIALIZES_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "1bd382ad-77df-46e5-8355-79978177c3eb", "width": 3.9699999999999998}, {"arrows": "to", "from": "f312be8d-f2ed-495c-9d15-823b5a291165", "label": "CTO_OF", "title": "\u003cb\u003eCTO_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "width": 3.9699999999999998}, {"arrows": "to", "from": "f312be8d-f2ed-495c-9d15-823b5a291165", "label": "PREVIOUSLY_WORKED_AT", "title": "\u003cb\u003ePREVIOUSLY_WORKED_AT\u003c/b\u003e\u003cbr\u003eConfidence: 0.97\u003cbr\u003e", "to": "9a839038-9e44-4f24-b491-3709cdb8e1df", "width": 3.91}, {"arrows": "to;from", "from": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "PARTNERED_WITH", "title": "\u003cb\u003ePARTNERED_WITH\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "fddcc753-7f5c-454c-b13a-3d3cca72d94b", "width": 3.9699999999999998}, {"arrows": "to", "from": "ed58bbd5-1877-4655-a088-8a9be54a93f0", "label": "PROJECT_NAME", "title": "\u003cb\u003ePROJECT_NAME\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "00828ed7-d510-41c8-b99c-89ff07a59500", "width": 3.8499999999999996}, {"arrows": "to", "from": "276fd961-8c4c-48fd-b9ac-6f04c81b6116", "label": "FOR_INDUSTRY", "title": "\u003cb\u003eFOR_INDUSTRY\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "47e42b91-b067-45ce-9f0b-0a9175bed35d", "width": 3.8499999999999996}, {"arrows": "to", "from": "fddcc753-7f5c-454c-b13a-3d3cca72d94b", "label": "BASED_IN", "title": "\u003cb\u003eBASED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "ce44fa77-fec5-482f-9494-61ea1cc9c146", "width": 3.9699999999999998}, {"arrows": "to", "from": "9a31389d-0195-4dab-8893-e26546d375b8", "label": "CEO_OF", "title": "\u003cb\u003eCEO_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "fddcc753-7f5c-454c-b13a-3d3cca72d94b", "width": 3.94}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "shape": "dot", "size": 20}, "edges": {"font": {"size": 12, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.5, "springLength": 300, "springConstant": 0.04}, "minVelocity": 0.75, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

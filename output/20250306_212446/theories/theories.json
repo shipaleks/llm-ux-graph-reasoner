@@ -1,0 +1,133 @@
+[
+  {
+    "title": "Yandex's Service Diversification through Technological Concepts",
+    "summary": "Yandex strategically diversifies its service offerings by associating its organization with various technological concepts, leading to the development of distinct products that cater to different user needs and market segments. This approach allows Yandex to expand its reach and influence across multiple domains.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Strategic Diversifier"
+      },
+      {
+        "name": "университет",
+        "type": "organization",
+        "role": "Knowledge Source"
+      },
+      {
+        "name": "поиск",
+        "type": "concept",
+        "role": "Core Functionality"
+      },
+      {
+        "name": "рецепт блинов",
+        "type": "concept",
+        "role": "Specific User Need"
+      },
+      {
+        "name": "нейро",
+        "type": "concept",
+        "role": "Technological Enabler"
+      },
+      {
+        "name": "нейросеть",
+        "type": "concept",
+        "role": "Technological Enabler"
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Diversified Service"
+      },
+      {
+        "name": "Яндекс Пэй",
+        "type": "product",
+        "role": "Diversified Service"
+      }
+    ],
+    "key_relationships": null,
+    "evidence": [
+      {
+        "text": "Yandex develops Яндекс Музыка and Яндекс Пэй.",
+        "relevance": "Demonstrates diversification into different service areas."
+      },
+      {
+        "text": "Yandex is associated with 'поиск' (search), 'рецепт блинов' (pancake recipe), 'нейро' (neural).",
+        "relevance": "Shows association with diverse concepts."
+      },
+      {
+        "text": "Yandex is associated with 'университет'.",
+        "relevance": "Highlights the importance of knowledge and research in Yandex's strategy."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.75,
+    "alternative_explanations": null,
+    "gaps": [
+      "What are the specific criteria Yandex uses to select concepts for product development?",
+      "How does Yandex measure the success of its concept-driven diversification strategy?",
+      "What is the role of market research in identifying relevant concepts?"
+    ],
+    "is_alternative": true,
+    "alternative_to": "Yandex's Neural Network-Driven Product Ecosystem"
+  },
+  {
+    "title": "Yandex's Neural Network-Driven Product Ecosystem",
+    "summary": "Yandex leverages neural network technology ('нейро') as a core component across its products and research, connecting its organizational expertise with specific product functionalities and broader technological advancements. This creates a cohesive ecosystem where AI-driven solutions enhance user experience and drive innovation.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Developer and integrator of neural network technology."
+      },
+      {
+        "name": "нейро",
+        "type": "concept",
+        "role": "Core technology driving product development and research."
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Product leveraging neural network technology."
+      },
+      {
+        "name": "Яндекс Пэй",
+        "type": "product",
+        "role": "Product leveraging neural network technology."
+      },
+      {
+        "name": "поиск",
+        "type": "concept",
+        "role": "Functionality enhanced by neural networks."
+      }
+    ],
+    "key_relationships": null,
+    "evidence": [
+      {
+        "text": "The concept 'нейро' (neural) appears to be a central concept, potentially linking various entities through its association with advanced technologies and applications.",
+        "relevance": "This supports the idea that 'нейро' is a key technology driving Yandex's product development."
+      },
+      {
+        "text": "Product-Concept Association (semantic): Products are associated with concepts that define their functionality or the user needs they address.",
+        "relevance": "This supports the idea that Yandex's products are designed to address specific user needs and functionalities, potentially enhanced by neural networks."
+      },
+      {
+        "text": "Organization-Concept Relationship (semantic): Organizations are associated with concepts that represent their areas of expertise, research focus, or the problems they are trying to solve.",
+        "relevance": "This supports the idea that Yandex's expertise in 'нейро' influences its product development and research focus."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.7,
+    "alternative_explanations": [
+      {
+        "summary": "Yandex's product development is primarily driven by market demand and competitive pressures, with 'нейро' being just one of many technologies used.",
+        "confidence": 0.6
+      }
+    ],
+    "gaps": [
+      "The knowledge graph lacks specific relationships between products and the 'нейро' concept.",
+      "The knowledge graph does not provide information about the specific applications of 'нейро' within each product."
+    ]
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "id": "c3ac5d39-9078-4c87-9be5-4586d8692e4e",
+    "name": "дополнительное время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d6f0fc59-e436-4dc2-96aa-0b626172dc6a",
+      "start": 74,
+      "end": 94,
+      "text": "дополнительного времени"
+    }
+  },
+  {
+    "id": "2c9df85b-436b-46e1-ad06-90284e4c7ac8",
+    "name": "астма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "02f9de06-a797-4835-9641-400bbabe3c89",
+      "start": 21,
+      "end": 26,
+      "text": "астму"
+    }
+  },
+  {
+    "id": "0793c20e-835c-4070-a6ba-6050a4483101",
+    "name": "астма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "30a5c455-4ece-4daf-95aa-f258a7ca4f7a",
+      "start": 3,
+      "end": 8,
+      "text": "астма"
+    }
+  },
+  {
+    "id": "160248ae-5d08-4472-89bb-9f20b3c562f7",
+    "name": "классификация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e6d2136-2ca8-474e-9337-a110a5c4d463",
+      "start": 0,
+      "end": 13,
+      "text": "классификация"
+    }
+  },
+  {
+    "id": "ed2352fc-1c52-4c68-9194-1f8727078745",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d6e53b9-3a1a-43cb-99d7-6848ff219e52",
+      "start": 7,
+      "end": 18,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "f80a6ae5-ba7d-42a4-8586-29d5023c6162",
+    "name": "классификация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3f0a26b-9bbc-43e3-8e72-578581acb6b7",
+      "start": 76,
+      "end": 89,
+      "text": "классификация"
+    }
+  },
+  {
+    "id": "3743b8a2-6daf-48bd-9ff2-f1360202c2b0",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3f0a26b-9bbc-43e3-8e72-578581acb6b7",
+      "start": 117,
+      "end": 128,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "850c4fd4-edf4-471a-8cb6-ffeb1c693ec3",
+    "name": "причины появления",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9dabc58-ebe8-42dc-a333-d02e76c173af",
+      "start": 0,
+      "end": 17,
+      "text": "причины появления"
+    }
+  },
+  {
+    "id": "08444477-77ce-436c-b8dd-801f7e64e9f1",
+    "name": "лечение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33d89a9a-c81b-4303-bb8f-7b7340ea793c",
+      "start": 12,
+      "end": 20,
+      "text": "лечение"
+    }
+  },
+  {
+    "id": "bbeefddf-b1b9-4eff-861f-0822eb1eddae",
+    "name": "течение профессиональной астмы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "85d811f1-16fc-4cd1-bfec-e727c512b03a",
+      "start": 36,
+      "end": 67,
+      "text": "течение профессиональной астмы"
+    }
+  },
+  {
+    "id": "071278d7-e7de-4cf5-ae12-ba9019e3bdca",
+    "name": "вкладка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb831184-3624-4559-bf45-5f163c2aa891",
+      "start": 31,
+      "end": 38,
+      "text": "вкладка"
+    }
+  },
+  {
+    "id": "2db1431f-a803-4e7e-b15a-981452fa142e",
+    "name": "последствия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb831184-3624-4559-bf45-5f163c2aa891",
+      "start": 39,
+      "end": 50,
+      "text": "последствия"
+    }
+  },
+  {
+    "id": "8aa55265-0d5c-491c-b6eb-9eb8ba826bb2",
+    "name": "симптомы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb831184-3624-4559-bf45-5f163c2aa891",
+      "start": 52,
+      "end": 60,
+      "text": "симптомы"
+    }
+  },
+  {
+    "id": "4088c56b-ccd4-4974-82cc-7f890cdd5739",
+    "name": "лечения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb831184-3624-4559-bf45-5f163c2aa891",
+      "start": 63,
+      "end": 70,
+      "text": "лечения"
+    }
+  },
+  {
+    "id": "71ec32b4-361e-4286-ac67-f515f481d15e",
+    "name": "непрофильный предмет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb831184-3624-4559-bf45-5f163c2aa891",
+      "start": 119,
+      "end": 138,
+      "text": "непрофильный предмет"
+    }
+  },
+  {
+    "id": "74473236-6e62-4db5-ab09-631d24b73ee1",
+    "name": "рабочая обстановка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8add0b64-b9cb-4f59-bef1-2b7cf08addfa",
+      "start": 11,
+      "end": 29,
+      "text": "рабочая будет обстановка"
+    }
+  },
+  {
+    "id": "9261af5b-0d2c-417f-a2dd-f7a2e53fc694",
+    "name": "обстановка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5853b172-ec43-48ca-b087-cbe85edced0d",
+      "start": 11,
+      "end": 21,
+      "text": "обстановка"
+    }
+  },
+  {
+    "id": "e366309d-5ce3-46ae-b8df-615523b7ec1b",
+    "name": "рабочий день",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f874c46-8408-4a84-a594-9ba86889c6b1",
+      "start": 34,
+      "end": 46,
+      "text": "рабочий день"
+    }
+  },
+  {
+    "id": "88d68276-9b48-4761-b235-35a1972cfa02",
+    "name": "обучение процесса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f874c46-8408-4a84-a594-9ba86889c6b1",
+      "start": 61,
+      "end": 78,
+      "text": "обучение процесса"
+    }
+  },
+  {
+    "id": "2063fa4e-6e7f-477a-8da3-ce1cddde4cb4",
+    "name": "уточняющий вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5f874c46-8408-4a84-a594-9ba86889c6b1",
+      "start": 144,
+      "end": 161,
+      "text": "уточняющий вопрос"
+    }
+  },
+  {
+    "id": "3a261187-a007-4e43-a501-5cc5a0531478",
+    "name": "прототип",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81a8eaba-6d20-4ce2-83d0-efd6e740836f",
+      "start": 27,
+      "end": 35,
+      "text": "прототип"
+    }
+  },
+  {
+    "id": "226acc5b-bb61-4d6c-8529-ad7733763406",
+    "name": "управление",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a3dde158-5777-4292-a792-9d033f12108e",
+      "start": 7,
+      "end": 17,
+      "text": "управление"
+    }
+  },
+  {
+    "id": "f5ffa549-5f82-4118-bee6-8590b7f75c56",
+    "name": "изменения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ceb6d0d-4772-45eb-b9ed-60e9cef9958c",
+      "start": 22,
+      "end": 31,
+      "text": "изменения"
+    }
+  },
+  {
+    "id": "9274cd0f-ec8a-4f0a-9e9d-eead8514e662",
+    "name": "эпохандрический запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "136087ad-bec6-4d93-bb01-a6651acf47f5",
+      "start": 41,
+      "end": 63,
+      "text": "эпохандрический запрос"
+    }
+  },
+  {
+    "id": "e1ba8360-eb81-4af4-a83c-686646e6b660",
+    "name": "болезни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1c8b3001-6835-4bd9-abff-39870d6ea56d",
+      "start": 36,
+      "end": 43,
+      "text": "болезни"
+    }
+  },
+  {
+    "id": "6f2bcb83-1b20-486c-8c5d-122d20249e66",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4550e2e8-f0c7-44a1-bffb-4bc50f731cf0",
+      "start": 12,
+      "end": 17,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "52b121e7-9057-4f69-b561-14896d49e327",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e97baddb-e2ec-4383-a634-f0d0b3fdaa03",
+      "start": 11,
+      "end": 20,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "59567709-cf3a-42ca-a8f6-6e0c84f53106",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e97baddb-e2ec-4383-a634-f0d0b3fdaa03",
+      "start": 33,
+      "end": 40,
+      "text": "в одну кнопку"
+    }
+  },
+  {
+    "id": "2f7d169a-8e4e-40d3-9c0a-379c00328cdf",
+    "name": "ползунок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3804bd3f-8353-4bd6-b583-b386fedb8cdd",
+      "start": 27,
+      "end": 35,
+      "text": "ползунком"
+    }
+  },
+  {
+    "id": "06b6cdcd-3b03-4fec-a136-5dbc1be80ebd",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2164282e-a33c-45a2-922c-1938064980e4",
+      "start": 27,
+      "end": 33,
+      "text": "кнопке"
+    }
+  },
+  {
+    "id": "54f3907c-7507-451a-9280-5bdb2e3fac4b",
+    "name": "ползунок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7565553-7e64-42e7-aeba-7cd8da383dc4",
+      "start": 70,
+      "end": 78,
+      "text": "ползунок"
+    }
+  },
+  {
+    "id": "a058fc94-f136-4e25-8da8-615996c83251",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eeb7390e-ce70-4334-a1ea-c95e72349561",
+      "start": 91,
+      "end": 97,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "aa4e7c5d-cf8a-4920-a156-d446f5ea40eb",
+    "name": "набор безликих ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eeb7390e-ce70-4334-a1ea-c95e72349561",
+      "start": 117,
+      "end": 138,
+      "text": "набор безликих ссылок"
+    }
+  },
+  {
+    "id": "420490ea-d67b-476d-96ad-fd1bdf31dcda",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f0bdac2-5324-44d0-bda2-d88ab3848ce8",
+      "start": 112,
+      "end": 117,
+      "text": "сайту"
+    }
+  },
+  {
+    "id": "2bf1a096-5cd9-42d1-adfd-7e5bececd500",
+    "name": "фишинговый сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f0bdac2-5324-44d0-bda2-d88ab3848ce8",
+      "start": 147,
+      "end": 162,
+      "text": "фишинговый сайт"
+    }
+  },
+  {
+    "id": "7130998e-8dd4-46ce-8881-e931f26a4570",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8d884f17-5d0a-4a7d-8e97-ae504f0dc229",
+      "start": 74,
+      "end": 79,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "d6c0afe5-0ecb-485f-bbd1-f03b705c73d2",
+    "name": "источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d7af73e-34ab-4819-b07a-508898c25f88",
+      "start": 64,
+      "end": 73,
+      "text": "источников"
+    }
+  },
+  {
+    "id": "ed24e836-9dd1-4f70-8ddd-f67eeb64563e",
+    "name": "источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "066172e6-5f51-4e98-9a81-b4da7b29ec08",
+      "start": 31,
+      "end": 40,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "5d3872d8-17f5-4e10-bd08-ac6c9bd3774f",
+    "name": "источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ee4c55b-68d6-48f1-a308-b31568861672",
+      "start": 21,
+      "end": 30,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "d07cb631-59c9-4224-b99e-2170509552c2",
+    "name": "валдари зт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "74bf5417-a3ee-414b-963a-c7e535e78130",
+      "start": 29,
+      "end": 39,
+      "text": "валдари зт"
+    }
+  },
+  {
+    "id": "59e54aad-508d-4f83-bd9b-dc63404b94ba",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f31d11b-a5d3-4ac5-8d4f-91251e23e41c",
+      "start": 61,
+      "end": 65,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "9338d95d-f9a2-4bab-b473-a005177db6e3",
+    "name": "правительство",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f754c5c-5b07-48c1-9335-d9b7d8f4513f",
+      "start": 24,
+      "end": 37,
+      "text": "правительство"
+    }
+  },
+  {
+    "id": "3b0541c0-1b85-4f92-8dc5-6a9b8e4048c4",
+    "name": "указ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f754c5c-5b07-48c1-9335-d9b7d8f4513f",
+      "start": 51,
+      "end": 55,
+      "text": "указ"
+    }
+  },
+  {
+    "id": "21069aff-b61c-4adb-9ac7-94c29884784c",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8d7bfe1-9c35-4fc9-9441-e0bb36da6405",
+      "start": 71,
+      "end": 75,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "7cc675a8-db43-4410-8ebc-6b7e1b24a859",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "618ea1b4-a91c-448d-8db8-2b659c0dd184",
+      "start": 66,
+      "end": 72,
+      "text": "кнопке"
+    }
+  },
+  {
+    "id": "aaf84d70-84ae-4a19-9cba-4c93ea2ee5a3",
+    "name": "аллергия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d7c9189a-0f93-48c7-b23c-8e1911575e7f",
+      "start": 4,
+      "end": 12,
+      "text": "аллергия"
+    }
+  },
+  {
+    "id": "e55b4007-c2b9-44cb-99b0-f9532f21a44c",
+    "name": "опасно системной реакции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "71cc4ba2-2694-4f0b-b33d-7c217eff12b7",
+      "start": 62,
+      "end": 87,
+      "text": "опасно системной реакции"
+    }
+  },
+  {
+    "id": "f8fbdb14-4685-40ae-afce-a0ef1d8caed4",
+    "name": "аллергия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0a0cfb6-4364-4db8-aad4-0de250018d93",
+      "start": 12,
+      "end": 20,
+      "text": "аллергии"
+    }
+  }
+]

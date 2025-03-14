@@ -1,0 +1,492 @@
+[
+  {
+    "id": "ff4d1d5f-2b2a-4498-ac9c-c80ae4901dcb",
+    "name": "пять идей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "70198a69-7005-483c-bdb5-b20816ad32be",
+      "start": 12,
+      "end": 21,
+      "text": "пять идей"
+    }
+  },
+  {
+    "id": "97db7b15-0460-41cb-815f-95ce8d82d083",
+    "name": "процесс",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75a2f700-4e0e-4aae-b9fc-2e1869ebb602",
+      "start": 34,
+      "end": 41,
+      "text": "процесс"
+    }
+  },
+  {
+    "id": "7b336341-c2fd-4e39-b06b-4247b00373e3",
+    "name": "закупками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00d67cc7-69ac-4017-b680-26a59a4603a9",
+      "start": 41,
+      "end": 50,
+      "text": "закупками"
+    }
+  },
+  {
+    "id": "4b9134a4-ca44-4196-88e2-3d14e33a807d",
+    "name": "бизнес",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00d67cc7-69ac-4017-b680-26a59a4603a9",
+      "start": 71,
+      "end": 77,
+      "text": "бизнес"
+    }
+  },
+  {
+    "id": "8608a769-0cc2-490c-9dc8-1f00f856a926",
+    "name": "работа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00d67cc7-69ac-4017-b680-26a59a4603a9",
+      "start": 20,
+      "end": 27,
+      "text": "работа"
+    }
+  },
+  {
+    "id": "a41444e3-11a3-49d3-aa26-2e28c331a6a0",
+    "name": "свободное от работы время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00d67cc7-69ac-4017-b680-26a59a4603a9",
+      "start": 106,
+      "end": 132,
+      "text": "свободное от работы время"
+    }
+  },
+  {
+    "id": "205d438a-591d-4456-b1e9-8a8cc21b6fbb",
+    "name": "фермерские боксы по подписке",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa014b17-bae2-4a48-a04e-87ed7399c666",
+      "start": 34,
+      "end": 62,
+      "text": "фермерские боксы по подписке"
+    }
+  },
+  {
+    "id": "623d5dec-7ecd-41fa-b3e5-65325e61a0d0",
+    "name": "бизнес-планы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "966198fb-4580-4c6f-ae6e-45e3852a5637",
+      "start": 112,
+      "end": 124,
+      "text": "бизнес- планы"
+    }
+  },
+  {
+    "id": "addaf13d-9d9d-419d-954c-a36ff4ae494b",
+    "name": "инвестиции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "966198fb-4580-4c6f-ae6e-45e3852a5637",
+      "start": 132,
+      "end": 142,
+      "text": "инвестиции"
+    }
+  },
+  {
+    "id": "fc9525e3-5922-479d-b9c6-11345cb421cf",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8c92db6f-b0e2-4c90-b5c0-ec20d4718c4d",
+      "start": 24,
+      "end": 29,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "dfe23604-343e-47b9-bbdc-e6132672df9a",
+    "name": "фермерским боксом",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a008f785-fe60-43d8-8c2c-ed0e4debcb49",
+      "start": 105,
+      "end": 122,
+      "text": "фермерским боксом"
+    }
+  },
+  {
+    "id": "825f9879-ad5b-47e5-ac86-696c225e38b4",
+    "name": "фермерский бокс",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d4a7144c-edfe-44aa-8421-f9734bdbea2b",
+      "start": 28,
+      "end": 43,
+      "text": "фермерский бокс"
+    }
+  },
+  {
+    "id": "c5c550cc-fc97-4a41-a70e-c8ee10e03612",
+    "name": "фермерский бокс",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96edd9a7-676e-443d-b0a0-3a5cd0bfab49",
+      "start": 8,
+      "end": 23,
+      "text": "фермерский бокс"
+    }
+  },
+  {
+    "id": "7e622223-a364-46e0-9d42-4b512e36b637",
+    "name": "компания с бостон",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e38c211e-3622-4a06-b5a4-c5ca911088ab",
+      "start": 67,
+      "end": 84,
+      "text": "компания с бостон"
+    }
+  },
+  {
+    "id": "13c2dfb7-0e6b-4c72-b43c-46cff01763ef",
+    "name": "кикстар",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c52af3c8-9945-4e55-a988-108bd688f4aa",
+      "start": 5,
+      "end": 12,
+      "text": "кикстар"
+    }
+  },
+  {
+    "id": "4e557a2a-5f12-4973-b96a-d72514b6d18f",
+    "name": "рынок в россии",
+    "type": "market",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d97c691a-8676-416e-a1a3-0b513dacdb1c",
+      "start": 39,
+      "end": 53,
+      "text": "рынок в россии"
+    }
+  },
+  {
+    "id": "b8926d7a-dea9-48af-b275-59cb2d527e3b",
+    "name": "поставщиков",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c13441ab-3ef1-4d8e-b815-91cd5867b7a1",
+      "start": 35,
+      "end": 46,
+      "text": "поставщиков"
+    }
+  },
+  {
+    "id": "133b2ce0-ea90-4617-8309-7d998cf49e22",
+    "name": "логистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc2de3a0-6267-45de-8072-45604ec45006",
+      "start": 12,
+      "end": 21,
+      "text": "логистикой"
+    }
+  },
+  {
+    "id": "723a7fac-a69d-43b8-b4a4-5945cb2e76db",
+    "name": "бюджет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc2de3a0-6267-45de-8072-45604ec45006",
+      "start": 81,
+      "end": 87,
+      "text": "бюджет"
+    }
+  },
+  {
+    "id": "5a3c1806-d99e-4a9d-a1cb-7c8cd2197df6",
+    "name": "маржинальность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc2de3a0-6267-45de-8072-45604ec45006",
+      "start": 107,
+      "end": 120,
+      "text": "маржинальность"
+    }
+  },
+  {
+    "id": "4c8236e1-966e-46e9-8ce7-10b126e34bf2",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7607db9d-3f01-4365-a066-5103dc2ea952",
+      "start": 64,
+      "end": 69,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "cb8923e6-0d39-4628-8d17-18bd969866c1",
+    "name": "грока",
+    "type": "software",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9cb9a45f-4183-4540-ac33-8001db528166",
+      "start": 61,
+      "end": 66,
+      "text": "грока"
+    }
+  },
+  {
+    "id": "02cd944e-122b-465b-87ca-7061d415617c",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cbe388ea-929b-421d-9766-a57712eae601",
+      "start": 58,
+      "end": 63,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "b51b9d38-51dc-4ea7-b3c9-4b76ef281b64",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "94b4e496-a396-47a9-adab-3463b5d99b2f",
+      "start": 38,
+      "end": 43,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "d276b8a7-4a7a-43e5-bcbb-58e369321880",
+    "name": "зуме",
+    "type": "software",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22b55c43-5c59-40c0-b58e-c00b5d18643e",
+      "start": 12,
+      "end": 16,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "c210dabe-056e-4530-9915-ee6aa8a14a27",
+    "name": "функция поделиться экраном",
+    "type": "feature",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22b55c43-5c59-40c0-b58e-c00b5d18643e",
+      "start": 26,
+      "end": 52,
+      "text": "поделиться экраном"
+    }
+  },
+  {
+    "id": "ecc06fcf-a2ff-4b5d-9f6d-c490a7d41222",
+    "name": "матч",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "938a9236-3790-49c8-a6bd-629c10b55946",
+      "start": 10,
+      "end": 14,
+      "text": "матч"
+    }
+  },
+  {
+    "id": "d25561f1-85c6-4172-9bb3-e94725677237",
+    "name": "баскетбольный ликерс даллас",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "938a9236-3790-49c8-a6bd-629c10b55946",
+      "start": 24,
+      "end": 51,
+      "text": "баскетбольный ликерс даллас"
+    }
+  },
+  {
+    "id": "e3a18c2a-6839-4aa9-acf5-342ab69970bd",
+    "name": "статистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5bf8d18f-cb3f-4afb-a736-86ed2e691a51",
+      "start": 0,
+      "end": 10,
+      "text": "статистика"
+    }
+  },
+  {
+    "id": "27102b1f-a11b-4149-9f39-161a9323d29c",
+    "name": "табличка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37d22b16-1158-43bb-a532-16edbd8c884e",
+      "start": 0,
+      "end": 8,
+      "text": "табличка"
+    }
+  },
+  {
+    "id": "0f72cf5b-d14b-4276-83d4-d9e6799e1471",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb16c029-fba2-4a79-ac82-d5e6bb875662",
+      "start": 24,
+      "end": 29,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "0bfe7f38-f58a-4c74-9b83-e072118f016c",
+    "name": "таблица",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "210494cc-1a36-48ea-ac50-5b5f3719621a",
+      "start": 63,
+      "end": 70,
+      "text": "таблица"
+    }
+  },
+  {
+    "id": "2db09d5f-3c38-49c0-8dc4-9b8e4781ed6d",
+    "name": "минуты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06c1ca62-3800-4ae6-9c32-84e62e193e71",
+      "start": 18,
+      "end": 24,
+      "text": "минуты"
+    }
+  },
+  {
+    "id": "adb8ca8d-7194-4e78-93f1-f82ac9880538",
+    "name": "броски",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06c1ca62-3800-4ae6-9c32-84e62e193e71",
+      "start": 26,
+      "end": 32,
+      "text": "броски"
+    }
+  },
+  {
+    "id": "09cebfd7-6194-41db-b5c0-b7fbf96f38cb",
+    "name": "подпоры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06c1ca62-3800-4ae6-9c32-84e62e193e71",
+      "start": 34,
+      "end": 41,
+      "text": "подпоры"
+    }
+  }
+]

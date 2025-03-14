@@ -1,0 +1,632 @@
+[
+  {
+    "id": "14d91004-e2b9-49a1-b9a5-8e4509ab460a",
+    "name": "картинка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bcbf76df-b9f4-4b46-ad32-6b0f884f5c5b",
+      "start": 24,
+      "end": 33,
+      "text": "картинка"
+    }
+  },
+  {
+    "id": "dd0bcaac-a9a1-4f3d-9a70-49bf4689b089",
+    "name": "ссылка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bcbf76df-b9f4-4b46-ad32-6b0f884f5c5b",
+      "start": 36,
+      "end": 42,
+      "text": "ссылка"
+    }
+  },
+  {
+    "id": "e230f4f6-f8fb-4473-8db2-6a623fbedc04",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "45e23a52-0d3d-4ca9-a140-1323a7cf30c0",
+      "start": 86,
+      "end": 91,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "71bf522c-7936-4f0d-b954-54ad0db6b080",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61047462-e973-456b-9fe4-c59e73cc223c",
+      "start": 28,
+      "end": 33,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "fce8fb61-b614-4467-968e-7a52c739dee7",
+    "name": "картинками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "61047462-e973-456b-9fe4-c59e73cc223c",
+      "start": 65,
+      "end": 75,
+      "text": "картинками"
+    }
+  },
+  {
+    "id": "b4b76937-f05d-4633-9422-de241b902171",
+    "name": "ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0351ba13-126e-4594-9b3c-6eb9ce906ef9",
+      "start": 76,
+      "end": 82,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "52ac4ae5-8407-436d-9552-2af1d300e213",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7e81e9d9-74f2-4a20-a8ac-52f4310caeaf",
+      "start": 16,
+      "end": 20,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "4bfef6b5-8958-4cf3-b6bd-441ca8a8f2d9",
+    "name": "утюг",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cfee997d-de4f-45f2-9c44-30610024c147",
+      "start": 16,
+      "end": 20,
+      "text": "утюг"
+    }
+  },
+  {
+    "id": "6825962a-06a3-45c1-a656-74d0c1ae1b82",
+    "name": "видео",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cfee997d-de4f-45f2-9c44-30610024c147",
+      "start": 55,
+      "end": 60,
+      "text": "видео"
+    }
+  },
+  {
+    "id": "f561f05e-8e38-481b-82d4-cfbf0123e398",
+    "name": "Россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ccc0998-3822-4bd0-8ff6-f4ca9dee29de",
+      "start": 12,
+      "end": 18,
+      "text": "россия"
+    }
+  },
+  {
+    "id": "b0f56db4-1a3f-4986-bf72-718d3cd3a8c9",
+    "name": "Франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ccc0998-3822-4bd0-8ff6-f4ca9dee29de",
+      "start": 31,
+      "end": 38,
+      "text": "франция"
+    }
+  },
+  {
+    "id": "4c5d40f6-5f15-4eb1-bde5-21630e2061d1",
+    "name": "Франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "516c9647-ed30-471a-a88f-46c14125028b",
+      "start": 57,
+      "end": 64,
+      "text": "франции"
+    }
+  },
+  {
+    "id": "ac41df1d-7af5-49ad-9c80-48982c51dd24",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1a9eabe9-6bc0-4d21-9171-77be31b65a7c",
+      "start": 24,
+      "end": 32,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "3a1a06d9-b101-4950-9074-43759db0e677",
+    "name": "Бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1a9eabe9-6bc0-4d21-9171-77be31b65a7c",
+      "start": 87,
+      "end": 106,
+      "text": "бородинское сражение"
+    }
+  },
+  {
+    "id": "d29a266a-d828-469b-aa93-22b7506d86f6",
+    "name": "Россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1a9eabe9-6bc0-4d21-9171-77be31b65a7c",
+      "start": 117,
+      "end": 122,
+      "text": "росс"
+    }
+  },
+  {
+    "id": "b699f9ef-0f46-46a3-8285-7ce52fe6a8aa",
+    "name": "Бородинское сражение",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf716fc4-ca20-4916-ae00-1aa6ff69ac96",
+      "start": 15,
+      "end": 34,
+      "text": "бородинском сражении"
+    }
+  },
+  {
+    "id": "afbe3691-a8b3-49aa-b3ed-e6c55837d9d5",
+    "name": "российская армия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf716fc4-ca20-4916-ae00-1aa6ff69ac96",
+      "start": 43,
+      "end": 59,
+      "text": "российская армия"
+    }
+  },
+  {
+    "id": "8fba89d0-9a24-43d4-9f0c-95e66c80f337",
+    "name": "французы",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf716fc4-ca20-4916-ae00-1aa6ff69ac96",
+      "start": 89,
+      "end": 97,
+      "text": "французы"
+    }
+  },
+  {
+    "id": "e8541cf3-4fb0-4bc2-991f-d18d8b1ba0f4",
+    "name": "РФ",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "01f5a024-82d9-4ebe-8950-2890af808636",
+      "start": 47,
+      "end": 49,
+      "text": "рф"
+    }
+  },
+  {
+    "id": "b551693f-0fd7-4606-b572-6a3694226ed1",
+    "name": "Казань",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a565bd3-2672-4df5-8ef2-6ee27a96ac36",
+      "start": 34,
+      "end": 40,
+      "text": "казань"
+    }
+  },
+  {
+    "id": "b86db8dc-5309-43d7-8862-9decee8e8db8",
+    "name": "ссылки на сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "62ed095d-9d18-4311-83cb-46b86ccaf5ce",
+      "start": 8,
+      "end": 22,
+      "text": "ссылки на сайт"
+    }
+  },
+  {
+    "id": "54abe8f2-1cdd-4079-8106-b5c53480c179",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8bf82276-6457-448a-b91c-9015f7579e60",
+      "start": 33,
+      "end": 42,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "9813251a-a01f-4324-9907-d19c972e2585",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9beddc2b-bdae-4ccb-8010-7bf0f1f94d23",
+      "start": 28,
+      "end": 34,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "4fcad5ed-a4cb-4f17-b70d-71a799d1134b",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7bb3d712-2c25-4bc6-9a69-aeb5443cd4ff",
+      "start": 106,
+      "end": 111,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "5a676793-ccf4-43c1-948f-9a658562b717",
+    "name": "обычный поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d5e3a2cd-c427-4294-948b-7045cb49e10c",
+      "start": 86,
+      "end": 99,
+      "text": "обычный поиск"
+    }
+  },
+  {
+    "id": "eb84fd2c-7204-4fdb-bc55-a1935046450b",
+    "name": "рассуждаю",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e8e645d-6100-42c2-960b-b4b13065d2ea",
+      "start": 69,
+      "end": 78,
+      "text": "рассуждаю"
+    }
+  },
+  {
+    "id": "f934a5ef-8a80-42ed-a218-6a1819e09eba",
+    "name": "внутренняя разработка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52cbaff3-8d5b-4815-bbe3-9f1b03f2afdd",
+      "start": 36,
+      "end": 57,
+      "text": "внутренняя разработка"
+    }
+  },
+  {
+    "id": "494fe8cd-be72-4724-9306-3c9a5b5bd3dd",
+    "name": "обязательства на разглашение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52cbaff3-8d5b-4815-bbe3-9f1b03f2afdd",
+      "start": 106,
+      "end": 134,
+      "text": "обязательства на разглашение"
+    }
+  },
+  {
+    "id": "ef8ccb93-2607-4a0c-b337-81f891ac70eb",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d64f018d-7d3d-42f6-8162-3b8565abb8bc",
+      "start": 12,
+      "end": 17,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "dfd73b8e-b425-488a-aa3e-61e805180b93",
+    "name": "голосовая штука",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d64f018d-7d3d-42f6-8162-3b8565abb8bc",
+      "start": 25,
+      "end": 40,
+      "text": "голосовая штука"
+    }
+  },
+  {
+    "id": "265ee53b-b0cc-47e5-865c-47d1a4007e99",
+    "name": "чат g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d64f018d-7d3d-42f6-8162-3b8565abb8bc",
+      "start": 45,
+      "end": 55,
+      "text": "чате g пяти"
+    }
+  },
+  {
+    "id": "a0e166a6-46f7-45fe-825d-5da0a3a9c540",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82e6457a-666c-45a2-a037-21690f703668",
+      "start": 54,
+      "end": 59,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "85c85bd2-270e-424f-a9e8-495e13fd51da",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82e6457a-666c-45a2-a037-21690f703668",
+      "start": 65,
+      "end": 70,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "9b80d3be-5021-42df-a918-74d5d3a69f3f",
+    "name": "озвучивание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0a41e748-71e9-421a-97b2-7687a29c6b9a",
+      "start": 34,
+      "end": 45,
+      "text": "озвучивание"
+    }
+  },
+  {
+    "id": "e8dc31f8-1393-4c87-b871-12cafdc09cc1",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "206ee12b-c52d-4f7d-825b-b0038bf6daba",
+      "start": 26,
+      "end": 31,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "febe0d92-7cb4-4152-bfa0-444312f06782",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cd9275b-1316-4999-abf0-76e988fc103b",
+      "start": 34,
+      "end": 39,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "21cc3564-df37-48d6-8745-8fe7a8102e0b",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cd9275b-1316-4999-abf0-76e988fc103b",
+      "start": 43,
+      "end": 48,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "e17dbff1-d4fd-47f4-9e8f-770c23e09985",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7cd9275b-1316-4999-abf0-76e988fc103b",
+      "start": 52,
+      "end": 58,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "96bdaf26-18ad-4d46-a6ea-c4af5ff5e03a",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd78e0a1-3e92-4238-94b2-70db406a6004",
+      "start": 5,
+      "end": 10,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "b8d71cc1-5eb2-4038-9933-fbeb508b01dd",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "549261bb-9929-42ca-ac73-122beca6fbde",
+      "start": 9,
+      "end": 14,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "39cbb81f-76a9-4e37-b28d-db8cff7fbe25",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "549261bb-9929-42ca-ac73-122beca6fbde",
+      "start": 17,
+      "end": 23,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "31adb2ba-3244-4a92-8bdf-cae32a469b05",
+    "name": "яндекс про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "549261bb-9929-42ca-ac73-122beca6fbde",
+      "start": 27,
+      "end": 36,
+      "text": "яндекс про"
+    }
+  },
+  {
+    "id": "9c33e171-abd2-4016-9aae-91c2e8ab404d",
+    "name": "про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e9871a7-f9d9-41e7-94d3-d8de81f3483c",
+      "start": 26,
+      "end": 29,
+      "text": "про"
+    }
+  },
+  {
+    "id": "a66b15e3-35dd-4c30-89f5-ce7cda20e1d7",
+    "name": "про",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e9871a7-f9d9-41e7-94d3-d8de81f3483c",
+      "start": 35,
+      "end": 38,
+      "text": "про"
+    }
+  },
+  {
+    "id": "bed8bfe6-3864-4729-88e6-7a2f5fcc5c26",
+    "name": "поселок",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf82b6b5-1580-4322-a5f3-be31cde1338f",
+      "start": 61,
+      "end": 68,
+      "text": "поселок"
+    }
+  }
+]

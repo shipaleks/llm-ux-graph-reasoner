@@ -1,0 +1,82 @@
+[
+  {
+    "name": "E-commerce and AI Assistant Integration",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the integration of e-commerce platforms and AI assistants, specifically focusing on product sales and related information retrieval. It shows how AI assistants like Алиса (Alice) are being used within the Сбер (Sber) ecosystem to facilitate product discovery and sales.",
+    "examples": [
+      {
+        "text": "Сбер → sells → телевизор",
+        "explanation": "This shows Sber selling televisions, indicating an e-commerce aspect."
+      },
+      {
+        "text": "поисковик → яндекс проб, поисковик → гига- чат",
+        "explanation": "This shows the search engine using Yandex.Pro and GigaChat, highlighting the AI assistant's role in information retrieval and potentially product recommendations."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern signifies the growing trend of integrating AI assistants into e-commerce platforms to enhance user experience and drive sales. It also shows the strategic importance of AI in the Sber and Yandex ecosystems."
+  },
+  {
+    "name": "Task-Oriented AI and Content Generation",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern focuses on the use of AI for task completion, particularly in content generation and editing. It showcases the ability of AI models to create various types of content, from images to essays, and to refine existing text.",
+    "examples": [
+      {
+        "text": "task: создай картинку, напиши эссе, проверить улучшить текст на английском",
+        "explanation": "These examples demonstrate the AI's capability to perform diverse content creation tasks."
+      },
+      {
+        "text": "g пять → генерации текстов, g пять → редактирования, g пять → описания текстов",
+        "explanation": "This shows the G5 model being used for text generation, editing, and description, further emphasizing the content creation aspect."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern highlights the increasing role of AI in automating content creation and editing processes, which has significant implications for various industries, including marketing, education, and media."
+  },
+  {
+    "name": "Knowledge Domain Breadth of AI",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern reveals the wide range of knowledge domains that the AI system is capable of handling. It spans from general knowledge concepts to specific topics like sports, history, and even medical conditions.",
+    "examples": [
+      {
+        "text": "concept: общие слова, поиск, сайты",
+        "explanation": "Demonstrates general knowledge processing."
+      },
+      {
+        "text": "event: матч, бородинское сражение",
+        "explanation": "Shows knowledge of historical events and sports."
+      },
+      {
+        "text": "medical_condition: асма",
+        "explanation": "Indicates knowledge of medical conditions."
+      },
+      {
+        "text": "sport: баскетбол",
+        "explanation": "Indicates knowledge of sports."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern underscores the comprehensive knowledge base of the AI system, making it versatile and applicable to a wide array of tasks and queries. It also suggests the potential for the AI to be used in various specialized domains."
+  },
+  {
+    "name": "Ambiguous Entity Types and Relationships",
+    "type": "structural",
+    "subtype": "semantic",
+    "description": "This pattern highlights the ambiguity and potential overlap in entity types and relationships within the knowledge graph. Some entities are categorized in ways that could be interpreted differently, and some relationships lack clear directionality or specificity.",
+    "examples": [
+      {
+        "text": "Entity 'сайт' is both a 'website' and a 'location'",
+        "explanation": "The entity 'сайт' (site) is classified as both a 'website' and a 'location', which can be confusing. A website exists in a digital space, while a location refers to a physical place. This dual classification suggests a potential ambiguity in how the knowledge graph represents online entities with real-world counterparts."
+      },
+      {
+        "text": "relationship: related_to: текстовый запрос → документ, политика → религия, товары → места",
+        "explanation": "The 'related_to' relationship is very general and doesn't specify the nature of the relationship. This lack of specificity makes it difficult to understand the precise connection between the entities."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern indicates potential areas for improvement in the knowledge graph's design. Clearer entity type definitions and more specific relationship types would enhance the accuracy and usability of the graph."
+  }
+]

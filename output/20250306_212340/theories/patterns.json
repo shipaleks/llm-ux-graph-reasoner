@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Corporate Leadership and Structure",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the hierarchical structure within organizations, specifically focusing on the 'генеральный_директор' relationship. It shows how individuals are connected to organizations through leadership roles.",
+    "examples": [
+      {
+        "text": "Иван Петров → ТехноИнновации (генеральный_директор)",
+        "explanation": "Ivan Petrov holds the position of General Director at TechnoInnovations."
+      },
+      {
+        "text": "Алексей Смирнов → Глобал Системс (генеральный_директор)",
+        "explanation": "Alexey Smirnov holds the position of General Director at Global Systems."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals the leadership structure of the companies in the knowledge graph, indicating who is in charge and responsible for the organization's direction. It also suggests a potential point of contact for each company."
+  },
+  {
+    "name": "Technology and Healthcare Investment",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern connects the 'здравоохранения' (healthcare) industry with 'искусственного интеллекта' (artificial intelligence) and a specific monetary investment. It suggests a focus on applying AI within the healthcare sector, supported by financial backing.",
+    "examples": [
+      {
+        "text": "здравоохранения → искусственного интеллекта (использует)",
+        "explanation": "The healthcare industry utilizes artificial intelligence."
+      },
+      {
+        "text": "здравоохранения → 300 миллионов рублей (бюджет)",
+        "explanation": "The healthcare sector has a budget of 300 million rubles."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern indicates a strategic investment and application of AI within the healthcare domain. It highlights a potential area of growth and innovation within the Russian economy."
+  },
+  {
+    "name": "Organizational Establishment and Partnerships",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern combines the 'основана_в' (founded in) and 'объявлено_о_партнерстве' (announced partnership) relationships to show the lifecycle and development of organizations. It links the founding date of a company with its subsequent partnerships.",
+    "examples": [
+      {
+        "text": "ТехноИнновации → 2010 (основана_в)",
+        "explanation": "TechnoInnovations was founded in 2010."
+      },
+      {
+        "text": "15 января 2023 года → Глобал Системс (объявлено_о_партнерстве)",
+        "explanation": "Global Systems announced a partnership on January 15, 2023."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern provides a glimpse into the history and evolution of the organizations. It shows how established companies (like TechnoInnovations) evolve and form partnerships (like Global Systems). The temporal aspect adds a narrative dimension."
+  },
+  {
+    "name": "Geographic Concentration of Tech Companies",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the location of 'Глобал Системс' (Global Systems) in 'Санкт-Петербург' (Saint Petersburg). It suggests a potential concentration of technology companies or activities in that specific geographic area.",
+    "examples": [
+      {
+        "text": "Глобал Системс → Санкт-Петербург (базируется_в)",
+        "explanation": "Global Systems is based in Saint Petersburg."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern may indicate a technology hub or cluster in Saint Petersburg. It could suggest the presence of skilled labor, supporting infrastructure, or other factors that attract technology companies to that location."
+  }
+]

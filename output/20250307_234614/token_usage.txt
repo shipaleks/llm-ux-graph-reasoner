@@ -1,0 +1,54 @@
+File: /Users/shipaleks/Downloads/story.txt
+Date: 2025-03-07 23:51:16
+Total analysis time: 301.67 seconds
+
+Token Usage Summary
+===================
+Total API Calls: 43
+Total Tokens: 60839 (Input: 23982, Output: 36857)
+Estimated Cost: $0.067277 USD
+Total API Duration: 399.16 seconds
+Total Analysis Time: 301.67 seconds
+
+Model Breakdown:
+  gemini-2.0-flash-thinking-exp-01-21:
+    Calls: 25
+    Tokens: 29040 (Input: 7858, Output: 21182)
+    Cost: $0.035702 USD
+
+  gemini-2.0-pro-exp-02-05:
+    Calls: 18
+    Tokens: 31799 (Input: 16124, Output: 15675)
+    Cost: $0.031575 USD
+
+
+JSON DATA:
+{
+  "file": "/Users/shipaleks/Downloads/story.txt",
+  "date": "2025-03-07 23:51:16",
+  "analysis_time": 301.66869616508484,
+  "api_calls": 43,
+  "input_tokens": 23982,
+  "output_tokens": 36857,
+  "total_tokens": 60839,
+  "total_cost_usd": 0.0672765,
+  "api_duration": 399.15999999999997,
+  "models": {
+    "gemini-2.0-flash-thinking-exp-01-21": {
+      "calls": 25,
+      "input_tokens": 7858,
+      "output_tokens": 21182,
+      "input_cost": 0.003929,
+      "output_cost": 0.031772999999999996,
+      "total_cost": 0.035702
+    },
+    "gemini-2.0-pro-exp-02-05": {
+      "calls": 18,
+      "input_tokens": 16124,
+      "output_tokens": 15675,
+      "input_cost": 0.008062,
+      "output_cost": 0.023512500000000002,
+      "total_cost": 0.031574500000000005
+    }
+  }
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "b7a4310a-c4df-4640-b352-f4a6df463f51",
+    "name": "Отечественная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db54f3c4-dbd3-4284-a942-c25da2b89157",
+      "start": 4,
+      "end": 22,
+      "text": "отечественная война"
+    }
+  },
+  {
+    "id": "5d89f64f-72c4-46f4-af77-245a6a4807fc",
+    "name": "Российская империя",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db54f3c4-dbd3-4284-a942-c25da2b89157",
+      "start": 29,
+      "end": 47,
+      "text": "российской империей"
+    }
+  },
+  {
+    "id": "9222397e-be4f-4cfe-8561-38c47ec9f37a",
+    "name": "Наполеоновская Франция",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db54f3c4-dbd3-4284-a942-c25da2b89157",
+      "start": 49,
+      "end": 71,
+      "text": "наполеоновской францией"
+    }
+  },
+  {
+    "id": "ffb8f095-f24c-4240-9200-3f66c3f9187e",
+    "name": "сражение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "abc11d7d-fe25-4dcf-9a9a-1a00c61075b3",
+      "start": 30,
+      "end": 39,
+      "text": "сражение"
+    }
+  },
+  {
+    "id": "01272d9f-4ada-4653-b028-e5d6b70fc81b",
+    "name": "численность войск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "abc11d7d-fe25-4dcf-9a9a-1a00c61075b3",
+      "start": 61,
+      "end": 78,
+      "text": "численность войск"
+    }
+  },
+  {
+    "id": "c31e8617-a300-4c13-bc07-f01d7919170e",
+    "name": "история",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "be788eca-d7ff-4e6d-af00-4513abd8f0c5",
+      "start": 129,
+      "end": 136,
+      "text": "истории"
+    }
+  },
+  {
+    "id": "c3899eb1-7261-4846-9332-fd1eb3168301",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b9c0afb8-58d6-4c47-9a74-9d725d92c213",
+      "start": 72,
+      "end": 76,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "431194ee-f77c-4ec0-815d-b99466245077",
+    "name": "чат g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a8ab71ca-d28b-4334-946a-4254182baf04",
+      "start": 98,
+      "end": 108,
+      "text": "чат g пяти"
+    }
+  },
+  {
+    "id": "de9fc22c-03f4-4586-9be2-119d34f61e8d",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "102c2fe1-ee9c-4fba-801e-8854ae8b9e06",
+      "start": 36,
+      "end": 40,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "000b0f0a-ba8e-4f7b-8a7c-88d1faf112f6",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "528e2d45-9ff3-4dca-8a5a-f4ea98852ee6",
+      "start": 13,
+      "end": 19,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "45fb7af5-97d3-4d8d-aea4-df4ab500c880",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4222d1a6-e42d-4de9-be2a-41e12be8d401",
+      "start": 76,
+      "end": 82,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "a7b94e28-3eb6-4814-961d-8625c3684a9e",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4222d1a6-e42d-4de9-be2a-41e12be8d401",
+      "start": 113,
+      "end": 119,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "f99d3fdd-37bb-42bc-8aa3-632add148870",
+    "name": "слоган",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4222d1a6-e42d-4de9-be2a-41e12be8d401",
+      "start": 133,
+      "end": 139,
+      "text": "слоган"
+    }
+  },
+  {
+    "id": "3565ef97-2589-46cc-9f97-0caa9f556386",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0794d876-ef8c-4c09-bde6-d5d9622fd5a1",
+      "start": 76,
+      "end": 85,
+      "text": "нейросетью"
+    }
+  },
+  {
+    "id": "646b4920-1d7e-48f0-84c2-93f0fd02ec8f",
+    "name": "g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c963e433-e7aa-4a90-9b72-abd0a6ed2581",
+      "start": 141,
+      "end": 147,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "ca58bd89-c694-4834-a9ed-bf5518afc5e0",
+    "name": "Отечественная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f8396c5-c6b7-4017-b93c-9339e6d130e5",
+      "start": 12,
+      "end": 30,
+      "text": "отечественную войну"
+    }
+  },
+  {
+    "id": "281fc266-6f20-4f04-8213-c3f30b5a883a",
+    "name": "g пять",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "db5d6fff-edbb-4a9e-a84d-e16fe924cf96",
+      "start": 83,
+      "end": 89,
+      "text": "g пять"
+    }
+  },
+  {
+    "id": "4708e322-9775-4bf6-994e-2442f55c42d3",
+    "name": "партизанских движений",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "94038e62-0180-483e-8ec5-fb377179a365",
+      "start": 5,
+      "end": 26,
+      "text": "партизанских движений"
+    }
+  },
+  {
+    "id": "13f6dd55-07e2-4416-bf82-dd98b8e759a0",
+    "name": "Отечественная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "64ba4293-3181-49bc-9a81-e8656c93d8a4",
+      "start": 4,
+      "end": 22,
+      "text": "отечественная война"
+    }
+  },
+  {
+    "id": "5a3a4877-4588-49f0-a31f-e651a1a836ed",
+    "name": "конституция",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb95bd4d-10a2-48f1-b2cd-a10bda901370",
+      "start": 17,
+      "end": 28,
+      "text": "конституции"
+    }
+  },
+  {
+    "id": "e28d6595-0f29-4443-a7cd-671905e86abb",
+    "name": "g пяти",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "19d70ac2-d7da-4c56-9e24-1d63e18981a3",
+      "start": 34,
+      "end": 40,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "f69d08f6-9f8d-44fd-9b69-5b24d4e912ef",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1baf8930-f6d8-4ffb-ae5f-ff8af36ba077",
+      "start": 21,
+      "end": 27,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "5e161219-a64c-4c76-8dc0-082e2db425ec",
+    "name": "союзники россии",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c97c27c3-6c94-4a2c-af43-5fa4655a00d7",
+      "start": 23,
+      "end": 38,
+      "text": "союзников россии"
+    }
+  },
+  {
+    "id": "6cd56bdd-447d-41c2-a0c8-670ba2ae5826",
+    "name": "англия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c97c27c3-6c94-4a2c-af43-5fa4655a00d7",
+      "start": 55,
+      "end": 61,
+      "text": "англия"
+    }
+  },
+  {
+    "id": "121dea0c-791a-437a-b335-6fc329b1416a",
+    "name": "пруссия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c97c27c3-6c94-4a2c-af43-5fa4655a00d7",
+      "start": 63,
+      "end": 70,
+      "text": "пруссия"
+    }
+  },
+  {
+    "id": "659f8152-af71-4f92-a966-dade7d744bad",
+    "name": "австрия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c97c27c3-6c94-4a2c-af43-5fa4655a00d7",
+      "start": 72,
+      "end": 79,
+      "text": "австрия"
+    }
+  },
+  {
+    "id": "57556886-f3d5-4d05-ae15-d1b9fef2215c",
+    "name": "флаг англии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c97c27c3-6c94-4a2c-af43-5fa4655a00d7",
+      "start": 96,
+      "end": 107,
+      "text": "флаг англии"
+    }
+  },
+  {
+    "id": "7027d602-7f3b-4df9-99a1-f477ef2fe681",
+    "name": "гай ричи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b42f8a88-0049-4fa1-a0ac-66feeb2af23e",
+      "start": 63,
+      "end": 71,
+      "text": "гаем ричи"
+    }
+  },
+  {
+    "id": "22189e71-8599-4070-8104-f87b4ed8da47",
+    "name": "исторические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fd99a87d-8ebd-4f32-8d62-4e3ee428a2fc",
+      "start": 34,
+      "end": 46,
+      "text": "исторические"
+    }
+  },
+  {
+    "id": "462e8d2a-c99b-43e4-b54a-d3addb5a1d12",
+    "name": "диаграмма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed5ebb05-f78d-483b-b4ed-5cd66f9e5fdd",
+      "start": 59,
+      "end": 68,
+      "text": "диаграмма"
+    }
+  },
+  {
+    "id": "02f4eb7d-65b0-41bb-8513-f6d7442ec6f2",
+    "name": "диаграмма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cb275e6-c2f4-47f3-bf35-19c5184f40bd",
+      "start": 5,
+      "end": 14,
+      "text": "диаграмма"
+    }
+  },
+  {
+    "id": "8ffbcfb9-da7f-4b6d-8143-fb740fa375cd",
+    "name": "диаграмма нейром",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cb275e6-c2f4-47f3-bf35-19c5184f40bd",
+      "start": 16,
+      "end": 32,
+      "text": "диаграмма нейром"
+    }
+  },
+  {
+    "id": "6f2a12ba-2d80-4ec6-aa16-c1beea8f5818",
+    "name": "диаграмма ганта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d33ed313-db8e-4136-8884-7ac991508de2",
+      "start": 37,
+      "end": 52,
+      "text": "диаграмма ганта"
+    }
+  },
+  {
+    "id": "230fafda-8955-4534-bc97-81b39371bb1f",
+    "name": "онлайн сервисы для создания диаграммы ган",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "daaaf7ac-0b9d-4939-8175-4b1144adb8b4",
+      "start": 5,
+      "end": 47,
+      "text": "онлайн сервисы для создания диаграммы ган"
+    }
+  },
+  {
+    "id": "e067991d-d9e7-4b91-8383-0e64dc024b4f",
+    "name": "успешные кейсы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "999204e3-ab46-44fc-8907-a96cf33079e1",
+      "start": 14,
+      "end": 28,
+      "text": "успешные кейсы"
+    }
+  },
+  {
+    "id": "d7b35ace-c5f7-4daa-9e3b-923583f4a7d5",
+    "name": "ганта",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3dab70a3-fd6e-498b-812b-234904e736d0",
+      "start": 0,
+      "end": 5,
+      "text": "ганта"
+    }
+  }
+]

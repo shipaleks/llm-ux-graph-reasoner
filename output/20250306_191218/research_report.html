@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-06 19:14:02</p>
+            <p><strong>Источник:</strong> </p>
+            <p><strong>Количество сущностей:</strong> </p>
+            <p><strong>Количество связей:</strong> </p>
+            <p><strong>Количество текстовых сегментов:</strong> </p>
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p></p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 18 сущностей и 11 связей. Наиболее центральные сущности в графе: Acme Corporation, Global Systems Ltd., Mary Johnson, которые формируют ключевые точки связи в сети. Граф состоит из 7 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством связей между сущностями. Наиболее значимая теория, полученная в результате анализа — 'Без названия' с уровнем достоверности 0.75.  Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на  логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 0 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены  ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены  связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 2 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.0359</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.22</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">4</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>0.412</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>0.176</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>0.118</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>0.059</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1985</td>
+                        <td>0.059</td>
+                        <td>date</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>New York City</td>
+                        <td>0.059</td>
+                        <td>location</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>software development</td>
+                        <td>0.059</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tech Solutions Inc.</td>
+                        <td>0.059</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>0.059</td>
+                        <td>project</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>innovative AI solutions</td>
+                        <td>0.059</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+            <div class="research-process">
+                <h3></h3>
+                <p><strong>Достоверность:</strong> 0.75</p>
+                <p></p>
+                
+                
+            </div>
+            
+            <div class="research-process">
+                <h3></h3>
+                <p><strong>Достоверность:</strong> 0.70</p>
+                <p></p>
+                
+                
+            </div>
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Acme Corporation, Global Systems Ltd., Mary Johnson как центральные концепции, связывающие несколько тем. Преобладающие типы отношений (SPECIALIZES_IN, FOR_INDUSTRY, HEADQUARTERED_IN) подчеркивают ключевые взаимодействия в предметной области. В ходе анализа было сформировано 2 теорий, объясняющих наблюдаемые закономерности. Теория 'Без названия' имеет наиболее сильную поддержку с достоверностью 0.75. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-06 19:14:02</p>
+        </div>
+    </footer>
+</body>
+</html>

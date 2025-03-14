@@ -1,0 +1,33 @@
+Analyze the following node clusters in the knowledge graph and determine which ones are suitable for abstraction into meta-concepts.
+
+Node clusters:
+{{clusters}}
+
+For each cluster, evaluate:
+
+1. Semantic coherence (0-10):
+   - How meaningfully the nodes are actually connected
+   - Whether there is a common theme or principle uniting the nodes
+   - How much the nodes belong to the same level of abstraction
+
+2. Structural integrity (0-10):
+   - How isolated the cluster is from other clusters
+   - How densely connected the nodes are within the cluster
+   - Presence of a central node or group of nodes
+
+3. Abstraction potential (0-10):
+   - Possibility to formulate a unified meta-concept
+   - Usefulness of abstraction for understanding the domain
+   - Possibility to simplify the graph without losing essential information
+
+4. Proposed meta-concept name:
+   - Short but informative name
+   - Reflecting the essence of the unified concepts
+   - Corresponding to domain terminology
+
+For clusters with a total score (sum of all assessments) above 20, suggest a brief definition of the meta-concept and the main attributes it should retain.
+
+Present the result in a structured format with sections for each cluster.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

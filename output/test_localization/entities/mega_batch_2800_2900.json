@@ -1,0 +1,821 @@
+[
+  {
+    "id": "ca1166ab-466a-40c9-a24b-14403ab343be",
+    "name": "Россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aaff7581-fbda-4d40-ba04-7dfbee547bef",
+      "start": 40,
+      "end": 46,
+      "text": "россии"
+    }
+  },
+  {
+    "id": "ab2cb85a-b8be-4962-ba59-0cff4812a09e",
+    "name": "зима",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f294685-fece-4a4c-9216-102fb50a539f",
+      "start": 3,
+      "end": 7,
+      "text": "зима"
+    }
+  },
+  {
+    "id": "d94a7074-7008-4ddf-8010-dd171319d8d8",
+    "name": "март",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f294685-fece-4a4c-9216-102fb50a539f",
+      "start": 41,
+      "end": 45,
+      "text": "март"
+    }
+  },
+  {
+    "id": "d6699e58-a529-41b7-a4de-6a45c63f8541",
+    "name": "весна",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f294685-fece-4a4c-9216-102fb50a539f",
+      "start": 50,
+      "end": 55,
+      "text": "весну"
+    }
+  },
+  {
+    "id": "97b2d445-e44b-4d72-b90c-84b2192c71b0",
+    "name": "весна",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56f0b54c-3ffd-4cd6-9b2b-82294b19971f",
+      "start": 12,
+      "end": 17,
+      "text": "весной"
+    }
+  },
+  {
+    "id": "cc87dc4e-e3c2-42e7-9f25-56dd1450cbee",
+    "name": "весна",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccf3ffe7-f494-482b-8de8-e34710ea4f96",
+      "start": 0,
+      "end": 6,
+      "text": "весной"
+    }
+  },
+  {
+    "id": "6276d6f2-e53d-486a-8e62-c434692662c2",
+    "name": "март",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccf3ffe7-f494-482b-8de8-e34710ea4f96",
+      "start": 8,
+      "end": 13,
+      "text": "марте"
+    }
+  },
+  {
+    "id": "0cd57efd-702f-4354-b313-06c3a667a58d",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "038ea313-1366-45a5-be34-ac2e2508098f",
+      "start": 60,
+      "end": 67,
+      "text": "реклама"
+    }
+  },
+  {
+    "id": "36d71bea-abe3-468d-91af-ed9f85be4294",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ddb89cd7-5002-43b5-91f2-0340dafabd6b",
+      "start": 18,
+      "end": 23,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "cb618fef-8c1b-4d03-b08e-fdeb8a92e1be",
+    "name": "нейрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "50f1d6ce-f3fb-45fe-a9ed-34c0405ff543",
+      "start": 74,
+      "end": 80,
+      "text": "нейрок"
+    }
+  },
+  {
+    "id": "1d1bccc5-f248-400b-8604-a6a9c2ee08b2",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "350ff3ab-43be-498f-823b-2b64e6cd7fb7",
+      "start": 47,
+      "end": 52,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "fe1bf9b1-a02c-4e80-a33b-6155461e217c",
+    "name": "Калининградская область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ea3b9f0-a9a5-4eef-a167-55effd444efe",
+      "start": 17,
+      "end": 40,
+      "text": "калининградская область"
+    }
+  },
+  {
+    "id": "29536613-4ede-4851-b32f-199ffb48b894",
+    "name": "ун-медиа точка ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e1342936-41be-4d91-8c1e-ff240ef32f7f",
+      "start": 5,
+      "end": 21,
+      "text": "ун- медиа точка ру"
+    }
+  },
+  {
+    "id": "0c6bafbf-f91f-4449-a89a-a827bb7cffdb",
+    "name": "Калининград",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9111bbb-96a7-4512-99fd-f6506de7a6eb",
+      "start": 65,
+      "end": 76,
+      "text": "калининград"
+    }
+  },
+  {
+    "id": "1c304877-6a92-46cc-b9f1-84674be022f1",
+    "name": "Питер",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0a42f73-65c0-4cd9-afb6-248d311f559f",
+      "start": 20,
+      "end": 25,
+      "text": "питер"
+    }
+  },
+  {
+    "id": "b5f6c665-1c96-4f66-af05-670bd70ca03c",
+    "name": "Карелия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0a42f73-65c0-4cd9-afb6-248d311f559f",
+      "start": 27,
+      "end": 34,
+      "text": "карелия"
+    }
+  },
+  {
+    "id": "56e343ca-cc64-4223-9468-b348715cfa41",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0a42f73-65c0-4cd9-afb6-248d311f559f",
+      "start": 36,
+      "end": 54,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "546fdc7c-3d2d-420e-8c0d-21711c09f03a",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fc083c80-193b-423e-a178-ef80ba61fe9c",
+      "start": 16,
+      "end": 34,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "ecabd312-e118-4656-9dac-c4af92ae0f55",
+    "name": "Благовещенск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b8b7dabd-a7bd-4379-bdc0-b334a3eb87d5",
+      "start": 22,
+      "end": 34,
+      "text": "благовещенск"
+    }
+  },
+  {
+    "id": "b66a8e0a-7129-4de6-b187-90e16f11a51e",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b8b7dabd-a7bd-4379-bdc0-b334a3eb87d5",
+      "start": 49,
+      "end": 67,
+      "text": "краснодарском крае"
+    }
+  },
+  {
+    "id": "27a259a4-2d7a-4609-9e79-67bd0afd59e5",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56265d86-062d-4186-aa91-135107c2ddba",
+      "start": 71,
+      "end": 89,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "1218c586-b7cc-4381-9056-e87d7ae36d16",
+    "name": "март",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56265d86-062d-4186-aa91-135107c2ddba",
+      "start": 100,
+      "end": 105,
+      "text": "марте"
+    }
+  },
+  {
+    "id": "c5081e06-5fb7-4a50-9b72-2b62723d141c",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56265d86-062d-4186-aa91-135107c2ddba",
+      "start": 146,
+      "end": 164,
+      "text": "краснодарском крае"
+    }
+  },
+  {
+    "id": "2531bb91-a4f1-4a7b-a6c0-791c5377956b",
+    "name": "март",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56265d86-062d-4186-aa91-135107c2ddba",
+      "start": 168,
+      "end": 173,
+      "text": "марте"
+    }
+  },
+  {
+    "id": "22407a54-bc8f-4e6a-a308-74db32b60bc9",
+    "name": "Калининград",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b851b7-15fc-4e66-a7b8-2ac1425d56b8",
+      "start": 67,
+      "end": 78,
+      "text": "калининград"
+    }
+  },
+  {
+    "id": "785e37c9-82b9-4ee4-83ed-782bf1f5a2d2",
+    "name": "Питер",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b851b7-15fc-4e66-a7b8-2ac1425d56b8",
+      "start": 96,
+      "end": 101,
+      "text": "питер"
+    }
+  },
+  {
+    "id": "4b93137d-8371-4923-8d63-f19234dd4dd7",
+    "name": "Байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b851b7-15fc-4e66-a7b8-2ac1425d56b8",
+      "start": 113,
+      "end": 119,
+      "text": "байкал"
+    }
+  },
+  {
+    "id": "57626344-8139-450c-a2b7-d81cbf0e8814",
+    "name": "Карелия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b851b7-15fc-4e66-a7b8-2ac1425d56b8",
+      "start": 127,
+      "end": 134,
+      "text": "карелия"
+    }
+  },
+  {
+    "id": "68a317cd-1747-4d25-ad96-8b7bf2c77b68",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9f692825-ec34-4735-ae6b-51f266f8812a",
+      "start": 84,
+      "end": 102,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "95544e82-c89b-4342-ba66-621d3e963c8f",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f9623b6f-ad29-4a7d-9bf7-17e6e0aa2edd",
+      "start": 87,
+      "end": 105,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "6c0a4124-f8f0-45d4-bfc7-5e8076718170",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75b8c6c3-383c-4f70-8a9e-09ed4dbefd8b",
+      "start": 4,
+      "end": 11,
+      "text": "браузере"
+    }
+  },
+  {
+    "id": "b9c89559-63c2-49b0-a5cb-bfc93c47eaaf",
+    "name": "правая кнопка мыши",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75b8c6c3-383c-4f70-8a9e-09ed4dbefd8b",
+      "start": 31,
+      "end": 50,
+      "text": "правой кнопкой мыши"
+    }
+  },
+  {
+    "id": "bff9156c-bcd9-4b50-9134-342e71374bde",
+    "name": "значок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "75b8c6c3-383c-4f70-8a9e-09ed4dbefd8b",
+      "start": 82,
+      "end": 88,
+      "text": "значок"
+    }
+  },
+  {
+    "id": "8cc023ba-f707-4317-911f-817b368ce096",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a7e7223-60c6-4c01-a74d-9bf468d01b6f",
+      "start": 97,
+      "end": 104,
+      "text": "собакой"
+    }
+  },
+  {
+    "id": "258eb7c3-2b64-4ccc-8c65-d9f1d4ff7daf",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a7e7223-60c6-4c01-a74d-9bf468d01b6f",
+      "start": 132,
+      "end": 150,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "4e144a0a-d324-41c1-9e66-87ad12c5a66c",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f7adaa02-e44e-46ea-bc48-1adf93f4da68",
+      "start": 91,
+      "end": 109,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "e85e4619-8337-41b1-8cc4-277c9aaad181",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f7adaa02-e44e-46ea-bc48-1adf93f4da68",
+      "start": 125,
+      "end": 136,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "3c7bba97-8b38-4ca2-8e66-5c5c3465d25c",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f7adaa02-e44e-46ea-bc48-1adf93f4da68",
+      "start": 149,
+      "end": 156,
+      "text": "собакой"
+    }
+  },
+  {
+    "id": "5e98fbfb-3fc8-4679-b462-f6b2dd5f3e5b",
+    "name": "g алису",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3b7189a-9eda-4fcf-91b0-34af562e9806",
+      "start": 31,
+      "end": 38,
+      "text": "g алису"
+    }
+  },
+  {
+    "id": "33811098-37b2-475f-9084-d4b44926fc1a",
+    "name": "Алиса",
+    "type": "software",
+    "attributes": [
+      {
+        "key": "function",
+        "value": "add information",
+        "confidence": 0.8,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab165764-afd9-4324-b237-e36ec1d90790",
+      "start": 68,
+      "end": 71,
+      "text": "она"
+    }
+  },
+  {
+    "id": "528d6d1c-10fd-4eb6-8a74-4a7a2d7c7c4e",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e488ccfe-9523-46df-8ced-8ef1d6b19843",
+      "start": 44,
+      "end": 49,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "74f0711d-720b-46be-9c93-2b2079184f29",
+    "name": "вкладка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b38feb0-9fb7-4877-9946-1a22cc1fa30d",
+      "start": 54,
+      "end": 61,
+      "text": "вкладке"
+    }
+  },
+  {
+    "id": "20fd59a4-dba8-4dbc-8aee-ff8272d8b371",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b38feb0-9fb7-4877-9946-1a22cc1fa30d",
+      "start": 92,
+      "end": 97,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "ca4739dc-fe24-4707-bb9f-19038fa18568",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7b38feb0-9fb7-4877-9946-1a22cc1fa30d",
+      "start": 102,
+      "end": 107,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "d9879c65-8246-4a32-adac-dc03ec583111",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d01e858f-0cf1-41b4-a16d-5fdf2913f8ae",
+      "start": 34,
+      "end": 40,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "b9996313-c3b0-464c-b4e1-dab5575624af",
+    "name": "нейрооткрывающимся",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d01e858f-0cf1-41b4-a16d-5fdf2913f8ae",
+      "start": 66,
+      "end": 84,
+      "text": "нейрооткрывающимся"
+    }
+  },
+  {
+    "id": "09a02c64-bd8f-499f-b602-2e2f235e8c80",
+    "name": "кнопочка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a165881-1489-4de0-bd15-6450621300dc",
+      "start": 37,
+      "end": 45,
+      "text": "кнопочкой"
+    }
+  },
+  {
+    "id": "ae485192-24b3-4e81-bcf5-814d13ddfdd7",
+    "name": "уточните вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a165881-1489-4de0-bd15-6450621300dc",
+      "start": 46,
+      "end": 61,
+      "text": "уточните вопрос"
+    }
+  },
+  {
+    "id": "57787643-24b0-4dce-a429-75ab72cba9aa",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d36a7f1c-1a0c-4b68-80a9-d8eafe4aa015",
+      "start": 22,
+      "end": 28,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "0d30fd0f-9550-4e7d-a81c-4a62cf2d93b2",
+    "name": "взаимодействие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "698f8ce8-93c3-43dd-ba3c-4e6e1a8e617f",
+      "start": 43,
+      "end": 57,
+      "text": "взаимодействие"
+    }
+  },
+  {
+    "id": "0b95fe00-500f-427d-9e71-81ddfb6a6cf2",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "698f8ce8-93c3-43dd-ba3c-4e6e1a8e617f",
+      "start": 87,
+      "end": 92,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "9c0dc646-41f7-45d4-9988-f2bd97123371",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec93f984-f156-4ea1-b041-be7e6f01a0c6",
+      "start": 56,
+      "end": 74,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "42927ccc-2220-4112-99b8-4370df24ffe3",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b5e7f65-386b-4856-8f4c-e1699d525c92",
+      "start": 135,
+      "end": 142,
+      "text": "собакой"
+    }
+  },
+  {
+    "id": "fdbd0d05-e811-46ca-afcd-4781bdbd7278",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b5e7f65-386b-4856-8f4c-e1699d525c92",
+      "start": 146,
+      "end": 164,
+      "text": "краснодарском крае"
+    }
+  },
+  {
+    "id": "d807f12f-2a02-4d3d-90d1-8443f63271f5",
+    "name": "вкладочка исследований",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d663e8ab-b731-4754-bd01-17f4a8707d59",
+      "start": 54,
+      "end": 76,
+      "text": "вкладочка исследований"
+    }
+  },
+  {
+    "id": "1e716372-e9ef-4ec7-881d-2721b775aa2d",
+    "name": "интерфейс",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2e92dcef-0d72-4ecb-be6e-e53ac4d241a4",
+      "start": 44,
+      "end": 53,
+      "text": "интерфейс"
+    }
+  },
+  {
+    "id": "d8db532c-dca8-46d4-ae7c-fe50bc5bf3a9",
+    "name": "бета-разработка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73ad3979-87f1-48a6-8738-cdf2b0db46f6",
+      "start": 11,
+      "end": 26,
+      "text": "бета- разработка"
+    }
+  },
+  {
+    "id": "69cc84c7-33ab-4913-9e1d-ae79d8c0685d",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81374e95-b73a-4071-890a-10be02a44dde",
+      "start": 11,
+      "end": 17,
+      "text": "кнопка"
+    }
+  }
+]

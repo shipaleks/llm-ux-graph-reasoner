@@ -1,0 +1,567 @@
+[
+  {
+    "id": "79666da9-1c99-40e7-8325-4045b4440d83",
+    "source_id": "4b3cc31c-1176-40cf-beb2-953e2bb9cf24",
+    "target_id": "76b851f4-d2bc-4008-bcf9-e92dc47ee1a4",
+    "type": "INVESTIGATES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 0,
+      "end": 115,
+      "text": "Detective Oliver Croft, a reserved and contemplative man with perpetually tired eyes and a worn leather notebook always tucked into his coat, was summoned to investigate"
+    }
+  },
+  {
+    "id": "a4189b9c-4f13-4123-af69-509fad5bd0a8",
+    "source_id": "d4994183-769f-4b95-80c0-38b3f709b5b9",
+    "target_id": "76b851f4-d2bc-4008-bcf9-e92dc47ee1a4",
+    "type": "FOUND",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 149,
+      "end": 195,
+      "text": "antique locket found by a street musician named Simon Bellows"
+    }
+  },
+  {
+    "id": "521ff052-8b53-4c62-b7d9-1cb79914c531",
+    "source_id": "d4994183-769f-4b95-80c0-38b3f709b5b9",
+    "target_id": "b2f4ed2f-9198-4046-92a4-c9e312d1b4f7",
+    "type": "PERFORMED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 228,
+      "end": 267,
+      "text": "once a famed concert pianist whose melodies enchanted Europe’s elite"
+    }
+  },
+  {
+    "id": "ca40d3bc-c334-4025-9e3b-d00d98ae8dd7",
+    "source_id": "d4994183-769f-4b95-80c0-38b3f709b5b9",
+    "target_id": "0978cdd1-87c5-4b56-a7a7-18e8aff7e24f",
+    "type": "INVOLVED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 289,
+      "end": 345,
+      "text": "had been disgraced after a scandal involving Celia Rhodes"
+    }
+  },
+  {
+    "id": "580d16f0-ddc9-41fd-8dd3-692dba0d5a16",
+    "source_id": "0978cdd1-87c5-4b56-a7a7-18e8aff7e24f",
+    "target_id": "c6f0cd61-e3a2-4f77-b8df-83f2e795e385",
+    "type": "FORMER_GOVERNESS_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 347,
+      "end": 371,
+      "text": "Eleanor's former governess"
+    }
+  },
+  {
+    "id": "815685a4-3d3e-425a-b61f-1aaa6e6f07ac",
+    "source_id": "0978cdd1-87c5-4b56-a7a7-18e8aff7e24f",
+    "target_id": "2f3fe3a2-57de-4c65-b2a1-c39011cc52a5",
+    "type": "AFFAIR_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 409,
+      "end": 471,
+      "text": "rumors surrounding a supposed affair with Eleanor’s domineering father, Gregory Blythe"
+    }
+  },
+  {
+    "id": "68489753-06a3-4c3d-8676-30a3ae7c05f1",
+    "source_id": "2f3fe3a2-57de-4c65-b2a1-c39011cc52a5",
+    "target_id": "c6f0cd61-e3a2-4f77-b8df-83f2e795e385",
+    "type": "FATHER_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1e0a76c3-2af6-4be1-a744-3a45fe32df3c",
+      "start": 448,
+      "end": 471,
+      "text": "Eleanor’s domineering father, Gregory Blythe"
+    }
+  },
+  {
+    "id": "d70334e6-4bea-4d77-a564-6dd659606676",
+    "source_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "target_id": "c67c1d70-7dcd-448e-93b3-4e8cdc7e6cf3",
+    "type": "OWNS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 27,
+      "end": 67,
+      "text": "ran a vast shipping empire that spanned continents"
+    }
+  },
+  {
+    "id": "33da1aaf-d2eb-42cd-92b7-2ced6ecd2b72",
+    "source_id": "f5730c5b-7015-4a87-9ad4-bdd4b0c76e2e",
+    "target_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "type": "WORKS_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 69,
+      "end": 125,
+      "text": "closely assisted by his trusted but morally ambiguous accountant, Nathaniel Price"
+    }
+  },
+  {
+    "id": "e28060c1-3f39-4194-a7c4-5edfada7241c",
+    "source_id": "c6332643-b925-4a43-bf39-4066737ec5fa",
+    "target_id": "c8dc06f8-5aa9-4609-839f-bbfed8530c9d",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "relationship_type",
+        "value": "uncle-nephew",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 210,
+      "end": 236,
+      "text": "Nathaniel’s nephew, Jacob Price"
+    }
+  },
+  {
+    "id": "c615b2b8-1856-4215-bf4b-6b096ae726aa",
+    "source_id": "31953b80-a9ab-44a9-889b-dcbc8f0bf1cf",
+    "target_id": "c6f0cd61-e3a2-4f77-b8df-83f2e795e385",
+    "type": "COURTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 259,
+      "end": 314,
+      "text": "secretly courted Eleanor despite Gregory’s fierce disapproval"
+    }
+  },
+  {
+    "id": "0adfbeeb-80bc-4544-a4a9-56d4f0d4c209",
+    "source_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "target_id": "31953b80-a9ab-44a9-889b-dcbc8f0bf1cf",
+    "type": "DISAPPROVES_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 259,
+      "end": 314,
+      "text": "secretly courted Eleanor despite Gregory’s fierce disapproval"
+    }
+  },
+  {
+    "id": "62c6c226-3275-4bb7-80b9-11a4d26bea2c",
+    "source_id": "31953b80-a9ab-44a9-889b-dcbc8f0bf1cf",
+    "target_id": "681c7cd2-2f1d-43eb-8c45-e8e3cf53e25f",
+    "type": "AUTHORED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 316,
+      "end": 374,
+      "text": "Jacob’s letters, filled with poetic declarations yet tinged with desperation"
+    }
+  },
+  {
+    "id": "f4789d41-64c0-4657-b7c4-a1f7d585231a",
+    "source_id": "27c92748-1385-4f80-b4dc-c9372a3d1a10",
+    "target_id": "681c7cd2-2f1d-43eb-8c45-e8e3cf53e25f",
+    "type": "INTERCEPTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 391,
+      "end": 448,
+      "text": "were frequently intercepted by Prudence Hartwell, the Blythe family's meticulous and judgmental housekeeper"
+    }
+  },
+  {
+    "id": "66c39341-5ff2-4247-82d0-ff4159f28a6f",
+    "source_id": "27c92748-1385-4f80-b4dc-c9372a3d1a10",
+    "target_id": "13f65304-70d7-4604-9d89-d0a2298052a5",
+    "type": "WORKS_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 448,
+      "end": 516,
+      "text": "the Blythe family's meticulous and judgmental housekeeper"
+    }
+  },
+  {
+    "id": "9f26681d-1696-44ea-8f50-9bd522fa0f25",
+    "source_id": "27c92748-1385-4f80-b4dc-c9372a3d1a10",
+    "target_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "type": "HAS_FEELINGS_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5188f7c9-62c7-4ced-a73a-043536cee94f",
+      "start": 518,
+      "end": 593,
+      "text": "who secretly harbored a profound and unrequited affection for Gregory"
+    }
+  },
+  {
+    "id": "4591fa86-8e30-45d2-902a-721517483bfd",
+    "source_id": "367f3a62-4b51-440d-95b5-7382ce27d7df",
+    "target_id": "729aa1e6-0edc-42c3-bf74-6a516ca75e74",
+    "type": "SEEKS_COUNSEL_FROM",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 0,
+      "end": 73,
+      "text": "Prudence regularly sought counsel in Reverend Edmund Crane, a gentle clergyman"
+    }
+  },
+  {
+    "id": "73d0556c-fb64-4b20-a40f-ea1be9fe1589",
+    "source_id": "e9489298-a275-4730-9a20-a059d6236623",
+    "target_id": "dda6c06e-101c-4faa-96c8-199af123de66",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "relationship_type",
+        "value": "sibling",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 110,
+      "end": 135,
+      "text": "Edmund's younger sister, Harriet"
+    }
+  },
+  {
+    "id": "942d6935-2a6c-4bea-8b8f-8279fb078fc6",
+    "source_id": "dda6c06e-101c-4faa-96c8-199af123de66",
+    "target_id": "6fd24e13-12ab-4cac-81b5-edf595d88a37",
+    "type": "MANAGES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 137,
+      "end": 168,
+      "text": "managed the local bookstore"
+    }
+  },
+  {
+    "id": "fa522859-5f66-4d8a-94c0-acfcc94e0623",
+    "source_id": "dda6c06e-101c-4faa-96c8-199af123de66",
+    "target_id": "a91f2d7e-b20d-483d-9ee1-60768fefcba3",
+    "type": "DISPLAYS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 217,
+      "end": 276,
+      "text": "Harriet’s shelves prominently displayed a curious and obscure tome titled \"The Silent Echo,\""
+    }
+  },
+  {
+    "id": "db40d853-ca3c-409b-827c-caecce155de2",
+    "source_id": "d2ca2556-f7a7-4418-a2f8-f937ab28a2ff",
+    "target_id": "a91f2d7e-b20d-483d-9ee1-60768fefcba3",
+    "type": "AUTHORED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 277,
+      "end": 314,
+      "text": "written by Maxwell Finch—Gregory's estranged cousin"
+    }
+  },
+  {
+    "id": "07623b07-d969-4628-a0db-b7c3763c7237",
+    "source_id": "d2ca2556-f7a7-4418-a2f8-f937ab28a2ff",
+    "target_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "relationship_type",
+        "value": "cousin",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 291,
+      "end": 314,
+      "text": "Maxwell Finch—Gregory's estranged cousin"
+    }
+  },
+  {
+    "id": "cf5c69d9-6606-44c9-9a65-12ad8b81487b",
+    "source_id": "a91f2d7e-b20d-483d-9ee1-60768fefcba3",
+    "target_id": "16ec47f9-3782-42fa-bd89-37e104843a1e",
+    "type": "ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 316,
+      "end": 371,
+      "text": "detailing a murder chillingly reminiscent of Eleanor's own mysterious disappearance"
+    }
+  },
+  {
+    "id": "47d44c6e-4f4d-497a-9867-208be02c05f3",
+    "source_id": "16ec47f9-3782-42fa-bd89-37e104843a1e",
+    "target_id": "fae5150d-cc71-40da-9ff4-dbc157cfd2ab",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 341,
+      "end": 371,
+      "text": "reminiscent of Eleanor's own mysterious disappearance"
+    }
+  },
+  {
+    "id": "0d9e98fd-15d6-460e-9bcb-0d99722647e5",
+    "source_id": "5cb682b6-4bf3-4882-a139-2967476ad33d",
+    "target_id": "f73c38b6-25c6-4b6d-902c-041013e10142",
+    "type": "CLAIMS_ABOUT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2645ba1b-5529-48f3-8b3a-90335335047e",
+      "start": 404,
+      "end": 441,
+      "text": "had long insisted the novel was purely fictional"
+    }
+  },
+  {
+    "id": "0c065e58-f617-4ecb-b549-6d91fc5cbc0c",
+    "source_id": "30622c8c-9e41-4486-ab1b-02c97df6c109",
+    "target_id": "2108409c-49a6-47ff-a061-8de10d84c824",
+    "type": "INVESTIGATES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 0,
+      "end": 105,
+      "text": "Amelia Cole, an ambitious young journalist with an unyielding thirst for truth, tirelessly chased leads regarding the myriad secrets and scandals enveloping the Blythe family"
+    }
+  },
+  {
+    "id": "edc35c97-03c3-4e3c-b262-7242af0a5cf4",
+    "source_id": "f49b9aa8-7cde-452b-a8c6-0aa6fdf83703",
+    "target_id": "c20be3d8-333c-433e-903b-c3eed1cd298c",
+    "type": "AIDED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 107,
+      "end": 166,
+      "text": "Amelia was discreetly aided by her reluctant informant, Dr. Tobias Sinclair"
+    }
+  },
+  {
+    "id": "530af511-e532-4052-9d27-c2404f587e1a",
+    "source_id": "c20be3d8-333c-433e-903b-c3eed1cd298c",
+    "target_id": "2108409c-49a6-47ff-a061-8de10d84c824",
+    "type": "WORKS_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 168,
+      "end": 192,
+      "text": "the family physician burdened by a dark knowledge"
+    }
+  },
+  {
+    "id": "8c9a0a5b-0378-4eec-9589-e24c51e0cdbf",
+    "source_id": "c20be3d8-333c-433e-903b-c3eed1cd298c",
+    "target_id": "5befd7a7-b262-4fcf-b1a3-6aa8f00c81c9",
+    "type": "TREATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 219,
+      "end": 259,
+      "text": "acquired decades earlier when treating Gregory’s late wife, Margaret"
+    }
+  },
+  {
+    "id": "a22d41a2-582b-47c4-affe-57e403c93fa8",
+    "source_id": "5befd7a7-b262-4fcf-b1a3-6aa8f00c81c9",
+    "target_id": "8eed6e45-d245-45a4-b455-e0eb1922566f",
+    "type": "SPOUSE_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 241,
+      "end": 259,
+      "text": "Gregory’s late wife, Margaret"
+    }
+  },
+  {
+    "id": "c6aa7e57-2418-4ea1-8815-5e8f3743215c",
+    "source_id": "c257bda5-f2fe-4048-81c3-d8d85df31ea2",
+    "target_id": "5befd7a7-b262-4fcf-b1a3-6aa8f00c81c9",
+    "type": "HAUNTED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "5d406a1b-487b-4fa1-b0a4-46ed8b1be42f",
+      "start": 286,
+      "end": 305,
+      "text": "haunted Tobias deeply"
+    }
+  },
+  {
+    "id": "279d1300-f02d-412f-b862-8addd102f382",
+    "source_id": "ec8921fc-6d6b-4109-84fe-92ec418b6b78",
+    "target_id": "6b3ea08f-69d6-42c2-b3b9-bccc3d51a6e3",
+    "type": "WATCHES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "207b5415-a660-420a-a67d-10dee1ec216f",
+      "start": 21,
+      "end": 111,
+      "text": "Detective Croft meticulously watched interactions unfold at Madame Agnes’ elegant tea salon, a neutral ground where Glenmoor's socialites and gentry discreetly mingled"
+    }
+  },
+  {
+    "id": "a2599d1a-1179-42bd-8dc0-13670bde8673",
+    "source_id": "e25aef21-fcca-4d2c-8ac3-65f8021e7d42",
+    "target_id": "54cc9993-a86c-4eff-a722-509e4ca617e2",
+    "type": "FORMERLY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "207b5415-a660-420a-a67d-10dee1ec216f",
+      "start": 144,
+      "end": 186,
+      "text": "once a celebrated Parisian opera singer"
+    }
+  },
+  {
+    "id": "1614882f-5e87-4873-894a-ca19de369d14",
+    "source_id": "ec8921fc-6d6b-4109-84fe-92ec418b6b78",
+    "target_id": "3587397c-07db-4755-9ad3-1db9d48c87b9",
+    "type": "FOUND",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "3c1b8522-7d85-4350-83e7-4635a98170eb",
+      "start": 95,
+      "end": 134,
+      "text": "Detective Croft found Celia Rhodes, alive"
+    }
+  }
+]

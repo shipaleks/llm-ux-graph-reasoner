@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: story.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: story.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-07 23:51:16</p>
+            <p><strong>Источник:</strong> /Users/shipaleks/Downloads/story.txt</p>
+            <p><strong>Количество сущностей:</strong> 32</p>
+            <p><strong>Количество связей:</strong> 24</p>
+            <p><strong>Количество текстовых сегментов:</strong> 10</p>
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 32 сущностей 7 различных типов и 24 связей 19 различных видов. Наиболее распространенные типы сущностей: person (22), location (3), occupation (3). Преобладающие типы связей: same_as (5), occupation (2), sought_counsel_in (1). Ключевые темы, исследуемые в тексте: The disappearance of Eleanor Blythe in the coastal town of Glenmoor sets off a complex investigation led by Detective Oliver Croft, revealing a web of interconnected secrets and scandals among the town's residents. The story follows the detective as he uncovers clues and hidden relationships, ultimately leaving the mystery unsolved but exposing the dark undercurrents of the community. A mysterious disappearance unfolds in the coastal town of Glenmoor, centered around Eleanor Blythe, the heiress to the Blythe family estate. The town's residents are caught up in the unfolding mystery. Detective Oliver Croft is called to investigate, and his first clue is an antique locket found by a disgraced musician, Simon Bellows, who has connections to a past scandal.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 32 сущностей и 24 связей. Наиболее центральные сущности в графе: Maxwell Finch, Amelia Cole, Dr. Tobias Sinclair, которые формируют ключевые точки связи в сети. Граф состоит из 8 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством связей между сущностями. Наиболее значимая теория, полученная в результате анализа — 'The Glenmoor Conspiracy: Unveiling Hidden Connections and Secrets' с уровнем достоверности 0.85.  Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на 10 логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 2 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены 32 ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены 24 связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 2 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 1</h4>
+                <p><strong>Сводка:</strong> The disappearance of Eleanor Blythe in the coastal town of Glenmoor sets off a complex investigation led by Detective Oliver Croft, revealing a web of interconnected secrets and scandals among the town's residents. The story follows the detective as he uncovers clues and hidden relationships, ultimately leaving the mystery unsolved but exposing the dark undercurrents of the community.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Eleanor Blythe's disappearance is the central mystery.</li>
+                    
+                    <li>Detective Croft investigates, uncovering clues and connections.</li>
+                    
+                    <li>Numerous characters are introduced, each with secrets and potential motives.</li>
+                    
+                    <li>The story highlights past scandals and relationships within the Blythe family and Glenmoor.</li>
+                    
+                    <li>The investigation concludes without a definitive resolution, leaving the truth ambiguous.</li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 2</h4>
+                <p><strong>Сводка:</strong> A mysterious disappearance unfolds in the coastal town of Glenmoor, centered around Eleanor Blythe, the heiress to the Blythe family estate. The town's residents are caught up in the unfolding mystery.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Setting: Coastal town of Glenmoor, foggy and with cobblestone streets.</li>
+                    
+                    <li>Central mystery: Disappearance of Eleanor Blythe.</li>
+                    
+                    <li>Eleanor Blythe: Heiress of the Blythe family estate.</li>
+                    
+                    <li>Impact: The mystery affects all residents of Glenmoor.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment is the same as the parent context; it introduces the setting, the central conflict (Eleanor's disappearance), and the overall atmosphere of mystery.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 3</h4>
+                <p><strong>Сводка:</strong> Detective Oliver Croft is called to investigate, and his first clue is an antique locket found by a disgraced musician, Simon Bellows, who has connections to a past scandal.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Detective Croft is introduced as the investigator.</li>
+                    
+                    <li>An antique locket is the first clue.</li>
+                    
+                    <li>Simon Bellows, a disgraced musician, found the locket.</li>
+                    
+                    <li>Simon was involved in a scandal with Celia Rhodes.</li>
+                    
+                    <li>Celia Rhodes was Eleanor's former governess and vanished years ago.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the initial setup introduced in the parent context by introducing the detective and the first clue, setting the stage for the mystery.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 4</h4>
+                <p><strong>Сводка:</strong> Gregory runs a vast shipping empire with the help of his accountant, Nathaniel Price, while Nathaniel's nephew, Jacob, is secretly courting Eleanor, of whom Gregory disapproves. The housekeeper, Prudence Hartwell, intercepts their letters and harbors unrequited feelings for Gregory.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Gregory leads a large shipping business.</li>
+                    
+                    <li>Nathaniel Price, Gregory's accountant, has secrets.</li>
+                    
+                    <li>Jacob Price (Nathaniel's nephew) loves Eleanor.</li>
+                    
+                    <li>Gregory disapproves of Jacob and Eleanor's relationship.</li>
+                    
+                    <li>Prudence Hartwell intercepts letters and loves Gregory.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the initial setting and introduces key characters and their relationships within the larger context of Glenmoor's unfolding mystery.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 5</h4>
+                <p><strong>Сводка:</strong> Reverend Edmund Crane struggles with his faith, while his sister, Harriet, runs a bookstore where a book by Gregory's cousin hints at Eleanor's disappearance. The book, "The Silent Echo," details a murder similar to Eleanor's case, though its author, Maxwell Finch, claims it's fiction.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Reverend Crane faces a crisis of faith.</li>
+                    
+                    <li>Harriet, the Reverend's sister, manages a bookstore.</li>
+                    
+                    <li>"The Silent Echo," a book by Maxwell Finch, mirrors Eleanor's disappearance.</li>
+                    
+                    <li>Maxwell Finch is Gregory's estranged cousin.</li>
+                    
+                    <li>Townsfolk suspect the book is not entirely fictional.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the initial setting and introduces key characters and a central plot element (the book) related to the mystery mentioned in the parent context.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 6</h4>
+                <p><strong>Сводка:</strong> Journalist Amelia Cole investigates the Blythe family's secrets, aided by Dr. Tobias Sinclair, who is haunted by the suspicious death of Gregory Blythe's wife, Margaret.  Dr. Sinclair acts as Amelia's reluctant informant due to his troubled conscience.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Amelia Cole is a journalist investigating the Blythe family.</li>
+                    
+                    <li>Dr. Tobias Sinclair is the Blythe family physician and Amelia's informant.</li>
+                    
+                    <li>Margaret Blythe's death was officially ruled as natural, but Tobias has doubts.</li>
+                    
+                    <li>Tobias is a reluctant informant, driven by his conscience.</li>
+                    
+                    <li>Amelia is pursuing secrets and scandals related to the Blythe family.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the higher-level idea of a mystery unfolding in Glenmoor by introducing key characters and the central conflict surrounding the Blythe family.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 7</h4>
+                <p><strong>Сводка:</strong> Detective Croft observes the interactions at Madame Agnes' tea salon, a popular meeting place for Glenmoor's elite. Madame Agnes, a former opera singer and friend of Eleanor, is visibly distressed by Eleanor's disappearance.</p>
+                <p><strong>Роль в тексте:</strong> setting</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Detective Croft uses the tea salon for observation.</li>
+                    
+                    <li>The salon is a neutral meeting place for Glenmoor's upper class.</li>
+                    
+                    <li>Madame Agnes is the owner and a former Parisian opera singer.</li>
+                    
+                    <li>Madame Agnes was close to Eleanor.</li>
+                    
+                    <li>Madame Agnes is distressed by Eleanor's disappearance.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the setting and introduces a key location and character within the broader mystery narrative established in the parent context.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 8</h4>
+                <p><strong>Сводка:</strong> Detective Croft gathered information from various sources, including overheard conversations, hidden letters, and observations from multiple witnesses. These clues pointed towards a complex situation involving several individuals connected to Eleanor's disappearance.</p>
+                <p><strong>Роль в тексте:</strong> evidence gathering</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Detective Croft used multiple sources of information.</li>
+                    
+                    <li>Simon Bellows saw Eleanor arguing with Jacob.</li>
+                    
+                    <li>Prudence saw Nathaniel entering Eleanor's chamber.</li>
+                    
+                    <li>Reverend Crane saw Celia near the estate.</li>
+                    
+                    <li>Harriet noticed missing pages from Maxwell's novel.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment develops the initial mystery introduced in the parent context by presenting the first concrete clues and suspects.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 9</h4>
+                <p><strong>Сводка:</strong> Detective Croft discovered Celia Rhodes, the missing person, hiding in the attic above Harriet's bookstore. Celia was alive but remained evasive and cryptic about her past, leaving the detective with unresolved questions.</p>
+                <p><strong>Роль в тексте:</strong> conclusion</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Celia Rhodes was found alive.</li>
+                    
+                    <li>Discovery location: attic of Harriet's bookstore.</li>
+                    
+                    <li>Celia was hiding and burdened by guilt.</li>
+                    
+                    <li>Celia remained cryptic and uncooperative.</li>
+                    
+                    <li>Detective Croft left with unanswered questions.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment provides the resolution to the mystery introduced in the parent context, revealing the fate of the missing person and the circumstances of their disappearance, although some mystery remains.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 10</h4>
+                <p><strong>Сводка:</strong> Detective Croft closed the investigation into Eleanor's disappearance, leaving her fate unknown. The secrets and complex history of Glenmoor's inhabitants remained hidden.</p>
+                <p><strong>Роль в тексте:</strong> conclusion</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Investigation officially closed.</li>
+                    
+                    <li>Eleanor's whereabouts unknown.</li>
+                    
+                    <li>Glenmoor's secrets remain.</li>
+                    
+                    <li>Scandal, sorrow, longing, and redemption hinted at.</li>
+                    
+                    <li>Truths remain unspoken.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> This segment concludes the overarching narrative introduced in the parent context, resolving (or rather, not resolving) the central mystery of Eleanor's disappearance and highlighting the lasting impact on Glenmoor.</p>
+                
+            </div>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Сегмент 1</td>
+                        <td>Common theme</td>
+                        <td>Сегмент 2</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Сегмент 2</td>
+                        <td>Common theme</td>
+                        <td>Сегмент 3</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Prudence</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Reverend Edmund Crane</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Edmund</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Harriet</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>bookstore</td>
+                        <td>location</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eleanor</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Glenmoor</td>
+                        <td>location</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Silent Echo</td>
+                        <td>book</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maxwell Finch</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Gregory</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maxwell</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>townsfolk</td>
+                        <td>group</td>
+                        <td>0.96</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia Cole</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>journalist</td>
+                        <td>occupation</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Blythe family</td>
+                        <td>family</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dr. Tobias Sinclair</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>family physician</td>
+                        <td>occupation</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Margaret</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tobias</td>
+                        <td>person</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia</td>
+                        <td>person</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Sunday</td>
+                        <td>date</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Detective Croft</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Madame Agnes</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Parisian opera singer</td>
+                        <td>occupation</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Europe</td>
+                        <td>location</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Simon Bellows</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Jacob</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Nathaniel</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Reverend Crane</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Celia Rhodes</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Celia</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Croft</td>
+                        <td>person</td>
+                        <td>0.97</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Prudence</td>
+                        <td>sought_counsel_in</td>
+                        <td>Reverend Edmund Crane</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Harriet</td>
+                        <td>younger_sister_of</td>
+                        <td>Edmund</td>
+                        <td>0.98</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Harriet</td>
+                        <td>managed</td>
+                        <td>bookstore</td>
+                        <td>0.97</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eleanor</td>
+                        <td>frequented</td>
+                        <td>bookstore</td>
+                        <td>0.96</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Silent Echo</td>
+                        <td>written_by</td>
+                        <td>Maxwell Finch</td>
+                        <td>0.99</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maxwell Finch</td>
+                        <td>estranged_cousin_of</td>
+                        <td>Gregory</td>
+                        <td>0.98</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maxwell Finch</td>
+                        <td>same_as</td>
+                        <td>Maxwell</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>townsfolk</td>
+                        <td>sensed_otherwise</td>
+                        <td>Maxwell</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia Cole</td>
+                        <td>same_as</td>
+                        <td>Amelia</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia Cole</td>
+                        <td>occupation</td>
+                        <td>journalist</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia Cole</td>
+                        <td>chased_leads_regarding</td>
+                        <td>Blythe family</td>
+                        <td>0.85</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia</td>
+                        <td>aided_by</td>
+                        <td>Dr. Tobias Sinclair</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dr. Tobias Sinclair</td>
+                        <td>same_as</td>
+                        <td>Tobias</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dr. Tobias Sinclair</td>
+                        <td>occupation</td>
+                        <td>family physician</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Margaret</td>
+                        <td>wife_of</td>
+                        <td>Gregory</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Detective Croft</td>
+                        <td>watched_interactions_at</td>
+                        <td>Madame Agnes</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Madame Agnes</td>
+                        <td>former_occupation</td>
+                        <td>Parisian opera singer</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Parisian opera singer</td>
+                        <td>known_throughout</td>
+                        <td>Europe</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Simon Bellows</td>
+                        <td>saw_arguing_with</td>
+                        <td>Jacob</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Prudence</td>
+                        <td>witnessed_slipping_into_chamber</td>
+                        <td>Nathaniel</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Reverend Crane</td>
+                        <td>noticed_lurking_near</td>
+                        <td>Celia Rhodes</td>
+                        <td>0.85</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Celia</td>
+                        <td>same_as</td>
+                        <td>Celia Rhodes</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Croft</td>
+                        <td>same_as</td>
+                        <td>Detective Croft</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Detective Croft</td>
+                        <td>found</td>
+                        <td>Celia Rhodes</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.0242</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.5</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">5</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Maxwell Finch</td>
+                        <td>0.097</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Amelia Cole</td>
+                        <td>0.097</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dr. Tobias Sinclair</td>
+                        <td>0.097</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Detective Croft</td>
+                        <td>0.097</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Celia Rhodes</td>
+                        <td>0.097</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Prudence</td>
+                        <td>0.065</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Harriet</td>
+                        <td>0.065</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>bookstore</td>
+                        <td>0.065</td>
+                        <td>location</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Gregory</td>
+                        <td>0.065</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maxwell</td>
+                        <td>0.065</td>
+                        <td>person</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+            <div class="research-process">
+                <h3>The Glenmoor Conspiracy: Unveiling Hidden Connections and Secrets</h3>
+                <p><strong>Достоверность:</strong> 0.85</p>
+                <p></p>
+                
+                
+            </div>
+            
+            <div class="research-process">
+                <h3>The Theatrical Web: A Performance of Deception in Glenmoor</h3>
+                <p><strong>Достоверность:</strong> 0.75</p>
+                <p></p>
+                
+                
+            </div>
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Maxwell Finch, Amelia Cole, Dr. Tobias Sinclair как центральные концепции, связывающие несколько тем. Преобладающие типы отношений (wife_of, former_occupation, managed) подчеркивают ключевые взаимодействия в предметной области. В ходе анализа было сформировано 2 теорий, объясняющих наблюдаемые закономерности. Теория 'The Glenmoor Conspiracy: Unveiling Hidden Connections and Secrets' имеет наиболее сильную поддержку с достоверностью 0.85. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-07 23:51:16</p>
+        </div>
+    </footer>
+</body>
+</html>

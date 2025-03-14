@@ -1,0 +1,82 @@
+[
+  {
+    "id": "b45e9b71-8728-495a-8a16-17e70f0de60e",
+    "source_id": "ec2f7d43-42dd-4033-99c1-309a9d1fc010",
+    "target_id": "5ec05954-1dca-4ad8-868d-7b88dec379d1",
+    "type": "APPLIED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "72a410cf-2bcc-4358-8d70-f3514dd5bd9c",
+      "start": 54,
+      "end": 60,
+      "text": "шлепают"
+    }
+  },
+  {
+    "id": "309acaad-fb97-45fc-bf25-b31f3b875416",
+    "source_id": "5ec05954-1dca-4ad8-868d-7b88dec379d1",
+    "target_id": "30481414-55d9-4ecd-aa77-036474416a85",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "72a410cf-2bcc-4358-8d70-f3514dd5bd9c",
+      "start": 73,
+      "end": 86,
+      "text": "приказ, проект"
+    }
+  },
+  {
+    "id": "71452754-4539-49e8-9e2e-3980239bffea",
+    "source_id": "d7d97359-8fbc-44d8-b1b1-5c72227cc58a",
+    "target_id": "62cbaf22-2f0e-4f2f-ba02-5ac04de206a8",
+    "type": "LOCATED_AT",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "605fe6a8-85a4-4adf-8a56-a5cee01eb37b",
+      "start": 44,
+      "end": 58,
+      "text": "на городские пляжи"
+    }
+  },
+  {
+    "id": "228bf1fa-1a3a-407e-8844-c026838a0892",
+    "source_id": "0aa17b07-a5ef-4c20-a995-324cbc2cc2d7",
+    "target_id": "24a0bda7-cc34-4021-99bf-666cb7cddb40",
+    "type": "GIFT_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4eae7d24-cedd-4f7e-bf11-aa3230f194b9",
+      "start": 10,
+      "end": 25,
+      "text": "подарить девушке"
+    }
+  },
+  {
+    "id": "e7440237-c763-47e4-af46-f72d1eb00641",
+    "source_id": "0aa17b07-a5ef-4c20-a995-324cbc2cc2d7",
+    "target_id": "53a9a834-765f-4aab-b6d1-e95c1c4e63a5",
+    "type": "GIFT_ON",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4eae7d24-cedd-4f7e-bf11-aa3230f194b9",
+      "start": 29,
+      "end": 42,
+      "text": "на восьмое марта"
+    }
+  }
+]

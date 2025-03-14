@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2bb9a2eb-ec5d-4aa2-93e0-09566a1dae05",
+    "name": "поиском",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "498efc82-3cb5-47a2-88f0-c3f72c2dd1ae",
+      "start": 35,
+      "end": 43,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "148cd768-8b30-475e-bfca-f57dc0bc63e9",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "498efc82-3cb5-47a2-88f0-c3f72c2dd1ae",
+      "start": 99,
+      "end": 104,
+      "text": "нейро"
+    }
+  }
+]

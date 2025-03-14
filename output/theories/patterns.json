@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Leadership and Organizational Structure",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "This pattern highlights the hierarchical structure within organizations, specifically focusing on the 'генеральный_директор' (CEO) relationship. It reveals who leads which organization.",
+    "examples": [
+      {
+        "text": "Иван Петров → ТехноИнновации",
+        "explanation": "Иван Петров is the CEO of ТехноИнновации."
+      },
+      {
+        "text": "Алексей Смирнов → Глобал Системс",
+        "explanation": "Алексей Смирнов is the CEO of Глобал Системс."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern is significant because it establishes the leadership roles within the organizations, providing insight into the management structure and potential decision-making processes."
+  },
+  {
+    "name": "Temporal Anchoring of Organizations",
+    "type": "temporal",
+    "subtype": "semantic",
+    "description": "This pattern focuses on the temporal aspect of organizations, specifically when they were founded ('основана'). It provides a timeline for the existence of these entities.",
+    "examples": [
+      {
+        "text": "ТехноИнновации → 2010",
+        "explanation": "ТехноИнновации was founded in 2010."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "Knowing the founding date provides context for the organization's maturity, experience, and potential market position. It allows for comparisons between organizations based on their age."
+  },
+  {
+    "name": "Employee-Organization Relationship Over Time",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "This pattern describes the relationship between a person and the organizations they have worked with, including both current ('работает_с') and past ('работала_в') affiliations. It highlights career trajectories and organizational connections.",
+    "examples": [
+      {
+        "text": "Мария Сидорова → 2015",
+        "explanation": "Maria has been working with the organization since 2015."
+      },
+      {
+        "text": "Мария Сидорова → ИТ-Решения",
+        "explanation": "Maria used to work at IT-Resheniya."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals the professional history of individuals and their connections to different organizations. It can be used to understand employee mobility, skill development, and potential conflicts of interest."
+  },
+  {
+    "name": "Geographic Location of Organizations",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "This pattern identifies the physical location where an organization is based ('базируется_в'). It provides geographic context for the organization's operations.",
+    "examples": [
+      {
+        "text": "Глобал Системс → Санкт-Петербург",
+        "explanation": "Global Systems is based in Saint Petersburg."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "Knowing the location of an organization can be important for understanding its target market, access to resources, and potential collaborations with other local entities. It also provides a geographic anchor for the organization's activities."
+  }
+]

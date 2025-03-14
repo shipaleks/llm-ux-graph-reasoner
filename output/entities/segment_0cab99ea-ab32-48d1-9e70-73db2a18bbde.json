@@ -1,0 +1,30 @@
+[
+  {
+    "id": "743e4575-1904-4371-aa5e-13ac2c78ecdf",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cab99ea-ab32-48d1-9e70-73db2a18bbde",
+      "start": 27,
+      "end": 33,
+      "text": "музыка"
+    }
+  },
+  {
+    "id": "4fe5f673-1826-49b5-9826-5dbc8222d65b",
+    "name": "яндекс музыка",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cab99ea-ab32-48d1-9e70-73db2a18bbde",
+      "start": 35,
+      "end": 47,
+      "text": "яндекс музыка"
+    }
+  }
+]

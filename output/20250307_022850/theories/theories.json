@@ -1,0 +1,191 @@
+[
+  {
+    "title": "The Yandex Conversational AI Ecosystem Theory",
+    "summary": "This theory posits that the knowledge graph represents a conversational AI ecosystem centered around Yandex, focusing on information retrieval, user interaction, and service integration, primarily driven by Yandex's AI assistant, Alice, and its underlying technology, Neuro.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Алиса",
+        "type": "person",
+        "role": "Central conversational AI agent facilitating user interaction."
+      },
+      {
+        "name": "Нейро",
+        "type": "technology",
+        "role": "Underlying AI technology powering information retrieval and refinement."
+      },
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Provider of the overall ecosystem and its various services."
+      },
+      {
+        "name": "поиск",
+        "type": "process",
+        "role": "Core function enabling information retrieval within the ecosystem."
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Алиса",
+        "target": "Яндекс",
+        "type": "part_of"
+      },
+      {
+        "source": "Нейро",
+        "target": "Алиса",
+        "type": "uses"
+      },
+      {
+        "source": "Алиса",
+        "target": "поиск",
+        "type": "uses"
+      },
+      {
+        "source": "поиск",
+        "target": "подборка",
+        "type": "explains"
+      }
+    ],
+    "evidence": [
+      {
+        "text": "The graph contains numerous entities representing Yandex products and services (Yandex Travel, Yandex Market, Yandex Browser).",
+        "relevance": "Supports the postulate of Yandex ecosystem integration."
+      },
+      {
+        "text": "Alice and Neuro are frequently mentioned and connected to various concepts and features.",
+        "relevance": "Supports the postulate of conversational AI centrality."
+      },
+      {
+        "text": "Relationships like 'provides_answer' and 'can_be_refined' demonstrate the information retrieval and refinement process.",
+        "relevance": "Supports the postulate of information seeking and refinement."
+      },
+      {
+        "text": "The 'mentions' relationship connects diverse entities, suggesting contextual understanding.",
+        "relevance": "Supports the Contextual Understanding mechanism."
+      },
+      {
+        "text": "The 'suggests' relationship links Alice to various Yandex services.",
+        "relevance": "Supports the Service Integration mechanism."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.85,
+    "alternative_explanations": [
+      {
+        "summary": "The graph represents a simple knowledge base for a specific Yandex product, rather than a comprehensive ecosystem.",
+        "confidence": 0.3
+      },
+      {
+        "summary": "The graph is a collection of user search queries related to Yandex, without representing an underlying AI system.",
+        "confidence": 0.2
+      }
+    ],
+    "gaps": [
+      "Details on user interaction data and personalization mechanisms.",
+      "Information on how the ecosystem handles ambiguity and errors in user queries.",
+      "Representation of external services and their interaction with the Yandex ecosystem."
+    ]
+  },
+  {
+    "title": "The User-Centric Information Landscape Theory",
+    "summary": "This theory proposes that the knowledge graph represents a user's interaction with a diverse information landscape, where Yandex acts as a major, but not exclusive, provider. The focus is on how a user navigates, refines, and compares information from various sources, including but not limited to Yandex services.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "User (Implicit)",
+        "type": null,
+        "role": "The central agent driving the information-seeking process."
+      },
+      {
+        "name": "Yandex",
+        "type": "organization",
+        "role": "A major information provider and service platform."
+      },
+      {
+        "name": "Алиса",
+        "type": "product",
+        "role": "An AI assistant facilitating user interaction and information retrieval."
+      },
+      {
+        "name": "concept",
+        "type": "concept",
+        "role": "Represents abstract ideas or topics of interest to the user."
+      },
+      {
+        "name": "product",
+        "type": "product",
+        "role": "Represents specific products or services the user is researching."
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "User (Implicit)",
+        "target": "concept",
+        "type": "queries",
+        "description": "The user initiates searches based on concepts."
+      },
+      {
+        "source": "concept",
+        "target": "concept",
+        "type": "can_be_refined",
+        "description": "The user refines their search to more specific concepts."
+      },
+      {
+        "source": "Алиса",
+        "target": "product",
+        "type": "suggests",
+        "description": "The AI assistant suggests relevant products or services."
+      },
+      {
+        "source": "product",
+        "target": "product",
+        "type": "compare",
+        "description": "The user compares different products."
+      },
+      {
+        "source": "entity",
+        "target": "entity",
+        "type": "mentions",
+        "description": "Entities are associated with each other, reflecting user interest or co-occurrence in information sources."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "can_be_refined: исследу → рекламу",
+        "relevance": "Demonstrates the user's active role in refining their information search."
+      },
+      {
+        "text": "compare: сорок восемьдесят → пятьдесят восемьдесят",
+        "relevance": "Shows the user comparing different entities, likely products or models."
+      },
+      {
+        "text": "mentions: профиль → Наполеон, профиль → стартапы, нейросети → Илон Маск",
+        "relevance": "Indicates the user's diverse interests and the connections they make between different entities."
+      },
+      {
+        "text": "Entity types: organization: 43 entities Examples: Яндекс, яндекс путешествия, яндекс путешествие, Сбер, гугл",
+        "relevance": "Shows the presence of both Yandex and non-Yandex organizations, supporting the idea of a diverse information landscape."
+      },
+      {
+        "text": "alternatives: дипсик → телеграм",
+        "relevance": "Highlights that the user is aware of and potentially considers alternative services or platforms."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.85,
+    "alternative_explanations": [
+      {
+        "summary": "The original Yandex Conversational AI Ecosystem Theory.",
+        "confidence": 0.7
+      }
+    ],
+    "gaps": [
+      "The specific context of the user's information needs.",
+      "The user's level of satisfaction with the information found.",
+      "The long-term evolution of the user's information landscape."
+    ],
+    "is_alternative": true,
+    "alternative_to": "The Yandex Conversational AI Ecosystem Theory"
+  }
+]

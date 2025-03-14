@@ -1,0 +1,482 @@
+[
+  {
+    "id": "71b6132c-f4c5-48ca-96b2-4c8b2b157b91",
+    "source_id": "8ab57629-9b2e-406e-bd1b-16dd17bf8c96",
+    "target_id": "7fba6f2f-26a7-4d1b-be97-8ac5fa76fd8c",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a246109d-1ba7-4627-9d93-3dd4f9cf944e",
+      "start": 26,
+      "end": 205,
+      "text": "860\nчто мне понравилось то, что он не цензурированный, то есть там нет цензуры как таковой, то что есть там функция дипсер, функция финк и соответственно он классно решает задачи."
+    }
+  },
+  {
+    "id": "47bae15a-447b-4209-a96d-e3a3957198db",
+    "source_id": "9a83a71a-b9bc-4392-b10a-e35981d05896",
+    "target_id": "95328ee7-d10c-42d1-b9f5-cdc41022c376",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f112bdd2-7caa-4367-98f2-90a813c971fa",
+      "start": 26,
+      "end": 95,
+      "text": "990\nтеперь могу с функцией дипсерш и с функцией фильм, если надо вам."
+    }
+  },
+  {
+    "id": "da608c0b-aa47-4296-b906-4e461b059a2d",
+    "source_id": "a5547ff4-af39-424e-b8b1-8fd90fc01653",
+    "target_id": "bafbdca8-4134-46e6-8f01-2dc41f37e443",
+    "type": "USED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "8e9a327e-b696-4699-a82c-07d192fb493b",
+      "start": 26,
+      "end": 108,
+      "text": "310\nэто у меня в яндекс браузере, а в гугл хром соответственно тоже раз, два, три."
+    }
+  },
+  {
+    "id": "6d5b818c-b28b-401e-827b-9382ae114ea7",
+    "source_id": "f73ddd03-69bd-4c3d-9a9d-8b81f6c99340",
+    "target_id": "90843428-8161-400b-aaf5-e599a25d39a0",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0e02b2ac-3f75-4323-a086-a0842bdbf649",
+      "start": 26,
+      "end": 224,
+      "text": "700\nесли условно гро начнет или уже делать, не знаю, продавать контекстную информацию о вас, но она при этом гораздо более персонализированная, чем не просто там пол, возраст, что обычно собирается."
+    }
+  },
+  {
+    "id": "408e15a6-54f7-493d-8aad-3473df00ebd3",
+    "source_id": "78a8ad35-9ed4-414e-9984-4e264781788f",
+    "target_id": "90843428-8161-400b-aaf5-e599a25d39a0",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0e02b2ac-3f75-4323-a086-a0842bdbf649",
+      "start": 26,
+      "end": 224,
+      "text": "700\nесли условно гро начнет или уже делать, не знаю, продавать контекстную информацию о вас, но она при этом гораздо более персонализированная, чем не просто там пол, возраст, что обычно собирается."
+    }
+  },
+  {
+    "id": "36864b52-453e-435c-86af-1042ff2dbad5",
+    "source_id": "ef1df9b1-d5bd-4f23-be16-d83d25a97332",
+    "target_id": "1c7c0f91-aac1-4609-b608-9da72b119081",
+    "type": "COMPARED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "57bfece7-e677-4fd9-99d6-e73d21898e19",
+      "start": 26,
+      "end": 184,
+      "text": "550\nну вот какой- то бриф я ему прикрепил и соответственно, насколько он там это все креативно сделает, чтобы он был не как робот, да, как больше как человек."
+    }
+  },
+  {
+    "id": "0774049c-7334-4fb7-8c49-f913fca3a5f7",
+    "source_id": "f6f66d64-2854-4fbf-8e41-4ca33e3f1979",
+    "target_id": "f7320122-5dd8-473c-8247-b344391ccd55",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "eee9d410-2deb-4379-96ce-d2e62bd07f6f",
+      "start": 26,
+      "end": 71,
+      "text": "350\nмне нужен был текст, придуман для бренда."
+    }
+  },
+  {
+    "id": "ea6d4a91-016d-47dc-a760-8c95338cb01c",
+    "source_id": "64069a3c-6dac-4fd5-b705-31973e0694dd",
+    "target_id": "7a2b61c9-63f7-48fc-88ea-8cfc06a4f53f",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "17a501f5-b527-4020-a7c0-56b0263734b0",
+      "start": 26,
+      "end": 186,
+      "text": "500\nкакие- то простые запросы и мне как бы проще, быстрее это все в браузере сделать, потому что у меня там всегда это открыто, видно и понятное дело это браза."
+    }
+  },
+  {
+    "id": "ad95a307-b874-4562-a817-4140578ec33e",
+    "source_id": "64a44331-82b2-4f77-92d2-2d24fea1e043",
+    "target_id": "b56b2c1d-a794-4daf-b116-296213e73d1a",
+    "type": "PARTICIPATED_IN",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3281fad9-9e49-4c89-b7d2-702678675a75",
+      "start": 26,
+      "end": 92,
+      "text": "310\nдопустим, там матч прошел недавно баскетбольный ликерс даллас."
+    }
+  },
+  {
+    "id": "221ec8ca-7759-46b5-923f-73d42dc897a9",
+    "source_id": "f6041c1e-6229-489f-b76d-178df3cfba93",
+    "target_id": "b56b2c1d-a794-4daf-b116-296213e73d1a",
+    "type": "PARTICIPATED_IN",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3281fad9-9e49-4c89-b7d2-702678675a75",
+      "start": 26,
+      "end": 92,
+      "text": "310\nдопустим, там матч прошел недавно баскетбольный ликерс даллас."
+    }
+  },
+  {
+    "id": "bda6a5f0-5838-4421-ba1e-6625e84d3766",
+    "source_id": "2bfb62d1-b7f6-4f32-a353-5026e9b3b7bf",
+    "target_id": "553ba7bd-c47a-4ff4-8372-0d554423fa06",
+    "type": "FORMAT_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "4a464ea9-3e8c-4463-af40-8db7cd7c1f86",
+      "start": 26,
+      "end": 149,
+      "text": "670\nну вот это похоже на хороший ответ, но только я бы делал более развернутую статистику, не такую, а там табличной форме."
+    }
+  },
+  {
+    "id": "2641a2da-61a5-49dc-bef9-01cf2907ad5b",
+    "source_id": "5047cfbf-0cff-4b4b-987b-2f2f57d8c122",
+    "target_id": "7436ca34-124e-475a-bb9b-dae665aa321f",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e05ede66-5553-4594-96e9-5d26c78badcd",
+      "start": 26,
+      "end": 153,
+      "text": "750\nто есть вот вот так вот, да, результат, дата и тут соответственно таблица, да, таблица, наверное, вот такая вот чтобы была."
+    }
+  },
+  {
+    "id": "f5baa599-c685-4993-9b79-8f1b434d24b0",
+    "source_id": "b25f3676-fc2c-4c0c-884b-06a945b0069e",
+    "target_id": "7436ca34-124e-475a-bb9b-dae665aa321f",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e05ede66-5553-4594-96e9-5d26c78badcd",
+      "start": 26,
+      "end": 153,
+      "text": "750\nто есть вот вот так вот, да, результат, дата и тут соответственно таблица, да, таблица, наверное, вот такая вот чтобы была."
+    }
+  },
+  {
+    "id": "cafe1a71-5f71-45d9-92b4-d4d66d6f2887",
+    "source_id": "c6eb0643-4d45-4fff-8ddc-cbcf7816e9dd",
+    "target_id": "0bc5c4bb-98e2-40af-a354-0ec3b61c3601",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 26,
+      "end": 99,
+      "text": "110\nто есть минус, да, где есть минуты, броски, подпоры и прочее- прочее."
+    }
+  },
+  {
+    "id": "42d08ce5-f4e2-4083-9475-6fd58f7e97f0",
+    "source_id": "c6eb0643-4d45-4fff-8ddc-cbcf7816e9dd",
+    "target_id": "aeda97ca-63fb-41ec-a3de-04431fb9b086",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 26,
+      "end": 99,
+      "text": "110\nто есть минус, да, где есть минуты, броски, подпоры и прочее- прочее."
+    }
+  },
+  {
+    "id": "272ca888-a710-4728-a64e-b9e7ce9c18c9",
+    "source_id": "0bc5c4bb-98e2-40af-a354-0ec3b61c3601",
+    "target_id": "aeda97ca-63fb-41ec-a3de-04431fb9b086",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "db72d1cf-bdfd-4f75-ac84-2535bda2759c",
+      "start": 26,
+      "end": 99,
+      "text": "110\nто есть минус, да, где есть минуты, броски, подпоры и прочее- прочее."
+    }
+  },
+  {
+    "id": "d6c7b5c0-5b41-4e96-bd2a-b8aa528425da",
+    "source_id": "7aa4fb2a-d70c-4bf2-9edd-d21c1d6b3f34",
+    "target_id": "40c2937b-515a-41dd-b2d2-96deb1c412e3",
+    "type": "CHOICE_BETWEEN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "be1d9653-82b5-41ee-b2ab-1a9619b04b68",
+      "start": 26,
+      "end": 92,
+      "text": "060\nможет быть выбрать между вещами или местами, или куда поехать."
+    }
+  },
+  {
+    "id": "45ee6b77-52b1-4d0c-b001-a2d57e9e4918",
+    "source_id": "44073872-97e3-49c4-b129-15ce37347007",
+    "target_id": "85011aa5-c383-4ead-a4e3-b0a5043f7a29",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "040cda98-9114-41c3-99e0-2982ce77b2dc",
+      "start": 26,
+      "end": 112,
+      "text": "870\nну вот, допустим, те смартфоны мировых, можно там по смартфонам что- нибудь такое."
+    }
+  },
+  {
+    "id": "6632c0a1-a632-44d5-a5f0-47c26fad8e20",
+    "source_id": "e1560337-5008-44ba-a537-9cb536005917",
+    "target_id": "053d61a2-0b2a-4d72-a080-d37ffc73af29",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "18bdee0f-ea00-4475-b252-30068936ac7e",
+      "start": 26,
+      "end": 74,
+      "text": "120\nв смысле вот этот два шнейра от моего нейра?"
+    }
+  },
+  {
+    "id": "c1f0e7e6-2ec1-4e45-9a9c-3f8c65e66d02",
+    "source_id": "bda6c0ce-e4ea-466a-af39-6a3e20dbe997",
+    "target_id": "1f890687-bb20-4168-a876-d895da36a4b8",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3fa12a12-5b80-4e74-a660-981a683753da",
+      "start": 26,
+      "end": 157,
+      "text": "950\nи вот мне показалось, что почему- то там нужно было выделить это все, вставить еще раз и еще дополнить, а также цены и рейтинг."
+    }
+  },
+  {
+    "id": "accb561c-6706-40aa-aaf8-a6f7ea94845f",
+    "source_id": "fd7a96ff-e6f8-498a-a767-9334e4524ea3",
+    "target_id": "333a1d0d-c73b-47ae-afc4-4d058dbb0333",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5ed04389-e5af-4e6e-9c30-3cec9a7c701d",
+      "start": 26,
+      "end": 56,
+      "text": "680\nуспехи, неудачи, наследие."
+    }
+  },
+  {
+    "id": "8cbc4452-f789-43fd-8f14-a44398b94ff5",
+    "source_id": "fd7a96ff-e6f8-498a-a767-9334e4524ea3",
+    "target_id": "79a55385-2bd3-4458-bd7f-095c00588c12",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5ed04389-e5af-4e6e-9c30-3cec9a7c701d",
+      "start": 26,
+      "end": 56,
+      "text": "680\nуспехи, неудачи, наследие."
+    }
+  },
+  {
+    "id": "96904ee7-50b0-493c-9265-faa4be82cf86",
+    "source_id": "333a1d0d-c73b-47ae-afc4-4d058dbb0333",
+    "target_id": "79a55385-2bd3-4458-bd7f-095c00588c12",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "5ed04389-e5af-4e6e-9c30-3cec9a7c701d",
+      "start": 26,
+      "end": 56,
+      "text": "680\nуспехи, неудачи, наследие."
+    }
+  },
+  {
+    "id": "6d8381f2-58c6-4de3-9b63-eb5617a25eae",
+    "source_id": "e1bad36c-1eb0-4659-94c1-07956f694f2a",
+    "target_id": "5c87b47b-4442-4bd0-86ec-2cfd7d7528bd",
+    "type": "COMPARED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "44a38b3c-1bd7-463e-aa7b-2551f50a4ee3",
+      "start": 26,
+      "end": 141,
+      "text": "430\nэто, кстати, наверное, еще поможет отличить, чем же в итоге вот это исследование отличается от обычного режима."
+    }
+  },
+  {
+    "id": "fe9c98b9-638e-4a67-945f-bdd213861a89",
+    "source_id": "88a03b8c-38e0-4184-abe1-582afe77839d",
+    "target_id": "4f4d4a21-4f04-4592-8bdb-e717b9d0cebf",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 26,
+      "end": 182,
+      "text": "350\nну, кстати, насколько я знаю, французы действительно, не то чтобы они говорят, что это победа, но они явно не считают бородинское сражение победой росс."
+    }
+  },
+  {
+    "id": "8e1a7a49-d437-471c-bbd2-f89290876c22",
+    "source_id": "88a03b8c-38e0-4184-abe1-582afe77839d",
+    "target_id": "6c3a232c-a5f0-4e7e-93ae-bf2d4cb5a2ad",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c16fa184-13e3-4a02-a25b-f49fdd5f8f8b",
+      "start": 26,
+      "end": 182,
+      "text": "350\nну, кстати, насколько я знаю, французы действительно, не то чтобы они говорят, что это победа, но они явно не считают бородинское сражение победой росс."
+    }
+  },
+  {
+    "id": "0077a7ef-c8ee-43d7-a9f6-5e9a221213a9",
+    "source_id": "adbbef00-c71f-4f51-a4b5-14437d3620c2",
+    "target_id": "5d6720ae-075c-4391-a776-e44afe2472d2",
+    "type": "PARTICIPATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "732378d7-b938-4500-a09a-7414ad063bf8",
+      "start": 26,
+      "end": 193,
+      "text": "310\nно нет, конкретно в бородинском сражении там же российская армия бежала, поэтому по большому счету французы победили просто как это сложилось на весь ход до этого?"
+    }
+  },
+  {
+    "id": "a1991437-e16c-474d-ac71-10ad2f50ff22",
+    "source_id": "058b4fc1-81bd-4c5f-afb2-56873aff70dd",
+    "target_id": "340182ef-94a6-47d6-85d4-3cfd63b585ca",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cd1f33d0-81bc-4672-904d-5e9c7975fae4",
+      "start": 26,
+      "end": 78,
+      "text": "880\nну, опять же, мне не хватает инфы о кей, казань."
+    }
+  },
+  {
+    "id": "8bd728dc-59b3-4629-9b14-8de38c880632",
+    "source_id": "04a5860a-e98c-4550-9cc5-1dce166635b5",
+    "target_id": "0998cc7f-2fdf-403c-999c-4807b36db67e",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ad6b82ff-91c6-4ba2-90fb-5950dd11eead",
+      "start": 26,
+      "end": 197,
+      "text": "180\nэто моя внутреннее, что это внутренняя разработка, мы это пока не показываем, но поскольку мы на тесте и вы как раз подписывали обязательства на разглашение, мы можем."
+    }
+  },
+  {
+    "id": "b145c956-bf0d-4860-a380-4beed2d5feee",
+    "source_id": "57ea0dc6-0c56-410d-87dc-c9895076b125",
+    "target_id": "3a9a6754-6d03-433c-9273-84f4e915aadb",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d9e6f362-eec7-4126-810d-40727085d36d",
+      "start": 26,
+      "end": 95,
+      "text": "060\nя на самом деле в чем- то считал, что и алиса, и нейро, и яндекс."
+    }
+  }
+]

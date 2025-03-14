@@ -1,0 +1,800 @@
+[
+  {
+    "id": "1967088b-fe6b-43b5-b4a1-00f29463a535",
+    "name": "холодная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "28e09e76-6986-43c4-93a8-568b881b0918",
+      "start": 0,
+      "end": 13,
+      "text": "холодной войны"
+    }
+  },
+  {
+    "id": "8dd8be1f-5b05-48ba-9b98-ebb5a44a16cf",
+    "name": "интерфейс",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d933a78c-38ec-4151-82ce-800ec6ea6f69",
+      "start": 41,
+      "end": 50,
+      "text": "интерфейс"
+    }
+  },
+  {
+    "id": "cbb2fd83-53f9-419f-b8fe-ad959ecdcc7e",
+    "name": "факты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93b85e77-a4d6-44e7-9ff8-0f05f9991eb1",
+      "start": 76,
+      "end": 81,
+      "text": "факты"
+    }
+  },
+  {
+    "id": "020a06a5-d870-4927-bc73-331f39dd4ae9",
+    "name": "причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fc94847c-7edd-4f60-9e16-58be34510d1f",
+      "start": 24,
+      "end": 31,
+      "text": "причины"
+    }
+  },
+  {
+    "id": "1a0a945a-9db5-4cae-8ea3-a17b370e6599",
+    "name": "факты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "74e23e8d-17e9-4131-8930-b1209f809a9c",
+      "start": 71,
+      "end": 76,
+      "text": "факты"
+    }
+  },
+  {
+    "id": "92b42df7-0759-4a89-9df3-bd6cba01aefc",
+    "name": "экономические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2be1f217-fe3d-417d-9ef6-c6c1e363bc4f",
+      "start": 18,
+      "end": 30,
+      "text": "экономические"
+    }
+  },
+  {
+    "id": "22719c47-464f-4424-bcd4-1055cef9fb88",
+    "name": "исследований исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2be1f217-fe3d-417d-9ef6-c6c1e363bc4f",
+      "start": 47,
+      "end": 71,
+      "text": "исследований исследования"
+    }
+  },
+  {
+    "id": "d7c391f1-f6ee-463f-9d18-474ce6f80526",
+    "name": "холодная война",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2be1f217-fe3d-417d-9ef6-c6c1e363bc4f",
+      "start": 211,
+      "end": 225,
+      "text": "холодная война"
+    }
+  },
+  {
+    "id": "55efdb59-3bec-4191-95d9-43d4533e44db",
+    "name": "причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2be1f217-fe3d-417d-9ef6-c6c1e363bc4f",
+      "start": 226,
+      "end": 233,
+      "text": "причины"
+    }
+  },
+  {
+    "id": "6f37feca-dbbe-4fa1-b5bd-c26a9e023ade",
+    "name": "экономические причины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dca4d37e-20e5-403e-a87e-8e6332511ea8",
+      "start": 42,
+      "end": 61,
+      "text": "экономические причины"
+    }
+  },
+  {
+    "id": "8ad32421-8ee6-412b-9374-47abe547d055",
+    "name": "кнопка исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6186bc4c-4801-463b-b5d8-54a904e90dd5",
+      "start": 47,
+      "end": 66,
+      "text": "кнопка исследования"
+    }
+  },
+  {
+    "id": "df847ca5-1913-4c6b-b6d8-a2745a0bae6c",
+    "name": "вопрос скорости",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "287e9be8-de8f-41ed-b9c1-88b258102369",
+      "start": 12,
+      "end": 27,
+      "text": "вопрос скорости"
+    }
+  },
+  {
+    "id": "677d6d29-2698-4748-9ad3-3d0c537962fa",
+    "name": "вопрос скорости",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43218b57-ba70-4048-aeb8-d66598dda783",
+      "start": 0,
+      "end": 15,
+      "text": "вопрос скорости"
+    }
+  },
+  {
+    "id": "5e8ae477-5a6d-41b6-a306-ae008dbc5a87",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43218b57-ba70-4048-aeb8-d66598dda783",
+      "start": 111,
+      "end": 122,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "d4a33e28-9ee0-4f8c-a317-a0716eef9f5d",
+    "name": "кабский кризис",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4dca686-ec5e-41b6-b9a9-43b65d14d602",
+      "start": 18,
+      "end": 32,
+      "text": "кабский кризис"
+    }
+  },
+  {
+    "id": "9c6fa0b5-f345-46d2-88fe-59da78b45a35",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e4dca686-ec5e-41b6-b9a9-43b65d14d602",
+      "start": 43,
+      "end": 54,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "e3a25b7f-fa94-4904-86d4-6047a9e9e39d",
+    "name": "предпосылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "646ccb89-2ed3-4f52-9ca1-3d6c14cda543",
+      "start": 49,
+      "end": 60,
+      "text": "предпосылки"
+    }
+  },
+  {
+    "id": "5c1c85c8-4b9d-4bd8-8067-93a1570c1100",
+    "name": "причина кризиса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98aed195-63ac-40c1-9b51-c096f734733c",
+      "start": 47,
+      "end": 62,
+      "text": "причина кризиса"
+    }
+  },
+  {
+    "id": "398a789f-14e0-4010-8968-83111256e3d5",
+    "name": "размещении",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98aed195-63ac-40c1-9b51-c096f734733c",
+      "start": 65,
+      "end": 75,
+      "text": "размещении"
+    }
+  },
+  {
+    "id": "bba888b7-97ca-4fd8-8017-437f679a9969",
+    "name": "причина кризиса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad61e151-2ce2-43b5-a162-098abe716880",
+      "start": 0,
+      "end": 15,
+      "text": "причина кризиса"
+    }
+  },
+  {
+    "id": "fbb951e1-f1d3-438d-8437-ae401dce1747",
+    "name": "экономические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad61e151-2ce2-43b5-a162-098abe716880",
+      "start": 26,
+      "end": 38,
+      "text": "экономические"
+    }
+  },
+  {
+    "id": "5e1df2f8-1d29-447d-874b-3c934522e412",
+    "name": "политические",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad61e151-2ce2-43b5-a162-098abe716880",
+      "start": 40,
+      "end": 52,
+      "text": "политические"
+    }
+  },
+  {
+    "id": "bb653465-807f-449f-80ad-e9ed62bc5d07",
+    "name": "формат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af827ced-7ec0-420b-b7b6-289cae2617e7",
+      "start": 74,
+      "end": 80,
+      "text": "формат"
+    }
+  },
+  {
+    "id": "c043c137-dfbf-43e4-96e0-b3b5e3e88cb4",
+    "name": "медицина",
+    "type": "field",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc8b7d05-64ae-44fe-88ec-a88f77875e86",
+      "start": 0,
+      "end": 8,
+      "text": "медицина"
+    }
+  },
+  {
+    "id": "deadcbb6-d107-49a8-ada0-66c16ab4de32",
+    "name": "медицина",
+    "type": "field",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "650c4163-c319-4355-a724-b666297b0220",
+      "start": 0,
+      "end": 8,
+      "text": "медицина"
+    }
+  },
+  {
+    "id": "ec4a3404-1762-49f4-9099-6265c2fe3db1",
+    "name": "медицина",
+    "type": "field",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6060222-37cf-46e4-b7ce-fa0f7970de14",
+      "start": 0,
+      "end": 8,
+      "text": "медицина"
+    }
+  },
+  {
+    "id": "558b16ac-ad85-4661-b97c-b648003e00ea",
+    "name": "асма",
+    "type": "medical_condition",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb157900-d25a-4f16-8f64-a27ba9caf5f0",
+      "start": 145,
+      "end": 149,
+      "text": "асма"
+    }
+  },
+  {
+    "id": "fea410f8-7d2e-4d29-adae-75b882ba9d03",
+    "name": "здоровье",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1a7c8997-b46d-405b-85bf-f6702c44a10b",
+      "start": 12,
+      "end": 21,
+      "text": "здоровье"
+    }
+  },
+  {
+    "id": "e1313e60-0724-49be-836a-e74cd24b36e3",
+    "name": "карибский кризис",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77f95aab-773d-433a-932d-9bc3d65a4a38",
+      "start": 8,
+      "end": 23,
+      "text": "карибский кризис"
+    }
+  },
+  {
+    "id": "7d6135a2-45df-41ae-8691-4304fd53253e",
+    "name": "причина",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d7d9922-b526-4c4d-9612-bdf7144183a6",
+      "start": 0,
+      "end": 7,
+      "text": "причина"
+    }
+  },
+  {
+    "id": "dad67308-7941-4dc6-9a21-4860bf6217a0",
+    "name": "причины карибского кризиса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd99803a-45c2-4261-8ea2-df10e7ab2848",
+      "start": 0,
+      "end": 26,
+      "text": "причины карибского кризиса"
+    }
+  },
+  {
+    "id": "b003204f-f02b-4b54-af21-70a3d4cb52f2",
+    "name": "элемент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5d54093d-c24e-451e-a40c-24ee567a3716",
+      "start": 60,
+      "end": 67,
+      "text": "элемент"
+    }
+  },
+  {
+    "id": "f8499bcd-13b7-4871-bfa5-f433405d7844",
+    "name": "ход событий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cec61146-0b8a-4ed8-9e59-4945bb284e1b",
+      "start": 72,
+      "end": 84,
+      "text": "ходе событий"
+    }
+  },
+  {
+    "id": "c77afb70-ee22-46bf-a6e0-8ed44bd4295c",
+    "name": "событий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f995301b-0436-46a9-a22c-c709ce3d2221",
+      "start": 95,
+      "end": 102,
+      "text": "событий"
+    }
+  },
+  {
+    "id": "2376c40b-2f59-4b38-959e-9eccee6b36d2",
+    "name": "картины",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acb27968-268c-4860-9d37-d417345fd90f",
+      "start": 118,
+      "end": 125,
+      "text": "картины"
+    }
+  },
+  {
+    "id": "890ed86b-4856-4f0e-8c57-1a0544e1636c",
+    "name": "итоги",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f0ba007-d6d2-4f1d-8492-0cab494a8ddb",
+      "start": 159,
+      "end": 164,
+      "text": "итоги"
+    }
+  },
+  {
+    "id": "6b0645a5-2d8e-4197-b438-768b4c3fa17c",
+    "name": "последствия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f0ba007-d6d2-4f1d-8492-0cab494a8ddb",
+      "start": 165,
+      "end": 176,
+      "text": "последствия"
+    }
+  },
+  {
+    "id": "61a9cf2d-aeba-4dda-a5c7-a8e455f1f239",
+    "name": "дополнительного времени",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7ea46d0a-f932-41f2-9e2b-1807aad7fc24",
+      "start": 239,
+      "end": 262,
+      "text": "дополнительного времени"
+    }
+  },
+  {
+    "id": "f05bff97-28fe-4e60-b8ae-fbd3bcd2cefc",
+    "name": "астма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca0385b8-2a01-4601-b653-1a90122e07e1",
+      "start": 287,
+      "end": 292,
+      "text": "астму"
+    }
+  },
+  {
+    "id": "8ae2129b-7235-4f38-bfaa-86b5f60865d7",
+    "name": "астма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c382097f-c32a-445e-a0e8-bbd610ee9bb3",
+      "start": 303,
+      "end": 308,
+      "text": "астма"
+    }
+  },
+  {
+    "id": "2d392840-8fe2-447b-bdb8-340882fd7717",
+    "name": "классификация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cabdc7ba-3b32-4417-af34-97ecd3a5f009",
+      "start": 354,
+      "end": 368,
+      "text": "классификация"
+    }
+  },
+  {
+    "id": "a2a3b910-c7d6-471b-98bd-01e3f5f4f485",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5987f2ee-a07d-4264-b512-420173f418d6",
+      "start": 378,
+      "end": 390,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "f728899b-abde-491f-bb65-ef9723006c26",
+    "name": "классификация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "687dd9c1-b74c-4e9e-889a-3ae134668730",
+      "start": 448,
+      "end": 462,
+      "text": "классификация"
+    }
+  },
+  {
+    "id": "738c5522-a6a5-473f-909c-6c4cef4e8df8",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "687dd9c1-b74c-4e9e-889a-3ae134668730",
+      "start": 498,
+      "end": 510,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "66dd0609-2f4f-47ab-b231-98e602cbd184",
+    "name": "причины появления",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fd0711ee-3b64-44bc-b161-b19ae8637488",
+      "start": 557,
+      "end": 574,
+      "text": "причины появления"
+    }
+  },
+  {
+    "id": "3fa2f055-418c-4e17-b545-0495932de14a",
+    "name": "лечение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0df63990-51d1-436c-99e6-918cb339f377",
+      "start": 594,
+      "end": 601,
+      "text": "лечение"
+    }
+  },
+  {
+    "id": "5b4c2155-e57d-4e9c-8fb2-72eb7b756a84",
+    "name": "течение профессиональной астмы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6db04d6b-a0b3-43b3-978e-a63b39885b77",
+      "start": 627,
+      "end": 658,
+      "text": "течение профессиональной астмы"
+    }
+  },
+  {
+    "id": "6cf1f754-4dcb-4007-ab43-907b90839ee3",
+    "name": "последствия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a33d88a0-19e2-41be-b1b7-f502421a53f5",
+      "start": 711,
+      "end": 722,
+      "text": "последствия"
+    }
+  },
+  {
+    "id": "f7f24b60-2405-4d6e-9805-d842ec872157",
+    "name": "симптомы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a33d88a0-19e2-41be-b1b7-f502421a53f5",
+      "start": 724,
+      "end": 732,
+      "text": "симптомы"
+    }
+  },
+  {
+    "id": "99b720ff-999d-44fa-bd89-dc6041470be7",
+    "name": "лечения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a33d88a0-19e2-41be-b1b7-f502421a53f5",
+      "start": 735,
+      "end": 742,
+      "text": "лечения"
+    }
+  },
+  {
+    "id": "4a79362c-1788-40fd-b137-5775965d9a16",
+    "name": "рабочая обстановка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9f119871-f049-4cb6-91e4-2478d4c51078",
+      "start": 791,
+      "end": 810,
+      "text": "рабочая обстановка"
+    }
+  },
+  {
+    "id": "32915841-8c6f-43a8-8b1a-bb6a6ce03a78",
+    "name": "обстановка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf241363-317b-4ec7-9096-86bb97900318",
+      "start": 821,
+      "end": 831,
+      "text": "обстановка"
+    }
+  },
+  {
+    "id": "8f14580d-de55-4608-baa8-c41ce27fe591",
+    "name": "рабочий день",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08865a46-b6c0-488c-a20e-591589e57bfd",
+      "start": 884,
+      "end": 896,
+      "text": "рабочий день"
+    }
+  },
+  {
+    "id": "02833bbb-fbf2-4cc6-b890-68e8cd4829a5",
+    "name": "обучение процесса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08865a46-b6c0-488c-a20e-591589e57bfd",
+      "start": 904,
+      "end": 922,
+      "text": "обучение процесса"
+    }
+  },
+  {
+    "id": "24482924-8f46-4c3a-a834-e8a0e503b20f",
+    "name": "уточняющий вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "08865a46-b6c0-488c-a20e-591589e57bfd",
+      "start": 979,
+      "end": 996,
+      "text": "уточняющий вопрос"
+    }
+  },
+  {
+    "id": "5860c16c-482f-4053-9a36-00003a3fbaa5",
+    "name": "эпохандрический запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55f0f765-7560-42c5-b3b5-6a20d573e8d9",
+      "start": 1178,
+      "end": 1200,
+      "text": "эпохандрический запрос"
+    }
+  },
+  {
+    "id": "9bd0fc29-bb37-4f31-8db6-8775be0ec268",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9dc3f9bc-ea96-4c6d-b763-828067443e9a",
+      "start": 1310,
+      "end": 1315,
+      "text": "нейра"
+    }
+  }
+]

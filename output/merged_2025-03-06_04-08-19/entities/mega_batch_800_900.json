@@ -1,0 +1,842 @@
+[
+  {
+    "id": "cfc89336-e2c6-4ec1-a189-37224428380e",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1bbfd6a-37d5-415a-9ee1-1459b9faeeda",
+      "start": 0,
+      "end": 5,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "dd74939f-a805-43d2-af44-efba05a7a6e7",
+    "name": "станция метро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1bbfd6a-37d5-415a-9ee1-1459b9faeeda",
+      "start": 15,
+      "end": 28,
+      "text": "станция метро"
+    }
+  },
+  {
+    "id": "db143a5d-e9e9-4dec-9fd8-a890f888f88d",
+    "name": "Ваганьковское кладбище",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1bbfd6a-37d5-415a-9ee1-1459b9faeeda",
+      "start": 32,
+      "end": 53,
+      "text": "ваганьковского кладбища"
+    }
+  },
+  {
+    "id": "478f31ed-ee85-4581-a7ff-c4a9fe02f80d",
+    "name": "Ваганьковское кладбище",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b04e97b-6a05-4885-9536-207dfe1d709c",
+      "start": 12,
+      "end": 33,
+      "text": "ваганьковскому кладбищу"
+    }
+  },
+  {
+    "id": "c1b19d8e-7167-4120-b2e3-7a804f566c15",
+    "name": "станция метро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b04e97b-6a05-4885-9536-207dfe1d709c",
+      "start": 35,
+      "end": 48,
+      "text": "станция метро"
+    }
+  },
+  {
+    "id": "4debf784-4f8e-46fa-aab7-c83f51babaf8",
+    "name": "улица тысяча девятьсот пятого года",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b04e97b-6a05-4885-9536-207dfe1d709c",
+      "start": 49,
+      "end": 84,
+      "text": "улица тысяча девятьсот пятого года"
+    }
+  },
+  {
+    "id": "101a4d15-3d70-421a-b29a-b71105c338b6",
+    "name": "метро",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "83eb104d-8136-4f60-9b69-ad64ee61ad66",
+      "start": 11,
+      "end": 16,
+      "text": "метро"
+    }
+  },
+  {
+    "id": "b89ca4b7-5402-4ab9-b18c-47c129ddc881",
+    "name": "кнопка голосового ввода",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0f83a56b-3b48-4997-8298-dd01848f86c1",
+      "start": 24,
+      "end": 47,
+      "text": "кнопкой голосового ввода"
+    }
+  },
+  {
+    "id": "29c94c6e-d09b-459f-94c9-64b9c06c4eb7",
+    "name": "объемный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3602ec34-a2aa-49fd-841d-4ba5c0ec24dc",
+      "start": 27,
+      "end": 41,
+      "text": "объемный ответ"
+    }
+  },
+  {
+    "id": "b0d447e6-56bf-4871-974f-275fa627d99c",
+    "name": "объемный",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92a6db09-282b-4bb8-822b-2bf4ce001b16",
+      "start": 16,
+      "end": 24,
+      "text": "объемный"
+    }
+  },
+  {
+    "id": "b16d428b-7559-4017-9fc6-94e88d6b44ca",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4cec64e0-57fb-4819-9188-97074dd9fb69",
+      "start": 37,
+      "end": 42,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "1a9f84cd-5efc-45a9-a8f0-5081482f3e9d",
+    "name": "большое поле в воды",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5ae60048-e0a8-4bc4-a28a-5c4c7885daaa",
+      "start": 15,
+      "end": 34,
+      "text": "большое поле в воды"
+    }
+  },
+  {
+    "id": "929a305e-08e8-4527-99ef-1ed061129747",
+    "name": "голосом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4b35d49e-b9e1-4925-ac7b-53315f8bd0d3",
+      "start": 31,
+      "end": 38,
+      "text": "голосом"
+    }
+  },
+  {
+    "id": "62e85d2a-6f14-44b1-b14d-2da28252303d",
+    "name": "лекция",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca316817-0be3-4000-be43-9d514e5700b0",
+      "start": 27,
+      "end": 33,
+      "text": "лекции"
+    }
+  },
+  {
+    "id": "69423be9-5ec1-4a9b-8a5c-3ab522940879",
+    "name": "транспорт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca316817-0be3-4000-be43-9d514e5700b0",
+      "start": 49,
+      "end": 58,
+      "text": "транспорте"
+    }
+  },
+  {
+    "id": "674f0b7f-4d70-4740-b082-58d058599b2d",
+    "name": "транспорт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "59645aca-e2f2-49c7-bb51-ed2ec38dcfd2",
+      "start": 16,
+      "end": 25,
+      "text": "транспорте"
+    }
+  },
+  {
+    "id": "d0e55231-7036-411a-ba7f-7df863d73495",
+    "name": "сцена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68009e8f-db24-47f2-b64a-bacee09fc2bc",
+      "start": 4,
+      "end": 9,
+      "text": "сцену"
+    }
+  },
+  {
+    "id": "d04fd42c-08a9-4361-b031-d5ebd5e71cad",
+    "name": "спектакль",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68009e8f-db24-47f2-b64a-bacee09fc2bc",
+      "start": 33,
+      "end": 42,
+      "text": "спектакля"
+    }
+  },
+  {
+    "id": "d5597b62-2750-4067-99b9-6d0685264077",
+    "name": "Масленица",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "945b7179-6726-4ca1-95a5-9799409d89fb",
+      "start": 2,
+      "end": 11,
+      "text": "масленицей"
+    }
+  },
+  {
+    "id": "5277d220-dfb7-4f72-9c37-71c85c64aee4",
+    "name": "классный руководитель",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "afeb072a-704f-4659-8e0c-ee7da3a76bde",
+      "start": 0,
+      "end": 22,
+      "text": "классный руководитель"
+    }
+  },
+  {
+    "id": "38e770fb-a190-407a-adbe-1751ab5e7b21",
+    "name": "готовый текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9738eeba-8b76-49c7-94a1-586fa1ed08c7",
+      "start": 64,
+      "end": 77,
+      "text": "готовый текст"
+    }
+  },
+  {
+    "id": "14e01ec9-56fd-49f2-a7fe-df2c6b3a4580",
+    "name": "сцены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb0166b6-5563-4050-ad7f-9b534681c6e2",
+      "start": 12,
+      "end": 17,
+      "text": "сцены"
+    }
+  },
+  {
+    "id": "f0cee623-24d7-4da5-bed2-cf5d8ea6df76",
+    "name": "сатира",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb0166b6-5563-4050-ad7f-9b534681c6e2",
+      "start": 41,
+      "end": 47,
+      "text": "сатиры"
+    }
+  },
+  {
+    "id": "c4cb4bff-d889-4496-bfc2-8d9ee2579738",
+    "name": "юмор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb0166b6-5563-4050-ad7f-9b534681c6e2",
+      "start": 50,
+      "end": 55,
+      "text": "юмора"
+    }
+  },
+  {
+    "id": "96706fff-0610-487b-968d-3783167cc7b2",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0245e25d-9243-4779-8525-2fcd1b22a7ad",
+      "start": 41,
+      "end": 46,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "a0d1ce10-f0e8-4a02-ac09-6457d3456e48",
+    "name": "текстовое поле ввода",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43ead75e-a2b1-4d08-a40d-6360c6ca566e",
+      "start": 61,
+      "end": 81,
+      "text": "текстовое поле ввода"
+    }
+  },
+  {
+    "id": "1e477662-5a51-435a-b6f9-f60d178da2d7",
+    "name": "телефон",
+    "type": "device",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b237139b-62a5-4f2a-aca2-587221a3b97b",
+      "start": 34,
+      "end": 41,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "a4561c8d-e340-4394-a418-332db736c6f8",
+    "name": "блокнот",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5aa043cb-5212-47ab-a585-53dc0b735645",
+      "start": 27,
+      "end": 34,
+      "text": "блокнота"
+    }
+  },
+  {
+    "id": "457df658-9aef-4fb3-b737-921c9504b630",
+    "name": "телефон",
+    "type": "device",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "27ee0c81-82a5-4abf-b9f2-a8bbce32bc80",
+      "start": 51,
+      "end": 59,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "09deb9ca-688d-4895-b236-ce7eb966147e",
+    "name": "телефон",
+    "type": "device",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbda48b0-f46e-40ff-b068-c937cda052d4",
+      "start": 3,
+      "end": 11,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "ae38d492-3b89-49c4-ac27-4b28f02e1660",
+    "name": "телефон",
+    "type": "device",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1a6ac7b-8a26-4d54-b335-8cbea07faed7",
+      "start": 3,
+      "end": 11,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "2d06a20f-aad9-4ca9-b250-5d35317aa662",
+    "name": "компьютер",
+    "type": "device",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1a6ac7b-8a26-4d54-b335-8cbea07faed7",
+      "start": 48,
+      "end": 58,
+      "text": "компьютере"
+    }
+  },
+  {
+    "id": "73db67b5-9fa4-4ae3-8d33-a02bc5897d90",
+    "name": "общение текстом",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b2a1dbb-3d1e-4d8d-b259-001d913975dc",
+      "start": 131,
+      "end": 146,
+      "text": "текстом общаться"
+    }
+  },
+  {
+    "id": "b8a874fc-546c-4b96-af21-8a7e39a4ae67",
+    "name": "поиск Яндекса",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a49e728-1fbc-42ff-a6f3-6d421acec3b5",
+      "start": 41,
+      "end": 54,
+      "text": "поиск яндекса"
+    }
+  },
+  {
+    "id": "d30243b4-b737-41bc-887f-a181cc3c904f",
+    "name": "поисковый вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a49e728-1fbc-42ff-a6f3-6d421acec3b5",
+      "start": 70,
+      "end": 86,
+      "text": "поисковых вопросов"
+    }
+  },
+  {
+    "id": "6a747755-fdd2-4d4b-849d-afa49a725dce",
+    "name": "официальный сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a0f5f2b0-865d-48d6-a1b0-29ad7db7abd2",
+      "start": 9,
+      "end": 25,
+      "text": "официальный сайт"
+    }
+  },
+  {
+    "id": "f51d9a9d-d08a-4212-82a5-0983ba781238",
+    "name": "официальное расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a0f5f2b0-865d-48d6-a1b0-29ad7db7abd2",
+      "start": 31,
+      "end": 53,
+      "text": "официальном расписанию"
+    }
+  },
+  {
+    "id": "2c68bbc7-94dd-4a1e-83d4-95d0d57db859",
+    "name": "официальное расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b8e8f3c-6523-4a47-b7cd-e884d2d2836f",
+      "start": 43,
+      "end": 65,
+      "text": "официальное расписание"
+    }
+  },
+  {
+    "id": "5a116f80-3387-40ed-a972-a081d248e503",
+    "name": "расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "38d9ed48-3a00-4068-9b4a-f5efeaf812d8",
+      "start": 47,
+      "end": 57,
+      "text": "расписание"
+    }
+  },
+  {
+    "id": "5d228830-f21c-4337-b3ee-9e7022ab128e",
+    "name": "строка поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "38d9ed48-3a00-4068-9b4a-f5efeaf812d8",
+      "start": 65,
+      "end": 78,
+      "text": "строку поиска"
+    }
+  },
+  {
+    "id": "8a043fb8-51dc-4e31-920e-eb945d45e4d4",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a85f80a-94e9-4a73-833b-1542d5c79465",
+      "start": 26,
+      "end": 30,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "3c016f7c-58dc-4463-8f6a-664073af96dc",
+    "name": "плашка расписания",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2671c0be-5eeb-4619-87a6-2fb4231839b6",
+      "start": 37,
+      "end": 54,
+      "text": "плашку расписанию"
+    }
+  },
+  {
+    "id": "7ea9991c-25cc-40ef-b759-5d3635dbfb40",
+    "name": "бассейн",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b361955e-71e7-494b-b4c4-66f975ed6968",
+      "start": 17,
+      "end": 24,
+      "text": "бассейн"
+    }
+  },
+  {
+    "id": "a5f54cb0-7e34-4e86-b33b-adcc13dc8f21",
+    "name": "расписание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "05dafc51-f05a-443f-af61-bd313288bc0a",
+      "start": 96,
+      "end": 106,
+      "text": "расписание"
+    }
+  },
+  {
+    "id": "e330f68e-02be-4cd5-be71-89c5a0bb8a07",
+    "name": "дни недели",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3daf0569-0a94-4b30-92d7-7a33710eb966",
+      "start": 9,
+      "end": 19,
+      "text": "дни недели"
+    }
+  },
+  {
+    "id": "2a317d45-c1ff-4c08-9910-483968176fa7",
+    "name": "время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3daf0569-0a94-4b30-92d7-7a33710eb966",
+      "start": 22,
+      "end": 27,
+      "text": "время"
+    }
+  },
+  {
+    "id": "f197cc04-606d-4e02-9fdb-7442ce1db074",
+    "name": "лекция",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12086c4a-92c1-4b79-91bf-56ba0de94ca1",
+      "start": 36,
+      "end": 42,
+      "text": "лекции"
+    }
+  },
+  {
+    "id": "56bbeb17-0460-4f2b-8d9e-7b15506336af",
+    "name": "битва на Чудском",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12086c4a-92c1-4b79-91bf-56ba0de94ca1",
+      "start": 46,
+      "end": 62,
+      "text": "битве на чудском"
+    }
+  },
+  {
+    "id": "507181e0-ce16-4edf-bb93-73ca54824731",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12086c4a-92c1-4b79-91bf-56ba0de94ca1",
+      "start": 86,
+      "end": 91,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "5355d7b1-dcbe-4230-8abb-50f30fb1c028",
+    "name": "битва",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68a8e51d-2e84-4cea-9e8a-86fed00e71c8",
+      "start": 73,
+      "end": 79,
+      "text": "битвы"
+    }
+  },
+  {
+    "id": "551ca0d1-1ccd-497a-83b6-fdff6bf5952f",
+    "name": "информационные запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "517579b1-7a5c-40df-9a85-3bcd01e12cb4",
+      "start": 21,
+      "end": 43,
+      "text": "информационные запросы"
+    }
+  },
+  {
+    "id": "1fecf008-a057-40ee-8e4d-c1fa1af6fefc",
+    "name": "мысль",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f247be5-09b0-4a64-a9d3-28367835bf2d",
+      "start": 54,
+      "end": 59,
+      "text": "мысль"
+    }
+  },
+  {
+    "id": "ab94d7cb-34bb-4898-af08-df765c4c7fed",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d09a0a5-ad77-45a4-86d2-78a536266c99",
+      "start": 31,
+      "end": 38,
+      "text": "запросах"
+    }
+  },
+  {
+    "id": "1ddf1bee-b1b6-4cb3-aedd-1a6e2c06f780",
+    "name": "подготовка к занятиям",
+    "type": "activity",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d09a0a5-ad77-45a4-86d2-78a536266c99",
+      "start": 53,
+      "end": 74,
+      "text": "подготовкой к занятиям"
+    }
+  },
+  {
+    "id": "650b6189-4912-4fd1-b7d6-dd05941d5614",
+    "name": "ассистенты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "15a9ceca-a6a3-4a17-afe1-f70a14741a79",
+      "start": 71,
+      "end": 81,
+      "text": "ассистенты"
+    }
+  },
+  {
+    "id": "e338f45c-442b-46fe-89c2-ae13c8b9a395",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3ac6b146-e923-4f46-a076-d13a9d9a706b",
+      "start": 15,
+      "end": 20,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "8037e2cd-d4e3-4874-93c5-f848de568a72",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ca90b3f-696b-4c18-9a06-ee9b708b426f",
+      "start": 2,
+      "end": 7,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "ea735ebb-b743-424d-9c3a-d2c8f717aa27",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da114c04-206c-45d7-918d-b3007fdf2833",
+      "start": 37,
+      "end": 42,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "e3a82aeb-ce4d-4ea5-9c88-955b685c7023",
+    "name": "запрос про бассейн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "da114c04-206c-45d7-918d-b3007fdf2833",
+      "start": 103,
+      "end": 121,
+      "text": "запрос про бассейн"
+    }
+  },
+  {
+    "id": "f71b5a6b-e50c-4761-9e97-1244ab1dd969",
+    "name": "сайт бассейна",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22f90928-b801-4193-81ff-2270f1f1bec3",
+      "start": 47,
+      "end": 60,
+      "text": "сайт бассейна"
+    }
+  }
+]

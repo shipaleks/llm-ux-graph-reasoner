@@ -1,0 +1,41 @@
+File: tests/data/samples/neuroBSO_test.txt
+Date: 2025-03-06 20:31:49
+Total analysis time: 25.66 seconds
+
+Token Usage Summary
+===================
+Total API Calls: 1
+Total Tokens: 6644 (Input: 3098, Output: 3546)
+Estimated Cost: $0.006868 USD
+Total API Duration: 25.42 seconds
+Total Analysis Time: 25.66 seconds
+
+Model Breakdown:
+  gemini-2.0-pro-exp-02-05:
+    Calls: 1
+    Tokens: 6644 (Input: 3098, Output: 3546)
+    Cost: $0.006868 USD
+
+
+JSON DATA:
+{
+  "file": "tests/data/samples/neuroBSO_test.txt",
+  "date": "2025-03-06 20:31:49",
+  "analysis_time": 25.663282871246338,
+  "api_calls": 1,
+  "input_tokens": 3098,
+  "output_tokens": 3546,
+  "total_tokens": 6644,
+  "total_cost_usd": 0.006868,
+  "api_duration": 25.42,
+  "models": {
+    "gemini-2.0-pro-exp-02-05": {
+      "calls": 1,
+      "input_tokens": 3098,
+      "output_tokens": 3546,
+      "input_cost": 0.001549,
+      "output_cost": 0.005319,
+      "total_cost": 0.006868
+    }
+  }
+}

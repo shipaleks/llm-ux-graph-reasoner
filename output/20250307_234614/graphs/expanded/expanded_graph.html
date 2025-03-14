@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3cb44b", "id": "3a2240c4-c53b-42de-a1a5-5ac06742159c", "label": "Prudence", "shape": "dot", "size": 29.9, "title": "\u003cb\u003ePrudence\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "6e6de848-ad38-47a5-bb5b-e8bed20ba0c1", "label": "Reverend Edmund Crane", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eReverend Edmund Crane\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "9de695d0-8a8b-424e-9be6-645032a90578", "label": "Edmund", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eEdmund\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "26999e3f-1042-4872-a8ad-67172d1a29a5", "label": "Harriet", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eHarriet\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#e6194B", "id": "3200fde0-013e-4e95-ba7d-3f9000e4ad33", "label": "bookstore", "shape": "dot", "size": 29.5, "title": "\u003cb\u003ebookstore\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#3cb44b", "id": "3a4696de-529b-48d2-8602-a86ce99cecc4", "label": "Eleanor", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eEleanor\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#e6194B", "id": "f079043c-9a45-4a07-ad30-16f2ddc6fc84", "label": "Glenmoor", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eGlenmoor\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#f58231", "id": "a6ab1701-91c6-4831-aa48-fb3e57c3fa64", "label": "The Silent Echo", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eThe Silent Echo\u003c/b\u003e (book)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#3cb44b", "id": "14289df8-65ee-431e-b841-a48769b469ff", "label": "Maxwell Finch", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMaxwell Finch\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "04dfb170-c048-4185-aeda-687422c810dd", "label": "Gregory", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eGregory\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "4493a30c-c10f-4637-9f3a-eeb60bcf4a82", "label": "Maxwell", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMaxwell\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#4363d8", "id": "993716a2-422f-40f1-af92-57c1815097f9", "label": "townsfolk", "shape": "dot", "size": 29.6, "title": "\u003cb\u003etownsfolk\u003c/b\u003e (group)\u003cbr\u003eConfidence: 0.96\u003cbr\u003e"}, {"color": "#3cb44b", "id": "57b24bd4-e593-43a7-a65d-859c5cf9f132", "label": "Amelia Cole", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eAmelia Cole\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#911eb4", "id": "71515d15-baf7-480a-a9b3-43831316ead3", "label": "journalist", "shape": "dot", "size": 29.8, "title": "\u003cb\u003ejournalist\u003c/b\u003e (occupation)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#ffe119", "id": "48d72dd9-1d60-45e5-afb2-bcfc7196733e", "label": "Blythe family", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eBlythe family\u003c/b\u003e (family)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20", "label": "Dr. Tobias Sinclair", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eDr. Tobias Sinclair\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#911eb4", "id": "732c7a10-583d-426b-9443-56523363ade6", "label": "family physician", "shape": "dot", "size": 29.8, "title": "\u003cb\u003efamily physician\u003c/b\u003e (occupation)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#3cb44b", "id": "3aacc53b-9f16-4489-a85a-dff060978cea", "label": "Margaret", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMargaret\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "06d4ad9f-cfea-4f9f-9683-9e504e8d6df6", "label": "Tobias", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eTobias\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "6bf2a688-c9be-4838-b170-0d513d6dc8a9", "label": "Amelia", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eAmelia\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#42d4f4", "id": "ce275fb0-6748-4209-a5a2-cd51f41b45b6", "label": "Sunday", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eSunday\u003c/b\u003e (date)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "ffdf4603-df13-40f9-b25c-9826b5ebdb78", "label": "Detective Croft", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eDetective Croft\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "17d0af90-e3b5-4d15-9151-27e51172086c", "label": "Madame Agnes", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMadame Agnes\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#911eb4", "id": "981be236-23c5-486a-8bf4-6d6dda579c50", "label": "Parisian opera singer", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eParisian opera singer\u003c/b\u003e (occupation)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#e6194B", "id": "db2846a1-a6a2-42ea-b161-cfda87cfc055", "label": "Europe", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eEurope\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#3cb44b", "id": "57922ca2-6385-4a2a-83c2-682c7301496a", "label": "Simon Bellows", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eSimon Bellows\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "85317f2a-d5ae-41c6-8e8d-7b2d3a2c45f8", "label": "Jacob", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eJacob\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "dec033fe-58ca-4b57-a57f-d17db5d9e2ee", "label": "Nathaniel", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eNathaniel\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "f642963e-940c-434a-aea5-a2b9c761b1dd", "label": "Reverend Crane", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eReverend Crane\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "35fe819c-e7f1-4343-afbe-ed61e979b9c4", "label": "Celia Rhodes", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eCelia Rhodes\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "f171f949-4068-4484-b42b-7a3b97f713d2", "label": "Celia", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eCelia\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "7164af96-2dc6-4020-83a4-62565c76f726", "label": "Croft", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eCroft\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "3a2240c4-c53b-42de-a1a5-5ac06742159c", "label": "sought_counsel_in", "title": "\u003cb\u003esought_counsel_in\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "6e6de848-ad38-47a5-bb5b-e8bed20ba0c1", "width": 3.8499999999999996}, {"arrows": "to", "from": "26999e3f-1042-4872-a8ad-67172d1a29a5", "label": "younger_sister_of", "title": "\u003cb\u003eyounger_sister_of\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "9de695d0-8a8b-424e-9be6-645032a90578", "width": 3.94}, {"arrows": "to", "from": "26999e3f-1042-4872-a8ad-67172d1a29a5", "label": "managed", "title": "\u003cb\u003emanaged\u003c/b\u003e\u003cbr\u003eConfidence: 0.97\u003cbr\u003e", "to": "3200fde0-013e-4e95-ba7d-3f9000e4ad33", "width": 3.91}, {"arrows": "to", "from": "3a4696de-529b-48d2-8602-a86ce99cecc4", "label": "frequented", "title": "\u003cb\u003efrequented\u003c/b\u003e\u003cbr\u003eConfidence: 0.96\u003cbr\u003e", "to": "3200fde0-013e-4e95-ba7d-3f9000e4ad33", "width": 3.88}, {"arrows": "to", "from": "a6ab1701-91c6-4831-aa48-fb3e57c3fa64", "label": "written_by", "title": "\u003cb\u003ewritten_by\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "14289df8-65ee-431e-b841-a48769b469ff", "width": 3.9699999999999998}, {"arrows": "to", "from": "14289df8-65ee-431e-b841-a48769b469ff", "label": "estranged_cousin_of", "title": "\u003cb\u003eestranged_cousin_of\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "04dfb170-c048-4185-aeda-687422c810dd", "width": 3.94}, {"arrows": "to;from", "from": "14289df8-65ee-431e-b841-a48769b469ff", "label": "same_as", "title": "\u003cb\u003esame_as\u003c/b\u003e\u003cbr\u003eConfidence: 1.00\u003cbr\u003e", "to": "4493a30c-c10f-4637-9f3a-eeb60bcf4a82", "width": 4.0}, {"arrows": "to", "from": "993716a2-422f-40f1-af92-57c1815097f9", "label": "sensed_otherwise", "title": "\u003cb\u003esensed_otherwise\u003c/b\u003e\u003cbr\u003eConfidence: 0.80\u003cbr\u003e", "to": "4493a30c-c10f-4637-9f3a-eeb60bcf4a82", "width": 3.4000000000000004}, {"arrows": "to;from", "from": "57b24bd4-e593-43a7-a65d-859c5cf9f132", "label": "same_as", "title": "\u003cb\u003esame_as\u003c/b\u003e\u003cbr\u003eConfidence: 1.00\u003cbr\u003e", "to": "6bf2a688-c9be-4838-b170-0d513d6dc8a9", "width": 4.0}, {"arrows": "to", "from": "57b24bd4-e593-43a7-a65d-859c5cf9f132", "label": "occupation", "title": "\u003cb\u003eoccupation\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "71515d15-baf7-480a-a9b3-43831316ead3", "width": 3.7}, {"arrows": "to", "from": "57b24bd4-e593-43a7-a65d-859c5cf9f132", "label": "chased_leads_regarding", "title": "\u003cb\u003echased_leads_regarding\u003c/b\u003e\u003cbr\u003eConfidence: 0.85\u003cbr\u003e", "to": "48d72dd9-1d60-45e5-afb2-bcfc7196733e", "width": 3.55}, {"arrows": "to", "from": "6bf2a688-c9be-4838-b170-0d513d6dc8a9", "label": "aided_by", "title": "\u003cb\u003eaided_by\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20", "width": 3.7}, {"arrows": "to;from", "from": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20", "label": "same_as", "title": "\u003cb\u003esame_as\u003c/b\u003e\u003cbr\u003eConfidence: 1.00\u003cbr\u003e", "to": "06d4ad9f-cfea-4f9f-9683-9e504e8d6df6", "width": 4.0}, {"arrows": "to", "from": "4dbbeba5-d6a0-4017-95a0-c9a5c49c9e20", "label": "occupation", "title": "\u003cb\u003eoccupation\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "732c7a10-583d-426b-9443-56523363ade6", "width": 3.8499999999999996}, {"arrows": "to", "from": "3aacc53b-9f16-4489-a85a-dff060978cea", "label": "wife_of", "title": "\u003cb\u003ewife_of\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "04dfb170-c048-4185-aeda-687422c810dd", "width": 3.8499999999999996}, {"arrows": "to", "from": "ffdf4603-df13-40f9-b25c-9826b5ebdb78", "label": "watched_interactions_at", "title": "\u003cb\u003ewatched_interactions_at\u003c/b\u003e\u003cbr\u003eConfidence: 0.80\u003cbr\u003e", "to": "17d0af90-e3b5-4d15-9151-27e51172086c", "width": 3.4000000000000004}, {"arrows": "to", "from": "17d0af90-e3b5-4d15-9151-27e51172086c", "label": "former_occupation", "title": "\u003cb\u003eformer_occupation\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "981be236-23c5-486a-8bf4-6d6dda579c50", "width": 3.7}, {"arrows": "to", "from": "981be236-23c5-486a-8bf4-6d6dda579c50", "label": "known_throughout", "title": "\u003cb\u003eknown_throughout\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "db2846a1-a6a2-42ea-b161-cfda87cfc055", "width": 3.7}, {"arrows": "to", "from": "57922ca2-6385-4a2a-83c2-682c7301496a", "label": "saw_arguing_with", "title": "\u003cb\u003esaw_arguing_with\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "85317f2a-d5ae-41c6-8e8d-7b2d3a2c45f8", "width": 3.7}, {"arrows": "to", "from": "3a2240c4-c53b-42de-a1a5-5ac06742159c", "label": "witnessed_slipping_into_chamber", "title": "\u003cb\u003ewitnessed_slipping_into_chamber\u003c/b\u003e\u003cbr\u003eConfidence: 0.80\u003cbr\u003e", "to": "dec033fe-58ca-4b57-a57f-d17db5d9e2ee", "width": 3.4000000000000004}, {"arrows": "to", "from": "f642963e-940c-434a-aea5-a2b9c761b1dd", "label": "noticed_lurking_near", "title": "\u003cb\u003enoticed_lurking_near\u003c/b\u003e\u003cbr\u003eConfidence: 0.85\u003cbr\u003e", "to": "35fe819c-e7f1-4343-afbe-ed61e979b9c4", "width": 3.55}, {"arrows": "to;from", "from": "f171f949-4068-4484-b42b-7a3b97f713d2", "label": "same_as", "title": "\u003cb\u003esame_as\u003c/b\u003e\u003cbr\u003eConfidence: 1.00\u003cbr\u003e", "to": "35fe819c-e7f1-4343-afbe-ed61e979b9c4", "width": 4.0}, {"arrows": "to;from", "from": "7164af96-2dc6-4020-83a4-62565c76f726", "label": "same_as", "title": "\u003cb\u003esame_as\u003c/b\u003e\u003cbr\u003eConfidence: 1.00\u003cbr\u003e", "to": "ffdf4603-df13-40f9-b25c-9826b5ebdb78", "width": 4.0}, {"arrows": "to", "from": "ffdf4603-df13-40f9-b25c-9826b5ebdb78", "label": "found", "title": "\u003cb\u003efound\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "35fe819c-e7f1-4343-afbe-ed61e979b9c4", "width": 3.7}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "shape": "dot", "size": 20}, "edges": {"font": {"size": 12, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.5, "springLength": 300, "springConstant": 0.04}, "minVelocity": 0.75, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

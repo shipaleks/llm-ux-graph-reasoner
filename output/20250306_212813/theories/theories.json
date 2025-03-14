@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Concept-Driven Product Development and Organizational Structure",
+    "summary": "Organizations like Yandex prioritize specific concepts, such as 'поиск' (search) and 'нейросеть' (neural network), and structure their product development around these core concepts, leading to products like Yandex Music and Yandex Pay. This approach emphasizes internal expertise and strategic alignment with key technological and user-centric concepts.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Concept-driven organization"
+      },
+      {
+        "name": "университет",
+        "type": "organization",
+        "role": "Knowledge source and concept generator"
+      },
+      {
+        "name": "поиск",
+        "type": "concept",
+        "role": "Core concept driving product development"
+      },
+      {
+        "name": "рецепт блинов",
+        "type": "concept",
+        "role": "Specific user need and thematic focus"
+      },
+      {
+        "name": "нейро",
+        "type": "concept",
+        "role": "Technological concept enabling product features"
+      },
+      {
+        "name": "нейросеть",
+        "type": "concept",
+        "role": "Technological concept enabling product features"
+      },
+      {
+        "name": "Яндекс Музыка",
+        "type": "product",
+        "role": "Product embodying specific concepts"
+      },
+      {
+        "name": "Яндекс Пэй",
+        "type": "product",
+        "role": "Product embodying specific concepts"
+      }
+    ],
+    "key_relationships": null,
+    "evidence": [
+      {
+        "text": "Product-Concept Association (semantic): Products are associated with concepts that define their functionality or purpose.",
+        "relevance": "Supports the idea that products are built around specific conceptual needs."
+      },
+      {
+        "text": "Organization-Concept Relationship (semantic): Organizations are linked to concepts, indicating areas of focus, research, or expertise.",
+        "relevance": "Supports the idea that organizations prioritize specific concepts."
+      },
+      {
+        "text": "Thematic Cluster: Recipe Search (narrative): The presence of 'рецепт блинов' (recipe for pancakes) suggests a thematic cluster around food, cooking, and potentially search for recipes.",
+        "relevance": "Supports the idea of thematic product grouping based on shared concepts."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.75,
+    "alternative_explanations": null,
+    "gaps": [
+      "What is the specific process by which Yandex identifies and prioritizes concepts?",
+      "How does the organizational structure facilitate concept-driven product development?",
+      "What are the metrics used to evaluate the success of concept-driven products?"
+    ],
+    "is_alternative": true,
+    "alternative_to": "Yandex's Product Ecosystem Driven by AI and Search Capabilities"
+  }
+]

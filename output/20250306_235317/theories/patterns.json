@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Self-Referential Technology Use",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "A technology or product entity 'uses' itself, indicating a recursive or self-improving system.",
+    "examples": [
+      {
+        "text": "Яндекс → uses → Яндекс",
+        "explanation": "Yandex uses Yandex, suggesting that Yandex as a whole relies on its own infrastructure and services."
+      },
+      {
+        "text": "Яндекс Пэй → uses → Яндекс Пэй",
+        "explanation": "Yandex Pay uses Yandex Pay, suggesting that the payment system relies on its own internal components and services for its operation."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern highlights the self-reliance and internal integration of Yandex's technologies and products. It suggests a closed-loop system where the company's offerings are deeply intertwined and mutually supportive."
+  },
+  {
+    "name": "Product Ecosystem Centered on a Core Organization",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Multiple product entities are 'part_of' a central organization, indicating a product ecosystem built around a core company.",
+    "examples": [
+      {
+        "text": "Яндекс Музыка → part_of → Яндекс",
+        "explanation": "Yandex Music is part of Yandex, illustrating that the music streaming service is a component of the larger Yandex organization."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern demonstrates how Yandex has created a product ecosystem where various services are integrated under a single organizational umbrella. This allows for cross-promotion, shared resources, and a unified user experience."
+  },
+  {
+    "name": "AI-Driven Product Suite",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "The presence of 'нейросеть' (neural network) as a technology and 'Нейро' as a product suggests a focus on AI-driven products and services.",
+    "examples": [
+      {
+        "text": "нейросеть, Нейро",
+        "explanation": "The co-occurrence of 'neural network' and 'Neuro' suggests that the product 'Neuro' is likely powered by or related to neural network technology."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern indicates a strategic emphasis on artificial intelligence within the Yandex ecosystem. It suggests that Yandex is actively developing and deploying AI-powered products and services."
+  }
+]

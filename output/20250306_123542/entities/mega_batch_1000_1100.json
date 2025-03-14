@@ -1,0 +1,639 @@
+[
+  {
+    "id": "50b558bb-6807-412d-ad81-292db3d4939a",
+    "name": "нехороший вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "95e9f180-1f82-4ce0-a14b-a9582b5c6f51",
+      "start": 36,
+      "end": 52,
+      "text": "там нехороший вопрос"
+    }
+  },
+  {
+    "id": "e2ebccdb-6f8a-4e84-81a0-b9bca1333ee0",
+    "name": "версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58d8b071-4e14-44e6-bbec-870c466f05ec",
+      "start": 23,
+      "end": 29,
+      "text": "версия"
+    }
+  },
+  {
+    "id": "54c04e3b-9816-439f-9f8c-24686dbb0ea5",
+    "name": "версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "007d77a6-3aa9-4d0e-ab06-b26ba9764ffc",
+      "start": 16,
+      "end": 22,
+      "text": "версия"
+    }
+  },
+  {
+    "id": "11e7018c-707c-49a1-af5e-a4f8e10dae2b",
+    "name": "история",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97a3d377-2f21-4079-998d-db81867b6628",
+      "start": 0,
+      "end": 7,
+      "text": "история"
+    }
+  },
+  {
+    "id": "837a1f17-eb4f-49a9-bc29-5336b265bc5c",
+    "name": "она",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a186d7d0-dc26-49ff-bfc3-eddd6bb21653",
+      "start": 9,
+      "end": 12,
+      "text": "она"
+    }
+  },
+  {
+    "id": "5a5a2ed1-a831-4291-85a3-06f6071f5957",
+    "name": "неток",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5bc56ffe-85ef-4098-9e57-c239822d0a7d",
+      "start": 7,
+      "end": 12,
+      "text": "неток"
+    }
+  },
+  {
+    "id": "78e020ef-d77d-4498-919d-3f7d960b4bd8",
+    "name": "вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3fe32443-ee0d-47ca-b612-b13f1b4cb0b7",
+      "start": 17,
+      "end": 23,
+      "text": "вопрос"
+    }
+  },
+  {
+    "id": "c3d02ef9-7715-4059-94d5-25d89c4e33d5",
+    "name": "список из ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89c96a1f-f4ae-410c-a96a-0f5d1d7cf7e2",
+      "start": 15,
+      "end": 31,
+      "text": "из ссылок, он"
+    }
+  },
+  {
+    "id": "1273deb0-8306-4695-97a1-e28b755fcdf8",
+    "name": "набор ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89c96a1f-f4ae-410c-a96a-0f5d1d7cf7e2",
+      "start": 72,
+      "end": 84,
+      "text": "набором ссылок"
+    }
+  },
+  {
+    "id": "e76122d7-e495-41d1-99b4-6a334a4feffd",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d4bf3f9-63cd-4ac5-aaa3-ff0147b53d4a",
+      "start": 57,
+      "end": 62,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "272e9c4b-f2ca-4862-99a5-9fefee959790",
+    "name": "ссылками",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d4bf3f9-63cd-4ac5-aaa3-ff0147b53d4a",
+      "start": 75,
+      "end": 83,
+      "text": "ссылками"
+    }
+  },
+  {
+    "id": "ef31aeb5-ac88-4353-9294-516de38f5491",
+    "name": "туле",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d4bf3f9-63cd-4ac5-aaa3-ff0147b53d4a",
+      "start": 104,
+      "end": 108,
+      "text": "туле"
+    }
+  },
+  {
+    "id": "ff3af94c-d3da-40a2-a4fe-a90d20b52a52",
+    "name": "список",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fbf022ff-c0f7-4837-9190-35a064946037",
+      "start": 43,
+      "end": 49,
+      "text": "список"
+    }
+  },
+  {
+    "id": "7cd6caf4-9258-43be-8cd5-770f81a7b8bd",
+    "name": "список сайтов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fbf022ff-c0f7-4837-9190-35a064946037",
+      "start": 111,
+      "end": 124,
+      "text": "список сайтов"
+    }
+  },
+  {
+    "id": "70309933-da60-4d9f-b874-8c4f421d543c",
+    "name": "девушка",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76ed0ee3-ffce-45f8-be17-ef13d1355fe6",
+      "start": 27,
+      "end": 34,
+      "text": "девушка"
+    }
+  },
+  {
+    "id": "85adb4b9-b9dd-4111-b41e-5e9ddc4c734c",
+    "name": "поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76ed0ee3-ffce-45f8-be17-ef13d1355fe6",
+      "start": 81,
+      "end": 90,
+      "text": "поисковик"
+    }
+  },
+  {
+    "id": "fd9efb1f-64a1-474b-988d-45dcd7f92da5",
+    "name": "список",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "281f3557-7abf-4f1c-b281-0d2814f7f3fd",
+      "start": 37,
+      "end": 43,
+      "text": "список"
+    }
+  },
+  {
+    "id": "08e81525-e3a9-41a7-ac93-736d226da545",
+    "name": "уточнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e78f3980-47e6-453b-b827-a48c904c6fa3",
+      "start": 36,
+      "end": 45,
+      "text": "уточнение"
+    }
+  },
+  {
+    "id": "314ef4b8-87cf-4ad2-a17e-13810b6aa0b8",
+    "name": "уточнение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ba0c66e9-8e71-4678-ab30-623d2fd52432",
+      "start": 24,
+      "end": 33,
+      "text": "уточнение"
+    }
+  },
+  {
+    "id": "84e243e1-68cb-48a9-addf-47eac889acde",
+    "name": "святынь",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d3db94d2-c4c6-4f62-8e3f-34091878966c",
+      "start": 79,
+      "end": 86,
+      "text": "святынь"
+    }
+  },
+  {
+    "id": "6db176d0-7d55-4648-bdf7-4293ae48e87c",
+    "name": "рамок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "397c1fcb-dc51-44a0-9392-4bc7efbf5faa",
+      "start": 11,
+      "end": 16,
+      "text": "рамок"
+    }
+  },
+  {
+    "id": "c9aadb0d-dc96-458e-bf16-817440dcf5d1",
+    "name": "тулу",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f3b12189-af53-4a2f-bbf2-a3d3d1b8c3fa",
+      "start": 74,
+      "end": 78,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "71858fc0-0fd4-49b1-a2d6-a77d9b15bea9",
+    "name": "тулу",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4761c453-ce46-464d-9d95-dca99c39c4e3",
+      "start": 10,
+      "end": 14,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "016b8093-56e9-4d3b-b6ec-9c741b8b44c7",
+    "name": "храмы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "21f46482-d6dc-4fc3-a986-ae440a988d34",
+      "start": 64,
+      "end": 69,
+      "text": "храмы"
+    }
+  },
+  {
+    "id": "fa43a225-c14e-4b88-8e40-7804e004ceba",
+    "name": "туле",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "624459ec-f655-4c19-acc0-6bd488e6dca5",
+      "start": 31,
+      "end": 35,
+      "text": "туле"
+    }
+  },
+  {
+    "id": "9bd72259-91ef-4d56-a09d-92fe329c0661",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "36e4e9d5-de4c-4247-8f24-59f916d034d1",
+      "start": 27,
+      "end": 33,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "602d8f37-3256-48d6-a53b-01ee280cb734",
+    "name": "яндексом",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7d57573d-32df-45b1-8177-36b41b08d4a5",
+      "start": 15,
+      "end": 23,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "72aa7a08-cf95-4030-86b3-365996e7e3e4",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f76d2c02-28c6-4316-ab4d-e762bafdce00",
+      "start": 20,
+      "end": 24,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "29e9c8ed-49d8-45bf-b7ba-1048cfcf3355",
+    "name": "Подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f76d2c02-28c6-4316-ab4d-e762bafdce00",
+      "start": 31,
+      "end": 39,
+      "text": "подольск"
+    }
+  },
+  {
+    "id": "377d90e4-0668-4e27-9a0d-b8c89a3b2635",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "adf9cd5f-4a65-4cb0-9205-96455378fcf5",
+      "start": 11,
+      "end": 15,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "7fb15875-f9f2-4403-ad90-19f936799a85",
+    "name": "храм",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8c29253-0865-4b6a-88d1-44567386c2ae",
+      "start": 41,
+      "end": 47,
+      "text": "храмов"
+    }
+  },
+  {
+    "id": "995b1c3f-1ef1-4422-9646-1373c763e57c",
+    "name": "храм",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58f1249c-5187-4ee8-b90d-9f136d5fccce",
+      "start": 14,
+      "end": 19,
+      "text": "храм"
+    }
+  },
+  {
+    "id": "81980bf1-3477-4015-abfd-da6282c131c2",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac8b094e-eef5-4a60-acc8-fb5308b3e6a4",
+      "start": 6,
+      "end": 10,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "7518cdc9-23ec-412f-a284-00533be72d76",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fef342ff-17e4-4310-85c9-3fcfa5546620",
+      "start": 2,
+      "end": 6,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "25fe0a5b-34f6-44b7-9bd6-424c8e263530",
+    "name": "g",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2005c19-3355-4162-a027-e7bd47236382",
+      "start": 67,
+      "end": 68,
+      "text": "g"
+    }
+  },
+  {
+    "id": "4202763c-f81f-445c-bb6a-70299ac4d9a8",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2005c19-3355-4162-a027-e7bd47236382",
+      "start": 86,
+      "end": 92,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "d4044c80-e82a-4320-bc22-2b881c54889b",
+    "name": "Алексей",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "98414b26-cb38-4e5b-9858-b304f691a8a6",
+      "start": 2,
+      "end": 9,
+      "text": "алексей"
+    }
+  },
+  {
+    "id": "dd5f8bb6-852b-4a1b-9b8c-1e3479886e9c",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e85ec34-e553-4a04-b1fc-a076fe0f6397",
+      "start": 0,
+      "end": 7,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "e0ecf5c6-c3ae-4e15-b92c-826317812778",
+    "name": "папа русский",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88cc1456-1694-4383-86f1-33ef04773dea",
+      "start": 2,
+      "end": 14,
+      "text": "папа русский"
+    }
+  },
+  {
+    "id": "032effc7-cc67-44bd-a97d-a870bd6e98ae",
+    "name": "Кинопоиск",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f25ac40a-e332-4083-adb8-ee1a049788dc",
+      "start": 30,
+      "end": 40,
+      "text": "кинопоиском"
+    }
+  },
+  {
+    "id": "cb2474a7-f9d0-4793-acac-306a3405342f",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dd7b7084-124c-4bf6-bac8-1368dfb91147",
+      "start": 26,
+      "end": 30,
+      "text": "сбер"
+    }
+  },
+  {
+    "id": "d5aaa839-581b-4e3f-ace4-6e7e958d0678",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbedf3dd-7445-4129-8aca-3f5b91f73c0d",
+      "start": 0,
+      "end": 5,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "9489b74e-d40e-4aa7-925d-444cb1f020e3",
+    "name": "Телеграм",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "type",
+        "value": "messenger",
+        "confidence": 0.85,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "741fff5c-8970-4e4a-b02d-06d3320170a8",
+      "start": 32,
+      "end": 41,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "a7b490e1-fa0f-43fb-9365-3845a52d05b0",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "741fff5c-8970-4e4a-b02d-06d3320170a8",
+      "start": 76,
+      "end": 82,
+      "text": "гугле"
+    }
+  },
+  {
+    "id": "d1a15d62-dcd8-4961-9739-9116357e2ebc",
+    "name": "Око",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffc15d8e-e141-4402-94f2-8b195bf08434",
+      "start": 0,
+      "end": 3,
+      "text": "око"
+    }
+  }
+]

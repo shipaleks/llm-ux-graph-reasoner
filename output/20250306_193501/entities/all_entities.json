@@ -1,0 +1,345 @@
+[
+  {
+    "id": "652431cc-4afa-49c5-8ecb-6fc9419793fe",
+    "name": "knowledge graph synthesis system",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "edbfda72-6b1a-4dc9-8d36-c790f44c7d76",
+      "start": 42,
+      "end": 74,
+      "text": "knowledge graph synthesis system"
+    }
+  },
+  {
+    "id": "e3bddbdc-c953-47f7-b4c7-1014129b8aca",
+    "name": "John Smith",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "CEO",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 0,
+      "end": 10,
+      "text": "John Smith"
+    }
+  },
+  {
+    "id": "062c50f0-443e-436d-847b-2b9ee0280f06",
+    "name": "Acme Corporation",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 22,
+      "end": 38,
+      "text": "Acme Corporation"
+    }
+  },
+  {
+    "id": "5f05d4d1-a9df-430a-a65b-5d6e8fb77c5b",
+    "name": "1985",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 54,
+      "end": 58,
+      "text": "1985"
+    }
+  },
+  {
+    "id": "cfde5018-d0ce-49b0-813f-f1ac89f30c18",
+    "name": "New York City",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 85,
+      "end": 98,
+      "text": "New York City"
+    }
+  },
+  {
+    "id": "e24dfdef-1567-419b-9642-c5619a936d3f",
+    "name": "software development",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 119,
+      "end": 138,
+      "text": "software development"
+    }
+  },
+  {
+    "id": "dab79a3d-a74d-4fc8-a9fd-ed49951e4614",
+    "name": "Mary Johnson",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "CTO",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 0,
+      "end": 12,
+      "text": "Mary Johnson"
+    }
+  },
+  {
+    "id": "39f48147-43e8-4fbf-8814-35ff35a6bf9a",
+    "name": "Acme Corporation",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 24,
+      "end": 40,
+      "text": "Acme Corporation"
+    }
+  },
+  {
+    "id": "4c8cfb3d-1fd5-4f7e-ba0e-f70fceeff678",
+    "name": "2005",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 61,
+      "end": 65,
+      "text": "2005"
+    }
+  },
+  {
+    "id": "1b4d9cfb-3e36-4bec-8a4c-5a205812a528",
+    "name": "Tech Solutions Inc.",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 89,
+      "end": 108,
+      "text": "Tech Solutions Inc."
+    }
+  },
+  {
+    "id": "6c3ec349-105a-4aa5-b71c-cb3c4e0e0fa9",
+    "name": "senior developer",
+    "type": "role",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 115,
+      "end": 131,
+      "text": "senior developer"
+    }
+  },
+  {
+    "id": "83ef6939-d29c-48b1-9de8-2f68ac68e219",
+    "name": "Acme Corporation",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 0,
+      "end": 16,
+      "text": "Acme Corporation"
+    }
+  },
+  {
+    "id": "8763b46d-42fc-4855-8f32-a108dd14e859",
+    "name": "Global Systems Ltd.",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 39,
+      "end": 58,
+      "text": "Global Systems Ltd."
+    }
+  },
+  {
+    "id": "18a2ca6b-b4c6-4b6f-a249-83b6af909953",
+    "name": "Project Alpha",
+    "type": "project",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 79,
+      "end": 92,
+      "text": "Project Alpha"
+    }
+  },
+  {
+    "id": "583e9eaa-47ce-4007-bb43-28a0a49554fb",
+    "name": "January 15, 2023",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 119,
+      "end": 134,
+      "text": "January 15, 2023"
+    }
+  },
+  {
+    "id": "770cc63a-d7d4-42f7-8749-9ffdd82fa2ee",
+    "name": "John Smith",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 142,
+      "end": 152,
+      "text": "John Smith"
+    }
+  },
+  {
+    "id": "44163717-e5f6-42e2-8732-a9d1eaba6e3b",
+    "name": "press conference",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 162,
+      "end": 178,
+      "text": "press conference"
+    }
+  },
+  {
+    "id": "2011a5b8-e84e-4fde-86da-1c590fd4c9be",
+    "name": "AI solutions",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 32,
+      "end": 44,
+      "text": "AI solutions"
+    }
+  },
+  {
+    "id": "188be4d2-2bcd-4e1b-b061-538b8c8cb4e1",
+    "name": "healthcare",
+    "type": "industry",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 49,
+      "end": 59,
+      "text": "healthcare"
+    }
+  },
+  {
+    "id": "21504b6d-dda9-47b1-8d3b-de762aa6d12e",
+    "name": "$5 million",
+    "type": "money",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 93,
+      "end": 103,
+      "text": "$5 million"
+    }
+  },
+  {
+    "id": "8acab738-cb70-4cc1-9baa-a971f5d51e26",
+    "name": "Global Systems Ltd.",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 106,
+      "end": 125,
+      "text": "Global Systems Ltd."
+    }
+  },
+  {
+    "id": "d14bd328-4cde-4517-ba24-9d968654af7c",
+    "name": "London",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 139,
+      "end": 145,
+      "text": "London"
+    }
+  },
+  {
+    "id": "214e7b89-8727-40ba-81c4-c537d61a46d2",
+    "name": "David Brown",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "role",
+        "value": "CEO",
+        "confidence": 0.95,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 159,
+      "end": 170,
+      "text": "David Brown"
+    }
+  }
+]

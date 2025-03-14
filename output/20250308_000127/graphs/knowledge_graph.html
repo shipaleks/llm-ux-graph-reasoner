@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3cb44b", "id": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "label": "Gregory", "shape": "dot", "size": 30.0, "title": "\u003cb\u003eGregory\u003c/b\u003e (person)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- description: stern and elusive\u003cbr\u003e- occupation: ran a vast shipping empire\u003cbr\u003e"}, {"color": "#3cb44b", "id": "e55e0c95-bbe7-415e-893f-7d6d52f14c15", "label": "Nathaniel Price", "shape": "dot", "size": 30.0, "title": "\u003cb\u003eNathaniel Price\u003c/b\u003e (person)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- occupation: accountant\u003cbr\u003e- description: morally ambiguous\u003cbr\u003e- description: precise calculations and emotionless demeanor\u003cbr\u003e"}, {"color": "#3cb44b", "id": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc", "label": "Jacob Price", "shape": "dot", "size": 30.0, "title": "\u003cb\u003eJacob Price\u003c/b\u003e (person)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- relationship: Nathaniel\u2019s nephew\u003cbr\u003e- description: passionate and impetuous\u003cbr\u003e"}, {"color": "#3cb44b", "id": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "label": "Eleanor", "shape": "dot", "size": 30.0, "title": "\u003cb\u003eEleanor\u003c/b\u003e (person)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e"}, {"color": "#3cb44b", "id": "8356f45e-0f48-433c-99bc-624b5dbda16f", "label": "Prudence Hartwell", "shape": "dot", "size": 30.0, "title": "\u003cb\u003ePrudence Hartwell\u003c/b\u003e (person)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- occupation: housekeeper\u003cbr\u003e- description: meticulous and judgmental\u003cbr\u003e"}, {"color": "#ffe119", "id": "91e27abf-c90a-4c2c-8ed7-3e9967afba65", "label": "Blythe family", "shape": "dot", "size": 30.0, "title": "\u003cb\u003eBlythe family\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 1.00\u003cbr\u003e"}, {"color": "#3cb44b", "id": "cf47d4ac-3454-49b4-820d-5b029b6a7d9c", "label": "Prudence", "shape": "dot", "size": 29.9, "title": "\u003cb\u003ePrudence\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "0ca5db70-e5c7-41f4-9c29-edc8a5c8a35b", "label": "Reverend Edmund Crane", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eReverend Edmund Crane\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "e419ecf1-b432-44cd-9ca4-72143128043a", "label": "Edmund", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eEdmund\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "c13eb197-b8a9-4793-a92a-547d10759183", "label": "Harriet", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eHarriet\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#911eb4", "id": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc", "label": "bookstore", "shape": "dot", "size": 29.5, "title": "\u003cb\u003ebookstore\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#911eb4", "id": "ba672dfa-74f1-4f36-a972-9b7e299e7f9d", "label": "Glenmoor", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eGlenmoor\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#f58231", "id": "4cd871f1-7112-4da5-9895-70bd3e2aa105", "label": "The Silent Echo", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eThe Silent Echo\u003c/b\u003e (book)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "573e16f7-9f3e-4168-ab47-2eadbff9dc32", "label": "Maxwell Finch", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMaxwell Finch\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#3cb44b", "id": "b6b515b3-d20b-4995-8e89-bbd89aee7b4c", "label": "Maxwell", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eMaxwell\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e"}, {"color": "#e6194B", "id": "c7f88cc1-c29a-4af6-beaa-181d6f074792", "label": "townsfolk", "shape": "dot", "size": 29.0, "title": "\u003cb\u003etownsfolk\u003c/b\u003e (group)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#3cb44b", "id": "ca2df3d0-374f-4a36-8ec9-b2e9aa0bdec5", "label": "Amelia Cole", "shape": "dot", "size": 29.9, "title": "\u003cb\u003eAmelia Cole\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.99\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- profession: journalist\u003cbr\u003e"}, {"color": "#3cb44b", "id": "3fc3961e-0d4c-41bb-995f-b534270e7447", "label": "Dr. Tobias Sinclair", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eDr. Tobias Sinclair\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- profession: physician\u003cbr\u003e"}, {"color": "#3cb44b", "id": "1dea6982-6035-4c46-9474-390ca1b9bad4", "label": "Margaret", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eMargaret\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "ac37ad67-59f4-4b85-bf7e-4ad27a779c69", "label": "Tobias", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eTobias\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "2ddf0a3e-f841-4996-9f5c-49f83f45964c", "label": "Amelia", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eAmelia\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "a64716c1-f38f-423a-9187-7aec823803c6", "label": "Detective Croft", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eDetective Croft\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#3cb44b", "id": "b2f92280-79fc-4139-8651-f30d84b6164e", "label": "Madame Agnes", "shape": "dot", "size": 29.8, "title": "\u003cb\u003eMadame Agnes\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#4363d8", "id": "74ea6d46-3b1b-4d75-b9f2-be12797f98ad", "label": "Parisian opera singer", "shape": "dot", "size": 28.5, "title": "\u003cb\u003eParisian opera singer\u003c/b\u003e (profession)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#911eb4", "id": "b8d82945-31a3-4d19-bed6-83871f1864db", "label": "Europe", "shape": "dot", "size": 29.0, "title": "\u003cb\u003eEurope\u003c/b\u003e (location)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#3cb44b", "id": "5abb248e-d5a8-471a-b831-fab6e7ffe7f6", "label": "Simon Bellows", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eSimon Bellows\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "dc45c7ae-033d-4830-a7ba-814bda156cdb", "label": "Jacob", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eJacob\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "7905f329-caf1-4a25-82fe-f596c58ee047", "label": "Nathaniel", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eNathaniel\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "d3c9e65f-73f5-4522-a6a2-407e580370db", "label": "Reverend Crane", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eReverend Crane\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "e5aa9ed0-d7e4-4853-b1c7-9080c61696a4", "label": "Celia Rhodes", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eCelia Rhodes\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "0b94a24e-8805-4ba3-a504-e9afea69f8ca", "label": "Celia", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eCelia\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}, {"color": "#3cb44b", "id": "982c221b-76cc-4216-ac23-171f8792b111", "label": "Croft", "shape": "dot", "size": 29.7, "title": "\u003cb\u003eCroft\u003c/b\u003e (person)\u003cbr\u003eConfidence: 0.97\u003cbr\u003e"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "e55e0c95-bbe7-415e-893f-7d6d52f14c15", "label": "EMPLOYED_BY", "title": "\u003cb\u003eEMPLOYED_BY\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "width": 3.8499999999999996}, {"arrows": "to", "from": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc", "label": "RELATIVE_OF", "title": "\u003cb\u003eRELATIVE_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "e55e0c95-bbe7-415e-893f-7d6d52f14c15", "width": 3.9699999999999998}, {"arrows": "to", "from": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc", "label": "ROMANTIC_RELATIONSHIP_WITH", "title": "\u003cb\u003eROMANTIC_RELATIONSHIP_WITH\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "width": 3.7}, {"arrows": "to", "from": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "label": "DISAPPROVES_OF", "title": "\u003cb\u003eDISAPPROVES_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "2c1460da-f273-4b24-85b7-5fe7f7ee18bc", "width": 3.7}, {"arrows": "to", "from": "8356f45e-0f48-433c-99bc-624b5dbda16f", "label": "UNREQUITED_LOVE_FOR", "title": "\u003cb\u003eUNREQUITED_LOVE_FOR\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "width": 3.94}, {"arrows": "to", "from": "8356f45e-0f48-433c-99bc-624b5dbda16f", "label": "EMPLOYED_BY", "title": "\u003cb\u003eEMPLOYED_BY\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "91e27abf-c90a-4c2c-8ed7-3e9967afba65", "width": 3.9699999999999998}, {"arrows": "to", "from": "cf47d4ac-3454-49b4-820d-5b029b6a7d9c", "label": "SEEKS_COUNSEL_FROM", "title": "\u003cb\u003eSEEKS_COUNSEL_FROM\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "0ca5db70-e5c7-41f4-9c29-edc8a5c8a35b", "width": 3.8499999999999996}, {"arrows": "to", "from": "c13eb197-b8a9-4793-a92a-547d10759183", "label": "RELATIVE_OF", "title": "\u003cb\u003eRELATIVE_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "e419ecf1-b432-44cd-9ca4-72143128043a", "width": 3.9699999999999998}, {"arrows": "to", "from": "c13eb197-b8a9-4793-a92a-547d10759183", "label": "MANAGES", "title": "\u003cb\u003eMANAGES\u003c/b\u003e\u003cbr\u003eConfidence: 0.98\u003cbr\u003e", "to": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc", "width": 3.94}, {"arrows": "to", "from": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "label": "FREQUENTS", "title": "\u003cb\u003eFREQUENTS\u003c/b\u003e\u003cbr\u003eConfidence: 0.97\u003cbr\u003e", "to": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc", "width": 3.91}, {"arrows": "to", "from": "b4ac28fe-64e8-4733-ab52-31cbee8ce3fc", "label": "LOCATED_IN", "title": "\u003cb\u003eLOCATED_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "ba672dfa-74f1-4f36-a972-9b7e299e7f9d", "width": 3.7}, {"arrows": "to", "from": "573e16f7-9f3e-4168-ab47-2eadbff9dc32", "label": "AUTHOR_OF", "title": "\u003cb\u003eAUTHOR_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "4cd871f1-7112-4da5-9895-70bd3e2aa105", "width": 3.9699999999999998}, {"arrows": "to", "from": "b6b515b3-d20b-4995-8e89-bbd89aee7b4c", "label": "RELATIVE_OF", "title": "\u003cb\u003eRELATIVE_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e\u003cb\u003eAttributes:\u003c/b\u003e\u003cbr\u003e- Relationship Detail: Estranged\u003cbr\u003e", "to": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "width": 3.9699999999999998}, {"arrows": "to", "from": "c7f88cc1-c29a-4af6-beaa-181d6f074792", "label": "BELIEVES", "title": "\u003cb\u003eBELIEVES\u003c/b\u003e\u003cbr\u003eConfidence: 0.70\u003cbr\u003e", "to": "b6b515b3-d20b-4995-8e89-bbd89aee7b4c", "width": 3.0999999999999996}, {"arrows": "to", "from": "3fc3961e-0d4c-41bb-995f-b534270e7447", "label": "EMPLOYED_BY", "title": "\u003cb\u003eEMPLOYED_BY\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "91e27abf-c90a-4c2c-8ed7-3e9967afba65", "width": 3.8499999999999996}, {"arrows": "to", "from": "ac37ad67-59f4-4b85-bf7e-4ad27a779c69", "label": "TREATED", "title": "\u003cb\u003eTREATED\u003c/b\u003e\u003cbr\u003eConfidence: 0.96\u003cbr\u003e", "to": "1dea6982-6035-4c46-9474-390ca1b9bad4", "width": 3.88}, {"arrows": "to;from", "from": "1dea6982-6035-4c46-9474-390ca1b9bad4", "label": "SPOUSE_OF", "title": "\u003cb\u003eSPOUSE_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "4c9e267e-8fd8-4f72-8c0e-50eb2f6428b8", "width": 3.9699999999999998}, {"arrows": "to", "from": "ac37ad67-59f4-4b85-bf7e-4ad27a779c69", "label": "COMELLED_BY", "title": "\u003cb\u003eCOMELLED_BY\u003c/b\u003e\u003cbr\u003eConfidence: 0.85\u003cbr\u003e", "to": "2ddf0a3e-f841-4996-9f5c-49f83f45964c", "width": 3.55}, {"arrows": "to", "from": "a64716c1-f38f-423a-9187-7aec823803c6", "label": "LOCATION_OF_INTERACTIONS", "title": "\u003cb\u003eLOCATION_OF_INTERACTIONS\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "b2f92280-79fc-4139-8651-f30d84b6164e", "width": 3.7}, {"arrows": "to", "from": "b2f92280-79fc-4139-8651-f30d84b6164e", "label": "FORMER_PROFESSION", "title": "\u003cb\u003eFORMER_PROFESSION\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "74ea6d46-3b1b-4d75-b9f2-be12797f98ad", "width": 3.9699999999999998}, {"arrows": "to", "from": "74ea6d46-3b1b-4d75-b9f2-be12797f98ad", "label": "KNOWN_IN", "title": "\u003cb\u003eKNOWN_IN\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "b8d82945-31a3-4d19-bed6-83871f1864db", "width": 3.7}, {"arrows": "to;from", "from": "b2f92280-79fc-4139-8651-f30d84b6164e", "label": "CONFIDANTE_OF", "title": "\u003cb\u003eCONFIDANTE_OF\u003c/b\u003e\u003cbr\u003eConfidence: 0.99\u003cbr\u003e", "to": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "width": 3.9699999999999998}, {"arrows": "to", "from": "5abb248e-d5a8-471a-b831-fab6e7ffe7f6", "label": "SAW", "title": "\u003cb\u003eSAW\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "width": 3.7}, {"arrows": "to;from", "from": "2b3b5979-9363-4ff4-8406-4f33af16feb5", "label": "ARGUED_WITH", "title": "\u003cb\u003eARGUED_WITH\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "dc45c7ae-033d-4830-a7ba-814bda156cdb", "width": 3.8499999999999996}, {"arrows": "to", "from": "cf47d4ac-3454-49b4-820d-5b029b6a7d9c", "label": "WITNESSED", "title": "\u003cb\u003eWITNESSED\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "7905f329-caf1-4a25-82fe-f596c58ee047", "width": 3.7}, {"arrows": "to", "from": "d3c9e65f-73f5-4522-a6a2-407e580370db", "label": "NOTICED", "title": "\u003cb\u003eNOTICED\u003c/b\u003e\u003cbr\u003eConfidence: 0.90\u003cbr\u003e", "to": "e5aa9ed0-d7e4-4853-b1c7-9080c61696a4", "width": 3.7}, {"arrows": "to", "from": "a64716c1-f38f-423a-9187-7aec823803c6", "label": "FOUND", "title": "\u003cb\u003eFOUND\u003c/b\u003e\u003cbr\u003eConfidence: 0.95\u003cbr\u003e", "to": "0b94a24e-8805-4ba3-a504-e9afea69f8ca", "width": 3.8499999999999996}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "shape": "dot", "size": 20}, "edges": {"font": {"size": 12, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.5, "springLength": 300, "springConstant": 0.04}, "minVelocity": 0.75, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

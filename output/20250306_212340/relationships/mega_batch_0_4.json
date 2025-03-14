@@ -1,0 +1,137 @@
+[
+  {
+    "id": "d872d8fb-59fb-400a-92c4-2b2d86e4eaff",
+    "source_id": "fa6bc989-60f2-4b54-939e-68fcb41d1a8e",
+    "target_id": "fe325ce6-ddf6-4940-b931-6d165695b556",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "9b4c9b53-d3b3-48dc-9702-a769d683e684",
+      "start": 0,
+      "end": 54,
+      "text": "Иван Петров является генеральным директором компании \"ТехноИнновации\""
+    }
+  },
+  {
+    "id": "d3fd3373-f295-40bd-ba5b-e02b7caf9fb4",
+    "source_id": "fe325ce6-ddf6-4940-b931-6d165695b556",
+    "target_id": "82eb0511-9fe8-4092-81a9-469ba4e612dd",
+    "type": "ОСНОВАНА_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "9b4c9b53-d3b3-48dc-9702-a769d683e684",
+      "start": 65,
+      "end": 93,
+      "text": "\"ТехноИнновации\" была основана в 2010 году"
+    }
+  },
+  {
+    "id": "b65d00ca-4c60-4843-bcce-c483c262e461",
+    "source_id": "61394eba-a689-4a11-8828-1bcc561ab7d5",
+    "target_id": "3bba4a9a-b675-4b23-ad54-a6328968543d",
+    "type": "РАБОТАЕТ_В",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "position",
+        "value": "ведущий разработчик",
+        "confidence": 0.92,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "0dea0997-437d-40b4-8c61-c98bc229280d",
+      "start": 82,
+      "end": 133,
+      "text": "ведущим разработчиком в компании \"ИТ-Решения\""
+    }
+  },
+  {
+    "id": "b3cf24e2-9232-48a3-a9ef-3a47c663a4c3",
+    "source_id": "a55f6b0b-5079-491d-a399-971ac417c384",
+    "target_id": "cd410c3d-6572-4a94-bec2-3d249249f131",
+    "type": "ОБЪЯВЛЕНО_О_ПАРТНЕРСТВЕ",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "5aa33475-71ab-43cc-bacf-3145c7e967b4",
+      "start": 85,
+      "end": 110,
+      "text": "Об этом партнерстве было объявлено 15 января 2023 года"
+    }
+  },
+  {
+    "id": "3314b0f5-bb68-4978-af7d-c2bf11b04442",
+    "source_id": "85935d1a-d953-4a3e-86d5-eec77bbef1b0",
+    "target_id": "77f6d310-c532-465c-8def-0a89e071485b",
+    "type": "ИСПОЛЬЗУЕТ",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "f8dba8e2-e853-4afd-9000-9d67d246c562",
+      "start": 61,
+      "end": 106,
+      "text": "искусственного интеллекта для здравоохранения"
+    }
+  },
+  {
+    "id": "506a97e5-85e4-4459-bf8c-fb7365c8d612",
+    "source_id": "85935d1a-d953-4a3e-86d5-eec77bbef1b0",
+    "target_id": "8d451ebb-2e74-4295-b467-838b6d986d0a",
+    "type": "БЮДЖЕТ",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "f8dba8e2-e853-4afd-9000-9d67d246c562",
+      "start": 107,
+      "end": 140,
+      "text": "с бюджетом 300 миллионов рублей"
+    }
+  },
+  {
+    "id": "37ef7672-538d-4a2f-a576-85ce56b6167b",
+    "source_id": "cd410c3d-6572-4a94-bec2-3d249249f131",
+    "target_id": "504b2848-c905-46ba-bc2d-9bf8fa92bc65",
+    "type": "БАЗИРУЕТСЯ_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "f8dba8e2-e853-4afd-9000-9d67d246c562",
+      "start": 151,
+      "end": 192,
+      "text": "Компания \"Глобал Системс\" базируется в Санкт-Петербурге"
+    }
+  },
+  {
+    "id": "d0c3deac-bd4e-4301-b5a0-da31a31cd886",
+    "source_id": "2fcaebd0-8234-4a66-9f34-f6c8af3d98ed",
+    "target_id": "cd410c3d-6572-4a94-bec2-3d249249f131",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "sample_ru.txt",
+      "segment_id": "f8dba8e2-e853-4afd-9000-9d67d246c562",
+      "start": 198,
+      "end": 243,
+      "text": "ее генеральным директором является Алексей Смирнов"
+    }
+  }
+]

@@ -1,0 +1,786 @@
+[
+  {
+    "id": "30c99d85-acd6-467a-8c5d-af872b159f1a",
+    "name": "два дополнительных закона",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1da9b6d-bc36-46cf-a78c-971ee7058f4a",
+      "start": 10,
+      "end": 33,
+      "text": "два дополнительных закона"
+    }
+  },
+  {
+    "id": "f88a7f4f-6aa5-435d-b151-9931e1485748",
+    "name": "консультант плюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a743c9e1-432e-4f9b-bfc4-8999baec462d",
+      "start": 6,
+      "end": 23,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "7d36e20c-65ab-4bf0-bf0a-a0b8ef9456eb",
+    "name": "финансы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "49ba3107-771a-4e95-bcb0-1193834ee8e5",
+      "start": 0,
+      "end": 7,
+      "text": "финансы"
+    }
+  },
+  {
+    "id": "db4bdaeb-8a6c-4430-b6cc-745cb9e72751",
+    "name": "транспорт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "49ba3107-771a-4e95-bcb0-1193834ee8e5",
+      "start": 14,
+      "end": 23,
+      "text": "транспорт"
+    }
+  },
+  {
+    "id": "5570baf0-69f4-4659-89c5-0a300ef1a23d",
+    "name": "опыт изучения вопроса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55ffbbfb-fcf9-4c63-b2fa-ae9c3cb4a237",
+      "start": 11,
+      "end": 33,
+      "text": "опыт изучения вопроса"
+    }
+  },
+  {
+    "id": "0a3a722f-ba5f-4a92-a6ff-01b9f4cd442b",
+    "name": "покупании с нуля",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55ffbbfb-fcf9-4c63-b2fa-ae9c3cb4a237",
+      "start": 38,
+      "end": 54,
+      "text": "покупании с нуля"
+    }
+  },
+  {
+    "id": "b17d68ca-bde3-48a3-9a1b-7d05529d29a5",
+    "name": "устав автомобильного транспорта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "751fdc18-e34f-4ac7-adaa-87babd770a98",
+      "start": 22,
+      "end": 53,
+      "text": "устав автомобильного транспорта"
+    }
+  },
+  {
+    "id": "611498c9-c610-497e-8129-5ce971afd860",
+    "name": "коллизия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca04719f-4f23-49a5-91aa-6f4367b7fc85",
+      "start": 18,
+      "end": 26,
+      "text": "коллизия"
+    }
+  },
+  {
+    "id": "15d4e00c-a250-4c1d-9159-8a3b2dec7d49",
+    "name": "устав на транспорт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b95467d5-5e0a-4dd4-b4e0-c6b59f4b13a1",
+      "start": 16,
+      "end": 34,
+      "text": "устав на транспорт"
+    }
+  },
+  {
+    "id": "cbd5181d-b005-4460-9a87-44f65b1160a2",
+    "name": "путаница",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c06295af-d5c8-492e-ad0b-d25c93dfc0d9",
+      "start": 26,
+      "end": 34,
+      "text": "путаница"
+    }
+  },
+  {
+    "id": "e0463b62-6b27-4c25-bee7-8a1aeec6be86",
+    "name": "две нейросети",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c06295af-d5c8-492e-ad0b-d25c93dfc0d9",
+      "start": 51,
+      "end": 64,
+      "text": "две нейросети"
+    }
+  },
+  {
+    "id": "1640f547-0f7f-47db-9ade-37e4c299e24d",
+    "name": "законе",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9c38ceb5-0c6e-4baa-a235-8b89e336033f",
+      "start": 2,
+      "end": 8,
+      "text": "законе"
+    }
+  },
+  {
+    "id": "f7882b4a-7c18-4df4-a15c-c41832bf8bac",
+    "name": "динамика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b44a3620-058b-402e-bc32-4c50417cb79c",
+      "start": 5,
+      "end": 13,
+      "text": "динамика"
+    }
+  },
+  {
+    "id": "e1cea125-c77a-412d-88e5-9d344c9124a7",
+    "name": "нейр",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acaa336f-5213-487b-8779-951418f6b253",
+      "start": 24,
+      "end": 28,
+      "text": "нейр"
+    }
+  },
+  {
+    "id": "e137a2e6-ea44-4e99-9446-d0955d56ade4",
+    "name": "консультант плюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acaa336f-5213-487b-8779-951418f6b253",
+      "start": 51,
+      "end": 68,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "a42c4ea8-1a6e-443e-8247-a7f31f30820b",
+    "name": "консультан",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "601cd7f1-e59c-43db-aaaf-2b95d04926c6",
+      "start": 14,
+      "end": 24,
+      "text": "консультан"
+    }
+  },
+  {
+    "id": "54ce2606-c423-47de-9ed5-96c8355868f9",
+    "name": "консультант плюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90468c02-897c-4650-9667-a90391e8ca17",
+      "start": 12,
+      "end": 29,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "15a7de37-16cf-4a3c-b613-27aeb1392a53",
+    "name": "законы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "99cfbd71-0a65-486b-a261-83c9f6971915",
+      "start": 46,
+      "end": 52,
+      "text": "законы"
+    }
+  },
+  {
+    "id": "385a8cb2-049c-4628-a4c7-ce5a29d545cf",
+    "name": "глюки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bd51a04c-bca4-4426-a02e-de6f70afaaaf",
+      "start": 80,
+      "end": 85,
+      "text": "глюки"
+    }
+  },
+  {
+    "id": "3ee13515-bab5-4669-bcb1-915d452fd88e",
+    "name": "нейра",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6202519-dd4c-4c54-b6c2-cd15c0e1ee9b",
+      "start": 27,
+      "end": 32,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "50b4e34a-269c-41af-8e05-40e3000c4110",
+    "name": "поисковика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52eca844-1599-4fae-a3df-052ce82957a1",
+      "start": 54,
+      "end": 64,
+      "text": "поисковика"
+    }
+  },
+  {
+    "id": "dac0298b-6e4d-477a-9bdd-234db5f18fd8",
+    "name": "алисы",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52eca844-1599-4fae-a3df-052ce82957a1",
+      "start": 89,
+      "end": 94,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "2a459414-b959-4366-b2b4-0dbea7d100b9",
+    "name": "чаты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52eca844-1599-4fae-a3df-052ce82957a1",
+      "start": 98,
+      "end": 102,
+      "text": "чаты"
+    }
+  },
+  {
+    "id": "6e7b7ff8-9b72-4af0-a8ec-84d67ceb9d00",
+    "name": "реферат",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "52eca844-1599-4fae-a3df-052ce82957a1",
+      "start": 137,
+      "end": 144,
+      "text": "реферат"
+    }
+  },
+  {
+    "id": "590070f8-3fcb-4067-a55b-0ec218059ffd",
+    "name": "выдуманными данными",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0843a0bc-f5de-4ab1-9460-822914d0a289",
+      "start": 30,
+      "end": 50,
+      "text": "выдуманными данными"
+    }
+  },
+  {
+    "id": "12de26a7-ffd2-4a54-9ed8-042dac368686",
+    "name": "два интерфейса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3109c8d2-0899-45f9-abd1-2266f34f1b8f",
+      "start": 10,
+      "end": 24,
+      "text": "два интерфейса"
+    }
+  },
+  {
+    "id": "cbd15d7f-7977-4add-8943-70cec9b493ec",
+    "name": "чате",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3d978f6-4022-4560-ab58-1a8fc45daca1",
+      "start": 37,
+      "end": 41,
+      "text": "чате"
+    }
+  },
+  {
+    "id": "21ffd2cb-bfd6-4003-9799-2f1506aaf11e",
+    "name": "поиске",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3d978f6-4022-4560-ab58-1a8fc45daca1",
+      "start": 53,
+      "end": 59,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "a7cb8e70-2093-4fd2-acf3-1dd0c0e679f0",
+    "name": "старка джарвис",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e5cfff3d-d389-44a4-957a-132f1e35f3f7",
+      "start": 16,
+      "end": 30,
+      "text": "старка джарвис"
+    }
+  },
+  {
+    "id": "42fe91a6-fece-4f96-8f89-fffc7ba152a8",
+    "name": "алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e5cfff3d-d389-44a4-957a-132f1e35f3f7",
+      "start": 40,
+      "end": 45,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "d88d2dee-393a-40c7-b45b-72f830da477d",
+    "name": "поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "63bf9c97-ef0c-4ecd-bd04-d714fac6c9a5",
+      "start": 54,
+      "end": 60,
+      "text": "поиска"
+    }
+  },
+  {
+    "id": "792c3e10-d473-4bab-8be9-51026ed0ea79",
+    "name": "яндексе",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12950f57-e418-4ffc-9d37-20e1dedf982f",
+      "start": 11,
+      "end": 18,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "c5b7dbbc-a5e9-46ec-a326-815c2d690dc9",
+    "name": "нейросети",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12950f57-e418-4ffc-9d37-20e1dedf982f",
+      "start": 26,
+      "end": 35,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "5b95d18c-d129-45fd-a069-a403c1daa35e",
+    "name": "двести пятьдесят девятый",
+    "type": "number",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56000029-82e4-413b-9e06-fb0eb8eec66a",
+      "start": 76,
+      "end": 99,
+      "text": "двести пятьдесят девятый"
+    }
+  },
+  {
+    "id": "275c1094-7417-4188-946d-0ed5bcc15992",
+    "name": "консультант плюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8239de6e-7c78-4611-8904-dbd41a119742",
+      "start": 6,
+      "end": 23,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "ee229a1c-3481-4f8f-986f-98dd2f32852b",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68bde2cc-3b5a-4784-92df-eee1bc798500",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "7e81dab8-5653-4051-a9fc-fb9e3559c591",
+    "name": "чат g пяти",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cab3eca4-f03a-42f9-a38d-03d6a8e57d84",
+      "start": 0,
+      "end": 10,
+      "text": "чат g пяти"
+    }
+  },
+  {
+    "id": "2dfd1c24-1d6d-40ac-a53f-c42e01267804",
+    "name": "КонсультантПлюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ebfdc986-f280-41bf-be1d-d02b7ef011f9",
+      "start": 177,
+      "end": 192,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "3317d0c2-8311-4ab5-898a-f5881baa493c",
+    "name": "сайт президента",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce462479-4ec3-49db-b513-267495c92f68",
+      "start": 12,
+      "end": 27,
+      "text": "сайт президента"
+    }
+  },
+  {
+    "id": "9dbc6ca5-cf1a-4f0e-a8f6-d365ac5262d2",
+    "name": "кремль.ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce462479-4ec3-49db-b513-267495c92f68",
+      "start": 33,
+      "end": 46,
+      "text": "кремль точка ру"
+    }
+  },
+  {
+    "id": "8df679c7-596c-4661-8341-22cd5985e06e",
+    "name": "g",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acbd6501-57a6-42d5-98ef-11a356388526",
+      "start": 146,
+      "end": 147,
+      "text": "g"
+    }
+  },
+  {
+    "id": "5711b5da-96bc-485c-857a-ce653e25dac7",
+    "name": "g",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76c6abd6-e570-4139-b5bf-448d0ff33fc2",
+      "start": 21,
+      "end": 22,
+      "text": "g"
+    }
+  },
+  {
+    "id": "2e73fce3-49a4-443c-8f39-34b78b77daf7",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82af523e-b081-4497-ae1a-a6c1912f1501",
+      "start": 22,
+      "end": 31,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "dac7b230-9c31-4a00-9d89-5c179247dc73",
+    "name": "доктор зуев",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78d62d68-9926-46a0-8d2a-8bf617ae7c4e",
+      "start": 112,
+      "end": 123,
+      "text": "доктор зуев"
+    }
+  },
+  {
+    "id": "b0e7b198-3913-49ea-83a0-e6ae140c2687",
+    "name": "минстрой",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78d62d68-9926-46a0-8d2a-8bf617ae7c4e",
+      "start": 156,
+      "end": 164,
+      "text": "минстрой"
+    }
+  },
+  {
+    "id": "4691b689-f611-4dd2-b895-97ead708d777",
+    "name": "министерство строительства калининградской области",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78d62d68-9926-46a0-8d2a-8bf617ae7c4e",
+      "start": 186,
+      "end": 238,
+      "text": "министерство строительства калининградской области"
+    }
+  },
+  {
+    "id": "007c37fd-c553-419a-81fd-3b6b171511e8",
+    "name": "доктор зуфи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fd00cae1-cb63-4629-919e-a572c805d48e",
+      "start": 5,
+      "end": 16,
+      "text": "доктор зуфи"
+    }
+  },
+  {
+    "id": "edb3ea3b-cc12-400e-a86c-51ec8bde4ec0",
+    "name": "фильтр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89e90b5c-b8b5-4dfc-89d0-9daac8d8b453",
+      "start": 23,
+      "end": 29,
+      "text": "фильтра"
+    }
+  },
+  {
+    "id": "248b3f8d-8eda-4f6e-b42c-b049eb01a06e",
+    "name": "надежность источников",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "89e90b5c-b8b5-4dfc-89d0-9daac8d8b453",
+      "start": 43,
+      "end": 63,
+      "text": "надежность источников"
+    }
+  },
+  {
+    "id": "98e941c8-4691-476b-baf6-f7a8db9f0e9b",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e46bb205-862d-42e2-b027-f22b77a5e4eb",
+      "start": 4,
+      "end": 10,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "564ff877-ee10-4acb-b75c-525508af210f",
+    "name": "КонсультантПлюс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e46bb205-862d-42e2-b027-f22b77a5e4eb",
+      "start": 29,
+      "end": 44,
+      "text": "консультант плюс"
+    }
+  },
+  {
+    "id": "bdaa9736-19ed-43cd-8643-2875cab3253d",
+    "name": "сайт президента",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e46bb205-862d-42e2-b027-f22b77a5e4eb",
+      "start": 45,
+      "end": 60,
+      "text": "сайт президента"
+    }
+  },
+  {
+    "id": "027f9bb5-75a0-4da1-a675-98efdc03dec4",
+    "name": "кремль",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e46bb205-862d-42e2-b027-f22b77a5e4eb",
+      "start": 61,
+      "end": 67,
+      "text": "кремля"
+    }
+  },
+  {
+    "id": "82875d55-de48-4f8c-a1d0-c82a7afef948",
+    "name": "доктор зуев",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f209cff4-3a33-4bcb-bcdd-8541c510eb95",
+      "start": 85,
+      "end": 96,
+      "text": "доктор зуев"
+    }
+  },
+  {
+    "id": "a2b3668e-5757-4158-8a4a-4859cf27e9d5",
+    "name": "впн",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b87a3dfb-5a08-4550-b349-8dbe4d310211",
+      "start": 15,
+      "end": 18,
+      "text": "впн"
+    }
+  },
+  {
+    "id": "bce627d7-7984-4462-bca0-9c3b5cd80ec5",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4ecf4e75-162e-4263-81d6-db7a919f0a2d",
+      "start": 24,
+      "end": 29,
+      "text": "нейро"
+    }
+  }
+]

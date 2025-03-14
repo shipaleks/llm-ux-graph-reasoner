@@ -1,0 +1,26 @@
+Based on the following information about a priority research direction in the knowledge graph:
+
+Direction: {{direction}}
+Current nodes and connections: {{subgraph}}
+
+Formulate 3-5 specific research questions that:
+
+1. Aim to fill identified knowledge gaps
+2. Test implicit hypotheses following from the graph structure
+3. Clarify relationships between key concepts
+4. Explore potential contradictions
+5. Focus on "bridge" nodes or boundaries between communities
+
+For each question, specify:
+- Specific question formulation
+- Which nodes and connections the question affects
+- Type of expected answer (new node, new connection, attribute clarification, etc.)
+- Why this question is a priority
+
+Consider contextual information from the original text.
+Formulate questions so that they are specific but open for research.
+
+Present the result in a structured format with a separate section for each question.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

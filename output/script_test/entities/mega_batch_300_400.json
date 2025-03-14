@@ -1,0 +1,296 @@
+[
+  {
+    "id": "eaf1e3dc-4120-42cf-ae44-4278a78a38b5",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "69ca545b-a77d-4bf8-b513-3b127f695aba",
+      "start": 30,
+      "end": 37,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "b12c4483-a4f5-442c-94e7-026450382a0c",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67dcb720-8e9e-4d48-baf6-e5d028c8e595",
+      "start": 2,
+      "end": 7,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "8c3d07cd-72a0-42ec-aac4-4fdde1b2372d",
+    "name": "сравнение по разным моделям",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "10ac2407-a42c-430b-b785-80313f3ad03d",
+      "start": 12,
+      "end": 40,
+      "text": "сравнение по разным моделям"
+    }
+  },
+  {
+    "id": "65f77d8a-8471-47dc-b0d4-e89d5247dde8",
+    "name": "Найра",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8022b07e-67a6-479d-bc3e-ca32aa3416b0",
+      "start": 111,
+      "end": 116,
+      "text": "найра"
+    }
+  },
+  {
+    "id": "02bf9e0c-f898-402d-8d1c-f331f34dc388",
+    "name": "дублирование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9473bc36-fbaa-48c1-a207-dde396b82279",
+      "start": 34,
+      "end": 46,
+      "text": "дублирование"
+    }
+  },
+  {
+    "id": "831154a6-7838-4e6a-b7d1-f1c7be087b64",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "166df17b-f184-46f7-a18f-29f748e10d36",
+      "start": 17,
+      "end": 23,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "f4983586-1d65-4b74-bae8-1c3e10d6ca69",
+    "name": "Ватсап",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a94f061-55e7-4385-9ef2-5a48f1810505",
+      "start": 2,
+      "end": 9,
+      "text": "ватсапе"
+    }
+  },
+  {
+    "id": "6de5f8f3-7f7b-432a-9281-730ff47fe95b",
+    "name": "Ватсап",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d32ff4bc-88e7-4962-bd55-109403a7da3e",
+      "start": 2,
+      "end": 9,
+      "text": "ватсапе"
+    }
+  },
+  {
+    "id": "50a5545d-7fe9-4687-a59f-cb8772eaaec2",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a0e33ad3-524c-44c6-b4e0-354c06fc397a",
+      "start": 47,
+      "end": 52,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "23c8f679-2d5a-4342-a867-8d8b403a2d5b",
+    "name": "русских крязев",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b2daed39-569f-4864-a373-d502fce7c15d",
+      "start": 26,
+      "end": 40,
+      "text": "русских крязев"
+    }
+  },
+  {
+    "id": "e9047113-c923-4775-b8b1-59561265cd84",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8c12fca-8fe4-4cb1-85a5-b4c4e16e1533",
+      "start": 73,
+      "end": 85,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "6df1303f-b63f-47d6-8073-76ae80bc7709",
+    "name": "дублирование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1144262b-8653-4456-9adc-eb4849456e57",
+      "start": 2,
+      "end": 14,
+      "text": "дублированием"
+    }
+  },
+  {
+    "id": "d248ac09-e213-4529-b559-1939f06a2b21",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c410ad86-6224-405b-9d88-bdb4b5fff184",
+      "start": 0,
+      "end": 23,
+      "text": "искусственный интеллект"
+    }
+  },
+  {
+    "id": "b8d1d549-3275-4e3d-9bbf-fdf67ebd46f6",
+    "name": "процесс рассуждения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6d7e185d-7de4-4fcc-bd55-1f1492ed1d94",
+      "start": 26,
+      "end": 45,
+      "text": "процесс рассуждения"
+    }
+  },
+  {
+    "id": "f0ec0c05-4bd1-406c-a3fe-63b138ed1a87",
+    "name": "рассуждения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d8ff85e-83c6-4c61-9d56-43d98a85f8ca",
+      "start": 14,
+      "end": 25,
+      "text": "рассуждения"
+    }
+  },
+  {
+    "id": "f8eb8dce-6582-424b-b33f-2d5eda7863db",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55d0e9ba-e0dd-40cc-af49-0e37caae6d7c",
+      "start": 31,
+      "end": 37,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "6ff47081-15cd-4893-aefb-ac46972e4a7f",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96133276-6ba8-4b8c-9b85-7a9f311ace2b",
+      "start": 48,
+      "end": 53,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "f74af26a-bb18-4723-b2da-496f7bb69283",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "96133276-6ba8-4b8c-9b85-7a9f311ace2b",
+      "start": 56,
+      "end": 63,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "d5c0940f-3113-438b-a344-b443193caa1c",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "873f1a33-dadc-4273-8979-bd586b4c79a2",
+      "start": 7,
+      "end": 13,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "04dab427-51f5-48f9-983e-8b6c6c5d26bb",
+    "name": "деперсонализация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cdd84b4b-abf0-41ac-b7cd-63215c83e791",
+      "start": 5,
+      "end": 21,
+      "text": "деперсонализация"
+    }
+  },
+  {
+    "id": "a0add732-9b7f-4bc4-8b71-441a13ca012a",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e695e3ce-0458-4942-82c3-b0e566623f4d",
+      "start": 12,
+      "end": 17,
+      "text": "нейро"
+    }
+  }
+]

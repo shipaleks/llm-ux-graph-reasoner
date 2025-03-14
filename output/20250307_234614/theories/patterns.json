@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Investigation Hub",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "Certain individuals act as central figures in the investigation, connecting various entities and relationships.",
+    "examples": [
+      {
+        "text": "Amelia Cole → journalist, chased_leads_regarding → Blythe family, aided_by → Dr. Tobias Sinclair",
+        "explanation": "Amelia Cole, a journalist, is connected to multiple entities through her investigation of the Blythe family and her collaboration with Dr. Tobias Sinclair."
+      },
+      {
+        "text": "Detective Croft → watched_interactions_at → Madame Agnes, found → Celia Rhodes",
+        "explanation": "Detective Croft is another central figure, observing interactions and making discoveries."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "These individuals are likely key to unraveling the mystery or central narrative, acting as investigators or points of convergence for information."
+  },
+  {
+    "name": "Identity Convergence",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Multiple entities, referred to by different names, are revealed to be the same person.",
+    "examples": [
+      {
+        "text": "Maxwell Finch → same_as → Maxwell",
+        "explanation": "The entity 'Maxwell Finch' is identified as the same person as 'Maxwell'."
+      },
+      {
+        "text": "Amelia Cole → same_as → Amelia",
+        "explanation": "The entity 'Amelia Cole' is the same as 'Amelia'."
+      },
+      {
+        "text": "Dr. Tobias Sinclair → same_as → Tobias",
+        "explanation": "The entity 'Dr. Tobias Sinclair' is the same as 'Tobias'."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern suggests a potential for hidden identities, aliases, or a narrative focus on uncovering the true identities of individuals. It might also indicate a simplification of the underlying data."
+  },
+  {
+    "name": "Observation and Suspicion",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "Several relationships involve characters observing, witnessing, or suspecting others, creating an atmosphere of intrigue and potential conflict.",
+    "examples": [
+      {
+        "text": "townsfolk → sensed_otherwise → Maxwell",
+        "explanation": "The townsfolk have suspicions about Maxwell."
+      },
+      {
+        "text": "Reverend Crane → noticed_lurking_near → Celia Rhodes",
+        "explanation": "Reverend Crane observes Celia Rhodes lurking, suggesting suspicious behavior."
+      },
+      {
+        "text": "Prudence → witnessed_slipping_into_chamber → Nathaniel",
+        "explanation": "Prudence witnesses Nathaniel's secretive actions."
+      },
+      {
+        "text": "Simon Bellows → saw_arguing_with → Jacob",
+        "explanation": "Simon Bellows witnesses an argument, indicating conflict."
+      }
+    ],
+    "confidence": 0.95,
+    "significance": "This pattern highlights a theme of mistrust, hidden actions, and potential conflicts within the narrative. It suggests that characters are under scrutiny and their actions are being observed by others."
+  },
+  {
+    "name": "Occupational Roles",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Occupations play a significant role in defining characters and their relationships.",
+    "examples": [
+      {
+        "text": "Amelia Cole → occupation → journalist",
+        "explanation": "Amelia's occupation as a journalist drives her actions and connections."
+      },
+      {
+        "text": "Dr. Tobias Sinclair → occupation → family physician",
+        "explanation": "Tobias's role as a family physician likely gives him access to information and relationships within the community."
+      },
+      {
+        "text": "Madame Agnes → former_occupation → Parisian opera singer, known_throughout → Europe",
+        "explanation": "Madame Agnes's former occupation provides a connection to a wider world (Europe) and hints at a potentially glamorous past."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "Occupations are not merely descriptive but are integral to the characters' roles in the narrative and their relationships with others. They provide context and potential motivations."
+  }
+]

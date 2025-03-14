@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        .segment-actions {
+            margin-top: 0.75rem;
+        }
+        
+        .segment-link {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #0366d6;
+        }
+        
+        .segment-link:hover {
+            background-color: #e0e0e0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{ title }}</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Metadata -->
+        <div class="metadata">
+            <p><strong>Date:</strong> {{ date }}</p>
+            <p><strong>Source:</strong> {{ source_file }}</p>
+            <p><strong>Entity Count:</strong> {{ entity_count }}</p>
+            <p><strong>Relationship Count:</strong> {{ relationship_count }}</p>
+            <p><strong>Text Segment Count:</strong> {{ segment_count }}</p>
+        </div>
+        
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#summary">Executive Summary</a></li>
+                <li><a href="#research-process">Research Process</a></li>
+                <li><a href="#contextual-analysis">Contextual Analysis</a></li>
+                <li><a href="#entity-analysis">Entity Analysis</a></li>
+                <li><a href="#relationship-analysis">Relationship Analysis</a></li>
+                <li><a href="#graph-visualization">Graph Visualization</a></li>
+                <li><a href="#graph-metrics">Graph Metrics</a></li>
+                <li><a href="#theories">Theories and Hypotheses</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </div>
+        
+        <!-- Abstract -->
+        <section id="abstract" class="section">
+            <h2>Abstract</h2>
+            <p>{{ abstract }}</p>
+        </section>
+        
+        <!-- Executive Summary -->
+        <section id="summary" class="section">
+            <h2>Executive Summary</h2>
+            <p>{{ executive_summary }}</p>
+        </section>
+        
+        <!-- Research Process -->
+        <section id="research-process" class="section">
+            <h2>Research Process</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Step 1: Text Loading and Segmentation</h3>
+                    <p>The source text was loaded and divided into {{ segment_count }} logical segments for detailed analysis.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 2: Contextual Analysis</h3>
+                    <p>Context analysis was performed between segments to identify semantic connections.</p>
+                    <p>{{ segment_connections|length }} connections were identified between segments.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 3: Entity Extraction</h3>
+                    <p>{{ entity_count }} key entities of various types were extracted from the text.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 4: Relationship Identification</h3>
+                    <p>{{ relationship_count }} connections and relationships were identified between entities.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 5: Knowledge Graph Construction</h3>
+                    <p>A knowledge graph was constructed based on the extracted entities and relationships.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 6: Graph Analysis and Theory Generation</h3>
+                    <p>The graph was analyzed and theories were formed to explain the identified connections.</p>
+                    <p>{{ theories|length }} theories were generated based on graph analysis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contextual Analysis -->
+        <section id="contextual-analysis" class="section">
+            <h2>Contextual Analysis</h2>
+            
+            <h3>Segment Summaries</h3>
+            {% for summary in segment_summaries %}
+            <div class="segment-summary">
+                <h4>{{ summary.id }}</h4>
+                <p><strong>Summary:</strong> {{ summary.summary }}</p>
+                <p><strong>Role:</strong> {{ summary.role }}</p>
+                
+                <p><strong>Key Points:</strong></p>
+                <ul>
+                    {% for point in summary.key_points %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                
+                {% if summary.parent_relation %}
+                <p><strong>Relation to Parent Segment:</strong> {{ summary.parent_relation }}</p>
+                {% endif %}
+                
+                <div class="segment-actions">
+                    <a href="./segments/{{ summary.id }}.html" target="_blank" class="segment-link">View Full Segment Text</a>
+                </div>
+            </div>
+            {% endfor %}
+            
+            <h3>Segment Connections</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source Segment</th>
+                        <th>Connection Type</th>
+                        <th>Target Segment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for connection in segment_connections %}
+                    <tr>
+                        <td>{{ connection.source_id }}</td>
+                        <td>{{ connection.type }}</td>
+                        <td>{{ connection.target_id }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Entity Analysis -->
+        <section id="entity-analysis" class="section">
+            <h2>Entity Analysis</h2>
+            
+            <p>This section presents the key entities identified in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Type</th>
+                        <th>Confidence</th>
+                        <th>Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entity in entities %}
+                    <tr>
+                        <td>{{ entity.name }}</td>
+                        <td>{{ entity.type }}</td>
+                        <td>{{ "%.2f"|format(entity.confidence) }}</td>
+                        <td>
+                            {% if entity.attributes %}
+                            <ul>
+                                {% for attr in entity.attributes %}
+                                <li><strong>{{ attr.key }}:</strong> {{ attr.value }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            -
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Relationship Analysis</h2>
+            
+            <p>This section presents the relationships identified between entities in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Relationship</th>
+                        <th>Target</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rel in relationships %}
+                    <tr>
+                        <td>{{ rel.source_name }}</td>
+                        <td>{{ rel.type }}</td>
+                        <td>{{ rel.target_name }}</td>
+                        <td>{{ "%.2f"|format(rel.confidence) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Graph Visualization -->
+        <section id="graph-visualization" class="section">
+            <h2>Graph Visualization</h2>
+            
+            <p>This interactive visualization represents the knowledge graph with entities as nodes and relationships as edges.</p>
+            
+            <div class="graph-container">
+                {{ graph_visualization|safe }}
+            </div>
+        </section>
+        
+        <!-- Graph Metrics -->
+        <section id="graph-metrics" class="section">
+            <h2>Graph Metrics</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.density|round(4) }}</div>
+                    <div>Graph Density</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.avg_degree|round(2) }}</div>
+                    <div>Average Degree</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.avg_clustering|round(4) }}</div>
+                    <div>Average Clustering Coefficient</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">{{ metrics.diameter }}</div>
+                    <div>Graph Diameter</div>
+                </div>
+            </div>
+            
+            <h3>Central Entities</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Centrality Score</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entity in metrics.central_entities %}
+                    <tr>
+                        <td>{{ entity.name }}</td>
+                        <td>{{ "%.3f"|format(entity.centrality) }}</td>
+                        <td>{{ entity.type }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Theories and Hypotheses -->
+        <section id="theories" class="section">
+            <h2>Theories and Hypotheses</h2>
+            
+            <p>This section presents theories and hypotheses derived from the knowledge graph analysis.</p>
+            
+            {% for theory in theories %}
+            <div class="research-process">
+                <h3>{{ theory.name }}</h3>
+                <p><strong>Confidence:</strong> {{ "%.2f"|format(theory.confidence) }}</p>
+                <p>{{ theory.description }}</p>
+                
+                {% if theory.hypotheses %}
+                <h4>Hypotheses:</h4>
+                {% for hypothesis in theory.hypotheses %}
+                <div class="process-step">
+                    <p><strong>{{ hypothesis.statement }}</strong> (Confidence: {{ "%.2f"|format(hypothesis.confidence) }})</p>
+                    
+                    {% if hypothesis.evidence %}
+                    <p>Evidence:</p>
+                    <ul>
+                        {% for ev in hypothesis.evidence %}
+                        <li>{{ ev.description }} (Strength: {{ "%.2f"|format(ev.strength) }})</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+        
+        <!-- Conclusion -->
+        <section id="conclusion" class="section">
+            <h2>Conclusion</h2>
+            <p>{{ conclusion }}</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Generated by Knowledge Graph Synthesis System</p>
+            <p>{{ date }}</p>
+        </div>
+    </footer>
+</body>
+</html>

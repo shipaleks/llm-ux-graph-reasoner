@@ -1,0 +1,29 @@
+Extract significant entities from the following text, considering the domain of "{{domain_type}}".
+
+Text: {{text}}
+
+Focus on the following entity types relevant to this domain:
+{{key_concepts}}
+
+For each entity, specify:
+
+1. Name (canonical form)
+2. Entity type (from the list above or suggest your own if necessary)
+3. Context of appearance (quote from text)
+4. Attributes (properties, characteristics mentioned in the text)
+5. Role in this segment (main topic, supporting example, definition, etc.)
+6. Confidence in significance (0-1)
+7. Alternative mentions or forms (aliases)
+
+Do not extract general concepts or minor entities; focus on key concepts for this domain.
+Keep in mind that the same entity may be mentioned under different names or in different forms.
+
+Remember to:
+- Ground every entity in the source text using precise source spans
+- Only include entities explicitly mentioned in the text
+- Assign appropriate confidence scores (lower for unclear or ambiguous entities)
+- Maintain a consistent level of granularity for entity types
+- Consider the domain context when determining significance
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

@@ -1,0 +1,436 @@
+[
+  {
+    "id": "1ed59b18-4fd9-4161-980d-c618b413d9c2",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6269f492-dee7-41f9-9f06-4b7a3a4db70d",
+      "start": 22,
+      "end": 28,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "692c54ce-1f6b-4eec-9bc6-b9085e0c4a47",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "99aa6e29-b291-4d23-a0e4-710222186ddb",
+      "start": 21,
+      "end": 27,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "a18d5856-9f24-4f36-94a3-29698bf7fb79",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "06b41c39-f512-45e1-b550-d41fb774bea6",
+      "start": 47,
+      "end": 53,
+      "text": "сказку"
+    }
+  },
+  {
+    "id": "74357706-adae-4d1b-87bf-a21b6ada1d22",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b69af5a-779d-4506-b622-657961a4ebf7",
+      "start": 64,
+      "end": 70,
+      "text": "сказки"
+    }
+  },
+  {
+    "id": "b3590640-497b-43a4-b1f8-fe3692d3abac",
+    "name": "русское название",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b69af5a-779d-4506-b622-657961a4ebf7",
+      "start": 79,
+      "end": 94,
+      "text": "русское название"
+    }
+  },
+  {
+    "id": "a2f0d376-a587-43b4-ae9c-165368e263e0",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af968adb-77f8-4ac8-84c4-4911a2b54762",
+      "start": 64,
+      "end": 70,
+      "text": "сказки"
+    }
+  },
+  {
+    "id": "53baa146-a54f-464a-9686-7476c3cc8b3e",
+    "name": "пестрый флейтист из гаммельда",
+    "type": "creative_work",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b381c837-83cc-42c1-b93e-a37f8300f25d",
+      "start": 42,
+      "end": 72,
+      "text": "пестрый флейтист из гаммельда"
+    }
+  },
+  {
+    "id": "fe5de8cc-e4e0-4594-855c-c8747b990d4a",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c273204b-0c58-42d0-8be9-bf4ad68874b1",
+      "start": 71,
+      "end": 77,
+      "text": "сказка"
+    }
+  },
+  {
+    "id": "ae29efd7-c7ae-4c00-aff2-e51e2afddd1f",
+    "name": "Википедия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f4839647-5a2f-42fa-a445-b57f05672023",
+      "start": 47,
+      "end": 55,
+      "text": "википедию"
+    }
+  },
+  {
+    "id": "ff263756-9965-4eb4-a8f5-fc4e5336eaca",
+    "name": "пдфка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "519feeab-0967-45f3-8553-57dc25d3e736",
+      "start": 31,
+      "end": 37,
+      "text": "пдфка"
+    }
+  },
+  {
+    "id": "01f24e4d-d517-4d48-a831-460fb9b60060",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f0eb731-2780-4b59-abfd-d352da24c18f",
+      "start": 15,
+      "end": 20,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "1c89c807-6d21-46f8-96e1-49c250f7a644",
+    "name": "Рутуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0538d556-6a5e-4eb1-8113-7281091b0614",
+      "start": 47,
+      "end": 53,
+      "text": "ручуба"
+    }
+  },
+  {
+    "id": "415a9446-4a22-49c6-a674-c82a3b29ed3c",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "04ee3e38-9f40-4bc3-b8bc-106950f243e7",
+      "start": 10,
+      "end": 15,
+      "text": "ютуба"
+    }
+  },
+  {
+    "id": "6b4b893e-9c82-4174-b35e-c64e6f86046b",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b483d9dd-6545-49f9-af8d-775975c25bf9",
+      "start": 10,
+      "end": 15,
+      "text": "ютуба"
+    }
+  },
+  {
+    "id": "9f5086c7-050b-4d25-8c12-a66bc5e361d3",
+    "name": "YouTube",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d29b1564-bf46-4f38-bdb9-69805d207847",
+      "start": 61,
+      "end": 66,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "c4ef05ef-d936-4fbf-803d-9397f3e5ce1d",
+    "name": "Телеграм-бот",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c3876862-3f17-43bb-a83d-22cbba932132",
+      "start": 27,
+      "end": 40,
+      "text": "телеграмм ботом"
+    }
+  },
+  {
+    "id": "0069dd4a-ad9c-47b5-84b7-ae800e4beea4",
+    "name": "переводчик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ff057fd4-6f75-44a1-9c7b-ab4a1ad1cb8f",
+      "start": 32,
+      "end": 42,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "8919f6fa-6ce0-42d0-ba70-2ff7c3fcbe92",
+    "name": "гамельским крысоловым",
+    "type": "creative_work",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11cedd72-0f46-447c-af2e-c0f7bfb363a7",
+      "start": 47,
+      "end": 68,
+      "text": "гамельским крысоловым"
+    }
+  },
+  {
+    "id": "0f212045-cd4d-4146-a1c1-014fee640880",
+    "name": "всероссийской олимпиады школьников",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1275430a-80f2-4d82-b251-a79f35ad4169",
+      "start": 34,
+      "end": 69,
+      "text": "всероссийской олимпиады школьников"
+    }
+  },
+  {
+    "id": "c8cd7999-089e-4881-8e0c-34be0a9c459e",
+    "name": "ВКонтакте",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76893d0d-6e85-43b9-a2d4-fbe03ff7f878",
+      "start": 41,
+      "end": 50,
+      "text": "вконтакте"
+    }
+  },
+  {
+    "id": "8177c47f-c57c-4cc4-a6b2-ea436d8198a3",
+    "name": "всероссийской олимпиады школьников",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76893d0d-6e85-43b9-a2d4-fbe03ff7f878",
+      "start": 100,
+      "end": 135,
+      "text": "всероссийской олимпиады школьников"
+    }
+  },
+  {
+    "id": "670d5c56-b5fe-4c12-9dab-2afcdd00283f",
+    "name": "ВКонтакте",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "29172fce-68fe-4291-92c9-eff4c3f7f829",
+      "start": 34,
+      "end": 43,
+      "text": "вконтакте"
+    }
+  },
+  {
+    "id": "c43c2372-2d56-4f8b-9c68-4e63ec47d008",
+    "name": "дата сражения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9fa9164e-2742-4c7b-9992-2f8c69a0a271",
+      "start": 21,
+      "end": 34,
+      "text": "дату сражения"
+    }
+  },
+  {
+    "id": "ec0fc1e6-6fb2-4a94-a0db-2216cfcfc0ca",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5bbc661-bbf6-4f55-b2b1-9474c8348589",
+      "start": 41,
+      "end": 47,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "1bb4696d-13eb-468e-973d-165e2e020b09",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90464dfd-3516-4694-8272-762b8509e8d2",
+      "start": 64,
+      "end": 70,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "d6202ed0-fcb0-4222-b779-45e9bf59f850",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5edcb3b2-0808-4f31-827f-59dd60bb762b",
+      "start": 64,
+      "end": 70,
+      "text": "тостер"
+    }
+  },
+  {
+    "id": "6e907f3c-e4b5-4658-9db0-2876847cb0ac",
+    "name": "Казань",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8882ab7-7409-4791-b1b4-966f9eb0da28",
+      "start": 21,
+      "end": 27,
+      "text": "казани"
+    }
+  },
+  {
+    "id": "3a375786-201f-4852-ae9c-09bb5ccd5239",
+    "name": "Яндекс Маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "18c39beb-99cb-407b-b9a4-128729f72ffd",
+      "start": 8,
+      "end": 20,
+      "text": "яндекс маркет"
+    }
+  },
+  {
+    "id": "1d3c7253-84ab-4ac4-9555-b1d76a8e3532",
+    "name": "М.Видео",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3ccc9484-d84a-4fec-8ed9-8bc533b365f0",
+      "start": 54,
+      "end": 61,
+      "text": "м- видео"
+    }
+  },
+  {
+    "id": "dee5916f-4cb9-4b29-9c1f-343b2983b617",
+    "name": "ДНС",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3ccc9484-d84a-4fec-8ed9-8bc533b365f0",
+      "start": 76,
+      "end": 79,
+      "text": "днс"
+    }
+  },
+  {
+    "id": "663e2a96-6801-4891-bdf7-f0d1aecac774",
+    "name": "тостер",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1683d16-652e-4e4b-a38d-1ee466b053c6",
+      "start": 27,
+      "end": 34,
+      "text": "тостеры"
+    }
+  }
+]

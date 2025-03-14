@@ -1,0 +1,54 @@
+File: /Users/shipaleks/bso/neuro_bso_4.txt
+Date: 2025-03-07 01:50:48
+Total analysis time: 39.57 seconds
+
+Token Usage Summary
+===================
+Total API Calls: 2
+Total Tokens: 91967 (Input: 89645, Output: 2322)
+Estimated Cost: $0.048306 USD
+Total API Duration: 39.55 seconds
+Total Analysis Time: 39.57 seconds
+
+Model Breakdown:
+  gemini-2.0-flash-thinking-exp-01-21:
+    Calls: 1
+    Tokens: 45736 (Input: 43599, Output: 2137)
+    Cost: $0.025005 USD
+
+  gemini-2.0-pro-exp-02-05:
+    Calls: 1
+    Tokens: 46231 (Input: 46046, Output: 185)
+    Cost: $0.023301 USD
+
+
+JSON DATA:
+{
+  "file": "/Users/shipaleks/bso/neuro_bso_4.txt",
+  "date": "2025-03-07 01:50:48",
+  "analysis_time": 39.56773900985718,
+  "api_calls": 2,
+  "input_tokens": 89645,
+  "output_tokens": 2322,
+  "total_tokens": 91967,
+  "total_cost_usd": 0.0483055,
+  "api_duration": 39.55,
+  "models": {
+    "gemini-2.0-flash-thinking-exp-01-21": {
+      "calls": 1,
+      "input_tokens": 43599,
+      "output_tokens": 2137,
+      "input_cost": 0.0217995,
+      "output_cost": 0.0032055,
+      "total_cost": 0.025005
+    },
+    "gemini-2.0-pro-exp-02-05": {
+      "calls": 1,
+      "input_tokens": 46046,
+      "output_tokens": 185,
+      "input_cost": 0.023023000000000002,
+      "output_cost": 0.0002775,
+      "total_cost": 0.023300500000000002
+    }
+  }
+}

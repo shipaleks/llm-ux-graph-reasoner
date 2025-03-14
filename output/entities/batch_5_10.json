@@ -1,0 +1,86 @@
+[
+  {
+    "id": "743e4575-1904-4371-aa5e-13ac2c78ecdf",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cab99ea-ab32-48d1-9e70-73db2a18bbde",
+      "start": 27,
+      "end": 33,
+      "text": "музыка"
+    }
+  },
+  {
+    "id": "4fe5f673-1826-49b5-9826-5dbc8222d65b",
+    "name": "яндекс музыка",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0cab99ea-ab32-48d1-9e70-73db2a18bbde",
+      "start": 35,
+      "end": 47,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "2d85d9d4-b1ec-4f1a-ab76-0c6bd29e93c0",
+    "name": "ужас",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "27216451-b593-42fe-b024-0cdd60fb7c99",
+      "start": 32,
+      "end": 36,
+      "text": "ужас"
+    }
+  },
+  {
+    "id": "717e1716-0625-4000-b917-3b0430b2fafe",
+    "name": "яндекс пэй",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 29,
+      "end": 39,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "2cccfae4-8540-4e3c-9e5f-b4a52f40e177",
+    "name": "маркетом",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 44,
+      "end": 52,
+      "text": "маркетом"
+    }
+  },
+  {
+    "id": "b15a14b7-7dd7-4f72-86cf-81be646ae096",
+    "name": "такси",
+    "type": "transport",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 57,
+      "end": 61,
+      "text": "такси"
+    }
+  }
+]

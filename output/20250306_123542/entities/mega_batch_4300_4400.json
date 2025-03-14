@@ -1,0 +1,275 @@
+[
+  {
+    "id": "5a21b865-6619-4643-a10b-d5224cfc7672",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90e7e67d-8482-403c-8f99-de2b8337f22a",
+      "start": 83,
+      "end": 101,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "8f97a7c8-86f2-42b4-9be6-20adf49d48d6",
+    "name": "исследования куда поехать с собакой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90e7e67d-8482-403c-8f99-de2b8337f22a",
+      "start": 121,
+      "end": 156,
+      "text": "исследования куда поехать с собакой"
+    }
+  },
+  {
+    "id": "bc2279ac-66ec-4434-89cc-d9467a9d3449",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [
+      {
+        "key": "vendor",
+        "value": "Yandex",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "adb949c2-75dd-4be8-a509-16d665020302",
+      "start": 31,
+      "end": 37,
+      "text": "g алису"
+    }
+  },
+  {
+    "id": "213d11be-5a46-4ac3-a197-0281fe07d082",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea093fb3-7790-41d0-9ff9-110777274b82",
+      "start": 47,
+      "end": 52,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "c06e0f6f-b5a4-499d-ba77-e5aad9e408b1",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "403dc5d6-bda2-4e1e-8cff-60a37b27a84c",
+      "start": 95,
+      "end": 100,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "ac8f45f0-e48c-4872-b8f3-b5aa11c6a0b1",
+    "name": "поиск с нейрона",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "403dc5d6-bda2-4e1e-8cff-60a37b27a84c",
+      "start": 105,
+      "end": 120,
+      "text": "поиск с нейрона"
+    }
+  },
+  {
+    "id": "ef6208fd-6df5-42ae-8d64-33d3301e23b9",
+    "name": "нейрооткрывающимся",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "63cca568-447a-41b8-9e9e-373abb35b5ca",
+      "start": 91,
+      "end": 109,
+      "text": "нейрооткрывающимся"
+    }
+  },
+  {
+    "id": "b62aafba-06c0-44ff-aa3a-007e24aec238",
+    "name": "ира",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0fbd3196-2ab4-43f8-b7a3-11b3ffbf91c2",
+      "start": 48,
+      "end": 51,
+      "text": "ира"
+    }
+  },
+  {
+    "id": "939c4eb2-9bcd-40b1-98f4-a0e8baef41ea",
+    "name": "уточните вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "32aefffa-0b48-4047-849f-376736292bed",
+      "start": 52,
+      "end": 67,
+      "text": "уточните вопрос"
+    }
+  },
+  {
+    "id": "ad5e414b-2448-4131-82c7-4aee17d2d4a2",
+    "name": "нейро",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "53b16086-a36a-466b-b3a2-73abc6802438",
+      "start": 87,
+      "end": 92,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "3a17d3cb-6391-4d3f-8ce8-38aa5ad8b696",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77f3b6f4-d62a-49cf-9b4e-4d0352b15833",
+      "start": 76,
+      "end": 94,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "6d218b58-904f-4d75-b637-fc5763c27cc6",
+    "name": "путешествовать с собакой в краснодарском крае",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "006640e5-a2c3-42e4-a6be-78fe3b0bc5c1",
+      "start": 127,
+      "end": 175,
+      "text": "путешествовать с собакой в краснодарском крае"
+    }
+  },
+  {
+    "id": "0c9cddf0-63a5-4895-acd1-1d395e8e13a2",
+    "name": "Краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "006640e5-a2c3-42e4-a6be-78fe3b0bc5c1",
+      "start": 157,
+      "end": 175,
+      "text": "краснодарском крае"
+    }
+  },
+  {
+    "id": "e58f3b01-d4cb-4c17-a73a-68f5988a6f4c",
+    "name": "исследований",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "90ea2f8b-a688-4e3f-b4ee-b8b00eb4a779",
+      "start": 58,
+      "end": 70,
+      "text": "исследований"
+    }
+  },
+  {
+    "id": "578f3584-9356-41c2-a562-21f33659af8d",
+    "name": "бета- разработка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5ab5d5f-90c2-468b-ac85-31c0d309103e",
+      "start": 13,
+      "end": 29,
+      "text": "бета- разработка"
+    }
+  },
+  {
+    "id": "23eaa240-b49d-4df0-95cf-5fcb4259ad86",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec2fb129-428e-4eeb-83a8-aca252c9a252",
+      "start": 96,
+      "end": 108,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "c32a9e83-29b5-4413-bbba-32e9d0a8f0d0",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9c53994-8d4e-403c-aec3-884dbbc92da4",
+      "start": 75,
+      "end": 87,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "14e4b47b-571b-4a85-af43-1921d5b427a5",
+    "name": "уточните вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5bb97fb9-7048-4fd2-b0bd-35295eb56ac6",
+      "start": 32,
+      "end": 47,
+      "text": "уточните вопрос"
+    }
+  },
+  {
+    "id": "5b8a5d8e-cf76-4e7e-b4bd-209ba92bcccc",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "410482fe-d7db-421e-ab2d-d3057fe94ab4",
+      "start": 36,
+      "end": 41,
+      "text": "алисе"
+    }
+  }
+]

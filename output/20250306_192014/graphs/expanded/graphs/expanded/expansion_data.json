@@ -1,0 +1,199 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "targets": [
+        {
+          "entity_name": "Глобал Системс",
+          "entity_type": "organization",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "ТехноИнновации",
+          "entity_type": "organization",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "Мария Сидорова",
+          "entity_type": "person",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "targets": [
+        {
+          "entity_name": "Глобал Системс",
+          "entity_type": "organization",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "ТехноИнновации",
+          "entity_type": "organization",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        },
+        {
+          "entity_name": "Мария Сидорова",
+          "entity_type": "person",
+          "relevance": "high",
+          "rationale": "Central entity with many connections"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "entity_name": "Глобал Системс",
+      "entity_type": "organization",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "ТехноИнновации",
+      "entity_type": "organization",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "Мария Сидорова",
+      "entity_type": "person",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "Глобал Системс",
+      "entity_type": "organization",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "ТехноИнновации",
+      "entity_type": "organization",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    },
+    {
+      "entity_name": "Мария Сидорова",
+      "entity_type": "person",
+      "relevance": "high",
+      "rationale": "Central entity with many connections"
+    }
+  ],
+  "questions": [
+    {
+      "iteration": 0,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": " What is the primary industry or sector in which Глобал Системс operates, and what specific products or services does it offer?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": " Who was the partner announced on January 15, 2023, and what was the specific purpose or scope of the partnership with Глобал Системс?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": " Besides Алексей Смирнов, are there any other key executives or board members associated with Глобал Системс, and what are their respective roles within the organization?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "В какой отрасли (ОТРАСЛЬ) или сферах деятельности (СФЕРА_ДЕЯТЕЛЬНОСТИ) специализируется ТехноИнновации?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "Какие продукты (ПРОДУКТЫ) или услуги (УСЛУГИ) предлагает ТехноИнновации?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "Каков юридический адрес (ЮРИДИЧЕСКИЙ_АДРЕС) или местонахождение (МЕСТОНАХОЖДЕНИЕ) организации ТехноИнновации?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "What specific projects or initiatives has Мария Сидорова led or overseen as technical director since 2015 at ИТ-Решения?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "What are Мария Сидорова's key responsibilities and areas of expertise within her role as technical director at ИТ-Решения?"
+    },
+    {
+      "iteration": 0,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "Prior to 2015, what other roles or positions did Мария Сидорова hold at ИТ-Решения or other organizations?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": "What is the primary industry or sector in which Глобал Системс operates, and what specific products or services does it offer?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": "Besides the partnership announced on January 15, 2023, with whom else has Глобал Системс formed partnerships, and what were the objectives of those partnerships?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Глобал Системс",
+      "target_type": "organization",
+      "question": "What is the size (e.g., number of employees, annual revenue) and organizational structure of Глобал Системс, and how does Алексей Смирнов's role as General Director contribute to the company's strategic direction?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "В какой отрасли (ОТРАСЛЬ) или сферах деятельности (СФЕРА_ДЕЯТЕЛЬНОСТИ) специализируется ТехноИнновации?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "Какие продукты (ПРОДУКТЫ) или услуги (УСЛУГИ) предоставляет ТехноИнновации?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "ТехноИнновации",
+      "target_type": "organization",
+      "question": "Каков юридический адрес (ЮРИДИЧЕСКИЙ_АДРЕС) или местонахождение (МЕСТОНАХОЖДЕНИЕ) организации ТехноИнновации?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "What specific projects or initiatives has Мария Сидорова led or overseen as технический директор since 2015?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "What were Мария Сидорова's responsibilities or roles at ИТ-Решения prior to becoming технический директор?"
+    },
+    {
+      "iteration": 1,
+      "target_name": "Мария Сидорова",
+      "target_type": "person",
+      "question": "Does Мария Сидорова hold any certifications, degrees, or other qualifications relevant to her role as технический директор?"
+    }
+  ],
+  "answers": []
+}

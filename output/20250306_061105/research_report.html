@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Knowledge Graph Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Test Knowledge Graph Analysis Report</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Дата:</strong> 2025-03-06 06:11:00</p>
+            <p><strong>Источник:</strong> test_file.txt</p>
+            <p><strong>Количество сущностей:</strong> 8</p>
+            <p><strong>Количество связей:</strong> 7</p>
+            <p><strong>Количество текстовых сегментов:</strong> 3</p>
+        </div>
+        
+        <div class="toc">
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#abstract">Аннотация</a></li>
+                <li><a href="#summary">Краткий обзор</a></li>
+                <li><a href="#research-process">Процесс исследования</a></li>
+                <li><a href="#contextual-analysis">Контекстный анализ</a></li>
+                <li><a href="#entity-analysis">Анализ сущностей</a></li>
+                <li><a href="#relationship-analysis">Анализ отношений</a></li>
+                <li><a href="#graph-visualization">Визуализация графа</a></li>
+                <li><a href="#graph-metrics">Метрики графа</a></li>
+                <li><a href="#theories">Теории и гипотезы</a></li>
+                <li><a href="#conclusion">Заключение</a></li>
+            </ul>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Аннотация</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 8 сущностей 5 различных типов и 7 связей 5 различных видов. Наиболее распространенные типы сущностей: person (3), organization (2), project (1). Преобладающие типы связей: WORKS_FOR (3), DEVELOPS (1), PARTNERS_IN (1). Ключевые темы, исследуемые в тексте: John Smith is the CEO of Acme Corporation, a software development company founded in 1985 and headquartered in New York City. Mary Johnson is the CTO of Acme Corporation, having joined in 2005. Before that, she was a senior developer at Tech Solutions Inc. Acme Corporation partnered with Global Systems Ltd. on Project Alpha, which was announced on January 15, 2023.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Краткий обзор</h2>
+            <p>Построенный граф знаний содержит 8 сущностей и 7 связей. Наиболее центральные сущности в графе: Acme Corporation, Project Alpha, Global Systems Ltd., которые формируют ключевые точки связи в сети. Граф образует единый связный компонент, что указывает на целостность повествования или темы. Граф имеет умеренную плотность связей между сущностями. Наиболее значимая теория, полученная в результате анализа — 'Corporate Partnership Dynamics' с уровнем достоверности 0.92. This theory explains how technology companies form strategic partnerships to develop innovative projects in specific domains. Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Процесс исследования</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Шаг 1: Загрузка и сегментация текста</h3>
+                    <p>Исходный текст был загружен и разделен на 3 логических сегментов для детального анализа.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Контекстный анализ</h3>
+                    <p>Выполнен анализ контекста между сегментами для выявления смысловых связей.</p>
+                    <p>Выявлено 3 связей между сегментами.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 3: Извлечение сущностей</h3>
+                    <p>Из текста выделены 8 ключевых сущностей различных типов.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 4: Определение отношений</h3>
+                    <p>Между сущностями выявлены 7 связей и отношений.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 5: Построение графа знаний</h3>
+                    <p>На основе выделенных сущностей и отношений построен граф знаний.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 6: Анализ графа и генерация теорий</h3>
+                    <p>Проведен анализ графа и сформированы теории, объясняющие выявленные связи.</p>
+                    <p>Сгенерировано 2 теорий на основе анализа графа.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Контекстный анализ</h2>
+            <p>Контекстный анализ изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Сводки по сегментам</h3>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 1</h4>
+                <p><strong>Сводка:</strong> John Smith is the CEO of Acme Corporation, a software development company founded in 1985 and headquartered in New York City.</p>
+                <p><strong>Роль в тексте:</strong> introduction</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>John Smith is the CEO of Acme Corporation</li>
+                    
+                    <li>Acme Corporation was founded in 1985</li>
+                    
+                    <li>Acme Corporation is headquartered in New York City</li>
+                    
+                    <li>Acme Corporation is a software development company</li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 2</h4>
+                <p><strong>Сводка:</strong> Mary Johnson is the CTO of Acme Corporation, having joined in 2005. Before that, she was a senior developer at Tech Solutions Inc.</p>
+                <p><strong>Роль в тексте:</strong> background</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Mary Johnson is the CTO of Acme Corporation</li>
+                    
+                    <li>She joined Acme in 2005</li>
+                    
+                    <li>She was previously a senior developer at Tech Solutions Inc.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Provides additional information about the company's leadership</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Сегмент 3</h4>
+                <p><strong>Сводка:</strong> Acme Corporation partnered with Global Systems Ltd. on Project Alpha, which was announced on January 15, 2023.</p>
+                <p><strong>Роль в тексте:</strong> development</p>
+                
+                <p><strong>Ключевые моменты:</strong></p>
+                <ul>
+                    
+                    <li>Partnership between Acme Corporation and Global Systems Ltd.</li>
+                    
+                    <li>The project is called Project Alpha</li>
+                    
+                    <li>The announcement was made on January 15, 2023</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Связь с родительским сегментом:</strong> Describes a recent partnership involving the company</p>
+                
+            </div>
+            
+            
+            <h3>Связи между сегментами</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>От сегмента</th>
+                        <th>Тип связи</th>
+                        <th>К сегменту</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Сегмент 1</td>
+                        <td>Thought development</td>
+                        <td>Сегмент 2</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Сегмент 2</td>
+                        <td>Cause-effect</td>
+                        <td>Сегмент 3</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Сегмент 3</td>
+                        <td>Common theme</td>
+                        <td>Сегмент 4</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Анализ сущностей</h2>
+            
+            <p>В этом разделе представлены ключевые сущности, выявленные в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Тип</th>
+                        <th>Достоверность</th>
+                        <th>Атрибуты</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>person</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CEO</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>person</td>
+                        <td>0.92</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CTO</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>organization</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>founded:</strong> 1985</li>
+                                
+                                <li><strong>location:</strong> New York</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>organization</td>
+                        <td>0.94</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>location:</strong> London</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>project</td>
+                        <td>0.91</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>budget:</strong> $5 million</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AI solutions</td>
+                        <td>concept</td>
+                        <td>0.88</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Healthcare</td>
+                        <td>industry</td>
+                        <td>0.89</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>David Brown</td>
+                        <td>person</td>
+                        <td>0.87</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> CEO of Global Systems Ltd.</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Анализ отношений</h2>
+            
+            <p>В этом разделе представлены отношения, выявленные между сущностями в анализируемом тексте.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Источник</th>
+                        <th>Отношение</th>
+                        <th>Цель</th>
+                        <th>Достоверность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>WORKS_FOR</td>
+                        <td>Acme Corporation</td>
+                        <td>0.94</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>WORKS_FOR</td>
+                        <td>Acme Corporation</td>
+                        <td>0.93</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>David Brown</td>
+                        <td>WORKS_FOR</td>
+                        <td>Global Systems Ltd.</td>
+                        <td>0.91</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>DEVELOPS</td>
+                        <td>Project Alpha</td>
+                        <td>0.89</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>PARTNERS_IN</td>
+                        <td>Project Alpha</td>
+                        <td>0.88</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>FOCUSES_ON</td>
+                        <td>AI solutions</td>
+                        <td>0.87</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AI solutions</td>
+                        <td>APPLIED_TO</td>
+                        <td>Healthcare</td>
+                        <td>0.85</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Визуализация графа</h2>
+            
+            <p>Эта интерактивная визуализация представляет граф знаний, где сущности являются узлами, а отношения - связями.</p>
+            
+            <div class="graph-container">
+                <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.0.min.js"></script>                <div id="6b3bf4ab-82e7-4ec2-80e6-79aec1588852" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("6b3bf4ab-82e7-4ec2-80e6-79aec1588852")) {                    Plotly.newPlot(                        "6b3bf4ab-82e7-4ec2-80e6-79aec1588852",                        [{"hoverinfo":"none","line":{"color":"#888","width":1},"mode":"lines","x":[-0.2237938110737458,0.10956158781371264,null,-0.10959215903657588,0.10956158781371264,null,-0.433165267616986,-0.04228509781896388,null,0.10956158781371264,0.11285884135821152,null,-0.04228509781896388,0.11285884135821152,null,0.11285884135821152,0.06580366078124658,null,0.06580366078124658,0.5206122455931005,null],"y":[0.39312570005558434,0.2197889021470558,null,0.041312233608996135,0.2197889021470558,null,0.6223681153980988,0.34062199473513627,null,0.2197889021470558,-0.17039060239394457,null,0.34062199473513627,-0.17039060239394457,null,-0.17039060239394457,-0.4468263435509269,null,-0.4468263435509269,-1.0,null],"type":"scatter"},{"hoverinfo":"text","marker":{"color":["#ff7f0e","#ff7f0e","#1f77b4","#1f77b4","#2ca02c","#9467bd","#d62728","#ff7f0e"],"line":{"color":"#888","width":1},"size":[12,12,16,14,16,14,12,12]},"mode":"markers","text":["\u003cb\u003eJohn Smith\u003c\u002fb\u003e\u003cbr\u003eType: person","\u003cb\u003eMary Johnson\u003c\u002fb\u003e\u003cbr\u003eType: person","\u003cb\u003eAcme Corporation\u003c\u002fb\u003e\u003cbr\u003eType: organization","\u003cb\u003eGlobal Systems Ltd.\u003c\u002fb\u003e\u003cbr\u003eType: organization","\u003cb\u003eProject Alpha\u003c\u002fb\u003e\u003cbr\u003eType: project","\u003cb\u003eAI solutions\u003c\u002fb\u003e\u003cbr\u003eType: concept","\u003cb\u003eHealthcare\u003c\u002fb\u003e\u003cbr\u003eType: industry","\u003cb\u003eDavid Brown\u003c\u002fb\u003e\u003cbr\u003eType: person"],"x":[-0.2237938110737458,-0.10959215903657588,0.10956158781371264,-0.04228509781896388,0.11285884135821152,0.06580366078124658,0.5206122455931005,-0.433165267616986],"y":[0.39312570005558434,0.041312233608996135,0.2197889021470558,0.34062199473513627,-0.17039060239394457,-0.4468263435509269,-1.0,0.6223681153980988],"type":"scatter"}],                        {"hovermode":"closest","margin":{"b":0,"l":0,"r":0,"t":0},"showlegend":false,"template":{"data":{"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false}},                        {"responsive": true}                    )                };            </script>        </div>
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Метрики графа</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.125</div>
+                    <div>Плотность графа</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.75</div>
+                    <div>Средняя степень</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0</div>
+                    <div>Средний коэффициент кластеризации</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">4</div>
+                    <div>Диаметр графа</div>
+                </div>
+            </div>
+            
+            <h3>Центральные сущности</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Сущность</th>
+                        <th>Показатель центральности</th>
+                        <th>Тип</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>0.429</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>0.429</td>
+                        <td>project</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Global Systems Ltd.</td>
+                        <td>0.286</td>
+                        <td>organization</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AI solutions</td>
+                        <td>0.286</td>
+                        <td>concept</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>John Smith</td>
+                        <td>0.143</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Mary Johnson</td>
+                        <td>0.143</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Healthcare</td>
+                        <td>0.143</td>
+                        <td>industry</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>David Brown</td>
+                        <td>0.143</td>
+                        <td>person</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="theories" class="section">
+            <h2>Теории и гипотезы</h2>
+            
+            <p>В этом разделе представлены теории и гипотезы, выведенные из анализа графа знаний.</p>
+            
+            
+            <div class="research-process">
+                <h3>Corporate Partnership Dynamics</h3>
+                <p><strong>Достоверность:</strong> 0.92</p>
+                <p>This theory explains how technology companies form strategic partnerships to develop innovative projects in specific domains.</p>
+                
+                
+                <h4>Гипотезы:</h4>
+                
+                <div class="process-step">
+                    <p><strong>Companies with complementary expertise are more likely to form successful partnerships.</strong> (Достоверность: 0.88)</p>
+                    
+                    
+                    <p>Доказательства:</p>
+                    <ul>
+                        
+                        <li>Acme Corporation (software) partnered with Global Systems Ltd. (systems integration) on Project Alpha. (Сила: 0.85)</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="process-step">
+                    <p><strong>Leadership roles significantly influence the direction of partnership projects.</strong> (Достоверность: 0.82)</p>
+                    
+                    
+                    <p>Доказательства:</p>
+                    <ul>
+                        
+                        <li>Both CEOs were involved in the announcement of Project Alpha. (Сила: 0.78)</li>
+                        
+                        <li>The CTO's technical background aligns with the AI focus of the project. (Сила: 0.75)</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                
+            </div>
+            
+            <div class="research-process">
+                <h3>AI Application in Industry Verticals</h3>
+                <p><strong>Достоверность:</strong> 0.85</p>
+                <p>This theory explores how AI solutions are tailored to specific industry verticals, particularly healthcare.</p>
+                
+                
+                <h4>Гипотезы:</h4>
+                
+                <div class="process-step">
+                    <p><strong>Healthcare is a priority vertical for AI applications due to potential impact.</strong> (Достоверность: 0.83)</p>
+                    
+                    
+                    <p>Доказательства:</p>
+                    <ul>
+                        
+                        <li>Project Alpha specifically focuses on AI solutions for healthcare. (Сила: 0.81)</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                
+            </div>
+            
+        </section>
+        
+        <section id="conclusion" class="section">
+            <h2>Заключение</h2>
+            <p>Анализ графа знаний выявил существенные закономерности и взаимосвязи в исследуемом тексте. Анализ определил Acme Corporation, Project Alpha, Global Systems Ltd. как центральные концепции, связывающие несколько тем. Преобладающие типы отношений (PARTNERS_IN, WORKS_FOR, APPLIED_TO) подчеркивают ключевые взаимодействия в предметной области. В ходе анализа было сформировано 2 теорий, объясняющих наблюдаемые закономерности. Теория 'Corporate Partnership Dynamics' имеет наиболее сильную поддержку с достоверностью 0.92. Дальнейший анализ мог бы выиграть от дополнительных данных для проверки формирующихся теорий и изучения неразвитых связей в графе. Граф знаний обеспечивает основу для более глубокого исследования ключевых тем и взаимосвязей, выявленных в этом отчете.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Сгенерировано системой синтеза графа знаний</p>
+            <p>2025-03-06 06:11:00</p>
+        </div>
+    </footer>
+</body>
+</html>

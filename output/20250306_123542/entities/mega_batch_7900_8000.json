@@ -1,0 +1,520 @@
+[
+  {
+    "id": "3ae31cbc-f227-4a40-bb82-9b939f123af3",
+    "name": "кто это такие и что они делают, зачем нужны",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37077f19-53a8-4a3b-abf6-8dce9c02eb72",
+      "start": 41,
+      "end": 85,
+      "text": "кто это такие и что они делают, зачем нужны"
+    }
+  },
+  {
+    "id": "02de5b8c-dd98-4817-b0b9-a886c23fdd7f",
+    "name": "Саратов",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a22e71a-ee60-4c95-b2e4-0ab55d40d35a",
+      "start": 24,
+      "end": 31,
+      "text": "саратове"
+    }
+  },
+  {
+    "id": "2aba2d9e-0633-4a41-9b1d-a88f44d92f47",
+    "name": "Саратов",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a22e71a-ee60-4c95-b2e4-0ab55d40d35a",
+      "start": 41,
+      "end": 48,
+      "text": "саратове"
+    }
+  },
+  {
+    "id": "b5e9f0c7-c3ee-4136-8994-9a18ce72f455",
+    "name": "кто это такие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "94e97a58-bc27-4e2c-ab56-d2ad0398efc6",
+      "start": 44,
+      "end": 57,
+      "text": "кто это такие"
+    }
+  },
+  {
+    "id": "9ea11b1f-4b6a-4f6b-9331-01ebed788163",
+    "name": "аутизм",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91572e9c-0d88-40b6-abd6-f224461f1242",
+      "start": 54,
+      "end": 63,
+      "text": "аутистами"
+    }
+  },
+  {
+    "id": "87039aaa-2d69-4898-9245-0c61c33581a8",
+    "name": "задержки психоречевого развития",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91572e9c-0d88-40b6-abd6-f224461f1242",
+      "start": 65,
+      "end": 98,
+      "text": "задержками психоречевого развития"
+    }
+  },
+  {
+    "id": "efc3db44-9330-4261-9573-7004452d6a59",
+    "name": "эби",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f5553975-6739-41e5-849f-08fab08f9496",
+      "start": 9,
+      "end": 12,
+      "text": "эби"
+    }
+  },
+  {
+    "id": "9e854ef1-d576-43d5-8068-9d06b2e1519b",
+    "name": "программа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f5553975-6739-41e5-849f-08fab08f9496",
+      "start": 16,
+      "end": 25,
+      "text": "программе"
+    }
+  },
+  {
+    "id": "4ceb55dd-194c-4c68-86ff-a19c01ca3091",
+    "name": "программа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78cf8721-20aa-4867-b2b5-3a586c7773d2",
+      "start": 5,
+      "end": 14,
+      "text": "программа"
+    }
+  },
+  {
+    "id": "3ca27a79-4bb9-480f-a2a0-177a8c1c86ea",
+    "name": "терапевт",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07a8be17-dc73-4d21-a523-cf5975ab8514",
+      "start": 47,
+      "end": 56,
+      "text": "терапевта"
+    }
+  },
+  {
+    "id": "1e45ee33-6dc4-46c2-9d2a-3a8f7f264ea0",
+    "name": "терапевт",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "07a8be17-dc73-4d21-a523-cf5975ab8514",
+      "start": 68,
+      "end": 76,
+      "text": "терапевт"
+    }
+  },
+  {
+    "id": "bd18eea9-d1a6-481e-8545-8ac4bb417504",
+    "name": "терапевт",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a54749c6-fb21-44d3-9551-762561f88ad7",
+      "start": 3,
+      "end": 11,
+      "text": "терапевт"
+    }
+  },
+  {
+    "id": "44d625e1-3f8c-4b07-96bc-96d9eee225f0",
+    "name": "английский",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "05474a9f-ed45-442d-8811-8d262739ae07",
+      "start": 0,
+      "end": 10,
+      "text": "английский"
+    }
+  },
+  {
+    "id": "f1014e7b-91f3-4cd9-9568-ba7f11cf6e4c",
+    "name": "аба",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b280e30c-6444-4c93-891b-8e306e112cb1",
+      "start": 3,
+      "end": 6,
+      "text": "аба"
+    }
+  },
+  {
+    "id": "5ef53c98-89a6-4448-b954-18d78b0d9d25",
+    "name": "ава",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b280e30c-6444-4c93-891b-8e306e112cb1",
+      "start": 11,
+      "end": 14,
+      "text": "ава"
+    }
+  },
+  {
+    "id": "e9082098-b19d-4721-aebf-10d4f762f295",
+    "name": "ава",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67f16839-4513-4e3d-932f-602c4d377b4e",
+      "start": 4,
+      "end": 7,
+      "text": "ава"
+    }
+  },
+  {
+    "id": "44c685bc-b0d8-4039-bb14-e69682b1d780",
+    "name": "эбий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67f16839-4513-4e3d-932f-602c4d377b4e",
+      "start": 41,
+      "end": 45,
+      "text": "эбий"
+    }
+  },
+  {
+    "id": "89e4e380-c660-4dc1-9405-74c28cf7356a",
+    "name": "технология",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2841a9e7-c84b-44b3-9545-06e7c16c531d",
+      "start": 11,
+      "end": 21,
+      "text": "технология"
+    }
+  },
+  {
+    "id": "ff8dd2f2-fadb-458b-8a96-4dd8c1829079",
+    "name": "речь английскими буквами",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2841a9e7-c84b-44b3-9545-06e7c16c531d",
+      "start": 43,
+      "end": 68,
+      "text": "речь английскими буквами"
+    }
+  },
+  {
+    "id": "b0763159-55cf-4d6d-9b81-1153221388b3",
+    "name": "запросы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1425912f-c12b-4cd5-864a-812cc75c6e29",
+      "start": 54,
+      "end": 61,
+      "text": "запросы"
+    }
+  },
+  {
+    "id": "c9e90771-ff0a-47e6-b00a-041fb3faec2d",
+    "name": "ребенок",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6d8a54a3-2f39-46c2-85b3-3fc804459079",
+      "start": 36,
+      "end": 43,
+      "text": "ребенка"
+    }
+  },
+  {
+    "id": "c9bfc153-5a6e-4aa0-b032-15e88105a5da",
+    "name": "ребенок",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6d8a54a3-2f39-46c2-85b3-3fc804459079",
+      "start": 59,
+      "end": 66,
+      "text": "ребенком"
+    }
+  },
+  {
+    "id": "8e0b5c56-b077-4292-8be1-8503549f9c4b",
+    "name": "блогеры",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "327f2345-b919-412c-b411-6fe65f12cafa",
+      "start": 21,
+      "end": 28,
+      "text": "блогеров"
+    }
+  },
+  {
+    "id": "bda59bff-5472-4be9-95d4-ab8dad046cc7",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b43eac92-09b9-4d80-ae35-64c92222fd13",
+      "start": 41,
+      "end": 47,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "06b66272-c68a-4b0e-b6ce-078450e7c7e6",
+    "name": "три года",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b910406d-b914-421a-ab1e-bd29be35499c",
+      "start": 16,
+      "end": 24,
+      "text": "три года"
+    }
+  },
+  {
+    "id": "ddfb5238-1f76-4c2b-bda6-041d210664de",
+    "name": "список врачей",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b910406d-b914-421a-ab1e-bd29be35499c",
+      "start": 38,
+      "end": 51,
+      "text": "список врачей"
+    }
+  },
+  {
+    "id": "8420cd6c-20e7-4146-9f55-628e53e4408d",
+    "name": "три года",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b910406d-b914-421a-ab1e-bd29be35499c",
+      "start": 65,
+      "end": 73,
+      "text": "три года"
+    }
+  },
+  {
+    "id": "dbcd0461-2739-4c46-bacd-9b49b5009ed7",
+    "name": "врачи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "deb85cdb-eea0-4a62-ae3c-a9b9c1bf0dbe",
+      "start": 11,
+      "end": 16,
+      "text": "врачи"
+    }
+  },
+  {
+    "id": "a99dc576-7433-4a49-88d8-67cb62696f24",
+    "name": "осмотр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b1a2fab-9499-48dc-8ad0-e1469c7f994a",
+      "start": 12,
+      "end": 18,
+      "text": "осмотр"
+    }
+  },
+  {
+    "id": "9870a92e-77e6-4506-9877-f16305656742",
+    "name": "врачи",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67464cc8-beae-4b63-81a8-0cb6a1281f0f",
+      "start": 4,
+      "end": 9,
+      "text": "врачи"
+    }
+  },
+  {
+    "id": "e90a686c-a3c4-4b11-a10d-183703e3f006",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "65b23019-0a9c-4105-839c-db3e8cfc7b93",
+      "start": 0,
+      "end": 12,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "4813bc71-abc6-44ad-af86-9e3464540e6a",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3561b44b-e1ff-421a-8a36-d851ce6614dc",
+      "start": 49,
+      "end": 55,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "c629cdf1-faef-4e7a-b76c-d4a6e9e8ec15",
+    "name": "реферат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bee13758-8ac7-40cd-8a56-a98da59b235c",
+      "start": 73,
+      "end": 80,
+      "text": "реферат"
+    }
+  },
+  {
+    "id": "8db3d43d-01c3-4a45-b666-45008da6fe86",
+    "name": "диспансеризации",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ef255af-3686-4bc8-bb23-e336c4c10a36",
+      "start": 69,
+      "end": 84,
+      "text": "диспансеризации"
+    }
+  },
+  {
+    "id": "c9487dd1-3ee7-4afa-9bf8-a7e42bd5a7df",
+    "name": "профилактические осмотра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ef255af-3686-4bc8-bb23-e336c4c10a36",
+      "start": 86,
+      "end": 110,
+      "text": "профилактические осмотра"
+    }
+  },
+  {
+    "id": "58a9656b-9b7b-4821-ba56-82d68a0cb436",
+    "name": "график профилактических",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ce97d1d-af31-4a80-bb7c-79197da626c5",
+      "start": 17,
+      "end": 40,
+      "text": "график профилактических"
+    }
+  },
+  {
+    "id": "8fa611f3-efd4-4df2-a204-440d0a3a7e5b",
+    "name": "график профилактических осмотров",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "331d17ab-7b8e-4299-aeba-c5f0ba23e4ac",
+      "start": 2,
+      "end": 34,
+      "text": "график профилактических осмотров"
+    }
+  }
+]

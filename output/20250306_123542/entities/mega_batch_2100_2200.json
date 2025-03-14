@@ -1,0 +1,772 @@
+[
+  {
+    "id": "efeeb506-d22d-4639-a564-a73f104c79a3",
+    "name": "интернет",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9f536f6-f342-4bde-935b-3d8763688094",
+      "start": 41,
+      "end": 50,
+      "text": "интернете"
+    }
+  },
+  {
+    "id": "4ec759e8-087b-4327-b567-8cfee5f88bdb",
+    "name": "контекстная реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce6dcd03-dd5b-435b-894f-3d020885cd44",
+      "start": 0,
+      "end": 19,
+      "text": "контекстная реклама"
+    }
+  },
+  {
+    "id": "cbfc2060-bb96-4c8f-84f9-572921f36cfb",
+    "name": "гро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bec94731-d552-4565-8428-845c041715cf",
+      "start": 11,
+      "end": 14,
+      "text": "гро"
+    }
+  },
+  {
+    "id": "95f9ed93-5503-46fe-9d88-3e50fa8081ca",
+    "name": "контекстную информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bec94731-d552-4565-8428-845c041715cf",
+      "start": 55,
+      "end": 77,
+      "text": "контекстную информацию"
+    }
+  },
+  {
+    "id": "d8e8b2db-424d-4fee-a8fe-131daaf90ccd",
+    "name": "пол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bec94731-d552-4565-8428-845c041715cf",
+      "start": 114,
+      "end": 117,
+      "text": "пол"
+    }
+  },
+  {
+    "id": "eb5d8316-34a2-4554-b368-8d57b40fcd60",
+    "name": "возраст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bec94731-d552-4565-8428-845c041715cf",
+      "start": 119,
+      "end": 126,
+      "text": "возраст"
+    }
+  },
+  {
+    "id": "486226b7-0bbe-417a-90c9-aa999e0fa29f",
+    "name": "зерная ловушка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "067432a1-6dd5-4167-8810-77d51c8493e2",
+      "start": 0,
+      "end": 14,
+      "text": "зерная ловушка"
+    }
+  },
+  {
+    "id": "d0616e38-eeaa-4f6e-8579-c500c40e74bb",
+    "name": "таргет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a541462-ce39-477e-868b-d48817d455d5",
+      "start": 64,
+      "end": 70,
+      "text": "таргет"
+    }
+  },
+  {
+    "id": "ae16b8ec-55ba-404f-a3fe-f541301a62b3",
+    "name": "интерперсонализировано",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "47652563-5587-4282-99e4-2051364ee530",
+      "start": 11,
+      "end": 33,
+      "text": "интерперсонализировано"
+    }
+  },
+  {
+    "id": "a6908641-3f05-4d50-ba78-6f35175d1fd6",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a70ad6b0-612f-46ed-952a-8fb2a6ca97ca",
+      "start": 21,
+      "end": 26,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "21a947ce-df14-49cd-9844-5b6d4ccab249",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab2f896e-61a9-4624-875b-41c8a6ff75a7",
+      "start": 64,
+      "end": 69,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "7f46ab1b-7e2a-468e-b0e6-9a0e2f8a857b",
+    "name": "аппл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5839babb-466b-47d1-8ca3-946f938fe14d",
+      "start": 54,
+      "end": 58,
+      "text": "аппл"
+    }
+  },
+  {
+    "id": "259101a3-827f-4b18-839e-c962875774d3",
+    "name": "чат",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec6f066-0911-4105-a459-479419899b26",
+      "start": 26,
+      "end": 30,
+      "text": "чат"
+    }
+  },
+  {
+    "id": "de84b760-6a69-4d3c-aa16-a3cdb2d7823d",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec6f066-0911-4105-a459-479419899b26",
+      "start": 37,
+      "end": 42,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "1cdeec3b-22dc-4b3b-88ec-454e89102228",
+    "name": "аппл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ac705d7c-ae16-4063-aa67-359ba8d06932",
+      "start": 15,
+      "end": 19,
+      "text": "аппл"
+    }
+  },
+  {
+    "id": "6f9cc1bc-ebb5-4f28-b998-3d4668b04538",
+    "name": "качество поиска",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9210e24-b0ed-48fc-982c-a976c85988b8",
+      "start": 29,
+      "end": 44,
+      "text": "качество поиска"
+    }
+  },
+  {
+    "id": "b53a0327-1970-4844-9425-fc65915f0a21",
+    "name": "звуковой режим",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8a1d034-67b4-494b-86be-9fd4c0c1006e",
+      "start": 26,
+      "end": 40,
+      "text": "звуковой режим"
+    }
+  },
+  {
+    "id": "ccbc76d7-ee77-4254-a39f-4d4c1fc8f340",
+    "name": "креативность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e06c7d20-8c21-455e-82ae-7a36be95470b",
+      "start": 22,
+      "end": 34,
+      "text": "креативность"
+    }
+  },
+  {
+    "id": "e2663b32-20d0-440d-982b-dd47c6f3fbf0",
+    "name": "креати",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "50f01967-1312-434c-8f11-f9d3122e7bdf",
+      "start": 43,
+      "end": 49,
+      "text": "креати"
+    }
+  },
+  {
+    "id": "90f2a498-49db-4c67-a0eb-2dc10fba2fe0",
+    "name": "презентацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf768920-3b92-4681-a985-f52ab3731417",
+      "start": 29,
+      "end": 40,
+      "text": "презентацию"
+    }
+  },
+  {
+    "id": "57c2be6e-b577-46ff-8aec-d03438502b45",
+    "name": "бриф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf768920-3b92-4681-a985-f52ab3731417",
+      "start": 54,
+      "end": 59,
+      "text": "брифа"
+    }
+  },
+  {
+    "id": "a2fdbef7-5211-4b4e-9003-a3201fe9d254",
+    "name": "бриф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa978bc5-8ffb-4cc7-8e52-87e993eca482",
+      "start": 11,
+      "end": 15,
+      "text": "бриф"
+    }
+  },
+  {
+    "id": "3096cb1e-5b75-4cbb-82fe-bde8ec9b2d98",
+    "name": "креативно",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa978bc5-8ffb-4cc7-8e52-87e993eca482",
+      "start": 74,
+      "end": 83,
+      "text": "креативно"
+    }
+  },
+  {
+    "id": "83b25a7e-af16-4c09-9475-272fef86ba11",
+    "name": "робот",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa978bc5-8ffb-4cc7-8e52-87e993eca482",
+      "start": 101,
+      "end": 106,
+      "text": "робот"
+    }
+  },
+  {
+    "id": "e51c3305-132a-4fe7-81ec-b9db1ba0b377",
+    "name": "человек",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aa978bc5-8ffb-4cc7-8e52-87e993eca482",
+      "start": 123,
+      "end": 130,
+      "text": "человек"
+    }
+  },
+  {
+    "id": "327c6aec-44c0-41bb-a2bb-d263bbad62db",
+    "name": "промт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e93771ba-98ca-4f69-a095-8b313cf17094",
+      "start": 49,
+      "end": 56,
+      "text": "промтов"
+    }
+  },
+  {
+    "id": "173852aa-c5e5-4d70-ac98-b9cae00dced7",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "59cce39c-f344-438d-a4b9-81fd3c3416e8",
+      "start": 15,
+      "end": 20,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "d495b82b-412c-40d1-9f3b-6e9fc7c3f758",
+    "name": "бренд",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "59cce39c-f344-438d-a4b9-81fd3c3416e8",
+      "start": 34,
+      "end": 39,
+      "text": "бренда"
+    }
+  },
+  {
+    "id": "ac689e67-1e5e-4645-a91a-fcadc0d91145",
+    "name": "копитер",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9f88bef4-a737-4c16-aa6a-e1bb9d2d61e9",
+      "start": 37,
+      "end": 44,
+      "text": "копитером"
+    }
+  },
+  {
+    "id": "8120e87e-8868-47c0-8024-21eedc777558",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9f88bef4-a737-4c16-aa6a-e1bb9d2d61e9",
+      "start": 56,
+      "end": 61,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "4fee6d9a-efd4-4d60-b4ed-c34c3ad05c95",
+    "name": "бриф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9f88bef4-a737-4c16-aa6a-e1bb9d2d61e9",
+      "start": 80,
+      "end": 85,
+      "text": "брифма"
+    }
+  },
+  {
+    "id": "ba745ef0-ceca-4ce5-b4db-7adca6e207ae",
+    "name": "ветка разговора",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78ac9bd6-52c1-4299-ba50-3193d23adec3",
+      "start": 9,
+      "end": 24,
+      "text": "ветка разговора"
+    }
+  },
+  {
+    "id": "70a50ac6-6c67-4413-abf4-e87db1d6788e",
+    "name": "грок",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44a37af4-35a5-4c50-9e76-a6a71497783d",
+      "start": 36,
+      "end": 41,
+      "text": "гроком"
+    }
+  },
+  {
+    "id": "1a52333b-583f-4e4e-b3ed-3e8d9515a124",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44a37af4-35a5-4c50-9e76-a6a71497783d",
+      "start": 64,
+      "end": 73,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "9dab9589-febe-4abf-83a3-10e3018e88a0",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "44a37af4-35a5-4c50-9e76-a6a71497783d",
+      "start": 86,
+      "end": 91,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "d7b82351-50df-4226-bdba-cf7a5b8d3412",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d6a3c6-773e-4dd1-97ad-dcc9b3eaab87",
+      "start": 27,
+      "end": 32,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "6df736c5-f71d-4e94-b152-51ca477c80af",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d6a3c6-773e-4dd1-97ad-dcc9b3eaab87",
+      "start": 55,
+      "end": 62,
+      "text": "яндексом"
+    }
+  },
+  {
+    "id": "4c4cc43e-e0ac-4039-9419-87dfc66d8d7e",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7d6a3c6-773e-4dd1-97ad-dcc9b3eaab87",
+      "start": 64,
+      "end": 70,
+      "text": "гуглом"
+    }
+  },
+  {
+    "id": "860bd1ef-2a2d-447d-8774-a057c5ec61cd",
+    "name": "грок",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f43c03ae-dceb-48c5-ac53-72198f6917b6",
+      "start": 21,
+      "end": 26,
+      "text": "гроку"
+    }
+  },
+  {
+    "id": "8b0b3c8c-7399-4d3c-bb51-d23120fd83cc",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f43c03ae-dceb-48c5-ac53-72198f6917b6",
+      "start": 45,
+      "end": 54,
+      "text": "ассистентам"
+    }
+  },
+  {
+    "id": "e311c06c-aa06-4493-96bf-2c41f0d3b129",
+    "name": "удобство",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f788264-3977-4709-9fb8-71294564f5ed",
+      "start": 11,
+      "end": 19,
+      "text": "удобство"
+    }
+  },
+  {
+    "id": "37a3ef52-b713-40f8-821a-7581a3308dc1",
+    "name": "депсик",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "00437bd9-e0dc-41ad-8dbb-5b44526ff96e",
+      "start": 0,
+      "end": 6,
+      "text": "депсик"
+    }
+  },
+  {
+    "id": "b98d6b83-9689-4d65-a9ac-ed5bc81803ea",
+    "name": "Россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b35c9318-ea2b-4974-8e1c-b5489dc7ca7e",
+      "start": 47,
+      "end": 53,
+      "text": "россии"
+    }
+  },
+  {
+    "id": "83316449-d9cf-457b-bad7-d76dac64eb0a",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20b632-c3a9-47e4-a166-5fdede493ec1",
+      "start": 115,
+      "end": 122,
+      "text": "браузере"
+    }
+  },
+  {
+    "id": "b9491cb4-d68e-4d13-b023-3a3eb9d89541",
+    "name": "браза",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af20b632-c3a9-47e4-a166-5fdede493ec1",
+      "start": 149,
+      "end": 154,
+      "text": "браза"
+    }
+  },
+  {
+    "id": "fa6b2cef-e698-4659-9f40-1f845b70a4f5",
+    "name": "нейросистема",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "74bce9ed-2019-49e7-8a1d-712da702bdd9",
+      "start": 64,
+      "end": 76,
+      "text": "нейроссистемой"
+    }
+  },
+  {
+    "id": "6844c1e2-083e-410e-9984-03606b139ae1",
+    "name": "человек",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "605f318a-10b3-463d-8c3d-bbc9b37cfe31",
+      "start": 24,
+      "end": 31,
+      "text": "человек"
+    }
+  },
+  {
+    "id": "bd4d779c-b69e-4a30-b591-7b36fab9454d",
+    "name": "Илон Маск",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a04f05a-78d6-42b0-8876-be9cc59720cb",
+      "start": 8,
+      "end": 16,
+      "text": "илон маск"
+    }
+  },
+  {
+    "id": "17e7a1af-1f55-496e-8b44-2bcd70859d74",
+    "name": "Илон Маск",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab7427a4-887a-4852-b3a1-2022b403c687",
+      "start": 16,
+      "end": 24,
+      "text": "илон маск"
+    }
+  },
+  {
+    "id": "2048cfcf-f734-4a9f-8ea8-2dbf359df68e",
+    "name": "презентация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c04902d4-2d8e-4642-9382-a0df205208f4",
+      "start": 24,
+      "end": 35,
+      "text": "презентацию"
+    }
+  },
+  {
+    "id": "7683e1a7-c024-47f6-8518-fba49b12b9fa",
+    "name": "текст",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c04902d4-2d8e-4642-9382-a0df205208f4",
+      "start": 44,
+      "end": 49,
+      "text": "текст"
+    }
+  },
+  {
+    "id": "90a77621-ab98-4fcd-982e-dff9243c4139",
+    "name": "топ-десять стартапов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c04902d4-2d8e-4642-9382-a0df205208f4",
+      "start": 81,
+      "end": 101,
+      "text": "топ- десять стартапов"
+    }
+  },
+  {
+    "id": "2ccc5f94-5bc9-44f2-8c12-45f323ed4247",
+    "name": "бизнес-идея",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8fece68-49fd-4376-8cf3-a78c3b5385f1",
+      "start": 13,
+      "end": 24,
+      "text": "бизнес- идею"
+    }
+  },
+  {
+    "id": "f6f34913-6ee0-4dc9-92b7-81c67ed8b516",
+    "name": "Россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8fece68-49fd-4376-8cf3-a78c3b5385f1",
+      "start": 34,
+      "end": 40,
+      "text": "россии"
+    }
+  },
+  {
+    "id": "7f0e3c54-7938-4b02-a325-4305ba2b01b8",
+    "name": "нестями",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3967f44d-91fd-47dd-b843-21f570b51a65",
+      "start": 27,
+      "end": 34,
+      "text": "нестями"
+    }
+  }
+]

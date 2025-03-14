@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#e6194B", "id": "dccf9e71-19b3-43ab-9e04-8aa42dca3f70", "label": "\u042f\u043d\u0434\u0435\u043a\u0441", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#ffe119", "id": "7a299f28-31d7-44f0-a99b-08174833ceae", "label": "\u043d\u0435\u0439\u0440\u043e", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#3cb44b", "id": "6d56cabb-b33c-4a1f-b002-ed6696341174", "label": "\u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0430", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0430\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#3cb44b", "id": "8a1ba5fd-9d89-49b9-917e-34a48e70e552", "label": "\u042f\u043d\u0434\u0435\u043a\u0441 \u041f\u044d\u0439", "shape": "dot", "size": 29.8, "title": "\u003cb\u003e\u042f\u043d\u0434\u0435\u043a\u0441 \u041f\u044d\u0439\u003c/b\u003e (product)\u003cbr\u003eConfidence: 0.98\u003cbr\u003e"}, {"color": "#ffe119", "id": "b0ae95a0-6f7b-41ef-9a8d-5ce396d8f237", "label": "\u043f\u043e\u0438\u0441\u043a", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u043f\u043e\u0438\u0441\u043a\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#ffe119", "id": "79769937-7510-4496-b2d5-884214a8e0d3", "label": "\u0440\u0435\u0446\u0435\u043f\u0442 \u0431\u043b\u0438\u043d\u043e\u0432", "shape": "dot", "size": 29.5, "title": "\u003cb\u003e\u0440\u0435\u0446\u0435\u043f\u0442 \u0431\u043b\u0438\u043d\u043e\u0432\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.95\u003cbr\u003e"}, {"color": "#e6194B", "id": "87baedc5-a224-4773-857a-69d5d830321a", "label": "\u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#ffe119", "id": "f0f0fdd4-1763-4906-9f79-ee8505f80460", "label": "\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u044c", "shape": "dot", "size": 28.5, "title": "\u003cb\u003e\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u044c\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.85\u003cbr\u003e"}, {"color": "#ffe119", "id": "6d5f0ec8-c134-492a-95a9-b412115afca6", "label": "\u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u043e\u0431\u043b\u043e\u0436\u0435\u043d\u0438\u044f", "shape": "dot", "size": 29.0, "title": "\u003cb\u003e\u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u043e\u0431\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u003c/b\u003e (concept)\u003cbr\u003eConfidence: 0.90\u003cbr\u003e"}, {"color": "#e6194B", "id": "d519325a-e9f5-4dd7-be87-146c57a1c95b", "label": "\u043e\u0442\u0442\u0435\u0445", "shape": "dot", "size": 28.0, "title": "\u003cb\u003e\u043e\u0442\u0442\u0435\u0445\u003c/b\u003e (organization)\u003cbr\u003eConfidence: 0.80\u003cbr\u003e"}]);
+                  edges = new vis.DataSet([]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "shape": "dot", "size": 20}, "edges": {"font": {"size": 12, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.5, "springLength": 300, "springConstant": 0.04}, "minVelocity": 0.75, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "431ec6be-41de-49d0-a04d-da8f1e9bcd35",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc58fc7e-bd0c-45ee-9af7-ab03dadb58b1",
+      "start": 21,
+      "end": 27,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "c5e078b5-68bf-44d0-ae6d-681ec35dbfec",
+    "name": "сервисы яндекса",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc58fc7e-bd0c-45ee-9af7-ab03dadb58b1",
+      "start": 36,
+      "end": 51,
+      "text": "сервисы яндекса"
+    }
+  },
+  {
+    "id": "a3abac6f-16b4-4fd6-815c-b7f0b31a16ec",
+    "name": "технологии яндекса",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc58fc7e-bd0c-45ee-9af7-ab03dadb58b1",
+      "start": 54,
+      "end": 72,
+      "text": "технологии яндекса"
+    }
+  },
+  {
+    "id": "5fab1671-6b9b-4bd3-ad40-c67a6e29d18a",
+    "name": "технологиями",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2066101-a8b7-42ea-8e2d-fd4dbd2d222b",
+      "start": 67,
+      "end": 79,
+      "text": "технологиями"
+    }
+  },
+  {
+    "id": "0291d94c-1bd8-44d8-abe5-bad149d789c0",
+    "name": "конкурентов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2066101-a8b7-42ea-8e2d-fd4dbd2d222b",
+      "start": 101,
+      "end": 112,
+      "text": "конкурентов"
+    }
+  },
+  {
+    "id": "afe0f045-030e-4fd4-8b41-ab962e2f9c33",
+    "name": "сервисах",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2066101-a8b7-42ea-8e2d-fd4dbd2d222b",
+      "start": 132,
+      "end": 140,
+      "text": "сервисах"
+    }
+  },
+  {
+    "id": "24417a6d-c73a-4c35-8783-e1cdbf1a74fd",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "17688c8c-a083-4357-aa7f-ef4847df35df",
+      "start": 12,
+      "end": 17,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "34e48d85-b8ec-45d9-8f5a-e8b7892c0d43",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "17688c8c-a083-4357-aa7f-ef4847df35df",
+      "start": 30,
+      "end": 37,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "63fea5e8-35cc-4dca-a9f3-95dbf883f895",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0b39d606-732a-4841-88ec-1d50f3c574d1",
+      "start": 0,
+      "end": 5,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "81e84b13-99a6-43ec-950e-f9884c56252f",
+    "name": "музыка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8b8c27d-188d-4460-8266-4b157203a3a6",
+      "start": 17,
+      "end": 23,
+      "text": "музыка"
+    }
+  },
+  {
+    "id": "bbb94402-697d-4176-8c1a-00c220f97819",
+    "name": "яндекс музыка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8b8c27d-188d-4460-8266-4b157203a3a6",
+      "start": 25,
+      "end": 38,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "25751bab-f2c7-4d99-9b68-ff1b36f9d7ef",
+    "name": "яндекс пэй",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bce8ff9-137e-4c5c-81ce-40e728c4919d",
+      "start": 0,
+      "end": 10,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "92cf7610-a900-46e9-b1c5-e965b4c42193",
+    "name": "маркет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bce8ff9-137e-4c5c-81ce-40e728c4919d",
+      "start": 30,
+      "end": 37,
+      "text": "маркетом"
+    }
+  },
+  {
+    "id": "8b724934-e206-4a2e-aa35-9d26530d10e6",
+    "name": "такси",
+    "type": "service",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bce8ff9-137e-4c5c-81ce-40e728c4919d",
+      "start": 54,
+      "end": 59,
+      "text": "такси"
+    }
+  }
+]

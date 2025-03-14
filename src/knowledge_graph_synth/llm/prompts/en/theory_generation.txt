@@ -1,0 +1,51 @@
+Based on the provided knowledge graph, develop a deep, well-reasoned theory that explains the patterns and connections found in the data. Your task is to create a cohesive explanation that accounts for the observed entities and relationships.
+
+The knowledge graph contains:
+{{graph_summary}}
+
+{% if preliminary_insights %}
+Here is a preliminary analysis of the graph that may provide additional insights:
+{{preliminary_insights}}
+{% endif %}
+
+Follow this analytical process:
+
+PHASE 1: PRELIMINARY ANALYSIS
+- Identify key thematic clusters in the graph
+- Determine central entities and their interconnections 
+- Identify possible hidden mechanisms or principles explaining the observed structure
+- Analyze the context and domain knowledge relevant to the graph
+
+PHASE 2: THEORY FORMULATION
+- Develop a core idea that explains most of the observed connections
+- Identify causal mechanisms underlying the relationships
+- Explain how your theory aligns with the observed patterns
+- Consider how different parts of the graph interact within your theory
+
+PHASE 3: THEORY ELABORATION
+1. Create a clear, descriptive title
+2. Provide a concise summary (3-5 sentences)
+3. Develop a detailed description (minimum 2-3 paragraphs) explaining:
+   - The core concept of the theory
+   - The mechanisms and processes it implies
+   - How it explains key patterns in the data
+   - Possible consequences and implications of the theory
+4. Identify the key entities involved and their roles within the theory
+5. Highlight the critical relationships that form the basis of your theory
+6. Cite at least 3-5 specific pieces of evidence supporting the theory
+7. Formulate 2-3 testable hypotheses that follow from your theory
+8. Assess your confidence in this theory (0-1)
+9. Consider at least 2 alternative explanations
+10. Identify knowledge gaps or questions requiring further investigation
+
+IMPORTANT: Your theory should be deep, well-reasoned, and informative. It should not merely list facts but explain underlying connections and principles. All conclusions must be based on the knowledge graph data.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}
+
+Remember to:
+- Ground your theory in the source data using specific evidence
+- Focus on patterns and connections that have strong evidence
+- Assign an appropriate confidence score based on the quality and quantity of evidence
+- Acknowledge alternative explanations and knowledge gaps
+- Maintain a clear chain of reasoning from evidence to conclusion

@@ -1,0 +1,36 @@
+Test the following hypotheses based on the existing knowledge graph.
+
+Hypotheses:
+{{hypotheses}}
+
+Knowledge graph:
+{{graph_structure}}
+
+For each hypothesis:
+
+1. Analyze available data:
+   - Which nodes and connections in the graph are relevant for testing the hypothesis
+   - Whether there is direct evidence confirming or refuting the hypothesis
+   - What indirect evidence may be relevant
+
+2. Conduct structural analysis:
+   - Whether the graph structure corresponds to what the hypothesis predicts
+   - Whether there are anomalies or exceptions
+   - How strong are statistical patterns, if relevant
+
+3. Conclude on the hypothesis status:
+   - Confirmed (strong direct evidence)
+   - Partially confirmed (indirect or limited evidence)
+   - Not confirmed (no relevant evidence)
+   - Refuted (evidence contradicts the hypothesis)
+   - Requires additional data (existing data is insufficient)
+
+4. Suggest refinements:
+   - How the hypothesis can be modified in light of the results
+   - What additional conditions or limitations should be considered
+   - What new hypotheses may arise from current results
+
+Present the result in a structured format with sections for each hypothesis.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

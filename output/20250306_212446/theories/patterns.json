@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Product-Concept Association",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Products are associated with concepts that define their functionality or purpose. This suggests a design or marketing strategy focused on highlighting the underlying concepts that make the product valuable.",
+    "examples": [
+      {
+        "text": "Яндекс Музыка - нейро",
+        "explanation": "Yandex Music might use neural networks (нейро) for music recommendation or generation. This connects the product to a core technology concept."
+      },
+      {
+        "text": "Яндекс Пэй - поиск",
+        "explanation": "Yandex Pay likely integrates with search functionality to facilitate product discovery or payment processing. This links the payment product to the concept of search."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern reveals how Yandex products leverage specific concepts to deliver value. It highlights the importance of these concepts in the product's design and marketing."
+  },
+  {
+    "name": "Organization-Concept Relationship",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "Organizations are associated with concepts that represent their areas of expertise, research focus, or business activities. This indicates the organization's strategic focus and core competencies.",
+    "examples": [
+      {
+        "text": "Яндекс - поиск",
+        "explanation": "Yandex is associated with the concept of 'поиск' (search), reflecting its core business and technological strength."
+      },
+      {
+        "text": "университет - нейро",
+        "explanation": "The university is associated with the concept of 'нейро' (neural networks), suggesting a research focus or academic program in this area."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern reveals the core competencies and strategic focus of the organizations within the knowledge graph. It highlights the concepts that define their identity and activities."
+  },
+  {
+    "name": "Recipe as a Standalone Concept",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "The presence of 'рецепт блинов' (recipe for блины/pancakes) as a standalone concept suggests a focus on practical, everyday information retrieval. It could indicate a use case for search or other information services.",
+    "examples": [
+      {
+        "text": "рецепт блинов",
+        "explanation": "The entity 'рецепт блинов' represents a specific information need and a potential use case for a search engine or recipe platform."
+      }
+    ],
+    "confidence": 0.7,
+    "significance": "This pattern highlights a specific user need and a potential application area for the technologies and organizations represented in the graph. It suggests a focus on providing practical, everyday information."
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "id": "34c7b8d5-3f14-4461-8fe3-c9fcb8f100d4",
+    "name": "пользователь",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "3ec62abf-d242-49da-9c5d-bb67d4da0d1a",
+      "start": 24,
+      "end": 35,
+      "text": "пользователя"
+    }
+  },
+  {
+    "id": "2baae085-8efe-4f83-9e8a-5ab231cbeb5d",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0046cb15-08d5-485a-8696-65d163389855",
+      "start": 16,
+      "end": 25,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "77890278-1039-4852-b357-6ae04378eb2f",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "f638a86f-1208-4471-a448-7bc478185acd",
+      "start": 22,
+      "end": 27,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "11f7fc00-6c19-4743-92c6-c6a94bc5c4d7",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "153cd644-7e95-4a00-a68d-32ed96de3eee",
+      "start": 8,
+      "end": 13,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "b67cc1dc-4d0b-438a-9ddf-f00278805314",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "153cd644-7e95-4a00-a68d-32ed96de3eee",
+      "start": 31,
+      "end": 37,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "2e91a02e-b3c7-4d66-99f0-77a05d0b3f58",
+    "name": "Яндекс GPT",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "alternative_name",
+        "value": "YandexGPT",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "153cd644-7e95-4a00-a68d-32ed96de3eee",
+      "start": 31,
+      "end": 43,
+      "text": "яндекс g пяти"
+    }
+  },
+  {
+    "id": "73cc7cac-3a03-49fc-b44a-659862af9fe9",
+    "name": "Яндекс Переводчик",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "alternative_name",
+        "value": "Yandex Translate",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "153cd644-7e95-4a00-a68d-32ed96de3eee",
+      "start": 45,
+      "end": 56,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "57ba7a38-0be2-4fe1-bfab-784b432374a5",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "153cd644-7e95-4a00-a68d-32ed96de3eee",
+      "start": 67,
+      "end": 72,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "e9bd79af-f3dd-4c58-bd28-9a013dcedcb2",
+    "name": "помощник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "11f3eab7-7db4-433f-afa1-e46e5707ad20",
+      "start": 21,
+      "end": 29,
+      "text": "помощник"
+    }
+  },
+  {
+    "id": "639ad24c-81a4-4325-a11d-fc3984d543a0",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "11f3eab7-7db4-433f-afa1-e46e5707ad20",
+      "start": 30,
+      "end": 39,
+      "text": "ассистента"
+    }
+  },
+  {
+    "id": "2bc10f71-d61d-42e9-8b93-55bf4e8ec35e",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2dba46bb-b0b6-469b-b2a3-f1394242b36b",
+      "start": 35,
+      "end": 41,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "c9112a56-575d-4ec6-90f7-27375d27a6ba",
+    "name": "помощник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2dba46bb-b0b6-469b-b2a3-f1394242b36b",
+      "start": 76,
+      "end": 84,
+      "text": "помощника"
+    }
+  },
+  {
+    "id": "ad026892-a068-4b92-8775-de050ec15364",
+    "name": "ассистент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2dba46bb-b0b6-469b-b2a3-f1394242b36b",
+      "start": 85,
+      "end": 94,
+      "text": "ассистента"
+    }
+  },
+  {
+    "id": "2fb1de72-02b3-472f-b88d-61857edb3bdc",
+    "name": "женское имя",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "cd62bb42-af7c-4abb-97d1-6c133d8efda7",
+      "start": 17,
+      "end": 27,
+      "text": "женское имя"
+    }
+  },
+  {
+    "id": "08c5d71d-9657-42c8-8fca-8a3c28a04190",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "cd62bb42-af7c-4abb-97d1-6c133d8efda7",
+      "start": 77,
+      "end": 86,
+      "text": "нейросеть"
+    }
+  },
+  {
+    "id": "02a62ddc-bbfd-45f5-b577-738fefee863e",
+    "name": "личный помощник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "cd62bb42-af7c-4abb-97d1-6c133d8efda7",
+      "start": 91,
+      "end": 105,
+      "text": "личный помощник"
+    }
+  },
+  {
+    "id": "7536f5a7-5936-4ed8-950d-87446037de40",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "5ccc68e1-8989-47cb-9e8d-8472a33d3088",
+      "start": 15,
+      "end": 21,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "52562998-0a98-44cc-ae47-9874dca0ca14",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "50b1e81c-7b1c-411e-830d-19a9a6ea72ee",
+      "start": 68,
+      "end": 73,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "9accc912-0357-4f31-9275-a0fcbdbf81e1",
+    "name": "Яндекс Браузер",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "alternative_name",
+        "value": "Yandex Browser",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "9b37c0fc-3835-403b-9a89-8a9633e6c351",
+      "start": 8,
+      "end": 21,
+      "text": "яндекс браузер"
+    }
+  },
+  {
+    "id": "47576de8-5ac9-4b6c-83c5-c3e9effedaf5",
+    "name": "Яндекс Браузер",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "alternative_name",
+        "value": "Yandex Browser",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "45f5b6f2-b604-4ff7-9bfa-128c4b05ad37",
+      "start": 27,
+      "end": 40,
+      "text": "яндекс браузер"
+    }
+  },
+  {
+    "id": "270aa478-268e-4ae2-9517-5fa485efbb75",
+    "name": "Яндекс Браузер",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "alternative_name",
+        "value": "Yandex Browser",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "3f0e54ad-b771-40e3-bcd7-94519b72ebe5",
+      "start": 12,
+      "end": 25,
+      "text": "яндекс браузере"
+    }
+  },
+  {
+    "id": "05861648-9cc6-4123-b395-c7bac04ce671",
+    "name": "умная камера",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "6450fe25-da38-447a-81a1-350f0a57f9be",
+      "start": 31,
+      "end": 43,
+      "text": "умная камера"
+    }
+  },
+  {
+    "id": "e45bdc12-133c-4220-95a6-66e83060132c",
+    "name": "умная камера",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "91747b8f-9dc0-4306-a055-1f09ca6ea419",
+      "start": 5,
+      "end": 17,
+      "text": "умная камера"
+    }
+  },
+  {
+    "id": "2c508be1-d43a-459e-a300-fb86ce4b2af6",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "40b76440-0938-4d8c-ad72-f3bf5b44438c",
+      "start": 47,
+      "end": 53,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "4263979e-7ff5-4308-a5db-ca1134611f3c",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "f3720cb5-1043-4575-9ed9-33ba3ef1e384",
+      "start": 8,
+      "end": 13,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "1b418710-56d0-4ae9-b6e8-6b801d6ba16e",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "5cacd49e-ec26-4deb-abfa-2bc37eb72144",
+      "start": 16,
+      "end": 21,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "b0e375d9-ad42-4503-b6df-b6439f03f697",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "96480afb-ab83-4ed6-9433-9f92aa14d49c",
+      "start": 14,
+      "end": 19,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "49a89e66-9c8e-41f9-b61a-423d7f4b07c2",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "5a67bb68-8fce-463b-a559-0d671d402597",
+      "start": 29,
+      "end": 35,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "60bd4249-e1a1-4485-a145-11df1d6cda92",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "58d7b3de-1e71-49dc-8c39-a97fda4167c0",
+      "start": 22,
+      "end": 27,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "27c6cef9-025e-4fd3-8941-501008692a63",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "58d7b3de-1e71-49dc-8c39-a97fda4167c0",
+      "start": 46,
+      "end": 52,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "2ebfe8e6-5a04-45d2-97b5-32df6e917d93",
+    "name": "чат с Алисой",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "58d7b3de-1e71-49dc-8c39-a97fda4167c0",
+      "start": 66,
+      "end": 78,
+      "text": "чат с алисой"
+    }
+  },
+  {
+    "id": "05d1f535-04aa-49ae-abc8-8a794fc0bbf1",
+    "name": "мобильная версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2be0589b-cf19-41ef-9a6b-49bf16952b5b",
+      "start": 63,
+      "end": 79,
+      "text": "мобильной версией"
+    }
+  },
+  {
+    "id": "7ff07733-d261-4ebb-b456-f382b7d77d60",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2f76417f-5663-4782-93ae-e2903323a515",
+      "start": 27,
+      "end": 32,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "beb6da5b-3001-4eb9-88b4-bb6080f2a0e0",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0ff4fed0-2bba-4aaa-91f7-9bd3acc13c25",
+      "start": 21,
+      "end": 26,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "016932e4-00b5-4692-8e9a-f9fd4b110be6",
+    "name": "Алиса",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0ff4fed0-2bba-4aaa-91f7-9bd3acc13c25",
+      "start": 34,
+      "end": 39,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "18b7301a-7cc1-4d6c-a214-a48c574758db",
+    "name": "мобильная версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "3db00d24-e97f-41e1-a8da-0b337d1d5c6a",
+      "start": 78,
+      "end": 94,
+      "text": "мобильной версии"
+    }
+  },
+  {
+    "id": "94fd37d6-0729-4684-b72a-530039c86c39",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "8fba7b22-a54e-4a28-a5e0-3d002a67455e",
+      "start": 141,
+      "end": 149,
+      "text": "браузере"
+    }
+  },
+  {
+    "id": "cec1ac31-15e5-471d-92ec-e2c1629630c0",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "79a8e69b-d6bd-4ed0-b217-909c1a1a447f",
+      "start": 26,
+      "end": 33,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "9c536686-8d8d-45cf-b75d-650a05de3af7",
+    "name": "VPN",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "b6106c65-7fbd-471f-b51a-d3e42e54c7d3",
+      "start": 38,
+      "end": 41,
+      "text": "vpn"
+    }
+  },
+  {
+    "id": "73294459-ddf0-49e9-8447-78bcb975b12e",
+    "name": "Zoom",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "b6106c65-7fbd-471f-b51a-d3e42e54c7d3",
+      "start": 54,
+      "end": 58,
+      "text": "зум"
+    }
+  },
+  {
+    "id": "a9e9ad12-798e-4a3f-8712-503a4633d045",
+    "name": "VPN",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0c682105-a6ae-4422-a34f-7c211beb96e7",
+      "start": 18,
+      "end": 21,
+      "text": "vpn"
+    }
+  },
+  {
+    "id": "49ccefa9-c68d-45b7-bf11-1abcc694dfc3",
+    "name": "Zoom",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0c682105-a6ae-4422-a34f-7c211beb96e7",
+      "start": 31,
+      "end": 35,
+      "text": "зум"
+    }
+  },
+  {
+    "id": "68868632-3541-475a-8378-8de7c1f28e93",
+    "name": "рефераты",
+    "type": "concept",
+    "attributes": [
+      {
+        "key": "purpose",
+        "value": "учеба",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2bb535f3-9677-447c-8677-8baf5626bc7f",
+      "start": 69,
+      "end": 76,
+      "text": "рефера"
+    }
+  },
+  {
+    "id": "37076997-ca34-493e-97e0-3b8ca2ea1482",
+    "name": "научные статьи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2bb535f3-9677-447c-8677-8baf5626bc7f",
+      "start": 78,
+      "end": 92,
+      "text": "научные статьи"
+    }
+  },
+  {
+    "id": "97a41a1e-31d8-4779-ad73-d904fba8478c",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "6cd079fd-ebbe-4053-8187-8717a9f2bb77",
+      "start": 73,
+      "end": 79,
+      "text": "яндекс"
+    }
+  }
+]

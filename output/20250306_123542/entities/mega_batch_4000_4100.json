@@ -1,0 +1,506 @@
+[
+  {
+    "id": "d71db47d-c47b-4ea1-8adb-f5c0042b87a6",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "035e0319-930d-46e1-9f81-38e1a43e4b14",
+      "start": 6,
+      "end": 11,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "ca171680-ae58-4876-9cfb-18aff6fa8f82",
+    "name": "генеративные задачи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "035e0319-930d-46e1-9f81-38e1a43e4b14",
+      "start": 91,
+      "end": 110,
+      "text": "генеративные задачи"
+    }
+  },
+  {
+    "id": "e331bd13-78fa-4a5a-9e90-d999930dda49",
+    "name": "генеративные возможности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ba0195-e601-4b0c-abaf-474a24b36ab3",
+      "start": 19,
+      "end": 43,
+      "text": "генеративные возможности"
+    }
+  },
+  {
+    "id": "03a323cb-a30e-4823-9b33-76b814522f10",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ba0195-e601-4b0c-abaf-474a24b36ab3",
+      "start": 57,
+      "end": 62,
+      "text": "поиска"
+    }
+  },
+  {
+    "id": "cd1cb88d-0482-43a3-aa2a-0a29f96ed376",
+    "name": "поисковые возможности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ba0195-e601-4b0c-abaf-474a24b36ab3",
+      "start": 76,
+      "end": 98,
+      "text": "поисковые возможности"
+    }
+  },
+  {
+    "id": "70ad1537-da8e-40af-9dac-97ec6ab63705",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ba0195-e601-4b0c-abaf-474a24b36ab3",
+      "start": 106,
+      "end": 111,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "4f524b0c-9bcd-4ee5-9673-07e81ae55dce",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0ceb957-7863-4fb7-9bed-783830384f43",
+      "start": 16,
+      "end": 21,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "29a70b54-bb09-42e6-aaa5-797376e01a70",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed1d813c-c0d9-48f6-87a1-5cc810068b4a",
+      "start": 54,
+      "end": 59,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "7f20efa6-a89a-4c34-ae42-4f5d4a61d3d4",
+    "name": "бронхит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed1d813c-c0d9-48f6-87a1-5cc810068b4a",
+      "start": 76,
+      "end": 83,
+      "text": "бронхит"
+    }
+  },
+  {
+    "id": "34dc47ea-d307-4a08-b07b-c35032ff2460",
+    "name": "бронхит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6f823a15-4afd-4e21-8c9d-c3627bab37ea",
+      "start": 34,
+      "end": 41,
+      "text": "бронхит"
+    }
+  },
+  {
+    "id": "ab250c9c-73d7-4490-8d46-d18aaf1f79e4",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6f823a15-4afd-4e21-8c9d-c3627bab37ea",
+      "start": 69,
+      "end": 74,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "7105481d-660f-4f0a-8b12-ce2394661ab4",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9bb7345-7920-480c-a182-797ac7e36776",
+      "start": 69,
+      "end": 75,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "973359ba-dbf9-4dd8-a512-8b55d0594edf",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9bb7345-7920-480c-a182-797ac7e36776",
+      "start": 88,
+      "end": 93,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "79ee028a-7e6d-4982-a74b-f19693c8c8c0",
+    "name": "курс доллара",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e9bb7345-7920-480c-a182-797ac7e36776",
+      "start": 134,
+      "end": 146,
+      "text": "курс доллара"
+    }
+  },
+  {
+    "id": "c5b95ea7-8721-492f-8faf-a76055d0e139",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93c9f802-1567-450e-9b9f-bcfc34c3cc76",
+      "start": 17,
+      "end": 22,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "a4146c10-8816-4788-af64-0e8d340325d2",
+    "name": "игра слова",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "93c9f802-1567-450e-9b9f-bcfc34c3cc76",
+      "start": 47,
+      "end": 57,
+      "text": "игру слова"
+    }
+  },
+  {
+    "id": "a347ab8f-5c66-4099-b399-85b2cfc0c764",
+    "name": "генеративное задание",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.88,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "88f1e5a5-0837-4cb1-9847-698128d7e904",
+      "start": 31,
+      "end": 51,
+      "text": "генеративное, да, задание"
+    }
+  },
+  {
+    "id": "5b3ea186-8cdd-4bf0-bc64-087e7f230817",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "252e1efc-f265-4cdb-bdb5-39f507dd994a",
+      "start": 37,
+      "end": 43,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "c270b6d7-f99e-4482-91ff-440d7e4df375",
+    "name": "поиск",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "252e1efc-f265-4cdb-bdb5-39f507dd994a",
+      "start": 51,
+      "end": 56,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "c62f9c4d-f8d4-41bb-ba72-c403a3e0c29f",
+    "name": "условные предложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "252e1efc-f265-4cdb-bdb5-39f507dd994a",
+      "start": 132,
+      "end": 152,
+      "text": "условные предложения"
+    }
+  },
+  {
+    "id": "9c301da1-35b1-48fc-82e4-2cb068ab7a2c",
+    "name": "условные предложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7542930b-3e61-4c3f-9311-16d88fab0f67",
+      "start": 74,
+      "end": 94,
+      "text": "условные предложения"
+    }
+  },
+  {
+    "id": "485b3bab-8219-415e-b017-11082752da89",
+    "name": "условному предложению",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "858077db-f5c8-4990-bedf-41d2ccea4821",
+      "start": 19,
+      "end": 41,
+      "text": "условному предложению"
+    }
+  },
+  {
+    "id": "44fa1468-395b-45e7-a5c8-f2cfa44ae1d9",
+    "name": "браузер яндекс",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b665627-252b-413b-ac97-d1bc1c0fdd08",
+      "start": 27,
+      "end": 41,
+      "text": "браузер яндекс"
+    }
+  },
+  {
+    "id": "544c62fc-3f3a-452c-b55a-248c6110484c",
+    "name": "браузер яндекс",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eed7a669-b35d-4724-8073-0ddebdc46dcb",
+      "start": 17,
+      "end": 31,
+      "text": "браузером яндекса"
+    }
+  },
+  {
+    "id": "8a0225fe-1dc6-40c6-a55b-f0f1bcf1858a",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "197aff60-3bd7-41ab-a94e-4bc90932578c",
+      "start": 19,
+      "end": 25,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "507f59e3-32d8-4929-aca2-364fb86fa0ea",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c45687e6-e229-4c44-8253-d12851a844cf",
+      "start": 38,
+      "end": 44,
+      "text": "сказку"
+    }
+  },
+  {
+    "id": "904cbbeb-25e0-449d-a320-8e7089e6ffb5",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a1e7bb0-5891-458e-93d9-22721da7a6a3",
+      "start": 64,
+      "end": 70,
+      "text": "сказки"
+    }
+  },
+  {
+    "id": "a06bf94a-5e46-442f-9b09-5293c017de11",
+    "name": "пестрый флейтист из гаммельда",
+    "type": "creative_work",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a941ed55-edde-480d-9fc0-7a0bd28a5fab",
+      "start": 30,
+      "end": 60,
+      "text": "пестрый флейтист из гаммельда"
+    }
+  },
+  {
+    "id": "dfb7c41f-e217-47d2-9c30-a2a5c68b4daf",
+    "name": "сказка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12a9a380-0e27-4b8f-b157-81762c2aef4a",
+      "start": 72,
+      "end": 78,
+      "text": "сказка"
+    }
+  },
+  {
+    "id": "a493f825-f7c5-4fe8-b985-a590dabc733a",
+    "name": "википедия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3b494487-69c7-4093-a96d-ab73dff94131",
+      "start": 47,
+      "end": 56,
+      "text": "википедию"
+    }
+  },
+  {
+    "id": "bb1b444c-b7f1-4498-ac32-c8f1b9b4af99",
+    "name": "ютуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55e3329d-0735-42a6-943b-ba1d2e13bfea",
+      "start": 19,
+      "end": 23,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "bd07e0ea-1187-4172-9b90-9eadbce23d23",
+    "name": "ручуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "55e3329d-0735-42a6-943b-ba1d2e13bfea",
+      "start": 54,
+      "end": 59,
+      "text": "ручуба"
+    }
+  },
+  {
+    "id": "4d7404f3-30a9-4351-9370-773742caa05e",
+    "name": "ютуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4491ebcd-d413-417a-8518-6692f786ad9f",
+      "start": 9,
+      "end": 13,
+      "text": "ютуба"
+    }
+  },
+  {
+    "id": "73394971-4a6f-4743-b688-589daa742a88",
+    "name": "ютуб",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7d315deb-5192-47c2-b396-21f10bfffe75",
+      "start": 71,
+      "end": 75,
+      "text": "ютуб"
+    }
+  },
+  {
+    "id": "febaa1fc-41d3-451a-8d2e-33075549c97e",
+    "name": "телеграмм бот",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "298fc714-23ca-4c21-9d44-974c2e00f8b5",
+      "start": 26,
+      "end": 40,
+      "text": "телеграмм ботом"
+    }
+  },
+  {
+    "id": "07dba142-439b-44e9-a712-70a9a37b0953",
+    "name": "гамельский крысолов",
+    "type": "creative_work",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9b7b69c0-66f4-409e-b092-2c2a2efb13a8",
+      "start": 47,
+      "end": 66,
+      "text": "гамельским крысоловым"
+    }
+  }
+]

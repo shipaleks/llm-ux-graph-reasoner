@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Product Specialization",
+    "type": "semantic",
+    "subtype": "semantic",
+    "description": "A product entity is categorized as a more general concept, indicating a specialization or instantiation relationship.",
+    "examples": [
+      {
+        "text": "яндекс музыка → музыка",
+        "explanation": "The 'is_a' relationship connects 'яндекс музыка' (a product) to 'музыка' (a concept), showing that Яндекс Music is a specific type of music-related product."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern highlights how specific products are classified within broader conceptual categories. It reveals the product's core function or domain."
+  },
+  {
+    "name": "Technology-Driven Concept",
+    "type": "relational",
+    "subtype": "semantic",
+    "description": "A technology entity exists alongside concept entities, suggesting that the technology is related to or enables these concepts. This indicates a technology-driven innovation or application.",
+    "examples": [
+      {
+        "text": "WEBVTT, поиск, нейро",
+        "explanation": "The presence of 'WEBVTT' (a technology) alongside 'поиск' (search) and 'нейро' (neural networks) suggests that WEBVTT might be used in search applications or neural network-based systems."
+      }
+    ],
+    "confidence": 0.7,
+    "significance": "This pattern suggests a technological foundation for abstract concepts. It points to areas where technology is being applied to solve problems or create new possibilities."
+  },
+  {
+    "name": "Organization and Product Association",
+    "type": "narrative",
+    "subtype": "semantic",
+    "description": "An organization entity is implicitly associated with a product entity, suggesting that the organization develops or owns the product.",
+    "examples": [
+      {
+        "text": "яндекс, яндекс музыка",
+        "explanation": "The presence of 'яндекс' (an organization) and 'яндекс музыка' (a product) suggests that Яндекс develops or owns the Яндекс Music service."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern reveals the organizational context behind a product. It helps understand who is responsible for the product's development, maintenance, and distribution."
+  }
+]

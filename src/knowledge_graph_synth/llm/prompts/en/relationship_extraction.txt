@@ -1,0 +1,26 @@
+Extract all relationships between entities from the following text. A relationship connects two entities and describes how they are related to each other.
+
+For each relationship:
+1. Identify the source entity (subject)
+2. Identify the target entity (object)
+3. Determine the relationship type (predicate)
+4. Extract any attributes or properties of the relationship
+5. Specify where in the text it appears (source span)
+6. Indicate if the relationship is bidirectional
+7. Assess your confidence in this relationship (0-1)
+8. Note any temporal aspects if applicable
+
+Only extract relationships that are explicitly mentioned in the text. Do not infer relationships that aren't directly stated. Be precise with the source spans, ensuring they contain the exact text where the relationship is described.
+
+Text to analyze:
+{{text}}
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}
+
+Remember to:
+- Ground every relationship in the source text using precise source spans
+- Only include relationships explicitly mentioned in the text
+- Assign appropriate confidence scores (lower for unclear or ambiguous relationships)
+- Include relevant contextual information as relationship attributes
+- Note when relationships are bidirectional or have temporal components

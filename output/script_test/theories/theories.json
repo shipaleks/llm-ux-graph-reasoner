@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Yandex's Knowledge Graph as a Model of the World for AI Training",
+    "summary": "This theory posits that Yandex is constructing a broad knowledge graph not primarily for direct user-facing applications, but as a comprehensive training dataset for its AI models, enabling them to understand context, relationships, and diverse domains of knowledge.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс (Yandex)",
+        "type": "organization",
+        "role": "Creator and maintainer of the knowledge graph and AI models"
+      },
+      {
+        "name": "Алиса (Alice)",
+        "type": "technology",
+        "role": "AI assistant trained on the knowledge graph"
+      },
+      {
+        "name": "нейросеть (neural network)",
+        "type": "technology",
+        "role": "AI model trained on the knowledge graph"
+      },
+      {
+        "name": "concept",
+        "type": "concept",
+        "role": "Nodes in the knowledge graph representing abstract ideas"
+      },
+      {
+        "name": "product",
+        "type": "product",
+        "role": "Nodes in the knowledge graph representing items for sale"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Алиса (Alice)",
+        "target": "компьютере",
+        "type": "uses",
+        "description": "Alice uses the knowledge graph on a computer."
+      },
+      {
+        "source": "нейросеть (neural network)",
+        "target": "сервисы яндекса",
+        "type": "integrated_with",
+        "description": "The neural network is integrated with Yandex services."
+      },
+      {
+        "source": "g пять",
+        "target": "генерации текстов",
+        "type": "used_for",
+        "description": "G5 is used for text generation."
+      },
+      {
+        "source": "цены",
+        "target": "рейтинги",
+        "type": "related_to",
+        "description": "Prices are related to ratings."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Knowledge Domain Breadth and Depth: This pattern reveals the breadth and depth of knowledge domains covered by the knowledge graph. It encompasses a wide range of entities, from abstract concepts to concrete objects, and includes relationships that span diverse fields like technology, history, sports, and even food.",
+        "relevance": "Supports the idea that the knowledge graph is designed to capture a wide range of information for AI training."
+      },
+      {
+        "text": "Task-Oriented AI and Content Generation: This pattern focuses on the use of AI, particularly models like G5, for various content generation and manipulation tasks. It showcases the AI's capabilities in creating images, writing essays, and improving text, indicating a strong emphasis on task-oriented applications.",
+        "relevance": "Supports the idea that the knowledge graph is used to train AI models for specific tasks."
+      },
+      {
+        "text": "Contextual Information and Personalization: This pattern emphasizes the importance of contextual information and personalization within the knowledge graph. The presence of relationships like 'attribute_of' linking personal attributes (age, gender) to 'контекстную информацию о вас' (contextual information about you) suggests an effort to tailor information and services based on user profiles.",
+        "relevance": "Supports the idea that the knowledge graph is used to train AI models to understand and utilize contextual information."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.8,
+    "alternative_explanations": null,
+    "gaps": [
+      "Specific details about the AI training algorithms used by Yandex.",
+      "Metrics on the performance improvement of AI models trained on the knowledge graph.",
+      "Information on the data sources used to construct the knowledge graph."
+    ],
+    "is_alternative": true,
+    "alternative_to": "AI-Driven Personalization and Task Automation in the Yandex Ecosystem"
+  },
+  {
+    "title": "AI-Driven Personalization and Task Automation in the Yandex Ecosystem",
+    "summary": "This theory proposes that Yandex is strategically integrating AI, particularly its Алиса (Alice) assistant and нейросеть (neural network) technologies, to enhance personalization and automate tasks across its services, aiming to create a more seamless and efficient user experience. This integration spans from e-commerce to content generation, leveraging contextual information to tailor responses and streamline user interactions.",
+    "description": "",
+    "key_entities": [
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Central organization driving AI integration"
+      },
+      {
+        "name": "Алиса",
+        "type": "technology",
+        "role": "AI assistant facilitating user interaction"
+      },
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "Core AI technology enabling personalization and automation"
+      },
+      {
+        "name": "смартфоны",
+        "type": "product",
+        "role": "Example of products sold through AI-integrated e-commerce"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Алиса",
+        "target": "компьютере",
+        "type": "uses",
+        "description": "Алиса is used on computers, indicating its integration into various devices."
+      },
+      {
+        "source": "нейросеть",
+        "target": "сервисы яндекса",
+        "type": "integrated_with",
+        "description": "нейросеть is integrated with Yandex services, highlighting its central role in the ecosystem."
+      },
+      {
+        "source": "пол",
+        "target": "контекстную информацию о вас",
+        "type": "attribute_of",
+        "description": "Personal attributes like gender contribute to contextual information, enabling personalization."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "Алиса → компьютере",
+        "relevance": "Shows that Алиса is used on computers, indicating its integration into various devices."
+      },
+      {
+        "text": "нейросеть → сервисы яндекса",
+        "relevance": "Shows that нейросеть is integrated with Yandex services, highlighting its central role in the ecosystem."
+      },
+      {
+        "text": "пол → контекстную информацию о вас",
+        "relevance": "Shows that personal attributes like gender contribute to contextual information, enabling personalization."
+      },
+      {
+        "text": "Сбер → телевизор",
+        "relevance": "Shows that Sber sells televisions, indicating e-commerce activity."
+      },
+      {
+        "text": "g пять → генерации текстов",
+        "relevance": "Shows that G5 is used for text generation, indicating task automation."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.7,
+    "alternative_explanations": [
+      {
+        "summary": "Yandex's AI development is primarily driven by a desire to compete with other tech giants like Google and Apple, rather than a specific focus on personalization and task automation.",
+        "confidence": 0.5
+      }
+    ],
+    "gaps": [
+      "The knowledge graph lacks information about the specific algorithms and data used by Yandex's AI models.",
+      "The knowledge graph does not provide details about user adoption rates or satisfaction levels with Yandex's AI-powered services.",
+      "More information is needed about the ethical considerations and privacy policies surrounding Yandex's use of personal data for personalization."
+    ]
+  }
+]

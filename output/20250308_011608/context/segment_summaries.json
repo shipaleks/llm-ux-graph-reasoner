@@ -1,0 +1,85 @@
+{
+  "2d9b8494-22f0-4779-b14b-92479b343b35": {
+    "id": "2d9b8494-22f0-4779-b14b-92479b343b35",
+    "title": "Murder at Ravenscroft Manor",
+    "summary": "During a masquerade ball at Ravenscroft Manor, Lord Alistair Ravenscroft is found murdered, prompting an investigation by Inspector Hartwell amidst a web of secrets, suspects, and supernatural elements. The investigation reveals numerous clues, hidden passages, and a clandestine society, all pointing to a meticulously planned murder.",
+    "key_points": [
+      "Lord Alistair Ravenscroft is murdered during a masquerade ball.",
+      "Inspector Hartwell investigates, uncovering numerous suspects and clues.",
+      "Secret passages, a hidden society, and supernatural elements complicate the investigation.",
+      "Key suspects include Professor Greer, Lady Miranda, and Dr. Locke.",
+      "The murder appears meticulously planned, with clues pointing to betrayal and hidden motives."
+    ],
+    "role": "introduction",
+    "parent_relation": "Sets the scene and introduces the main problem (murder) and the context (investigation, suspects, and setting)."
+  },
+  "98cad25e-4bd0-40e0-abcc-596a2bfff565": {
+    "id": "98cad25e-4bd0-40e0-abcc-596a2bfff565",
+    "title": "Masquerade Ball at Ravenscroft",
+    "summary": "Lord Alistair Ravenscroft held a lavish masquerade ball at his gothic mansion, Ravenscroft Manor, which was known for its eerie atmosphere and hidden secrets. The manor, located on a cliff, was rumored to be haunted and full of mysteries.",
+    "key_points": [
+      "Stormy autumn evening setting",
+      "Extravagant masquerade ball",
+      "Ravenscroft Manor: gothic, cliffside location",
+      "Manor known for secrets and ghost stories",
+      "Lord Alistair Ravenscroft as host"
+    ],
+    "role": "introduction",
+    "parent_relation": "This segment is the same as the parent context, serving as the introductory setting for the narrative."
+  },
+  "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c": {
+    "id": "db8a80c3-7bde-4a57-9c0e-19bb9f10a32c",
+    "title": "Guests of Ravenscroft Manor",
+    "summary": "The segment introduces three guests at Lord Ravenscroft's masquerade ball: Professor Elias Greer, Lady Miranda Holloway, and Dr. Vivian Locke. Each guest has a mysterious or unusual background, hinting at potential intrigue.",
+    "key_points": [
+      "Professor Greer is an occult scholar.",
+      "Lady Holloway is Lord Alistair's enigmatic cousin with a possible history of espionage.",
+      "Dr. Locke is a physician interested in controversial treatments.",
+      "Each guest has secrets or unusual characteristics."
+    ],
+    "role": "introduction",
+    "parent_relation": "This segment develops the parent context by introducing key characters attending the masquerade ball, setting the stage for potential plot developments."
+  },
+  "7e04b63c-8f3f-4806-ae21-46820dd38316": {
+    "id": "7e04b63c-8f3f-4806-ae21-46820dd38316",
+    "title": "Undercover Inspector's Presence",
+    "summary": "Inspector Samuel Hartwell attended the masquerade ball in disguise, summoned by an anonymous letter. He observed the hidden tensions among the guests.",
+    "key_points": [
+      "Inspector Hartwell was in disguise.",
+      "He was summoned by an anonymous letter.",
+      "The letter promised dark secrets.",
+      "Hartwell observed subtle tensions.",
+      "The event was a masquerade ball."
+    ],
+    "role": "introduction",
+    "parent_relation": "This segment develops the setting introduced in the parent context by adding a key character and hinting at underlying conflicts."
+  },
+  "e853b14b-7679-4772-8247-16145283b6b0": {
+    "id": "e853b14b-7679-4772-8247-16145283b6b0",
+    "title": "Sudden Death at Midnight",
+    "summary": "During a thunderstorm, Ravenscroft Manor lost power, and when the lights returned, Lord Ravenscroft was found dead in the library from poisoning.",
+    "key_points": [
+      "Sudden power outage at 11:43 PM.",
+      "Loud thunderclap.",
+      "Lord Ravenscroft found dead.",
+      "Cause of death: poisoning.",
+      "Location: grand library."
+    ],
+    "role": "inciting incident",
+    "parent_relation": "This segment details the central event (Lord Ravenscroft's death) that unfolds within the setting established by the parent context (a masquerade ball at Ravenscroft Manor)."
+  },
+  "cc219125-1eed-4201-98ab-53f48034dbf0": {
+    "id": "cc219125-1eed-4201-98ab-53f48034dbf0",
+    "title": "Mysterious Clues Uncovered",
+    "summary": "Inspector Hartwell's investigation reveals several clues linking Professor Greer, Lady Miranda, and Dr. Locke to the events. These clues involve a cursed grimoire, a torn letter, and cryptic alchemical symbols.",
+    "key_points": [
+      "Professor Greer was seen with a cursed grimoire.",
+      "A page was ripped from the grimoire.",
+      "Lady Miranda had a torn letter and earth-stained gloves.",
+      "The letter referenced the \"Ravenscroft curse\".",
+      "Dr. Locke's vials had symbols matching runes on hidden altars."
+    ],
+    "role": "evidence",
+    "parent_relation": "This segment develops the mystery introduced in the parent context by presenting the initial clues found during the investigation."
+  }
+}

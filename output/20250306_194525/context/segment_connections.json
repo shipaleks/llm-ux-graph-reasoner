@@ -1,0 +1,653 @@
+[
+  {
+    "source_id": "d6a683bf-028d-43a0-a26d-02b95c2fac51",
+    "target_id": "9503a686-0d08-4420-a859-0faad62a013a",
+    "type": "Общая тема",
+    "strength": 0.3,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d6a683bf-028d-43a0-a26d-02b95c2fac51",
+    "target_id": "8ba12fd2-2fb2-4f54-98a5-40b481d23b80",
+    "type": "Общая тема",
+    "strength": 0.3,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "9503a686-0d08-4420-a859-0faad62a013a",
+    "target_id": "8ba12fd2-2fb2-4f54-98a5-40b481d23b80",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "9503a686-0d08-4420-a859-0faad62a013a",
+    "target_id": "5542f6a2-c3ca-4de7-9ba4-f2b1dcb01366",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8ba12fd2-2fb2-4f54-98a5-40b481d23b80",
+    "target_id": "5542f6a2-c3ca-4de7-9ba4-f2b1dcb01366",
+    "type": "Общая тема",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8ba12fd2-2fb2-4f54-98a5-40b481d23b80",
+    "target_id": "66cdcf19-61c8-4e84-b820-58d77fc4ab68",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "5542f6a2-c3ca-4de7-9ba4-f2b1dcb01366",
+    "target_id": "66cdcf19-61c8-4e84-b820-58d77fc4ab68",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "5542f6a2-c3ca-4de7-9ba4-f2b1dcb01366",
+    "target_id": "034c58ca-d0b3-4961-a49e-0ec755d9ae5a",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "66cdcf19-61c8-4e84-b820-58d77fc4ab68",
+    "target_id": "034c58ca-d0b3-4961-a49e-0ec755d9ae5a",
+    "type": "Пример-иллюстрация",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "66cdcf19-61c8-4e84-b820-58d77fc4ab68",
+    "target_id": "574da1a4-1c65-41cc-a02f-a9de07edec89",
+    "type": "Противопоставление",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "034c58ca-d0b3-4961-a49e-0ec755d9ae5a",
+    "target_id": "574da1a4-1c65-41cc-a02f-a9de07edec89",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "034c58ca-d0b3-4961-a49e-0ec755d9ae5a",
+    "target_id": "d985d9a3-1c6a-45b2-87aa-7bec501093d2",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "574da1a4-1c65-41cc-a02f-a9de07edec89",
+    "target_id": "d985d9a3-1c6a-45b2-87aa-7bec501093d2",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "574da1a4-1c65-41cc-a02f-a9de07edec89",
+    "target_id": "45f2ea9c-f62d-439f-99f0-8c48bd4ccaea",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d985d9a3-1c6a-45b2-87aa-7bec501093d2",
+    "target_id": "45f2ea9c-f62d-439f-99f0-8c48bd4ccaea",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d985d9a3-1c6a-45b2-87aa-7bec501093d2",
+    "target_id": "ca7d185b-c4d5-42e8-8a2e-d06241755d62",
+    "type": "Развитие мысли",
+    "strength": 0.4,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "45f2ea9c-f62d-439f-99f0-8c48bd4ccaea",
+    "target_id": "ca7d185b-c4d5-42e8-8a2e-d06241755d62",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "45f2ea9c-f62d-439f-99f0-8c48bd4ccaea",
+    "target_id": "da76371e-1cb3-4731-a647-d337faca3e59",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "ca7d185b-c4d5-42e8-8a2e-d06241755d62",
+    "target_id": "da76371e-1cb3-4731-a647-d337faca3e59",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "ca7d185b-c4d5-42e8-8a2e-d06241755d62",
+    "target_id": "7445136d-86ee-4287-8b64-0b0bf6d41151",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "da76371e-1cb3-4731-a647-d337faca3e59",
+    "target_id": "7445136d-86ee-4287-8b64-0b0bf6d41151",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "da76371e-1cb3-4731-a647-d337faca3e59",
+    "target_id": "1c3d92eb-df34-4d9b-a403-a87c040b4444",
+    "type": "Развитие мысли",
+    "strength": 0.4,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "7445136d-86ee-4287-8b64-0b0bf6d41151",
+    "target_id": "1c3d92eb-df34-4d9b-a403-a87c040b4444",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "7445136d-86ee-4287-8b64-0b0bf6d41151",
+    "target_id": "7475920c-4ce5-47dc-8eb2-94fce14cc253",
+    "type": "Причина-следствие",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "1c3d92eb-df34-4d9b-a403-a87c040b4444",
+    "target_id": "7475920c-4ce5-47dc-8eb2-94fce14cc253",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "1c3d92eb-df34-4d9b-a403-a87c040b4444",
+    "target_id": "6af75d00-b7da-4229-8882-afb81a88e9f4",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "7475920c-4ce5-47dc-8eb2-94fce14cc253",
+    "target_id": "6af75d00-b7da-4229-8882-afb81a88e9f4",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "7475920c-4ce5-47dc-8eb2-94fce14cc253",
+    "target_id": "5122aa96-9d3e-448d-8ec2-d38a56967f74",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "6af75d00-b7da-4229-8882-afb81a88e9f4",
+    "target_id": "5122aa96-9d3e-448d-8ec2-d38a56967f74",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "5122aa96-9d3e-448d-8ec2-d38a56967f74",
+    "target_id": "ba9ce321-6c2e-4416-adbf-8f366167ac6d",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "5122aa96-9d3e-448d-8ec2-d38a56967f74",
+    "target_id": "040f68f7-a6b5-435e-840d-2658c9ad0020",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "ba9ce321-6c2e-4416-adbf-8f366167ac6d",
+    "target_id": "040f68f7-a6b5-435e-840d-2658c9ad0020",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "040f68f7-a6b5-435e-840d-2658c9ad0020",
+    "target_id": "8af74522-178e-44b7-95e0-bc45bd94c97e",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "040f68f7-a6b5-435e-840d-2658c9ad0020",
+    "target_id": "1173e21a-e7b2-4e00-a343-c3c7e0508f2b",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8af74522-178e-44b7-95e0-bc45bd94c97e",
+    "target_id": "1173e21a-e7b2-4e00-a343-c3c7e0508f2b",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8af74522-178e-44b7-95e0-bc45bd94c97e",
+    "target_id": "4c06daa3-d3ab-4f9a-9ef6-41bc3caa7fea",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "1173e21a-e7b2-4e00-a343-c3c7e0508f2b",
+    "target_id": "4c06daa3-d3ab-4f9a-9ef6-41bc3caa7fea",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "1173e21a-e7b2-4e00-a343-c3c7e0508f2b",
+    "target_id": "a0212a7b-ea94-48f2-aad9-4bdc77519cce",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "4c06daa3-d3ab-4f9a-9ef6-41bc3caa7fea",
+    "target_id": "a0212a7b-ea94-48f2-aad9-4bdc77519cce",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "4c06daa3-d3ab-4f9a-9ef6-41bc3caa7fea",
+    "target_id": "27429ed3-40b2-443f-957e-9a50352a5609",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "a0212a7b-ea94-48f2-aad9-4bdc77519cce",
+    "target_id": "27429ed3-40b2-443f-957e-9a50352a5609",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "a0212a7b-ea94-48f2-aad9-4bdc77519cce",
+    "target_id": "d4bf3574-d0d3-4464-93e4-bd522548ef87",
+    "type": "Пример-иллюстрация",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "27429ed3-40b2-443f-957e-9a50352a5609",
+    "target_id": "d4bf3574-d0d3-4464-93e4-bd522548ef87",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "27429ed3-40b2-443f-957e-9a50352a5609",
+    "target_id": "8278b466-cc83-43ef-a50e-7a6271127933",
+    "type": "Развитие мысли",
+    "strength": 0.4,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d4bf3574-d0d3-4464-93e4-bd522548ef87",
+    "target_id": "8278b466-cc83-43ef-a50e-7a6271127933",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d4bf3574-d0d3-4464-93e4-bd522548ef87",
+    "target_id": "8984ee1a-cf0d-46fb-9019-29c5f86cea30",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8278b466-cc83-43ef-a50e-7a6271127933",
+    "target_id": "8984ee1a-cf0d-46fb-9019-29c5f86cea30",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "8278b466-cc83-43ef-a50e-7a6271127933",
+    "target_id": "bf40ea04-9ece-40f2-87fe-81db7460569c",
+    "type": "Общая тема",
+    "strength": 0.4,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8984ee1a-cf0d-46fb-9019-29c5f86cea30",
+    "target_id": "bf40ea04-9ece-40f2-87fe-81db7460569c",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8984ee1a-cf0d-46fb-9019-29c5f86cea30",
+    "target_id": "f2d2111d-42cf-4291-b0b2-455a46c036dd",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "bf40ea04-9ece-40f2-87fe-81db7460569c",
+    "target_id": "f2d2111d-42cf-4291-b0b2-455a46c036dd",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "bf40ea04-9ece-40f2-87fe-81db7460569c",
+    "target_id": "d8b93146-fde0-4020-887c-a71b102e899c",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "f2d2111d-42cf-4291-b0b2-455a46c036dd",
+    "target_id": "d8b93146-fde0-4020-887c-a71b102e899c",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "f2d2111d-42cf-4291-b0b2-455a46c036dd",
+    "target_id": "5f8effdc-ad2a-4594-aecc-d8973feafa0e",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "d8b93146-fde0-4020-887c-a71b102e899c",
+    "target_id": "5f8effdc-ad2a-4594-aecc-d8973feafa0e",
+    "type": "Пример-иллюстрация",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "d8b93146-fde0-4020-887c-a71b102e899c",
+    "target_id": "50712b3b-6222-4bb0-bb97-a701614953a2",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "5f8effdc-ad2a-4594-aecc-d8973feafa0e",
+    "target_id": "50712b3b-6222-4bb0-bb97-a701614953a2",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "5f8effdc-ad2a-4594-aecc-d8973feafa0e",
+    "target_id": "ffb7aa4d-a9a6-4943-89a5-d3c027d2a53f",
+    "type": "Причина-следствие",
+    "strength": 0.6,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "50712b3b-6222-4bb0-bb97-a701614953a2",
+    "target_id": "ffb7aa4d-a9a6-4943-89a5-d3c027d2a53f",
+    "type": "Причина-следствие",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "50712b3b-6222-4bb0-bb97-a701614953a2",
+    "target_id": "5c6a579f-971e-48e2-806e-02f1331feb26",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "ffb7aa4d-a9a6-4943-89a5-d3c027d2a53f",
+    "target_id": "5c6a579f-971e-48e2-806e-02f1331feb26",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "ffb7aa4d-a9a6-4943-89a5-d3c027d2a53f",
+    "target_id": "dfbb9807-f9ea-43f2-bbd8-b8fbc8c0fe9f",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "5c6a579f-971e-48e2-806e-02f1331feb26",
+    "target_id": "dfbb9807-f9ea-43f2-bbd8-b8fbc8c0fe9f",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "5c6a579f-971e-48e2-806e-02f1331feb26",
+    "target_id": "9d182a0e-d764-4e77-9859-fd7b846aaa41",
+    "type": "Пример-иллюстрация",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "dfbb9807-f9ea-43f2-bbd8-b8fbc8c0fe9f",
+    "target_id": "9d182a0e-d764-4e77-9859-fd7b846aaa41",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "dfbb9807-f9ea-43f2-bbd8-b8fbc8c0fe9f",
+    "target_id": "0e364ddd-2010-41ff-8c18-aeda520f7126",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "9d182a0e-d764-4e77-9859-fd7b846aaa41",
+    "target_id": "0e364ddd-2010-41ff-8c18-aeda520f7126",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "9d182a0e-d764-4e77-9859-fd7b846aaa41",
+    "target_id": "0dbab5f8-9f02-4456-9f6e-55540b649e5c",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "0e364ddd-2010-41ff-8c18-aeda520f7126",
+    "target_id": "8aca6883-be22-4544-9afc-81e1d84853b6",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "0dbab5f8-9f02-4456-9f6e-55540b649e5c",
+    "target_id": "8aca6883-be22-4544-9afc-81e1d84853b6",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8aca6883-be22-4544-9afc-81e1d84853b6",
+    "target_id": "5a2d8bca-3ff9-4ca8-ae65-78052ab6382e",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "8aca6883-be22-4544-9afc-81e1d84853b6",
+    "target_id": "7d81d49e-988e-4a70-9953-2c6fc3b359a3",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "5a2d8bca-3ff9-4ca8-ae65-78052ab6382e",
+    "target_id": "7d81d49e-988e-4a70-9953-2c6fc3b359a3",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "Двусторонняя"
+  },
+  {
+    "source_id": "5a2d8bca-3ff9-4ca8-ae65-78052ab6382e",
+    "target_id": "cab8f02a-f38e-49e9-b26c-27270c4da409",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "7d81d49e-988e-4a70-9953-2c6fc3b359a3",
+    "target_id": "cab8f02a-f38e-49e9-b26c-27270c4da409",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "7d81d49e-988e-4a70-9953-2c6fc3b359a3",
+    "target_id": "49c7debc-cc2c-4150-8d9c-11bce62341ff",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "cab8f02a-f38e-49e9-b26c-27270c4da409",
+    "target_id": "49c7debc-cc2c-4150-8d9c-11bce62341ff",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "cab8f02a-f38e-49e9-b26c-27270c4da409",
+    "target_id": "812a6e76-726e-40ed-8849-175581a2eb10",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "49c7debc-cc2c-4150-8d9c-11bce62341ff",
+    "target_id": "812a6e76-726e-40ed-8849-175581a2eb10",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "49c7debc-cc2c-4150-8d9c-11bce62341ff",
+    "target_id": "5487e8d9-8868-4152-ae92-72d8f36dbc62",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "812a6e76-726e-40ed-8849-175581a2eb10",
+    "target_id": "5487e8d9-8868-4152-ae92-72d8f36dbc62",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "812a6e76-726e-40ed-8849-175581a2eb10",
+    "target_id": "f630f0c8-b3e6-4db6-b419-08149c34ef0e",
+    "type": "Развитие мысли",
+    "strength": 0.4,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "5487e8d9-8868-4152-ae92-72d8f36dbc62",
+    "target_id": "f630f0c8-b3e6-4db6-b419-08149c34ef0e",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "двусторонняя"
+  },
+  {
+    "source_id": "5487e8d9-8868-4152-ae92-72d8f36dbc62",
+    "target_id": "02c284df-03b6-42af-94a8-d36aebcebc47",
+    "type": "Развитие мысли",
+    "strength": 0.7,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "f630f0c8-b3e6-4db6-b419-08149c34ef0e",
+    "target_id": "02c284df-03b6-42af-94a8-d36aebcebc47",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "f630f0c8-b3e6-4db6-b419-08149c34ef0e",
+    "target_id": "b4fb9c60-73d4-4e9d-99af-02f19fd577ef",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "Двусторонняя"
+  },
+  {
+    "source_id": "02c284df-03b6-42af-94a8-d36aebcebc47",
+    "target_id": "b4fb9c60-73d4-4e9d-99af-02f19fd577ef",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "02c284df-03b6-42af-94a8-d36aebcebc47",
+    "target_id": "9ab6ff27-40e7-4697-8adb-0b385b05f87c",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "b4fb9c60-73d4-4e9d-99af-02f19fd577ef",
+    "target_id": "9ab6ff27-40e7-4697-8adb-0b385b05f87c",
+    "type": "Развитие мысли",
+    "strength": 0.9,
+    "direction": "односторонняя"
+  },
+  {
+    "source_id": "b4fb9c60-73d4-4e9d-99af-02f19fd577ef",
+    "target_id": "10102d13-1e58-449b-9dd4-a3f1d6f6fc8a",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "9ab6ff27-40e7-4697-8adb-0b385b05f87c",
+    "target_id": "10102d13-1e58-449b-9dd4-a3f1d6f6fc8a",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "9ab6ff27-40e7-4697-8adb-0b385b05f87c",
+    "target_id": "dd637203-11d7-4b32-a739-abeee260b651",
+    "type": "Развитие мысли",
+    "strength": 0.6,
+    "direction": "Односторонняя"
+  },
+  {
+    "source_id": "10102d13-1e58-449b-9dd4-a3f1d6f6fc8a",
+    "target_id": "dd637203-11d7-4b32-a739-abeee260b651",
+    "type": "Развитие мысли",
+    "strength": 0.8,
+    "direction": "Односторонняя"
+  }
+]

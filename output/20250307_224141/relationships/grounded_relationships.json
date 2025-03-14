@@ -1,0 +1,466 @@
+[
+  {
+    "id": "37151f67-d0c7-4a3b-8f31-471e111bdd36",
+    "source_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "target_id": "d66d7298-7e5c-49e3-98d8-b6a686d8da9d",
+    "type": "OWNS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 0,
+      "end": 162,
+      "text": "Gregory, stern and elusive, ran a vast shipping empire that spanned continents, closely assisted by his trusted but morally ambiguous accountant, Nathaniel Price."
+    }
+  },
+  {
+    "id": "0708b13f-0e4b-4a13-ac6f-a9904869dcfb",
+    "source_id": "77427df2-a311-4e10-8a4d-46d90f872d23",
+    "target_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "type": "WORKS_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 0,
+      "end": 162,
+      "text": "Gregory, stern and elusive, ran a vast shipping empire that spanned continents, closely assisted by his trusted but morally ambiguous accountant, Nathaniel Price."
+    }
+  },
+  {
+    "id": "2040698f-8865-4383-8a5e-3892c995ba9c",
+    "source_id": "8901633b-835c-4c72-a956-27b946fc4d60",
+    "target_id": "a326f949-be7c-4b18-9d63-eaf8882d12b6",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 293,
+      "end": 415,
+      "text": " Nathaniel’s nephew, Jacob Price, passionate and impetuous, secretly courted Eleanor despite Gregory’s fierce disapproval."
+    }
+  },
+  {
+    "id": "1bfabfe8-35a3-4969-bab4-a9787e5ad72f",
+    "source_id": "a326f949-be7c-4b18-9d63-eaf8882d12b6",
+    "target_id": "d8df6aae-5733-46d0-9ab4-3d599a6e689b",
+    "type": "ROMANTIC_INTEREST",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 293,
+      "end": 415,
+      "text": " Nathaniel’s nephew, Jacob Price, passionate and impetuous, secretly courted Eleanor despite Gregory’s fierce disapproval."
+    }
+  },
+  {
+    "id": "045cd718-2cff-4f56-bb89-9a8774014e0b",
+    "source_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "target_id": "a326f949-be7c-4b18-9d63-eaf8882d12b6",
+    "type": "DISAPPROVES_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 293,
+      "end": 415,
+      "text": " Nathaniel’s nephew, Jacob Price, passionate and impetuous, secretly courted Eleanor despite Gregory’s fierce disapproval."
+    }
+  },
+  {
+    "id": "8049fbe3-f1bf-44e9-a476-c6559f63099d",
+    "source_id": "a326f949-be7c-4b18-9d63-eaf8882d12b6",
+    "target_id": "4c116589-bac8-4d58-8318-5fdd7123b1f3",
+    "type": "AUTHORED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 293,
+      "end": 673,
+      "text": " Nathaniel’s nephew, Jacob Price, passionate and impetuous, secretly courted Eleanor despite Gregory’s fierce disapproval. Jacob’s letters, filled with poetic declarations yet tinged with desperation, were frequently intercepted by Prudence Hartwell, the Blythe family's meticulous and judgmental housekeeper, who secretly harbored a profound and unrequited affection for Gregory."
+    }
+  },
+  {
+    "id": "8514ba80-73c7-489a-a340-c5c9651be489",
+    "source_id": "342213b1-2d60-4a95-ba94-eb601851b132",
+    "target_id": "4c116589-bac8-4d58-8318-5fdd7123b1f3",
+    "type": "INTERCEPTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 415,
+      "end": 673,
+      "text": " Jacob’s letters, filled with poetic declarations yet tinged with desperation, were frequently intercepted by Prudence Hartwell, the Blythe family's meticulous and judgmental housekeeper, who secretly harbored a profound and unrequited affection for Gregory."
+    }
+  },
+  {
+    "id": "d09a105a-1eca-44b2-ad9e-c7cfe07d529b",
+    "source_id": "342213b1-2d60-4a95-ba94-eb601851b132",
+    "target_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "type": "UNREQUITED_LOVE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "2a4c510a-a208-41b5-8da8-be2866e0a605",
+      "start": 415,
+      "end": 673,
+      "text": " Jacob’s letters, filled with poetic declarations yet tinged with desperation, were frequently intercepted by Prudence Hartwell, the Blythe family's meticulous and judgmental housekeeper, who secretly harbored a profound and unrequited affection for Gregory."
+    }
+  },
+  {
+    "id": "1dbbdb5e-5dee-47ac-bb75-6c6dba008529",
+    "source_id": "bffff80c-b54d-4742-8b8f-62164a81a933",
+    "target_id": "41c63ab3-958d-4e8b-a86a-9cf2e893c040",
+    "type": "SEEKS_COUNSEL_FROM",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 0,
+      "end": 42,
+      "text": "Prudence regularly sought counsel in Reverend Edmund Crane"
+    }
+  },
+  {
+    "id": "6a56f4f8-b33a-4ed2-b585-db6d0b6e241f",
+    "source_id": "155f4340-3c5b-4d23-b5a7-db1e017be2ca",
+    "target_id": "16a0e61e-6f61-4903-b7e3-b25bddb21053",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 137,
+      "end": 302,
+      "text": " Edmund's younger sister, Harriet, managed the local bookstore, a warm haven frequented by Eleanor, whose fondness for literature was well-known throughout Glenmoor."
+    }
+  },
+  {
+    "id": "090d9a93-956d-443c-9869-df769dd5cf47",
+    "source_id": "16a0e61e-6f61-4903-b7e3-b25bddb21053",
+    "target_id": "9c087baa-fa51-405a-9de5-64a696da1982",
+    "type": "MANAGES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 137,
+      "end": 302,
+      "text": " Edmund's younger sister, Harriet, managed the local bookstore, a warm haven frequented by Eleanor, whose fondness for literature was well-known throughout Glenmoor."
+    }
+  },
+  {
+    "id": "f87fe465-d1a7-4f9d-b356-19d003c3bb4f",
+    "source_id": "c039a3e2-051c-499d-93f5-781e95ba9c19",
+    "target_id": "07d069ea-852c-4d5c-8aa7-fcb2462542a1",
+    "type": "HAS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 302,
+      "end": 532,
+      "text": " Harriet’s shelves prominently displayed a curious and obscure tome titled \"The Silent Echo,\" written by Maxwell Finch—Gregory's estranged cousin—detailing a murder chillingly reminiscent of Eleanor's own mysterious disappearance."
+    }
+  },
+  {
+    "id": "c2053ae5-9e52-4031-9186-2f102c9520d9",
+    "source_id": "9f795dd8-80d4-4fe7-bf99-c778948f5586",
+    "target_id": "07d069ea-852c-4d5c-8aa7-fcb2462542a1",
+    "type": "AUTHORED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 302,
+      "end": 532,
+      "text": " Harriet’s shelves prominently displayed a curious and obscure tome titled \"The Silent Echo,\" written by Maxwell Finch—Gregory's estranged cousin—detailing a murder chillingly reminiscent of Eleanor's own mysterious disappearance."
+    }
+  },
+  {
+    "id": "f1ace9bd-65cd-4fc2-8b1b-45b8b17feac6",
+    "source_id": "9f795dd8-80d4-4fe7-bf99-c778948f5586",
+    "target_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "1453f657-b3b6-4637-ba43-c330f07aa58b",
+      "start": 302,
+      "end": 532,
+      "text": " Harriet’s shelves prominently displayed a curious and obscure tome titled \"The Silent Echo,\" written by Maxwell Finch—Gregory's estranged cousin—detailing a murder chillingly reminiscent of Eleanor's own mysterious disappearance."
+    }
+  },
+  {
+    "id": "35e9ff7d-5dd0-4f28-b16e-ce3541309596",
+    "source_id": "4dd3181b-9318-470e-b258-18fd7feaa66e",
+    "target_id": "df2f0b69-6445-4646-b446-b373c527372d",
+    "type": "INVESTIGATES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 0,
+      "end": 175,
+      "text": "Amelia Cole, an ambitious young journalist with an unyielding thirst for truth, tirelessly chased leads regarding the myriad secrets and scandals enveloping the Blythe family."
+    }
+  },
+  {
+    "id": "d7d884e3-7561-464a-938c-fe80a14fa3bd",
+    "source_id": "7d4acfbc-a238-42bb-919f-6f5472e477a7",
+    "target_id": "43714aea-c3f7-467b-93f9-3fa9b940e638",
+    "type": "WORKS_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 175,
+      "end": 372,
+      "text": " Amelia was discreetly aided by her reluctant informant, Dr. Tobias Sinclair, the family physician burdened by a dark knowledge acquired decades earlier when treating Gregory’s late wife, Margaret."
+    }
+  },
+  {
+    "id": "52678fe1-5a5b-4524-817c-6c07a5a525d8",
+    "source_id": "43714aea-c3f7-467b-93f9-3fa9b940e638",
+    "target_id": "df2f0b69-6445-4646-b446-b373c527372d",
+    "type": "EMPLOYED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 0,
+      "end": 372,
+      "text": "Amelia Cole, an ambitious young journalist with an unyielding thirst for truth, tirelessly chased leads regarding the myriad secrets and scandals enveloping the Blythe family. Amelia was discreetly aided by her reluctant informant, Dr. Tobias Sinclair, the family physician burdened by a dark knowledge acquired decades earlier when treating Gregory’s late wife, Margaret."
+    }
+  },
+  {
+    "id": "0c7da56b-8b99-4440-bcb1-5bd560953d78",
+    "source_id": "43714aea-c3f7-467b-93f9-3fa9b940e638",
+    "target_id": "537228dc-2d8a-47aa-87dd-2df774624d3c",
+    "type": "TREATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 175,
+      "end": 372,
+      "text": " Amelia was discreetly aided by her reluctant informant, Dr. Tobias Sinclair, the family physician burdened by a dark knowledge acquired decades earlier when treating Gregory’s late wife, Margaret."
+    }
+  },
+  {
+    "id": "32a752fb-0479-466b-b945-a5a5c5c3c9b4",
+    "source_id": "537228dc-2d8a-47aa-87dd-2df774624d3c",
+    "target_id": "d39d0fac-71f2-4ae7-ab55-74c1ea6617e7",
+    "type": "RELATED_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 235,
+      "end": 372,
+      "text": " Tobias Sinclair, the family physician burdened by a dark knowledge acquired decades earlier when treating Gregory’s late wife, Margaret."
+    }
+  },
+  {
+    "id": "27b523ff-146b-46fe-90c5-ae6ced4d1f11",
+    "source_id": "c9f81d01-b9c5-420d-a406-6212dc3fb995",
+    "target_id": "7d4acfbc-a238-42bb-919f-6f5472e477a7",
+    "type": "FEELS_GUILT_TOWARDS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "684d8f8a-b983-40df-9d78-90922a4b29ea",
+      "start": 372,
+      "end": 506,
+      "text": " Margaret’s death, originally declared natural, haunted Tobias deeply, his conscience compelling him towards Amelia despite the risks."
+    }
+  },
+  {
+    "id": "960e6aa5-f086-40e1-aabb-5334f905c516",
+    "source_id": "59b4c3b5-7c5e-4078-a225-647b28f4c8e0",
+    "target_id": "477fe84f-1fc9-42b5-a625-34a498983a73",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8b1c675b-3848-4cea-8550-60032b5c1b04",
+      "start": 0,
+      "end": 192,
+      "text": "Every Sunday afternoon, Detective Croft meticulously watched interactions unfold at Madame Agnes’ elegant tea salon, a neutral ground where Glenmoor's socialites and gentry discreetly mingled."
+    }
+  },
+  {
+    "id": "06da8a0e-2c7d-4f48-a117-0127931c7cbb",
+    "source_id": "f9cb762b-6cf6-4b3e-a246-be8f81349384",
+    "target_id": "59b4c3b5-7c5e-4078-a225-647b28f4c8e0",
+    "type": "OBSERVES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8b1c675b-3848-4cea-8550-60032b5c1b04",
+      "start": 0,
+      "end": 192,
+      "text": "Every Sunday afternoon, Detective Croft meticulously watched interactions unfold at Madame Agnes’ elegant tea salon, a neutral ground where Glenmoor's socialites and gentry discreetly mingled."
+    }
+  },
+  {
+    "id": "1b3cad3c-754e-42eb-8bb3-82dca1e2a516",
+    "source_id": "59b4c3b5-7c5e-4078-a225-647b28f4c8e0",
+    "target_id": "8cb71cf1-62bb-4516-89f3-2a502aa7ebbe",
+    "type": "FORMERLY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8b1c675b-3848-4cea-8550-60032b5c1b04",
+      "start": 192,
+      "end": 453,
+      "text": " Madame Agnes, once a celebrated Parisian opera singer known throughout Europe and Eleanor's close confidante, possessed an enviable ability to keep secrets—but even her practiced composure faltered, barely masking a deep distress since Eleanor's disappearance."
+    }
+  },
+  {
+    "id": "4dd47f55-a54c-4c4f-9f99-711d81ef7e15",
+    "source_id": "8cb71cf1-62bb-4516-89f3-2a502aa7ebbe",
+    "target_id": "dc9f6f79-151a-4fe3-8927-d4b4ca9306ca",
+    "type": "KNOWN_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8b1c675b-3848-4cea-8550-60032b5c1b04",
+      "start": 192,
+      "end": 453,
+      "text": " Madame Agnes, once a celebrated Parisian opera singer known throughout Europe and Eleanor's close confidante, possessed an enviable ability to keep secrets—but even her practiced composure faltered, barely masking a deep distress since Eleanor's disappearance."
+    }
+  },
+  {
+    "id": "89240b32-2058-454b-b81a-4a7135d7a6ca",
+    "source_id": "8b5e2b48-fa78-47a4-99f0-3cbcfb2bed75",
+    "target_id": "f7cc45b5-c53b-48fd-a7b7-64e737e1a658",
+    "type": "ARGUMENT_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8d411d3b-5b1c-4ab2-8e88-d1543e007f88",
+      "start": 207,
+      "end": 666,
+      "text": " A complex tapestry emerged: Simon Bellows, haunted by failure, saw Eleanor arguing passionately with Jacob shortly before she vanished; Prudence, vigilant yet blinded by devotion, witnessed Nathaniel quietly slipping into Eleanor's chamber; Reverend Crane, struggling with his own morality, noticed Celia Rhodes lurking near the estate’s outskirts in twilight; and Harriet, sharp-eyed yet discreet, noted crucial pages mysteriously torn from Maxwell’s novel."
+    }
+  },
+  {
+    "id": "6a687e45-86fc-4f44-b416-b40884168376",
+    "source_id": "bffff80c-b54d-4742-8b8f-62164a81a933",
+    "target_id": "8901633b-835c-4c72-a956-27b946fc4d60",
+    "type": "SAW",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8d411d3b-5b1c-4ab2-8e88-d1543e007f88",
+      "start": 207,
+      "end": 666,
+      "text": " A complex tapestry emerged: Simon Bellows, haunted by failure, saw Eleanor arguing passionately with Jacob shortly before she vanished; Prudence, vigilant yet blinded by devotion, witnessed Nathaniel quietly slipping into Eleanor's chamber; Reverend Crane, struggling with his own morality, noticed Celia Rhodes lurking near the estate’s outskirts in twilight; and Harriet, sharp-eyed yet discreet, noted crucial pages mysteriously torn from Maxwell’s novel."
+    }
+  },
+  {
+    "id": "a63760d1-9aad-480b-9727-036ffd2ff8da",
+    "source_id": "d0bf76b2-3bbe-408f-8b85-8d3ef66721e0",
+    "target_id": "d32aab82-a099-4702-89f5-93ab7d883c0a",
+    "type": "NOTICED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8d411d3b-5b1c-4ab2-8e88-d1543e007f88",
+      "start": 207,
+      "end": 666,
+      "text": " A complex tapestry emerged: Simon Bellows, haunted by failure, saw Eleanor arguing passionately with Jacob shortly before she vanished; Prudence, vigilant yet blinded by devotion, witnessed Nathaniel quietly slipping into Eleanor's chamber; Reverend Crane, struggling with his own morality, noticed Celia Rhodes lurking near the estate’s outskirts in twilight; and Harriet, sharp-eyed yet discreet, noted crucial pages mysteriously torn from Maxwell’s novel."
+    }
+  },
+  {
+    "id": "b4fa2836-fedf-461f-8dae-10191ca9f549",
+    "source_id": "16a0e61e-6f61-4903-b7e3-b25bddb21053",
+    "target_id": "38c0c697-388b-4644-af0a-914e7e730f1d",
+    "type": "NOTICED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "8d411d3b-5b1c-4ab2-8e88-d1543e007f88",
+      "start": 207,
+      "end": 666,
+      "text": " A complex tapestry emerged: Simon Bellows, haunted by failure, saw Eleanor arguing passionately with Jacob shortly before she vanished; Prudence, vigilant yet blinded by devotion, witnessed Nathaniel quietly slipping into Eleanor's chamber; Reverend Crane, struggling with his own morality, noticed Celia Rhodes lurking near the estate’s outskirts in twilight; and Harriet, sharp-eyed yet discreet, noted crucial pages mysteriously torn from Maxwell’s novel."
+    }
+  },
+  {
+    "id": "557de057-5c79-4b40-be84-490a70313f91",
+    "source_id": "d2f9c808-d610-4a17-91bc-859ba378c8f4",
+    "target_id": "571fe7a6-95ec-4a29-9dbb-8efcd5ef3047",
+    "type": "FOUND",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "story.txt",
+      "segment_id": "c363827d-e83a-4204-a84f-734606b81bdf",
+      "start": 145,
+      "end": 262,
+      "text": " There, Detective Croft found Celia Rhodes, alive and weathered by guilt, silence, and years spent hiding in shadows."
+    }
+  }
+]

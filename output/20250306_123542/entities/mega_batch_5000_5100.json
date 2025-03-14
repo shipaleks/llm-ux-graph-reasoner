@@ -1,0 +1,702 @@
+[
+  {
+    "id": "0ace0969-c0ea-4264-a93b-ff868510b6fc",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "51d69c24-cd3e-4845-94f1-d5f84d184816",
+      "start": 26,
+      "end": 35,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "90294fba-eef6-4958-9e06-7227d072cd16",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a06abb64-4fc5-4914-809b-35a2871bfeea",
+      "start": 54,
+      "end": 59,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "6a712712-73a4-42ac-9309-c829a2620d04",
+    "name": "пять сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a06abb64-4fc5-4914-809b-35a2871bfeea",
+      "start": 127,
+      "end": 136,
+      "text": "пяти сайт"
+    }
+  },
+  {
+    "id": "0948517a-2733-49bd-9330-f53e96a01e71",
+    "name": "список",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6ac17a80-1e60-43b9-807f-d603a4e65194",
+      "start": 21,
+      "end": 27,
+      "text": "список"
+    }
+  },
+  {
+    "id": "45247560-f99c-4a6f-b29e-25d2124db342",
+    "name": "лист источника",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c1c6d3d1-2160-4174-a7d5-015b67037844",
+      "start": 31,
+      "end": 45,
+      "text": "листа источника"
+    }
+  },
+  {
+    "id": "4103a3ff-2871-4da2-9dfa-181cea24b8a4",
+    "name": "пять пунктов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d49152a8-f447-4898-abd2-c583570c305e",
+      "start": 112,
+      "end": 124,
+      "text": "пять пунктов"
+    }
+  },
+  {
+    "id": "0b67e983-bfb7-4ab1-93ce-3eb9faf6df7d",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc570aa9-d1f3-4dc1-98a8-b82e02620080",
+      "start": 34,
+      "end": 39,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "3b05a444-93bc-4ea6-afec-db322c4e0101",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc570aa9-d1f3-4dc1-98a8-b82e02620080",
+      "start": 54,
+      "end": 59,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "827e48aa-71d5-4a58-ae2e-63ed995c4609",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bc570aa9-d1f3-4dc1-98a8-b82e02620080",
+      "start": 141,
+      "end": 146,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "9b88612a-a89b-4743-a3bf-8b041b918ad8",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "76b96e6d-a054-4855-b55b-33cbdf426c83",
+      "start": 96,
+      "end": 106,
+      "text": "информация"
+    }
+  },
+  {
+    "id": "af178642-6a4d-447f-bd80-618fc191de29",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d5678af-a97f-4e78-9c22-d8f551087dfa",
+      "start": 119,
+      "end": 124,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "d0fb3011-5f23-4898-9497-61ed875a5ebf",
+    "name": "национальный заповедник",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d5678af-a97f-4e78-9c22-d8f551087dfa",
+      "start": 130,
+      "end": 153,
+      "text": "национального заповедника"
+    }
+  },
+  {
+    "id": "78531d6f-4820-4b90-ade4-98cbbcc684fb",
+    "name": "гостиница",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d5678af-a97f-4e78-9c22-d8f551087dfa",
+      "start": 157,
+      "end": 166,
+      "text": "гостиницы"
+    }
+  },
+  {
+    "id": "b40d1d31-0e53-4095-b4b0-9b8179c66fbb",
+    "name": "скатаи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a4f6cc9-3e62-4428-a036-df1274768684",
+      "start": 17,
+      "end": 23,
+      "text": "скатаи"
+    }
+  },
+  {
+    "id": "a8e8c7af-990b-4362-8ab3-f18c3eb82084",
+    "name": "национальный парк",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a4f6cc9-3e62-4428-a036-df1274768684",
+      "start": 35,
+      "end": 52,
+      "text": "национальный парк"
+    }
+  },
+  {
+    "id": "673a2d03-7521-4e8f-968b-08e338a62863",
+    "name": "калининградская область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "968013f6-e573-4ec2-9f21-be22a0dd7ee5",
+      "start": 34,
+      "end": 57,
+      "text": "калининградская область"
+    }
+  },
+  {
+    "id": "0e144070-5d83-4da7-bb22-31ccd3aa2557",
+    "name": "калининградская область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7dbaa3b2-be05-4216-99ec-d449d0645989",
+      "start": 44,
+      "end": 67,
+      "text": "калининградскую область"
+    }
+  },
+  {
+    "id": "efb92153-d9ea-4557-a5c7-1c5901acc03b",
+    "name": "калининградская область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41e912bd-b13d-4247-afdb-2f48ea8399c0",
+      "start": 3,
+      "end": 26,
+      "text": "калининградская область"
+    }
+  },
+  {
+    "id": "36180ff3-cef0-4dcd-b190-4a49a64b7a8b",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffa5b018-5ee7-49a8-92d1-fd81379ca76e",
+      "start": 30,
+      "end": 37,
+      "text": "собакой"
+    }
+  },
+  {
+    "id": "0e27d6e0-0fe7-4294-a821-dff5d17065ae",
+    "name": "весна",
+    "type": "season",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffa5b018-5ee7-49a8-92d1-fd81379ca76e",
+      "start": 38,
+      "end": 44,
+      "text": "весной"
+    }
+  },
+  {
+    "id": "c7d282c3-4738-4c13-9de2-606659227a1d",
+    "name": "информация",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "912147e1-0ba6-44f4-82b7-4bc0f16e0548",
+      "start": 54,
+      "end": 64,
+      "text": "информация"
+    }
+  },
+  {
+    "id": "273bd0b8-10f7-4aa6-8088-849f05e63f5c",
+    "name": "байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f625acac-bc5c-4a22-98b3-6f0f31ed87a5",
+      "start": 38,
+      "end": 44,
+      "text": "байкал"
+    }
+  },
+  {
+    "id": "4c1ee869-932d-4bd7-9775-4ccd349d00cd",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1f172df-d7f1-4844-94e9-786aac5c4b91",
+      "start": 47,
+      "end": 54,
+      "text": "собакой"
+    }
+  },
+  {
+    "id": "13f5122f-565e-41d8-9aac-bd7d4b3d62f3",
+    "name": "собака",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c7087774-64d0-4482-843f-fbf1fd8c3dd3",
+      "start": 24,
+      "end": 31,
+      "text": "собаки"
+    }
+  },
+  {
+    "id": "87df927e-4780-4b71-892a-c18fcf99690e",
+    "name": "рыбка",
+    "type": "animal",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c7087774-64d0-4482-843f-fbf1fd8c3dd3",
+      "start": 68,
+      "end": 74,
+      "text": "рыбку"
+    }
+  },
+  {
+    "id": "9b157ea0-efa3-4552-b705-681d4a7119d4",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "445c3bd4-1a51-4c26-9559-6c44f4062333",
+      "start": 79,
+      "end": 88,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "3ec20391-a4c4-4ada-b3f1-646d762fd42c",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1906448b-c431-4f98-a8a4-05ebccf01f6f",
+      "start": 92,
+      "end": 101,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "2c098049-cc2c-4541-b664-64d0f8c3cbfe",
+    "name": "весенний март",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "849d4ea4-b776-4fa5-aa65-5c679370f1cd",
+      "start": 20,
+      "end": 33,
+      "text": "весенний март"
+    }
+  },
+  {
+    "id": "142e305f-4509-4d7a-9c5b-b8897d94da84",
+    "name": "Байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d0e8d402-08f8-416e-91e9-05053c8fbcdb",
+      "start": 13,
+      "end": 20,
+      "text": "байкала"
+    }
+  },
+  {
+    "id": "729ecca6-810e-4bbf-8bf0-07b6253b141f",
+    "name": "Байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8250530-476a-4d7d-82d6-a7b20df351f0",
+      "start": 64,
+      "end": 71,
+      "text": "байкал"
+    }
+  },
+  {
+    "id": "3825f3ad-8fec-4163-b4f8-6f23379f2e98",
+    "name": "Алтай",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "de129806-2d5d-4cf7-9114-4680c5a88e93",
+      "start": 20,
+      "end": 25,
+      "text": "алтай"
+    }
+  },
+  {
+    "id": "58039d8c-03f3-4df1-8564-c06be119663b",
+    "name": "советы для путешествий",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "de129806-2d5d-4cf7-9114-4680c5a88e93",
+      "start": 26,
+      "end": 47,
+      "text": "советы для путешествий"
+    }
+  },
+  {
+    "id": "34fd6041-1534-4045-a373-f07179e2c012",
+    "name": "расшири информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5dfb2804-4ae9-4b61-8bcb-5161557ed81d",
+      "start": 47,
+      "end": 65,
+      "text": "расшири информацию"
+    }
+  },
+  {
+    "id": "823e6132-0419-4102-9b5e-dcd32515fc2d",
+    "name": "версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f47fd8c6-de62-47ac-a5f8-242a2ced4f2b",
+      "start": 8,
+      "end": 14,
+      "text": "версии"
+    }
+  },
+  {
+    "id": "53fb80cc-2200-4637-b857-34ff4c4db6cb",
+    "name": "кнопка порассуждать",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f26b64ca-bd19-423d-88c3-24d1a934dba6",
+      "start": 27,
+      "end": 46,
+      "text": "кнопки порассуждать"
+    }
+  },
+  {
+    "id": "1cbbaf48-3fcd-4773-80c3-c3c856968c73",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c993096c-f17a-4740-ad5c-29163f5a22ab",
+      "start": 27,
+      "end": 39,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "60289967-c106-4167-bac2-b9f37ae304ff",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78169ba2-4495-4154-8af1-b5073ce177d4",
+      "start": 12,
+      "end": 24,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "5b4c7622-152c-4222-b58d-12c20017ca5a",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fd72f6e0-9bdd-4a72-9367-fcb7ddebf5d0",
+      "start": 0,
+      "end": 12,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "c1cb3895-b2d3-4d6e-995e-ca5ff01fb664",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ceeee1f-bfdd-4cc0-b18d-e9185a753fe9",
+      "start": 21,
+      "end": 39,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "48a1a1e2-b66b-40c9-b656-688f4d5bc3e8",
+    "name": "быстрый ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ceeee1f-bfdd-4cc0-b18d-e9185a753fe9",
+      "start": 52,
+      "end": 65,
+      "text": "быстрый ответ"
+    }
+  },
+  {
+    "id": "46e7abbe-eb36-450b-bafe-13586eb3c89b",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bf810b7-fe22-4282-8ad7-1c5bee6f0f3f",
+      "start": 112,
+      "end": 130,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "e8fcd060-3345-4c83-96c0-f4c0ed02aa7b",
+    "name": "Байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9bf810b7-fe22-4282-8ad7-1c5bee6f0f3f",
+      "start": 134,
+      "end": 140,
+      "text": "байкал"
+    }
+  },
+  {
+    "id": "e8b58501-d4d8-4b3a-a116-8bea39afb212",
+    "name": "калининградскую область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f81002f8-711e-4afd-af7e-c260a1af7f52",
+      "start": 31,
+      "end": 54,
+      "text": "калининградскую область"
+    }
+  },
+  {
+    "id": "eab3a93c-35df-4f1c-9100-67f933caf98b",
+    "name": "Карелия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f81002f8-711e-4afd-af7e-c260a1af7f52",
+      "start": 67,
+      "end": 74,
+      "text": "карелию"
+    }
+  },
+  {
+    "id": "094eec70-c93d-49c5-8327-d02710946b12",
+    "name": "краснодарский край",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "762f7f20-2341-4446-bbc5-d110eb10aea2",
+      "start": 30,
+      "end": 48,
+      "text": "краснодарский край"
+    }
+  },
+  {
+    "id": "39637e5c-455f-45a8-92e2-13978bdafb2a",
+    "name": "Байкал",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "762f7f20-2341-4446-bbc5-d110eb10aea2",
+      "start": 59,
+      "end": 65,
+      "text": "байкал"
+    }
+  },
+  {
+    "id": "818590bb-b3d0-4b8a-9282-d3d5f7675987",
+    "name": "быстрые",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c201b816-bebb-4b6a-8e8d-69a54e0f0153",
+      "start": 64,
+      "end": 71,
+      "text": "быстрые"
+    }
+  },
+  {
+    "id": "b45b9c91-e7ec-40f9-85f0-23f61237be9d",
+    "name": "быстрые ответы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2416c798-9de9-4dfb-99de-5edab792b994",
+      "start": 0,
+      "end": 14,
+      "text": "быстрые ответы"
+    }
+  },
+  {
+    "id": "91b94aea-1cf6-479b-8cdd-82ec6779b54c",
+    "name": "расхлапывать информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4b18a484-2b6c-4ced-b91d-bc0cf386e3bb",
+      "start": 64,
+      "end": 87,
+      "text": "расхлапывать информацию"
+    }
+  },
+  {
+    "id": "d58bca47-680a-4a1f-8d11-9fd29cda4c3d",
+    "name": "калининградскую область",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "47f47c61-b9f8-4e5a-a3ed-cdbb24a10418",
+      "start": 31,
+      "end": 54,
+      "text": "калининградскую область"
+    }
+  }
+]

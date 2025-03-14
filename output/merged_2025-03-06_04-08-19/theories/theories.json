@@ -1,0 +1,182 @@
+[
+  {
+    "title": "AI-Driven Enhancement and Disruption of Traditional Search and Information Retrieval",
+    "summary": "This theory posits that AI, particularly neural networks, is increasingly being used to enhance or replace traditional search and information retrieval methods, leading to both improvements and potential challenges in accessing and processing information.",
+    "description": "The knowledge graph reveals a pattern where AI technologies, specifically neural networks, are being applied to various aspects of information access and product functionality. This includes enhancing existing products like search engines and potentially replacing them with AI-powered alternatives. The theory suggests a shift towards AI-driven solutions for information retrieval and processing, but also acknowledges potential issues like confusion arising from the interaction of multiple AI systems. This transformation impacts how users access knowledge, interact with products, and navigate complex information landscapes.",
+    "key_entities": [
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "Enhancer/Replacer of traditional methods"
+      },
+      {
+        "name": "поисковика",
+        "type": "concept",
+        "role": "Traditional information retrieval method being enhanced/replaced"
+      },
+      {
+        "name": "Яндекс",
+        "type": "organization",
+        "role": "Adopter of AI in search and product development"
+      },
+      {
+        "name": "чат g пять",
+        "type": "product",
+        "role": "AI-powered alternative to traditional search"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "нейросеть",
+        "target": "редактор",
+        "type": "uses",
+        "description": "Neural networks are used in editors."
+      },
+      {
+        "source": "нейросеть",
+        "target": "пересказ",
+        "type": "uses",
+        "description": "Neural networks are used for summarization."
+      },
+      {
+        "source": "алисы",
+        "target": "поисковика",
+        "type": "replaces",
+        "description": "Alisa replaces search engines."
+      },
+      {
+        "source": "чаты",
+        "target": "поисковика",
+        "type": "replaces",
+        "description": "Chats replace search engines."
+      },
+      {
+        "source": "яндексе",
+        "target": "нейросети",
+        "type": "can_do_same",
+        "description": "Yandex can do the same as neural networks."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "нейросеть → редактор",
+        "relevance": "Shows the application of neural networks in text editing, indicating AI-driven enhancement of tools."
+      },
+      {
+        "text": "нейросеть → пересказ",
+        "relevance": "Demonstrates the use of neural networks for summarization, highlighting AI's role in information processing."
+      },
+      {
+        "text": "алисы → поисковика",
+        "relevance": "Indicates that Alisa (an AI assistant) is replacing traditional search engines, suggesting a shift towards AI-powered search."
+      },
+      {
+        "text": "чаты → поисковика",
+        "relevance": "Shows that chats are replacing search engines, further supporting the trend of AI-driven alternatives."
+      },
+      {
+        "text": "яндексе → нейросети",
+        "relevance": "Implies that Yandex, a major search engine provider, is capable of performing tasks similar to neural networks, suggesting integration of AI into existing search infrastructure."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.8,
+    "alternative_explanations": [
+      {
+        "summary": "The observed relationships could simply reflect the increasing adoption of AI as a general-purpose technology across various domains, without necessarily implying a direct replacement of traditional search methods.",
+        "confidence": 0.5
+      }
+    ],
+    "gaps": [
+      "The extent to which AI is truly replacing traditional search versus augmenting it.",
+      "The specific performance characteristics of AI-powered search compared to traditional methods.",
+      "User adoption rates and satisfaction levels with AI-driven search alternatives."
+    ]
+  },
+  {
+    "title": "The Fragmentation of Information Access: From Centralized Search to Specialized Ecosystems",
+    "summary": "This theory suggests that information access is becoming increasingly fragmented, moving away from centralized search engines towards specialized ecosystems and AI-driven tools that cater to specific needs and contexts, potentially creating silos and requiring users to navigate a more complex landscape.",
+    "description": "The traditional model of a single search engine providing access to a broad range of information is being challenged by the rise of specialized platforms and AI-powered tools. This fragmentation is driven by several factors: the increasing complexity of information, the demand for personalized experiences, and the emergence of new technologies like neural networks. Instead of relying solely on a general search engine like 'поиск Яндекса', users are turning to specialized tools like 'чат с Алисой' for specific tasks or accessing information within closed ecosystems like 'Сберовской экосистемы'. This shift creates a more fragmented information landscape, where users must navigate multiple platforms and tools to satisfy their information needs. The 'AI-Driven Product Enhancement and Replacement' pattern contributes to this fragmentation by introducing AI-powered alternatives to traditional search, such as 'Алисы' replacing 'поисковика'. The 'Knowledge Access and Legal Information Retrieval' pattern highlights the need for specialized tools like 'консультант плюс' to access specific types of information, further reinforcing the trend towards fragmentation. The 'Product Ecosystem and Feature Interdependence' pattern demonstrates how information access is increasingly tied to specific product ecosystems, limiting the scope of search and encouraging users to stay within those ecosystems.",
+    "key_entities": [
+      {
+        "name": "поиск Яндекса",
+        "type": "organization",
+        "role": "Traditional centralized search engine"
+      },
+      {
+        "name": "чат с Алисой",
+        "type": "product",
+        "role": "AI-powered specialized tool"
+      },
+      {
+        "name": "консультант плюс",
+        "type": "concept",
+        "role": "Specialized legal information retrieval system"
+      },
+      {
+        "name": "нейросеть",
+        "type": "technology",
+        "role": "Enabler of specialized information access"
+      },
+      {
+        "name": "Яндекс музыка",
+        "type": "product",
+        "role": "Component of a larger product ecosystem"
+      }
+    ],
+    "key_relationships": [
+      {
+        "source": "Алисы",
+        "target": "поисковика",
+        "type": "replaces",
+        "description": "AI assistants are replacing traditional search engines for some tasks."
+      },
+      {
+        "source": "чат g пять",
+        "target": "vpn",
+        "type": "requires",
+        "description": "Specialized tools may require specific infrastructure."
+      },
+      {
+        "source": "Яндекс музыка",
+        "target": "Яндекса",
+        "type": "part_of",
+        "description": "Information access is often tied to specific product ecosystems."
+      },
+      {
+        "source": "нейросеть",
+        "target": "редактор",
+        "type": "uses",
+        "description": "AI is used to enhance specific tools."
+      }
+    ],
+    "evidence": [
+      {
+        "text": "алисы → поисковика",
+        "relevance": "This shows the replacement of traditional search with AI assistants."
+      },
+      {
+        "text": "чат g пять → vpn",
+        "relevance": "This indicates the reliance of specialized tools on specific infrastructure."
+      },
+      {
+        "text": "Яндекс музыка → яндекса",
+        "relevance": "This illustrates how information access is integrated within larger product ecosystems."
+      },
+      {
+        "text": "консультант плюс → закон",
+        "relevance": "This highlights the need for specialized tools for specific information domains."
+      }
+    ],
+    "evidence_spans": [],
+    "confidence": 0.8,
+    "alternative_explanations": null,
+    "gaps": [
+      "What are the long-term consequences of information fragmentation on knowledge acquisition and societal understanding?",
+      "How can users effectively navigate the increasingly complex landscape of information access?",
+      "What are the implications of this fragmentation for information equity and access for different user groups?"
+    ],
+    "is_alternative": true,
+    "alternative_to": "AI-Driven Enhancement and Disruption of Traditional Search and Information Retrieval"
+  }
+]

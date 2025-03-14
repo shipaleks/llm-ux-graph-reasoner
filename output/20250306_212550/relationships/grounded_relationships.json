@@ -1,0 +1,82 @@
+[
+  {
+    "id": "73685610-80f2-4262-9c54-30a0c09c5b56",
+    "source_id": "017a6171-29e8-4483-816b-1d67d641ad96",
+    "target_id": "d77b09d2-89b7-4a04-ae1a-3dcf4da5eabf",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "6cfc5c86-ccb1-4404-adc4-2093bd1c316d",
+      "start": 26,
+      "end": 125,
+      "text": "420\nи если говорить про поиск, вообще сервисы яндекса и технологии яндекса, которые вы используете."
+    }
+  },
+  {
+    "id": "a5b51c97-fec8-4006-bd87-96ca7afe9384",
+    "source_id": "017a6171-29e8-4483-816b-1d67d641ad96",
+    "target_id": "5b187d64-ce1b-43e9-bfd1-fa79a4ae64f0",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "6cfc5c86-ccb1-4404-adc4-2093bd1c316d",
+      "start": 26,
+      "end": 125,
+      "text": "420\nи если говорить про поиск, вообще сервисы яндекса и технологии яндекса, которые вы используете."
+    }
+  },
+  {
+    "id": "792ca728-35fd-4347-bed9-b14757033796",
+    "source_id": "ad8a088d-16f2-4ebe-a831-f8c9d1bbe5d4",
+    "target_id": "6c2ea081-758c-4949-8b8f-6ca85a0c9dcb",
+    "type": "INSTANCE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "dd88e924-ce9c-4739-a170-277441b90aa0",
+      "start": 26,
+      "end": 96,
+      "text": "350\nэто из такого музыка, яндекс музыка, потому что других больше нет."
+    }
+  },
+  {
+    "id": "2c7a839f-d7bd-4447-acf4-149459ec71de",
+    "source_id": "237dc423-6cad-4518-854f-3f1f77486956",
+    "target_id": "9beb11fe-8971-40e8-83fd-4ff370a4cfdb",
+    "type": "USES",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "c9a38f88-e41e-4cbd-b7b7-66614e5c7e9a",
+      "start": 26,
+      "end": 253,
+      "text": "750\nкарты, переводчик использую, алисой пользуюсь на умной колонке нам сейчас скажу алисы вот котор гпт новой не пользовался до этого ей тоже не старался не пользоваться, там старался вот аналоги там от g пяти, да, от опен- ай."
+    }
+  },
+  {
+    "id": "6fc34046-4514-4ad0-ab7b-c233132640e8",
+    "source_id": "237dc423-6cad-4518-854f-3f1f77486956",
+    "target_id": "84da356d-8314-422b-80a1-c3d11ed7bddd",
+    "type": "USES",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_test.txt",
+      "segment_id": "c9a38f88-e41e-4cbd-b7b7-66614e5c7e9a",
+      "start": 26,
+      "end": 253,
+      "text": "750\nкарты, переводчик использую, алисой пользуюсь на умной колонке нам сейчас скажу алисы вот котор гпт новой не пользовался до этого ей тоже не старался не пользоваться, там старался вот аналоги там от g пяти, да, от опен- ай."
+    }
+  }
+]

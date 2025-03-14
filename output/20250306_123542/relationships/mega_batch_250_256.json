@@ -1,0 +1,114 @@
+[
+  {
+    "id": "551c6713-e0ce-4761-9e3b-fffda4c1cc00",
+    "source_id": "ccda49e7-e822-4ab3-b6c5-cdcec6473188",
+    "target_id": "44c685bc-b0d8-4039-bb14-e69682b1d780",
+    "type": "ALSO_CALLED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "67f16839-4513-4e3d-932f-602c4d377b4e",
+      "start": 40,
+      "end": 52,
+      "text": "эбий называется"
+    }
+  },
+  {
+    "id": "338936e0-8822-4356-a9ac-cac8ffaa6621",
+    "source_id": "ddfb5238-1f76-4c2b-bda6-041d210664de",
+    "target_id": "2b1ca12c-dce8-4c8a-9823-0536d91b3e9a",
+    "type": "NEEDED_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b910406d-b914-421a-ab1e-bd29be35499c",
+      "start": 86,
+      "end": 109,
+      "text": "в три года пройти для"
+    }
+  },
+  {
+    "id": "936785be-2c78-4009-970a-0e0642b0120c",
+    "source_id": "8db3d43d-01c3-4a45-b666-45008da6fe86",
+    "target_id": "c9487dd1-3ee7-4afa-9bf8-a7e42bd5a7df",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ef255af-3686-4bc8-bb23-e336c4c10a36",
+      "start": 83,
+      "end": 112,
+      "text": "диспансеризации, профилактические осмотра"
+    }
+  },
+  {
+    "id": "4c1c6edf-20ab-440a-adc4-ad34d2698881",
+    "source_id": "c3b3b283-b007-47ce-b96d-4791c2e43259",
+    "target_id": "1ba73551-fc03-4ff0-bb89-dd038dca93b7",
+    "type": "CAN_VISIT_ON",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "15491b6b-199e-4bc7-bf3a-ae9f562fc222",
+      "start": 47,
+      "end": 82,
+      "text": "врачей пройти сегодня?"
+    }
+  },
+  {
+    "id": "6ab2de15-8db4-4547-ba16-3660462d3479",
+    "source_id": "3a2d9db0-d4e1-4307-8db6-0d0abcbc9a28",
+    "target_id": "dcfd7d33-f2dc-4583-abe4-280cdbed5c25",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7244bc89-9342-48fc-bf48-7f1abb3f4baa",
+      "start": 31,
+      "end": 63,
+      "text": "привычка есть пользоваться старым"
+    }
+  },
+  {
+    "id": "1b4d7cc4-5c28-4236-98ee-dac6a2fadcbf",
+    "source_id": "39024fb4-498f-4a2a-bd8f-988941a668ec",
+    "target_id": "656e11d9-354d-4109-a09c-b42f3e2c7f36",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 88,
+      "end": 99,
+      "text": "новые вещи"
+    }
+  },
+  {
+    "id": "36a760fa-1873-437c-b126-dae8feec2a05",
+    "source_id": "f823b38e-3f24-45ad-9bb2-eb0ee940a140",
+    "target_id": "39024fb4-498f-4a2a-bd8f-988941a668ec",
+    "type": "COULD_HELP_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1f16620c-cfff-4084-ba19-25e5e812961c",
+      "start": 196,
+      "end": 224,
+      "text": "с этой кнопкой быстрее решать"
+    }
+  }
+]

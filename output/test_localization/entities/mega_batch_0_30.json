@@ -1,0 +1,324 @@
+[
+  {
+    "id": "2be8f47f-2198-495a-879a-9384f40d546d",
+    "name": "карты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 0,
+      "end": 5,
+      "text": "карты"
+    }
+  },
+  {
+    "id": "9218efee-f76a-4e83-aeb7-e90ce06dcce8",
+    "name": "переводчик",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 7,
+      "end": 17,
+      "text": "переводчик"
+    }
+  },
+  {
+    "id": "2ca6b873-812d-4687-acf0-2181077e1c0d",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "owner",
+        "value": "Yandex",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 28,
+      "end": 34,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "b932ee58-1568-4d83-a492-8e2ada2b7c9c",
+    "name": "умная колонка",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 46,
+      "end": 60,
+      "text": "умной колонке"
+    }
+  },
+  {
+    "id": "151ca4a4-e0f5-4bbc-8959-144c9c0e4c43",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [
+      {
+        "key": "owner",
+        "value": "Yandex",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 72,
+      "end": 78,
+      "text": "алисы"
+    }
+  },
+  {
+    "id": "a46c3749-0c11-49b5-9806-0a0d406e8f54",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 84,
+      "end": 87,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "9a01c5ed-6a60-4241-a057-8e2a0e4c33b7",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 151,
+      "end": 152,
+      "text": "g"
+    }
+  },
+  {
+    "id": "61c211a9-2fa9-4f3d-93ae-aa834f636dc0",
+    "name": "OpenAI",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e798baf0-a176-4718-9f61-c05e4fa1f943",
+      "start": 161,
+      "end": 168,
+      "text": "опен- ай"
+    }
+  },
+  {
+    "id": "5b7205da-6179-4650-abcb-5a2c0e750a7c",
+    "name": "поиск",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0640c0b0-2ad6-4561-8341-ea8ec5a2210d",
+      "start": 27,
+      "end": 33,
+      "text": "поиском"
+    }
+  },
+  {
+    "id": "4aa78506-72bd-467e-b6b4-db70ec89b001",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0640c0b0-2ad6-4561-8341-ea8ec5a2210d",
+      "start": 81,
+      "end": 86,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "34d36469-3892-4110-a85b-711b6c5c7fe0",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b6961253-0ae9-4f39-ae81-21c6777ebdab",
+      "start": 27,
+      "end": 32,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "fddce69b-0777-466f-9b33-a0265565cc59",
+    "name": "поиск",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "557e683c-4c2a-41f7-9906-58368c8feaed",
+      "start": 73,
+      "end": 79,
+      "text": "поиске"
+    }
+  },
+  {
+    "id": "fb68a58d-018a-4a58-9986-4230b9878192",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "557e683c-4c2a-41f7-9906-58368c8feaed",
+      "start": 82,
+      "end": 87,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "d2c9c7e6-9f02-4cdc-a471-f897b7ba8039",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3c26f628-45d1-4fb6-b490-645d95c39542",
+      "start": 17,
+      "end": 30,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "ab962ee5-a3a2-4f31-a81c-90be671dfef4",
+    "name": "рецепт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43cbfd08-939c-4c7b-8b88-0910dd8729c5",
+      "start": 79,
+      "end": 85,
+      "text": "приготовить"
+    }
+  },
+  {
+    "id": "7271c9fe-9017-41b2-a20c-8f431db40d40",
+    "name": "рецепты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c36e489d-6b24-496a-b38a-54bde79ffa5e",
+      "start": 112,
+      "end": 119,
+      "text": "рецепты"
+    }
+  },
+  {
+    "id": "3c9a2c66-4b14-46aa-a7fd-68cbe69fe2c0",
+    "name": "рецепт блинов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "82399ffc-0ea0-400e-9485-996c9f1ff19b",
+      "start": 0,
+      "end": 13,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "68739ce4-b594-4fc7-9e6c-f2899c386574",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3544afa3-a593-4e24-bab9-d99d129c7f4c",
+      "start": 11,
+      "end": 16,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "5a9011be-2924-4707-a9a3-116ee1753cb1",
+    "name": "университет",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d62ea14b-2867-45ad-82e9-072dac6c2dfc",
+      "start": 18,
+      "end": 29,
+      "text": "университете"
+    }
+  },
+  {
+    "id": "763c0b81-5ca6-46cb-b694-df23a600c02d",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d62ea14b-2867-45ad-82e9-072dac6c2dfc",
+      "start": 64,
+      "end": 67,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "50de265b-918f-4bed-bb29-840e9c40ae54",
+    "name": "нейросеть",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86e169fd-86bb-4e12-817c-7ce8773bc21f",
+      "start": 24,
+      "end": 33,
+      "text": "нейросеть"
+    }
+  },
+  {
+    "id": "8cd9fab0-4835-4537-af4a-8629596b8c92",
+    "name": "ставка налогообложения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fc75c6e5-16c5-48e3-bee8-af1bf72369ea",
+      "start": 79,
+      "end": 101,
+      "text": "ставка налогообложения"
+    }
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "11d30743-0762-4f3f-a4ac-8fb8a8e4a06b",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb739bf4-303c-41d3-b51b-89a5a207f5fb",
+      "start": 36,
+      "end": 41,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "65044ab2-f38b-470f-bb68-378ef647886a",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5ddf016-fd6e-4a16-9493-754d538289dc",
+      "start": 21,
+      "end": 26,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "b68d240a-567b-4e1c-8fe5-021abeb62749",
+    "name": "аксиомы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1698765d-7078-43a0-a954-c54cb6629baa",
+      "start": 74,
+      "end": 81,
+      "text": "аксиомы"
+    }
+  },
+  {
+    "id": "18ddff4f-2990-4963-ba14-266f685cec33",
+    "name": "факты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1698765d-7078-43a0-a954-c54cb6629baa",
+      "start": 96,
+      "end": 101,
+      "text": "факты"
+    }
+  },
+  {
+    "id": "62bd04e5-4192-48f4-bc6e-b0969a8f0529",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1698765d-7078-43a0-a954-c54cb6629baa",
+      "start": 137,
+      "end": 142,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "17222060-a7e3-4389-9951-1048ea8b167f",
+    "name": "популярный ресурс",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9a32523d-95e0-41a3-8873-f8f81de7ef62",
+      "start": 112,
+      "end": 129,
+      "text": "очень популярный ресурс"
+    }
+  },
+  {
+    "id": "17d8268e-fc24-451b-9aa0-08d50f2046c4",
+    "name": "война",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7de17230-8f1e-4c5e-a0dc-e88fe82107b0",
+      "start": 82,
+      "end": 87,
+      "text": "война"
+    }
+  },
+  {
+    "id": "6f6bcfff-5d99-4468-a70f-61b981c95b31",
+    "name": "великая отечественная",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7de17230-8f1e-4c5e-a0dc-e88fe82107b0",
+      "start": 123,
+      "end": 145,
+      "text": "великая отечественная"
+    }
+  },
+  {
+    "id": "8a02945e-a5e1-4b9b-92a7-df22c7292958",
+    "name": "отечественная двенадцатого года",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7de17230-8f1e-4c5e-a0dc-e88fe82107b0",
+      "start": 147,
+      "end": 180,
+      "text": "отечественная двенадцатого года"
+    }
+  },
+  {
+    "id": "f16e7396-7180-4ad6-aa6e-1383a31ebd6b",
+    "name": "русско-турецкая",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7de17230-8f1e-4c5e-a0dc-e88fe82107b0",
+      "start": 186,
+      "end": 201,
+      "text": "русско- турецкая"
+    }
+  },
+  {
+    "id": "eea11800-96ee-4b7c-af05-82c0a33d542b",
+    "name": "зум",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea490470-d818-44bf-8889-2fef4e880500",
+      "start": 12,
+      "end": 16,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "b75e2ea0-bd41-4dd9-8a27-a3f9c30b643c",
+    "name": "темный режим",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea76b622-e1b4-4832-8b52-96dfe6b83985",
+      "start": 27,
+      "end": 39,
+      "text": "темный режим"
+    }
+  },
+  {
+    "id": "ae9751d5-bafa-4c47-86e3-a2e07088b9a8",
+    "name": "темный режим",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8f1fd765-07df-4a8f-9af7-8f654f4fd689",
+      "start": 7,
+      "end": 19,
+      "text": "темный режим"
+    }
+  },
+  {
+    "id": "d7d89be6-23ae-479b-8807-7caa6f1529a8",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "39a08902-f27a-43ba-a6d6-58d3916d219c",
+      "start": 85,
+      "end": 90,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "bac26a10-216f-4087-9013-f6a3f8e9e96f",
+    "name": "место",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f003628b-93d9-42ac-b6bd-99ca9eec262c",
+      "start": 37,
+      "end": 42,
+      "text": "место"
+    }
+  },
+  {
+    "id": "0fab1490-d9b3-466f-b92e-c1eb55a2993d",
+    "name": "карта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11753281-1077-4928-8588-abd268a8a5f6",
+      "start": 26,
+      "end": 31,
+      "text": "карта"
+    }
+  },
+  {
+    "id": "d440f393-14e9-478d-91ca-e943533e1a85",
+    "name": "карта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11753281-1077-4928-8588-abd268a8a5f6",
+      "start": 46,
+      "end": 51,
+      "text": "карте"
+    }
+  },
+  {
+    "id": "a63c3ba6-bac6-43b1-8eb0-b83781cbf92b",
+    "name": "кинотеатр",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11753281-1077-4928-8588-abd268a8a5f6",
+      "start": 94,
+      "end": 103,
+      "text": "кинотеатр"
+    }
+  },
+  {
+    "id": "51304ec3-ae30-4799-844e-ea24845af39e",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "27bbeac7-d24b-41ad-ba97-2fa1c5007419",
+      "start": 49,
+      "end": 54,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "cb6b27c9-66db-42d2-b87e-72710cc23810",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "66459647-a7a9-4924-baf6-93077dbcdb99",
+      "start": 41,
+      "end": 46,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "19126039-9bd6-4e24-9790-39621f7c4d79",
+    "name": "задача трех тел",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e4d6e87-a839-442c-884f-0856a6d1a8c4",
+      "start": 5,
+      "end": 21,
+      "text": "задача трех тел"
+    }
+  },
+  {
+    "id": "a227a1a9-8840-4754-bd39-b7f1183da2f9",
+    "name": "книга",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e4d6e87-a839-442c-884f-0856a6d1a8c4",
+      "start": 24,
+      "end": 29,
+      "text": "книга"
+    }
+  },
+  {
+    "id": "c3c5c48d-2479-488a-b977-0b651c115730",
+    "name": "темный лес",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8056152b-189b-452f-a5a7-55385e52cf77",
+      "start": 64,
+      "end": 74,
+      "text": "темный лес"
+    }
+  },
+  {
+    "id": "2ffa8fb7-c989-4acb-a566-671a057faf8a",
+    "name": "вечная жизнь",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8056152b-189b-452f-a5a7-55385e52cf77",
+      "start": 90,
+      "end": 102,
+      "text": "вечная жизнь"
+    }
+  },
+  {
+    "id": "7419133e-67a2-417f-a506-b2b2b9d583a0",
+    "name": "паппер подарок",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "aec6b9d0-3ed5-4dae-9c49-9597249f54c8",
+      "start": 77,
+      "end": 91,
+      "text": "паппер подарок"
+    }
+  },
+  {
+    "id": "40493c3a-25d2-4688-b247-127e323bc65e",
+    "name": "темный лес",
+    "type": "work_of_art",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "266fb2d9-642d-4ecb-8789-297bfcc638df",
+      "start": 34,
+      "end": 44,
+      "text": "темный лес"
+    }
+  },
+  {
+    "id": "418d53c9-28d9-40fa-b497-e1684d482ac8",
+    "name": "Люцисинь",
+    "type": "person",
+    "attributes": [
+      {
+        "key": "profession",
+        "value": "author",
+        "confidence": 0.8,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c05728d0-675d-4c93-baba-975b25a963a3",
+      "start": 75,
+      "end": 83,
+      "text": "люцисине"
+    }
+  },
+  {
+    "id": "9e63043c-3a5e-4a36-accc-1fa72c7e76a8",
+    "name": "нейро запроса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7e625f2-fc88-4e61-a911-f52955124788",
+      "start": 31,
+      "end": 44,
+      "text": "нейро запроса"
+    }
+  },
+  {
+    "id": "2064682b-6af7-40c1-959f-8453cebb34ba",
+    "name": "Люцисинь",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c86961a7-1420-4ea4-b579-6c24cbe37b19",
+      "start": 64,
+      "end": 72,
+      "text": "люцисиним"
+    }
+  },
+  {
+    "id": "222dc745-f88f-4f61-b55b-3056dd11404c",
+    "name": "нанотрубки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ce5903b-087d-4ecc-ab49-914a2e567a4e",
+      "start": 23,
+      "end": 33,
+      "text": "нанотрубки"
+    }
+  },
+  {
+    "id": "c0924efa-ee14-4a65-ad99-adcb416d0ecc",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ce5903b-087d-4ecc-ab49-914a2e567a4e",
+      "start": 66,
+      "end": 79,
+      "text": "теория струн"
+    }
+  },
+  {
+    "id": "f9fd8c25-b2c7-460f-aab2-fc00bb50bfd3",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "99982af9-2007-4181-8ad3-c95ecb8e4cbf",
+      "start": 0,
+      "end": 12,
+      "text": "теория струн"
+    }
+  }
+]

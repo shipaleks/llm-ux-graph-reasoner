@@ -1,0 +1,37 @@
+Analyze the relationships between the following meta-concepts formed from the knowledge graph.
+
+Meta-concept A: {{meta_concept_a}}
+Original nodes: {{nodes_a}}
+
+Meta-concept B: {{meta_concept_b}}
+Original nodes: {{nodes_b}}
+
+Existing relationships between nodes:
+{{relationships}}
+
+Based on this data:
+
+1. Determine if a significant meta-relationship exists between the concepts:
+   - Evaluate the strength of the connection based on the number and types of existing relationships
+   - Determine if the connection is fundamental or coincidental
+   - Indicate confidence in the presence of a meta-relationship (0-1)
+
+2. If a meta-relationship exists, formulate:
+   - Type of meta-relationship (e.g., "cause-effect", "part-whole", "abstraction-concretization")
+   - Direction (from A to B, from B to A, bidirectional)
+   - Brief description of the essence of the relationship (1-2 sentences)
+
+3. Analyze the semantic content:
+   - Which aspects of the meta-concepts are connected by the relationship
+   - What information is lost when abstracting the relationship
+   - What new aspects of the relationship are visible only at the meta-concept level
+
+4. Suggest formalization:
+   - How to denote this relationship in the meta-graph
+   - What attributes this relationship should have
+   - How to quantitatively measure the strength of this relationship
+
+Present the result in a structured format with sections for each aspect of the analysis.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

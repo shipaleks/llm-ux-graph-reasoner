@@ -1,0 +1,114 @@
+[
+  {
+    "id": "c3570e11-f60b-4479-aa58-20e65631f011",
+    "source_id": "ba0a5909-3645-48e9-947d-d61286714067",
+    "target_id": "7badf2a0-10b5-4d9b-9d92-5cf8537fd6d5",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "c8dd9514-0385-479f-949b-4194eb5bd966",
+      "start": 0,
+      "end": 60,
+      "text": "Иван Петров является генеральным директором компании \"ТехноИнновации\""
+    }
+  },
+  {
+    "id": "029687c7-be5d-4442-bf24-79bedb2b8d07",
+    "source_id": "7badf2a0-10b5-4d9b-9d92-5cf8537fd6d5",
+    "target_id": "b91b8d77-9a78-43b2-8239-84749eca6bef",
+    "type": "ОСНОВАНА_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "c8dd9514-0385-479f-949b-4194eb5bd966",
+      "start": 72,
+      "end": 99,
+      "text": "Компания \"ТехноИнновации\" была основана в 2010 году"
+    }
+  },
+  {
+    "id": "2a85ad20-491a-43d0-a56a-1156716738c9",
+    "source_id": "64d3453e-3af4-4015-9dc1-cda4c82b9eef",
+    "target_id": "07542947-acea-43d7-bccf-5412568fed3a",
+    "type": "РАБОТАЕТ_С",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "500e099c-059f-4b62-8356-70e437beecd3",
+      "start": 62,
+      "end": 71,
+      "text": "с 2015 года"
+    }
+  },
+  {
+    "id": "df4b9f58-41e3-436c-9b98-5cd4edc7f267",
+    "source_id": "64d3453e-3af4-4015-9dc1-cda4c82b9eef",
+    "target_id": "b0643c37-f085-485b-8e71-bdc1e4f0d0f7",
+    "type": "РАБОТАЛА_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "500e099c-059f-4b62-8356-70e437beecd3",
+      "start": 101,
+      "end": 136,
+      "text": "ведущим разработчиком в компании \"ИТ-Решения\""
+    }
+  },
+  {
+    "id": "b78871a3-587d-442a-8002-04245cb5160d",
+    "source_id": "c9dde8fc-32c8-4b52-9420-f5bd3468405e",
+    "target_id": "4a0afd0f-e85e-4ad6-8877-76767d2573fb",
+    "type": "ОБЪЯВЛЕНО_О_ПАРТНЕРСТВЕ",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "01e8341a-5035-482b-930c-bffd66a84153",
+      "start": 82,
+      "end": 110,
+      "text": "Об этом партнерстве было объявлено 15 января 2023 года"
+    }
+  },
+  {
+    "id": "5b81d320-c21d-4a18-8a6d-d91d8d1dd894",
+    "source_id": "4a0afd0f-e85e-4ad6-8877-76767d2573fb",
+    "target_id": "ec5980a1-fe94-4673-8fa1-75971ff7fe8b",
+    "type": "БАЗИРУЕТСЯ_В",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "69ccd5f7-6f50-4b91-92a5-72d175000e37",
+      "start": 112,
+      "end": 147,
+      "text": "Компания \"Глобал Системс\" базируется в Санкт-Петербурге"
+    }
+  },
+  {
+    "id": "65a7772e-e945-47e5-98da-23d31b95308e",
+    "source_id": "c9cd9d87-514d-4a78-9a56-599a8fe68309",
+    "target_id": "4a0afd0f-e85e-4ad6-8877-76767d2573fb",
+    "type": "ГЕНЕРАЛЬНЫЙ_ДИРЕКТОР",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "tmp0ojh7fxw.txt",
+      "segment_id": "69ccd5f7-6f50-4b91-92a5-72d175000e37",
+      "start": 152,
+      "end": 195,
+      "text": "ее генеральным директором является Алексей Смирнов"
+    }
+  }
+]

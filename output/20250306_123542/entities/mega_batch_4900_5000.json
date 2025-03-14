@@ -1,0 +1,604 @@
+[
+  {
+    "id": "822b1354-c6bd-4058-bb21-fae0fd7233d6",
+    "name": "вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a643404c-bec6-48f2-a993-21cd7ebbe63a",
+      "start": 42,
+      "end": 49,
+      "text": "вопрос"
+    }
+  },
+  {
+    "id": "7766a6eb-b43b-48c4-96e0-18d47feb60b5",
+    "name": "смысл жизни",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "288d4af0-e493-4ed8-ba6c-b797644aa841",
+      "start": 19,
+      "end": 30,
+      "text": "смысл жизни"
+    }
+  },
+  {
+    "id": "dfc89453-7d8a-439b-ae74-6dbf58ef3e47",
+    "name": "конкретный итог",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d2fc2c35-652c-4408-8777-a0fb605f5839",
+      "start": 17,
+      "end": 32,
+      "text": "конкретным итогом"
+    }
+  },
+  {
+    "id": "6982d9a5-3725-4f60-94a7-6d491051c272",
+    "name": "кризис среднего возраста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4461c3c3-842d-4ccb-9f61-f199019b9465",
+      "start": 17,
+      "end": 42,
+      "text": "кризис среднего возраста"
+    }
+  },
+  {
+    "id": "7db05a6a-325d-4b58-a389-43cea3e8e8af",
+    "name": "кризис среднего возраста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6708ecdf-528c-4bc6-a510-a92edc3a8445",
+      "start": 26,
+      "end": 51,
+      "text": "кризиса среднего возраста"
+    }
+  },
+  {
+    "id": "f0a04e70-4531-4efd-934f-15566e2b488c",
+    "name": "домофон",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab668fd3-928b-4c6d-98b1-59270f64e22a",
+      "start": 57,
+      "end": 64,
+      "text": "домофон"
+    }
+  },
+  {
+    "id": "d1be3cad-e1a8-4cb3-9b9f-47010dfe3671",
+    "name": "кризис среднего возраста",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e5bd9e7c-257c-49bf-8652-eaf4d83f3f89",
+      "start": 5,
+      "end": 30,
+      "text": "кризис среднего возраста"
+    }
+  },
+  {
+    "id": "c8bbd351-5807-4b81-9b60-9d89ffaa3270",
+    "name": "работа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4218325d-c80c-419e-a15a-c5116f104a6c",
+      "start": 36,
+      "end": 42,
+      "text": "работы"
+    }
+  },
+  {
+    "id": "6fac9f32-2f17-4a51-85b3-5d85b4f04288",
+    "name": "школьник",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4218325d-c80c-419e-a15a-c5116f104a6c",
+      "start": 74,
+      "end": 83,
+      "text": "школьнику"
+    }
+  },
+  {
+    "id": "4a5bcf21-ec7c-453c-ad50-b35c37bc1221",
+    "name": "эссе",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4218325d-c80c-419e-a15a-c5116f104a6c",
+      "start": 92,
+      "end": 96,
+      "text": "эссе"
+    }
+  },
+  {
+    "id": "915b82f0-56c0-467a-a2fc-d1b7aba8c8dd",
+    "name": "школьник",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "276f85fc-5200-4f3b-befb-d040e9d61b1f",
+      "start": 12,
+      "end": 21,
+      "text": "школьнику"
+    }
+  },
+  {
+    "id": "acb08b4d-d3b9-4ccc-997b-219de19be1a9",
+    "name": "выбрать профессию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c6c05f33-3593-4cd0-ab49-24ce62cae849",
+      "start": 12,
+      "end": 29,
+      "text": "выбрать профессию"
+    }
+  },
+  {
+    "id": "f1f8e3d4-731a-48a2-8f7c-aa2e010dc1eb",
+    "name": "выбор профессии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7fa0db3f-a5aa-4c4e-9a7d-e0afc1b2618f",
+      "start": 13,
+      "end": 28,
+      "text": "выбором профессии"
+    }
+  },
+  {
+    "id": "a0189444-a20f-40f6-b754-986571672c50",
+    "name": "нейро",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffb31c33-a1d1-40ba-8c03-4db288b395c0",
+      "start": 3,
+      "end": 8,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "fbbdda4d-d971-4fc9-8100-7e00a0a530db",
+    "name": "спектр интереса",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8dbbfae3-ad9d-4f50-bee4-f5e48597726b",
+      "start": 0,
+      "end": 15,
+      "text": "спектр интереса"
+    }
+  },
+  {
+    "id": "4127ee8d-4d29-4165-830b-3a3fb6a54df3",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "059aaee5-b3fc-4b68-b64c-1e27c37b13cd",
+      "start": 37,
+      "end": 42,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "220d2e31-ba99-4fe9-bb06-7598ce8fd837",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb53a47d-425c-4b0d-aad5-bfa414ea2a24",
+      "start": 51,
+      "end": 55,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "d3287fb3-0a3a-46a1-a6ab-8e344d154b26",
+    "name": "сайты",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad41ed54-0798-4e94-b69b-0f727a7c9b7c",
+      "start": 12,
+      "end": 17,
+      "text": "сайты"
+    }
+  },
+  {
+    "id": "8e8ee7d7-acd2-47fb-8d33-ecdf7b245e6e",
+    "name": "источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad41ed54-0798-4e94-b69b-0f727a7c9b7c",
+      "start": 64,
+      "end": 72,
+      "text": "источника"
+    }
+  },
+  {
+    "id": "b1e9448f-16fe-4424-8386-8fe8a213d0f9",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33f80058-1367-4459-a6b0-c4e24bc6e115",
+      "start": 21,
+      "end": 26,
+      "text": "сайта"
+    }
+  },
+  {
+    "id": "b8218c70-a44c-416a-980e-f5b105c0f472",
+    "name": "сайтов",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b9cc8333-3b01-4105-b8c6-d2d351dfae2b",
+      "start": 17,
+      "end": 23,
+      "text": "сайтов"
+    }
+  },
+  {
+    "id": "af9f674d-ae82-47d9-97b0-e0bacbd9d256",
+    "name": "источник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b9cc8333-3b01-4105-b8c6-d2d351dfae2b",
+      "start": 57,
+      "end": 66,
+      "text": "источников"
+    }
+  },
+  {
+    "id": "ed78137a-4331-4625-9482-db6e6a64cfee",
+    "name": "кнопка",
+    "type": "object",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3c2f6e37-6986-41b8-a39e-7299e3ed56f2",
+      "start": 77,
+      "end": 83,
+      "text": "кнопку"
+    }
+  },
+  {
+    "id": "165666f4-5427-4ef4-9e74-935167574d49",
+    "name": "процесс рассуждений",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f9adf36e-11e2-445e-99df-460199910c9d",
+      "start": 0,
+      "end": 20,
+      "text": "идет процесс рассуждений"
+    }
+  },
+  {
+    "id": "c07d81cc-f371-4d88-8f4d-4f1d049dcede",
+    "name": "алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b6d916f2-ecba-4879-b9f9-da40a824dccb",
+      "start": 8,
+      "end": 13,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "2ef9858b-3500-4f76-89ed-4896e35edea8",
+    "name": "рассуждали сорок секунд",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d7210cb5-1d57-4abd-8270-5d1c3bb188ee",
+      "start": 116,
+      "end": 140,
+      "text": "рассуждали сорок секунд"
+    }
+  },
+  {
+    "id": "3c95b841-9f89-4579-b6b3-095a2a98ea0b",
+    "name": "тест",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7a27a69-44ce-4877-84c2-90b0fb672be6",
+      "start": 23,
+      "end": 27,
+      "text": "тест"
+    }
+  },
+  {
+    "id": "a11422ce-adb2-4676-a2f2-acf9ed687249",
+    "name": "волонтера эксперты",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7a27a69-44ce-4877-84c2-90b0fb672be6",
+      "start": 37,
+      "end": 54,
+      "text": "волонтера эксперты"
+    }
+  },
+  {
+    "id": "17734f24-3954-4f25-a7b4-c3cc22bb3c64",
+    "name": "волонтер",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "73ba8615-88cc-4709-8185-5872ebe917cf",
+      "start": 62,
+      "end": 70,
+      "text": "волонтер"
+    }
+  },
+  {
+    "id": "3b547881-22ce-4063-b6df-dfb322c30a87",
+    "name": "заголовок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 82,
+      "end": 91,
+      "text": "заголовок"
+    }
+  },
+  {
+    "id": "13169499-112c-4867-b3cb-0079cabf553b",
+    "name": "подзаголовок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 93,
+      "end": 105,
+      "text": "подзаголовок"
+    }
+  },
+  {
+    "id": "da2b7ada-c157-49a1-a47d-b1fdddccb790",
+    "name": "под- под- заголовок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 113,
+      "end": 132,
+      "text": "под- под- заголовок"
+    }
+  },
+  {
+    "id": "565b210f-31ca-4a64-acd7-2afe5c6deadb",
+    "name": "пункты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 142,
+      "end": 148,
+      "text": "пункты"
+    }
+  },
+  {
+    "id": "af2a9851-3d8b-487d-8c92-709be7b72ed1",
+    "name": "дигиталы",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0e628f3-f354-494c-ba90-ca4053f9c972",
+      "start": 17,
+      "end": 25,
+      "text": "дигиталы"
+    }
+  },
+  {
+    "id": "c70dba12-2589-4a71-81f7-dd29746aff85",
+    "name": "пункты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef2f980e-0d28-44ed-80c3-3e346cf8f4eb",
+      "start": 34,
+      "end": 40,
+      "text": "пунктам"
+    }
+  },
+  {
+    "id": "65e9258b-4ad8-4549-a63d-55c64a5e4c40",
+    "name": "таблички",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef2f980e-0d28-44ed-80c3-3e346cf8f4eb",
+      "start": 51,
+      "end": 59,
+      "text": "табличках"
+    }
+  },
+  {
+    "id": "243ee81d-f68f-485c-8b24-b96af0127839",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6de4ade-bbc9-4124-b4a2-6cd58c15d640",
+      "start": 81,
+      "end": 90,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "49e398da-45b5-4af5-b668-b27eb084e6fc",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8569ace-7379-4a40-89eb-47b718cbf70b",
+      "start": 15,
+      "end": 24,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "623f8366-f686-4c20-ae97-a6ae955a2d03",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8569ace-7379-4a40-89eb-47b718cbf70b",
+      "start": 47,
+      "end": 53,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "a33cf29d-ce1f-452e-b443-684fe2cf8b06",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d8569ace-7379-4a40-89eb-47b718cbf70b",
+      "start": 60,
+      "end": 69,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "59be41f0-46bb-4149-8375-3214be74444e",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "59975045-9357-46d5-a55d-8e63377522ea",
+      "start": 54,
+      "end": 63,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "285ebff8-d7fe-45d7-b0e5-2c58df022209",
+    "name": "сайт",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0155daa3-7694-47e9-a6e2-94ae965fc0af",
+      "start": 17,
+      "end": 21,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "62166163-0563-4218-a61c-80644d432bdd",
+    "name": "нс- портал точка ру",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0155daa3-7694-47e9-a6e2-94ae965fc0af",
+      "start": 33,
+      "end": 51,
+      "text": "нс- портал точка ру"
+    }
+  }
+]

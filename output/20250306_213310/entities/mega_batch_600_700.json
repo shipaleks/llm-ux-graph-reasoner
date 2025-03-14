@@ -1,0 +1,380 @@
+[
+  {
+    "id": "75342706-a5a5-4b6c-af94-38788858a237",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c66eb5f1-1af1-4ece-bc59-68399f973e77",
+      "start": 96,
+      "end": 102,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "3b87bacb-dc22-4a52-9bad-0d997816795d",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c66eb5f1-1af1-4ece-bc59-68399f973e77",
+      "start": 123,
+      "end": 127,
+      "text": "цену"
+    }
+  },
+  {
+    "id": "d93dd4e4-43f3-40e8-b223-96f231bf334c",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a262d73e-9464-4f34-a15d-f1d7929a9d99",
+      "start": 47,
+      "end": 50,
+      "text": "цен"
+    }
+  },
+  {
+    "id": "e6d174b6-b472-47a1-b5ac-55a1c2eef89c",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d89c26c0-176e-473c-ac95-542e6f7f157e",
+      "start": 47,
+      "end": 56,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "760f3d34-2815-4e9e-80ea-68366342fbea",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d89c26c0-176e-473c-ac95-542e6f7f157e",
+      "start": 63,
+      "end": 72,
+      "text": "рейтингов"
+    }
+  },
+  {
+    "id": "c6342e11-a9d8-461d-8ee7-907b133f6530",
+    "name": "цена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d89c26c0-176e-473c-ac95-542e6f7f157e",
+      "start": 79,
+      "end": 82,
+      "text": "цен"
+    }
+  },
+  {
+    "id": "d25c3e97-9b10-4c96-8084-6dfa25c8bd84",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3fa12a12-5b80-4e74-a660-981a683753da",
+      "start": 103,
+      "end": 107,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "8177384a-ce58-4b24-99d8-8a7b06c627c3",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "3fa12a12-5b80-4e74-a660-981a683753da",
+      "start": 111,
+      "end": 118,
+      "text": "рейтинг"
+    }
+  },
+  {
+    "id": "bead8558-be63-4e50-9341-ecb0e6de6a42",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e089e50f-924b-471d-9636-ce3ca4c31bd9",
+      "start": 28,
+      "end": 35,
+      "text": "запросу"
+    }
+  },
+  {
+    "id": "8422eb2f-447c-46e1-b7be-6ed2b2a5ae8a",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a8fd3648-b9c2-4ced-9432-7de07bf632aa",
+      "start": 54,
+      "end": 60,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "85639362-85d2-4b4d-ac88-a6ce271a2002",
+    "name": "дипсерч",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "51616235-6963-4e22-ad3c-7e681f16f42f",
+      "start": 20,
+      "end": 27,
+      "text": "дипсерч"
+    }
+  },
+  {
+    "id": "ca8104fe-c2a4-463e-9c42-56735bb66a1a",
+    "name": "углубленный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7d497640-f66a-4148-8443-f15158bad013",
+      "start": 39,
+      "end": 56,
+      "text": "углубленный, видимо, ответ"
+    }
+  },
+  {
+    "id": "cf1ac82f-aeea-4338-a17b-39cc37c24e4a",
+    "name": "комплексный ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ac168d98-1c9d-4e6f-a984-86c50eafbb6d",
+      "start": 6,
+      "end": 26,
+      "text": "комплексный, может"
+    }
+  },
+  {
+    "id": "6c2e3136-adac-48e5-b658-e7a8edd1f4f4",
+    "name": "готовые решения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "ac168d98-1c9d-4e6f-a984-86c50eafbb6d",
+      "start": 41,
+      "end": 56,
+      "text": "готовыми решениями"
+    }
+  },
+  {
+    "id": "40b413f5-5f73-419c-b5e0-9b9b7311e7ac",
+    "name": "буква обратной связи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "a17156c2-2516-46ac-9b89-01999a1beac7",
+      "start": 17,
+      "end": 37,
+      "text": "буквы обратной связи"
+    }
+  },
+  {
+    "id": "9cf5fdd1-8858-46bf-a945-cedd9aa3e4d6",
+    "name": "пользователь",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "b9f47864-ce2f-47e9-8cad-3d660dbf54be",
+      "start": 6,
+      "end": 19,
+      "text": "пользователь"
+    }
+  },
+  {
+    "id": "aefd3f5f-f0be-4827-909d-f60c33e304a5",
+    "name": "бета-версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "30fd9967-eeab-4813-8e21-9edcf6a6d7c2",
+      "start": 16,
+      "end": 27,
+      "text": "бета- версией"
+    }
+  },
+  {
+    "id": "ef9992ce-cc00-497f-bca8-b687fbddf69f",
+    "name": "финальное решение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "30fd9967-eeab-4813-8e21-9edcf6a6d7c2",
+      "start": 34,
+      "end": 50,
+      "text": "финальное решение"
+    }
+  },
+  {
+    "id": "ac3edefe-117f-4225-b529-0294eb940c5f",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0dc52ff2-2f0a-4a5c-b33e-248a271fd539",
+      "start": 21,
+      "end": 28,
+      "text": "рейтинг"
+    }
+  },
+  {
+    "id": "dc81bf2e-1d05-4243-b3b3-6427bd2aa2cf",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "0dc52ff2-2f0a-4a5c-b33e-248a271fd539",
+      "start": 49,
+      "end": 58,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "701b73b6-ff56-4e7a-b536-c361b6504078",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bf060c83-506e-40ee-8f88-31fd20198205",
+      "start": 74,
+      "end": 83,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "b0b3837d-77ee-4817-a672-c30a4f5a657d",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "f90da2bc-3e5c-4c34-ab19-849ee46cf392",
+      "start": 44,
+      "end": 54,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "553c6530-3ddb-4d52-a9dd-9c27a8ff6a60",
+    "name": "рейтинг бюджетных смартфонов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2aa733cf-3436-4b81-bedb-1d54c0b1eec9",
+      "start": 27,
+      "end": 56,
+      "text": "рейтинг бюджетных смартфонов"
+    }
+  },
+  {
+    "id": "3817ca3e-ca48-45a7-a603-46ba33ec32ed",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cacc05ce-cc9a-43c2-bd4b-cad06cefbe17",
+      "start": 61,
+      "end": 67,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "2c59ec64-592c-4a69-a3b4-37e5f6ea4ef7",
+    "name": "бюджетных смартфонов",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "7d5cd0a3-12f1-4656-9a1f-a04c69341f3d",
+      "start": 51,
+      "end": 72,
+      "text": "бюджетных смартфонов"
+    }
+  },
+  {
+    "id": "6342a660-4014-4288-be56-d5962624ecd2",
+    "name": "коннора девяносто лайт",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bd2c2909-c058-477c-8867-2c2c1c5e9902",
+      "start": 8,
+      "end": 29,
+      "text": "коннора девяносто лайт"
+    }
+  },
+  {
+    "id": "6a22416b-4bfa-4964-862a-c80c423864bb",
+    "name": "Наполеон",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6949a6b8-7323-4859-b7fe-b4f72895cb83",
+      "start": 15,
+      "end": 24,
+      "text": "наполеона"
+    }
+  }
+]

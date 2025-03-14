@@ -1,0 +1,492 @@
+[
+  {
+    "id": "fdbd689d-b23d-4ad6-8537-252c4ffb0bab",
+    "name": "n-видео",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23446214-fbeb-4efb-9c57-7daa0b4bb788",
+      "start": 24,
+      "end": 31,
+      "text": "n- видео"
+    }
+  },
+  {
+    "id": "9fd1e66e-b12a-46bf-a7f8-3dcad0f82f45",
+    "name": "сорок восемьдесят",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb64870a-81f2-45b9-b4e6-90f675b0e0aa",
+      "start": 30,
+      "end": 46,
+      "text": "сорок восемьдесят"
+    }
+  },
+  {
+    "id": "93f80e35-6046-46f3-bf93-82783e451b9c",
+    "name": "пятьдесят восемьдесят",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb64870a-81f2-45b9-b4e6-90f675b0e0aa",
+      "start": 50,
+      "end": 70,
+      "text": "пятьдесят восемьдесят"
+    }
+  },
+  {
+    "id": "2dc358db-c525-4e25-bdd3-5950370d19e5",
+    "name": "блогеры",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b61bd82-562e-40d1-b4d8-c2452e139adb",
+      "start": 21,
+      "end": 28,
+      "text": "блогеры"
+    }
+  },
+  {
+    "id": "c2680809-d6a6-4884-a976-123af4f03314",
+    "name": "форумы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b61bd82-562e-40d1-b4d8-c2452e139adb",
+      "start": 49,
+      "end": 55,
+      "text": "форумы"
+    }
+  },
+  {
+    "id": "513f9d36-382e-481e-a55a-f48fe70dd93e",
+    "name": "пятитысячная",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b61bd82-562e-40d1-b4d8-c2452e139adb",
+      "start": 79,
+      "end": 90,
+      "text": "пятитысячная"
+    }
+  },
+  {
+    "id": "2b400901-3421-4bbd-aa43-b4444d5063cb",
+    "name": "сороковые модели",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b61bd82-562e-40d1-b4d8-c2452e139adb",
+      "start": 119,
+      "end": 135,
+      "text": "сороковые модели"
+    }
+  },
+  {
+    "id": "22d6bb21-1d79-4005-90d4-638b405f678d",
+    "name": "карты",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf42e7de-1dec-427b-9308-fd0bd60de2fa",
+      "start": 109,
+      "end": 114,
+      "text": "карты"
+    }
+  },
+  {
+    "id": "5000943d-37d2-43ff-b811-31693e0d1322",
+    "name": "нейросети",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2457f83-0505-4062-8ef0-d0eba78eb16d",
+      "start": 41,
+      "end": 50,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "d47229c0-935a-4766-9c6f-3fa74e633026",
+    "name": "видеокарте",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0b62c2b-cb29-4a12-b108-7b51b81318a7",
+      "start": 65,
+      "end": 75,
+      "text": "видеокарте"
+    }
+  },
+  {
+    "id": "72eb793c-d0bd-4cf4-b3b6-d2f8b0f62229",
+    "name": "чугунный мост",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8b8f9f72-ef0c-446a-8590-d239474eb53a",
+      "start": 27,
+      "end": 40,
+      "text": "чугунный мост"
+    }
+  },
+  {
+    "id": "f1b9f60d-31eb-4f74-8a2b-bd100e142cd7",
+    "name": "пяти- шести тысяч",
+    "type": "money",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "56739313-7779-4d65-8ab2-9dafcc9f5dcc",
+      "start": 0,
+      "end": 17,
+      "text": "пяти- шести тысяч"
+    }
+  },
+  {
+    "id": "45368e7d-91a4-433b-8e2c-1490bc8da1cd",
+    "name": "компьютера",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9725d9bd-0c01-4a66-9bc7-af85ac4bab51",
+      "start": 56,
+      "end": 66,
+      "text": "компьютера"
+    }
+  },
+  {
+    "id": "645907f1-c629-4d1e-bbd0-9a7bd3716fbb",
+    "name": "путешествие",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1711f321-bbbf-46c7-b525-2d3fc96cc802",
+      "start": 21,
+      "end": 32,
+      "text": "путешествие"
+    }
+  },
+  {
+    "id": "010cc52a-9003-4b94-9f00-b9709b13afa3",
+    "name": "сравнения техники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1711f321-bbbf-46c7-b525-2d3fc96cc802",
+      "start": 56,
+      "end": 74,
+      "text": "сравнения техники"
+    }
+  },
+  {
+    "id": "3b01dd26-2c2a-4572-952f-8ce3fab8397d",
+    "name": "рабочую историю",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1711f321-bbbf-46c7-b525-2d3fc96cc802",
+      "start": 93,
+      "end": 108,
+      "text": "рабочую историю"
+    }
+  },
+  {
+    "id": "41f52efd-11a8-42d9-91ca-73f880741c15",
+    "name": "ошибка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fafafb37-896d-449b-9a04-79b3cfdac2af",
+      "start": 11,
+      "end": 17,
+      "text": "ошибка"
+    }
+  },
+  {
+    "id": "2e351608-595f-4581-9595-28a90034d9d7",
+    "name": "зума",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "140fbd25-dce4-49d6-847b-defbaec67bdd",
+      "start": 23,
+      "end": 27,
+      "text": "зума"
+    }
+  },
+  {
+    "id": "3f1ff880-a8ff-4fb2-b9be-4fa505fa3fd2",
+    "name": "экран",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8c03a89f-2edd-4c6e-b16d-380af15001cb",
+      "start": 38,
+      "end": 43,
+      "text": "экран"
+    }
+  },
+  {
+    "id": "be849249-2b39-43f5-8ea0-21f765b2c9fe",
+    "name": "монитор",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8c03a89f-2edd-4c6e-b16d-380af15001cb",
+      "start": 45,
+      "end": 52,
+      "text": "монитор"
+    }
+  },
+  {
+    "id": "8b7877fe-5882-41f4-b1be-fed503809225",
+    "name": "компьютер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d30bd80-38a9-4a20-aad6-a949b0661e75",
+      "start": 34,
+      "end": 43,
+      "text": "компьютер"
+    }
+  },
+  {
+    "id": "b648b238-3296-443a-a716-958b042129fb",
+    "name": "монитора",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d30bd80-38a9-4a20-aad6-a949b0661e75",
+      "start": 51,
+      "end": 59,
+      "text": "монитора"
+    }
+  },
+  {
+    "id": "e92ad12c-0e9c-4030-a5cf-08b3b180a1b7",
+    "name": "двадцать четыре",
+    "type": "measurement",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6e2a7dc3-71c3-46b6-bc3f-6bee1b7e4e59",
+      "start": 0,
+      "end": 14,
+      "text": "двадцать четыре"
+    }
+  },
+  {
+    "id": "5d9a98cd-fbbe-4f77-8b34-1209986d90cb",
+    "name": "контрол",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0e0bed2a-2221-46a0-ad7a-21a6f4752da4",
+      "start": 34,
+      "end": 41,
+      "text": "контрол"
+    }
+  },
+  {
+    "id": "7a0259b6-97a1-40d8-b8c5-81c76b7fb654",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "02fb283f-061b-464f-8d2b-8ebd22c6452e",
+      "start": 112,
+      "end": 118,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "9c7cd6e1-3571-40f1-8a16-5ff8a0d4ef9b",
+    "name": "Китай",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "31fccd6a-9291-4b99-bb3d-3f3dd7915279",
+      "start": 54,
+      "end": 59,
+      "text": "китай"
+    }
+  },
+  {
+    "id": "9443a4dd-c9f4-441a-a601-0c13d3f5eecd",
+    "name": "кайнане",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "31fccd6a-9291-4b99-bb3d-3f3dd7915279",
+      "start": 71,
+      "end": 78,
+      "text": "кайнане"
+    }
+  },
+  {
+    "id": "1252de1e-660f-461b-bc30-f2fa1239bf68",
+    "name": "острове",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "851ce474-1f98-48f0-8251-f84d80747d9c",
+      "start": 41,
+      "end": 48,
+      "text": "острове"
+    }
+  },
+  {
+    "id": "459659d3-6048-48aa-9c7e-c5b6ffc6fc15",
+    "name": "достопримечательности",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa83d9b-7a10-45ff-ae65-7bb08d13c2ee",
+      "start": 32,
+      "end": 52,
+      "text": "достопримечательности"
+    }
+  },
+  {
+    "id": "7a4263fc-aff7-4e22-8bf6-c79545edb1f5",
+    "name": "видео с роликами",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7f62a770-f9b2-464e-a83f-a8a5ec831f0e",
+      "start": 26,
+      "end": 42,
+      "text": "видео с роликами"
+    }
+  },
+  {
+    "id": "8a0c410e-8c19-410c-8677-74383c9d9b96",
+    "name": "дзене",
+    "type": "platform",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7f62a770-f9b2-464e-a83f-a8a5ec831f0e",
+      "start": 47,
+      "end": 52,
+      "text": "дзене"
+    }
+  },
+  {
+    "id": "84b7c436-7c8e-4c81-82f4-cc8ba12105b8",
+    "name": "достопримечательности острова хайнань",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c91d6f39-d716-4bbb-b9d1-2cf42f6c271b",
+      "start": 15,
+      "end": 52,
+      "text": "достопримечательности острова хайнань"
+    }
+  },
+  {
+    "id": "0b544bb6-29c8-4b7f-8563-6ac24a5b1690",
+    "name": "дзен",
+    "type": "platform",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c91d6f39-d716-4bbb-b9d1-2cf42f6c271b",
+      "start": 58,
+      "end": 62,
+      "text": "дзен"
+    }
+  },
+  {
+    "id": "4298e1ee-b993-4f81-ac60-7900cd7a78b5",
+    "name": "тревел яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6dcad4c0-8f2a-404b-a848-4068fb60bc48",
+      "start": 12,
+      "end": 25,
+      "text": "тревел яндекс"
+    }
+  },
+  {
+    "id": "874a8d1f-0900-4dfa-81e8-05bfe9dcfed3",
+    "name": "тревел яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ba28345d-9b09-4403-b2a5-026bea452eff",
+      "start": 11,
+      "end": 24,
+      "text": "тревел яндекс"
+    }
+  }
+]

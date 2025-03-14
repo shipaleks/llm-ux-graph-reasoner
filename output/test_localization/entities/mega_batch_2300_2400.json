@@ -1,0 +1,240 @@
+[
+  {
+    "id": "65755853-af07-4bfc-9b13-95ea44f2f797",
+    "name": "пиксель",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c00f4ac6-d6e6-49c6-a4cb-24884a9f4bb4",
+      "start": 74,
+      "end": 81,
+      "text": "пикселя"
+    }
+  },
+  {
+    "id": "b4a3ade0-e4ff-4c09-8566-f698a8905639",
+    "name": "плашка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c00f4ac6-d6e6-49c6-a4cb-24884a9f4bb4",
+      "start": 151,
+      "end": 157,
+      "text": "плашка"
+    }
+  },
+  {
+    "id": "15cfdd79-1e46-4d7f-8cd3-dac9d82888fa",
+    "name": "мышка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2379b5b1-67eb-4713-a54b-ec6a7978a755",
+      "start": 67,
+      "end": 72,
+      "text": "мышку"
+    }
+  },
+  {
+    "id": "6955c373-e5ae-464e-b197-4d9f2f2bf063",
+    "name": "мышка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4f82d2d0-6907-4579-b8ef-579c28f530e4",
+      "start": 65,
+      "end": 70,
+      "text": "мышкой"
+    }
+  },
+  {
+    "id": "a5176631-dfa1-4659-88ba-ad003a4c41a9",
+    "name": "плашка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "40d93ea9-b6d7-4941-a729-e4ae705df474",
+      "start": 32,
+      "end": 38,
+      "text": "плашка"
+    }
+  },
+  {
+    "id": "28eaff62-e680-4716-a802-458ed9a5fd3e",
+    "name": "мышка",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "40d93ea9-b6d7-4941-a729-e4ae705df474",
+      "start": 58,
+      "end": 63,
+      "text": "мышку"
+    }
+  },
+  {
+    "id": "76ee1147-1c7e-4d14-bcfc-cd678905a799",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "570ef9f2-6fbc-49c1-bab9-5df794a547f3",
+      "start": 33,
+      "end": 37,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "eee84244-7fd4-4c7b-9d23-575ab9833a09",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0c7c2834-6672-4fb6-82f5-6d57ffcef1a6",
+      "start": 82,
+      "end": 86,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "bbeba872-fa30-41af-862e-c9ae018945db",
+    "name": "поли клин",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "18d2d6d7-4ca4-4b14-9c47-90e2d2e2aafe",
+      "start": 110,
+      "end": 119,
+      "text": "поли клин"
+    }
+  },
+  {
+    "id": "f931c5d8-0d7d-4c82-932f-a99cc246fc04",
+    "name": "галерея",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9cabd48c-b7a5-461e-849d-291257d19f9c",
+      "start": 174,
+      "end": 181,
+      "text": "галерея"
+    }
+  },
+  {
+    "id": "68298be0-76bd-4587-b0bf-ebe305182f7f",
+    "name": "обзоры техники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "308ddac9-4c82-4789-96d9-fc9ab0f66607",
+      "start": 34,
+      "end": 48,
+      "text": "обзоры техники"
+    }
+  },
+  {
+    "id": "9c7d8f6e-8fe4-4a35-a4ad-9d6b083994f9",
+    "name": "баллистические ракеты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "603f2f4d-61a3-4cff-8d45-8af471d4b311",
+      "start": 112,
+      "end": 133,
+      "text": "баллистические ракеты"
+    }
+  },
+  {
+    "id": "9c89a2b7-4212-44bb-8a9c-733f66a645cd",
+    "name": "баллистические ракеты",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bbda623e-9e47-40e3-8695-544ed37308bc",
+      "start": 111,
+      "end": 132,
+      "text": "баллистические ракеты"
+    }
+  },
+  {
+    "id": "9f60dded-f24b-4fe8-9464-15beca87dec9",
+    "name": "гугл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b077304-bde6-4ce3-8243-a3717dee59b6",
+      "start": 102,
+      "end": 106,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "8f92bcbe-8c70-495c-b6bd-31f687de7df1",
+    "name": "хром",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b077304-bde6-4ce3-8243-a3717dee59b6",
+      "start": 113,
+      "end": 117,
+      "text": "хром"
+    }
+  },
+  {
+    "id": "7f21947c-28d9-4374-bae9-a5034a3b9318",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b077304-bde6-4ce3-8243-a3717dee59b6",
+      "start": 141,
+      "end": 147,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "1c916524-ff33-47e0-8504-9dbfb3e36c0a",
+    "name": "телефон",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6b077304-bde6-4ce3-8243-a3717dee59b6",
+      "start": 32,
+      "end": 39,
+      "text": "телефоне"
+    }
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "9a9da62c-a65e-4d97-9bb5-92c3e376803d",
+    "name": "картинку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92e7d6a1-2132-456c-a998-85e411832d61",
+      "start": 9,
+      "end": 17,
+      "text": "картинку"
+    }
+  },
+  {
+    "id": "5cdfcfa2-9ee3-4025-b0db-1cca96fe7228",
+    "name": "фишка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "acf56f87-b7be-4900-87a8-e3004228e4f2",
+      "start": 5,
+      "end": 10,
+      "text": "фишка"
+    }
+  },
+  {
+    "id": "d0a466c0-08be-4ab7-afaa-466861a79426",
+    "name": "информацию",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "796f58a6-8b75-485c-acf3-9c1d57645d82",
+      "start": 41,
+      "end": 51,
+      "text": "информацию"
+    }
+  },
+  {
+    "id": "bdb81ea9-cf74-4e33-a8d7-76620655f1a2",
+    "name": "структурированная",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "796f58a6-8b75-485c-acf3-9c1d57645d82",
+      "start": 57,
+      "end": 73,
+      "text": "структурированная"
+    }
+  },
+  {
+    "id": "47c0d345-cc75-49d1-91d6-b599300887a8",
+    "name": "ссылка на картинку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "796f58a6-8b75-485c-acf3-9c1d57645d82",
+      "start": 95,
+      "end": 113,
+      "text": "ссылка на картинку"
+    }
+  },
+  {
+    "id": "95ddf9b9-1b2b-4a88-b1fd-ab439a6373c0",
+    "name": "дизайн разворачивающих складок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "796f58a6-8b75-485c-acf3-9c1d57645d82",
+      "start": 147,
+      "end": 178,
+      "text": "дизайн разворачивающих складок"
+    }
+  },
+  {
+    "id": "8a00a83a-21c9-4dcb-95fd-a8d8c851d7bd",
+    "name": "ссылка на изображение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1b097be-adfe-4228-a5af-c347d8d7efff",
+      "start": 24,
+      "end": 45,
+      "text": "ссылка на изображение"
+    }
+  },
+  {
+    "id": "ca83f00a-5fc4-47b7-a7e9-44892eabc857",
+    "name": "изображение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2fa36a0a-712f-4cbb-a8f1-ab64a8e5fce1",
+      "start": 5,
+      "end": 16,
+      "text": "изображение"
+    }
+  },
+  {
+    "id": "cc332d56-48ed-48ac-8964-6da36a3d5ae8",
+    "name": "изображение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "19b56c79-b660-4aa9-8f32-6ebd9e150e93",
+      "start": 10,
+      "end": 21,
+      "text": "изображение"
+    }
+  },
+  {
+    "id": "a3f7e415-8d40-4ba4-b12e-b8fca59d05d5",
+    "name": "изображение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb3b728c-2f45-4bcb-9a53-3daceead93be",
+      "start": 91,
+      "end": 102,
+      "text": "изображение"
+    }
+  },
+  {
+    "id": "9a8545f5-a231-455b-858a-1c1374d1d153",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb3b728c-2f45-4bcb-9a53-3daceead93be",
+      "start": 128,
+      "end": 132,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "f5bbb245-b68d-4194-a935-44c9bd608e8b",
+    "name": "изображение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb3b728c-2f45-4bcb-9a53-3daceead93be",
+      "start": 142,
+      "end": 153,
+      "text": "изображение"
+    }
+  },
+  {
+    "id": "b9c2d0ab-049e-4477-9f62-9986e511aff7",
+    "name": "картинкой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "84d10b73-3ecf-4505-a44e-0d6f0318db42",
+      "start": 27,
+      "end": 36,
+      "text": "картинкой"
+    }
+  },
+  {
+    "id": "5ec75e07-ebe3-4a4b-a09d-049f8f63955d",
+    "name": "историю критику",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e174ea23-b7dc-462d-ac02-cea0c734f854",
+      "start": 37,
+      "end": 52,
+      "text": "историю критику"
+    }
+  },
+  {
+    "id": "984b49ac-4611-4f58-9042-e61c10c4aca3",
+    "name": "вкладку",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "037ee8f7-5cc6-49ca-b9e4-82274145bf84",
+      "start": 87,
+      "end": 94,
+      "text": "вкладку"
+    }
+  },
+  {
+    "id": "853b0c2c-1eb0-42a4-8abc-4043ba5eb46a",
+    "name": "история развития",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "84877dc1-aa1a-44b5-8f0e-773e9bc28fab",
+      "start": 0,
+      "end": 16,
+      "text": "история развития"
+    }
+  },
+  {
+    "id": "ad52f929-f501-4e56-87ca-855d5159a81f",
+    "name": "ранние годы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "84877dc1-aa1a-44b5-8f0e-773e9bc28fab",
+      "start": 18,
+      "end": 28,
+      "text": "ранние годы"
+    }
+  },
+  {
+    "id": "35ea15f3-2fd1-4fa6-8e25-a662fcb2775b",
+    "name": "история развития",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b025e64-718e-4b1e-920b-263a1d619e6b",
+      "start": 13,
+      "end": 29,
+      "text": "история развития"
+    }
+  },
+  {
+    "id": "fa1651f1-2a75-406a-a56b-16a708541eac",
+    "name": "габриэль",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b025e64-718e-4b1e-920b-263a1d619e6b",
+      "start": 64,
+      "end": 72,
+      "text": "габриэль"
+    }
+  },
+  {
+    "id": "a6c7a118-7d41-4532-adaf-fe03b8a4ad9c",
+    "name": "формула использования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b025e64-718e-4b1e-920b-263a1d619e6b",
+      "start": 84,
+      "end": 104,
+      "text": "формула использования"
+    }
+  },
+  {
+    "id": "1319391a-2bf4-46fc-9ab5-f0ee9dc64378",
+    "name": "поисковик",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b025e64-718e-4b1e-920b-263a1d619e6b",
+      "start": 141,
+      "end": 150,
+      "text": "поисковик"
+    }
+  },
+  {
+    "id": "8f113f81-a32c-40bd-ba15-c87ef248db18",
+    "name": "основоположник этой теории",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1b025e64-718e-4b1e-920b-263a1d619e6b",
+      "start": 171,
+      "end": 197,
+      "text": "основоположник этой теории"
+    }
+  },
+  {
+    "id": "fa7bfde5-0702-4b92-8b5b-6c280254a902",
+    "name": "имена",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ae3c8b3-7d87-4ba4-ad20-15f724a27425",
+      "start": 147,
+      "end": 152,
+      "text": "именами"
+    }
+  },
+  {
+    "id": "8b6a4aa5-7385-47aa-b4ba-f41036b86849",
+    "name": "раздел исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43056a00-ff37-4995-a9fa-aaf753a95398",
+      "start": 97,
+      "end": 116,
+      "text": "раздел исследования"
+    }
+  },
+  {
+    "id": "50213405-1d08-4b42-98fa-c7e411992356",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e35444dc-1a2d-42d3-966d-388e56474904",
+      "start": 16,
+      "end": 27,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "ccccc7d0-d33d-4d24-8b4d-9d464ea2bc1a",
+    "name": "нейр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1eba6849-1aec-4637-a65f-ecd16bc2ea08",
+      "start": 19,
+      "end": 23,
+      "text": "нейр"
+    }
+  },
+  {
+    "id": "ae647892-84d3-4340-accd-155aad42a860",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1eba6849-1aec-4637-a65f-ecd16bc2ea08",
+      "start": 41,
+      "end": 52,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "598aa0be-49db-48c0-9cd3-c5ee86e55c0b",
+    "name": "история",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1eba6849-1aec-4637-a65f-ecd16bc2ea08",
+      "start": 64,
+      "end": 71,
+      "text": "история"
+    }
+  },
+  {
+    "id": "88e4036f-2c45-4e50-9d16-b2ceb420e440",
+    "name": "развитие этой истории",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9504e5cc-f004-43d2-9c50-9799b5b8f0f9",
+      "start": 54,
+      "end": 74,
+      "text": "развитие этой истории"
+    }
+  },
+  {
+    "id": "33afc327-8311-468a-bf42-9a58799575ed",
+    "name": "хлеб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8b20328-b790-443a-8680-36264cf924ad",
+      "start": 22,
+      "end": 26,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "0d92bf0d-1341-4ddb-b7e7-9ee7533b2a02",
+    "name": "форма",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf5783fc-cbf3-4b53-a459-4add39d10052",
+      "start": 64,
+      "end": 69,
+      "text": "форму"
+    }
+  },
+  {
+    "id": "2461eb26-c5ea-49a6-bfe8-cb4765580624",
+    "name": "древнеславянский",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "13f4c0e7-32dd-4047-a205-87919758f271",
+      "start": 17,
+      "end": 33,
+      "text": "древнеславянский"
+    }
+  },
+  {
+    "id": "171e71e2-9e07-4655-91a4-8dbbd6f39039",
+    "name": "происхождение слова хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2096bada-5799-4540-9807-7d9fb49df7e1",
+      "start": 13,
+      "end": 36,
+      "text": "происхождение слова хлеб"
+    }
+  },
+  {
+    "id": "cfdf189c-fc61-434d-854a-dbc4f43457a4",
+    "name": "значение слова хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca6a6dc5-1c4d-47fc-b559-21fafe38dc95",
+      "start": 21,
+      "end": 40,
+      "text": "значение слова хлеб"
+    }
+  },
+  {
+    "id": "2ab7e127-e28d-4d70-bbc0-7cd3a0c1c38e",
+    "name": "пер хлеб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ca6a6dc5-1c4d-47fc-b559-21fafe38dc95",
+      "start": 64,
+      "end": 72,
+      "text": "пер хлеб"
+    }
+  },
+  {
+    "id": "606d3e69-a110-4102-a553-2b35f2ab7da3",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eca6fb22-f708-4c68-8f71-61146cdceeab",
+      "start": 47,
+      "end": 51,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "837704bd-1bcf-44fc-9a65-625765442fb8",
+    "name": "лингвистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eca6fb22-f708-4c68-8f71-61146cdceeab",
+      "start": 82,
+      "end": 93,
+      "text": "лингвистики"
+    }
+  },
+  {
+    "id": "da2cb69c-85a2-4d05-8884-aea21a3315c5",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eca6fb22-f708-4c68-8f71-61146cdceeab",
+      "start": 103,
+      "end": 107,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "a5ed4582-bad6-4853-aba9-dc470eefac56",
+    "name": "испанский",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d7b9d39f-e796-4fe8-a086-84f3aa60fc3c",
+      "start": 21,
+      "end": 30,
+      "text": "испанском"
+    }
+  },
+  {
+    "id": "21269261-35cb-4e87-b501-e78c1407fdbb",
+    "name": "древнегреческая версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d6c52513-d029-44ea-994b-f25c2dd404fa",
+      "start": 36,
+      "end": 59,
+      "text": "древнегреческая версия"
+    }
+  },
+  {
+    "id": "0e48964d-4371-46c9-b991-c54b793905e8",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d6c52513-d029-44ea-994b-f25c2dd404fa",
+      "start": 81,
+      "end": 86,
+      "text": "хлеба"
+    }
+  },
+  {
+    "id": "d1fad1c0-1361-4bbe-9e2e-095e4c5cea04",
+    "name": "древнегреческая",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d6c52513-d029-44ea-994b-f25c2dd404fa",
+      "start": 108,
+      "end": 123,
+      "text": "древнегреческая"
+    }
+  },
+  {
+    "id": "9f8b30b5-f052-4398-bd89-512588184987",
+    "name": "тестовая версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bb757b85-2e24-482d-9660-498fced203ef",
+      "start": 9,
+      "end": 23,
+      "text": "тестовой версии"
+    }
+  },
+  {
+    "id": "7f3b8a3a-bd45-4c19-bdb5-d49a355a3b63",
+    "name": "древнеславянская",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb428c4d-38e4-4b81-823f-b6f316b2ff32",
+      "start": 18,
+      "end": 34,
+      "text": "древнеславянская"
+    }
+  },
+  {
+    "id": "5cdc0fa7-0369-4b31-bfd5-918ee5aee47e",
+    "name": "нейросеть",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec8335f-957f-47b6-ba0c-fbcf765b0580",
+      "start": 111,
+      "end": 120,
+      "text": "нейросети"
+    }
+  },
+  {
+    "id": "6cbf2a7b-3738-4e6f-9321-9124befcced2",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec8335f-957f-47b6-ba0c-fbcf765b0580",
+      "start": 151,
+      "end": 155,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "d07e5c5a-6197-4cc6-9aaf-e4ea4d97c9e4",
+    "name": "хлеб",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec8335f-957f-47b6-ba0c-fbcf765b0580",
+      "start": 186,
+      "end": 190,
+      "text": "хлеб"
+    }
+  },
+  {
+    "id": "d70af53b-509e-4bee-8dc5-5c5f58b1473f",
+    "name": "испанский язык",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec8335f-957f-47b6-ba0c-fbcf765b0580",
+      "start": 213,
+      "end": 227,
+      "text": "испанском языке"
+    }
+  },
+  {
+    "id": "c03956dc-4e27-44a7-91d7-fef8678cec73",
+    "name": "китайский язык",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0ec8335f-957f-47b6-ba0c-fbcf765b0580",
+      "start": 231,
+      "end": 245,
+      "text": "китайском языке"
+    }
+  },
+  {
+    "id": "72e9ec44-2afa-403f-ba17-a31f498ef48e",
+    "name": "древнегреческой",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bebfd8ae-2430-45cc-b253-80195fd4bd92",
+      "start": 21,
+      "end": 36,
+      "text": "древнегреческой"
+    }
+  },
+  {
+    "id": "6f4634ad-f2de-4a9e-aa5c-fcd8647fa264",
+    "name": "древнеславянское",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bebfd8ae-2430-45cc-b253-80195fd4bd92",
+      "start": 38,
+      "end": 54,
+      "text": "древнеславянское"
+    }
+  },
+  {
+    "id": "c68f74cf-f958-44bf-b917-67560bfa5c88",
+    "name": "индоевропейские",
+    "type": "language_family",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bebfd8ae-2430-45cc-b253-80195fd4bd92",
+      "start": 56,
+      "end": 71,
+      "text": "индоевропейские"
+    }
+  },
+  {
+    "id": "e9c49c30-a14c-4118-b1ce-ffb59733e416",
+    "name": "новый свет",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bebfd8ae-2430-45cc-b253-80195fd4bd92",
+      "start": 83,
+      "end": 93,
+      "text": "новый свет"
+    }
+  },
+  {
+    "id": "e763466a-cccf-4741-aba6-973198100f36",
+    "name": "ацтеки",
+    "type": "people",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bebfd8ae-2430-45cc-b253-80195fd4bd92",
+      "start": 98,
+      "end": 104,
+      "text": "ацтеки"
+    }
+  },
+  {
+    "id": "a85fef1d-3c11-40a8-b097-258186426e06",
+    "name": "техника",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eac569ac-15b9-49bf-9d49-9f1a8b657875",
+      "start": 36,
+      "end": 43,
+      "text": "техники"
+    }
+  },
+  {
+    "id": "2bd726e3-b405-4e3a-abcd-fdbb4e3cfba5",
+    "name": "айфон",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "634ae101-6907-4b32-9ed6-649a5723ca49",
+      "start": 27,
+      "end": 33,
+      "text": "айфоне"
+    }
+  },
+  {
+    "id": "3a7ab42b-f91a-4b0a-beff-a3dd32c9ff29",
+    "name": "двести нит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "088522d9-7b1c-45b8-a19a-ace7f3b9ab3f",
+      "start": 51,
+      "end": 61,
+      "text": "двести нит"
+    }
+  },
+  {
+    "id": "83ce807f-5eb8-46a3-8af6-e884975c46b2",
+    "name": "максимальная яркость диплея",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f9e709dc-4b2b-49f4-8cde-7bce1a60cb5b",
+      "start": 76,
+      "end": 104,
+      "text": "максимальная яркость диплея"
+    }
+  },
+  {
+    "id": "41c72a8c-8907-4ded-8938-d41cfc84bddb",
+    "name": "нит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6bbe781-2639-4239-834b-fbc01de0448c",
+      "start": 10,
+      "end": 13,
+      "text": "нит"
+    }
+  },
+  {
+    "id": "e59246ba-ccad-4a6c-8aff-c52a584cd69e",
+    "name": "нит",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "94808f7f-d1ff-41ef-a729-b97acd48e292",
+      "start": 20,
+      "end": 23,
+      "text": "нит"
+    }
+  },
+  {
+    "id": "513f0d22-1322-4f39-9673-c3cdc641e94f",
+    "name": "функция",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ebd2887-c7b4-45ad-b6b0-572c8342f35b",
+      "start": 34,
+      "end": 41,
+      "text": "функция"
+    }
+  },
+  {
+    "id": "887cb81d-c020-49a6-81bf-b62c9000c7a7",
+    "name": "запрос пользователя",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2ebd2887-c7b4-45ad-b6b0-572c8342f35b",
+      "start": 65,
+      "end": 84,
+      "text": "запрос пользователя"
+    }
+  },
+  {
+    "id": "9846f6cd-44b9-4e0f-81b5-0af85d286c1b",
+    "name": "телеграм",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9ab4f8f8-6600-4b73-8fc4-75ca494c2241",
+      "start": 20,
+      "end": 28,
+      "text": "телеграм"
+    }
+  },
+  {
+    "id": "a5298746-3a47-4698-98e3-9a122eb0f959",
+    "name": "время",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6d7cf29a-e900-4cee-869f-cbe6bbaaf260",
+      "start": 37,
+      "end": 43,
+      "text": "времени"
+    }
+  },
+  {
+    "id": "9ce0da1f-ef47-4784-92ac-a8eac1d9c6f1",
+    "name": "люфт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "494aa053-40fa-42d0-8b3a-06cdc9c15b1e",
+      "start": 22,
+      "end": 26,
+      "text": "люфт"
+    }
+  }
+]

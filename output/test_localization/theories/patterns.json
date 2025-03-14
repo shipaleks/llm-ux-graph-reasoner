@@ -1,0 +1,86 @@
+[
+  {
+    "name": "E-commerce and Digital Ecosystem Focus",
+    "type": "Semantic",
+    "subtype": "semantic",
+    "description": "The knowledge graph heavily emphasizes e-commerce platforms, digital services, and related technologies. This is evident in the high number of 'product' entities, the presence of major organizations like 'Сбер' and 'Яндекс', and the relationships connecting them.",
+    "examples": [
+      {
+        "text": "Сбер → телевизор (sells)",
+        "explanation": "This relationship directly indicates e-commerce activity, with Сбер selling televisions."
+      },
+      {
+        "text": "Яндекс (organization), Алиса (technology), приложения (technology)",
+        "explanation": "The presence of these entities suggests a focus on digital services and technologies within the graph."
+      },
+      {
+        "text": "днс → магазин, видео → магазин, вайлдберис → магазин (type_of)",
+        "explanation": "These relationships highlight the importance of online retail and different types of stores."
+      }
+    ],
+    "confidence": 0.9,
+    "significance": "This pattern suggests that the knowledge graph is built around a domain centered on e-commerce, digital services, and the technologies that enable them. This could reflect the data source's origin or the intended use case of the knowledge graph."
+  },
+  {
+    "name": "Product Feature and Attribute Association",
+    "type": "Relational",
+    "subtype": "semantic",
+    "description": "The graph demonstrates a pattern of associating products (specifically 'смартфону') with their features and attributes. This is shown through the 'has_attribute' relationship.",
+    "examples": [
+      {
+        "text": "смартфону → качеством дисплеем (has_attribute)",
+        "explanation": "This shows a direct link between a smartphone and the quality of its display."
+      },
+      {
+        "text": "смартфону → хорошей камерой (has_attribute)",
+        "explanation": "This shows a direct link between a smartphone and the quality of its camera."
+      }
+    ],
+    "confidence": 0.85,
+    "significance": "This pattern indicates a focus on product specifications and characteristics, which is crucial for product comparison, search, and recommendation systems. It highlights the importance of product features in the knowledge graph."
+  },
+  {
+    "name": "Search and Information Retrieval Context",
+    "type": "Semantic",
+    "subtype": "semantic",
+    "description": "The knowledge graph contains a significant number of 'concept' entities related to search, information retrieval, and digital content. This is further supported by relationships like 'intersects_with' and 'uses', which connect these concepts to search engines and related technologies.",
+    "examples": [
+      {
+        "text": "миры ассистента → поиск (intersects_with)",
+        "explanation": "This relationship links the concept of assistant worlds with the concept of search, suggesting a connection between virtual assistants and information retrieval."
+      },
+      {
+        "text": "поисковик → яндекс проб, поисковик → гига- чат (uses)",
+        "explanation": "This shows that search engines use specific technologies like Яндекс.Пробки and ГигаЧат."
+      },
+      {
+        "text": "поиск (concept), сайты (concept)",
+        "explanation": "The presence of these concepts indicates a focus on information retrieval and web-based content."
+      }
+    ],
+    "confidence": 0.8,
+    "significance": "This pattern suggests that the knowledge graph is used in a context where search and information retrieval are important. This could be for building search engines, question answering systems, or other applications that require accessing and organizing information."
+  },
+  {
+    "name": "Assistant and Application Integration",
+    "type": "Relational",
+    "subtype": "semantic",
+    "description": "The knowledge graph shows a pattern of integrating assistants (like Алиса) with various applications and devices. This is evident through relationships like 'installed_on' and the presence of entities like 'приложения' and 'телефон'.",
+    "examples": [
+      {
+        "text": "приложения → телефон (installed_on)",
+        "explanation": "This relationship shows that applications are installed on phones, indicating a connection between software and hardware."
+      },
+      {
+        "text": "Алиса (technology), Телеграм (application)",
+        "explanation": "The presence of both an assistant and a specific application suggests a potential integration or interaction between them."
+      },
+      {
+        "text": "алис → логотип, алис → иконка алисы, алису → значок у алисы (has_part)",
+        "explanation": "This shows that the assistant has visual components, indicating a user interface and interaction."
+      }
+    ],
+    "confidence": 0.75,
+    "significance": "This pattern highlights the growing importance of virtual assistants and their integration with various applications and devices. It suggests that the knowledge graph is used in a context where assistants play a central role in accessing and interacting with information and services."
+  }
+]

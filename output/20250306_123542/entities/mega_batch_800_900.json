@@ -1,0 +1,506 @@
+[
+  {
+    "id": "1d8ddec6-b5c4-492d-9cbb-f8980cd2a1fb",
+    "name": "клавиатура",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6ee17aa9-b2ec-4ff2-9158-8b033101d3a2",
+      "start": 12,
+      "end": 22,
+      "text": "клавиатуры"
+    }
+  },
+  {
+    "id": "683c1e83-0a3f-4c7e-a3d9-6f821f562309",
+    "name": "маркетинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0e85a422-771f-4508-9004-53031628fbd9",
+      "start": 56,
+      "end": 65,
+      "text": "маркетинг"
+    }
+  },
+  {
+    "id": "1ab25ef4-2e03-4c6b-8bc4-804f19b3527e",
+    "name": "дз",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1d6a0ebe-b0c6-43ad-86ff-4482c88264de",
+      "start": 36,
+      "end": 38,
+      "text": "дз"
+    }
+  },
+  {
+    "id": "89145f82-31ef-4add-ac6e-548bdb1b29fd",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "422517e7-3b19-4dea-bea1-06c0b51f50e1",
+      "start": 17,
+      "end": 29,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "60f3a442-8a17-4d5f-87a7-b21cda0ff0f2",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6ff8caed-a14b-4570-ade9-7b8418ba3e32",
+      "start": 0,
+      "end": 12,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "9e25dbc7-3dab-46e5-bb69-b5bc61a0e79a",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce18cc53-db9e-4004-8fd2-226b4f44654c",
+      "start": 9,
+      "end": 15,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "ec150fc4-c5e5-4676-812c-50af8e6dbb54",
+    "name": "исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce18cc53-db9e-4004-8fd2-226b4f44654c",
+      "start": 25,
+      "end": 37,
+      "text": "исследования"
+    }
+  },
+  {
+    "id": "4f66a8fc-0365-4566-8e13-0b441c154206",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "49867369-815c-4d40-9dd0-b9f9db545e1d",
+      "start": 5,
+      "end": 11,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "dda7cdc1-e767-435a-a99f-b9dea6d7823d",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "13e88101-5907-4ad2-8b8a-b9b17cc430a1",
+      "start": 26,
+      "end": 33,
+      "text": "рекламу"
+    }
+  },
+  {
+    "id": "588782fa-f958-4f86-9bb3-92d167a20a4a",
+    "name": "кнопки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a65651dc-8ed2-4503-bbbe-fe9d07afac75",
+      "start": 4,
+      "end": 10,
+      "text": "кнопки"
+    }
+  },
+  {
+    "id": "33f163d8-715f-47a2-9b7a-94270f381879",
+    "name": "поддержка озона",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a65651dc-8ed2-4503-bbbe-fe9d07afac75",
+      "start": 45,
+      "end": 60,
+      "text": "поддержкой озона"
+    }
+  },
+  {
+    "id": "882f7eea-fb94-4567-9c6e-40a613fd2f28",
+    "name": "планирование маркетинга",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3970bdff-c454-4ee4-baca-3a3b66b1c221",
+      "start": 54,
+      "end": 76,
+      "text": "планирование маркетинга"
+    }
+  },
+  {
+    "id": "3deea75e-8c80-4394-9982-0443396b62d4",
+    "name": "дизайн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3970bdff-c454-4ee4-baca-3a3b66b1c221",
+      "start": 84,
+      "end": 90,
+      "text": "дизайн"
+    }
+  },
+  {
+    "id": "4974933f-9b91-43b0-a164-6c5872954a4d",
+    "name": "запуск нового продукта",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3970bdff-c454-4ee4-baca-3a3b66b1c221",
+      "start": 96,
+      "end": 118,
+      "text": "запуск нового продукта"
+    }
+  },
+  {
+    "id": "b298b194-152f-457a-aabf-b1caa8316e68",
+    "name": "десять",
+    "type": "number",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a62999f8-c5d9-4f38-ad75-05e8e9aeb87e",
+      "start": 37,
+      "end": 43,
+      "text": "десять"
+    }
+  },
+  {
+    "id": "e3da6d04-9b39-4043-80bb-008a05dcb9ff",
+    "name": "гаичи",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "df3ae214-06ad-4af2-b460-9b5c284d5b3a",
+      "start": 29,
+      "end": 34,
+      "text": "гаичи"
+    }
+  },
+  {
+    "id": "fff5a89d-f7ea-4fe6-88f0-d7802d4eb2bb",
+    "name": "сложный выбор",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f348746a-ecc2-4ab1-a9da-ef0b16a701eb",
+      "start": 22,
+      "end": 35,
+      "text": "сложный выбор"
+    }
+  },
+  {
+    "id": "bfe70d06-12c1-4f37-a17f-9545d98ec912",
+    "name": "яндекс путешествия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "559c55f0-9565-4d83-9223-9758d5507385",
+      "start": 41,
+      "end": 58,
+      "text": "яндекс путешествия"
+    }
+  },
+  {
+    "id": "0b82cf96-cb86-4984-9192-0ba799a01401",
+    "name": "нейро поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "74f490fd-87ec-41a3-81d3-0f0a71da60fa",
+      "start": 35,
+      "end": 49,
+      "text": "нейро поисковик"
+    }
+  },
+  {
+    "id": "f6e976b7-f71e-4058-87b0-9e9e9e42bca5",
+    "name": "выходные",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7de61f94-f9cd-44f6-8578-5c1e59be1657",
+      "start": 24,
+      "end": 32,
+      "text": "выходные"
+    }
+  },
+  {
+    "id": "d35898b1-1046-455e-a215-b254bdb94a27",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e83e4eb4-0417-4539-8158-a095d5390c5e",
+      "start": 0,
+      "end": 7,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "c8c926fe-2565-4d06-a628-d2a10cf325bf",
+    "name": "подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d1e93d1-496f-4605-8ce2-fe7455225002",
+      "start": 6,
+      "end": 14,
+      "text": "подольск"
+    }
+  },
+  {
+    "id": "65f6673c-f814-421a-ad33-ca6c3a51cc42",
+    "name": "тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d1e93d1-496f-4605-8ce2-fe7455225002",
+      "start": 20,
+      "end": 24,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "8423020c-3497-4001-8e8c-7f505c5d056f",
+    "name": "москва",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d1e93d1-496f-4605-8ce2-fe7455225002",
+      "start": 35,
+      "end": 41,
+      "text": "москвы"
+    }
+  },
+  {
+    "id": "d78fe3eb-3967-4bdd-9e2e-78c3677b423d",
+    "name": "москва",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d1e93d1-496f-4605-8ce2-fe7455225002",
+      "start": 47,
+      "end": 53,
+      "text": "москвы"
+    }
+  },
+  {
+    "id": "b7af86e1-d669-435f-8ff2-9b2685367cb4",
+    "name": "музеи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5ff39bb-d788-455a-9fa7-a210766f1944",
+      "start": 31,
+      "end": 36,
+      "text": "музеи"
+    }
+  },
+  {
+    "id": "8790674b-f296-43ec-8d45-f19b96b0365b",
+    "name": "подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5ff39bb-d788-455a-9fa7-a210766f1944",
+      "start": 57,
+      "end": 65,
+      "text": "подольске"
+    }
+  },
+  {
+    "id": "7c134bd4-6464-4b29-b92f-32dce4aba537",
+    "name": "тульский кремль",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b5ff39bb-d788-455a-9fa7-a210766f1944",
+      "start": 69,
+      "end": 83,
+      "text": "тульском кремле"
+    }
+  },
+  {
+    "id": "2c2f7596-cd8d-45d0-87f4-092e8d8081c1",
+    "name": "тульский кремль",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9aaffe75-b894-45ae-bdb4-af005043ba5b",
+      "start": 73,
+      "end": 87,
+      "text": "тульский кремль"
+    }
+  },
+  {
+    "id": "77114c5e-afe8-4b70-a44a-bfb191cd04ea",
+    "name": "тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9566e344-0fc2-4f63-a470-7d7eaf9f54af",
+      "start": 27,
+      "end": 31,
+      "text": "туле"
+    }
+  },
+  {
+    "id": "4a8d2f41-d4e7-46c1-939e-acb75fa7b5aa",
+    "name": "кнопка рассуждай",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "33305168-125a-4cd3-9561-c561dfe3eaf1",
+      "start": 41,
+      "end": 56,
+      "text": "изменилась кнопка рассуждай"
+    }
+  },
+  {
+    "id": "8c9c27f0-6485-46f7-a6ff-96caa6ea8492",
+    "name": "подсказки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c74654a6-1212-4d51-b986-cd320f043cac",
+      "start": 41,
+      "end": 50,
+      "text": "подсказки"
+    }
+  },
+  {
+    "id": "6da5d26f-928f-4b5d-ac35-b5089a2e4413",
+    "name": "готовые ответы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c74654a6-1212-4d51-b986-cd320f043cac",
+      "start": 56,
+      "end": 70,
+      "text": "готовые ответы"
+    }
+  },
+  {
+    "id": "677aaddf-9f99-412f-a215-72bc25d582ae",
+    "name": "шаблоны ответов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c74654a6-1212-4d51-b986-cd320f043cac",
+      "start": 72,
+      "end": 87,
+      "text": "шаблоны ответов"
+    }
+  },
+  {
+    "id": "7c5cbfc1-7b96-4e8f-a2b1-79304c2e0944",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "240f8914-2231-4653-8dae-4e7fead0e53c",
+      "start": 24,
+      "end": 29,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "885bbe72-822c-423e-9079-bfb50b1deb65",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "413bf85a-0e85-4cd3-9873-5663279e1300",
+      "start": 34,
+      "end": 43,
+      "text": "источники"
+    }
+  }
+]

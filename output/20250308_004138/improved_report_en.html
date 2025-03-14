@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis: story-2.txt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .metadata p {
+            margin: 0.5rem 0;
+        }
+        
+        .graph-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        
+        .toc {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
+        .toc ul {
+            padding-left: 1.5rem;
+        }
+        
+        .segment-summary {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        
+        .research-process {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .process-step {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .process-step:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Knowledge Graph Analysis: story-2.txt</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="metadata">
+            <p><strong>Date:</strong> 2025-03-08 00:50:05</p>
+            <p><strong>Source:</strong> /Users/shipaleks/Downloads/story-2.txt</p>
+            <p><strong>Number of entities:</strong> 61</p>
+            <p><strong>Number of relationships:</strong> 49</p>
+            <p><strong>Number of text segments:</strong> 6</p>
+        </div>
+        
+        <div class="toc">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#research-process">Research Process</a></li>
+                <li><a href="#contextual-analysis">Contextual Analysis</a></li>
+                <li><a href="#entity-analysis">Entity Analysis</a></li>
+                <li><a href="#relationship-analysis">Relationship Analysis</a></li>
+                <li><a href="#graph-visualization">Graph Visualization</a></li>
+                <li><a href="#graph-metrics">Graph Metrics</a></li>
+                <li><a href="#theories">Theories and Hypotheses</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+                <li><a href="#expansion">Graph Expansion</a></li>
+        </div>
+        
+        <section id="abstract" class="section">
+            <h2>Abstract</h2>
+            <p>Этот отчет представляет анализ графа знаний, построенного на основе исследуемого текста. В ходе анализа выявлено 61 сущностей 8 различных типов и 49 connections 37 различных видов. Наиболее распространенные типы сущностей: person (25), concept (14), object (12). Преобладающие типы connections: SAME_AS (9), FILLED_WITH (4), FASCINATED_BY (2). Ключевые темы, исследуемые в тексте: Inspector Helena Cross arrives in the isolated village of Eldermoor to investigate the disappearance of the Veiled Compass, a mysterious artifact. The investigation reveals a web of interconnected secrets, cryptic clues, and suspicious characters, all revolving around the compass and its potential power. The quiet mountain village of Eldermoor is struck by a mystery surrounding the disappearance of a valuable artifact, the Veiled Compass. Inspector Helena Cross arrives in Eldermoor to investigate the disappearance of a compass, learning from clockmaker Ezra Hollow that it vanished during a blizzard when his clocks stopped.</p>
+        </section>
+        
+        <section id="summary" class="section">
+            <h2>Summary</h2>
+            <p>Построенный граф знаний содержит 61 сущностей и 49 connections. Наиболее центральные сущности в графе: Father Silas Hart, Helena Cross, Ezra Hollow, которые формируют ключевые точки связи в сети. Граф состоит из 13 разрозненных компонентов, что указывает на наличие нескольких отдельных тем или сюжетных линий. Граф имеет разреженную структуру с относительно небольшим количеством connections между сущностями. Наиболее значимая теория, полученная в результате анализа — 'The Eldermoor Cipher: A Conspiracy of Knowledge and Obsession' с уровнем достоверности 0.75.  Этот краткий обзор подчеркивает ключевые выводы анализа графа и создает основу для более детального рассмотрения в последующих разделах.</p>
+        </section>
+        
+        <section id="research-process" class="section">
+            <h2>Research Process</h2>
+            <div class="research-process">
+                <div class="process-step">
+                    <h3>Step 1: Loading and Segmenting Text</h3>
+                    <p>The source text was loaded and divided into 6 logical segments for detailed analysis.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Шаг 2: Contextual Analysis</h3>
+                    <p>Context analysis was performed between segments to identify semantic connections.</p>
+                    <p>Identified 0 connections between segments.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 3: Entity Extraction</h3>
+                    <p>Extracted 61 key entities of various types.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 4: Relationship Identification</h3>
+                    <p>Between entities, 49 connections and relationships were identified.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 5: Knowledge Graph Construction</h3>
+                    <p>Based on the extracted entities and relationships, a knowledge graph was constructed.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Step 6: Graph Analysis and Theory Generation</h3>
+                    <p>Graph analysis was performed and theories were formed explaining the identified connections.</p>
+                    <p>Сгенерировано 2 theories based on graph analysis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contextual-analysis" class="section">
+            <h2>Contextual Analysis</h2>
+            <p>Contextual Analysis изучает взаимосвязи между различными частями текста, выявляя смысловую связность и взаимозависимости между сегментами.</p>
+            
+            <h3>Segment Summaries</h3>
+            
+            <div class="segment-summary">
+                <h4>Segment 1</h4>
+                <p><strong>Summary:</strong> Inspector Helena Cross arrives in the isolated village of Eldermoor to investigate the disappearance of the Veiled Compass, a mysterious artifact. The investigation reveals a web of interconnected secrets, cryptic clues, and suspicious characters, all revolving around the compass and its potential power.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>The Veiled Compass, a relic rumored to guide users through impossible paths, disappears.</li>
+                    
+                    <li>Inspector Cross investigates, encountering numerous villagers with secrets and connections to the compass.</li>
+                    
+                    <li>Cryptic clues include stopped clocks, botanical sketches, visionary paintings, and a blacksmith's replica.</li>
+                    
+                    <li>Mysterious notes signed with a "V" predict future events, suggesting the compass was intentionally hidden.</li>
+                    
+                    <li>A riddle from an ancient manuscript hints at the compass's location and the method of its concealment.</li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 2</h4>
+                <p><strong>Summary:</strong> The quiet mountain village of Eldermoor is struck by a mystery surrounding the disappearance of a valuable artifact, the Veiled Compass.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Isolated mountain village setting</li>
+                    
+                    <li>Disappearance of the Veiled Compass</li>
+                    
+                    <li>Artifact rumored to have special powers</li>
+                    
+                    <li>Perpetual snow and whispering pines</li>
+                    
+                    <li>Quiet village life disrupted</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment is the full parent context. It introduces the setting and the central mystery of the story.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 3</h4>
+                <p><strong>Summary:</strong> Inspector Helena Cross arrives in Eldermoor to investigate the disappearance of a compass, learning from clockmaker Ezra Hollow that it vanished during a blizzard when his clocks stopped.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Inspector Helena Cross is introduced as the investigator.</li>
+                    
+                    <li>Ezra Hollow, the clockmaker, is a key witness.</li>
+                    
+                    <li>The compass disappeared during a midnight blizzard.</li>
+                    
+                    <li>All of Ezra's clocks stopped at the time of the disappearance.</li>
+                    
+                    <li>Ezra's clocks show different, incorrect times.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the initial mystery introduced in the parent context, introducing the investigator and the first witness.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 4</h4>
+                <p><strong>Summary:</strong> Vera Hollow ran the village inn, hosting guests like Lucian Greer, an herbalist with cryptic journals that interested the local historian, Bridget Locke. These journals combined botanical sketches and celestial charts.</p>
+                <p><strong>Role in text:</strong> introduction</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Vera Hollow manages the village inn.</li>
+                    
+                    <li>Lucian Greer, a wandering herbalist, is a guest.</li>
+                    
+                    <li>Lucian's journals contain cryptic botanical and celestial information.</li>
+                    
+                    <li>Bridget Locke, the local historian, covets Lucian's journals.</li>
+                    
+                    <li>Bridget is obsessed with ancient legends.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> Introduces key characters and a potential source of mystery (Lucian's journals) within the setting established in the parent context.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 5</h4>
+                <p><strong>Summary:</strong> Bridget's younger brother, Dominic Locke, paints eerie landscapes that are rumored to predict future locations. His latest painting features a shadowy figure holding the Veiled Compass, a key item in the mystery.</p>
+                <p><strong>Role in text:</strong> example</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Dominic Locke paints eerie, seemingly non-existent landscapes.</li>
+                    
+                    <li>Villagers believe Dominic's paintings sometimes predict real locations.</li>
+                    
+                    <li>Dominic is plagued by visions.</li>
+                    
+                    <li>His recent painting depicts the Veiled Compass.</li>
+                    
+                    <li>The Veiled Compass is held by a shadowy figure in the painting.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the central mystery introduced in the parent context by introducing a character with a potential connection to the Veiled Compass and the unfolding events.</p>
+                
+            </div>
+            
+            <div class="segment-summary">
+                <h4>Segment 6</h4>
+                <p><strong>Summary:</strong> Alder Shaw, the village blacksmith, is secretly commissioned to replicate the compass, confiding only in the librarian, Maeve Thorn. Maeve is a reclusive widow who takes care of the local library.</p>
+                <p><strong>Role in text:</strong> development</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    
+                    <li>Alder Shaw is commissioned to replicate the compass.</li>
+                    
+                    <li>The client is anonymous.</li>
+                    
+                    <li>Alder is secretive and wary.</li>
+                    
+                    <li>He confides only in Maeve Thorn.</li>
+                    
+                    <li>Maeve Thorn is a reclusive widow and librarian.</li>
+                    
+                </ul>
+                
+                
+                <p><strong>Relationship to parent segment:</strong> This segment develops the central mystery introduced in the parent context by introducing key characters and a suspicious commission related to the compass.</p>
+                
+            </div>
+            
+            
+            <h3>Connections between segments</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>From segment</th>
+                        <th>Connection type</th>
+                        <th>To segment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="entity-analysis" class="section">
+            <h2>Entity Analysis</h2>
+            
+            <p>This section presents the key entities identified in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Type</th>
+                        <th>Confidence</th>
+                        <th>Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Helena Cross</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> investigator</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>insomnia</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>riddles</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>compass</td>
+                        <td>object</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ezra Hollow</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> clockmaker</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>midnight blizzard</td>
+                        <td>event</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>clocks</td>
+                        <td>object</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Vera Hollow</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village inn</td>
+                        <td>location</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian Greer</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> herbalist</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>exotic plants</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>moonlight</td>
+                        <td>concept</td>
+                        <td>0.70</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>journals</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>botanical sketches</td>
+                        <td>concept</td>
+                        <td>0.75</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>botanical sketches</td>
+                        <td>object</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>celestial charts</td>
+                        <td>concept</td>
+                        <td>0.75</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Bridget Locke</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>role:</strong> historian</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ancient legends</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Bridget</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic Locke</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>eerie landscapes</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>villagers</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>villagers</td>
+                        <td>group</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>visions</td>
+                        <td>concept</td>
+                        <td>0.85</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Veiled Compass</td>
+                        <td>object</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder Shaw</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village blacksmith</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>anonymous client</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve Thorn</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>reclusive widow</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>local library</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>obscure manuscripts</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>riddles and paradoxes</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas Hart</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village’s aging cleric</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village chapel</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            <ul>
+                                
+                                <li><strong>related_to:</strong> Father Silas Hart</li>
+                                
+                            </ul>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Isaac Cole</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>timid apprentice</td>
+                        <td>person</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>chapel’s ancient crypts</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>stone carvings</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Inspector Cross</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village tavern</td>
+                        <td>location</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Rowan Dusk</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>adventurer</td>
+                        <td>occupation</td>
+                        <td>0.95</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Moira Bell</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>key</td>
+                        <td>object</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian</td>
+                        <td>person</td>
+                        <td>0.99</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>paintings</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>replica</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cryptic notes</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>V</td>
+                        <td>symbol</td>
+                        <td>0.90</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>manuscripts</td>
+                        <td>object</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cryptic riddle</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village of Eldermoor</td>
+                        <td>location</td>
+                        <td>0.98</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>secrets</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>deceptions</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>fog of mystery and deceit</td>
+                        <td>concept</td>
+                        <td>0.80</td>
+                        <td>
+                            
+                            -
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Relationship Analysis -->
+        <section id="relationship-analysis" class="section">
+            <h2>Relationship Analysis</h2>
+            
+            <p>This section presents the relationships identified between entities in the analyzed text.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Relationship</th>
+                        <th>Target</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Helena Cross</td>
+                        <td>AFFLICTED_BY</td>
+                        <td>insomnia</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Helena Cross</td>
+                        <td>FASCINATED_BY</td>
+                        <td>riddles</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Helena Cross</td>
+                        <td>INFORMED_ABOUT_COMPASS</td>
+                        <td>Ezra Hollow</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ezra Hollow</td>
+                        <td>CLAIMED_ABOUT_COMPASS</td>
+                        <td>midnight blizzard</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ezra Hollow</td>
+                        <td>ASSOCIATED_WITH</td>
+                        <td>clocks</td>
+                        <td>0.95</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>midnight blizzard</td>
+                        <td>EVENT_OCCURRED_DURING</td>
+                        <td>clocks</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Vera Hollow</td>
+                        <td>MAINTAINS</td>
+                        <td>village inn</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village inn</td>
+                        <td>HOSTED</td>
+                        <td>Lucian Greer</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian Greer</td>
+                        <td>OBSESSED_WITH</td>
+                        <td>exotic plants</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>exotic plants</td>
+                        <td>BLOOM_UNDER</td>
+                        <td>moonlight</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian Greer</td>
+                        <td>OWNS</td>
+                        <td>journals</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>journals</td>
+                        <td>FILLED_WITH</td>
+                        <td>botanical sketches</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>botanical sketches</td>
+                        <td>INTERTWINED_WITH</td>
+                        <td>celestial charts</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>journals</td>
+                        <td>COVETED_BY</td>
+                        <td>Bridget Locke</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Bridget Locke</td>
+                        <td>FASCINATED_BY</td>
+                        <td>ancient legends</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Bridget</td>
+                        <td>HAS_SIBLING</td>
+                        <td>Dominic Locke</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic Locke</td>
+                        <td>SAME_AS</td>
+                        <td>Dominic</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic Locke</td>
+                        <td>PAINTS</td>
+                        <td>eerie landscapes</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>villagers</td>
+                        <td>WHISPERED_ABOUT</td>
+                        <td>eerie landscapes</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic</td>
+                        <td>PLAGUED_BY</td>
+                        <td>visions</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic</td>
+                        <td>FEATURED</td>
+                        <td>Veiled Compass</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder Shaw</td>
+                        <td>SAME_AS</td>
+                        <td>village blacksmith</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder Shaw</td>
+                        <td>COMMISSIONED_BY</td>
+                        <td>anonymous client</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder Shaw</td>
+                        <td>SAME_AS</td>
+                        <td>Alder</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder</td>
+                        <td>CONFIDED_IN</td>
+                        <td>Maeve Thorn</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve Thorn</td>
+                        <td>SAME_AS</td>
+                        <td>reclusive widow</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve Thorn</td>
+                        <td>TENDED</td>
+                        <td>local library</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>local library</td>
+                        <td>STOCKED_WITH</td>
+                        <td>obscure manuscripts</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>obscure manuscripts</td>
+                        <td>FILLED_WITH</td>
+                        <td>riddles and paradoxes</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve</td>
+                        <td>CONSULTED_WITH</td>
+                        <td>Father Silas Hart</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas Hart</td>
+                        <td>SAME_AS</td>
+                        <td>village’s aging cleric</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas Hart</td>
+                        <td>REFERENCED</td>
+                        <td>village chapel</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas Hart</td>
+                        <td>SAME_AS</td>
+                        <td>Father Silas</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Father Silas</td>
+                        <td>HAS_PROTÉGÉ</td>
+                        <td>Isaac Cole</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Isaac Cole</td>
+                        <td>SAME_AS</td>
+                        <td>timid apprentice</td>
+                        <td>1.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Isaac Cole</td>
+                        <td>DOCUMENTED_IN</td>
+                        <td>chapel’s ancient crypts</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>stone carvings</td>
+                        <td>LOCATED_IN</td>
+                        <td>chapel’s ancient crypts</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Inspector Cross</td>
+                        <td>OBSERVED_AT</td>
+                        <td>village tavern</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village tavern</td>
+                        <td>RUN_BY</td>
+                        <td>Rowan Dusk</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Rowan Dusk</td>
+                        <td>SAME_AS</td>
+                        <td>adventurer</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Rowan Dusk</td>
+                        <td>KEPT_COMPANY_WITH</td>
+                        <td>Moira Bell</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Moira Bell</td>
+                        <td>CARRIED</td>
+                        <td>key</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>villagers</td>
+                        <td>MURMURED_ABOUT</td>
+                        <td>key</td>
+                        <td>0.70</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>botanical sketches</td>
+                        <td>ALIGNED_WITH</td>
+                        <td>paintings</td>
+                        <td>0.80</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian</td>
+                        <td>SAME_AS</td>
+                        <td>botanical sketches</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cryptic notes</td>
+                        <td>SIGNED_WITH</td>
+                        <td>V</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cryptic riddle</td>
+                        <td>FROM</td>
+                        <td>manuscripts</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village of Eldermoor</td>
+                        <td>FILLED_WITH</td>
+                        <td>secrets</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>village of Eldermoor</td>
+                        <td>FILLED_WITH</td>
+                        <td>deceptions</td>
+                        <td>0.90</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="graph-visualization" class="section">
+            <h2>Graph Visualization</h2>
+            
+            <p>This interactive visualization represents the knowledge graph, where entities are nodes and relationships are links.</p>
+            
+            <div class="graph-container">
+                <iframe src="graphs/knowledge_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        <section id="graph-metrics" class="section">
+            <h2>Graph Metrics</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">0.0134</div>
+                    <div>Graph Density</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">1.61</div>
+                    <div>Average Degree</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">0.0383</div>
+                    <div>Average Clustering Coefficient</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">5</div>
+                    <div>Graph Diameter</div>
+                </div>
+            </div>
+            
+            <h3>Central Entities</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entity</th>
+                        <th>Centrality Score</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Father Silas Hart</td>
+                        <td>0.067</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Helena Cross</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ezra Hollow</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lucian Greer</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>journals</td>
+                        <td>0.050</td>
+                        <td>object</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic Locke</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dominic</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alder Shaw</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Maeve Thorn</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Isaac Cole</td>
+                        <td>0.050</td>
+                        <td>person</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+        
+            <section id="theories" class="section">
+                <h2>Theories and Hypotheses</h2>
+                <p>This section presents theories and hypotheses derived from the knowledge graph analysis.</p>
+            
+                <div class="research-process">
+                    <h3>The Eldermoor Cipher: A Conspiracy of Knowledge and Obsession</h3>
+                    <p><strong>Confidence:</strong> 0.75</p>
+                    <div class="theory-description">
+                        The interconnectedness of Eldermoor's residents, their obsessions, and the cryptic symbol 'V' suggest a hidden conspiracy centered around a powerful artifact or secret, possibly the Veiled Compass, with the Locke siblings playing key, opposing roles.<br><br>This theory is based on the analysis of the document and the relationships identified within it.<br><br>Key evidence supporting this theory:<br>- Bridget Locke covets journals filled with botanical sketches.<br>- Dominic Locke is plagued by visions and featured with the Veiled Compass.<br>- Cryptic notes are signed with 'V'.<br>- Obscure manuscripts are filled with riddles and paradoxes, and are a source of cryptic riddles.<br>- The village of Eldermoor is filled with secrets.<br><br>Key entities involved:<br>- Bridget Locke: Seeker of knowledge, potentially uncovering the conspiracy through her interest in journals and ancient legends.<br>- Dominic Locke: Potentially a victim or unwitting participant in the conspiracy, plagued by visions and connected to the Veiled Compass.<br>- Veiled Compass: A central artifact or symbol of the conspiracy, possibly possessing hidden powers or knowledge.<br>- V: Represents the hidden orchestrator or a secret society behind the conspiracy.<br>- Obscure Manuscripts: Contain clues and riddles that are key to understanding the conspiracy.<br><br>The theory proposes to view the presented information as an interconnected structure,<br>where each element plays a role in the overall picture. This approach allows for a better<br>understanding of the context and reveals hidden patterns that may not be obvious from a<br>surface reading of the text.
+                    </div>
+                
+                    <div class="theory-evidence">
+                        <h4>Supporting Evidence:</h4>
+                        <ul>
+                    <li><strong>Bridget Locke covets journals filled with botanical sketches.</strong> - Supports the 'Obsessive Pursuit' mechanism and Bridget's role as a knowledge seeker.</li><li><strong>Dominic Locke is plagued by visions and featured with the Veiled Compass.</strong> - Highlights Dominic's connection to the central mystery and the potential importance of the Veiled Compass.</li><li><strong>Cryptic notes are signed with 'V'.</strong> - Establishes 'V' as a key symbol representing a hidden influence.</li><li><strong>Obscure manuscripts are filled with riddles and paradoxes, and are a source of cryptic riddles.</strong> - Reinforces the importance of manuscripts as containers of crucial information.</li><li><strong>The village of Eldermoor is filled with secrets.</strong> - Establishes Eldermoor as the central location of the mystery.</li>
+                        </ul>
+                    </div>
+                    </div>
+                <div class="research-process">
+                    <h3>The Eldermoor Cycle of Inspiration: A Generational Exchange of Knowledge and Artistic Expression</h3>
+                    <p><strong>Confidence:</strong> 0.75</p>
+                    <div class="theory-description">
+                        The Eldermoor Cycle theory posits that the observed phenomena are not a conspiracy, but rather a cyclical, generational exchange of knowledge and artistic inspiration, driven by the unique environment and traditions of Eldermoor. The 'V' represents a recurring muse or inspirational force, manifesting differently in each generation, rather than a single entity.<br><br>This theory is based on the analysis of the document and the relationships identified within it.<br><br>Key evidence supporting this theory:<br>- Botanical sketches are intertwined with celestial charts and aligned with paintings<br>- Obscure manuscripts → riddles and paradoxes, village of Eldermoor → secrets<br>- Dominic Locke → paints eerie landscapes, plagued_by → visions<br>- Cryptic notes signed_with V<br>- Bridget Locke fascinated_by ancient legends, coveted_by journals<br><br>Key entities involved:<br>- Village of Eldermoor: The primary setting and catalyst for the cyclical exchange of inspiration.<br>- V: A recurring, abstract muse or inspirational force that manifests differently across generations.<br>- Locke Siblings (Bridget and Dominic): Representatives of a generation within the cycle, influenced by the muse ('V') and previous generations' knowledge.<br>- Manuscripts and Journals: Repositories of knowledge and artistic expression, passed down through generations.<br><br>The theory proposes to view the presented information as an interconnected structure,<br>where each element plays a role in the overall picture. This approach allows for a better<br>understanding of the context and reveals hidden patterns that may not be obvious from a<br>surface reading of the text.
+                    </div>
+                
+                    <div class="theory-evidence">
+                        <h4>Supporting Evidence:</h4>
+                        <ul>
+                    <li><strong>Botanical sketches are intertwined with celestial charts and aligned with paintings</strong> - Supports the idea of interconnected knowledge and artistic expression, a key aspect of the cyclical exchange.</li><li><strong>Obscure manuscripts → riddles and paradoxes, village of Eldermoor → secrets</strong> - Indicates the presence of hidden knowledge passed down through generations, fueling the cycle of inspiration.</li><li><strong>Dominic Locke → paints eerie landscapes, plagued_by → visions</strong> - Demonstrates how the environment and the cyclical muse ('V') can manifest as artistic expression and personal experiences.</li><li><strong>Cryptic notes signed_with V</strong> - Supports the interpretation of 'V' as a recurring signature of the inspirational force, not a specific individual.</li><li><strong>Bridget Locke fascinated_by ancient legends, coveted_by journals</strong> - Shows a member of the younger generation seeking knowledge and inspiration from the past, continuing the cycle.</li>
+                        </ul>
+                    </div>
+                    </div>
+            </section>
+            
+        
+        <section id="expansion" class="section">
+    <div class="expansion-section">
+        <h2>Knowledge Graph Expansion Process</h2>
+        <p>During the analysis, the system asked additional questions to expand the knowledge graph.
+        This process helps reveal hidden relationships and provides a more complete picture.</p>
+        
+        <h3>Analysis Questions</h3>
+        <div class="expansion-questions">
+    <ul><li><strong>Father Silas Hart</strong>: What are Father Silas Hart's primary duties and responsibilities as the village's aging cleric?</li><li><strong>Father Silas Hart</strong>:  Beyond being referenced, what is the nature of Father Silas Hart's connection to the village chapel?</li><li><strong>Father Silas Hart</strong>:  What specific issue or topic did Maeve consult with Father Silas Hart about?</li><li><strong>Helena Cross</strong>:  What specific type of investigations does Helena Cross undertake in her role as an investigator (e.g., criminal, corporate, paranormal)?</li><li><strong>Helena Cross</strong>:  Is Helena Cross's fascination with riddles a skill or hobby that she utilizes in her work as an investigator?</li><li><strong>Helena Cross</strong>:  Beyond being informed about compasses, does Helena Cross collaborate with or investigate Ezra Hollow in any capacity related to her role as an investigator?</li><li><strong>Ezra Hollow</strong>: What was the specific nature of Ezra Hollow's claim about a compass in relation to the midnight blizzard event?</li><li><strong>Ezra Hollow</strong>:  Beyond clocks, what other types of timekeeping or navigational instruments was Ezra Hollow associated with or known to create?</li><li><strong>Ezra Hollow</strong>:  What was Helena Cross's expertise regarding compasses, and how did this expertise inform Ezra Hollow's understanding or work?</li><li><strong>Father Silas Hart</strong>:  Beyond general religious duties, what specific religious services or ceremonies does Father Silas Hart conduct at the village chapel?</li><li><strong>Father Silas Hart</strong>:  What is the primary purpose of the village chapel in the community, and how does Father Silas Hart facilitate or manage its use for this purpose?</li><li><strong>Father Silas Hart</strong>:  Regarding what topics or issues do villagers, like Maeve, typically consult Father Silas Hart for advice or guidance?</li><li><strong>Helena Cross</strong>:  What specific type of investigations does Helena Cross undertake in her role as an investigator?</li><li><strong>Helena Cross</strong>:  For what investigative purpose is Helena Cross informed about compass by Ezra Hollow?</li><li><strong>Helena Cross</strong>:  In what ways, if any, does Helena Cross's fascination with riddles relate to her skills or approach as an investigator?</li><li><strong>Ezra Hollow</strong>:  Regarding Ezra Hollow's CLAIMED_ABOUT_COMPASS connection to the "midnight blizzard" event, what was the specific nature of his claim? (e.g., was it a prediction, an explanation, or a warning?)</li><li><strong>Ezra Hollow</strong>:  Considering Helena Cross INFORMED_ABOUT_COMPASS Ezra Hollow, what was the reason or context for Helena Cross informing Ezra Hollow about the compass? (e.g., was it related to his clockmaking skills or the "midnight blizzard" event?)</li><li><strong>Ezra Hollow</strong>:  Beyond being ASSOCIATED_WITH "clocks", what specific types or styles of clocks is Ezra Hollow known for creating or working on? (e.g., astronomical clocks, marine chronometers, or cuckoo clocks?)</li><li><strong>Father Silas Hart</strong>: Does Father Silas Hart regularly conduct religious services at the village chapel?</li><li><strong>Father Silas Hart</strong>: Regarding what specific matter did Maeve consult with Father Silas Hart?</li><li><strong>Father Silas Hart</strong>: Beyond being the village's cleric, does Father Silas Hart hold any other formal roles or responsibilities within the village community?</li><li><strong>Helena Cross</strong>: What specific types of cases does Helena Cross investigate in her role as an investigator?</li><li><strong>Helena Cross</strong>:  Does Helena Cross collaborate with Ezra Hollow on investigations, or is their connection limited to information sharing about compasses?</li><li><strong>Helena Cross</strong>:  Are there any known external factors, such as specific case details or environmental elements, that exacerbate Helena Cross's insomnia?</li><li><strong>Ezra Hollow</strong>: What was the specific nature of Ezra Hollow's claim regarding the compass and the midnight blizzard?</li><li><strong>Ezra Hollow</strong>: What specific types of clocks is Ezra Hollow known for making or repairing?</li><li><strong>Ezra Hollow</strong>: Beyond informing Ezra Hollow about the compass, what was Helena Cross's overall relationship or purpose in interacting with Ezra Hollow?</li></ul>
+        </div>
+        
+        <h3>Answers and New Knowledge</h3>
+        <div class="expansion-answers">
+    
+            <div class="expansion-answer">
+                <h4>Question 1: What are Father Silas Hart's primary duties and responsibilities as the village's aging cleric?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 2:  Beyond being referenced, what is the nature of Father Silas Hart's connection to the village chapel?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 3:  What specific issue or topic did Maeve consult with Father Silas Hart about?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 4:  What specific type of investigations does Helena Cross undertake in her role as an investigator (e.g., criminal, corporate, paranormal)?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 5:  Is Helena Cross's fascination with riddles a skill or hobby that she utilizes in her work as an investigator?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 6:  Beyond being informed about compasses, does Helena Cross collaborate with or investigate Ezra Hollow in any capacity related to her role as an investigator?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 7: What was the specific nature of Ezra Hollow's claim about a compass in relation to the midnight blizzard event?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 8:  Beyond clocks, what other types of timekeeping or navigational instruments was Ezra Hollow associated with or known to create?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 9:  What was Helena Cross's expertise regarding compasses, and how did this expertise inform Ezra Hollow's understanding or work?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 10:  Beyond general religious duties, what specific religious services or ceremonies does Father Silas Hart conduct at the village chapel?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 11:  What is the primary purpose of the village chapel in the community, and how does Father Silas Hart facilitate or manage its use for this purpose?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 12:  Regarding what topics or issues do villagers, like Maeve, typically consult Father Silas Hart for advice or guidance?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 13:  What specific type of investigations does Helena Cross undertake in her role as an investigator?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 14:  For what investigative purpose is Helena Cross informed about compass by Ezra Hollow?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 15:  In what ways, if any, does Helena Cross's fascination with riddles relate to her skills or approach as an investigator?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 16:  Regarding Ezra Hollow's CLAIMED_ABOUT_COMPASS connection to the "midnight blizzard" event, what was the specific nature of his claim? (e.g., was it a prediction, an explanation, or a warning?)</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 17:  Considering Helena Cross INFORMED_ABOUT_COMPASS Ezra Hollow, what was the reason or context for Helena Cross informing Ezra Hollow about the compass? (e.g., was it related to his clockmaking skills or the "midnight blizzard" event?)</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 18:  Beyond being ASSOCIATED_WITH "clocks", what specific types or styles of clocks is Ezra Hollow known for creating or working on? (e.g., astronomical clocks, marine chronometers, or cuckoo clocks?)</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 19: Does Father Silas Hart regularly conduct religious services at the village chapel?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 20: Regarding what specific matter did Maeve consult with Father Silas Hart?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 21: Beyond being the village's cleric, does Father Silas Hart hold any other formal roles or responsibilities within the village community?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 22: What specific types of cases does Helena Cross investigate in her role as an investigator?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 23:  Does Helena Cross collaborate with Ezra Hollow on investigations, or is their connection limited to information sharing about compasses?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 24:  Are there any known external factors, such as specific case details or environmental elements, that exacerbate Helena Cross's insomnia?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 25: What was the specific nature of Ezra Hollow's claim regarding the compass and the midnight blizzard?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 26: What specific types of clocks is Ezra Hollow known for making or repairing?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+            <div class="expansion-answer">
+                <h4>Question 27: Beyond informing Ezra Hollow about the compass, what was Helena Cross's overall relationship or purpose in interacting with Ezra Hollow?</h4>
+                <div class="answer-content">
+                    <p>Could not generate answer due to an error.</p>
+                </div>
+                <div class="answer-confidence">Confidence: 0.0</div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+        <section id="conclusion" class="section">
+            <h2>Conclusion</h2>
+            <p>This text analysis has revealed key relationships, entities, and patterns within the document. 
+            The knowledge graph construction provides a structured representation of the information, 
+            highlighting connections that might not be readily apparent from a simple reading.</p>
+            
+            <p>The identified theories offer interpretations of the underlying narrative and relationships,
+            providing deeper insight into the content and context of the text. These interpretations
+            can serve as a foundation for further analysis or deeper understanding of the material.</p>
+            
+            <p>The knowledge graph approach demonstrates the value of structured information extraction
+            and relationship mapping for complex textual content analysis. It reveals implicit connections,
+            patterns, and structures that enhance our understanding of the document.</p>
+            </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Generated by the Knowledge Graph Synthesis System</p>
+            <p>2025-03-08 00:50:05</p>
+        </div>
+    </footer>
+</body>
+</html>

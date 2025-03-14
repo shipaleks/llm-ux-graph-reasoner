@@ -1,0 +1,44 @@
+[
+  {
+    "id": "717e1716-0625-4000-b917-3b0430b2fafe",
+    "name": "яндекс пэй",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 29,
+      "end": 39,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "2cccfae4-8540-4e3c-9e5f-b4a52f40e177",
+    "name": "маркетом",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 44,
+      "end": 52,
+      "text": "маркетом"
+    }
+  },
+  {
+    "id": "b15a14b7-7dd7-4f72-86cf-81be646ae096",
+    "name": "такси",
+    "type": "transport",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ffd9e800-e2ac-4fb9-92b1-fd358860fcd3",
+      "start": 57,
+      "end": 61,
+      "text": "такси"
+    }
+  }
+]

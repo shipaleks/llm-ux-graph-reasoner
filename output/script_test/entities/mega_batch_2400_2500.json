@@ -1,0 +1,464 @@
+[
+  {
+    "id": "cefa53e6-3278-4aa2-a179-8def4dcc2800",
+    "name": "Google Chrome",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "134df841-0859-4acd-a6c3-631c11d6d675",
+      "start": 23,
+      "end": 34,
+      "text": "гугл хроме"
+    }
+  },
+  {
+    "id": "0e290656-791b-4322-bd34-9dd77adbb14a",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "134df841-0859-4acd-a6c3-631c11d6d675",
+      "start": 54,
+      "end": 59,
+      "text": "гугла"
+    }
+  },
+  {
+    "id": "b3e64f03-2a23-4a5f-82b1-04a75d51c067",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "140c89dd-1e70-4960-8844-9df4eb9ea4c9",
+      "start": 41,
+      "end": 45,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "1fc93eae-aa4f-4fc1-a68b-02575b71a72c",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "763c633a-ed83-47ed-844b-af3c625f8149",
+      "start": 31,
+      "end": 37,
+      "text": "алисой"
+    }
+  },
+  {
+    "id": "c517339a-6bf6-49b1-a8f9-fa5199256169",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "763c633a-ed83-47ed-844b-af3c625f8149",
+      "start": 38,
+      "end": 44,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "6d14abf2-7288-4b94-8ffd-98cefbea6e66",
+    "name": "курс доллара",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "731ceef5-414a-4d9d-868d-7e635ab0c3e0",
+      "start": 147,
+      "end": 159,
+      "text": "курс доллара"
+    }
+  },
+  {
+    "id": "8d344bb8-304b-4dbf-895e-6200e3451530",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4079bb4c-7d89-4168-b366-0fe1a807e452",
+      "start": 80,
+      "end": 85,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "6d015a9f-faf3-418d-8e43-523d8d495215",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c54d28b4-3b6c-41f2-8c93-8b884b251a2f",
+      "start": 27,
+      "end": 32,
+      "text": "сбера"
+    }
+  },
+  {
+    "id": "9682ca8d-3560-45c3-bccf-5d3e72474bb2",
+    "name": "ГигаЧат",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c54d28b4-3b6c-41f2-8c93-8b884b251a2f",
+      "start": 34,
+      "end": 42,
+      "text": "изгига- чат"
+    }
+  },
+  {
+    "id": "69147b87-22b7-47d3-83b9-6333a7af0ef7",
+    "name": "ГигаЧат",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a8b5127-36d9-4426-99f7-c6457d8e9bc6",
+      "start": 11,
+      "end": 20,
+      "text": "гига- чатом"
+    }
+  },
+  {
+    "id": "48ed3d8f-1ec7-4968-84b6-e667c10eae8e",
+    "name": "Nota AI",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "04d2d47e-2ceb-419f-a6c8-1ed21e0fb0b5",
+      "start": 5,
+      "end": 14,
+      "text": "нота эй- ай"
+    }
+  },
+  {
+    "id": "f287f007-9637-4d15-afed-57d2e08ff0f7",
+    "name": "Реплика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0bf5add2-3022-4cb1-b82a-04fcb69cad17",
+      "start": 15,
+      "end": 23,
+      "text": "репаблика"
+    }
+  },
+  {
+    "id": "6a50ced7-34a9-475c-9192-0a4b42b39c05",
+    "name": "Реплика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a28d4acf-2ccf-4204-bd1f-0f3831df760a",
+      "start": 0,
+      "end": 7,
+      "text": "реплика"
+    }
+  },
+  {
+    "id": "014d9469-c4af-4163-b753-c7b2a0e35392",
+    "name": "Реплика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7c627e6d-a1fc-461c-8135-c66c1b194a83",
+      "start": 0,
+      "end": 7,
+      "text": "реплика"
+    }
+  },
+  {
+    "id": "bd109d7c-69da-4ecf-81a6-2cf1112ec8a1",
+    "name": "Реплика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dbabc090-b02e-4b9b-8e0b-bafdb93b481d",
+      "start": 9,
+      "end": 16,
+      "text": "реплика"
+    }
+  },
+  {
+    "id": "0de2d2fe-83d9-4dc1-a6de-cc7a1a89f20e",
+    "name": "английский язык",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "97ee225c-eeef-4324-94cc-79914637ce18",
+      "start": 103,
+      "end": 119,
+      "text": "английского языка"
+    }
+  },
+  {
+    "id": "71b7b1e7-99e2-4ada-8103-c86985536a47",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5b74fce9-dd69-4272-9ece-8a5224232a37",
+      "start": 11,
+      "end": 17,
+      "text": "g пяти"
+    }
+  },
+  {
+    "id": "8a0eec16-213b-4023-b38d-80f9244a73c9",
+    "name": "Сбер",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f2535be-9ff8-486a-ad23-707290b70e99",
+      "start": 22,
+      "end": 29,
+      "text": "сберовский"
+    }
+  },
+  {
+    "id": "c07b15e7-08fa-4fd0-b059-1e103093cb3d",
+    "name": "Кандинский",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f2535be-9ff8-486a-ad23-707290b70e99",
+      "start": 31,
+      "end": 41,
+      "text": "кандинский"
+    }
+  },
+  {
+    "id": "63b6dcb5-7afa-4c96-8a5d-b7eea9b1b3df",
+    "name": "ГигаЧат",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f2535be-9ff8-486a-ad23-707290b70e99",
+      "start": 44,
+      "end": 51,
+      "text": "гигачат"
+    }
+  },
+  {
+    "id": "609abae9-de87-4802-9b2d-2ffba7c783ff",
+    "name": "Реплика",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f2535be-9ff8-486a-ad23-707290b70e99",
+      "start": 71,
+      "end": 78,
+      "text": "реплика"
+    }
+  },
+  {
+    "id": "cac834fb-0c9b-4382-bb91-409d65e7ba63",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "322cc9f0-c487-4553-aa9f-4b0b65f60b53",
+      "start": 43,
+      "end": 48,
+      "text": "алиса"
+    }
+  },
+  {
+    "id": "314ebc5b-ae41-49dd-9e72-46a086cc2948",
+    "name": "Учитель года",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d0a72a8-1cc7-447b-89cb-4755ee0dec14",
+      "start": 31,
+      "end": 43,
+      "text": "учитель года"
+    }
+  },
+  {
+    "id": "87692ab9-47a3-46ac-9b8f-9a7cc9546a66",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3d0a72a8-1cc7-447b-89cb-4755ee0dec14",
+      "start": 76,
+      "end": 98,
+      "text": "искусственного интеллекта"
+    }
+  },
+  {
+    "id": "460f9e8a-f551-4179-8157-d232f173f01c",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "beb78f45-a6c5-481d-9de0-9a3accd1f2f8",
+      "start": 68,
+      "end": 90,
+      "text": "искусственный интеллект"
+    }
+  },
+  {
+    "id": "11c4df1b-5407-4449-86b3-c94e13830478",
+    "name": "Google",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58611aef-5e8c-4cdf-8e58-2318734d2480",
+      "start": 114,
+      "end": 119,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "d8134871-dca0-4746-b791-6a8340efd76d",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58611aef-5e8c-4cdf-8e58-2318734d2480",
+      "start": 121,
+      "end": 127,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "76d81809-6497-48d5-a5fd-4457d6c25f7c",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9cd58626-d88c-435d-ba07-39f49ad89858",
+      "start": 43,
+      "end": 48,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "87238b7c-6903-4087-a72c-c78966ed753a",
+    "name": "искусственный интеллект",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e0a99046-050c-4183-8982-e9dead29545b",
+      "start": 76,
+      "end": 98,
+      "text": "искусственному интеллекту"
+    }
+  },
+  {
+    "id": "5eaecbc2-1f31-48a9-b51c-038d0553bb20",
+    "name": "Алиса",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec3e2f22-924f-4541-acc9-49c50304f0b1",
+      "start": 147,
+      "end": 152,
+      "text": "алису"
+    }
+  },
+  {
+    "id": "9e87dc77-2997-4c68-a4a1-098e16bb8b70",
+    "name": "GPT",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec3e2f22-924f-4541-acc9-49c50304f0b1",
+      "start": 153,
+      "end": 159,
+      "text": "g пять"
+    }
+  },
+  {
+    "id": "4db912ca-9b01-4ff1-91b0-8de505edf504",
+    "name": "английский",
+    "type": "language",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e2e46ad2-7a1a-4c7d-8eb2-3e08928a0010",
+      "start": 54,
+      "end": 63,
+      "text": "английском"
+    }
+  },
+  {
+    "id": "7c8d4e87-ff65-4963-848c-6c9c559a3a9b",
+    "name": "будущее",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f8b50b1a-c922-4bcb-8525-8e2a248f24c6",
+      "start": 61,
+      "end": 68,
+      "text": "будущее"
+    }
+  }
+]

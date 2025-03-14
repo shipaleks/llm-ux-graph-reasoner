@@ -1,0 +1,178 @@
+[
+  {
+    "id": "b8f07b41-1137-45b8-aef2-65dfd2773c8c",
+    "source_id": "78aa16e8-2f3d-4dda-9148-6458e3b62057",
+    "target_id": "8f4d6a44-8d88-456b-81d6-290c889f8f07",
+    "type": "RELEASED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "4fdb4ad1-761a-45e3-86df-2a3d860c2853",
+      "start": 26,
+      "end": 133,
+      "text": "360\nя точно не помню в пятнадцатом или в каком году вот браузер выпустили, ну примерно вот с этого периода."
+    }
+  },
+  {
+    "id": "6cffb038-b088-4cdd-b9ea-60b65442ef6a",
+    "source_id": "6ba06028-1c35-459b-9112-5b9d0331a0b5",
+    "target_id": "22c2ca01-6809-4cca-9d42-2f3bdd5ab69d",
+    "type": "SIMILAR_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "a96135da-96f3-4755-8bb4-09f137162994",
+      "start": 26,
+      "end": 99,
+      "text": "760\nну да, он всегда давал в топе релевантные статьи, релевантные ответы."
+    }
+  },
+  {
+    "id": "86879f08-ebdf-4e90-88f4-7851995fa6db",
+    "source_id": "7186a40d-b09e-414d-92d5-8f55b3c0ad52",
+    "target_id": "40371c81-9c8f-4361-b43d-c8cb39e5bcf7",
+    "type": "DIFFERENT_FROM",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "2df0661e-2aff-4fc8-99ac-a1496290d274",
+      "start": 26,
+      "end": 69,
+      "text": "950\nв чем отличие быстрого ответа от нейро?"
+    }
+  },
+  {
+    "id": "22a54d2a-c596-44a5-b465-77a30a6fe7be",
+    "source_id": "c568bd3a-3d94-4cc3-8b16-4f9d84f1e954",
+    "target_id": "3f74fcee-edf2-4109-8017-8311be23e7e0",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "946a0561-0c5a-4559-88c8-a0d9facda4f9",
+      "start": 26,
+      "end": 180,
+      "text": "150\nну я сегодня видел очень много было рекламных объявлений о том, что новая версия алисы вышла, там яндекс гпт пять ноль там и пишет убийца от опен- ай."
+    }
+  },
+  {
+    "id": "46fb183f-6dc7-4993-a605-783b6d110143",
+    "source_id": "9ae69fb5-cd8a-4a1a-a2ea-d0d33dea8376",
+    "target_id": "ca2630f8-092d-46f4-b6ae-22031c2502f9",
+    "type": "SIMILAR_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "3a55bd05-0b17-48df-8fa7-530daa4360bf",
+      "start": 26,
+      "end": 143,
+      "text": "070\nвот, но у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, редактор, пересказ и переводчик."
+    }
+  },
+  {
+    "id": "5c44e7ab-bb22-4435-9a28-d8dfb7c3b9c5",
+    "source_id": "5aa91106-d805-4d97-a39a-eac90814ce5c",
+    "target_id": "694b1057-4d76-4996-94a8-0112b8943144",
+    "type": "ALIAS_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "9ebd355b-ccaf-4a19-a6e1-ed078c41efe4",
+      "start": 26,
+      "end": 247,
+      "text": "280\nя помню, я раньше искал вообще по такой формуле элис и вот переходил так. то есть просто яндекс гбт нельзя было вести там нейросеть от яндекса, нельзя было найти ее в поисковике, либо там надо было остаться с бубнами."
+    }
+  },
+  {
+    "id": "6a7b07a0-cc6b-4ae7-b61a-d34353bdde24",
+    "source_id": "694b1057-4d76-4996-94a8-0112b8943144",
+    "target_id": "5c51cf6f-a06d-47aa-adfb-e1e9aab20b9c",
+    "type": "ALIAS_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "9ebd355b-ccaf-4a19-a6e1-ed078c41efe4",
+      "start": 103,
+      "end": 247,
+      "text": " то есть просто яндекс гбт нельзя было вести там нейросеть от яндекса, нельзя было найти ее в поисковике, либо там надо было остаться с бубнами."
+    }
+  },
+  {
+    "id": "af3cf957-2442-45d7-816d-cac560ff9cd5",
+    "source_id": "bfbc613e-7f5c-42f7-aeb9-bf4891d8dc36",
+    "target_id": "d6959e83-dbfd-45c1-80fd-3a280d6c3e55",
+    "type": "SIMILAR_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "d79072c4-206f-4692-9150-dbeab4e6b19b",
+      "start": 26,
+      "end": 96,
+      "text": "230\nони просто по- разному называются, но вот это условно g пяти, кпт."
+    }
+  },
+  {
+    "id": "cf5653dc-389d-41f3-90ed-b24ddcd60317",
+    "source_id": "42716701-61cd-4136-8791-9195897cda4c",
+    "target_id": "775defcb-32c7-41ae-8729-43a88c098aac",
+    "type": "SIMILAR_TO",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "11f3eab7-7db4-433f-afa1-e46e5707ad20",
+      "start": 26,
+      "end": 126,
+      "text": "120\nну потому что там помощник ассистента это все смыслы были заложены изначально вот в этот проект."
+    }
+  },
+  {
+    "id": "036fe2e0-5cdc-4918-8102-163d5624bc67",
+    "source_id": "2fb1de72-02b3-472f-b88d-61857edb3bdc",
+    "target_id": "02a62ddc-bbfd-45f5-b577-738fefee863e",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "cd62bb42-af7c-4abb-97d1-6c133d8efda7",
+      "start": 26,
+      "end": 165,
+      "text": "380\nэто была ли именно женское имя и оно вот это все заложено было, а потом вся этот тренд пошел на то, что нейросеть- это личный помощник."
+    }
+  },
+  {
+    "id": "b5959fa6-ac7e-4a85-85f2-0e860a9f5f04",
+    "source_id": "e20345c4-c206-422e-b264-734762aafe38",
+    "target_id": "67e7d7d3-75bb-4d3a-864b-90a1f197f7e5",
+    "type": "ASSIGNED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "0d810edc-7eb9-4aba-a1d6-b098a2a81116",
+      "start": 26,
+      "end": 95,
+      "text": "040\nу меня было задание в университете делать реферат научной статьи."
+    }
+  }
+]

@@ -1,0 +1,975 @@
+[
+  {
+    "id": "a0ec2c1c-71ed-417f-a324-7fa4528575ca",
+    "name": "телеграмм",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "14495729-65e1-46ca-9546-3343dead6aa3",
+      "start": 46,
+      "end": 55,
+      "text": "телеграмме"
+    }
+  },
+  {
+    "id": "1206d392-0c55-4072-af3b-2aa22b0c2b57",
+    "name": "телеграм-бот",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d19d4bdc-a0c7-4ed3-9280-e485f8615b75",
+      "start": 63,
+      "end": 75,
+      "text": "телеграм- бот"
+    }
+  },
+  {
+    "id": "99e9ebb2-fea6-445f-ad64-b87be217176c",
+    "name": "дипсику",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "17d8a49c-486a-4f0a-bfcb-8805936808c1",
+      "start": 15,
+      "end": 22,
+      "text": "дипсику"
+    }
+  },
+  {
+    "id": "f3d3bc23-ae89-41f3-9265-79e8b8f1f81d",
+    "name": "приложение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "17d8a49c-486a-4f0a-bfcb-8805936808c1",
+      "start": 49,
+      "end": 59,
+      "text": "приложение"
+    }
+  },
+  {
+    "id": "17230a1e-fe90-4215-a828-c086a97f667b",
+    "name": "насмотренность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5e22e749-197f-49e3-83f8-9aea7a6cd207",
+      "start": 14,
+      "end": 28,
+      "text": "насмотренность"
+    }
+  },
+  {
+    "id": "1c518e43-1b11-4f12-a78e-1c7a46df16ed",
+    "name": "грамотность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5e22e749-197f-49e3-83f8-9aea7a6cd207",
+      "start": 30,
+      "end": 41,
+      "text": "грамотности"
+    }
+  },
+  {
+    "id": "82adceb1-7527-449d-adbd-921c7556e7ac",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d03b0d46-3691-43e2-82db-4b2497309004",
+      "start": 15,
+      "end": 21,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "ad3b3818-15d3-4f84-9e5a-b0221b844ab1",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d08b67fd-b4b2-4c71-8735-d138d09df019",
+      "start": 73,
+      "end": 79,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "55051448-eff3-40c8-8d0e-ac5dc068d541",
+    "name": "гугл",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f48ce453-7b72-46b3-beb2-db6de24a7bb6",
+      "start": 18,
+      "end": 23,
+      "text": "гугл"
+    }
+  },
+  {
+    "id": "3d9c9556-e29f-40f8-8417-c3be608396fa",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ce7c53f8-7a8d-4852-9fbe-7d7d5eacd043",
+      "start": 20,
+      "end": 27,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "c6ad688c-aa75-4360-85af-7dd5085e66af",
+    "name": "браузер",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d14168e4-518a-4bcf-a6e1-ab2613ee3bf0",
+      "start": 0,
+      "end": 7,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "2ffe3116-98b1-4081-9df2-10e358511c03",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6ede68c0-afdd-44d4-9a30-0ff7b987396a",
+      "start": 31,
+      "end": 37,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "b8158fc2-1eaa-4b5d-bd2c-33e8e7435c9b",
+    "name": "браузер гугл",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9553b12-5445-4f14-95e8-8bc47b700208",
+      "start": 61,
+      "end": 73,
+      "text": "браузер гугл"
+    }
+  },
+  {
+    "id": "962a28b5-add8-425c-8b0f-3adf4a4169ce",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a9553b12-5445-4f14-95e8-8bc47b700208",
+      "start": 79,
+      "end": 85,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "05b3428d-c52a-43cb-bf98-36dfd98a1fd7",
+    "name": "браузера",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "64419fb7-2584-49a0-b15a-ba5666416d36",
+      "start": 41,
+      "end": 49,
+      "text": "браузера"
+    }
+  },
+  {
+    "id": "32789773-1de3-4678-b386-30dfdf00136d",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6041f0f5-ded5-4571-9a96-f41c901f1524",
+      "start": 64,
+      "end": 70,
+      "text": "яндексе"
+    }
+  },
+  {
+    "id": "d80c0963-831f-4fdd-aa19-4b1cdd3edd54",
+    "name": "виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "25ab9bd3-12a5-4a31-b43a-e9d6008b27b2",
+      "start": 31,
+      "end": 35,
+      "text": "визу"
+    }
+  },
+  {
+    "id": "0d7ed118-552a-44aa-b3a4-ed7ee1c96087",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "25ab9bd3-12a5-4a31-b43a-e9d6008b27b2",
+      "start": 38,
+      "end": 47,
+      "text": "австралию"
+    }
+  },
+  {
+    "id": "952a56c1-d04a-4833-8de6-f23018d88fe1",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e364765e-6fa2-403a-bf24-296c2e985a5e",
+      "start": 19,
+      "end": 28,
+      "text": "австралию"
+    }
+  },
+  {
+    "id": "210097dd-a64f-4cd8-9f76-ece9cb6faf82",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccb7221a-fdad-4717-bbd9-9b09a55d932e",
+      "start": 10,
+      "end": 17,
+      "text": "свадьба"
+    }
+  },
+  {
+    "id": "8435548c-db44-4b8a-9363-f148033d4bb2",
+    "name": "подружка",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ccb7221a-fdad-4717-bbd9-9b09a55d932e",
+      "start": 20,
+      "end": 28,
+      "text": "подружки"
+    }
+  },
+  {
+    "id": "d1ed55df-6434-4ec8-905a-b4caf00d727c",
+    "name": "октябрь",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91950b92-0f27-4ef0-be7e-4b63ae8d41fb",
+      "start": 28,
+      "end": 35,
+      "text": "октябре"
+    }
+  },
+  {
+    "id": "701476fc-da97-4e8e-b22b-bc2259a6dcaf",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91950b92-0f27-4ef0-be7e-4b63ae8d41fb",
+      "start": 61,
+      "end": 70,
+      "text": "австралии"
+    }
+  },
+  {
+    "id": "4ccc2bb4-e4c8-4c94-82e9-fe9103c89826",
+    "name": "ноябрь",
+    "type": "date",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91950b92-0f27-4ef0-be7e-4b63ae8d41fb",
+      "start": 74,
+      "end": 81,
+      "text": "ноябре"
+    }
+  },
+  {
+    "id": "a8838624-e6b2-475d-92a2-031904df62cb",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f1bfa9cd-74d5-4978-939f-a25aec9766e2",
+      "start": 55,
+      "end": 62,
+      "text": "свадьба"
+    }
+  },
+  {
+    "id": "b7b4c84d-6689-45c0-aafd-a8d8ca529118",
+    "name": "подружка",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f1bfa9cd-74d5-4978-939f-a25aec9766e2",
+      "start": 65,
+      "end": 73,
+      "text": "подружки"
+    }
+  },
+  {
+    "id": "8dad17c3-0c62-433a-86db-17abdaf37321",
+    "name": "турист",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f1bfa9cd-74d5-4978-939f-a25aec9766e2",
+      "start": 97,
+      "end": 103,
+      "text": "турист"
+    }
+  },
+  {
+    "id": "50132a03-9e79-4755-94cc-8701942af2e4",
+    "name": "биометрия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3649a220-76ed-455e-9b8f-27e1e053fa15",
+      "start": 13,
+      "end": 22,
+      "text": "биометрию"
+    }
+  },
+  {
+    "id": "1f072ed4-e167-44b0-b137-dd6cb6510458",
+    "name": "отказ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3649a220-76ed-455e-9b8f-27e1e053fa15",
+      "start": 67,
+      "end": 72,
+      "text": "отказ"
+    }
+  },
+  {
+    "id": "cd8ece28-d537-4385-8815-bbdc522e9fba",
+    "name": "одобрение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3649a220-76ed-455e-9b8f-27e1e053fa15",
+      "start": 76,
+      "end": 85,
+      "text": "одобрение"
+    }
+  },
+  {
+    "id": "d281212b-7eab-4b57-afa2-343a93972b87",
+    "name": "план",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a9bafe3-841b-41cc-ba0b-8d8a7670d8ea",
+      "start": 0,
+      "end": 4,
+      "text": "план"
+    }
+  },
+  {
+    "id": "6a78abd3-71cc-4f48-9287-4ede8c0bbfed",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34be382f-c7d7-484d-83da-5fbcc2dc35ff",
+      "start": 24,
+      "end": 31,
+      "text": "свадьбу"
+    }
+  },
+  {
+    "id": "4db94813-1f57-44d5-84c4-adb58e859db7",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34be382f-c7d7-484d-83da-5fbcc2dc35ff",
+      "start": 54,
+      "end": 63,
+      "text": "австралии"
+    }
+  },
+  {
+    "id": "a8469434-b298-47fa-bb10-b720f4236479",
+    "name": "туристы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb9178a6-0f60-4636-9815-77991b41f44f",
+      "start": 5,
+      "end": 12,
+      "text": "туристы"
+    }
+  },
+  {
+    "id": "db829cdd-78c5-4cd6-a8bf-ecbd2527dba5",
+    "name": "маршрут",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb9178a6-0f60-4636-9815-77991b41f44f",
+      "start": 22,
+      "end": 29,
+      "text": "маршрут"
+    }
+  },
+  {
+    "id": "24da2a34-936e-4843-8823-369d699c0481",
+    "name": "коралл виф",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb9178a6-0f60-4636-9815-77991b41f44f",
+      "start": 56,
+      "end": 66,
+      "text": "коралл виф"
+    }
+  },
+  {
+    "id": "709256bf-d87c-49f1-aec7-55bf67cafb8d",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb9178a6-0f60-4636-9815-77991b41f44f",
+      "start": 68,
+      "end": 77,
+      "text": "австрализу"
+    }
+  },
+  {
+    "id": "21fe3007-b16d-43a8-99d0-3a7c7bda3a0c",
+    "name": "опера",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "eb9178a6-0f60-4636-9815-77991b41f44f",
+      "start": 90,
+      "end": 95,
+      "text": "оперу"
+    }
+  },
+  {
+    "id": "3d71dc82-da43-4ece-ae02-0a14345e36a5",
+    "name": "свадьба",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8a9c64fd-ca2f-44e7-af1b-c4c2c8722a76",
+      "start": 32,
+      "end": 39,
+      "text": "свадьбе"
+    }
+  },
+  {
+    "id": "cd96b635-f020-4751-bd48-bd71e5aa47a4",
+    "name": "путешествие",
+    "type": "event",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "702e0a73-35a1-4e92-b82e-bb9677aba68b",
+      "start": 47,
+      "end": 58,
+      "text": "путешествие"
+    }
+  },
+  {
+    "id": "70544fa5-4def-42cf-8ca0-a5dc88970a73",
+    "name": "визы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c148b374-f94e-4e9b-b832-2d4de3ec2cd4",
+      "start": 76,
+      "end": 80,
+      "text": "визы"
+    }
+  },
+  {
+    "id": "544e2738-e011-4449-9317-45cb9b2a5498",
+    "name": "виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2b63560-ddd1-4c7b-b5e8-22945d087e93",
+      "start": 27,
+      "end": 31,
+      "text": "визу"
+    }
+  },
+  {
+    "id": "15570c6e-80ea-4953-b102-4de07f459c66",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a2b63560-ddd1-4c7b-b5e8-22945d087e93",
+      "start": 33,
+      "end": 42,
+      "text": "австралию"
+    }
+  },
+  {
+    "id": "73ffedc2-ce49-42fc-a4e5-7af90008781b",
+    "name": "нейро ответ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e9db7dd-d5fb-44e2-a1ef-8b089e759f67",
+      "start": 27,
+      "end": 38,
+      "text": "нейро ответ"
+    }
+  },
+  {
+    "id": "eea42889-ace4-426b-9652-d3a07396245b",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9e9db7dd-d5fb-44e2-a1ef-8b089e759f67",
+      "start": 54,
+      "end": 59,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "a8e30b49-0a76-49c6-90c6-1f731de01769",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d12b5dbb-2ddd-4f66-a9a3-9f5154f4e405",
+      "start": 37,
+      "end": 41,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "44537ae5-4ee5-4a31-8b4d-ebb41c8087c4",
+    "name": "форма подачи",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d12b5dbb-2ddd-4f66-a9a3-9f5154f4e405",
+      "start": 45,
+      "end": 57,
+      "text": "форму подачи"
+    }
+  },
+  {
+    "id": "3968763d-7e60-4a76-aa58-4e37a7e830da",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f5f37623-b351-4784-8c01-5c36febbe22f",
+      "start": 0,
+      "end": 9,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "405c755d-4f62-490f-a48b-9244bcaa861f",
+    "name": "навижу",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f5f37623-b351-4784-8c01-5c36febbe22f",
+      "start": 11,
+      "end": 17,
+      "text": "навижу"
+    }
+  },
+  {
+    "id": "7d6bba55-5bcc-4ed9-a3f8-1b0860e6e16d",
+    "name": "Австралия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f5f37623-b351-4784-8c01-5c36febbe22f",
+      "start": 19,
+      "end": 28,
+      "text": "австралию"
+    }
+  },
+  {
+    "id": "cc2e0cc9-2ed6-4640-96e0-d67046174fd8",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cff7b501-52f0-4684-9781-56aa40d11cda",
+      "start": 24,
+      "end": 31,
+      "text": "рекламу"
+    }
+  },
+  {
+    "id": "831e1f45-9487-4207-b1da-575844f47e95",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cff7b501-52f0-4684-9781-56aa40d11cda",
+      "start": 54,
+      "end": 58,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "f877ee01-cfc3-4551-992d-cf2a7999dde6",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ca745d5-3b49-4da8-8066-703494e21439",
+      "start": 23,
+      "end": 27,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "5217ebd8-f3a1-4892-8d15-88bfb93d9324",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9da7e9c-a662-4294-a61a-77261f350690",
+      "start": 23,
+      "end": 27,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "d1f9814e-4266-45c9-a27b-be53e9a0b1fd",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9da7e9c-a662-4294-a61a-77261f350690",
+      "start": 49,
+      "end": 58,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "70991ed5-a439-4af0-b050-c2da7ee8db4e",
+    "name": "виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9da7e9c-a662-4294-a61a-77261f350690",
+      "start": 62,
+      "end": 66,
+      "text": "визу"
+    }
+  },
+  {
+    "id": "fbcf19a0-1f8a-4ae1-a447-f6e2a4d75c38",
+    "name": "виза",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d9da7e9c-a662-4294-a61a-77261f350690",
+      "start": 85,
+      "end": 89,
+      "text": "визу"
+    }
+  },
+  {
+    "id": "6ac82231-e173-48b3-bb3e-95cd3bc062b1",
+    "name": "первоисточник",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34676c28-2ebf-45a8-ab68-66f50d015e0f",
+      "start": 13,
+      "end": 26,
+      "text": "первоисточник"
+    }
+  },
+  {
+    "id": "14d1d504-a699-47d7-8f34-acae5f1a1e8e",
+    "name": "форма формы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34676c28-2ebf-45a8-ab68-66f50d015e0f",
+      "start": 32,
+      "end": 43,
+      "text": "формы формы"
+    }
+  },
+  {
+    "id": "76c291f6-4b44-4975-82b2-5c034f7e65c4",
+    "name": "посольство",
+    "type": "organization",
+    "attributes": [
+      {
+        "key": "country",
+        "value": "Россия",
+        "confidence": 0.99,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ba059793-68a6-4e4e-9621-b58160c1e3ca",
+      "start": 0,
+      "end": 10,
+      "text": "посольство"
+    }
+  },
+  {
+    "id": "2c1462b4-d2ce-424d-9fe9-eb84e92a8810",
+    "name": "россия",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ba059793-68a6-4e4e-9621-b58160c1e3ca",
+      "start": 12,
+      "end": 18,
+      "text": "россии"
+    }
+  },
+  {
+    "id": "ec9206cd-fba2-4951-8868-38484e6ddf9d",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "35f56cb6-2994-43fd-a600-91124af9f77e",
+      "start": 34,
+      "end": 38,
+      "text": "сайте"
+    }
+  },
+  {
+    "id": "9bb26752-d830-488e-a18c-72d1bd4768ec",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c967be82-4e65-4284-a6b5-af91722cd939",
+      "start": 12,
+      "end": 16,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "b9c7e895-aa88-448d-a522-d72ff44f6fae",
+    "name": "реклама",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a6fcb549-5c4c-4e3f-ba5a-48d8cb4b1c1d",
+      "start": 9,
+      "end": 16,
+      "text": "реклама"
+    }
+  },
+  {
+    "id": "5711917d-b08c-422d-bc52-a9d5fcec64b2",
+    "name": "сайт",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b0d2b1dd-83e9-4773-be03-5ac3889e9f2d",
+      "start": 21,
+      "end": 25,
+      "text": "сайт"
+    }
+  },
+  {
+    "id": "4bea9103-192b-43ed-993f-43632e9e2115",
+    "name": "документы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4ccb24ea-9030-4a8a-af0c-013221c7b948",
+      "start": 8,
+      "end": 17,
+      "text": "документы"
+    }
+  },
+  {
+    "id": "4bae669d-92ed-48b9-9480-1662012ed437",
+    "name": "сроки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "25b165bb-d646-44cc-99a7-72a0d569bd25",
+      "start": 8,
+      "end": 13,
+      "text": "сроки"
+    }
+  },
+  {
+    "id": "954b4986-640a-4abc-8552-34b7b19653ee",
+    "name": "агент",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "722c58d8-bc0f-4da2-ad1e-de5e5726b969",
+      "start": 11,
+      "end": 16,
+      "text": "агент"
+    }
+  },
+  {
+    "id": "6ad8402c-0ceb-421e-93fe-c3ef0a173372",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "722c58d8-bc0f-4da2-ad1e-de5e5726b969",
+      "start": 104,
+      "end": 109,
+      "text": "нейро"
+    }
+  }
+]

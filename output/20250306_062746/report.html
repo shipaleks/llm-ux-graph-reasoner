@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #fff; margin: 0 auto; padding: 1rem; max-width: 1200px; }
+        h1 { font-size: 2rem; text-align: center; margin-bottom: 2rem; }
+        h2 { font-size: 1.5rem; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.5rem; margin-top: 2rem; }
+        .segment-summary { background-color: #f5f5f5; padding: 1rem; margin-bottom: 1rem; border-radius: 4px; }
+        .segment-summary h3 { margin-top: 0; }
+        .segment-link { display: inline-block; margin-top: 0.5rem; color: #0366d6; text-decoration: none; }
+        .segment-link:hover { text-decoration: underline; }
+        .metadata { background-color: #e8f4f8; padding: 1rem; margin-bottom: 2rem; border-radius: 4px; }
+        iframe { width: 100%; height: 600px; border: 1px solid #ddd; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <h1>Knowledge Graph Analysis Report</h1>
+    
+    <div class="metadata">
+        <p><strong>Date:</strong> 2025-03-06</p>
+        <p><strong>Source:</strong> tests/data/samples/sample_ru.txt</p>
+    </div>
+    
+    <h2>Knowledge Graph Visualization</h2>
+    <iframe src="graphs/knowledge_graph.html" frameborder="0"></iframe>
+    
+    <h2>Expanded Graph Visualization</h2>
+    <iframe src="graphs/expanded/expanded_graph.html" frameborder="0"></iframe>
+    
+    <h2>Segment Summaries</h2>
+    
+    <div class="segment-summary">
+        <h3>TechnoInnovaции, Global Systems Partnership</h3>
+        <p><strong>Summary:</strong> Компания "ТехноИнновации" и "Глобал Системс" объявили о партнерстве для работы над "Проектом Альфа", направленным на разработку решений в области искусственного интеллекта для здравоохранения с бюджетом 300 миллионов рублей.</p>
+        <p><strong>Role:</strong> Детализация</p>
+        <a href="./segments/1d59ab78-c2f8-4f57-925e-0ef8e0493f91.html" class="segment-link">View full segment</a>
+    </div>
+
+    <div class="segment-summary">
+        <h3>ТехноИнновации: Руководство и информация</h3>
+        <p><strong>Summary:</strong> Иван Петров является генеральным директором компании "ТехноИнновации", основанной в 2010 году и расположенной в Москве.</p>
+        <p><strong>Role:</strong> Введение</p>
+        <a href="./segments/8a7a9663-7f12-44f9-b14d-51e48ad6019e.html" class="segment-link">View full segment</a>
+    </div>
+
+    <div class="segment-summary">
+        <h3>Мария Сидорова: Технический директор</h3>
+        <p><strong>Summary:</strong> Мария Сидорова является техническим директором компании "ТехноИнновации" с 2015 года, ранее работала в компании "ИТ-Решения". Это демонстрирует ее опыт и квалификацию в сфере технологий.</p>
+        <p><strong>Role:</strong> background</p>
+        <a href="./segments/3273a2fe-29e6-4539-95b6-d368126a2c6b.html" class="segment-link">View full segment</a>
+    </div>
+
+    <div class="segment-summary">
+        <h3>TechnoInnovations Partners with Global Systems</h3>
+        <p><strong>Summary:</strong> TechnoInnovations, led by CEO Ivan Petrov, partnered with Global Systems for Project Alpha, as announced on January 15, 2023.</p>
+        <p><strong>Role:</strong> Event Announcement</p>
+        <a href="./segments/bf173813-5bb4-400a-bbb1-94bcd4bd1c58.html" class="segment-link">View full segment</a>
+    </div>
+
+    <div class="segment-summary">
+        <h3>AI Healthcare Project in St. Petersburg</h3>
+        <p><strong>Summary:</strong> Global Systems, led by Alexey Smirnov in St. Petersburg, is undertaking a 300 million ruble AI healthcare project.</p>
+        <p><strong>Role:</strong> Example</p>
+        <a href="./segments/ad6adc56-81f1-44c2-9e27-ee2949a2942e.html" class="segment-link">View full segment</a>
+    </div>
+
+</body>
+</html>

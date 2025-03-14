@@ -1,0 +1,81 @@
+{
+  "18b20c67-d872-4d94-bd2b-5ed102c3adaf": {
+    "id": "18b20c67-d872-4d94-bd2b-5ed102c3adaf",
+    "title": "Acme Corp & Project Alpha",
+    "summary": "Acme Corporation partnered with Global Systems Ltd. on \"Project Alpha\" to develop AI healthcare solutions, announced on January 15, 2023, with a $5 million budget.",
+    "key_points": [
+      "Acme Corp partnered with Global Systems Ltd.",
+      "Project Alpha aims for AI healthcare solutions.",
+      "Partnership announced January 15, 2023.",
+      "Project budget is $5 million.",
+      "Global Systems Ltd. is based in London, led by David Brown."
+    ],
+    "role": "Example",
+    "parent_relation": null
+  },
+  "987f55b1-82ac-47c9-9217-81978e5eb34a": {
+    "id": "987f55b1-82ac-47c9-9217-81978e5eb34a",
+    "title": "Acme Corporation Introduction",
+    "summary": "John Smith is the CEO of Acme Corporation, founded in 1985 and headquartered in New York City. This segment introduces a specific company and its key personnel.",
+    "key_points": [
+      "John Smith is the CEO",
+      "Acme Corporation founded in 1985",
+      "Headquartered in New York City"
+    ],
+    "role": "introduction",
+    "parent_relation": "Provides a specific example to illustrate the system's ability to extract information about organizations and people."
+  },
+  "d011a545-9600-4806-a1be-0db55b7204c2": {
+    "id": "d011a545-9600-4806-a1be-0db55b7204c2",
+    "title": "Acme Corporation Overview",
+    "summary": "John Smith is the CEO of Acme Corporation, a software development company founded in 1985 and headquartered in New York City.",
+    "key_points": [
+      "CEO: John Smith",
+      "Company: Acme Corporation",
+      "Founded: 1985",
+      "Headquarters: New York City",
+      "Specialization: Software Development"
+    ],
+    "role": "Introduction",
+    "parent_relation": "Provides specific details about a company, illustrating the 'sample text file' mentioned in the parent context."
+  },
+  "a83fc307-ca2f-4497-9fd3-6cb4a884046e": {
+    "id": "a83fc307-ca2f-4497-9fd3-6cb4a884046e",
+    "title": "Mary Johnson's Work History",
+    "summary": "Mary Johnson is the CTO of Acme Corporation since 2005 and previously worked as a senior developer at Tech Solutions Inc.",
+    "key_points": [
+      "Mary Johnson is CTO of Acme Corporation",
+      "She has worked at Acme since 2005",
+      "Previous role: Senior Developer at Tech Solutions Inc."
+    ],
+    "role": "Background",
+    "parent_relation": "Provides background information on a key employee at Acme Corporation, which is the main subject of the parent context."
+  },
+  "fd083ce4-0460-46de-8894-6b246fbccfb4": {
+    "id": "fd083ce4-0460-46de-8894-6b246fbccfb4",
+    "title": "Acme & Global Partnership",
+    "summary": "Acme Corporation partnered with Global Systems Ltd. on \"Project Alpha,\" announced on January 15, 2023, by John Smith.",
+    "key_points": [
+      "Acme partnered with Global Systems",
+      "Project name: Project Alpha",
+      "Announcement date: January 15, 2023",
+      "Announced by John Smith"
+    ],
+    "role": "Introduction",
+    "parent_relation": "Provides a specific example related to the knowledge graph synthesis system."
+  },
+  "ce245473-7455-4ef9-aa6e-3c0804aef0c3": {
+    "id": "ce245473-7455-4ef9-aa6e-3c0804aef0c3",
+    "title": "AI Healthcare Project Details",
+    "summary": "The project focuses on developing AI solutions for healthcare with a $5 million budget, and Global Systems Ltd., led by CEO David Brown and based in London, is involved.",
+    "key_points": [
+      "AI solutions for healthcare",
+      "Project budget: $5 million",
+      "Global Systems Ltd. is involved",
+      "Company based in London",
+      "CEO: David Brown"
+    ],
+    "role": "Example",
+    "parent_relation": "Provides specific details as an example within the broader context of testing the knowledge graph synthesis system."
+  }
+}

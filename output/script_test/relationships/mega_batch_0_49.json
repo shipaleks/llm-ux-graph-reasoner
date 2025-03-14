@@ -1,0 +1,761 @@
+[
+  {
+    "id": "6cbf873b-ec55-4390-9172-3c6a50325686",
+    "source_id": "e28044a6-6ce9-400c-b123-3fdc41d8db59",
+    "target_id": "09232d28-53c5-4bb3-bf2d-18196440d6af",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f1d5b5a0-477b-49f9-934b-2faea2395114",
+      "start": 93,
+      "end": 156,
+      "text": "сократить вот поисковую выдачу и здесь какую- то кнопку единую сделать"
+    }
+  },
+  {
+    "id": "d865916b-5389-45a7-8a90-638a024b942c",
+    "source_id": "252ce68f-1753-46d0-9bf6-f14462963488",
+    "target_id": "2c575ce0-1e44-47c5-99f5-49d469091a86",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa147bd-0761-4bc6-80fc-28e7aff6ffeb",
+      "start": 21,
+      "end": 73,
+      "text": "если нужно поиск, то мы в поиск идем, если нам нужна там какая- то нейросеть"
+    }
+  },
+  {
+    "id": "234d4905-50fe-4885-83e6-07efcb3e9e0b",
+    "source_id": "2c575ce0-1e44-47c5-99f5-49d469091a86",
+    "target_id": "65738680-d0a8-47e6-9732-da5fc0a48386",
+    "type": "HAS_FUNCTION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa147bd-0761-4bc6-80fc-28e7aff6ffeb",
+      "start": 89,
+      "end": 116,
+      "text": "который редактор, пересказ"
+    }
+  },
+  {
+    "id": "faeb92ed-eb79-4c33-8661-6f55ec32638a",
+    "source_id": "2c575ce0-1e44-47c5-99f5-49d469091a86",
+    "target_id": "b31c390f-5525-4a29-9cd2-96b1d9cdaef2",
+    "type": "HAS_FUNCTION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa147bd-0761-4bc6-80fc-28e7aff6ffeb",
+      "start": 89,
+      "end": 116,
+      "text": "который редактор, пересказ"
+    }
+  },
+  {
+    "id": "9ec5d63d-4d2a-4397-bb4a-4d443b8fc13c",
+    "source_id": "2c575ce0-1e44-47c5-99f5-49d469091a86",
+    "target_id": "48c82e42-9ec9-491d-a7ca-01fc67295a86",
+    "type": "HAS_FUNCTION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efa147bd-0761-4bc6-80fc-28e7aff6ffeb",
+      "start": 118,
+      "end": 134,
+      "text": "работа с текстом"
+    }
+  },
+  {
+    "id": "244f6fc0-4be8-4502-a618-8076fe8160fd",
+    "source_id": "bb2278b0-6b6b-49da-bfed-3db560fd5904",
+    "target_id": "a3b43afc-5bab-460e-87b9-1b64db56d3c8",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "082a06dd-3b34-49fc-9077-e71466d72b2c",
+      "start": 36,
+      "end": 57,
+      "text": "здесь идут, вот эти вот, да, внизу"
+    }
+  },
+  {
+    "id": "549cc519-9e70-41db-8eb9-252da0f9b23f",
+    "source_id": "ea4339e1-6673-4b40-90b8-59918f199fa9",
+    "target_id": "062b8b93-68d9-444d-9663-81bd3dada209",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58a548c5-c51e-453e-854e-c4bcd3d2d5d5",
+      "start": 74,
+      "end": 113,
+      "text": "найти какую- то научную статью, надо найти какой- то материал"
+    }
+  },
+  {
+    "id": "f8aac412-e699-427e-9063-4356fb40d66c",
+    "source_id": "062b8b93-68d9-444d-9663-81bd3dada209",
+    "target_id": "0450f742-20a0-4b95-9cb9-48e6c09540ec",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "58a548c5-c51e-453e-854e-c4bcd3d2d5d5",
+      "start": 115,
+      "end": 148,
+      "text": "надо разобраться в законе, то есть надо"
+    }
+  },
+  {
+    "id": "c60879d6-d715-43d5-ac81-9164dbe11302",
+    "source_id": "c8c36938-808e-46a1-bd6a-8b79adc34a4d",
+    "target_id": "e73c57f8-d252-4aba-a8d2-c8f76eed4e42",
+    "type": "CAN_SEARCH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "37d40d48-fb1a-446f-bdd4-7e11ad7096b9",
+      "start": 21,
+      "end": 68,
+      "text": "g пяти же не зайдешь в консультант плюс, не поищешь все законы"
+    }
+  },
+  {
+    "id": "8d717216-a10f-4591-b3b4-9e11fec03720",
+    "source_id": "96e5b923-5df1-4e3d-b0dd-4134d1ab2338",
+    "target_id": "c2dbf383-af8c-46f1-9a86-abb812fb6e98",
+    "type": "GOES_INTO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57afa74a-cea4-4a57-b1af-19fb274c9787",
+      "start": 11,
+      "end": 40,
+      "text": "все нейросети уходят в поиск, в отдельную кнопку"
+    }
+  },
+  {
+    "id": "48fb9a40-072a-4899-a79e-67abc44b57e0",
+    "source_id": "96e5b923-5df1-4e3d-b0dd-4134d1ab2338",
+    "target_id": "a11b6e75-596c-4370-95ac-c683b0ea074f",
+    "type": "GOES_INTO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57afa74a-cea4-4a57-b1af-19fb274c9787",
+      "start": 11,
+      "end": 40,
+      "text": "все нейросети уходят в поиск, в отдельную кнопку"
+    }
+  },
+  {
+    "id": "c06d9c60-203d-4290-aa0d-cf4aed431bd4",
+    "source_id": "e5be377c-d70b-43d8-864d-3d5c7a023022",
+    "target_id": "29d816ba-601e-4ae5-bf6e-d2422c761e25",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "92d1118b-22c9-4420-b617-18cd31aff98f",
+      "start": 30,
+      "end": 61,
+      "text": "а в поисковике не всегда они находятся"
+    }
+  },
+  {
+    "id": "de0184d4-a45c-4cb7-bf55-dbda41134445",
+    "source_id": "353f71dd-29d9-4242-940d-301ba78d9c12",
+    "target_id": "59d3c11e-149b-4b5e-92b7-55212e8b9a73",
+    "type": "HAS_LOCATION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "51179fff-94b3-4f50-81f4-cbf26a76ed99",
+      "start": 34,
+      "end": 82,
+      "text": "вот здесь располагался ползунок или вот здесь, точно не помню расположение"
+    }
+  },
+  {
+    "id": "26a619a7-c235-4b53-89e1-d07fb38b2b31",
+    "source_id": "c510af65-d688-4672-82b5-e8c578bb6ec0",
+    "target_id": "71291911-be69-40c5-950e-db0faeb973d4",
+    "type": "EXTRACTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "efdc0c46-958c-47a2-b3b4-b76be88078cb",
+      "start": 23,
+      "end": 63,
+      "text": "по первым страницам какую- то информацию вычленить"
+    }
+  },
+  {
+    "id": "e3e7cdbb-a399-46e7-9b65-3b3867bcc1a3",
+    "source_id": "9c4aa228-11ab-4f0b-ab7b-2e09a0d864de",
+    "target_id": "227620fd-d4a1-40bc-b86e-d874abf76c78",
+    "type": "RELATED",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "68b08fe7-6fd2-4936-9681-030be2a65c24",
+      "start": 14,
+      "end": 26,
+      "text": "разные цели задача"
+    }
+  },
+  {
+    "id": "8e9edf86-04d8-4219-a82c-a5635f94cbdd",
+    "source_id": "6f377cd1-a2a8-420c-8ea8-a626e528afb5",
+    "target_id": "96f9d76e-ec0a-4932-bd8d-c4b02cd3f274",
+    "type": "REQUIRES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2b6f82d4-e882-4e20-b462-28327b7e1689",
+      "start": 59,
+      "end": 95,
+      "text": "придется включить снова vpn, чтобы оно заработало"
+    }
+  },
+  {
+    "id": "2c79f191-eb0b-4a7f-a9c7-31c3397695ba",
+    "source_id": "da9c3453-2ea3-4ad3-a6e3-877ed5b0ad83",
+    "target_id": "c81f0b5d-7396-4856-9c9f-fbe651095614",
+    "type": "HAS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "48e2964f-aab1-40fa-b9f2-aabad3e17b56",
+      "start": 26,
+      "end": 53,
+      "text": "статья есть, объяснение, что я хотел"
+    }
+  },
+  {
+    "id": "7e8e1e03-92ed-46e9-b663-f19b91dff409",
+    "source_id": "494067e8-9356-4a5d-b84a-60248dda6b17",
+    "target_id": "8e14eaad-5be2-44ca-8c6c-1d13a319f3ee",
+    "type": "AFFECTS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3442a0e6-8128-4508-a3f8-fbcc89d32f2e",
+      "start": 18,
+      "end": 85,
+      "text": "на макбуке в силу санкций она может немножечко так подлагивать и иногда вылетать"
+    }
+  },
+  {
+    "id": "39dfa2cf-fb60-436b-8e3b-b4c3bad66b50",
+    "source_id": "61c0286e-501d-459f-aad2-f503e19af7fb",
+    "target_id": "e0630b14-be13-42fd-8cc1-e86a8eb43b94",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "09394e7c-9d3e-447d-a84b-7330ca2c3de4",
+      "start": 55,
+      "end": 81,
+      "text": "по интернету, именно по интернету поиск"
+    }
+  },
+  {
+    "id": "69b6e26a-d54c-48d6-88b4-54f6f8f58ed0",
+    "source_id": "36add4c1-49e8-4928-adba-5ac88e94a0de",
+    "target_id": "61c0286e-501d-459f-aad2-f503e19af7fb",
+    "type": "SYNONYM",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "09394e7c-9d3e-447d-a84b-7330ca2c3de4",
+      "start": 44,
+      "end": 81,
+      "text": "что- то по серфи в интернете, именно по интернету поиск"
+    }
+  },
+  {
+    "id": "edcb4761-22fe-49b3-962b-b239dfc55715",
+    "source_id": "51f0c96e-790e-428c-8f2f-c81908209fd8",
+    "target_id": "406d794a-95d5-460a-bbf2-955b3678bd2b",
+    "type": "WOULD_SEARCH_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1df06d10-639d-4fbb-8c13-9a9f09a9ece5",
+      "start": 37,
+      "end": 77,
+      "text": "что вы бы вот федеральный закон искали скорее в яндексе"
+    }
+  },
+  {
+    "id": "cd07d786-ae62-481e-b766-40681535920d",
+    "source_id": "dfa3b731-f3f6-4e6d-afb9-e20dc205d6fa",
+    "target_id": "f6212e98-4aa7-4707-b8e5-21e8691c8f0f",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6fdd613f-9dc5-491a-af82-ebd1d5309d08",
+      "start": 47,
+      "end": 66,
+      "text": "просто чтобы был в россии"
+    }
+  },
+  {
+    "id": "cbecd799-c74a-4d05-9ab7-e6cd40e799f3",
+    "source_id": "7b084011-1c79-459c-b553-17cd81706cb7",
+    "target_id": "b73fa3ff-9d0a-4339-870b-5e79f78f96c9",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0c5a52ce-9786-4b6b-82c8-976f41fcd383",
+      "start": 18,
+      "end": 67,
+      "text": "три, три разных, абсолютно разных тех федеральных законов"
+    }
+  },
+  {
+    "id": "2aea7a34-bb35-4629-bb9e-baa7c6540879",
+    "source_id": "a6ed8d21-9d8a-4b21-bd92-2180ac41153b",
+    "target_id": "6a368286-c560-4404-aacc-68f0e3984fc9",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e64498f2-8c0c-42b3-a69a-4e015af83edd",
+      "start": 41,
+      "end": 122,
+      "text": "это устав автомобильного транспорта, а здесь в цифровых финансовых активах и привлечение инвестиций"
+    }
+  },
+  {
+    "id": "50cb0857-ae13-4ca0-9167-bbf407c29252",
+    "source_id": "ef072788-f29b-468e-922a-d10963f5fc01",
+    "target_id": "780311cf-0078-4864-9dd1-a608882c06b0",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "81c782e4-583a-4bdb-b2b1-3fb3d75a6cb4",
+      "start": 0,
+      "end": 29,
+      "text": "финансы которых ходят транспорт"
+    }
+  },
+  {
+    "id": "34a91325-4fe6-4288-bef5-ad9514ed4879",
+    "source_id": "98693631-01bb-4a77-aadd-bc6870ac8b6d",
+    "target_id": "1b1cd4aa-3e7c-413c-8bae-7399664f3559",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12b299d7-7f0f-40c0-8975-954918fac703",
+      "start": 0,
+      "end": 1,
+      "text": "я"
+    }
+  },
+  {
+    "id": "0ea6c41e-506d-428d-affd-239994b5de52",
+    "source_id": "98693631-01bb-4a77-aadd-bc6870ac8b6d",
+    "target_id": "f56448c4-1560-42aa-8e07-76285042b3c7",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 1.0,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12b299d7-7f0f-40c0-8975-954918fac703",
+      "start": 0,
+      "end": 1,
+      "text": "я"
+    }
+  },
+  {
+    "id": "faeea95f-89d1-4c21-830c-6c76708b6398",
+    "source_id": "d65c3227-830a-4ac6-9d12-5c4f2d3822cd",
+    "target_id": "b7e8072b-5fcd-4eec-8bea-42f3c64e777e",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3982f2b3-a62b-49f0-90c3-6d5efe623fba",
+      "start": 12,
+      "end": 61,
+      "text": "опыт изучения вопроса вот покупании с нуля"
+    }
+  },
+  {
+    "id": "75b490ba-796e-4832-9efe-3b053fc2455a",
+    "source_id": "3648c91f-db70-4def-8b52-6672b4ae6c50",
+    "target_id": "2efda1b4-791f-4b35-9395-945763110b42",
+    "type": "CAUSED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "af1bd67f-cd99-407c-b85b-f9932f568450",
+      "start": 45,
+      "end": 73,
+      "text": "запутали две нейросети"
+    }
+  },
+  {
+    "id": "ab79d122-ba02-4892-81a2-784a2260888e",
+    "source_id": "a3b90dc8-0a04-4db8-9e31-d7444e1e3d23",
+    "target_id": "a78ca6f4-8181-4f1b-afe3-d6b62684f45b",
+    "type": "RELATED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "91d60efb-b637-4d76-bd84-2f8b58d9a27a",
+      "start": 26,
+      "end": 83,
+      "text": "тенденция, что он может выдумывать какие- то вещи, но у него бывают такие глюки"
+    }
+  },
+  {
+    "id": "cc34d043-74bf-464e-874a-f8f5cec897ae",
+    "source_id": "e9ebd922-8429-4a2f-b639-a4f8438a2652",
+    "target_id": "d2c4018b-1787-4754-8ca3-e87e9990a3e2",
+    "type": "ALTERNATIVE_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf8a60ca-a0d1-484f-a8c0-82b70553a294",
+      "start": 52,
+      "end": 112,
+      "text": "в принципе нет поисковика, а есть только вот что- то вроде алисы или чаты"
+    }
+  },
+  {
+    "id": "2f305d26-9857-4e70-88f8-2292b35a2edf",
+    "source_id": "d2c4018b-1787-4754-8ca3-e87e9990a3e2",
+    "target_id": "588b02fb-f23f-4bee-b213-36b29008c32a",
+    "type": "CAN_USE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf8a60ca-a0d1-484f-a8c0-82b70553a294",
+      "start": 131,
+      "end": 147,
+      "text": "написать реферат"
+    }
+  },
+  {
+    "id": "ce381bd2-6244-4ec1-8cc0-a2ddcaeb327e",
+    "source_id": "513d2aa8-7085-4d9f-9198-d8adb98627b9",
+    "target_id": "4c33e47e-7087-41da-9a09-f655ea86f39a",
+    "type": "OFFERED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "11c4ea23-38ca-4d5d-90d0-341ae6240dfd",
+      "start": 0,
+      "end": 47,
+      "text": "чат g пяти мне предложил несколько вариантов"
+    }
+  },
+  {
+    "id": "eb26f8a5-9b49-483a-8732-45499bd9e749",
+    "source_id": "f127f0e1-c84f-45e4-b250-0a7827174f67",
+    "target_id": "4321d293-18d8-4b93-8a6c-7d591f1895b9",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "49a61e44-9060-4a36-8684-51c5251c281b",
+      "start": 109,
+      "end": 212,
+      "text": "минстрой тридцать девять, но я понимаю, что это министерство строительства калининградской области"
+    }
+  },
+  {
+    "id": "4345d418-2bee-47e2-9a9f-63f0d2f830d9",
+    "source_id": "e3a065fd-16b8-494a-b0c5-05bd0ca8732c",
+    "target_id": "aefdf217-4a76-434b-9b76-639c70ccbe1e",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0d56945-90c4-4633-a0f5-bef7c22c1d10",
+      "start": 24,
+      "end": 91,
+      "text": "британский кинорежиссер, а вот что- то еще там какое образование"
+    }
+  },
+  {
+    "id": "872cf0c7-831c-42a6-9513-21fa193e4f2a",
+    "source_id": "e3a065fd-16b8-494a-b0c5-05bd0ca8732c",
+    "target_id": "a49dff11-50a3-46f5-97ac-4bb48a7f3a53",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0d56945-90c4-4633-a0f5-bef7c22c1d10",
+      "start": 24,
+      "end": 98,
+      "text": "британский кинорежиссер, а вот что- то еще там какое образование, там жена"
+    }
+  },
+  {
+    "id": "53664802-6e7d-4612-97f2-56e9be020650",
+    "source_id": "e3a065fd-16b8-494a-b0c5-05bd0ca8732c",
+    "target_id": "b465f58c-f6a3-4039-8d6e-c2ebb401200d",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0d56945-90c4-4633-a0f5-bef7c22c1d10",
+      "start": 24,
+      "end": 104,
+      "text": "британский кинорежиссер, а вот что- то еще там какое образование, там жена, дети"
+    }
+  },
+  {
+    "id": "69d50948-8407-4891-8989-7aa3d6c6f966",
+    "source_id": "41485391-50ec-4583-a6f8-046a3e7408c1",
+    "target_id": "0cec13e8-f540-451e-9b0c-3570a87e7d7b",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad380840-3a2d-4634-99d4-65b23c28e3fa",
+      "start": 27,
+      "end": 76,
+      "text": "про сражение, как они проходили, про там численность войск"
+    }
+  },
+  {
+    "id": "20eee14e-89cd-402b-a932-eda7f29f08d8",
+    "source_id": "55db7a76-148a-4fd9-a9b0-3a93788c68c2",
+    "target_id": "93f5fcfd-72ff-4e08-a747-fb55186497fb",
+    "type": "ALLY_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bdce366b-a852-4c77-9c7c-033ee1e3c583",
+      "start": 65,
+      "end": 90,
+      "text": "англия, пруссия, австрия"
+    }
+  },
+  {
+    "id": "bb25394f-29b6-465d-9a4d-68fed1c96f51",
+    "source_id": "55db7a76-148a-4fd9-a9b0-3a93788c68c2",
+    "target_id": "e609cda2-c7af-4bb8-8dde-d3e5a1ddf1a2",
+    "type": "ALLY_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bdce366b-a852-4c77-9c7c-033ee1e3c583",
+      "start": 65,
+      "end": 90,
+      "text": "англия, пруссия, австрия"
+    }
+  },
+  {
+    "id": "1b9a8f13-9d3f-44a3-a601-99854c4880f2",
+    "source_id": "93f5fcfd-72ff-4e08-a747-fb55186497fb",
+    "target_id": "e609cda2-c7af-4bb8-8dde-d3e5a1ddf1a2",
+    "type": "ALLY_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bdce366b-a852-4c77-9c7c-033ee1e3c583",
+      "start": 65,
+      "end": 90,
+      "text": "англия, пруссия, австрия"
+    }
+  },
+  {
+    "id": "d633afac-6b2f-4558-a192-d3a7d5cbb97f",
+    "source_id": "55db7a76-148a-4fd9-a9b0-3a93788c68c2",
+    "target_id": "e823d400-2fc3-4ef3-b052-63e92bdc16fa",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bdce366b-a852-4c77-9c7c-033ee1e3c583",
+      "start": 65,
+      "end": 114,
+      "text": "англия, пруссия, австрия, например, что здесь флаг англии"
+    }
+  },
+  {
+    "id": "e7598f75-f3db-422a-914a-0143a349abab",
+    "source_id": "af69f8c2-a0e7-4eb7-9aac-368799d2c936",
+    "target_id": "37ed4502-10f2-44fb-bb8b-dbd200e0b3b4",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0bc0c052-dfe3-482d-bb54-bf6ba87eadda",
+      "start": 54,
+      "end": 86,
+      "text": "готовые ответы, шаблоны ответов"
+    }
+  },
+  {
+    "id": "8991f013-4dfb-4288-a2c0-519996193052",
+    "source_id": "d6d66f45-72bb-4b74-b097-d52902cd4f81",
+    "target_id": "e7534a3f-3ebb-44d1-a786-d3157c7cee2e",
+    "type": "USED_IN",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "user",
+        "value": "алисы",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d47dddd1-abee-4c18-969b-c7af1009d887",
+      "start": 0,
+      "end": 55,
+      "text": "алисы пользовался в телеграмме g пяти четыре он по- моему называется"
+    }
+  },
+  {
+    "id": "a8d6625d-ec3a-47a8-aa3b-bedc159565bb",
+    "source_id": "d6d66f45-72bb-4b74-b097-d52902cd4f81",
+    "target_id": "3e4a373a-3052-4d52-8250-a376a96038dc",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d47dddd1-abee-4c18-969b-c7af1009d887",
+      "start": 0,
+      "end": 69,
+      "text": "алисы пользовался в телеграмме g пяти четыре он по- моему называется"
+    }
+  },
+  {
+    "id": "62636729-155e-4971-b555-a26f1870cb0c",
+    "source_id": "0b7559d0-20c7-4d26-9422-6f5221861200",
+    "target_id": "f901d2a2-95a4-4654-aefd-8f5e9e6b82ae",
+    "type": "SHOWS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ab8b1b2e-15db-40be-8680-38ee04af9952",
+      "start": 12,
+      "end": 42,
+      "text": "нейро показывает мне ссылки"
+    }
+  },
+  {
+    "id": "d634d166-7836-41b7-8bee-692fee0ffce3",
+    "source_id": "c23257ef-acd8-4517-a300-4dfc424b3614",
+    "target_id": "71aa95c0-a424-47ec-bcc0-0326fff7e226",
+    "type": "HAS_ATTRIBUTE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0494b87-2c29-465a-837d-73b59032efe0",
+      "start": 24,
+      "end": 79,
+      "text": "телевизор выбирал, мне было важно в отзывах как у них операционка работает"
+    }
+  }
+]

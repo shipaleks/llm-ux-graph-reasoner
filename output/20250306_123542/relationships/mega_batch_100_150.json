@@ -1,0 +1,850 @@
+[
+  {
+    "id": "0faa62b8-9ae2-40e1-924c-0f41c58feb38",
+    "source_id": "9338d95d-f9a2-4bab-b473-a005177db6e3",
+    "target_id": "3b0541c0-1b85-4f92-8dc5-6a9b8e4048c4",
+    "type": "SIGNED",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f754c5c-5b07-48c1-9335-d9b7d8f4513f",
+      "start": 34,
+      "end": 52,
+      "text": "подписало новый"
+    }
+  },
+  {
+    "id": "0ead1e20-2bd2-458a-a3aa-2a372ed9a848",
+    "source_id": "89565993-4d42-4098-9c14-4b0a9ea6e6aa",
+    "target_id": "9bde4b39-4c90-43da-a5a9-edbf7549c917",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fc8ac249-9d4f-45f6-95eb-64e7050fa5d2",
+      "start": 114,
+      "end": 130,
+      "text": "одно большое полотно"
+    }
+  },
+  {
+    "id": "e726653b-085f-4099-bd83-b5adfa6cab07",
+    "source_id": "be5a9ad6-220c-4491-babd-40c25660a0c1",
+    "target_id": "5ea3e69c-b8a5-494b-bf26-51b5b2bb23ec",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "641f505e-0795-42dd-9436-cd984cc9fab0",
+      "start": 62,
+      "end": 112,
+      "text": "подходит под общий стиль, оно лаконично, оно вписано"
+    }
+  },
+  {
+    "id": "2a227f89-f171-44ff-a594-2295f2ca4396",
+    "source_id": "895d76d0-a81b-4584-89aa-4a68590d9133",
+    "target_id": "3e0d9753-8e63-4b33-bc00-cf07fc0de290",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23908775-628d-450f-a77d-23cb3457d013",
+      "start": 117,
+      "end": 125,
+      "text": "источников"
+    }
+  },
+  {
+    "id": "eb5f047d-1c1f-4382-b04d-9a373d10271b",
+    "source_id": "a359763e-dd95-4af6-8ce4-66b33b96880f",
+    "target_id": "6eb60dad-2e78-421f-87dc-5c8d1bed0d38",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43da5fdb-b53a-4520-a2b5-12bb543aa3fd",
+      "start": 20,
+      "end": 28,
+      "text": "телефоне"
+    }
+  },
+  {
+    "id": "c7d05723-4375-4380-bff9-35eeeb7bac00",
+    "source_id": "a359763e-dd95-4af6-8ce4-66b33b96880f",
+    "target_id": "0b029953-6668-46e3-8968-8a9aee61bc52",
+    "type": "HAS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "43da5fdb-b53a-4520-a2b5-12bb543aa3fd",
+      "start": 126,
+      "end": 135,
+      "text": "поисковик"
+    }
+  },
+  {
+    "id": "0a228eaf-ed49-4329-a230-cd15c4bd11bd",
+    "source_id": "873c9eba-3608-4566-8b35-43be3440fbc6",
+    "target_id": "53976c89-4445-4e1e-a857-3bdb18a4361f",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4bfb3d00-7dae-4f83-a72b-88766a13eb35",
+      "start": 21,
+      "end": 31,
+      "text": "гугл хроме"
+    }
+  },
+  {
+    "id": "ffd6fa67-4014-4d5d-81cb-67e5d54a1668",
+    "source_id": "a0b15ff4-7de4-44cc-b54b-5f7acd8f1759",
+    "target_id": "60cae66e-011d-49f2-bc44-9631b8d86acd",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cbae313c-35b0-4324-9d39-e33c918ff031",
+      "start": 112,
+      "end": 130,
+      "text": "и по учебе что- то"
+    }
+  },
+  {
+    "id": "09e6a2c1-fd19-477d-a3ea-346223f10cfa",
+    "source_id": "e331bd13-78fa-4a5a-9e90-d999930dda49",
+    "target_id": "cd1cb88d-0482-43a3-aa2a-0a29f96ed376",
+    "type": "INSIDE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "86ba0195-e601-4b0c-abaf-474a24b36ab3",
+      "start": 12,
+      "end": 51,
+      "text": "добавить генеративные возможности внутрь"
+    }
+  },
+  {
+    "id": "93ed4333-a257-4334-8958-674cd05a31c1",
+    "source_id": "329c703a-98f8-444c-a09c-f4e78383c49c",
+    "target_id": "2668860d-dfa8-4790-9a28-df9b2ad5a5a8",
+    "type": "HAS_GROUP",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "78b57208-74d6-47d4-a872-69a117d570c1",
+      "start": 31,
+      "end": 40,
+      "text": "вконтакте"
+    }
+  },
+  {
+    "id": "c9361f8f-0819-4d0f-883d-81a087339827",
+    "source_id": "40c7e77a-83bf-4b6d-a9e0-6416a688fd5e",
+    "target_id": "9e5d629c-4bd1-4a85-9652-2df7a7955202",
+    "type": "HEATS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "12d36b3b-d4b7-406f-8c87-6fcf71552b26",
+      "start": 36,
+      "end": 45,
+      "text": "греет хлеб"
+    }
+  },
+  {
+    "id": "0d7ccedc-ab64-4930-bee4-14d09a996ff8",
+    "source_id": "42f3025f-9841-4188-8371-3887d5922a76",
+    "target_id": "96da5155-3ad4-43f6-90dd-561601920d94",
+    "type": "OPPOSITE_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "298a4c1b-d580-4ede-ab51-c8cdb4ae6473",
+      "start": 4,
+      "end": 27,
+      "text": "с вертикальной загрузкой"
+    }
+  },
+  {
+    "id": "a22e002c-baa5-40b9-b11b-98f166008091",
+    "source_id": "2ecff3c9-c260-4f5c-ba61-fb5d6603f968",
+    "target_id": "2bd27924-5d30-44d4-a904-d22e338da0cb",
+    "type": "CAN_COOK",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e8b8ad01-b547-4422-8f5f-40c03ad0d94f",
+      "start": 23,
+      "end": 44,
+      "text": "поджарить кусочки хлеба"
+    }
+  },
+  {
+    "id": "d8bb2c1f-ef1b-4a4a-8709-f89fbc104b2e",
+    "source_id": "28ce2988-ec0a-484f-aadb-53871cdcf7c7",
+    "target_id": "40c7e77a-83bf-4b6d-a9e0-6416a688fd5e",
+    "type": "SELLS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "35e1851a-fbcf-4f2d-9fa6-5d491c175225",
+      "start": 95,
+      "end": 98,
+      "text": "днс"
+    }
+  },
+  {
+    "id": "7ec09395-0da5-4fd6-83aa-01e0fb9a95f7",
+    "source_id": "897e8b1d-f57f-4e57-bf98-cef4d5d1e289",
+    "target_id": "40c7e77a-83bf-4b6d-a9e0-6416a688fd5e",
+    "type": "SELLS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.75,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "35e1851a-fbcf-4f2d-9fa6-5d491c175225",
+      "start": 103,
+      "end": 118,
+      "text": "видео вайлдберис"
+    }
+  },
+  {
+    "id": "801c0167-94f4-4bd8-8455-64096ff861cd",
+    "source_id": "f066d555-11c6-4de0-9e7b-b5c44f96ba4b",
+    "target_id": "d8d0b382-22ee-49ed-84ea-c25d835413de",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9ba0f98-1a83-4044-a1e4-2289435f3467",
+      "start": 0,
+      "end": 36,
+      "text": "у вас экран большого размера компьютера"
+    }
+  },
+  {
+    "id": "dd52e102-d652-4d81-b7fd-436b35de4127",
+    "source_id": "63244108-c87a-467b-adac-0fa3ef18e0e6",
+    "target_id": "0f33dd34-ac80-46f6-ab44-cdd2da58ce72",
+    "type": "CAN_BE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5be29e2c-6fed-4aed-b412-0d7cb0bf8697",
+      "start": 19,
+      "end": 45,
+      "text": "место, может быть событие"
+    }
+  },
+  {
+    "id": "9d8f74c1-dbea-4d67-89ae-446ffa0453b5",
+    "source_id": "1b162782-fa15-4702-ad41-757f807c3598",
+    "target_id": "5df45819-fc07-47ba-8355-6cdfa5edd653",
+    "type": "NATIONALITY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f538294e-ddf6-4c42-87da-e1334bfb1e8d",
+      "start": 4,
+      "end": 29,
+      "text": "слава, который белорус?"
+    }
+  },
+  {
+    "id": "aeb38bdd-35b7-4a2f-86d2-f4ff84921d88",
+    "source_id": "d6566a79-10d4-4209-8572-979fedb55be9",
+    "target_id": "8eed5a11-c379-49d6-8f5f-b80d55f00fc0",
+    "type": "AFTER",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9798a616-3423-4bed-b3c4-c23057940c07",
+      "start": 34,
+      "end": 48,
+      "text": "март, на весну"
+    }
+  },
+  {
+    "id": "c2c3ab77-8d30-42be-bb40-6d831405a4f5",
+    "source_id": "dff61303-1dc8-43a8-bf52-1cd521292cc9",
+    "target_id": "8b84ec23-bccd-4fca-b7a3-507a941c2834",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4c5a16d5-496a-45bd-b0a0-82aab5c6f171",
+      "start": 23,
+      "end": 49,
+      "text": "собак на городские пляжи"
+    }
+  },
+  {
+    "id": "638fc1cb-d50d-4c0b-a1f9-f71f6c3adf46",
+    "source_id": "615dcef2-d5c1-465e-84d2-41d5a235e9b9",
+    "target_id": "38911fe0-d442-4f03-b26a-fe19afa49cec",
+    "type": "HAS_ANALOGS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8ac69d0f-8379-417b-948e-2805dcfd1064",
+      "start": 27,
+      "end": 61,
+      "text": "зума для учителей английского языка"
+    }
+  },
+  {
+    "id": "3f9a5b52-c115-4466-b8a3-7046dbb4fc83",
+    "source_id": "0ff99265-632c-4c03-8cf8-b1fb3b760456",
+    "target_id": "c43ea8e9-7e91-4bd8-a947-89b4aaf7982f",
+    "type": "HAS_ANALOGS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dfe47383-2336-4086-a937-bbe84ac6a340",
+      "start": 0,
+      "end": 11,
+      "text": "аналоги зум"
+    }
+  },
+  {
+    "id": "c017b70e-cbec-4c28-8e36-9593205ce28a",
+    "source_id": "7774f8da-2a21-403f-bcce-653ce3400b2c",
+    "target_id": "335bf5ab-c41f-4e85-bb39-5ad6a6b26ecf",
+    "type": "HAS_ANALOGS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a2db72f-bbf4-45f2-abdc-901a44b9eec8",
+      "start": 12,
+      "end": 52,
+      "text": "зум для учителей английского языка?"
+    }
+  },
+  {
+    "id": "d88e3f40-b277-4e8f-b01a-d5ce639891bf",
+    "source_id": "57f67826-4083-4fe6-a474-9d5b4460a701",
+    "target_id": "329c703a-98f8-444c-a09c-f4e78383c49c",
+    "type": "CREATED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "977891d1-8726-4bec-be1b-8402a2a69128",
+      "start": 15,
+      "end": 34,
+      "text": "сфера площадка от вконтакте"
+    }
+  },
+  {
+    "id": "881fd906-a38d-4d1d-bfd8-827667c62a02",
+    "source_id": "57f67826-4083-4fe6-a474-9d5b4460a701",
+    "target_id": "5e905a2a-d953-4c22-8c62-49a05a51680a",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "977891d1-8726-4bec-be1b-8402a2a69128",
+      "start": 65,
+      "end": 75,
+      "text": "татарстане"
+    }
+  },
+  {
+    "id": "839d2189-df14-46a0-8111-7e2a99bdbb47",
+    "source_id": "1e353e44-380a-4b27-a5e4-850fd27ed00e",
+    "target_id": "100a635a-4328-4b19-8465-f1c685235396",
+    "type": "HAS_FUNCTION",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "34910460-9521-4639-9ba7-f377167557a8",
+      "start": 14,
+      "end": 31,
+      "text": "функции платформы"
+    }
+  },
+  {
+    "id": "27048354-682d-48b1-8643-1828d8d84e31",
+    "source_id": "ed0edd2f-29bc-4f47-9be2-288122604c6c",
+    "target_id": "a4c967f1-7968-4de2-aee2-8d321bbc9119",
+    "type": "TELL_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "628b3927-d2a7-41c6-8544-680ebd956b54",
+      "start": 62,
+      "end": 96,
+      "text": "какие джентльменские правила рассказать мальчикам"
+    }
+  },
+  {
+    "id": "11c1c53e-61b0-47ea-9734-170e252c8fbf",
+    "source_id": "9b9037bd-60a7-49f3-862f-c038677130d0",
+    "target_id": "9cd0c6f4-e389-4598-ae59-ccaa0bb74d08",
+    "type": "CONDUCT_FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f9784d9-0aed-40fc-b13b-fbc48f8a32d3",
+      "start": 21,
+      "end": 52,
+      "text": "провести для мальчиков классный час"
+    }
+  },
+  {
+    "id": "51d43b00-3aa5-487f-9586-9f5084171187",
+    "source_id": "2c0f6120-472c-464d-a3ed-2db66ad96293",
+    "target_id": "f2bf81c9-33f8-4698-b221-4257d129da10",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5fe525d4-d2f1-40ed-b06a-af274479e8a4",
+      "start": 18,
+      "end": 56,
+      "text": "правила джентльмена, настоящего джентльмена"
+    }
+  },
+  {
+    "id": "01b5d391-a77e-4b53-bfa0-6ec50c1bc20e",
+    "source_id": "7cd4ff1e-30ba-4eae-ba85-74b2ac543afc",
+    "target_id": "ade597b4-33f8-4f55-97a0-c00c8912cab1",
+    "type": "LIKE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8da072ce-d331-4ea8-a732-f4b8869e6608",
+      "start": 47,
+      "end": 86,
+      "text": "правила современного джентльмена, который нравится девушкам"
+    }
+  },
+  {
+    "id": "fe9014c6-e464-4ea2-bb9e-600cd16e57bd",
+    "source_id": "c3e35988-d018-4ff6-aeb1-c693a4acd055",
+    "target_id": "3eedaf23-0ad3-4ce1-b58b-6e3795229c5f",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "20957e1f-c53a-4a0c-ba00-bff0579ad4e1",
+      "start": 23,
+      "end": 43,
+      "text": "спасибо пожалуйста"
+    }
+  },
+  {
+    "id": "f2bb6caa-f9cc-46c6-b9a2-9fa0508f89fe",
+    "source_id": "1f98dc3f-4abc-4d23-a7dc-5f556285b081",
+    "target_id": "64c85525-78c2-40e1-83a4-c78ff4be66a3",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57936aad-b6ba-43da-8131-fb15fb750486",
+      "start": 6,
+      "end": 44,
+      "text": "тревел аск точка ру и ну вот чак точка ру"
+    }
+  },
+  {
+    "id": "1615a20a-1191-442f-8937-f2fdd6b98f94",
+    "source_id": "7f46388d-576b-4c48-a178-5007010fbaac",
+    "target_id": "77501810-23dc-496d-a6a4-8ffb4bb32876",
+    "type": "COMPARED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "fb0c75b3-f9ee-4865-a315-8101722a7fb5",
+      "start": 17,
+      "end": 92,
+      "text": "видео на четырнадцать минут, если я могу получить информацию за три минуты"
+    }
+  },
+  {
+    "id": "f682148b-e7d6-427b-86e5-7d8503fd6190",
+    "source_id": "2800b760-8b0f-4298-bab9-0a4c116823a8",
+    "target_id": "f13d77fb-034a-4307-a9cf-fe570f054d64",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e573470-3a7e-42a9-bae6-5f0dae0ba226",
+      "start": 87,
+      "end": 174,
+      "text": "дня святого валентина и я бы увидела, что там какая- нибудь классная нарисованная картинка еще, то есть это видео в картинках"
+    }
+  },
+  {
+    "id": "28a5900d-a792-4871-b1e6-a81d68e53539",
+    "source_id": "f13d77fb-034a-4307-a9cf-fe570f054d64",
+    "target_id": "2f2bf6ec-4295-454c-8d20-2bdb8d376815",
+    "type": "DURATION_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1e573470-3a7e-42a9-bae6-5f0dae0ba226",
+      "start": 189,
+      "end": 218,
+      "text": "где- нибудь три тире пять минут"
+    }
+  },
+  {
+    "id": "3218115f-9a15-479b-ba2e-a44c02bac4c1",
+    "source_id": "7e3601e7-a13c-4968-a403-4cc18c985c1b",
+    "target_id": "6574c70d-28bb-48f3-a891-77471eeb84ab",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1ff34857-f23f-4ab7-9690-f0cc1f399841",
+      "start": 36,
+      "end": 51,
+      "text": "в контакте, вк"
+    }
+  },
+  {
+    "id": "8ce1dc8b-438e-4e9d-84b1-7b2f17234cf8",
+    "source_id": "f48d03c6-c414-42f3-8130-625e42babe49",
+    "target_id": "1d935bba-b1ab-4ba8-bb25-0fec10a50aba",
+    "type": "DURATION_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b05fed0e-f3c8-40d1-9711-72380acd65f8",
+      "start": 24,
+      "end": 46,
+      "text": "задержка секунды в три- четыре"
+    }
+  },
+  {
+    "id": "c59e41af-e119-4e98-bda1-a70869f3d162",
+    "source_id": "cf0862dd-11ad-4bd1-8f06-dcb97c23a4ac",
+    "target_id": "104e43e5-c61b-46c7-ae62-8ff3d65201fd",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "3f89c1ba-b536-41e9-ad78-96879db6416a",
+      "start": 43,
+      "end": 102,
+      "text": "медиа халвака точка ру и вторая строчка лайф точка ру"
+    }
+  },
+  {
+    "id": "42b4adee-40cb-4364-8a72-0c8148f510a8",
+    "source_id": "28e3fdff-f4ee-4425-b16f-2f6277972c77",
+    "target_id": "544ba38e-7433-4e32-8c86-b6ac00b69f9d",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a54dc3b9-721e-4307-a46c-8603a0dca5f0",
+      "start": 28,
+      "end": 78,
+      "text": "вот в самом низу строка компьютера, да, где у нас есть разные программы"
+    }
+  },
+  {
+    "id": "4b67aa65-6d4f-44c7-a03c-65f3d6a93e5b",
+    "source_id": "253acaf7-73c6-434c-a2d0-fb2a5f5f8bc5",
+    "target_id": "a11422ce-adb2-4676-a2f2-acf9ed687249",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b7a27a69-44ce-4877-84c2-90b0fb672be6",
+      "start": 24,
+      "end": 54,
+      "text": "про тест не давить волонтера эксперты"
+    }
+  },
+  {
+    "id": "a59566fc-4351-46d2-abc0-a9e9b14e5c1e",
+    "source_id": "3b547881-22ce-4063-b6df-dfb322c30a87",
+    "target_id": "95275917-e1fa-421a-8565-8fa94bee6144",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 87,
+      "end": 137,
+      "text": "заголовок, подзаголовок и еще один под- под- заголовок, если это пункты"
+    }
+  },
+  {
+    "id": "709224d8-3c90-4fa3-8efb-916bc32e58cf",
+    "source_id": "13169499-112c-4867-b3cb-0079cabf553b",
+    "target_id": "95275917-e1fa-421a-8565-8fa94bee6144",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 87,
+      "end": 137,
+      "text": "заголовок, подзаголовок и еще один под- под- заголовок, если это пункты"
+    }
+  },
+  {
+    "id": "6b66d229-9089-4402-b7d9-c0d267e92995",
+    "source_id": "da2b7ada-c157-49a1-a47d-b1fdddccb790",
+    "target_id": "95275917-e1fa-421a-8565-8fa94bee6144",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "77b194f7-baad-426e-a924-795f0591a7f9",
+      "start": 87,
+      "end": 137,
+      "text": "заголовок, подзаголовок и еще один под- под- заголовок, если это пункты"
+    }
+  },
+  {
+    "id": "49445f89-f594-4a43-a3e7-f6109b315da7",
+    "source_id": "b40d1d31-0e53-4095-b4b0-9b8179c66fbb",
+    "target_id": "a8e8c7af-990b-4362-8ab3-f18c3eb82084",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7a4f6cc9-3e62-4428-a036-df1274768684",
+      "start": 16,
+      "end": 45,
+      "text": "скатаи, например, национальный парк"
+    }
+  },
+  {
+    "id": "4ee915da-2ed4-4d12-8c05-29926f93320f",
+    "source_id": "3825f3ad-8fec-4163-b4f8-6f23379f2e98",
+    "target_id": "58039d8c-03f3-4df1-8564-c06be119663b",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "de129806-2d5d-4cf7-9114-4680c5a88e93",
+      "start": 0,
+      "end": 29,
+      "text": "алтай советы для путешествий"
+    }
+  },
+  {
+    "id": "d36c0c18-dbc3-4073-ae83-d79726a2d207",
+    "source_id": "e30795a5-902c-4425-be8c-a12402ee5695",
+    "target_id": "ebd221a9-6aca-401b-8997-3f8e7646e1f6",
+    "type": "LOCATED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2071f52-462a-4b6c-a9bf-7c9442f607b1",
+      "start": 10,
+      "end": 55,
+      "text": "санкт- петербурге и я методолог музея здоровья"
+    }
+  },
+  {
+    "id": "3ce5b76b-a627-4c48-a67f-4e970fc19feb",
+    "source_id": "77944cc4-a6b1-4141-8288-415bc0cbabe8",
+    "target_id": "1ab38db8-4b58-4387-9d77-6560af12c0be",
+    "type": "SAME_AS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57bc9373-57a8-49d2-9b5b-a7c84464060c",
+      "start": 21,
+      "end": 83,
+      "text": "приложение или веб- сайт ресурсы какие- то или глобальное популярное приложение"
+    }
+  },
+  {
+    "id": "0bce3a94-76a7-4a3e-aa0d-083e4b3084fe",
+    "source_id": "ceb58486-ac0c-48dd-a730-a33cecfd79a7",
+    "target_id": "369a8646-8b08-4f27-842a-72c5e1f927dc",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cb3a194a-6129-43ce-89cf-bfc37942e5bf",
+      "start": 17,
+      "end": 34,
+      "text": "с ноутбука или с ноутбуков"
+    }
+  },
+  {
+    "id": "5ee495b2-9eba-472a-811f-f5d8c2c23bb7",
+    "source_id": "4e90eca6-4397-4965-8f64-a94875dab842",
+    "target_id": "1e73461a-8016-4d51-a02d-0ae77df9c360",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2f3e7ed1-cf27-4f19-a1ba-334027fc233c",
+      "start": 22,
+      "end": 59,
+      "text": "телефона- это тоже поисковик обычный сафари по правилам"
+    }
+  },
+  {
+    "id": "4014a1e5-ab0a-4cdb-9b96-7f157c26a640",
+    "source_id": "01ba6349-d933-43dd-a1eb-89d6d24a71e4",
+    "target_id": "720cd8d8-c1ce-4c4f-8803-01f835416228",
+    "type": "EXAMPLE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e75b9b6d-60da-445b-b289-df3f1327676b",
+      "start": 43,
+      "end": 60,
+      "text": "инстаграм, ютуб"
+    }
+  },
+  {
+    "id": "cde650ef-e325-4366-8bbb-c5f7d877d608",
+    "source_id": "b6d62787-2be6-465e-bdf0-bbfd11a1db9b",
+    "target_id": "e21aaf79-cfc4-449f-bb3c-4cc1a4b2f3d4",
+    "type": "USE",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "41b3a893-8e56-48e3-8227-85c5cfc72c9f",
+      "start": 61,
+      "end": 93,
+      "text": "через какие сервисы я пробую это искать через разные устройства"
+    }
+  },
+  {
+    "id": "61cb7860-a3ed-4711-a667-1bcf0ef18a82",
+    "source_id": "0b1faaab-a472-4baa-92b8-ca5c4bd7680c",
+    "target_id": "ce5790b9-0729-4d0f-87a7-1e7d14ba1c01",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b58cf40e-b9b3-4145-b1b4-5dbe8ec71188",
+      "start": 32,
+      "end": 56,
+      "text": "g или любые g похожие сервисы"
+    }
+  },
+  {
+    "id": "b8f43e0b-e850-4c10-8825-2568aba07f1b",
+    "source_id": "96efc05e-8ea2-45ed-90a0-e47538da8b57",
+    "target_id": "1ea4993e-c030-48e7-a9c8-d5819a974273",
+    "type": "CONTAINS",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ad28607f-d4d6-489b-958e-c1f7c998f9dc",
+      "start": 85,
+      "end": 145,
+      "text": "есть сквозная информация, в которой ты, как правило, которой ты удовлетворяешься"
+    }
+  }
+]

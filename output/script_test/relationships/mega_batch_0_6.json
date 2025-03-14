@@ -1,0 +1,114 @@
+[
+  {
+    "id": "4b2947ca-e2de-4a22-9dc5-514368cf7b35",
+    "source_id": "a66c0b82-8e71-4a57-953e-5641a8424133",
+    "target_id": "f1892c46-7f00-4664-a51c-f0077cc0ac09",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed0be174-8776-4223-b1c5-accb531a6b62",
+      "start": 27,
+      "end": 91,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, редактор"
+    }
+  },
+  {
+    "id": "85c5ea97-fd5e-4c57-bbce-550ab9a1669f",
+    "source_id": "b0d609a4-5af3-440b-9748-a4a1bdc7a4ca",
+    "target_id": "f1892c46-7f00-4664-a51c-f0077cc0ac09",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed0be174-8776-4223-b1c5-accb531a6b62",
+      "start": 27,
+      "end": 91,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, ... пересказ"
+    }
+  },
+  {
+    "id": "ba861856-c805-488a-9d41-879437a0b6df",
+    "source_id": "dcc18d14-1969-4629-9bed-95a077709f28",
+    "target_id": "f1892c46-7f00-4664-a51c-f0077cc0ac09",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ed0be174-8776-4223-b1c5-accb531a6b62",
+      "start": 27,
+      "end": 91,
+      "text": "у яндекса сейчас есть еще сейчас есть еще такие подразделения, например, ... переводчик"
+    }
+  },
+  {
+    "id": "882e44ba-580b-4364-ac7c-fa3d324d5798",
+    "source_id": "8d2a244a-c6a6-40a7-b342-295ce44dce96",
+    "target_id": "0d2c0e75-ab1a-47bf-a7eb-c4e142f32c9b",
+    "type": "ALIAS_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5a367deb-606c-412c-8336-7e22133b774a",
+      "start": 62,
+      "end": 72,
+      "text": "яндекс гбт"
+    }
+  },
+  {
+    "id": "51c44896-1e96-40e1-8753-b82f251bb0e0",
+    "source_id": "5d81d3e0-6936-4700-a32b-8345857f1e7b",
+    "target_id": "b7e3cbaa-c844-4f43-97d1-1cf92d775839",
+    "type": "TEACHES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "27014587-94c8-4c3b-84b7-0166aeda28d8",
+      "start": 47,
+      "end": 59,
+      "text": "преподаватель"
+    }
+  },
+  {
+    "id": "311f9919-de87-4fcd-bb19-eb6653200486",
+    "source_id": "3dcb77d9-c4e7-4910-8872-ff1ff0800f90",
+    "target_id": "a7e88fce-ba6e-4f2f-a1a2-d76bbb3b0d41",
+    "type": "SAME_AS",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ef420b67-ddd5-4a80-86c2-3ad915ac6dca",
+      "start": 0,
+      "end": 23,
+      "text": "реферат научная статья"
+    }
+  },
+  {
+    "id": "20df448f-a169-48d2-ac8e-43d64fd2d1e6",
+    "source_id": "9d9396d8-ee36-4623-b4d8-cebb6ea62847",
+    "target_id": "34b8ef0b-ba7d-4884-bb4b-986a264562c7",
+    "type": "RELATED_TO",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4672e10a-f25f-4397-8013-96c1a3167e60",
+      "start": 2,
+      "end": 38,
+      "text": "и алексе точнее я понял, а вот с нейра"
+    }
+  }
+]

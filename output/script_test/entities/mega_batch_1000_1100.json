@@ -1,0 +1,408 @@
+[
+  {
+    "id": "e634c7c4-684e-4c36-86a3-5fa2507ad036",
+    "name": "работа",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ebc793f5-e2e4-4b75-8f3f-997a35374f87",
+      "start": 23,
+      "end": 29,
+      "text": "работа"
+    }
+  },
+  {
+    "id": "8d391ca9-06c9-4db4-9154-ee928db04076",
+    "name": "самсунг галакси пятьдесят четыре",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4336bf83-83fc-4336-b209-136064f59dbf",
+      "start": 62,
+      "end": 94,
+      "text": "самсунг галакси пятьдесят четыре"
+    }
+  },
+  {
+    "id": "e23e7d49-ff2d-48c9-84c6-21bfdc054f70",
+    "name": "топ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4336bf83-83fc-4336-b209-136064f59dbf",
+      "start": 113,
+      "end": 116,
+      "text": "топ"
+    }
+  },
+  {
+    "id": "86d27d04-54bc-4f85-8c43-d8ffc40e822d",
+    "name": "топ-десять",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4336bf83-83fc-4336-b209-136064f59dbf",
+      "start": 130,
+      "end": 140,
+      "text": "топ- десять"
+    }
+  },
+  {
+    "id": "ae2e6158-08b6-4fd2-b61b-bad29023e25e",
+    "name": "сомнения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f0ca57c4-d083-4411-aad3-c0c99171d9e3",
+      "start": 11,
+      "end": 19,
+      "text": "сомнения"
+    }
+  },
+  {
+    "id": "4247ac7c-5a98-47c9-9709-a41ee31fd345",
+    "name": "тест на инфиникс",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "994f7b40-c05b-41bc-a135-ef1b71875fe7",
+      "start": 7,
+      "end": 23,
+      "text": "тест на инфиникс"
+    }
+  },
+  {
+    "id": "5a476031-4d4d-4e2f-9083-f8bfccf6fdc8",
+    "name": "топ",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "994f7b40-c05b-41bc-a135-ef1b71875fe7",
+      "start": 59,
+      "end": 62,
+      "text": "топ"
+    }
+  },
+  {
+    "id": "bef46132-48ad-44eb-9b41-909070e20443",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d0dea0e-3297-4dd9-93a4-bdda3b6fec42",
+      "start": 10,
+      "end": 15,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "872c2217-3fd3-4bc2-80fc-ce63333ef4c0",
+    "name": "компьютере",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2d0dea0e-3297-4dd9-93a4-bdda3b6fec42",
+      "start": 54,
+      "end": 64,
+      "text": "компьютере"
+    }
+  },
+  {
+    "id": "3deda623-a424-4c90-bcd5-0103e07edbdb",
+    "name": "шнейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "04e7bd32-b8a1-46bc-b8a1-520cbbf31a5d",
+      "start": 21,
+      "end": 27,
+      "text": "шнейра"
+    }
+  },
+  {
+    "id": "139c9a60-5569-4a98-b6f7-6d7393d40e40",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "04e7bd32-b8a1-46bc-b8a1-520cbbf31a5d",
+      "start": 35,
+      "end": 40,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "06177a6c-500e-486f-94d4-5156449d0d12",
+    "name": "экран",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b40435de-5ff5-4eda-aaed-969b5befc111",
+      "start": 54,
+      "end": 59,
+      "text": "экраном"
+    }
+  },
+  {
+    "id": "2ec9d04d-e491-422e-b06d-c7db9a251b66",
+    "name": "карточка нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "03e7651f-9896-4aad-9ca4-53154da9281b",
+      "start": 9,
+      "end": 23,
+      "text": "карточка нейра"
+    }
+  },
+  {
+    "id": "d0af90ec-e228-4c1d-8e6f-1db923f61b60",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "95df2d49-9310-4fcb-95b4-8ab7ddd75ed2",
+      "start": 34,
+      "end": 38,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "0c313799-cb1c-4ffb-a0e8-fb6dffa3175f",
+    "name": "рейтинги",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "95df2d49-9310-4fcb-95b4-8ab7ddd75ed2",
+      "start": 41,
+      "end": 49,
+      "text": "рейтинги"
+    }
+  },
+  {
+    "id": "59a76497-bdc0-401d-9715-75dcda5590fb",
+    "name": "запрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "57eaa875-4fc0-4791-9425-423f8aacebc9",
+      "start": 101,
+      "end": 107,
+      "text": "запрос"
+    }
+  },
+  {
+    "id": "10323979-0fb2-40db-a69c-51124caa2b49",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d7a4a383-7c3b-4f83-a24a-0b1801833ba7",
+      "start": 47,
+      "end": 56,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "a68f1a73-939f-42d4-b9b5-f4cbfd6b2d73",
+    "name": "цены",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26d23a79-6d3c-4288-8800-df0e10c0f155",
+      "start": 111,
+      "end": 115,
+      "text": "цены"
+    }
+  },
+  {
+    "id": "04fdfa6a-1a29-48b9-84b3-e0d7f736aa58",
+    "name": "рейтинг",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "26d23a79-6d3c-4288-8800-df0e10c0f155",
+      "start": 118,
+      "end": 125,
+      "text": "рейтинг"
+    }
+  },
+  {
+    "id": "c543266c-846c-4b4c-95d2-80560b655b0a",
+    "name": "кнопка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f38c99a1-9a24-448d-b827-9788fb5fd409",
+      "start": 51,
+      "end": 57,
+      "text": "кнопка"
+    }
+  },
+  {
+    "id": "5a6e6132-e62d-4b80-a50f-1081b813c714",
+    "name": "дипсерч",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f4e86fc8-9f7d-4980-8869-b18714525f39",
+      "start": 23,
+      "end": 30,
+      "text": "дипсерч"
+    }
+  },
+  {
+    "id": "b910fc67-2d8e-402a-88ff-8a83360e5401",
+    "name": "бета-версия",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e6f28e10-094e-40b4-870c-87568f666eb4",
+      "start": 17,
+      "end": 28,
+      "text": "бета- версией"
+    }
+  },
+  {
+    "id": "400cc754-df4d-4eb8-b253-93fff5fb6c83",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "790bd651-5c00-4fd2-86aa-61909e406a53",
+      "start": 58,
+      "end": 67,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "de9c1369-c224-4045-b899-8af9d732682e",
+    "name": "пятьдесят четыре",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2ebbc02-81bb-4fdf-a371-8a83fa325fda",
+      "start": 10,
+      "end": 25,
+      "text": "пятьдесят четыре"
+    }
+  },
+  {
+    "id": "a9d31084-220d-4a7b-b107-4179de89e0de",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2ebbc02-81bb-4fdf-a371-8a83fa325fda",
+      "start": 65,
+      "end": 74,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "4262ceeb-811c-4f1b-aee0-0459dbbf44c7",
+    "name": "двадцать четыре",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f2ebbc02-81bb-4fdf-a371-8a83fa325fda",
+      "start": 81,
+      "end": 95,
+      "text": "двадцать четыре"
+    }
+  },
+  {
+    "id": "a1176c6d-4671-41ff-91dd-ddd0add0c5f0",
+    "name": "смартфоны",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "cf55d262-a01c-4254-94f5-b1ea11ede760",
+      "start": 44,
+      "end": 53,
+      "text": "смартфоны"
+    }
+  },
+  {
+    "id": "d5526968-be69-495d-a6fb-bc432faf610a",
+    "name": "рейтинг бюджетных смартфонов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "8e555320-98b7-4b54-8c27-0768bc4f5c7f",
+      "start": 24,
+      "end": 53,
+      "text": "рейтинг бюджетных смартфонов"
+    }
+  },
+  {
+    "id": "e110ec2d-1c76-4a13-aec7-735af502ee92",
+    "name": "яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0d21140e-b89b-4ba5-98c5-a28bb5e99e46",
+      "start": 63,
+      "end": 70,
+      "text": "яндексе"
+    }
+  }
+]

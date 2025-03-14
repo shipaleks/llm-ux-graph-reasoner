@@ -1,0 +1,49 @@
+Analyze the following reasoning on a research question and extract structured knowledge to supplement the graph.
+
+Research question: {{question}}
+
+Reasoning:
+{{reasoning}}
+
+Extract:
+
+1. New entities to add to the graph:
+   - Name
+   - Type
+   - Attributes
+   - Source in reasoning (quote)
+   - Confidence (0-1)
+
+2. New relationships between entities:
+   - Source entity
+   - Target entity
+   - Relationship type
+   - Direction
+   - Source in reasoning (quote)
+   - Confidence (0-1)
+
+3. Clarifications of existing entities:
+   - Entity
+   - Attribute to clarify
+   - New value
+   - Source in reasoning (quote)
+   - Confidence (0-1)
+
+4. Clarifications of existing relationships:
+   - Relationship (source and target entities)
+   - Aspect to clarify (type, strength, direction)
+   - New value
+   - Source in reasoning (quote)
+   - Confidence (0-1)
+
+5. Meta-concepts or generalizations:
+   - Name
+   - Description
+   - Related entities
+   - Source in reasoning (quote)
+   - Confidence (0-1)
+
+Focus on substantial additions and changes, ignoring trivial ones.
+
+Respond with a JSON object that strictly follows this schema:
+{{schema}}

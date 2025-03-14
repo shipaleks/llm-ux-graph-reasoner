@@ -1,0 +1,185 @@
+[
+  {
+    "id": "9bb7a5e2-9b38-4749-865e-a69743275740",
+    "source_id": "17a9f13a-4f65-463b-9e73-45fddec6b716",
+    "target_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "type": "CEO_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 0,
+      "end": 27,
+      "text": "John Smith is the CEO of"
+    }
+  },
+  {
+    "id": "75285973-bcb4-4a77-a3a8-e718a28378c6",
+    "source_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "target_id": "5f05d4d1-a9df-430a-a65b-5d6e8fb77c5b",
+    "type": "FOUNDED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 48,
+      "end": 66,
+      "text": "which was founded in"
+    }
+  },
+  {
+    "id": "e1274b17-3eb6-41ae-8997-1839bf68b4cb",
+    "source_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "target_id": "cfde5018-d0ce-49b0-813f-f1ac89f30c18",
+    "type": "HEADQUARTERED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 71,
+      "end": 102,
+      "text": "is headquartered in New York City"
+    }
+  },
+  {
+    "id": "358345e6-e0aa-47c2-badc-e21f28fdbf18",
+    "source_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "target_id": "e24dfdef-1567-419b-9642-c5619a936d3f",
+    "type": "SPECIALIZES_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a9e2efaa-994e-4a50-be12-a3a296e42ead",
+      "start": 107,
+      "end": 142,
+      "text": "and specializes in software development"
+    }
+  },
+  {
+    "id": "f7afdbaa-3b80-4f0b-adcd-05a363e1f62e",
+    "source_id": "dab79a3d-a74d-4fc8-a9fd-ed49951e4614",
+    "target_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "type": "CTO_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 0,
+      "end": 30,
+      "text": "Mary Johnson is the CTO of"
+    }
+  },
+  {
+    "id": "31636ccd-d736-4042-a6dd-4bd54be69cc2",
+    "source_id": "dab79a3d-a74d-4fc8-a9fd-ed49951e4614",
+    "target_id": "1b4d9cfb-3e36-4bec-8a4c-5a205812a528",
+    "type": "WORKED_AT",
+    "directed": true,
+    "attributes": [
+      {
+        "key": "role",
+        "value": "senior developer",
+        "confidence": 0.9,
+        "source_span": null
+      }
+    ],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "82185c65-30c6-4a09-ba98-171fca215fc1",
+      "start": 66,
+      "end": 91,
+      "text": "She previously worked at"
+    }
+  },
+  {
+    "id": "7c0a4ba9-affa-42ff-85db-0ea8e0462a78",
+    "source_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "target_id": "6fec1564-0a0f-4847-b82b-fbdebf9a29b8",
+    "type": "PARTNERED_WITH",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 20,
+      "end": 49,
+      "text": "partnered with Global Systems Ltd."
+    }
+  },
+  {
+    "id": "7590adaf-d09c-470d-9691-eb1e198bb829",
+    "source_id": "029de494-8df9-4172-bfbc-0053fc19ec6d",
+    "target_id": "18a2ca6b-b4c6-4b6f-a249-83b6af909953",
+    "type": "PROJECT_NAME",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "738b0437-06e3-4fec-9845-15567395155e",
+      "start": 54,
+      "end": 80,
+      "text": "on a new project called \"Project Alpha\""
+    }
+  },
+  {
+    "id": "e4abab96-9ea2-49d5-ab54-f5a0bd6e9774",
+    "source_id": "2011a5b8-e84e-4fde-86da-1c590fd4c9be",
+    "target_id": "188be4d2-2bcd-4e1b-b061-538b8c8cb4e1",
+    "type": "FOR",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 46,
+      "end": 60,
+      "text": "for healthcare"
+    }
+  },
+  {
+    "id": "324691e7-d675-44a0-b7a1-0fdedb6e7391",
+    "source_id": "6fec1564-0a0f-4847-b82b-fbdebf9a29b8",
+    "target_id": "d14bd328-4cde-4517-ba24-9d968654af7c",
+    "type": "BASED_IN",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 112,
+      "end": 130,
+      "text": "is based in London"
+    }
+  },
+  {
+    "id": "880421e3-aca1-4484-a83d-bbb7f21372f6",
+    "source_id": "6fec1564-0a0f-4847-b82b-fbdebf9a29b8",
+    "target_id": "214e7b89-8727-40ba-81c4-c537d61a46d2",
+    "type": "LED_BY",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "sample.txt",
+      "segment_id": "a0c9011d-0da0-4544-af0a-5ecf71f9fe0a",
+      "start": 135,
+      "end": 154,
+      "text": "is led by CEO David Brown"
+    }
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "f93a9749-be92-448f-9610-9126b2831b3a",
+    "source_id": "dfff2a59-3b69-4712-97f4-3bd49f31bbc6",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 13,
+      "end": 18,
+      "text": "поиск"
+    }
+  },
+  {
+    "id": "c5441f74-ce1a-49fa-aa3e-b7f48c3bd99f",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "dfff2a59-3b69-4712-97f4-3bd49f31bbc6",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 217,
+      "end": 222,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "126e90da-2bb9-43cf-b8fe-c46663787ead",
+    "source_id": "5761a4bb-ae1a-47ed-8179-07d7270f7552",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 271,
+      "end": 283,
+      "text": "яндекс музыка"
+    }
+  },
+  {
+    "id": "77323efa-9b76-4ee2-af45-58be6a36e122",
+    "source_id": "5972fdee-9728-4683-ad9d-11cfb1361e83",
+    "target_id": "4e32a5ad-7f8c-418d-b8f5-a79320cf6788",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 357,
+      "end": 366,
+      "text": "яндекс пэй"
+    }
+  },
+  {
+    "id": "ef3e0c61-763c-4b51-96a9-c70a8e0ecc96",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "269ae96b-e105-4799-be28-711dcda608ed",
+    "type": "BENEFIT_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 589,
+      "end": 636,
+      "text": "сокращает время для выяснения ответа по вопросу"
+    }
+  },
+  {
+    "id": "b2516e35-b232-4db2-a7ab-d9cdd1e604c0",
+    "source_id": "8a6e98c4-2191-482c-a8e3-7d0f0d117ded",
+    "target_id": "fad3c6ee-b40a-4521-81e1-5baace901b4f",
+    "type": "EXAMPLE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "80005105-9ae6-4b0f-92bc-c37efc804092",
+      "start": 712,
+      "end": 725,
+      "text": "рецепт блинов"
+    }
+  },
+  {
+    "id": "a9754172-fec0-42fc-b31e-1b31b2eda683",
+    "source_id": "4de65657-2a47-4d87-a81d-155c5ccada88",
+    "target_id": "a814d0a1-0c05-401a-b03c-6401092ed19e",
+    "type": "HELPS_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "ac30b1e8-f5a5-49fb-a6b1-69968ba38386",
+      "start": 135,
+      "end": 143,
+      "text": "университете"
+    }
+  },
+  {
+    "id": "796563cd-d48a-47f4-961f-dc0d5486dbae",
+    "source_id": "4de65657-2a47-4d87-a81d-155c5ccada88",
+    "target_id": "23bca8ef-8cb3-400f-8f8c-ab60202be441",
+    "type": "COMPARED_WITH",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "ac30b1e8-f5a5-49fb-a6b1-69968ba38386",
+      "start": 169,
+      "end": 172,
+      "text": "гпт"
+    }
+  },
+  {
+    "id": "4aaa134d-4705-4b38-a20b-ea83f81a968a",
+    "source_id": "4de65657-2a47-4d87-a81d-155c5ccada88",
+    "target_id": "b2a7b897-15ba-4415-8df1-5b91b778ac4d",
+    "type": "EXAMPLE_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "ac30b1e8-f5a5-49fb-a6b1-69968ba38386",
+      "start": 346,
+      "end": 367,
+      "text": "ставка налогообложения"
+    }
+  },
+  {
+    "id": "01175029-7476-4c2d-830c-504ae3b3ef12",
+    "source_id": "63f4d86f-e4e1-4c81-8938-485ce577a0d3",
+    "target_id": "6d14b718-26f8-4eb7-819c-b0214342349c",
+    "type": "COMPETITOR_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "00725387-bb56-4a7a-a780-269f64e625d3",
+      "start": 147,
+      "end": 154,
+      "text": "браузер"
+    }
+  },
+  {
+    "id": "81631106-7b71-4e9f-a7ff-d3649f26cbf0",
+    "source_id": "6d14b718-26f8-4eb7-819c-b0214342349c",
+    "target_id": "63f4d86f-e4e1-4c81-8938-485ce577a0d3",
+    "type": "COMPETITOR_OF",
+    "directed": false,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuroBSO_small.txt",
+      "segment_id": "00725387-bb56-4a7a-a780-269f64e625d3",
+      "start": 170,
+      "end": 174,
+      "text": "хром"
+    }
+  }
+]

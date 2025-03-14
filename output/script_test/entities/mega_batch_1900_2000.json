@@ -1,0 +1,338 @@
+[
+  {
+    "id": "00ab9f18-9299-4c12-9d5b-4bd2bff4cb66",
+    "name": "фильтрует",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7d2a29b0-ddd8-4422-acce-cb5c89bcd021",
+      "start": 32,
+      "end": 41,
+      "text": "фильтрует"
+    }
+  },
+  {
+    "id": "5b3e2ca3-aceb-440e-b6ee-9156ab45319a",
+    "name": "ресурсы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "6a257dae-3b80-4922-8839-780072655d59",
+      "start": 24,
+      "end": 32,
+      "text": "ресурсов"
+    }
+  },
+  {
+    "id": "f333adf5-02cd-4c9d-a7e6-12e1bac8d537",
+    "name": "нативные исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "152db463-0d30-4681-bb41-66a28fae747d",
+      "start": 10,
+      "end": 31,
+      "text": "нативно исследования"
+    }
+  },
+  {
+    "id": "12fb3652-3361-4311-bf48-7408b009baea",
+    "name": "теория",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1eeecf00-1f56-4eba-9b0e-943cb6bcb60b",
+      "start": 76,
+      "end": 83,
+      "text": "эту теорию"
+    }
+  },
+  {
+    "id": "36de98d3-493c-48c9-b467-7b27fde320ed",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "f30e5991-a600-46dd-a98f-b958ea7c558c",
+      "start": 112,
+      "end": 124,
+      "text": "теории струн"
+    }
+  },
+  {
+    "id": "ea960690-3d43-4884-965d-8e97efe072b0",
+    "name": "контрол-а",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "0e77a775-3862-406a-87d9-345e42fde668",
+      "start": 0,
+      "end": 9,
+      "text": "контрол- а"
+    }
+  },
+  {
+    "id": "c5704bae-8ffb-479f-bad9-5f8b8cdbbcd1",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5121a315-874d-4d55-bd4a-f094e7845fb8",
+      "start": 65,
+      "end": 70,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "67e7520e-907a-4358-9045-ed54e0b2f9b0",
+    "name": "паттерное поведение",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "5121a315-874d-4d55-bd4a-f094e7845fb8",
+      "start": 95,
+      "end": 114,
+      "text": "паттерное поведение"
+    }
+  },
+  {
+    "id": "80bd02a7-aa5f-4d3f-90f0-548617e3663d",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b03bd461-9f99-44f6-83b7-babe6d6f5d54",
+      "start": 64,
+      "end": 76,
+      "text": "теорию струн"
+    }
+  },
+  {
+    "id": "3c026f35-10c0-4dc9-8b51-a3c58ed53ecb",
+    "name": "поисковая строка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.93,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a47e5d20-0e74-4050-bb15-41ac23e990e8",
+      "start": 47,
+      "end": 63,
+      "text": "поисковую строку"
+    }
+  },
+  {
+    "id": "e971a4d9-9a63-447f-a5de-9657a9bf0572",
+    "name": "вкладки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ec60ddd8-b916-425e-b1e5-9061751d1e69",
+      "start": 24,
+      "end": 31,
+      "text": "вкладки"
+    }
+  },
+  {
+    "id": "d88b7071-883e-4be8-aee4-3be80a215bce",
+    "name": "поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.94,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c8d85b82-b5b2-4415-b73a-b3ac9eaa64f0",
+      "start": 23,
+      "end": 32,
+      "text": "поисковике"
+    }
+  },
+  {
+    "id": "c7c3803b-2baf-43dd-8277-1ce2c49711af",
+    "name": "основные положения",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a7c8b48-593b-4be3-b4e0-9fe37f8af139",
+      "start": 34,
+      "end": 52,
+      "text": "основные положения"
+    }
+  },
+  {
+    "id": "4cf5c821-36a7-47da-8bcc-0a13d4dd887c",
+    "name": "история развития",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.97,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4a7c8b48-593b-4be3-b4e0-9fe37f8af139",
+      "start": 54,
+      "end": 70,
+      "text": "история развития"
+    }
+  },
+  {
+    "id": "48b5321c-5489-46c1-bd91-bcc1688b4e8c",
+    "name": "теория струн",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.99,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "4d193c59-7511-4404-a783-5910ed9387b2",
+      "start": 96,
+      "end": 108,
+      "text": "теорию струн"
+    }
+  },
+  {
+    "id": "0fff6c7b-0b55-4782-9c0d-3a30ed9e7d26",
+    "name": "дизайн разворачивающих складок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "16ee67e9-848b-4613-b20b-8c96d8e8c227",
+      "start": 147,
+      "end": 179,
+      "text": "дизайн разворачивающих складок"
+    }
+  },
+  {
+    "id": "8c9cb26a-1c15-4e7b-a670-8d31422be048",
+    "name": "история развития",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a0b6638-fa83-4b19-a178-6c82119710fc",
+      "start": 0,
+      "end": 16,
+      "text": "история развития"
+    }
+  },
+  {
+    "id": "6367d591-a674-4e30-a617-2c8a2dbca1b8",
+    "name": "ранние годы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a0b6638-fa83-4b19-a178-6c82119710fc",
+      "start": 18,
+      "end": 29,
+      "text": "ранние годы"
+    }
+  },
+  {
+    "id": "cac7ff66-6a00-4af5-8789-c5e48ec13bcd",
+    "name": "Габриэль",
+    "type": "person",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b99c17a3-75d6-4517-a035-af35c9090c5d",
+      "start": 67,
+      "end": 75,
+      "text": "габриэль"
+    }
+  },
+  {
+    "id": "cb7dd150-de80-461e-a193-b499200c5d22",
+    "name": "поисковик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.92,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b99c17a3-75d6-4517-a035-af35c9090c5d",
+      "start": 164,
+      "end": 173,
+      "text": "поисковик"
+    }
+  },
+  {
+    "id": "93e0597f-c399-4aec-ad01-f2b6bfe72351",
+    "name": "раздел исследования",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.96,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "22f35db6-f217-454b-9e02-b4516a2df9d1",
+      "start": 112,
+      "end": 131,
+      "text": "раздел исследования"
+    }
+  },
+  {
+    "id": "c07915e4-d2c4-4bd5-8314-6e4533cde939",
+    "name": "нейр",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e6c8e742-674a-4846-9d60-eeee55e2e3cf",
+      "start": 31,
+      "end": 36,
+      "text": "нейр"
+    }
+  },
+  {
+    "id": "ab385256-622f-4bac-b5c7-89cb3caf6a39",
+    "name": "исследование",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "e6c8e742-674a-4846-9d60-eeee55e2e3cf",
+      "start": 51,
+      "end": 63,
+      "text": "исследование"
+    }
+  },
+  {
+    "id": "e031534a-c809-4352-b6b4-bf12cb54d4f6",
+    "name": "хлеб",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "298b0c7c-19ee-47d2-b78b-3e688e1b4fd8",
+      "start": 26,
+      "end": 30,
+      "text": "хлеб"
+    }
+  }
+]

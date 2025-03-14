@@ -1,0 +1,408 @@
+[
+  {
+    "id": "e4610532-d82b-4f1c-928e-ef2ec3703d34",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae8f72fe-b6b2-4133-8d7b-97043f88530f",
+      "start": 86,
+      "end": 90,
+      "text": "тулы"
+    }
+  },
+  {
+    "id": "86c18620-263c-4438-a041-74208def4b23",
+    "name": "Яндекс Путешествия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae8f72fe-b6b2-4133-8d7b-97043f88530f",
+      "start": 107,
+      "end": 125,
+      "text": "яндекса путешествий"
+    }
+  },
+  {
+    "id": "5e573478-88fb-4803-b0f1-d6ca6422be19",
+    "name": "нейропасовик",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae8f72fe-b6b2-4133-8d7b-97043f88530f",
+      "start": 176,
+      "end": 188,
+      "text": "нейропасовик"
+    }
+  },
+  {
+    "id": "e9c376cf-4301-4b50-af5b-841b7aa5a01c",
+    "name": "табличка",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "dc09bfa8-b016-4efa-9e46-ecf77c911606",
+      "start": 11,
+      "end": 19,
+      "text": "табличка"
+    }
+  },
+  {
+    "id": "aedd5167-10ab-40f5-bf0e-bdfd7a9cedd2",
+    "name": "исторические объекты",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ae21aab6-3eaf-4052-ac6f-19fed0846aa4",
+      "start": 36,
+      "end": 56,
+      "text": "исторические объекты"
+    }
+  },
+  {
+    "id": "37e1340f-02b3-4966-904f-061fc3789406",
+    "name": "описанные события",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2e63f011-e1d4-487a-8159-f40b648a6216",
+      "start": 28,
+      "end": 45,
+      "text": "описанные события"
+    }
+  },
+  {
+    "id": "ba38ae89-47ea-46f7-8292-d52c57777702",
+    "name": "кнопка источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "7c523c63-77af-4bd7-b5f9-b68acffc4b90",
+      "start": 47,
+      "end": 62,
+      "text": "кнопка источники"
+    }
+  },
+  {
+    "id": "beeb46f4-288f-45e0-a1f5-d84e002aebe7",
+    "name": "Яндекс Путешествия",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "1cc668c9-9a46-49b5-9774-c902120512a4",
+      "start": 4,
+      "end": 22,
+      "text": "яндекс путешествия"
+    }
+  },
+  {
+    "id": "ce9c6fe8-a119-4c91-87f6-d44dd67b9d15",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "2a6f639e-fb22-4406-af85-0fdc7f94638b",
+      "start": 31,
+      "end": 40,
+      "text": "источники"
+    }
+  },
+  {
+    "id": "50a535fd-076b-4e24-955f-34e4d427b884",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "ea88c0bd-43f9-4371-95e0-6a54ea6bbc56",
+      "start": 24,
+      "end": 31,
+      "text": "яндекса"
+    }
+  },
+  {
+    "id": "779c5a56-844b-487e-9077-d9733326aa0a",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5d4ad1a-7c07-40d8-b007-bf7d17ed2bc6",
+      "start": 17,
+      "end": 23,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "db6e13e0-cc18-47b7-9e7b-8d7a30e135d6",
+    "name": "источники",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5d4ad1a-7c07-40d8-b007-bf7d17ed2bc6",
+      "start": 36,
+      "end": 45,
+      "text": "источниках"
+    }
+  },
+  {
+    "id": "3023ef30-3e80-4d24-bda6-5eaa888ee28e",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5d4ad1a-7c07-40d8-b007-bf7d17ed2bc6",
+      "start": 61,
+      "end": 67,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "efd97f04-df51-4ee6-93e8-854ba651793c",
+    "name": "блок нейры",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c5d4ad1a-7c07-40d8-b007-bf7d17ed2bc6",
+      "start": 95,
+      "end": 105,
+      "text": "блоком нейры"
+    }
+  },
+  {
+    "id": "0f26af29-2fa7-4725-ad5c-3b996bec7ff7",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "053ca0bb-d7fa-4f16-89fe-57055dba7c54",
+      "start": 15,
+      "end": 22,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "7e1d86a4-fa54-48cf-b4dc-f9585acba9db",
+    "name": "Яндекс",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "bf12af63-0cab-467a-9281-e5b15ac1ad2b",
+      "start": 69,
+      "end": 76,
+      "text": "яндекс"
+    }
+  },
+  {
+    "id": "d885af50-7dc0-4d08-bd83-5368db2d7592",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.85,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "9aabf221-731a-488a-833d-73938cf5c0a5",
+      "start": 13,
+      "end": 18,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "b08f89c7-37a7-4e62-a8e8-acbd45a74ab3",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1e20190-f6a8-433a-ae0e-3a90acb46445",
+      "start": 28,
+      "end": 32,
+      "text": "тула"
+    }
+  },
+  {
+    "id": "d4e1b558-7a01-4fc2-ae29-97fa94e002cc",
+    "name": "Подольск",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b1e20190-f6a8-433a-ae0e-3a90acb46445",
+      "start": 36,
+      "end": 44,
+      "text": "подольск"
+    }
+  },
+  {
+    "id": "23555408-3afe-470b-af8f-a2b1b565b78d",
+    "name": "нейро",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c0e12e30-b7c1-493e-b317-c7a0c00ea37d",
+      "start": 31,
+      "end": 36,
+      "text": "нейро"
+    }
+  },
+  {
+    "id": "1a465679-194e-4895-a0f0-d0dc23b4bb06",
+    "name": "уточните вопрос",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "d1b8fb1a-8c78-482e-999f-03ebc94a9ba3",
+      "start": 2,
+      "end": 17,
+      "text": "уточните вопрос"
+    }
+  },
+  {
+    "id": "6857da3f-ee79-4018-a0b8-fd0c68ab3a1e",
+    "name": "список",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9b58aba-a4ed-4932-a5cd-794e2765c776",
+      "start": 15,
+      "end": 21,
+      "text": "список"
+    }
+  },
+  {
+    "id": "7a1a00d6-27c7-4f10-8ec5-02314ade0d9d",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9b58aba-a4ed-4932-a5cd-794e2765c776",
+      "start": 25,
+      "end": 31,
+      "text": "ссылок"
+    }
+  },
+  {
+    "id": "595415b4-c338-4b6c-8a7f-12c7d31ad35f",
+    "name": "набор ссылок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "c9b58aba-a4ed-4932-a5cd-794e2765c776",
+      "start": 56,
+      "end": 68,
+      "text": "набором ссылок"
+    }
+  },
+  {
+    "id": "dbd81a62-d577-4fa2-847e-9cc0a92f44b9",
+    "name": "ссылки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a1f58a4a-84ca-4190-89c6-150175e03406",
+      "start": 86,
+      "end": 92,
+      "text": "ссылки"
+    }
+  },
+  {
+    "id": "465fb469-75c3-41a2-8653-fb5a55f87b44",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "a1f58a4a-84ca-4190-89c6-150175e03406",
+      "start": 115,
+      "end": 119,
+      "text": "туле"
+    }
+  },
+  {
+    "id": "aad4af23-bb3e-4e2f-9248-e14520c6f4ee",
+    "name": "список сайтов",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "15a1b918-bf16-4638-8608-2ecc5ce98e85",
+      "start": 97,
+      "end": 109,
+      "text": "список сайтов"
+    }
+  },
+  {
+    "id": "27c8b6ce-56f5-4ff6-a252-bf9b268158a2",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "23ce6ac9-2ddd-494a-a70c-e7e3f2054d81",
+      "start": 78,
+      "end": 82,
+      "text": "тулу"
+    }
+  },
+  {
+    "id": "b06181b5-8a5c-408f-9481-f2bef497f399",
+    "name": "Тула",
+    "type": "location",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged.txt",
+      "segment_id": "b4945455-6ba1-4561-a49b-f29666b8f685",
+      "start": 10,
+      "end": 14,
+      "text": "тулу"
+    }
+  }
+]

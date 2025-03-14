@@ -1,0 +1,34 @@
+[
+  {
+    "id": "55e551f8-3d5e-44a4-a93c-ca904dd15dd1",
+    "source_id": "d690dde8-9f89-4536-b451-aa3eabf21fc7",
+    "target_id": "430af1ac-044a-451f-a1b2-84fbcff2a113",
+    "type": "PART_OF",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "merged_sample_100.txt",
+      "segment_id": "a955adb2-35b2-43bc-b561-719831576dcf",
+      "start": 26,
+      "end": 125,
+      "text": "420\nи если говорить про поиск, вообще сервисы яндекса и технологии яндекса, которые вы используете."
+    }
+  },
+  {
+    "id": "edcd717e-499b-4ce6-97de-938395b69c8c",
+    "source_id": "430af1ac-044a-451f-a1b2-84fbcff2a113",
+    "target_id": "d690dde8-9f89-4536-b451-aa3eabf21fc7",
+    "type": "USES",
+    "directed": true,
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "merged_sample_100.txt",
+      "segment_id": "a955adb2-35b2-43bc-b561-719831576dcf",
+      "start": 26,
+      "end": 125,
+      "text": "420\nи если говорить про поиск, вообще сервисы яндекса и технологии яндекса, которые вы используете."
+    }
+  }
+]

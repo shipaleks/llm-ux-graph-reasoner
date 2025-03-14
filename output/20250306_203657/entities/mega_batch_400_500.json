@@ -1,0 +1,338 @@
+[
+  {
+    "id": "1553424d-e24d-46d1-a2e5-579460505d4d",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "6f940867-5ba6-4317-8670-49c7281d208f",
+      "start": 8,
+      "end": 13,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "cc14ea6a-d2c4-4a71-9a4c-25394faf0668",
+    "name": "Алиса",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c5905392-f79c-4a77-a8b9-b44fda6554d6",
+      "start": 7,
+      "end": 12,
+      "text": "алисе"
+    }
+  },
+  {
+    "id": "76b2fb87-85aa-410e-bb0f-96cedd0ce442",
+    "name": "нера",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "d4bf3552-19a9-4a2e-ad12-7cd03a89e8ca",
+      "start": 32,
+      "end": 36,
+      "text": "нера"
+    }
+  },
+  {
+    "id": "0af9d46f-56dc-491b-a3e5-aa691f59791d",
+    "name": "закупки",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "46dfbb51-9e07-4923-b435-3f849eac0814",
+      "start": 41,
+      "end": 49,
+      "text": "закупками"
+    }
+  },
+  {
+    "id": "398e827b-98e6-4a1c-80e8-729fca96f870",
+    "name": "бизнес",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "46dfbb51-9e07-4923-b435-3f849eac0814",
+      "start": 71,
+      "end": 77,
+      "text": "бизнес"
+    }
+  },
+  {
+    "id": "219548c1-0806-4b2f-86c6-ab34ce0ce8e8",
+    "name": "фермерские боксы по подписке",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "46ade469-3387-4332-8c45-8ddd06d25405",
+      "start": 41,
+      "end": 70,
+      "text": "фермерские боксы по подписке"
+    }
+  },
+  {
+    "id": "42d76b2e-dfe8-4311-b618-1d4bd10fea4c",
+    "name": "бизнес-планы",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "787fdd35-ee75-4943-93b5-ca911e22a720",
+      "start": 112,
+      "end": 124,
+      "text": "бизнес- планы"
+    }
+  },
+  {
+    "id": "4fa907d4-3573-481b-a18d-b8578ad31b26",
+    "name": "инвестиции",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "787fdd35-ee75-4943-93b5-ca911e22a720",
+      "start": 131,
+      "end": 141,
+      "text": "инвестиции"
+    }
+  },
+  {
+    "id": "f3a66016-654f-42ec-bddf-e74aef659254",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "bf56d608-e9e3-4f96-93a9-682fe71796cb",
+      "start": 23,
+      "end": 28,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "46e56f6b-6cae-4f58-b883-61954c906f3a",
+    "name": "фермерским боксом",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "e18f0b6e-ec2c-435b-bfd0-199490edb373",
+      "start": 112,
+      "end": 129,
+      "text": "фермерским боксом"
+    }
+  },
+  {
+    "id": "27c97f4b-db5a-4239-b101-12896b2037da",
+    "name": "фермерский бокс",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "1279dc6c-46b7-4427-9ef5-5356336559dd",
+      "start": 34,
+      "end": 49,
+      "text": "фермерский бокс"
+    }
+  },
+  {
+    "id": "10ab0726-dcc9-4e1e-9e16-05aaf86d0acf",
+    "name": "фермерский бокс",
+    "type": "product",
+    "attributes": [],
+    "confidence": 0.98,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "c2245257-6ebc-4a4a-af26-1537bb5f1fe7",
+      "start": 7,
+      "end": 22,
+      "text": "фермерский бокс"
+    }
+  },
+  {
+    "id": "9ddd960c-c8d5-4253-842f-28a5d74f9aef",
+    "name": "компания с бостон",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "277225ad-3d4f-46c7-813f-8c2a72978986",
+      "start": 74,
+      "end": 92,
+      "text": "компания с бостон"
+    }
+  },
+  {
+    "id": "72c08ec4-ee5b-4bd4-9b40-3c9ef6045a65",
+    "name": "кикстар",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "542fd156-2913-4c00-af57-12bc033cdf35",
+      "start": 5,
+      "end": 12,
+      "text": "кикстар"
+    }
+  },
+  {
+    "id": "8cf37576-2080-413d-9e54-19eb462dc876",
+    "name": "рынок в россии",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "78412ee0-765e-4215-93f8-530d6c3a3340",
+      "start": 44,
+      "end": 58,
+      "text": "рынок в россии"
+    }
+  },
+  {
+    "id": "bdb2ab03-3b5d-4ac7-b6a9-33d7e2449407",
+    "name": "поставщики",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "892bdd46-d96e-4baf-bbfb-4170bda4c571",
+      "start": 37,
+      "end": 47,
+      "text": "поставщиков"
+    }
+  },
+  {
+    "id": "2f2c09a0-976f-41be-8088-4969e5acbbfa",
+    "name": "логистика",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cbecc4ee-62fb-4d0d-8b2c-8b5bf9dedb9b",
+      "start": 13,
+      "end": 23,
+      "text": "логистикой"
+    }
+  },
+  {
+    "id": "c10e1640-7510-40bc-a98a-5c8ad2825a81",
+    "name": "бюджет",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cbecc4ee-62fb-4d0d-8b2c-8b5bf9dedb9b",
+      "start": 76,
+      "end": 82,
+      "text": "бюджет"
+    }
+  },
+  {
+    "id": "2cb1922f-b542-42a6-bdc5-6c54340fb55e",
+    "name": "маржинальность",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "cbecc4ee-62fb-4d0d-8b2c-8b5bf9dedb9b",
+      "start": 102,
+      "end": 115,
+      "text": "маржинальность"
+    }
+  },
+  {
+    "id": "8e9a15b5-a71a-48c7-90fd-22f031c93690",
+    "name": "грок",
+    "type": "technology",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2b0802c3-6c18-4ff6-b85b-e579095f1ea9",
+      "start": 54,
+      "end": 59,
+      "text": "грока"
+    }
+  },
+  {
+    "id": "0d32bc76-75b1-479d-bb3e-73fec3503aea",
+    "name": "игрок",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.7,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "9e97908e-bce7-4cda-af7a-497bd9e8a131",
+      "start": 58,
+      "end": 63,
+      "text": "игрок"
+    }
+  },
+  {
+    "id": "03362c26-669d-4558-86ab-b73083210f5e",
+    "name": "нейра",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.8,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "2747aa36-2b0e-4243-9348-a29d703c3bc6",
+      "start": 44,
+      "end": 49,
+      "text": "нейра"
+    }
+  },
+  {
+    "id": "d39a6a82-fa88-4c9e-a5a2-09f520ff06f7",
+    "name": "зум",
+    "type": "organization",
+    "attributes": [],
+    "confidence": 0.9,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "33cb6b6a-a27c-4af6-a997-81b1f27c2d86",
+      "start": 11,
+      "end": 15,
+      "text": "зуме"
+    }
+  },
+  {
+    "id": "466325d9-452a-4c77-8521-c0d43afd19b1",
+    "name": "поделиться экраном",
+    "type": "concept",
+    "attributes": [],
+    "confidence": 0.95,
+    "source_span": {
+      "document_id": "neuro_bso_3.txt",
+      "segment_id": "33cb6b6a-a27c-4af6-a997-81b1f27c2d86",
+      "start": 25,
+      "end": 43,
+      "text": "поделиться экраном"
+    }
+  }
+]

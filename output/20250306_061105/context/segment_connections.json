@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "segment-1",
+    "target_id": "segment-2",
+    "type": "Thought development",
+    "strength": 0.8,
+    "direction": "one-way"
+  },
+  {
+    "source_id": "segment-2",
+    "target_id": "segment-3",
+    "type": "Cause-effect",
+    "strength": 0.7,
+    "direction": "one-way"
+  },
+  {
+    "source_id": "segment-1",
+    "target_id": "segment-3",
+    "type": "Common theme",
+    "strength": 0.6,
+    "direction": "bidirectional"
+  }
+]
