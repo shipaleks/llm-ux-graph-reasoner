@@ -1,38 +1,33 @@
 # Knowledge Graph Synthesis
 
-A system that processes text documents, extracts entities and relationships, constructs knowledge graphs, and generates insights and theories. The system supports both Russian and English texts and uses Gemini models as the primary LLM provider.
+A system that processes text documents, extracts entities and relationships, constructs knowledge graphs, and generates insights and theories. The system supports both Russian and English texts and uses Gemini models as the LLM provider.
 
-## Быстрый старт
+## Quick Start
 
-Для начала работы с системой используйте следующие скрипты:
+To begin working with the system, use the following scripts:
 
-### Анализ текста
+### Text Analysis
 
 ```bash
-# Анализ текстового файла с созданием графа знаний
-./analyze_text.py путь_к_файлу.txt
-
-# Анализ с расширением графа и генерацией теорий
-./analyze_text.py путь_к_файлу.txt --expand --theories
-
-# Использование другого провайдера LLM
-./analyze_text.py путь_к_файлу.txt --provider openai
+# Currently, only the English analysis script is working
+# Analyze a text file with graph expansion and theory generation
+./analyze_text_en.py /path/to/file.txt --expand --theories
 ```
 
-### Просмотр результатов
+### Viewing Results
 
 ```bash
-# Исправление ссылок и открытие последнего отчета
+# Fix links and open the latest report
 ./fix_and_open.py
 
-# Исправление ссылок и открытие отчета в указанной директории
+# Fix links and open a report in the specified directory
 ./fix_and_open.py --dir output/20250306_063450
 ```
 
 ## Features
 
 - Bilingual support (Russian and English)
-- Multiple LLM provider support (primarily Gemini)
+- Gemini LLM integration
 - Strict data provenance tracking
 - Modular, replaceable components
 - Entity and relationship extraction
@@ -63,16 +58,13 @@ cp .env.example .env
 
 ### Simplified Scripts
 
-Use the simplified scripts for common operations:
+Currently, only the English analysis script is functional:
 
 ```bash
-# Анализ текстового файла
-./analyze_text.py path/to/document.txt
+# Analyze a text file with graph expansion and theory generation
+./analyze_text_en.py /path/to/document.txt --expand --theories
 
-# Анализ с расширением графа и генерацией теорий
-./analyze_text.py path/to/document.txt --expand --theories
-
-# Исправление ссылок и открытие отчета
+# Fix links and open the report
 ./fix_and_open.py
 ```
 
@@ -97,28 +89,27 @@ poetry run python src/main.py process --file path/to/document.txt --extract --bu
 poetry run python src/main.py process --file path/to/document.txt --extract --build-graph --expand-graph --build-metagraph --generate-theories
 ```
 
-### Параметры скрипта analyze_text.py
+### Parameters for analyze_text_en.py Script
 
-- `file_path` - путь к текстовому файлу для анализа
-- `--provider`, `-p` - провайдер LLM: gemini (по умолчанию) или openai
-- `--expand`, `-e` - расширить граф через задание вопросов
-- `--theories`, `-t` - генерировать теории на основе графа
-- `--no-segments`, `-n` - пропустить анализ по сегментам
-- `--output`, `-o` - директория для вывода результатов (по умолчанию: output)
+- `file_path` - path to the text file for analysis
+- `--expand`, `-e` - expand the graph by asking questions
+- `--theories`, `-t` - generate theories based on the graph
+- `--no-segments`, `-n` - skip segment analysis
+- `--output`, `-o` - output directory (default: output)
 
-### Результаты анализа
+### Analysis Results
 
-После завершения анализа в директории output создается новая папка с временной меткой, содержащая следующие файлы:
+After completing the analysis, a new folder with a timestamp is created in the output directory containing the following files:
 
-- `report.html` - основной отчет с результатами анализа
-- `graphs/` - визуализации графа знаний
-  - `knowledge_graph.html` - интерактивный граф знаний
-  - `expanded/expanded_graph.html` - расширенный граф (если запрошен)
-- `segments/` - HTML-страницы с текстом сегментов
-- `entities/` - извлеченные сущности в формате JSON
-- `relationships/` - извлеченные отношения в формате JSON
-- `theories/` - сгенерированные теории (если запрошены)
-- `context/` - результаты контекстного анализа
+- `report.html` - main report with analysis results
+- `graphs/` - knowledge graph visualizations
+  - `knowledge_graph.html` - interactive knowledge graph
+  - `expanded/expanded_graph.html` - expanded graph (if requested)
+- `segments/` - HTML pages with segment text
+- `entities/` - extracted entities in JSON format
+- `relationships/` - extracted relationships in JSON format
+- `theories/` - generated theories (if requested)
+- `context/` - context analysis results
 
 ### Programmatic Usage
 
